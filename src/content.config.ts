@@ -6,7 +6,7 @@ const lessons = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    level: z.enum(['n5', 'n4', 'n3', 'n2', 'n1']),
+    level: z.enum(['l0', 'n5', 'n4', 'n3', 'n2', 'n1']),
     module: z.string(),
     chapter: z.string(),
     order: z.number().int().nonnegative(),
@@ -15,7 +15,9 @@ const lessons = defineCollection({
     prerequisites: z.array(z.string()).default([]),
     related: z.array(z.string()).default([]),
     version: z.number().int().positive().default(1),
-    isDemo: z.boolean().default(false)
+    isDemo: z.boolean().default(false),
+    lessonId: z.string().optional(),
+    publicationStatus: z.enum(['draft', 'reviewed', 'published']).default('draft')
   })
 });
 

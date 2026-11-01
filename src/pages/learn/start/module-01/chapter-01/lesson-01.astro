@@ -1,0 +1,22 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import FoundationsPractice from '../../../../../components/interactive/FoundationsPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','l0/japanese-language-map-context');
+if (!lesson) throw new Error('Missing blueprint lesson l0-m01-c01-l01');
+const { Content } = await render(lesson);
+const id=lesson.data.lessonId;
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Japanese Language Map',href:'/learn/start/module-01/chapter-01/lesson-01/'}]}>
+  <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Lesson 01</span></nav><span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 01 · LESSON 01</span><h1>Japanese writing:<br/>a map of four systems.</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Zero prerequisites</span><span>Interactive review</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original FreeJapaneseAcademy lesson.</strong> This introductory material is independently authored and is not an official JLPT lesson or exam.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <FoundationsPractice client:load />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>After you've read the guide and tried the practice, you can mark the lesson complete. Completion and your practice score are recorded separately.</p><LessonActions client:load lessonId={id ?? 'l0-m01-c01-l01'} level="l0" /></div>
+    <div class="lesson-next"><h3>What comes next?</h3><p>Lesson L02 will introduce useful vocabulary and words about the writing systems. It's not available yet; you can review this lesson or return to Foundations.</p><a class="btn btn-outline" href="/learn/start/">← Japanese Foundations</a><a class="btn btn-outline" href="/dashboard/">My learning ↗</a></div>
+  </div><aside class="lesson-side foundation-side"><span class="eyebrow">YOUR STUDY GUIDE</span><h3>Japanese language map</h3><p><strong>L0-M01-C01-L01</strong></p><p>This lesson introduces the writing systems without requiring you to memorize characters yet.</p><div class="sample-rule"></div><h3>Study approach</h3><ol><li>Read the examples.</li><li>Compare the scripts.</li><li>Check your understanding.</li><li>Explain the difference in your own words.</li></ol><p>This lesson has no audio requirement, microphone recording, or handwriting assessment.</p></aside></div></section>
+</Base>
