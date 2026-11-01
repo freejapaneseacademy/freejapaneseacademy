@@ -11,7 +11,7 @@ export default defineConfig({
   integrations: [
     react(),
     mdx(),
-    sitemap({ filter: (page) => !/\/(dashboard|practice\/demo|privacy|learn\/(n4|n3|n2|n1)|learn\/n5\/hiragana-introduction)\/?$/.test(page) })
+    sitemap({ filter: (page) => !/\/learn\/start\//.test(page) && !/\/(dashboard|practice\/demo|privacy|learn\/(n4|n3|n2|n1)|learn\/n5\/hiragana-introduction)\/?$/.test(page) })
   ],
   vite: { plugins: [tailwindcss()] }
 });

@@ -5,7 +5,7 @@ import LessonActions from '../../../components/interactive/LessonActions';
 import { levelById } from '../../../lib/curriculum';
 export async function getStaticPaths() {
   const lessons = await getCollection('lessons');
-  return lessons.map(lesson => ({ params: { level: lesson.data.level, slug: lesson.id.split('/').pop() }, props: { lesson } }));
+  return lessons.filter(lesson => lesson.data.level !== 'l0').map(lesson => ({ params: { level: lesson.data.level, slug: lesson.id.split('/').pop() }, props: { lesson } }));
 }
 const { lesson } = Astro.props;
 const { Content } = await render(lesson);
