@@ -9,10 +9,10 @@ if (!lesson) throw new Error('Missing blueprint lesson l0-m01-c01-l01');
 const { Content } = await render(lesson);
 const id=lesson.data.lessonId;
 ---
-<Base title={lesson.data.title} description={lesson.data.description} noindex breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Japanese Language Map',href:'/learn/start/module-01/chapter-01/lesson-01/'}]}>
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Japanese Language Map',href:'/learn/start/module-01/chapter-01/lesson-01/'}]}>
   <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Lesson 01</span></nav><span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 01 · LESSON 01</span><h1>Japanese writing:<br/>a map of four systems.</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Zero prerequisites</span><span>Interactive review</span></div></div></section>
   <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
-    <div class="course-notice"><strong>Draft lesson for review.</strong> This is academy-authored educational material awaiting qualified Japanese-language review. It is not an official JLPT lesson or exam.</div>
+    <div class="course-notice"><strong>Original FreeJapaneseAcademy lesson.</strong> This introductory material is independently authored and is not an official JLPT lesson or exam.</div>
     <div class="lesson-intro"><span class="eyebrow">YOUR LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
     <article class="lesson-article foundation-article"><Content /></article>
     <FoundationsPractice client:load />

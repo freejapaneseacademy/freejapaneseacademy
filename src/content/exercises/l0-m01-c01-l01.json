@@ -33,7 +33,7 @@
       },
       "explanation": "さくら is written in hiragana. Both hiragana and katakana represent Japanese sound units, but they use different character shapes.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -72,7 +72,7 @@
       },
       "explanation": "コーヒー (coffee) is a common loanword written in katakana. The long-vowel mark ー is also visible.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -111,7 +111,7 @@
       },
       "explanation": "山 is kanji, read やま in this example. Kanji can have multiple readings in other words.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -150,7 +150,7 @@
       },
       "explanation": "“sakura” uses Latin letters, so it is romaji; the word can be written さくら in hiragana.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -188,7 +188,7 @@
       },
       "explanation": "Katakana often writes loanwords, but also occurs with names, sounds, emphasis, and other functions.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -226,7 +226,7 @@
       },
       "explanation": "A sentence such as 私はコーヒーを飲みます。 mixes kanji, katakana and hiragana naturally.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -264,7 +264,7 @@
       },
       "explanation": "Japanese frequently places the verb at the end, as in わたしはおちゃをのみます。 Word order has exceptions and context matters.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -302,7 +302,7 @@
       },
       "explanation": "Furigana use small kana to show readings; they are not a separate primary Japanese writing system.",
       "type": "single-choice",
-      "status": "drafted",
+      "status": "published",
       "level": "l0",
       "skills": [
         "script-recognition"

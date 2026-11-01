@@ -6,7 +6,7 @@
     "draft": "Draft content not human approved",
     "implemented": "Content+interactions committed",
     "verified": "Technical checks passed with recorded results",
-    "published": "Required human editorial rights approvals and release"
+    "published": "Site owner has approved public publication and verified deployment; independent pedagogical reviews remain separate recorded fields"
   },
   "items": [
     {
@@ -18,11 +18,12 @@
       "title": "Japanese language map — Context and meaning",
       "content": "src/content/lessons/l0/japanese-language-map-context.mdx",
       "url": "/learn/start/module-01/chapter-01/lesson-01/",
-      "status": "draft",
-      "humanJapaneseReview": "pending",
-      "assessmentReview": "pending",
+      "status": "published",
+      "humanJapaneseReview": "pending - separate qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
       "audio": "not required for L01",
-      "noindex": true
+      "noindex": false,
+      "ownerApproval": "2026-11-01: Site owner approved pilot lesson for official publication"
     },
     {
       "id": "n5-hiragana-demo",

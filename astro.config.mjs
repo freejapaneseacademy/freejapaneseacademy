@@ -11,7 +11,12 @@ export default defineConfig({
   integrations: [
     react(),
     mdx(),
-    sitemap({ filter: (page) => !/\/learn\/start\//.test(page) && !/\/(dashboard|practice\/demo|privacy|learn\/(n4|n3|n2|n1)|learn\/n5\/hiragana-introduction)\/?$/.test(page) })
+    sitemap({ filter: (page) => {
+      const path = new URL(page).pathname;
+      const foundationsPublished = path === '/learn/start/' || path === '/learn/start/module-01/chapter-01/lesson-01/';
+      if (path.startsWith('/learn/start/') && !foundationsPublished) return false;
+      return !/\/(dashboard|practice\/demo|privacy|learn\/(n4|n3|n2|n1)|learn\/n5\/hiragana-introduction)\/?$/.test(path);
+    } })
   ],
   vite: { plugins: [tailwindcss()] }
 });
