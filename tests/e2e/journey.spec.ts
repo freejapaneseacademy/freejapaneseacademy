@@ -17,3 +17,20 @@ test('lesson, quiz, and saved results', async ({ page }) => {
   await page.goto('/dashboard/');
   await expect(page.getByText('Hiragana demo quiz')).toBeVisible();
 });
+
+test('theme defaults to system and a manual choice persists across pages', async ({ page }) => {
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await page.goto('/');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  const toggle = page.getByRole('button', { name: 'Dark mode' });
+  await expect(toggle).toHaveAttribute('aria-pressed', 'true');
+  await toggle.click();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+  await expect(toggle).toHaveAttribute('aria-pressed', 'false');
+  expect(await page.evaluate(() => localStorage.getItem('fja-theme'))).toBe('light');
+  await page.goto('/dashboard/');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+  await page.getByRole('button', { name: 'Dark mode' }).click();
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+});

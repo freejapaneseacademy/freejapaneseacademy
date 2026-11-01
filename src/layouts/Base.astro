@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/theme.css';
 interface Props { title: string; description: string; noindex?: boolean; image?: string; breadcrumbs?: { label: string; href: string }[] }
 const { title, description, noindex = false, image = '/logo.webp', breadcrumbs = [] } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
@@ -16,7 +17,20 @@ const isHome = Astro.url.pathname === '/';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#FFFFFF" />
-    <meta name="color-scheme" content="light" />
+    <meta name="color-scheme" content="light dark" />
+    <script is:inline>
+      // Choose a saved preference first, then the operating system setting.
+      // The inline head script runs before the page is painted to avoid a theme flash.
+      (() => {
+        let preference;
+        try { preference = localStorage.getItem('fja-theme'); } catch { /* Storage may be disabled. */ }
+        const theme = preference === 'dark' || preference === 'light'
+          ? preference
+          : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#111820' : '#FFFFFF');
+      })();
+    </script>
     <title>{title === brand ? brand : `${title} | ${brand}`}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -44,6 +58,10 @@ const isHome = Astro.url.pathname === '/';
           <a href="/practice/demo/">Practice</a>
           <a href="/about/">Our approach</a>
         </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Dark mode" aria-pressed="false" title="Switch to dark mode">
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 15.2A8.5 8.5 0 0 1 8.8 3.7 8.5 8.5 0 1 0 20.3 15.2Z" /></svg>
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" /></svg>
+        </button>
         <a class="header-dashboard" href="/dashboard/"><span aria-hidden="true">◷</span> My learning <span aria-hidden="true">↗</span></a>
         <details class="mobile-nav"><summary aria-label="Open navigation menu"><span></span><span></span><span></span></summary><nav aria-label="Mobile navigation"><a href="/learn/">Explore courses</a><a href="/practice/demo/">Practice</a><a href="/dashboard/">My learning</a><a href="/about/">Our approach</a><a href="/faq/">FAQ</a></nav></details>
       </div>
@@ -53,5 +71,41 @@ const isHome = Astro.url.pathname === '/';
       <div class="container footer-top"><div class="footer-brand"><div class="footer-mark">日</div><h2>Make Japanese part<br/>of your world.</h2><p>Thoughtful learning. Open to everyone. Free, from the first character onward.</p></div><div class="footer-links"><div><h3>Learn</h3><a href="/learn/">All courses</a><a href="/learn/n5/">Start with N5</a><a href="/practice/demo/">Demo practice</a><a href="/dashboard/">My learning</a></div><div><h3>Academy</h3><a href="/about/">About us</a><a href="/faq/">FAQ</a><a href="/privacy/">Privacy & data</a></div></div></div>
       <div class="container footer-bottom"><span>© {new Date().getFullYear()} FreeJapaneseAcademy</span><span>Made for curious minds, everywhere. <span lang="ja">日本語を学ぼう。</span></span></div>
     </footer>
+    <script is:inline>
+      (() => {
+        const toggle = document.querySelector('[data-theme-toggle]');
+        if (!toggle) return;
+        const media = window.matchMedia('(prefers-color-scheme: dark)');
+        const storedPreference = () => {
+          try { return localStorage.getItem('fja-theme'); } catch { return null; }
+        };
+        const setTheme = (theme, save = false) => {
+          document.documentElement.dataset.theme = theme;
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#111820' : '#FFFFFF');
+          toggle.setAttribute('aria-pressed', String(theme === 'dark'));
+          toggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+          if (save) {
+            try { localStorage.setItem('fja-theme', theme); } catch { /* Works without persistent storage. */ }
+          }
+        };
+        setTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+        toggle.addEventListener('click', () => {
+          setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark', true);
+        });
+        const followSystem = () => {
+          if (storedPreference() !== 'dark' && storedPreference() !== 'light') {
+            setTheme(media.matches ? 'dark' : 'light');
+          }
+        };
+        if (media.addEventListener) media.addEventListener('change', followSystem);
+        else if (media.addListener) media.addListener(followSystem);
+        window.addEventListener('storage', (event) => {
+          if (event.key === 'fja-theme' || event.key === null) {
+            const stored = storedPreference();
+            setTheme(stored === 'dark' || stored === 'light' ? stored : media.matches ? 'dark' : 'light');
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
