@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import '../styles/theme.css';
+import '../styles/responsive.css';
 interface Props { title: string; description: string; noindex?: boolean; image?: string; breadcrumbs?: { label: string; href: string }[] }
 const { title, description, noindex = false, image = '/logo.webp', breadcrumbs = [] } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
