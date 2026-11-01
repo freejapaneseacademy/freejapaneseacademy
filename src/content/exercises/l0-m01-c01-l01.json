@@ -1,0 +1,312 @@
+{
+  "items": [
+    {
+      "id": "ex-l0-m01-c01-l01-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-hiragana"
+      ],
+      "prompt": "Which writing system is used in this example?",
+      "example": "さくら",
+      "choices": [
+        {
+          "id": "hiragana",
+          "text": "Hiragana",
+          "rationale": "Yes. The curved kana さ・く・ら form the word さくら."
+        },
+        {
+          "id": "katakana",
+          "text": "Katakana",
+          "rationale": "Katakana has different, often angular character shapes."
+        },
+        {
+          "id": "kanji",
+          "text": "Kanji",
+          "rationale": "Kanji are character forms such as 山 and 日."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "hiragana"
+      },
+      "explanation": "さくら is written in hiragana. Both hiragana and katakana represent Japanese sound units, but they use different character shapes.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l01-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-katakana"
+      ],
+      "prompt": "Which writing system is used in this example?",
+      "example": "コーヒー",
+      "choices": [
+        {
+          "id": "hiragana",
+          "text": "Hiragana",
+          "rationale": "This word uses angular katakana, not rounded hiragana."
+        },
+        {
+          "id": "katakana",
+          "text": "Katakana",
+          "rationale": "Yes. コーヒー is a borrowed word written in katakana."
+        },
+        {
+          "id": "kanji",
+          "text": "Kanji",
+          "rationale": "Kanji are different characters used for many word roots and meanings."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "katakana"
+      },
+      "explanation": "コーヒー (coffee) is a common loanword written in katakana. The long-vowel mark ー is also visible.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l01-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-kanji"
+      ],
+      "prompt": "Which writing system is used in this example?",
+      "example": "山",
+      "choices": [
+        {
+          "id": "kanji",
+          "text": "Kanji",
+          "rationale": "Yes. 山 is a kanji that can mean mountain."
+        },
+        {
+          "id": "romaji",
+          "text": "Romaji",
+          "rationale": "Romaji would show a word with Latin letters, like yama."
+        },
+        {
+          "id": "katakana",
+          "text": "Katakana",
+          "rationale": "This is the kanji 山, not a katakana character."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "kanji"
+      },
+      "explanation": "山 is kanji, read やま in this example. Kanji can have multiple readings in other words.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l01-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-romaji"
+      ],
+      "prompt": "What do we call Japanese represented in Latin letters?",
+      "example": "sakura",
+      "choices": [
+        {
+          "id": "romaji",
+          "text": "Romaji",
+          "rationale": "Correct. Romaji uses Latin letters to represent Japanese sounds."
+        },
+        {
+          "id": "hiragana",
+          "text": "Hiragana",
+          "rationale": "Hiragana would be さくら, using Japanese kana."
+        },
+        {
+          "id": "furigana",
+          "text": "Furigana",
+          "rationale": "Furigana are reading hints, usually small kana above or beside kanji."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "romaji"
+      },
+      "explanation": "“sakura” uses Latin letters, so it is romaji; the word can be written さくら in hiragana.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l01-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "script-katakana"
+      ],
+      "prompt": "Which statement about katakana is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is commonly used for loanwords and sometimes for emphasis.",
+          "rationale": "Correct. Katakana has several uses, including loanwords and emphasis."
+        },
+        {
+          "id": "b",
+          "text": "It is a separate spoken language from Japanese.",
+          "rationale": "Both kana scripts are used to write Japanese."
+        },
+        {
+          "id": "c",
+          "text": "It always shows the English spelling of a word.",
+          "rationale": "Borrowed words adapt to Japanese sounds and writing conventions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Katakana often writes loanwords, but also occurs with names, sounds, emphasis, and other functions.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l01-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "script-mixed-writing"
+      ],
+      "prompt": "Can a single normal Japanese sentence combine hiragana, katakana, and kanji?",
+      "choices": [
+        {
+          "id": "yes",
+          "text": "Yes, these scripts often appear together.",
+          "rationale": "Correct. Japanese normally uses multiple scripts together where appropriate."
+        },
+        {
+          "id": "no",
+          "text": "No, writers must choose only one script per sentence.",
+          "rationale": "The lesson shows that script mixing is normal."
+        },
+        {
+          "id": "foreign",
+          "text": "Only when translating an English sentence.",
+          "rationale": "This is ordinary Japanese orthography, not just translation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "yes"
+      },
+      "explanation": "A sentence such as 私はコーヒーを飲みます。 mixes kanji, katakana and hiragana naturally.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l01-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o4"
+      ],
+      "knowledgeItemIds": [
+        "grammar-sov-preview"
+      ],
+      "prompt": "Where does a verb often appear in a basic Japanese sentence?",
+      "choices": [
+        {
+          "id": "end",
+          "text": "Near the end of the sentence.",
+          "rationale": "Right. This is a helpful initial observation, not an absolute grammar rule."
+        },
+        {
+          "id": "middle",
+          "text": "Always between the subject and object, as in English.",
+          "rationale": "English and Japanese often have different basic word orders."
+        },
+        {
+          "id": "first",
+          "text": "Always as the first word.",
+          "rationale": "This is not a normal rule of Japanese sentence structure."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "end"
+      },
+      "explanation": "Japanese frequently places the verb at the end, as in わたしはおちゃをのみます。 Word order has exceptions and context matters.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l01-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "script-furigana"
+      ],
+      "prompt": "What is furigana?",
+      "choices": [
+        {
+          "id": "readings",
+          "text": "Small reading hints near kanji.",
+          "rationale": "Correct. Furigana help readers pronounce written kanji words."
+        },
+        {
+          "id": "alphabet",
+          "text": "A fourth full Japanese writing system.",
+          "rationale": "Furigana are reading aids, usually written using kana."
+        },
+        {
+          "id": "latin",
+          "text": "The Latin-letter spelling of Japanese.",
+          "rationale": "That is romaji."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "readings"
+      },
+      "explanation": "Furigana use small kana to show readings; they are not a separate primary Japanese writing system.",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ]
+    }
+  ]
+}

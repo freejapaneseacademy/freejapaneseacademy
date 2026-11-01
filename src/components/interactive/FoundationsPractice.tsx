@@ -40,9 +40,9 @@ export default function FoundationsPractice() {
         </label>
       })}</div>
       {submitted&&<div className="foundation-feedback" role="note">
-        <strong>{answers[question.id]===question.answerKey?'✓ Correct':'Review this question'}</strong>
+        <strong>{answers[question.id]===question.answerKey.choiceId?'✓ Correct':'Review this question'}</strong>
         <p>{question.explanation}</p>
-        {answers[question.id]!==question.answerKey&&<p className="foundation-feedback__why">Why your choice doesn't fit: {question.choices.find(c=>c.id===answers[question.id])?.rationale}</p>}
+        {answers[question.id]!==question.answerKey.choiceId&&<p className="foundation-feedback__why">Why your choice doesn't fit: {question.choices.find(c=>c.id===answers[question.id])?.rationale}</p>}
       </div>}
     </fieldset>)}
     {error&&<p role="alert" className="inline-error">{error} Your answers are still here; please try again.</p>}

@@ -8,12 +8,12 @@ describe('first Foundations lesson practice',()=>{
   expect(scriptQuestions).toHaveLength(8);
  });
  it('scores all correct responses',()=>{
-  const answers=Object.fromEntries(scriptQuestions.map(q=>[q.id,q.answerKey]));
+  const answers=Object.fromEntries(scriptQuestions.map(q=>[q.id,q.answerKey.choiceId]));
   expect(scoreScriptQuestions(scriptQuestions,answers)).toBe(8);
  });
  it('scores blank and wrong responses without awarding credit',()=>{
   expect(scoreScriptQuestions(scriptQuestions,{})).toBe(0);
-  const answers=Object.fromEntries(scriptQuestions.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey)!.id]));
+  const answers=Object.fromEntries(scriptQuestions.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey.choiceId)!.id]));
   expect(scoreScriptQuestions(scriptQuestions,answers)).toBe(0);
  });
  it('has a specific rationale for every choice',()=>{
