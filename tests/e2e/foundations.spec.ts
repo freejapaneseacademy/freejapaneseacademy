@@ -9,7 +9,9 @@ test('first Foundations lesson loads, responds, and retains completed quiz in lo
   for(const fieldset of await check.locator('fieldset').all()) await fieldset.locator('input[type="radio"]').first().check();
   await check.getByRole('button',{name:/Check answers/i}).click();
   await expect(check.getByText(/Your attempt was saved on this browser/)).toBeVisible();
-  await page.reload();
+  await page.goto('/dashboard/');
+  await expect(page.getByText('Foundations: Japanese writing systems')).toBeVisible();
+  await page.goto('/learn/start/module-01/chapter-01/lesson-01/');
   await expect(page.locator('.foundation-practice fieldset')).toHaveCount(8);
   await page.getByRole('button',{name:/Mark lesson complete/i}).click();
   await expect(page.getByRole('button',{name:/Lesson completed/i})).toBeVisible();

@@ -43,6 +43,10 @@ export default function ProgressPanel() {
   if (!data) return <div className="dash-loading" role="status">{error || 'Loading your learning progress…'}</div>;
   const best = data.attempts.length ? Math.max(...data.attempts.map((x) => Math.round(x.correct / x.total * 100))) : null;
   const latest = [...data.attempts].sort((a, b) => b.at.localeCompare(a.at)).slice(0, 4);
+  const hasFoundationsProgress = data.lessons.some((item) => item.level === 'l0') || data.attempts.some((item) => item.level === 'l0');
+  const quizLabel = (quizId: string) => quizId === 'l0-m01-c01-l01-check-v1'
+    ? 'Foundations: Japanese writing systems'
+    : quizId === 'hiragana-demo-v1' ? 'Hiragana demo quiz' : 'Japanese practice quiz';
   return <div>
     <div className="stat-grid">
       <div className="stat-card"><span>Lessons completed</span><strong>{data.lessons.length.toString().padStart(2, '0')}</strong><small>Keep your momentum</small></div>
@@ -52,10 +56,10 @@ export default function ProgressPanel() {
     </div>
     <div className="dash-columns">
       <section className="panel"><span className="eyebrow">YOUR JOURNEY</span><h2>Continue learning</h2>
-        {data.lessons.length || data.attempts.length ? <><p>You have started building your Japanese learning history. Ready for the next step?</p><a href="/learn/n5/" className="text-link">Explore N5 lessons ↗</a></> : <><div className="empty-icon" aria-hidden="true">あ</div><h3>Your story starts here.</h3><p>Your lesson completions and quiz scores will appear here as you begin.</p><a href="/learn/n5/hiragana-introduction/" className="btn btn-primary">Start the first demo lesson ↗</a></>}
+        {data.lessons.length || data.attempts.length ? <><p>You have started building your Japanese learning history. Ready for the next step?</p><a href={hasFoundationsProgress ? '/learn/start/' : '/learn/n5/'} className="text-link">{hasFoundationsProgress ? 'Continue Japanese Foundations ↗' : 'Explore N5 lessons ↗'}</a></> : <><div className="empty-icon" aria-hidden="true">あ</div><h3>Your story starts here.</h3><p>Your lesson completions and quiz scores will appear here as you begin.</p><a href="/learn/start/" className="btn btn-primary">Start Japanese Foundations ↗</a></>}
       </section>
       <section className="panel"><span className="eyebrow">RECENT ACTIVITY</span><h2>Practice history</h2>
-        {latest.length ? <ul className="activity-list">{latest.map((attempt) => <li key={attempt.id ?? attempt.at}><span>Hiragana demo quiz</span><strong>{attempt.correct}/{attempt.total}</strong><small>{new Date(attempt.at).toLocaleDateString()}</small></li>)}</ul> : <p>No quiz attempts yet. Complete the short demonstration quiz to see your results here.</p>}
+        {latest.length ? <ul className="activity-list">{latest.map((attempt) => <li key={attempt.id ?? attempt.at}><span>{quizLabel(attempt.quizId)}</span><strong>{attempt.correct}/{attempt.total}</strong><small>{new Date(attempt.at).toLocaleDateString()}</small></li>)}</ul> : <p>No practice attempts yet. Complete a lesson check to see your results here.</p>}
         <a href="/practice/demo/" className="text-link">Open demonstration quiz ↗</a>
       </section>
     </div>
