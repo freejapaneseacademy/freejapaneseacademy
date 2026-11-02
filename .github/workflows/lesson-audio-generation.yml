@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: new-lesson-audio-production
@@ -130,7 +131,7 @@ jobs:
           for t in j['tracks']:
               name=f"fja-{j['lessonId']}-{t['id']}-v{j['audioVersion']}.wav"
               shutil.copy2(pathlib.Path('public/audio')/name,root/name)
-          shutil.copy2(pathlib.Path('src/content/audio')/(j['lessonId']+'.json'),root/(j['lessonId']+'.json'))
+          shutil.copy2(pathlib.Path('src/content/audio')/(j['lessonId']+'-v'+str(j['audioVersion'])+'.json'),root/(j['lessonId']+'-v'+str(j['audioVersion'])+'.json'))
           PY
       - name: Upload unreviewed, non-production candidates
         uses: actions/upload-artifact@v4
@@ -147,7 +148,7 @@ jobs:
           import json,os,subprocess
           j=json.load(open(os.environ['LESSON_AUDIO_JOB']))
           paths=[f"public/audio/fja-{j['lessonId']}-{t['id']}-v{j['audioVersion']}.wav" for t in j['tracks']]
-          paths.append(f"src/content/audio/{j['lessonId']}.json")
+          paths.append(f"src/content/audio/{j['lessonId']}-v{j['audioVersion']}.json")
           subprocess.run(['git','add','--',*paths],check=True)
           PY
           git config user.name 'github-actions[bot]'
@@ -158,6 +159,14 @@ jobs:
             git commit -m 'chore(audio): store verified candidate recordings for lesson review'
             git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
           fi
+
+      - name: Dispatch fresh quality gates on the generated branch head
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh workflow run lesson-quality.yml --ref "$GITHUB_REF_NAME"
       - name: Report engine diagnostics on failure
         if: failure()
         run: docker logs --tail 180 aivis-engine || true

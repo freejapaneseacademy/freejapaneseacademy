@@ -115,7 +115,7 @@ def validate_job(job: dict) -> None:
 def output_paths(job: dict, root: Path = ROOT) -> tuple[list[Path], Path]:
     lesson, version = job["lessonId"], job["audioVersion"]
     paths = [root / "public" / "audio" / f"fja-{lesson}-{track['id']}-v{version}.wav" for track in job["tracks"]]
-    return paths, root / "src" / "content" / "audio" / f"{lesson}.json"
+    return paths, root / "src" / "content" / "audio" / f"{lesson}-v{version}.json"
 
 
 def render_track(job: dict, track: dict, styles: dict, destination: Path) -> dict:
@@ -189,7 +189,7 @@ def generate(job: dict, root: Path = ROOT) -> dict:
     validate_job(job)
     paths, manifest_path = output_paths(job, root)
     if manifest_path.exists():
-        raise FileExistsError("Refusing to replace existing lesson manifest; increment version via reviewed migration")
+        raise FileExistsError("Refusing to replace versioned lesson manifest; increment audioVersion")
     styles = engine.checked_voice_models(job)
     assets = [render_track(job, track, styles, dst) for track, dst in zip(job["tracks"], paths)]
     manifest = {

@@ -30,6 +30,7 @@ manifest, performs strict media checks, and commits candidates to that branch.
 The workflow can also be dispatched on that branch with job_path. It never
 commits directly to main or declares human pronunciation QA complete.
 
+The manifest name is also versioned: src/content/audio/<lesson-id>-v<version>.json.
 Use new audioVersion and distinct filenames for revisions; never modify
 previously published WAVs or scores. Read the generated artifact and
 pronunciation/translation review flags before publishing. If generation fails,

@@ -47,7 +47,7 @@ class GeneratorContract(unittest.TestCase):
                 module.validate_job(job)
                 wavs, manifest = module.output_paths(job, Path("/tmp/fja-output"))
                 self.assertEqual(len(wavs), 2)
-                self.assertEqual(manifest.name, "n1-m12-c04-l06.json")
+                self.assertEqual(manifest.name, "n1-m12-c04-l06-v1.json")
                 self.assertTrue(all("n1-m12-c04-l06" in x.name for x in wavs))
 
     def test_disguised_literacy_question_rejected(self):
