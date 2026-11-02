@@ -1,7 +1,7 @@
 {
-  "id": "l0-m01-c01-l06-check-v1",
+  "id": "l0-m01-c01-l06-check-v2",
   "lessonId": "l0-m01-c01-l06",
-  "version": 1,
+  "version": 2,
   "tracks": [
     "audio-l0-m01-c01-l06-a",
     "audio-l0-m01-c01-l06-b"
@@ -9,332 +9,314 @@
   "items": [
     {
       "id": "ex-l0-m01-c01-l06-001",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o1"
       ],
       "knowledgeItemIds": [
-        "script-hiragana"
+        "word-ocha"
       ],
       "trackId": "audio-l0-m01-c01-l06-a",
-      "prompt": "What does the teacher do at the beginning of Track A?",
+      "prompt": "What drink does the man ask for?",
       "choices": [
         {
           "id": "a",
-          "text": "Introduce Japanese writing",
-          "rationale": "Supported by the narration."
+          "text": "Coffee",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "Ask for the weather",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Tea",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "Order coffee",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Water",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "a"
-      },
-      "explanation": "At the start, the teacher greets the class and says they will look at Japanese characters.",
-      "evidence": "Recognize the spoken introduction to Japanese writing.",
+      "answerKey": {},
+      "explanation": "お茶をお願いします。",
+      "evidence": 1,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     },
     {
       "id": "ex-l0-m01-c01-l06-002",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o1"
       ],
       "knowledgeItemIds": [
-        "script-hiragana"
+        "spoken-temperature"
       ],
       "trackId": "audio-l0-m01-c01-l06-a",
-      "prompt": "Which script does the speaker introduce FIRST in Track A?",
+      "prompt": "What choice does the woman offer?",
       "choices": [
         {
           "id": "a",
-          "text": "Katakana",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Hot tea or cold tea",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "Hiragana",
-          "rationale": "Supported by the narration."
+          "text": "Tea or coffee",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "Kanji",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Water or juice",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "b"
-      },
-      "explanation": "The phrase はじめは、ひらがなです identifies hiragana as the first script.",
-      "evidence": "Listen for はじめは (first), followed by ひらがな.",
+      "answerKey": {},
+      "explanation": "温かいお茶ですか。冷たいお茶ですか。",
+      "evidence": 0,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     },
     {
       "id": "ex-l0-m01-c01-l06-003",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o1"
       ],
       "knowledgeItemIds": [
-        "script-katakana"
+        "spoken-temperature"
       ],
       "trackId": "audio-l0-m01-c01-l06-a",
-      "prompt": "Which script is introduced AFTER hiragana in Track A?",
+      "prompt": "Which kind of tea does the man choose?",
       "choices": [
         {
           "id": "a",
-          "text": "Katakana",
-          "rationale": "Supported by the narration."
+          "text": "Cold",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "Romaji",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "No drink",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "Kanji",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Hot",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "a"
-      },
-      "explanation": "The speaker then says つぎは、カタカナです (next is katakana).",
-      "evidence": "Listen for つぎは (next), followed by カタカナ.",
+      "answerKey": {},
+      "explanation": "温かいお茶をお願いします。",
+      "evidence": 2,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     },
     {
       "id": "ex-l0-m01-c01-l06-004",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o1"
       ],
       "knowledgeItemIds": [
-        "kana-hira-a",
-        "kana-kata-a"
+        "phrase-arigatou-gozaimasu"
       ],
       "trackId": "audio-l0-m01-c01-l06-a",
-      "prompt": "What does the teacher say about the vowel examples あ and ア?",
+      "prompt": "How does the man finish the conversation?",
       "choices": [
         {
           "id": "a",
-          "text": "They have different meanings",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Thank you",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "They have the same a sound",
-          "rationale": "Supported by the narration."
+          "text": "Good night",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "One of them means mountain",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "See you tomorrow",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "b"
-      },
-      "explanation": "どちらも、おなじ「あ」の おとです states that both represent the same a sound.",
-      "evidence": "Track A contrasts hiragana あ and katakana ア.",
+      "answerKey": {},
+      "explanation": "ありがとうございます。",
+      "evidence": 0,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     },
     {
       "id": "ex-l0-m01-c01-l06-005",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o2"
       ],
       "knowledgeItemIds": [
-        "kanji-yama"
+        "spoken-greetings"
       ],
       "trackId": "audio-l0-m01-c01-l06-b",
-      "prompt": "Which type of character is 山 in Track B?",
+      "prompt": "What greeting starts the conversation?",
       "choices": [
         {
           "id": "a",
-          "text": "Hiragana",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Good morning",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "Romaji",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Good night",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "Kanji",
-          "rationale": "Supported by the narration."
+          "text": "Goodbye",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "c"
-      },
-      "explanation": "The speaker explicitly states 「山」は、かんじです.",
-      "evidence": "Listen for かんじ after 山.",
+      "answerKey": {},
+      "explanation": "おはようございます。",
+      "evidence": 0,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     },
     {
       "id": "ex-l0-m01-c01-l06-006",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o2"
       ],
       "knowledgeItemIds": [
-        "kanji-yama"
+        "spoken-weather"
       ],
       "trackId": "audio-l0-m01-c01-l06-b",
-      "prompt": "Which reading is given for the character 山?",
+      "prompt": "What does the woman say about the weather?",
       "choices": [
         {
           "id": "a",
-          "text": "やま",
-          "rationale": "Supported by the narration."
+          "text": "It's raining",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "さくら",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "The weather is nice",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "にほんご",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "It is snowing",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "a"
-      },
-      "explanation": "The narrator says 「やま」と よみます (it is read yama).",
-      "evidence": "Listen for the word immediately after the kanji example.",
+      "answerKey": {},
+      "explanation": "今日はいい天気ですね。",
+      "evidence": 1,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     },
     {
       "id": "ex-l0-m01-c01-l06-007",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o2"
       ],
       "knowledgeItemIds": [
-        "word-sakura",
-        "script-hiragana"
+        "word-sakura"
       ],
       "trackId": "audio-l0-m01-c01-l06-b",
-      "prompt": "How does the narrator classify さくら?",
+      "prompt": "What does the woman say is near the mountain?",
       "choices": [
         {
           "id": "a",
-          "text": "Katakana",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "A train station",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "Hiragana",
-          "rationale": "Supported by the narration."
+          "text": "Cherry blossoms",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "Latin alphabet",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "A restaurant",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "b"
-      },
-      "explanation": "The narrator says 「さくら」は、ひらがなです.",
-      "evidence": "Track B identifies さくら as hiragana.",
+      "answerKey": {},
+      "explanation": "山の近くに桜がありますよ。",
+      "evidence": 1,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     },
     {
       "id": "ex-l0-m01-c01-l06-008",
-      "version": 1,
+      "version": 2,
       "objectiveIds": [
         "l0-m01-c01-l06-o2"
       ],
       "knowledgeItemIds": [
-        "script-romaji"
+        "spoken-issho-ni"
       ],
       "trackId": "audio-l0-m01-c01-l06-b",
-      "prompt": "How does the speaker describe romaji?",
+      "prompt": "What do the two people decide to do?",
       "choices": [
         {
           "id": "a",
-          "text": "Japanese written using Latin letters",
-          "rationale": "Supported by the narration."
+          "text": "Go together",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "b",
-          "text": "An extra kanji reading",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Stay home",
+          "rationale": "This does not match the recorded conversation."
         },
         {
           "id": "c",
-          "text": "Another name for katakana",
-          "rationale": "This does not match the information explicitly stated in the narration."
+          "text": "Drink coffee",
+          "rationale": "This does not match the recorded conversation."
         }
       ],
-      "answerKey": {
-        "choiceId": "a"
-      },
-      "explanation": "ローマじは、アルファベットで にほんごを かく ほうほうです explains that romaji uses alphabet letters to write Japanese.",
-      "evidence": "Listen for アルファベット and にほんご in the description.",
+      "answerKey": {},
+      "explanation": "一緒に行きましょう。",
+      "evidence": 0,
       "type": "single-choice",
       "status": "published",
       "level": "l0",
       "skills": [
         "listening-comprehension",
-        "auditory-sequence"
+        "spoken-interaction"
       ]
     }
   ]

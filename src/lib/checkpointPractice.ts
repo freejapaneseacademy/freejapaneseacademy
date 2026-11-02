@@ -11,7 +11,7 @@ export type CheckpointQuestion = {
   explanation: string; evidence: string; rowIds?: string[]; trackId?: string;
 };
 export const checkpointLessonId = 'l0-m01-c01-chk';
-export const checkpointQuizId = 'l0-m01-c01-chk-v1';
+export const checkpointQuizId = 'l0-m01-c01-chk-v2';
 export const checkpointQuestions = (bank as unknown as { items: CheckpointQuestion[] }).items;
 export function scoreCheckpointQuestions(answers: Record<string,string>) {
   return checkpointQuestions.reduce((n,q) => n + Number(answers[q.id] === q.answerKey.choiceId), 0);
@@ -28,7 +28,7 @@ export function validateCheckpointQuestions() {
   for (const q of checkpointQuestions) {
     if (ids.has(q.id)) throw new Error('Duplicate checkpoint question '+q.id);
     ids.add(q.id);
-    if (!q.id.startsWith('ex-l0-m01-c01-chk-') || q.version !== 1 || q.status !== 'published' ||
+    if (!q.id.startsWith('ex-l0-m01-c01-chk-') || q.version !== (q.source==='listening'?2:1) || q.status !== 'published' ||
         q.type !== 'single-choice' || q.level !== 'l0' || !q.prompt.trim() || !q.explanation.trim() ||
         !q.evidence.trim() || !q.objectiveIds.length || !q.knowledgeItemIds.length || !q.skills.length)
       throw new Error('Invalid checkpoint metadata '+q.id);

@@ -13,7 +13,7 @@ export const listeningQuizId = listeningLessonId + '-check-v1';
 export const listeningQuestions = (bank as unknown as { items: ListeningQuestion[] }).items;
 export const listeningTracks = media.assets.map((item, i) => ({
   id: i === 0 ? 'a' : 'b', assetId: item.id,
-  label: i === 0 ? 'Track A — The two kana scripts' : 'Track B — Kanji and romaji',
+  label: i === 0 ? 'Track A — Ordering tea (two speakers)' : 'Track B — A walk by the mountain (two speakers)',
   url: item.mediaPath, durationSeconds: item.durationSeconds,
   transcript: item.transcript, english: item.english
 }));
@@ -33,7 +33,7 @@ export function validateListeningQuestions() {
     const c=q.choices.map(x=>x.id);
     if(!q.id.startsWith('ex-l0-m01-c01-l06-') || !tracks.has(q.trackId) ||
       !q.objectiveIds.length || !q.knowledgeItemIds.length || !q.skills.length ||
-      q.type!=='single-choice' || q.status!=='published' || q.version!==1 ||
+      q.type!=='single-choice' || q.status!=='published' || q.version!==2 ||
       !q.prompt.trim() || !q.explanation.trim() || !q.evidence.trim() ||
       c.length!==3 || new Set(c).size!==3 || !c.includes(q.answerKey.choiceId) ||
       q.choices.some(x=>!x.text.trim() || !x.rationale.trim())) throw new Error('Malformed L06 question: '+q.id);

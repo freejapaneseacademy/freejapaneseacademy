@@ -1,5 +1,5 @@
 import bank from '../content/exercises/l0-m01-c01-l08.json';
-import media from '../content/audio/l0-m01-c01-l06.json';
+import media from '../content/audio/l0-m01-c01-l08-speaking-legacy.json';
 
 export const speakingLessonId = 'l0-m01-c01-l08';
 export const speakingQuizId = speakingLessonId + '-check-v1';

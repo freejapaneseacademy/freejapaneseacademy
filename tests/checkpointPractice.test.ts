@@ -4,7 +4,7 @@ import { checkpointLessonId, checkpointQuizId, checkpointQuestions, scoreCheckpo
 describe('Chapter 01 canonical checkpoint',()=>{
   it('has a stable ID, 16 original and correctly referenced questions',()=>{
     expect(checkpointLessonId).toBe('l0-m01-c01-chk');
-    expect(checkpointQuizId).toBe('l0-m01-c01-chk-v1');
+    expect(checkpointQuizId).toBe('l0-m01-c01-chk-v2');
     expect(validateCheckpointQuestions()).toBe(true);
     expect(new Set(checkpointQuestions.map(q=>q.id)).size).toBe(16);
     expect(checkpointQuestions.filter(q=>q.source==='reading')).toHaveLength(4);
