@@ -139,3 +139,4 @@ export default function CheckpointPractice() {
     </div>
     <p className="foundation-storage-note">Only blind scored choices are stored in Dexie/IndexedDB after you submit. The optional writing draft stays in this page's memory and is not uploaded or saved. No microphone is requested. Audio is streamed from the academy's existing read-only Worker.</p>
   </section>;
+}
