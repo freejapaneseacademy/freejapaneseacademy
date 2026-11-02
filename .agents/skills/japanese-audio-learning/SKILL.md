@@ -20,6 +20,21 @@ metadata:
 8. Confirm transcript matches *actual* waveform and speaker sequence; arrange independent Japanese pronunciation QA. Audio asset `published` requires all signoffs and valid media, never merely a polished text prompt.
 9. Validate manifest with `python scripts/validate_audio.py path/to/audio-manifest.json`. Use `assets/listening-assets.example.json` as an honest script-only example.
 
+## Versioned reusable recording and QA
+
+New chapter L06 lesson audio must follow
+`docs/audio/TTS_GENERATION_POLICY.md` v5 and
+`docs/automation/Master_Prompt_v2_1.txt` section 9A. Use the approved male
+Aida Shigeru Calm and female Morioki Normal model IDs/hash checks, one
+`scripts/tts/jobs/<lesson-id>.json` for each L06, and
+`scripts/tts/generate_lesson_audio.py` via the
+`lesson-audio-generation.yml` workflow to record true dual-voice
+dialogues/interviews or single-narrator stories, monologues and announcements.
+Never ask visually dependent script/kanji questions in a listening assessment.
+Create two core tracks with 2–5 audible comprehension prompts per track.
+Validate recorded WAVs, distinct situations, voice identities, license and
+question evidence before merging. Preserve historic WAVs and unique score IDs.
+
 ## Interaction and assessment cautions
 - Listening should test comprehension without a transcript hint; show transcript after submit, or make reveal an explicitly separate practice mode not counted as blind listening proficiency.
 - Replay at reasonable speeds must not make audio unintelligible; do not promise universal speed adjustment quality.
