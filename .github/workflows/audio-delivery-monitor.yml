@@ -1,0 +1,52 @@
+name: Audio Delivery Monitor
+
+on:
+  push:
+    branches: ['infra/**']
+    paths:
+      - 'infra/workers/**'
+      - 'scripts/check_audio_delivery.mjs'
+      - '.github/workflows/audio-delivery-monitor.yml'
+      - 'tests/audio-worker.test.cjs'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'infra/workers/**'
+      - 'scripts/check_audio_delivery.mjs'
+      - '.github/workflows/audio-delivery-monitor.yml'
+      - 'tests/audio-worker.test.cjs'
+  schedule:
+    - cron: '27 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: audio-delivery-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audio-unit:
+    name: Validate audio Worker error handling
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/audio-worker.test.cjs
+
+  audio-integration:
+    name: Check real WAV media, ranges, concurrency and integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Probe actual Cloudflare audio (36 independent requests)
+        run: node scripts/check_audio_delivery.mjs
+        env:
+          FJA_AUDIO_BASE_URL: ${{ (github.event_name == 'pull_request' || startsWith(github.ref, 'refs/heads/infra/')) && 'https://fja-lesson-audio-canary.free-japanese-academy.workers.dev' || 'https://fja-lesson-audio.free-japanese-academy.workers.dev' }}
