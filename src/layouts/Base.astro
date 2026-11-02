@@ -32,6 +32,8 @@ const isHome = Astro.url.pathname === '/';
         document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#111820' : '#FFFFFF');
       })();
     </script>
+    <!-- Google AdSense: shared layout ensures this publisher script appears once on every current and future page. -->
+    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3399213817491318" crossorigin="anonymous"></script>
     <title>{title === brand ? brand : `${title} | ${brand}`}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
