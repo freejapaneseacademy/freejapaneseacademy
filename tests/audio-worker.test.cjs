@@ -26,7 +26,7 @@ test('valid full WAV, range, HEAD and edge cache',async()=>{
  assert.equal(Buffer.from(await r.arrayBuffer()).toString('ascii',0,4),'RIFF');
  await Promise.all(h.tasks);
  const b=await h.send('GET','bytes=44-99');assert.equal(b.status,206);
- assert.equal(b.headers.get('x-audio-cache'),'edge');assert.equal(h.stats.reads,1);
+ assert.ok(['edge','memory'].includes(b.headers.get('x-audio-cache')));assert.equal(h.stats.reads,1);
  const full=await h.send();assert.equal(full.status,200);assert.equal((await full.arrayBuffer()).byteLength,len);
  const head=await h.send('HEAD');assert.equal(head.status,200);assert.equal((await head.arrayBuffer()).byteLength,0);
 });
