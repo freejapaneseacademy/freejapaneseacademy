@@ -1,0 +1,31 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import VowelFunctionPractice from '../../../../../components/interactive/VowelFunctionPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+
+const lesson = await getEntry('lessons', 'l0/japanese-sound-system-vowel-length');
+if (!lesson || lesson.data.lessonId !== 'l0-m01-c02-l03') throw new Error('Missing canonical lesson l0-m01-c02-l03');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Japanese sound system',href:'/learn/start/module-01/chapter-02/lesson-03/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 02 · Lesson 03</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 02 · LESSON 03</span>
+    <h1>One more beat.<br/>A different meaning.</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Chapter 02 lessons 01–02 recommended</span><span>12 written practice questions</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original academy lesson.</strong> This is a written introduction to vowel length, mora timing and basic articulation cues. It does not claim to test listening or spoken pronunciation. Independent qualified Japanese-language and assessment-editor reviews remain pending.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <VowelFunctionPractice client:load />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>Study the contrasts, complete the written check, and compare your optional explanation with the model. A saved score and a completed-lesson marker are separate; neither is a pronunciation or mastery certification.</p><LessonActions client:load lessonId="l0-m01-c02-l03" level="l0" /></div>
+    <div class="lesson-next"><h3>Continue learning</h3><p>Next in blueprint order: L0-M01-C02-L04 — Script and kanji: recognition, typing and optional tracing of the vowel and sample-syllable kana. It is not yet published.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-02/lesson-02/">← Review vowel words</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a><a class="btn btn-outline" href="/dashboard/">My learning ↗</a></div>
+  </div><aside class="lesson-side foundation-side">
+    <span class="eyebrow">YOUR STUDY GUIDE</span><h3>Japanese sound system</h3><p><strong>L0-M01-C02-L03</strong></p><p>Learn why vowel length matters, count written morae and distinguish meaning in context.</p>
+    <div class="sample-rule"></div><h3>Suggested order</h3><ol><li>Review the five steady vowel targets.</li><li>Count the morae in familiar words.</li><li>Compare short and long vowels in picture labels.</li><li>Apply length to a polite reply and family chart.</li><li>Try the guided examples and twelve-item check.</li><li>Optionally write and self-review an explanation.</li></ol><p>No audio is claimed here. The dedicated Chapter 02 listening lesson will use real minimal-pair recordings.</p>
+  </aside></div></section>
+</Base>
