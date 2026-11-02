@@ -1,6 +1,6 @@
 # FreeJapaneseAcademy — agent instructions
 
-Read `docs/automation/Master_Prompt_v2.txt` and the full `docs/curriculum/FreeJapaneseAcademy_Master_Curriculum_Blueprint.txt` before choosing or implementing a lesson. Follow the chapter/step's exact ID and objective, and do NOT extrapolate from a partial blueprint excerpt.
+Read `docs/automation/Master_Prompt_v2_1.txt` and the full `docs/curriculum/FreeJapaneseAcademy_Master_Curriculum_Blueprint.txt` before choosing or implementing a lesson. Follow the chapter/step's exact ID and objective, and do NOT extrapolate from a partial blueprint excerpt.
 
 ## Six educational skills (the complete extracted source ZIPs)
 - `.agents/skills/japanese-lesson-author/SKILL.md`
@@ -13,7 +13,7 @@ Read `docs/automation/Master_Prompt_v2.txt` and the full `docs/curriculum/FreeJa
 Read the necessary references, scripts and sample assets adjacent to those files. Read `docs/LESSON_INVENTORY.json`, `src/content.config.ts` and `src/lib/progress.ts` before editing.
 
 ## Release policy
-The website owner explicitly preauthorizes AUTOMATED PUBLICATION of completed lessons **after verifiable technical and content screening**. The version-controlled Master Prompt v2.0 takes precedence over any obsolete human-approval gate in the original skill sources. Preserve their educational review procedures, clearly record independent review status, and never claim a qualified human reviewed a lesson without evidence.
+The website owner explicitly preauthorizes AUTOMATED PUBLICATION of completed lessons **after verifiable technical and content screening**. The version-controlled Master Prompt v2.1 takes precedence over any obsolete human-approval gate in the original skill sources. Preserve their educational review procedures, clearly record independent review status, and never claim a qualified human reviewed a lesson without evidence.
 
 ## Safety for concurrent scheduled agents
 - One canonical micro-lesson per invocation. Do not create adjacent lessons.
@@ -22,3 +22,15 @@ The website owner explicitly preauthorizes AUTOMATED PUBLICATION of completed le
 - Never infer a successful deployment from a GitHub commit; confirm production deployment from Cloudflare.
 - When tools for editing/testing/deployment are unavailable, report the blocker truthfully rather than fabricating progress or skipping tests unnoticed.
 - Do not create duplicate automation schedules or expose any API keys.
+
+
+## Required future listening production
+
+The listening-only and Aivis voice policy in Master Prompt v2.1 section 9A and
+docs/audio/TTS_GENERATION_POLICY.md v5 takes precedence over old blueprint
+examples involving identifying printed scripts by hearing them. Before
+authoring any new L06, provide an original schema-v3 candidate job under
+scripts/tts/jobs/, generate true WAVs via lesson-audio-generation.yml, verify
+model hashes and question evidence, and use the reusable listening interface.
+Do not overwrite original speaking recordings or score identifiers. The
+existing first L06 is a historical reference, not a generic script to rerun.

@@ -1,6 +1,6 @@
 /* Strict real-network audio test: no mocks, no hidden retries. */
 import { createHash } from 'node:crypto';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 const base = (process.env.FJA_AUDIO_BASE_URL || 'https://free-japanese-academy.pages.dev').replace(/\/$/, '');
 if (!/^https:\/\/[a-z0-9.-]+\.pages\.dev$/.test(base)) throw Error('Expected HTTPS Cloudflare Pages origin');
 const media=JSON.parse(await readFile(new URL('../src/content/audio/l0-m01-c01-l06.json',import.meta.url),'utf-8'));
@@ -9,6 +9,11 @@ const tracks=[
  {path:'/audio/fja-lesson-audio-l06-b.wav',bytes:992532,sha:'69ae9543c408a3f973e0dec3a495fa128c7b68e63b43aa5dfb007bb741b11d3b'},
  ...media.assets.map(x=>({path:x.mediaPath,bytes:x.qa.bytes,sha:x.qa.sha256}))
 ];
+for(const name of (await readdir(new URL('../src/content/audio/',import.meta.url))).filter(x=>/^(?:l0|n[1-5])-m[0-9]{2}-c[0-9]{2}-l06-v[1-9][0-9]*[.]json$/.test(x)).sort()) {
+ const manifest=JSON.parse(await readFile(new URL('../src/content/audio/'+name,import.meta.url),'utf8'));
+ for(const asset of manifest.assets)tracks.push({path:asset.mediaPath,bytes:asset.qa.bytes,sha:asset.qa.sha256});
+}
+if(new Set(tracks.map(t=>t.path)).size!==tracks.length)throw Error('Duplicate canonical audio delivery route');
 const checks=['bytes=0-43','bytes=0-1023','bytes=50000-50127','bytes=-128',null];
 const hashes=new Map();let total=0;
 async function probe(track, range, method='GET') {
@@ -52,5 +57,5 @@ try{
   for(const track of tracks)await Promise.all([...checks.map(range=>probe(track,range)),probe(track,null,'HEAD')]);
   if(round<2)await new Promise(resolve=>setTimeout(resolve,400));
  }
- console.log('PASS '+total+' real network requests at '+base);
+ console.log('PASS '+total+' real network requests across '+tracks.length+' WAVs at '+base);
 }catch(err){console.error('FAIL',err);process.exitCode=1;}

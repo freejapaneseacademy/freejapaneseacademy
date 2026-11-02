@@ -1,4 +1,4 @@
-# Japanese spoken-audio production — FreeJapaneseAcademy v4 (2026-11-02)
+# Japanese spoken-audio production — FreeJapaneseAcademy v5 (2026-11-02)
 
 ## Curriculum separation: listening versus reading
 
@@ -19,6 +19,39 @@ Both model pages list **ACML 1.0**: [Aida voice](https://hub.aivis-project.com/a
 **Required attribution:** AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki). These are synthetic performed voices, not interviews or real conversations.
 
 **Production method:** local AivisSpeech Engine CPU via GitHub Actions; download the two AIVMX voice models and validate both pinned hashes before generation, then verify speaker UUID/style names. `.github/workflows/dual-voice-listening.yml`, `scripts/tts/generate_listening_dialogues_v2.py`, and `scripts/tts/listening_dialogues_v2.json` form the implemented first two-speaker reference. Alternate speaker turns, render 44.1 kHz PCM WAV, include short natural silence between turns, use versioned asset names, and keep exact SHA-256 checksums. Do not fall back to MeloTTS, Qwen3, browser TTS, a paid API or an unlicensed model.
+
+## Reusable AivisSpeech production for all future L06 lessons
+
+The older v2 script and existing L0-M01-C01-L06 WAVs are preserved as immutable
+historical assets. Never reuse the pilot's hardcoded lesson ID and file paths.
+
+For each later L06 in Level 0 through N1, author exactly one
+`scripts/tts/jobs/<lesson-id>.json` version-3 job, using
+`scripts/tts/jobs/README.md`, with approved model identities and reviewed
+license terms, two distinct scenes, and 2–5 audible comprehension prompts per
+track. Select `scenarioType` dialogue/interview (male/female exchange) or
+story/monologue/announcement (one approved narrator).
+
+`scripts/tts/generate_lesson_audio.py` uses the existing AivisSpeech Engine
+synthesis helper but computes lesson-specific versioned output paths and rejects
+overwriting existing recordings. The `.github/workflows/lesson-audio-generation.yml`
+action starts on new JSON jobs pushed to `lesson/**` branches or by manual
+dispatch specifying a job on such a branch. It downloads the exact approved
+models, checks both model hashes, generates real 44.1 kHz PCM WAVs, runs
+`scripts/tts/validate_listening_package.py`, saves audition artifacts and
+commits the candidates to that same review branch, NEVER directly to main.
+
+The lesson author must integrate the resulting separate manifest and a scored
+exercise bank into `ReusableListeningPractice`. Every answer must have genuine
+spoken transcript evidence, not written-script hints, with two to five scored
+questions per track. No generated job or audio artifact is itself a complete
+lesson or approval to publish it. Published delivery must use same-origin
+Cloudflare Pages with real WAV full/range availability. Do not advance a lesson
+past a failed audio generation. Review independent Japanese pronunciation and
+transcript-to-waveform status accurately; do not fabricate completed human QA.
+If GitHub's bot commit does not trigger downstream CI, explicitly rerun the
+quality gates against the final candidate commit before merging and verifying
+Cloudflare production. Older speaking-model WAVs and progress IDs must remain.
 
 ## Production gates and score integrity
 

@@ -1,0 +1,172 @@
+name: Generate reusable lesson audio (Aida Calm + morioki)
+
+on:
+  push:
+    branches:
+      - 'lesson/**'
+    paths:
+      - 'scripts/tts/jobs/*.json'
+  workflow_dispatch:
+    inputs:
+      job_path:
+        description: 'One committed job path under scripts/tts/jobs/'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: new-lesson-audio-production
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: Generate two real lesson-specific WAV candidates
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Select exactly one lesson job from this lesson branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF_NAME" != lesson/* ]]; then
+            echo "Run only on a lesson/* review branch, never main"
+            exit 1
+          fi
+          job=$(python3 - <<'PY'
+          import json,os,pathlib,re,subprocess
+          event=json.load(open(os.environ['GITHUB_EVENT_PATH']))
+          allowed=re.compile(r'^scripts/tts/jobs/(?:l0|n[1-5])-m[0-9]{2}-c[0-9]{2}-l06[.]json$')
+          if os.environ['GITHUB_EVENT_NAME']=='workflow_dispatch':
+              jobs=[event.get('inputs',{}).get('job_path','')]
+          else:
+              before=event.get('before','')
+              if re.fullmatch('[0-9a-f]{40}',before) and before!='0'*40:
+                  subprocess.run(['git','fetch','--no-tags','--depth=1','origin',before],check=True,stdout=subprocess.DEVNULL)
+                  base=before
+              else:
+                  base='HEAD^'
+              jobs=subprocess.check_output(['git','diff','--name-only',base,'HEAD','--','scripts/tts/jobs/'],text=True).splitlines()
+          if len(jobs)!=1 or not allowed.fullmatch(jobs[0]) or not pathlib.Path(jobs[0]).is_file():
+              raise SystemExit('Exactly one new safe L06 job is required: '+repr(jobs))
+          print(jobs[0])
+          PY
+          )
+          echo "LESSON_AUDIO_JOB=$job" >> "$GITHUB_ENV"
+          python3 -m unittest discover -s tests -p 'test_listening_generator.py'
+          python3 - "$job" <<'PY'
+          import json,sys
+          from scripts.tts.generate_lesson_audio import validate_job
+          job=json.load(open(sys.argv[1]))
+          validate_job(job)
+          print('Ready to generate verified candidate',job['lessonId'])
+          PY
+      - name: Download exact licensed AivisHub models to isolated engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/aivis/Models"
+          curl -fLSs --retry 3 --retry-delay 3 --max-time 480 \
+            'https://api.aivis-project.com/v1/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1/download?model_type=AIVMX' \
+            -o "$RUNNER_TEMP/aivis/Models/aida-shigeru.aivmx"
+          curl -fLSs --retry 3 --retry-delay 3 --max-time 480 \
+            'https://api.aivis-project.com/v1/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48/download?model_type=AIVMX' \
+            -o "$RUNNER_TEMP/aivis/Models/morioki.aivmx"
+          echo "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243  $RUNNER_TEMP/aivis/Models/aida-shigeru.aivmx" | sha256sum -c -
+          echo "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469  $RUNNER_TEMP/aivis/Models/morioki.aivmx" | sha256sum -c -
+          chmod -R a+rX "$RUNNER_TEMP/aivis"
+          sudo chown -R 1000:1000 "$RUNNER_TEMP/aivis"
+      - name: Boot AivisSpeech CPU inference engine with both speakers
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run -d --name aivis-engine --pull=always \
+            -p 127.0.0.1:10101:10101 \
+            -v "$RUNNER_TEMP/aivis:/home/user/.local/share/AivisSpeech-Engine-Dev" \
+            ghcr.io/aivis-project/aivisspeech-engine:cpu-latest
+          ready=0
+          for i in $(seq 1 120); do
+            if curl -fsS --connect-timeout 3 --max-time 8 http://127.0.0.1:10101/speakers -o "$RUNNER_TEMP/speakers.json"; then
+              if python3 - "$RUNNER_TEMP/speakers.json" <<'PY'
+          import json,sys
+          speakers=json.load(open(sys.argv[1]))
+          expected={'561e4e59-3bc9-4726-9028-44a3c12a6f1d':'Calm','396a746d-742f-4e43-b722-1182a7fab9af':'ノーマル'}
+          for uid,style in expected.items():
+              if not any(s.get('speaker_uuid')==uid and any(t['name']==style for t in s.get('styles',[])) for s in speakers):
+                  sys.exit(1)
+          PY
+              then ready=1; break; fi
+            fi
+            if [ "$(docker inspect -f '{{.State.Running}}' aivis-engine 2>/dev/null || true)" != true ]; then
+              docker logs --tail 100 aivis-engine || true
+              exit 1
+            fi
+            sleep 5
+          done
+          if [ "$ready" -ne 1 ]; then
+            docker logs --tail 150 aivis-engine || true
+            echo 'Both exact licensed AivisSpeech voices could not be loaded.'
+            exit 1
+          fi
+      - name: Synthesize lesson-specific real WAVs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/tts/generate_lesson_audio.py --job "$LESSON_AUDIO_JOB"
+          python3 scripts/tts/validate_listening_package.py --job "$LESSON_AUDIO_JOB"
+      - name: Prepare independent audition artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,os,pathlib,shutil
+          j=json.load(open(os.environ['LESSON_AUDIO_JOB']))
+          root=pathlib.Path('audio-candidates')
+          root.mkdir(exist_ok=True)
+          for t in j['tracks']:
+              name=f"fja-{j['lessonId']}-{t['id']}-v{j['audioVersion']}.wav"
+              shutil.copy2(pathlib.Path('public/audio')/name,root/name)
+          shutil.copy2(pathlib.Path('src/content/audio')/(j['lessonId']+'-v'+str(j['audioVersion'])+'.json'),root/(j['lessonId']+'-v'+str(j['audioVersion'])+'.json'))
+          PY
+      - name: Upload unreviewed, non-production candidates
+        uses: actions/upload-artifact@v4
+        with:
+          name: new-lesson-aivis-candidates
+          path: audio-candidates/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Commit candidates only to this lesson branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,os,subprocess
+          j=json.load(open(os.environ['LESSON_AUDIO_JOB']))
+          paths=[f"public/audio/fja-{j['lessonId']}-{t['id']}-v{j['audioVersion']}.wav" for t in j['tracks']]
+          paths.append(f"src/content/audio/{j['lessonId']}-v{j['audioVersion']}.json")
+          subprocess.run(['git','add','--',*paths],check=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git diff --cached --quiet; then
+            echo 'Identical candidates already committed'
+          else
+            git commit -m 'chore(audio): store verified candidate recordings for lesson review'
+            git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
+          fi
+
+      - name: Dispatch fresh quality gates on the generated branch head
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh workflow run lesson-quality.yml --ref "$GITHUB_REF_NAME"
+      - name: Report engine diagnostics on failure
+        if: failure()
+        run: docker logs --tail 180 aivis-engine || true
