@@ -154,6 +154,22 @@
       "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and production deployment verification"
     },
     {
+      "id": "l0-m01-c02-l01",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c02",
+      "slot": "L01",
+      "title": "Japanese sound system — Context and meaning: five vowels and mora timing",
+      "content": "src/content/lessons/l0/japanese-sound-system-context.mdx",
+      "url": "/learn/start/module-01/chapter-02/lesson-01/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese pronunciation and content review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for L01 written context orientation; actual listening discrimination deferred to L06",
+      "noindex": false,
+      "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
