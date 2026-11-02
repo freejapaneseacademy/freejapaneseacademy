@@ -1,0 +1,55 @@
+{
+  "chapterId": "n5-m01-c01",
+  "assets": [
+    {
+      "id": "audio-n5-m01-c01-a",
+      "status": "script-only",
+      "mediaPath": null,
+      "language": "ja-JP",
+      "speakerIds": [
+        "speaker-01",
+        "speaker-02"
+      ],
+      "transcript": "A：はじめまして。わたしはアキです。\nB：はじめまして。わたしはサムです。",
+      "scriptPurpose": "Identify speakers in a first meeting",
+      "objectiveIds": [
+        "identify-basic-details-from-first-meetings"
+      ],
+      "rights": {
+        "source": "original-script",
+        "redistributionCleared": false,
+        "attribution": ""
+      },
+      "qa": {
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false
+      }
+    },
+    {
+      "id": "audio-n5-m01-c01-b",
+      "status": "script-only",
+      "mediaPath": null,
+      "language": "ja-JP",
+      "speakerIds": [
+        "speaker-03",
+        "speaker-04"
+      ],
+      "transcript": "A：おなまえは？\nB：リナです。学生です。",
+      "scriptPurpose": "Identify occupation and name in another short first meeting",
+      "objectiveIds": [
+        "identify-basic-details-from-first-meetings"
+      ],
+      "rights": {
+        "source": "original-script",
+        "redistributionCleared": false,
+        "attribution": ""
+      },
+      "qa": {
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false
+      }
+    }
+  ]
+}

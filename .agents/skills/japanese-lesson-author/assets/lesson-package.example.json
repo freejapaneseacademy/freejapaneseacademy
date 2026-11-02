@@ -1,0 +1,40 @@
+{
+  "chapterId": "n5-m01-c01",
+  "lessonId": "n5-m01-c01-l03",
+  "level": "n5",
+  "title": "Topic は in simple introductions",
+  "status": "drafted",
+  "version": 1,
+  "canDo": "Introduce yourself in short polite Japanese and identify another person's basic details",
+  "objectives": [
+    "identify-topic-marker-wa-in-a-contextual-introduction"
+  ],
+  "prerequisites": [
+    "n5-m01-c01-l02"
+  ],
+  "estimatedMinutes": 10,
+  "newVocabularyIds": [],
+  "reviewVocabularyIds": [
+    "vocab-watashi-pronoun-1"
+  ],
+  "grammarIds": [
+    "grammar-topic-wa-1"
+  ],
+  "kanjiIds": [],
+  "assetIds": [],
+  "exerciseIds": [
+    "ex-n5-m01-c01-l03-001"
+  ],
+  "example": {
+    "japanese": "私は学生です。",
+    "reading": "わたしはがくせいです。",
+    "english": "I am a student.",
+    "register": "polite"
+  },
+  "review": {
+    "japaneseReviewed": false,
+    "editorApproved": false,
+    "accessibilityChecked": false
+  },
+  "note": "Example teaching artifact only. Do not publish without fact-checking and review."
+}
