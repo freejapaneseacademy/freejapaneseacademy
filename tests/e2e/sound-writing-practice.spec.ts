@@ -75,7 +75,7 @@ for (const width of [320, 375, 390, 430, 768, 1024, 1440]) {
     await expect(practice).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width + 2);
     await page.locator('html').evaluate(element => { element.dataset.theme = 'dark'; });
-    const key = practice.getByRole('button', { name: 'Insert あ in entry 1' });
+    const key = practice.locator('fieldset').first().getByRole('button', { name: 'Insert あ in entry 1', exact: true });
     await key.focus();
     await page.keyboard.press('Enter');
     await expect(practice.locator('fieldset').first().locator('input[type=text]')).toHaveValue('あ');
