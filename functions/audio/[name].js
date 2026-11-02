@@ -1,6 +1,8 @@
 /**
  * Same-origin Japanese WAV delivery on Cloudflare Pages.
- * Reads allowlisted original speaking WAVs and checksum-verified new dual-voice dialogue WAVs via env.ASSETS.
+ * Serves four pinned legacy WAVs plus canonical versioned L06 lesson WAVs from Pages static assets via env.ASSETS.
+ * Source WAVs are validated against lesson manifest SHA-256 by CI before deployment.
+ * Every response verifies deployed RIFF/PCM bytes and supports GET/HEAD/ranges.
  * Never reaches the legacy workers.dev audio Worker or KV.
  */
 const AUDIO = Object.freeze({
@@ -9,6 +11,7 @@ const AUDIO = Object.freeze({
   'fja-l06-real-dialogue-a-v2.wav': 1178840,
   'fja-l06-real-dialogue-b-v2.wav': 1447256,
 });
+const CANONICAL_LESSON_WAV = /^fja-(?:l0|n[1-5])-m[0-9]{2}-c[0-9]{2}-l06-[ab]-v[1-9][0-9]*[.]wav$/;
 function rangeFor(header, total) {
   if (!header) return { from: 0, to: total - 1, partial: false };
   const m = /^bytes=(\d*)-(\d*)$/.exec(header);
@@ -29,7 +32,7 @@ function rangeFor(header, total) {
 export async function onRequest(context) {
   const { request, env, params } = context;
   const name = params.name;
-  if (typeof name !== 'string' || !(name in AUDIO)) return new Response('Not Found', { status: 404 });
+  if (typeof name !== 'string' || (!(name in AUDIO) && !CANONICAL_LESSON_WAV.test(name))) return new Response('Not Found', { status: 404 });
   const common = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
@@ -41,8 +44,6 @@ export async function onRequest(context) {
   if (request.method !== 'GET' && request.method !== 'HEAD') {
     return new Response('Method Not Allowed', { status: 405, headers: {...common, Allow: 'GET, HEAD, OPTIONS' } });
   }
-  const total = AUDIO[name], span = rangeFor(request.headers.get('range'), total);
-  if (!span) return new Response('Unsatisfiable Range', { status: 416, headers: {...common, 'Content-Range': 'bytes */' + total} });
   try {
     // env.ASSETS.fetch requests the deployed Pages static file without routing back through this Function.
     const url = new URL(request.url);
@@ -52,9 +53,12 @@ export async function onRequest(context) {
     const bytes = new Uint8Array(await upstream.arrayBuffer());
     const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
     const ascii = (offset, length) => String.fromCharCode(...bytes.subarray(offset, offset + length));
-    if (bytes.length !== total || ascii(0, 4) !== 'RIFF' || ascii(8, 4) !== 'WAVE' ||
+    const total = bytes.length;
+    if (total < 12000 || total > 32000000 || ((name in AUDIO) && total !== AUDIO[name]) || ascii(0, 4) !== 'RIFF' || ascii(8, 4) !== 'WAVE' ||
         view.getUint32(4, true) + 8 !== total || view.getUint32(24, true) !== 44100 ||
         view.getUint16(22, true) !== 1) throw new Error('Static audio is incomplete or corrupted');
+    const span = rangeFor(request.headers.get('range'), total);
+    if (!span) return new Response('Unsatisfiable Range', { status: 416, headers: {...common, 'Content-Range': 'bytes */' + total} });
     const headers = {
       ...common,
       'Content-Type': 'audio/wav',

@@ -10,6 +10,8 @@ on:
       - 'public/audio/**'
       - 'src/content/audio/**'
       - 'scripts/check_audio_delivery.mjs'
+      - 'scripts/wait_for_audio_deployment.mjs'
+      - 'scripts/verify_static_audio.mjs'
       - 'functions/audio/**'
       - '.github/workflows/audio-delivery-monitor.yml'
   pull_request:
@@ -50,35 +52,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Wait for the exact newly deployed dialogue audio
+      - name: Wait for every newly deployed and legacy WAV on production
         if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          tracks=(
-            'fja-l06-real-dialogue-a-v2.wav'
-            'fja-l06-real-dialogue-b-v2.wav'
-          )
-          for attempt in $(seq 1 36); do
-            ready=true
-            for track in "${tracks[@]}"; do
-              code=$(curl --silent --max-time 12 -o /dev/null -w '%{http_code}' "https://free-japanese-academy.pages.dev/audio/$track" || true)
-              if [[ "$code" != "200" ]]; then
-                echo "New production audio not deployed yet: $track HTTP $code (attempt $attempt)"
-                ready=false
-              fi
-            done
-            if [[ "$ready" == "true" ]]; then
-              echo 'Both new production dialogue assets now available for strict integrity probes'
-              break
-            fi
-            if [[ "$attempt" == "36" ]]; then
-              echo 'Production Cloudflare deployment did not expose both new dialogue files'
-              exit 1
-            fi
-            sleep 10
-          done
-      - name: Perform 72 strict full/range/HEAD WAV requests (no hidden retries)
+        run: node scripts/wait_for_audio_deployment.mjs
+      - name: Perform full/range/HEAD WAV checks for every published lesson
         run: node scripts/check_audio_delivery.mjs
 
   audio-preview:
