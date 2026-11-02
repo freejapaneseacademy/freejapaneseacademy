@@ -1,0 +1,46 @@
+name: Verify selected Aida Shigeru teaching voice preview
+on:
+  push:
+    branches:
+      - infra/tts/aida-shigeru-pilot
+    paths:
+      - .github/workflows/aida-shigeru-preview-check.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check real public classroom audio and SHA256
+        shell: bash
+        run: |
+          node --input-type=module - <<'JS'
+          import {createHash} from 'node:crypto';
+          const base='https://923ee7c9.free-japanese-academy.pages.dev/voice-preview/aida-shigeru/';
+          const expected={
+            'track-a-teacher-calm.wav':'b0b29ded32d23c2bb55a8c3092c7f6bee1258e65b53c8c7e6c9986ea02f700e9',
+            'track-b-teacher-calm.wav':'adfe43ef5dea898a04696815c6c8843bef3ac1c1885e70d7735d8ec598acb960',
+            'track-a-teacher-warm.wav':'f21a61bc4a6e2f704a8106eda033bf0186d47ed7c17c4948c432c4612c5cab98',
+            'track-b-teacher-warm.wav':'6fccba07c4699805a5ec0ddc7f1824914efb354b867782800f8dd17855ddb194'
+          };
+          const headers={'User-Agent':'Mozilla/5.0 (FreeJapaneseAcademyAudioQA)'};
+          const home=await fetch(base,{headers});
+          const html=await home.text();
+          if(home.status!==200||!html.includes('Aida Shigeru: Japanese classroom narration')||!html.includes('阿井田 茂'))throw Error('Preview HTML invalid HTTP '+home.status+' '+html.slice(0,130));
+          console.log('PASS Aida Shigeru preview HTML 200');
+          for(const [file,sha] of Object.entries(expected)){
+            const url=base+file;
+            const response=await fetch(url,{headers});
+            const data=Buffer.from(await response.arrayBuffer());
+            const hash=createHash('sha256').update(data).digest('hex');
+            if(response.status!==200||hash!==sha||data.toString('ascii',0,4)!=='RIFF'||data.toString('ascii',8,12)!=='WAVE')throw Error(file+' SHA256/RIFF invalid HTTP '+response.status+' hash '+hash);
+            const part=await fetch(url,{headers:{...headers,Range:'bytes=0-43'}});
+            const fragment=Buffer.from(await part.arrayBuffer());
+            const partial=part.status===206&&fragment.length===44&&fragment.toString('ascii',0,4)==='RIFF';
+            const complete=part.status===200&&createHash('sha256').update(fragment).digest('hex')===sha;
+            if(!partial&&!complete)throw Error(file+' range request unexpected '+part.status);
+            console.log('PASS',file,'size',data.length,'hash',hash,'HTTP range',part.status);
+          }
+          console.log('PASS four real Aida Shigeru Japanese narration files verified externally.');
+          JS
