@@ -59,3 +59,19 @@ jobs:
           done
       - name: Perform 36 strict full/range/HEAD WAV requests (no hidden retries)
         run: node scripts/check_audio_delivery.mjs
+
+  audio-preview:
+    name: Live byte-range and integrity checks on Cloudflare Pages preview
+    if: github.event_name == 'pull_request'
+    needs: [audio-integrity]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify original WAV delivery via exact preview deployment
+        run: node scripts/check_audio_delivery.mjs
+        env:
+          FJA_AUDIO_BASE_URL: https://090a9326.free-japanese-academy.pages.dev
