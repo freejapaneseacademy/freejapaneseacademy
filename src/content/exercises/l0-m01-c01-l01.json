@@ -294,7 +294,7 @@
         {
           "id": "latin",
           "text": "The Latin-letter spelling of Japanese.",
-          "rationale": "That is romaji."
+          "rationale": "That describes romaji, not furigana."
         }
       ],
       "answerKey": {
