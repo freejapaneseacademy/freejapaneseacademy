@@ -221,13 +221,13 @@
         },
         {
           "id": "kao",
-          "text": "かお means face.",
+          "text": "かお",
           "rationale": "かお means face, not umbrella."
         },
         {
           "id": "sushi",
-          "text": "すし means sushi.",
-          "rationale": "This choice does not match the question."
+          "text": "すし",
+          "rationale": "すし means sushi, not umbrella."
         }
       ],
       "answerKey": {
@@ -341,13 +341,13 @@
         },
         {
           "id": "ao",
-          "text": "あお is the color blue.",
+          "text": "あお",
           "rationale": "あお names the color blue; it is not a food."
         },
         {
           "id": "isu",
-          "text": "いす means chair.",
-          "rationale": "This choice does not match the question."
+          "text": "いす",
+          "rationale": "いす means chair, not food."
         }
       ],
       "answerKey": {
