@@ -14,7 +14,7 @@ const { Content } = await render(lesson);
 const tracks = audio.assets.map((asset, index) => ({
   id: (index === 0 ? 'a' : 'b') as 'a' | 'b',
   assetId: asset.id,
-  label: asset.scriptPurpose,
+  label: index === 0 ? 'Photo conversation' : 'Family photo conversation',
   url: asset.mediaPath,
   durationSeconds: asset.durationSeconds,
   transcript: asset.transcript,
