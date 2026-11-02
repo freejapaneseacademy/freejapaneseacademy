@@ -22,7 +22,7 @@ def valid_job(scenario="dialogue", lesson="l0-m01-c02-l06"):
         ("male", "温かいお茶をお願いします。", "Hot tea please."),
         ("female", "はい、どうぞ。", "Here you are.")]]
         if scenario in {"dialogue", "interview"} else
-        [{"speaker": "female", "text": "今日はいい天気です。", "Nice weather today."}])
+        [{"speaker": "female", "text": "今日はいい天気です。", "english": "Nice weather today."}])
     return {
         "schemaVersion": 3, "lessonId": lesson, "audioVersion": 1,
         "candidateOnly": True, "auditoryOnly": True,
