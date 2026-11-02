@@ -49,6 +49,7 @@ export default function ProgressPanel() {
     : quizId === 'l0-m01-c01-l02-check-v1' ? 'Foundations: Classroom vocabulary'
     : quizId === 'l0-m01-c01-l03-check-v1' ? 'Foundations: Sentence function'
     : quizId === 'l0-m01-c01-l04-check-v1' ? 'Foundations: Kana recognition and typing'
+    : quizId === 'l0-m01-c01-l05-check-v1' ? 'Foundations: Chart reading and evidence'
     : quizId === 'hiragana-demo-v1' ? 'Hiragana demo quiz' : 'Japanese practice quiz';
   return <div>
     <div className="stat-grid">
