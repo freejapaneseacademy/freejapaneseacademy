@@ -9,11 +9,11 @@ export type ListeningQuestion = {
   level: 'l0'; skills: string[];
 };
 export const listeningLessonId = 'l0-m01-c01-l06';
-export const listeningQuizId = listeningLessonId + '-check-v1';
+export const listeningQuizId = listeningLessonId + '-check-v2';
 export const listeningQuestions = (bank as unknown as { items: ListeningQuestion[] }).items;
 export const listeningTracks = media.assets.map((item, i) => ({
   id: i === 0 ? 'a' : 'b', assetId: item.id,
-  label: i === 0 ? 'Track A — The two kana scripts' : 'Track B — Kanji and romaji',
+  label: i === 0 ? 'Track A — A short exchange' : 'Track B — An everyday conversation',
   url: item.mediaPath, durationSeconds: item.durationSeconds,
   transcript: item.transcript, english: item.english
 }));
@@ -28,12 +28,15 @@ export function validateListeningQuestions() {
     if(!/^\/audio\/[a-z0-9-]+\.wav$/.test(track.url) || !track.transcript || track.durationSeconds < 3) throw new Error('Missing real media metadata.');
   }
   for(const q of listeningQuestions) {
+    const sourceTrack=listeningTracks.find(x=>x.assetId===q.trackId);
+    if(!sourceTrack || !sourceTrack.transcript.includes(q.evidence)) throw new Error('Unheard answer evidence: '+q.id);
+    if(/hiragana|katakana|kanji|romaji|script|written|printed/i.test(q.prompt)) throw new Error('Reading-only question in listening exercise: '+q.id);
     if(ids.has(q.id)) throw new Error('Duplicate question ID.');
     ids.add(q.id);
     const c=q.choices.map(x=>x.id);
     if(!q.id.startsWith('ex-l0-m01-c01-l06-') || !tracks.has(q.trackId) ||
       !q.objectiveIds.length || !q.knowledgeItemIds.length || !q.skills.length ||
-      q.type!=='single-choice' || q.status!=='published' || q.version!==1 ||
+      q.type!=='single-choice' || q.status!=='published' || q.version!==2 ||
       !q.prompt.trim() || !q.explanation.trim() || !q.evidence.trim() ||
       c.length!==3 || new Set(c).size!==3 || !c.includes(q.answerKey.choiceId) ||
       q.choices.some(x=>!x.text.trim() || !x.rationale.trim())) throw new Error('Malformed L06 question: '+q.id);

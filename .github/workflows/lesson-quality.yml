@@ -36,6 +36,8 @@ jobs:
           for bank in src/content/exercises/*.json; do
             python3 scripts/validate_exercises.py "$bank"
           done
+      - name: Validate actual two-speaker audio, pinned WAV hashes and listening-only questions
+        run: python3 scripts/validate_real_listening.py
       - name: Astro and TypeScript diagnostics
         run: npm run check
       - name: Unit tests

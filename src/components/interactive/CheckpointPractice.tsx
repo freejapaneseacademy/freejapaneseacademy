@@ -50,7 +50,7 @@ export default function CheckpointPractice() {
       <span className="eyebrow">CHAPTER 01 · MIXED CHECKPOINT</span>
       <h2 id="checkpoint-title">Find the evidence. Hear the detail. Explain the pattern.</h2>
       <p>Eight concept questions, four chart-reading questions and four listening questions. You can replay the audio and read the chart as often as needed. Explanations appear only after submission.</p>
-      <p className="foundation-storage-note">The same two real, original synthetic Japanese WAV recordings from Lesson 06 are reused unchanged. Independent human pronunciation and assessment review remain pending.</p>
+      <p className="foundation-storage-note">Two original Japanese conversations are reused from Lesson 06, with Aida Shigeru (Calm) and morioki (Normal) taking turns. Independent human pronunciation and assessment review remain pending.</p>
     </div>
     <div className="listening-tracks">
       {listeningTracks.map((track,i)=><section className="listening-track" key={track.id} aria-labelledby={'checkpoint-track-'+track.id}>
@@ -77,8 +77,8 @@ export default function CheckpointPractice() {
           {revealed[track.id]?'Hide transcript':'Reveal transcript (assisted practice)'}
         </button>
         {revealed[track.id]&&<div className="listening-transcript">
-          <strong>Japanese transcript</strong><p lang="ja">{track.transcript}</p>
-          <strong>English meaning</strong><p>{track.english}</p>
+          <strong>Japanese transcript</strong><p lang="ja" style={{whiteSpace:'pre-line'}}>{track.transcript}</p>
+          <strong>English meaning</strong><p style={{whiteSpace:'pre-line'}}>{track.english}</p>
         </div>}
       </section>)}
     </div>

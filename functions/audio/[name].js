@@ -1,11 +1,13 @@
 /**
  * Same-origin Japanese WAV delivery on Cloudflare Pages.
- * Reads the original, checksum-verified static WAV via env.ASSETS.
+ * Reads allowlisted original speaking WAVs and checksum-verified new dual-voice dialogue WAVs via env.ASSETS.
  * Never reaches the legacy workers.dev audio Worker or KV.
  */
 const AUDIO = Object.freeze({
   'fja-lesson-audio-l06-a.wav': 1344706,
   'fja-lesson-audio-l06-b.wav': 992532,
+  'fja-l06-real-dialogue-a-v2.wav': 1178840,
+  'fja-l06-real-dialogue-b-v2.wav': 1447256,
 });
 function rangeFor(header, total) {
   if (!header) return { from: 0, to: total - 1, partial: false };

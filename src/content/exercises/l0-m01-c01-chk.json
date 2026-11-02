@@ -1,8 +1,8 @@
 {
-  "id": "l0-m01-c01-chk-v1",
+  "id": "l0-m01-c01-chk-v2",
   "lessonId": "l0-m01-c01-chk",
   "chapterId": "l0-m01-c01",
-  "version": 1,
+  "version": 2,
   "readingStimulusId": "l0-m01-c01-l05-chart-v1",
   "audioAssetIds": [
     "audio-l0-m01-c01-l06-a",
@@ -435,7 +435,7 @@
     },
     {
       "id": "ex-l0-m01-c01-chk-011",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "type": "single-choice",
       "level": "l0",
@@ -443,124 +443,40 @@
         "l0-m01-c01-chk-o3"
       ],
       "knowledgeItemIds": [
-        "phrase-konnichiwa"
+        "spoken-dialogue-roles"
       ],
       "skills": [
         "listening-comprehension"
       ],
       "source": "listening",
-      "prompt": "Listen to Recording A without a transcript. Which opening greeting do you hear?",
+      "prompt": "In Recording A, who hands over the drink?",
       "choices": [
         {
           "id": "a",
-          "text": "さようなら。",
-          "rationale": "This means goodbye and is not the opening line."
+          "text": "The man",
+          "rationale": "This is not what the speakers describe or decide."
         },
         {
           "id": "b",
-          "text": "おやすみなさい。",
-          "rationale": "This means good night and is not spoken at the start."
+          "text": "The woman",
+          "rationale": "The conversation directly supports this choice."
         },
         {
           "id": "c",
-          "text": "みなさん、こんにちは。",
-          "rationale": "Correct: the narrator greets everyone with こんにちは."
-        }
-      ],
-      "answerKey": {
-        "choiceId": "c"
-      },
-      "explanation": "The narrator begins by greeting the class before introducing Japanese characters.",
-      "evidence": "みなさん、こんにちは。",
-      "trackId": "audio-l0-m01-c01-l06-a"
-    },
-    {
-      "id": "ex-l0-m01-c01-chk-012",
-      "version": 1,
-      "status": "published",
-      "type": "single-choice",
-      "level": "l0",
-      "objectiveIds": [
-        "l0-m01-c01-chk-o3"
-      ],
-      "knowledgeItemIds": [
-        "kana-kata-a",
-        "script-katakana"
-      ],
-      "skills": [
-        "listening-comprehension"
-      ],
-      "source": "listening",
-      "prompt": "In Recording A, which printed character does the narrator explicitly call katakana?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ア",
-          "rationale": "Correct: the narrator says 「ア」は、カタカナです."
-        },
-        {
-          "id": "b",
-          "text": "あ",
-          "rationale": "The narrator calls あ hiragana, not katakana."
-        },
-        {
-          "id": "c",
-          "text": "山",
-          "rationale": "This is a kanji shown in the other recording."
-        }
-      ],
-      "answerKey": {
-        "choiceId": "a"
-      },
-      "explanation": "The teacher contrasts あ (hiragana) with ア (katakana), then says they represent the same vowel.",
-      "evidence": "「ア」は、カタカナです。",
-      "trackId": "audio-l0-m01-c01-l06-a"
-    },
-    {
-      "id": "ex-l0-m01-c01-chk-013",
-      "version": 1,
-      "status": "published",
-      "type": "single-choice",
-      "level": "l0",
-      "objectiveIds": [
-        "l0-m01-c01-chk-o3"
-      ],
-      "knowledgeItemIds": [
-        "word-yama",
-        "script-kanji"
-      ],
-      "skills": [
-        "listening-comprehension"
-      ],
-      "source": "listening",
-      "prompt": "In Recording B, what Japanese reading does the narrator give for 山?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "せんせい",
-          "rationale": "This is a word meaning teacher, not the reading given for 山."
-        },
-        {
-          "id": "b",
-          "text": "やま",
-          "rationale": "Correct: the speaker says the character is read やま."
-        },
-        {
-          "id": "c",
-          "text": "さくら",
-          "rationale": "This is a different word mentioned after the kanji example."
+          "text": "A third person",
+          "rationale": "This is not what the speakers describe or decide."
         }
       ],
       "answerKey": {
         "choiceId": "b"
       },
-      "explanation": "山 is identified as kanji and then given the reading やま. Its English meaning is mountain.",
-      "evidence": "「やま」と よみます。",
-      "trackId": "audio-l0-m01-c01-l06-b"
+      "explanation": "The woman's はい、どうぞ means she hands it over to the man.",
+      "evidence": "はい、どうぞ。",
+      "trackId": "audio-l0-m01-c01-l06-a"
     },
     {
-      "id": "ex-l0-m01-c01-chk-014",
-      "version": 1,
+      "id": "ex-l0-m01-c01-chk-012",
+      "version": 2,
       "status": "published",
       "type": "single-choice",
       "level": "l0",
@@ -568,35 +484,117 @@
         "l0-m01-c01-chk-o3"
       ],
       "knowledgeItemIds": [
-        "script-romaji"
+        "spoken-temperature"
       ],
       "skills": [
         "listening-comprehension"
       ],
       "source": "listening",
-      "prompt": "What does Recording B explain about romaji?",
+      "prompt": "What kind of choice does the woman ask the man to make?",
       "choices": [
         {
           "id": "a",
-          "text": "It is another word for kanji.",
-          "rationale": "The narrator introduces kanji separately from romaji."
+          "text": "The size of a cake",
+          "rationale": "This is not what the speakers describe or decide."
         },
         {
           "id": "b",
-          "text": "It is a second spoken language used in Japan.",
-          "rationale": "Romaji is a way of writing Japanese, not a separate spoken language."
+          "text": "Whether his tea is hot or cold",
+          "rationale": "The conversation directly supports this choice."
         },
         {
           "id": "c",
-          "text": "It writes Japanese using alphabet letters.",
-          "rationale": "Correct: the narration explicitly describes this writing method."
+          "text": "Where to go tomorrow",
+          "rationale": "This is not what the speakers describe or decide."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "She asks whether he wants hot or cold tea.",
+      "evidence": "温かいお茶ですか。冷たいお茶ですか。",
+      "trackId": "audio-l0-m01-c01-l06-a"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-013",
+      "version": 2,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "kanji-yama"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "source": "listening",
+      "prompt": "In Recording B, what does the man say looks beautiful?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mountain",
+          "rationale": "The conversation directly supports this choice."
+        },
+        {
+          "id": "b",
+          "text": "A book",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "c",
+          "text": "A restaurant",
+          "rationale": "This is not what the speakers describe or decide."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The man says the mountain is beautiful; no printed character knowledge is required.",
+      "evidence": "あの山がきれいですね。",
+      "trackId": "audio-l0-m01-c01-l06-b"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-014",
+      "version": 2,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "spoken-issho-ni"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "source": "listening",
+      "prompt": "What do the speakers plan to do after hearing about cherry blossoms?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Write a letter",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "b",
+          "text": "Order another drink",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "c",
+          "text": "Go together",
+          "rationale": "The conversation directly supports this choice."
         }
       ],
       "answerKey": {
         "choiceId": "c"
       },
-      "explanation": "The narrator defines romaji as a way to write Japanese using alphabet letters.",
-      "evidence": "ローマじは、アルファベットで にほんごを かく ほうほうです。",
+      "explanation": "He suggests going together; she agrees.",
+      "evidence": "一緒に行きましょう。",
       "trackId": "audio-l0-m01-c01-l06-b"
     },
     {

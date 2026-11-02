@@ -10,7 +10,7 @@ describe('L06 listening data', () => {
       expect(t.transcript.length).toBeGreaterThan(30);
       expect(t.durationSeconds).toBeGreaterThan(8);
     }
-    expect(listeningQuizId).toBe('l0-m01-c01-l06-check-v1');
+    expect(listeningQuizId).toBe('l0-m01-c01-l06-check-v2');
   });
   it('has eight stable, correctly keyed questions, split across two recordings', () => {
     expect(validateListeningQuestions()).toBe(true);

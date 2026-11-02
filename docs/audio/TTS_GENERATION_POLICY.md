@@ -1,20 +1,36 @@
-# Japanese TTS generation — FreeJapaneseAcademy v3 (2026-11-02)
+# Japanese spoken-audio production — FreeJapaneseAcademy v4 (2026-11-02)
 
-## Default free, offline Japanese narrator
+## Curriculum separation: listening versus reading
 
-**New recordings:** Qwen3-TTS-12Hz-0.6B-CustomVoice, voiced by **ono_anna**, Japanese `ja`, via the MIT-licensed `speech.cpp` local CPU inference CLI. **Do not use Cloudflare MeloTTS for new audio or silently fall back to browser speechSynthesis, a paid API, unlicensed source audio, or a generic non-Japanese voice.**
+- **Reading lessons:** use printed hiragana, katakana, kanji, romaji, furigana and charts to teach script recognition. These are visual skills.
+- **Listening lessons:** feature two authentic, beginner-accessible spoken situations per chapter, such as everyday exchanges, mini-stories, simple directions, or two people talking naturally. Test information the learner can hear: a request, answer, observation, intention, order or emotion. **Never ask which characters, kanji, writing system, spelling or Latin letters are being shown or read** in a blind listening-only assessment.
+- Give every recording a genuinely original Japanese transcript and speaker-by-speaker English translation. Do not render transcripts or explanatory vocabulary that answers the question before blind scoring. Learners may reveal them freely, but then the attempt becomes assisted.
+- Each audible question needs exact positive evidence in the transcript and a plausible distinct distractor. Check audio-to-transcript alignment, pronunciation and context with a Japanese reviewer. Written text and waveforms alone cannot establish language or pedagogical accuracy.
+- **Speaking lessons:** model and shadowing recordings about literacy remain separate when the speaking objective requires describing writing. Do not reuse them in pure listening assessments.
 
-- [Qwen3-TTS source](https://github.com/QwenLM/Qwen3-TTS) and [Apache-2.0 model](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice)
-- [speech.cpp Qwen3 usage](https://github.com/nyosegawa/speech.cpp/blob/main/docs/models/qwen3-tts.md): `speech tts qwen3-tts-0.6b --voice ono_anna --language ja --seed 1001 -o clip.wav '日本語のテキスト。'`
-- Qwen3 0.6B quantized model is about 1.21 GB; local inference and GitHub-hosted standard Linux runners on this **public repository** do not require a paid speech API. Build minutes and availability remain subject to GitHub policy.
-- Optional upgrade for approved stronger narration: `qwen3-tts-1.7b`; do not change models without new listening QA and runtime proof.
-- Record voice and model identities, language, license URIs, pronunciation corrections, seed, script, duration, checksum, and QA outcomes per clip. Original scripts must be safe to publish. Do not clone real voices.
-- Narration should use complete, idiomatic Japanese written with correct kanji/kana readings. Do not improvise pronunciations; have a Japanese reviewer check pitch accent, particles, morae, proper nouns, and actual voice against text.
-- Generate WAVs on GitHub Actions using `scripts/tts/qwen3_generate.py` and attach artifacts to the run. A sample workflow: `.github/workflows/audio-qwen3-pilot.yml`. For further lessons prepare a jobs JSON in `scripts/tts/jobs/` (schema in pilot) and run the tool with that job.
-- **Production gate:** Do not replace original, working lesson WAVs until a listener reviews real model output and the resulting recordings pass SHA-256/RIFF/PCM, non-silence/non-clipping, duration, transcript/prosody and playback checks. A machine-only waveform check is NOT a human naturalness or Japanese pronunciation review.
-- Once approved, put versioned immutable audio under `public/audio/`, update the matching source/lesson manifests, verify frontend player URLs and range semantics, run strict exact-head GitHub CI and the live Cloudflare Pages audio monitor, then deploy. Never rename or overwrite existing audio URLs to mask unreviewed changes.
-- No secrets, microphone input, or recurring paid inference required. Generation jobs are bounded. If no authenticated GitHub runner can execute speech.cpp, keep the lesson's media at `script-only` and block publication of scored listening; don't make a fake audio placeholder.
+## Approved voices and free synthesis
 
-## Existing audio
+**Male teacher / dialogue voice:** AivisSpeech **阿井田 茂 (Aida Shigeru)**, model UUID `47e53151-a378-46f3-abee-ce13aa07feb1`, speaker UUID `561e4e59-3bc9-4726-9028-44a3c12a6f1d`, **Calm** style, AIVMX SHA-256 `6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243`.
 
-The two L06 MeloTTS tracks currently also supply L08 and the chapter checkpoint. They remain published while Qwen3 candidate clips are independently assessed. Cloudflare Pages static audio is the delivery system; the older workers.dev KV endpoint is a legacy fallback, **not the new TTS engine**. Never delete the originals during a voice migration.
+**Female conversational voice:** AivisSpeech **morioki**, model UUID `baaae3c0-7b22-4605-8ba5-80c959b41a48`, speaker UUID `396a746d-742f-4e43-b722-1182a7fab9af`, **ノーマル (Normal)** style, AIVMX SHA-256 `352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469`.
+
+Both model pages list **ACML 1.0**: [Aida voice](https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1), [morioki voice](https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48), [license](https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md). Honor attribution and usage restrictions; do not imply the real morioki voice provider or the model makers personally endorsed academy content.
+
+**Required attribution:** AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki). These are synthetic performed voices, not interviews or real conversations.
+
+**Production method:** local AivisSpeech Engine CPU via GitHub Actions; download the two AIVMX voice models and validate both pinned hashes before generation, then verify speaker UUID/style names. `.github/workflows/dual-voice-listening.yml`, `scripts/tts/generate_listening_dialogues_v2.py`, and `scripts/tts/listening_dialogues_v2.json` form the implemented first two-speaker reference. Alternate speaker turns, render 44.1 kHz PCM WAV, include short natural silence between turns, use versioned asset names, and keep exact SHA-256 checksums. Do not fall back to MeloTTS, Qwen3, browser TTS, a paid API or an unlicensed model.
+
+## Production gates and score integrity
+
+1. Validate original spoken content and question evidence against both speaker turns, not against printed script shapes.
+2. Verify AIVMX identities and licenses, exact WAV RIFF/PCM, duration, non-silence, clipping, output SHA-256 and precise speaker/transcript turn order. Keep `nativePronunciationReviewed` and `transcriptMatchedToAudio` false until actual independent listening review; never fabricate review.
+3. Gate browser player behavior, blind/assisted score separation, correct transcript reveal, stable 320px mobile layout, and real Cloudflare Pages audio full/range/HEAD delivery. Use `scripts/validate_real_listening.py`, `scripts/verify_static_audio.mjs`, and `scripts/check_audio_delivery.mjs`.
+4. Publish only fully generated media together with matching manifests and new assessment version IDs. Version scored quiz IDs when content changes so old scores aren't treated as the new test.
+5. Preserve all previous originals and retain dedicated archived speaking-model sources for any lessons that still depend on their wording.
+6. Keep the lesson audio flagged as synthetic with native Japanese review pending. If the media isn't real and accessible or license isn't valid, do **not** publish a scored listening activity dependent on it.
+
+## Historical recording paths
+
+- `public/audio/fja-lesson-audio-l06-a.wav` and `...-b.wav` are archived complete, hash-verified MeloTTS recordings retained for **Lesson 08 speaking-writing models** and rollback; they must not be silently overwritten.
+- `public/audio/fja-l06-real-dialogue-a-v2.wav` and `...-b-v2.wav` are the real male/female conversation files for **Lesson 06** and **Chapter 01 checkpoint** once deployed.
+- `src/content/audio/l0-m01-c01-l08-speaking-legacy.json` keeps archived speaking models independent of `src/content/audio/l0-m01-c01-l06.json`.

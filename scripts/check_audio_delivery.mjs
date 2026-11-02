@@ -1,8 +1,14 @@
 /* Strict real-network audio test: no mocks, no hidden retries. */
 import { createHash } from 'node:crypto';
+import { readFile } from 'node:fs/promises';
 const base = (process.env.FJA_AUDIO_BASE_URL || 'https://free-japanese-academy.pages.dev').replace(/\/$/, '');
 if (!/^https:\/\/[a-z0-9.-]+\.pages\.dev$/.test(base)) throw Error('Expected HTTPS Cloudflare Pages origin');
-const tracks = [{path:'/audio/fja-lesson-audio-l06-a.wav',bytes:1344706},{path:'/audio/fja-lesson-audio-l06-b.wav',bytes:992532}];
+const media=JSON.parse(await readFile(new URL('../src/content/audio/l0-m01-c01-l06.json',import.meta.url),'utf-8'));
+const tracks=[
+ {path:'/audio/fja-lesson-audio-l06-a.wav',bytes:1344706,sha:'da38bd5223c82181281514fea1b382fff872936d602affdb69830e9c7fdda703'},
+ {path:'/audio/fja-lesson-audio-l06-b.wav',bytes:992532,sha:'69ae9543c408a3f973e0dec3a495fa128c7b68e63b43aa5dfb007bb741b11d3b'},
+ ...media.assets.map(x=>({path:x.mediaPath,bytes:x.qa.bytes,sha:x.qa.sha256}))
+];
 const checks=['bytes=0-43','bytes=0-1023','bytes=50000-50127','bytes=-128',null];
 const hashes=new Map();let total=0;
 async function probe(track, range, method='GET') {
@@ -33,6 +39,7 @@ async function probe(track, range, method='GET') {
  }
  if(!range){
   const sha=createHash('sha256').update(buf).digest('hex');
+  if(sha!==track.sha)throw Error(label+': WAV differs from pinned source SHA256');
   if(hashes.has(track.path)&&hashes.get(track.path)!==sha)throw Error(label+': WAV hash changed');
   hashes.set(track.path,sha);
   let nonzero=0;for(let i=44;i+1<buf.length;i+=2048)if(buf.readInt16LE(i)!==0)nonzero++;

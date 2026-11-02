@@ -37,14 +37,14 @@ export default function ListeningPractice() {
     <div className="foundation-practice__header">
       <span className="eyebrow">REAL JAPANESE AUDIO · LESSON 06</span>
       <h2 id="listening-title">Listen, identify, then verify</h2>
-      <p>First listen without reading the words. Play both original Japanese narration tracks, answer eight questions and check your understanding. You may replay as often as you need.</p>
-      <p className="foundation-storage-note">These are synthetic Japanese voices generated from academy-authored scripts. Audio is served by FreeJapaneseAcademy's Cloudflare audio service. Independent human pronunciation review has not been claimed.</p>
+      <p>First listen without reading the words. Play both original Japanese conversations, answer eight questions and check your understanding. You may replay as often as you need.</p>
+      <p className="foundation-storage-note">Aida Shigeru (Calm, male) and morioki (Normal, female) perform original conversations. Audio is served as static WAVs from FreeJapaneseAcademy's Cloudflare Pages site. Independent human pronunciation review has not been claimed.</p>
     </div>
     <div className="listening-tracks">
       {listeningTracks.map((track,i)=><section className="listening-track" key={track.id} aria-labelledby={'listening-track-'+track.id}>
         <span className="eyebrow">AUDIO {i+1} · ABOUT {Math.round(track.durationSeconds)} SECONDS</span>
         <h3 id={'listening-track-'+track.id}>{track.label}</h3>
-        <p>Listen for order words, familiar character names and immediately stated details. Avoid reading the transcript until you have tried the questions.</p>
+        <p>Listen to what each person asks, answers or decides. You do not need to identify written characters. Avoid reading the transcript until you have tried the questions.</p>
         <audio ref={el=>{refs.current[track.id]=el;}} controls preload="metadata" src={track.url}
           aria-label={track.label+' Japanese narration'} onPlay={()=>setPlayed(p=>({...p,[track.id]:true}))}
           onError={()=>setFailed(p=>({...p,[track.id]:true}))} onCanPlay={()=>setFailed(p=>({...p,[track.id]:false}))}>
@@ -63,8 +63,8 @@ export default function ListeningPractice() {
           {revealed[track.id]?'Hide transcript':'Reveal transcript (assisted practice)'}
         </button>
         {revealed[track.id]&&<div className="listening-transcript" aria-label={track.label+' transcript'}>
-          <strong>Japanese transcript</strong><p lang="ja">{track.transcript}</p>
-          <strong>English meaning</strong><p>{track.english}</p>
+          <strong>Japanese transcript</strong><p lang="ja" style={{whiteSpace:"pre-line"}}>{track.transcript}</p>
+          <strong>English meaning</strong><p style={{whiteSpace:'pre-line'}}>{track.english}</p>
         </div>}
       </section>)}
     </div>

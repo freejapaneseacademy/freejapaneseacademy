@@ -13,7 +13,7 @@ test('L06 actual hosted WAVs return complete byte-range content', async ({page})
 });
 test('L06 blind listening saves progress, transcript reveal switches to assisted',async({page})=>{
   await page.goto('/learn/start/module-01/chapter-01/lesson-06/');
-  await expect(page.getByRole('heading',{level:1,name:/Hear Japanese writing/})).toBeVisible();
+  await expect(page.getByRole('heading',{level:1,name:/Hear a real Japanese conversation/})).toBeVisible();
   const root=page.locator('.listening-practice');
   await expect(root.locator('audio')).toHaveCount(2);
   await expect(root.locator('fieldset')).toHaveCount(8);
@@ -28,7 +28,7 @@ test('L06 blind listening saves progress, transcript reveal switches to assisted
   await root.getByRole('button',{name:'Check answers & save blind score'}).click();
   await expect(root.getByText(/Your blind listening practice score was saved locally/)).toBeVisible();
   await page.goto('/dashboard/');
-  await expect(page.getByText('Foundations: Japanese listening overview')).toBeVisible();
+  await expect(page.getByText('Foundations: Japanese conversation listening')).toBeVisible();
   await page.goto('/learn/start/module-01/chapter-01/lesson-06/');
   await page.getByRole('button',{name:/Mark lesson complete/}).click();
   await expect(page.getByRole('button',{name:/Lesson completed/})).toBeVisible();
