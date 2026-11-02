@@ -1,4 +1,4 @@
-name: Verify Kohaku audition page and WAV playback from public runner
+name: Diagnose AivisSpeech audition playback preview
 
 on:
   push:
@@ -15,32 +15,38 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 6
     steps:
-      - name: Check deployed preview HTML, complete WAVs and byte ranges
+      - name: Compare external preview and production HTTP access
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-          import hashlib,urllib.request
-          url='https://f982caad.free-japanese-academy.pages.dev/voice-preview/kohaku/'
-          with urllib.request.urlopen(url,timeout=30) as r:
-              html=r.read().decode('utf-8')
-              assert r.status==200
-              assert 'Try our Japanese-native voice' in html
-          for track,sha in [
-              ('a','3a916771aadfdba804e3825d35cef1c3bc14bafc625959cab9d1b8d00e8b9dd5'),
-              ('b','715be3947d642fb9b29cc9d6f1782ea7a6d6f46f86e68226b64b17f7b3ee64b4')]:
-              media=url+'track-'+track+'.wav'
-              with urllib.request.urlopen(media,timeout=50) as response:
-                  data=response.read()
-                  assert response.status==200
-              assert hashlib.sha256(data).hexdigest()==sha
-              assert data[:4]==b'RIFF' and data[8:12]==b'WAVE'
-              request=urllib.request.Request(media,headers={'Range':'bytes=0-43'})
-              with urllib.request.urlopen(request,timeout=30) as response:
-                  snippet=response.read()
-                  assert response.status==206
-                  assert len(snippet)==44
-                  assert snippet[:4]==b'RIFF'
-              print('PASS: public preview track '+track+': '+str(len(data))+' bytes, SHA256 and HTTP 206')
-          print('PASS: standalone Japanese audition page publicly playable')
-          PY
+          for host in "https://f982caad.free-japanese-academy.pages.dev/" "https://free-japanese-academy.pages.dev/"; do
+            for path in "" "voice-preview/kohaku/" "voice-preview/kohaku/track-a.wav"; do
+              echo "PROBE $host$path"
+              curl -sSL -A 'Mozilla/5.0 (compatible; FreeJapaneseAcademyPreviewQA/1.0)' \
+                --max-time 25 -D /tmp/headers -o /tmp/content -w 'http=%{http_code} bytes=%{size_download}\n' \
+                "$host$path" || true
+              grep -Ei '^(HTTP/|cf-ray:|content-type:|location:|server:)' /tmp/headers || true
+              if [[ -s /tmp/content && "$path" != *.wav ]]; then head -c 140 /tmp/content; echo; fi
+            done
+          done
+      - name: Verify complete audio data and range from preview
+        shell: bash
+        run: |
+          node --input-type=module - <<'JS'
+          import {createHash} from 'node:crypto';
+          const root='https://f982caad.free-japanese-academy.pages.dev/voice-preview/kohaku/';
+          const headers={'User-Agent':'Mozilla/5.0'};
+          const page=await fetch(root,{headers});
+          console.log('PAGE',page.status);
+          if(page.status!==200)throw Error('Preview HTML HTTP '+page.status);
+          for(const [id,sha] of [['a','3a916771aadfdba804e3825d35cef1c3bc14bafc625959cab9d1b8d00e8b9dd5'],['b','715be3947d642fb9b29cc9d6f1782ea7a6d6f46f86e68226b64b17f7b3ee64b4']]){
+            const url=root+'track-'+id+'.wav';
+            const response=await fetch(url,{headers});
+            const data=Buffer.from(await response.arrayBuffer());
+            if(response.status!==200||createHash('sha256').update(data).digest('hex')!==sha)throw Error('Audio '+id+' invalid '+response.status);
+            const range=await fetch(url,{headers:{...headers,Range:'bytes=0-43'}});
+            const bytes=Buffer.from(await range.arrayBuffer());
+            if(range.status!==206||bytes.length!==44||bytes.toString('ascii',0,4)!=='RIFF')throw Error('Range '+id+' invalid '+range.status);
+            console.log('PASS',id,data.length);
+          }
+          JS
