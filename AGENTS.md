@@ -34,3 +34,14 @@ scripts/tts/jobs/, generate true WAVs via lesson-audio-generation.yml, verify
 model hashes and question evidence, and use the reusable listening interface.
 Do not overwrite original speaking recordings or score identifiers. The
 existing first L06 is a historical reference, not a generic script to rerun.
+
+## Global Google AdSense integration (owner directive, 2026-11-02)
+
+All current and future Astro pages MUST render through `src/layouts/Base.astro`,
+which already includes the verified Google AdSense publisher loader once in the
+document `<head>`. Never duplicate the AdSense script in individual pages or
+strip/change client `ca-pub-3399213817491318` without site-owner direction.
+Retain `public/ads.txt` for publisher `pub-3399213817491318`. Future page
+generation must not bypass the shared layout; preserve `tests/e2e/adsense.spec.ts`.
+Do not invent ad slot IDs, imply approval to serve ads, or circumvent applicable
+privacy/consent requirements. See `docs/monetization/ADSENSE.md`.
