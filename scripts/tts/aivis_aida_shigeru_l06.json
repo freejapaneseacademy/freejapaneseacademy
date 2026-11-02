@@ -1,0 +1,43 @@
+{
+  "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+  "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+  "expectedSha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+  "voiceLicense": "ACML-1.0",
+  "voiceCredit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+  "candidateOnly": true,
+  "tracks": [
+    {
+      "id": "a",
+      "text": "みなさん、こんにちは。今日は、日本語の文字について、いっしょに見ていきましょう。まず、ひらがなです。これは「あ」。次は、カタカナです。これは「ア」。形は違いますが、どちらも同じ「あ」の音です。"
+    },
+    {
+      "id": "b",
+      "text": "次は、漢字です。「山」は漢字で、「やま」と読みます。そして「さくら」は、ひらがなで書かれています。最後に、ローマ字です。ローマ字は、アルファベットを使って日本語を書く方法です。"
+    }
+  ],
+  "teachingPresets": [
+    {
+      "id": "calm",
+      "name": "Calm male teacher",
+      "voiceStyle": "Calm",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76,
+      "prePhonemeLength": 0.16,
+      "postPhonemeLength": 0.19,
+      "pitchScale": 0
+    },
+    {
+      "id": "warm",
+      "name": "Natural male teacher",
+      "voiceStyle": "ノーマル",
+      "speedScale": 0.97,
+      "intonationScale": 0.9,
+      "tempoDynamicsScale": 0.86,
+      "prePhonemeLength": 0.13,
+      "postPhonemeLength": 0.17,
+      "pitchScale": 0
+    }
+  ],
+  "modelUrl": "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1"
+}

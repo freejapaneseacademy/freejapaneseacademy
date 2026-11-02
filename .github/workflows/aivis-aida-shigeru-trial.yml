@@ -1,0 +1,94 @@
+name: AivisSpeech Aida Shigeru teacher voice audition
+
+on:
+  push:
+    branches:
+      - infra/tts/aida-shigeru-pilot
+    paths:
+      - .github/workflows/aivis-aida-shigeru-trial.yml
+      - scripts/tts/aivis_aida_shigeru_l06.json
+      - scripts/tts/aivis_aida_shigeru_generate.py
+      - public/voice-preview/aida-shigeru/index.html
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aivis-aida-shigeru-\${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate audio generator
+        run: |
+          python3 -m py_compile scripts/tts/aivis_aida_shigeru_generate.py
+          python3 -c 'import json; x=json.load(open("scripts/tts/aivis_aida_shigeru_l06.json")); assert x["candidateOnly"] and len(x["tracks"])==2 and len(x["teachingPresets"])==2'
+      - name: Download Aida Shigeru model with exact SHA256 verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/aivis/Models"
+          curl -fLSs --retry 3 --retry-delay 3 --max-time 480 \
+            'https://api.aivis-project.com/v1/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1/download?model_type=AIVMX' \
+            -o "$RUNNER_TEMP/aivis/Models/aida-shigeru.aivmx"
+          echo "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243  $RUNNER_TEMP/aivis/Models/aida-shigeru.aivmx" | sha256sum -c -
+          chmod -R a+rX "$RUNNER_TEMP/aivis"
+          sudo chown -R 1000:1000 "$RUNNER_TEMP/aivis"
+      - name: Launch AivisSpeech Japanese CPU engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run -d --name aivis-engine --pull=always \
+            -p 127.0.0.1:10101:10101 \
+            -v "$RUNNER_TEMP/aivis:/home/user/.local/share/AivisSpeech-Engine-Dev" \
+            ghcr.io/aivis-project/aivisspeech-engine:cpu-latest
+          ready=0
+          for i in $(seq 1 120); do
+            if curl -fsS --connect-timeout 3 --max-time 8 http://127.0.0.1:10101/speakers -o "$RUNNER_TEMP/speakers.json"; then
+              if python3 -c 'import json,sys; sys.exit(0 if any("阿井田" in x.get("name","") for x in json.load(open(sys.argv[1]))) else 1)' "$RUNNER_TEMP/speakers.json"; then
+                ready=1; break
+              fi
+            fi
+            if [ "$(docker inspect -f '{{.State.Running}}' aivis-engine 2>/dev/null || true)" != true ]; then
+              docker logs --tail 120 aivis-engine || true
+              exit 1
+            fi
+            sleep 5
+          done
+          if [ "$ready" -ne 1 ]; then
+            docker logs --tail 120 aivis-engine
+            exit 1
+          fi
+      - name: Generate and validate two audition WAVs
+        run: python3 scripts/tts/aivis_aida_shigeru_generate.py
+      - name: Make files available from GitHub even if preview publishing fails
+        uses: actions/upload-artifact@v4
+        with:
+          name: aida-shigeru-classroom-teacher-audition
+          path: |
+            public/voice-preview/aida-shigeru/*.wav
+            public/voice-preview/aida-shigeru/candidate-report.json
+            public/voice-preview/aida-shigeru/index.html
+          if-no-files-found: error
+          retention-days: 14
+      - name: Publish only to this preview branch (not main)
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/voice-preview/aida-shigeru/track-*-teacher-*.wav public/voice-preview/aida-shigeru/teacher-candidate-report.json
+          if git diff --cached --quiet; then
+            echo 'Preview already committed'
+          else
+            git commit -m 'chore(audio): add calm and warm teacher voice audition WAVs'
+            git push origin HEAD:refs/heads/infra/tts/aida-shigeru-pilot
+          fi
+      - name: Engine diagnostic logs if failed
+        if: failure()
+        run: docker logs --tail 180 aivis-engine || true
