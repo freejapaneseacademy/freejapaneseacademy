@@ -31,8 +31,11 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Validate all authoring sources
         run: python3 scripts/validate_curriculum_sources.py
-      - name: Validate published exercise bank
-        run: python3 scripts/validate_exercises.py src/content/exercises/l0-m01-c01-l01.json
+      - name: Validate all published exercise banks
+        run: |
+          for bank in src/content/exercises/*.json; do
+            python3 scripts/validate_exercises.py "$bank"
+          done
       - name: Astro and TypeScript diagnostics
         run: npm run check
       - name: Unit tests

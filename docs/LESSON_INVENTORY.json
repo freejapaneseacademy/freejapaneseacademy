@@ -26,6 +26,22 @@
       "ownerApproval": "2026-11-01: Site owner approved pilot lesson for official publication"
     },
     {
+      "id": "l0-m01-c01-l02",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c01",
+      "slot": "L02",
+      "title": "Vocabulary and word study — Japanese classroom words",
+      "content": "src/content/lessons/l0/japanese-language-map-vocabulary.mdx",
+      "url": "/learn/start/module-01/chapter-01/lesson-02/",
+      "status": "published",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent editor review not claimed",
+      "audio": "written pronunciation cues only; no audio required for L02",
+      "noindex": false,
+      "ownerApproval": "2026-11-02: automatic publication authorized by owner after verified CI and production deployment"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
