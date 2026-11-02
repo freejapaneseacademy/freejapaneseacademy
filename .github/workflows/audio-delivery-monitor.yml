@@ -10,6 +10,7 @@ on:
       - 'public/audio/**'
       - 'src/content/audio/**'
       - 'scripts/check_audio_delivery.mjs'
+      - 'functions/audio/**'
   pull_request:
     branches: [main]
     paths:
@@ -17,6 +18,7 @@ on:
       - 'src/content/audio/**'
       - 'scripts/check_audio_delivery.mjs'
       - 'scripts/verify_static_audio.mjs'
+      - 'functions/audio/**'
 
 permissions:
   contents: read
@@ -27,7 +29,7 @@ concurrency:
 
 jobs:
   audio-integrity:
-    name: Verify checked-in original SHA-256 WAVs
+    name: Verify all checked-in SHA-256 WAVs (speaking + dialogue)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -37,7 +39,7 @@ jobs:
       - run: node scripts/verify_static_audio.mjs
 
   audio-integration:
-    name: Live Cloudflare Pages WAV availability and ranges
+    name: Live Cloudflare Pages WAV availability and ranges (all tracks)
     if: github.event_name != 'pull_request'
     needs: [audio-integrity]
     runs-on: ubuntu-latest
@@ -57,7 +59,7 @@ jobs:
             echo "Cloudflare Pages static asset not ready: HTTP $code"
             sleep 10
           done
-      - name: Perform 36 strict full/range/HEAD WAV requests (no hidden retries)
+      - name: Perform 72 strict full/range/HEAD WAV requests (no hidden retries)
         run: node scripts/check_audio_delivery.mjs
 
   audio-preview:
@@ -71,7 +73,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verify original WAV delivery via exact preview deployment
-        run: node scripts/check_audio_delivery.mjs
-        env:
-          FJA_AUDIO_BASE_URL: https://5903f2c8.free-japanese-academy.pages.dev
+      - name: Verify staged WAVs locally before preview promotion
+        run: node scripts/verify_static_audio.mjs
+      # Production live network checks run after the merged Pages deployment.
+      # Never probe a stale pinned preview URL when new asset names are introduced.
