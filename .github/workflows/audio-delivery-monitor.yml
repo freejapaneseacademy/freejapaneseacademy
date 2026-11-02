@@ -49,4 +49,4 @@ jobs:
       - name: Probe actual Cloudflare audio (36 independent requests)
         run: node scripts/check_audio_delivery.mjs
         env:
-          FJA_AUDIO_BASE_URL: ${{ (github.event_name == 'pull_request' || startsWith(github.ref, 'refs/heads/infra/')) && 'https://fja-lesson-audio-canary.free-japanese-academy.workers.dev' || 'https://fja-lesson-audio.free-japanese-academy.workers.dev' }}
+          FJA_AUDIO_BASE_URL: https://fja-lesson-audio.free-japanese-academy.workers.dev
