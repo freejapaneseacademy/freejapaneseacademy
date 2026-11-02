@@ -1,0 +1,67 @@
+name: Lesson Quality Gates
+
+on:
+  push:
+    branches:
+      - main
+      - 'infra/**'
+      - 'lesson/**'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lesson-quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-build:
+    name: Validate, unit test, and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install packages
+        run: npm install --no-audit --no-fund
+      - name: Validate all authoring sources
+        run: python3 scripts/validate_curriculum_sources.py
+      - name: Validate published exercise bank
+        run: python3 scripts/validate_exercises.py src/content/exercises/l0-m01-c01-l01.json
+      - name: Astro and TypeScript diagnostics
+        run: npm run check
+      - name: Unit tests
+        run: npm run test
+      - name: Production build
+        run: npm run build
+
+  browser-e2e:
+    name: Browser E2E (Chromium)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: [validate-build]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install packages
+        run: npm install --no-audit --no-fund
+      - name: Install Chromium and browser dependencies
+        run: npx playwright install --with-deps chromium
+      - name: Playwright E2E tests
+        run: npm run test:e2e
+      - name: Upload browser diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-diagnostics
+          path: |
+            test-results/
+            playwright-report/
+          if-no-files-found: ignore

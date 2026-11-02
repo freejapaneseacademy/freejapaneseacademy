@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "id": "ex-n5-m01-c01-l03-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "identify-topic-marker-wa-in-a-contextual-introduction"
+      ],
+      "knowledgeItemIds": [
+        "grammar-topic-wa-1"
+      ],
+      "prompt": "Choose the topic particle to complete the sentence: 私___学生です。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "は",
+          "rationale": "は marks the topic in this sentence."
+        },
+        {
+          "id": "b",
+          "text": "を",
+          "rationale": "を generally marks a direct object and does not fit this nominal statement."
+        },
+        {
+          "id": "c",
+          "text": "に",
+          "rationale": "に typically marks time, destination or location, not this topic."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "私は学生です。 uses は to introduce the topic “I”."
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "write-hiragana-for-sa"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-sa"
+      ],
+      "prompt": "Type the hiragana for sa.",
+      "answerKey": {
+        "accepted": [
+          "さ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "The hiragana character for sa is さ."
+    }
+  ]
+}
