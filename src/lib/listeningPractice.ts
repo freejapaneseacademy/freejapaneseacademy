@@ -13,7 +13,7 @@ export const listeningQuizId = listeningLessonId + '-check-v2';
 export const listeningQuestions = (bank as unknown as { items: ListeningQuestion[] }).items;
 export const listeningTracks = media.assets.map((item, i) => ({
   id: i === 0 ? 'a' : 'b', assetId: item.id,
-  label: i === 0 ? 'Track A — Ordering tea (two speakers)' : 'Track B — A walk by the mountain (two speakers)',
+  label: i === 0 ? 'Track A — A short exchange' : 'Track B — An everyday conversation',
   url: item.mediaPath, durationSeconds: item.durationSeconds,
   transcript: item.transcript, english: item.english
 }));
