@@ -1,38 +1,81 @@
 {
   "lessonId": "l0-m01-c01-l06",
   "chapterId": "l0-m01-c01",
-  "version": 1,
-  "generatedBy": "Cloudflare Workers AI @cf/myshell-ai/melotts (lang jp)",
-  "storage": "Exact original WAVs: public/audio/ in GitHub, deployed as immutable-source static assets by Cloudflare Pages (no Workers KV required for playback)",
+  "version": 2,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Versioned static WAVs in public/audio served by Cloudflare Pages; original MeloTTS speaking-model WAVs are retained separately",
   "assets": [
     {
       "id": "audio-l0-m01-c01-l06-a",
       "status": "rights-cleared",
       "language": "ja-JP",
       "speakerIds": [
-        "melotts-japanese-synthetic"
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
       ],
-      "mediaPath": "/audio/fja-lesson-audio-l06-a.wav",
+      "mediaPath": "/audio/fja-l06-real-dialogue-a-v2.wav",
       "format": "audio/wav",
       "sampleRateHz": 44100,
       "channels": 1,
-      "durationSeconds": 15.25,
-      "transcript": "みなさん、こんにちは。きょうは、にほんごの もじを みます。はじめは、ひらがなです。「あ」は、ひらがなです。つぎは、カタカナです。「ア」は、カタカナです。どちらも、おなじ「あ」の おとです。",
-      "english": "Hello, everyone. Today we will look at Japanese characters. First is hiragana. 'あ' is hiragana. Next is katakana. 'ア' is katakana. Both have the same 'a' sound.",
-      "scriptPurpose": "Track A — The two kana scripts",
+      "durationSeconds": 13.37,
+      "transcript": "男性： こんにちは。お茶をお願いします。\n女性： こんにちは。温かいお茶ですか。冷たいお茶ですか。\n男性： 温かいお茶をお願いします。\n女性： はい、どうぞ。\n男性： ありがとうございます。",
+      "english": "Man: Hello. Tea, please.\nWoman: Hello. Hot tea or cold tea?\nMan: Hot tea, please.\nWoman: Certainly. Here you are.\nMan: Thank you.",
+      "scriptPurpose": "At the tea counter",
       "objectiveIds": [
-        "l0-m01-c01-l06-o1",
-        "l0-m01-c01-l06-o2"
+        "l0-m01-c01-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "こんにちは。お茶をお願いします。",
+          "english": "Hello. Tea, please.",
+          "startSeconds": 0.0,
+          "endSeconds": 2.44
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "こんにちは。温かいお茶ですか。冷たいお茶ですか。",
+          "english": "Hello. Hot tea or cold tea?",
+          "startSeconds": 2.72,
+          "endSeconds": 7.46
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "温かいお茶をお願いします。",
+          "english": "Hot tea, please.",
+          "startSeconds": 7.74,
+          "endSeconds": 9.92
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい、どうぞ。",
+          "english": "Certainly. Here you are.",
+          "startSeconds": 10.2,
+          "endSeconds": 11.54
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ありがとうございます。",
+          "english": "Thank you.",
+          "startSeconds": 11.82,
+          "endSeconds": 13.37
+        }
       ],
       "rights": {
-        "source": "Original academy-authored script synthesized using MeloTTS Japanese weights",
-        "license": "MIT (MeloTTS Japanese model); Cloudflare Workers AI Customer Content",
+        "source": "Original academy-authored two-person conversation performed by licensed AivisSpeech local models",
+        "license": "AivisHub voice models ACML 1.0 (model-specific restrictions apply)",
         "licenseUris": [
-          "https://huggingface.co/myshell-ai/MeloTTS-Japanese",
-          "https://developers.cloudflare.com/workers-ai/platform/data-usage/"
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48",
+          "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md"
         ],
         "redistributionCleared": true,
-        "attribution": "MeloTTS by MyShell.ai; synthetic audio. No human speech clone."
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
       },
       "qa": {
         "binarySignatureChecked": true,
@@ -42,7 +85,9 @@
         "nativePronunciationReviewed": false,
         "transcriptMatchedToAudio": false,
         "playbackTested": false,
-        "notes": "Original WAV SHA-256 verified before binary-safe migration to public/audio; browser playback and byte-range tests required. Independent Japanese pronunciation review still pending."
+        "sha256": "19c8e3946999a4e4d90bdadff8941c33aefd06cadd9dc3416e307b32001b7b65",
+        "bytes": 1178840,
+        "notes": "Two actual alternating speakers synthesized offline, licensed ACML models pinned by SHA256; no independent Japanese pronunciation or assessment review has occurred. Browser tests are separate."
       }
     },
     {
@@ -50,29 +95,72 @@
       "status": "rights-cleared",
       "language": "ja-JP",
       "speakerIds": [
-        "melotts-japanese-synthetic"
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
       ],
-      "mediaPath": "/audio/fja-lesson-audio-l06-b.wav",
+      "mediaPath": "/audio/fja-l06-real-dialogue-b-v2.wav",
       "format": "audio/wav",
       "sampleRateHz": 44100,
       "channels": 1,
-      "durationSeconds": 11.25,
-      "transcript": "つぎは、かんじです。「山」は、かんじです。「やま」と よみます。「さくら」は、ひらがなです。ローマじは、アルファベットで にほんごを かく ほうほうです。",
-      "english": "Next is kanji. '山' is kanji; it is read yama. 'さくら' is hiragana. Romaji is a way to write Japanese using the Latin alphabet.",
-      "scriptPurpose": "Track B — Kanji and romaji",
+      "durationSeconds": 16.41,
+      "transcript": "女性： おはようございます。今日はいい天気ですね。\n男性： おはようございます。そうですね。あの山がきれいですね。\n女性： 山の近くに桜がありますよ。\n男性： そうですか。じゃあ、一緒に行きましょう。\n女性： はい、行きましょう。",
+      "english": "Woman: Good morning. Nice weather today, isn't it?\nMan: Good morning. Yes, it is. That mountain is beautiful.\nWoman: There are cherry blossoms near the mountain.\nMan: Oh, really? Then let's go together.\nWoman: Yes, let's go.",
+      "scriptPurpose": "A walk by the mountain",
       "objectiveIds": [
-        "l0-m01-c01-l06-o1",
         "l0-m01-c01-l06-o2"
       ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "おはようございます。今日はいい天気ですね。",
+          "english": "Good morning. Nice weather today, isn't it?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.56
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "おはようございます。そうですね。あの山がきれいですね。",
+          "english": "Good morning. Yes, it is. That mountain is beautiful.",
+          "startSeconds": 3.84,
+          "endSeconds": 7.96
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "山の近くに桜がありますよ。",
+          "english": "There are cherry blossoms near the mountain.",
+          "startSeconds": 8.24,
+          "endSeconds": 11.17
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "そうですか。じゃあ、一緒に行きましょう。",
+          "english": "Oh, really? Then let's go together.",
+          "startSeconds": 11.45,
+          "endSeconds": 14.31
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい、行きましょう。",
+          "english": "Yes, let's go.",
+          "startSeconds": 14.59,
+          "endSeconds": 16.41
+        }
+      ],
       "rights": {
-        "source": "Original academy-authored script synthesized using MeloTTS Japanese weights",
-        "license": "MIT (MeloTTS Japanese model); Cloudflare Workers AI Customer Content",
+        "source": "Original academy-authored two-person conversation performed by licensed AivisSpeech local models",
+        "license": "AivisHub voice models ACML 1.0 (model-specific restrictions apply)",
         "licenseUris": [
-          "https://huggingface.co/myshell-ai/MeloTTS-Japanese",
-          "https://developers.cloudflare.com/workers-ai/platform/data-usage/"
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48",
+          "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md"
         ],
         "redistributionCleared": true,
-        "attribution": "MeloTTS by MyShell.ai; synthetic audio. No human speech clone."
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
       },
       "qa": {
         "binarySignatureChecked": true,
@@ -82,7 +170,9 @@
         "nativePronunciationReviewed": false,
         "transcriptMatchedToAudio": false,
         "playbackTested": false,
-        "notes": "Original WAV SHA-256 verified before binary-safe migration to public/audio; browser playback and byte-range tests required. Independent Japanese pronunciation review still pending."
+        "sha256": "3c230ac0773a383d990ff8c20622b2d59e0e235c218932b09d5ac43c4fba51a8",
+        "bytes": 1447256,
+        "notes": "Two actual alternating speakers synthesized offline, licensed ACML models pinned by SHA256; no independent Japanese pronunciation or assessment review has occurred. Browser tests are separate."
       }
     }
   ]
