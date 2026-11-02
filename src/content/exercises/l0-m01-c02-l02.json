@@ -412,7 +412,6 @@
         "word-ie"
       ],
       "prompt": "Type the Japanese word for house (kana or lowercase romaji).",
-      "example": "Picture: a house",
       "answerKey": {
         "accepted": [
           "いえ",
@@ -439,7 +438,6 @@
         "word-isu"
       ],
       "prompt": "Type the Japanese word for chair (kana or lowercase romaji).",
-      "example": "Picture: a chair",
       "answerKey": {
         "accepted": [
           "いす",
@@ -466,7 +464,6 @@
         "word-kasa"
       ],
       "prompt": "Type the Japanese word for umbrella (kana or lowercase romaji).",
-      "example": "Picture: an umbrella",
       "answerKey": {
         "accepted": [
           "かさ",
@@ -493,7 +490,6 @@
         "word-aoi"
       ],
       "prompt": "Type the adjective blue (kana or lowercase romaji), as in 'blue umbrella'.",
-      "example": "あおい かさ",
       "answerKey": {
         "accepted": [
           "あおい",
