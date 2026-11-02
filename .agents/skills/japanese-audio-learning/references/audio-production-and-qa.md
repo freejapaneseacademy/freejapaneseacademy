@@ -15,3 +15,7 @@ Prefer accessible broadly supported audio such as MP3 for the web (verify codec 
 
 ## Rights and QA checklist
 Japanese pronunciation by human review; readings, particles and mora timing verified; volume and clipping checked; language tag and voices documented; transcript synchronized; translations checked; optional captions available; rights-cleared for worldwide redistribution; attribution in project ledger; no unconsented cloned voices; works on low-data mobile connection. Automated scripts validate only fields, not sound quality.
+
+## Model policy (supersedes earlier generation suggestions)
+
+For NEW recordings, follow `docs/audio/TTS_GENERATION_POLICY.md`: prefer Qwen3-TTS CustomVoice `ono_anna` in Japanese with offline GitHub Actions/speech.cpp. This does not certify the resulting audio or authorize replacing existing lesson files. Candidate audio must pass recorded, transcript-checked and pronunciation-reviewed stages before publication. Cloudflare MeloTTS should not be the new default.
