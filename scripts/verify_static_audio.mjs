@@ -4,7 +4,6 @@ import { createHash } from 'node:crypto';
 const tracks=[
  {path:'public/audio/fja-lesson-audio-l06-a.wav',size:1344706,sha:'da38bd5223c82181281514fea1b382fff872936d602affdb69830e9c7fdda703'},
  {path:'public/audio/fja-lesson-audio-l06-b.wav',size:992532,sha:'69ae9543c408a3f973e0dec3a495fa128c7b68e63b43aa5dfb007bb741b11d3b'},
-,
  {path:'public/audio/fja-l06-real-dialogue-a-v2.wav',size:1178840,sha:'19c8e3946999a4e4d90bdadff8941c33aefd06cadd9dc3416e307b32001b7b65'},
  {path:'public/audio/fja-l06-real-dialogue-b-v2.wav',size:1447256,sha:'3c230ac0773a383d990ff8c20622b2d59e0e235c218932b09d5ac43c4fba51a8'}];
 for (const track of tracks) {
