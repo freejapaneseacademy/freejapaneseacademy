@@ -1,0 +1,485 @@
+{
+  "id": "l0-m01-c01-l03-check-v1",
+  "lessonId": "l0-m01-c01-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m01-c01-l03-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-katakana"
+      ],
+      "prompt": "Which part of わたしはコーヒーをのみます is written in katakana?",
+      "example": "わたしはコーヒーをのみます。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "わたし",
+          "rationale": "Not this choice. コーヒー is a katakana loanword; the particles and verb ending use hiragana."
+        },
+        {
+          "id": "b",
+          "text": "コーヒー",
+          "rationale": "Correct: コーヒー is a katakana loanword; the particles and verb ending use hiragana."
+        },
+        {
+          "id": "c",
+          "text": "のみます",
+          "rationale": "Not this choice. コーヒー is a katakana loanword; the particles and verb ending use hiragana."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "コーヒー is a katakana loanword; the particles and verb ending use hiragana.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "particle-wa"
+      ],
+      "prompt": "In わたしはパンをたべます, which part marks the topic?",
+      "example": "わたしはパンをたべます。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "は after わたし",
+          "rationale": "Correct: The particle は follows the topic わたし; it is pronounced wa in this role."
+        },
+        {
+          "id": "b",
+          "text": "を after パン",
+          "rationale": "Not this choice. The particle は follows the topic わたし; it is pronounced wa in this role."
+        },
+        {
+          "id": "c",
+          "text": "たべます",
+          "rationale": "Not this choice. The particle は follows the topic わたし; it is pronounced wa in this role."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The particle は follows the topic わたし; it is pronounced wa in this role.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "particle-o"
+      ],
+      "prompt": "What is the direct object in わたしはおちゃをのみます?",
+      "example": "わたしはおちゃをのみます。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "わたし",
+          "rationale": "Not this choice. おちゃ (tea) is what is drunk; を follows the object."
+        },
+        {
+          "id": "b",
+          "text": "おちゃ",
+          "rationale": "Correct: おちゃ (tea) is what is drunk; を follows the object."
+        },
+        {
+          "id": "c",
+          "text": "のみます",
+          "rationale": "Not this choice. おちゃ (tea) is what is drunk; を follows the object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "おちゃ (tea) is what is drunk; を follows the object.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "order-verb-final"
+      ],
+      "prompt": "Which is the natural basic order for 'I drink coffee' in this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "わたしはコーヒーをのみます。",
+          "rationale": "Correct: Topic は, object を, then the polite action verb is the default teaching pattern."
+        },
+        {
+          "id": "b",
+          "text": "わたしはのみますコーヒーを。",
+          "rationale": "Not this choice. Topic は, object を, then the polite action verb is the default teaching pattern."
+        },
+        {
+          "id": "c",
+          "text": "コーヒーのみますわたしはを。",
+          "rationale": "Not this choice. Topic は, object を, then the polite action verb is the default teaching pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Topic は, object を, then the polite action verb is the default teaching pattern.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "particle-wa"
+      ],
+      "prompt": "How is は pronounced when it marks the topic?",
+      "example": "わたしは",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ha",
+          "rationale": "Not this choice. Topic-particle は is pronounced wa, although ordinary は in words is usually ha."
+        },
+        {
+          "id": "b",
+          "text": "wa",
+          "rationale": "Correct: Topic-particle は is pronounced wa, although ordinary は in words is usually ha."
+        },
+        {
+          "id": "c",
+          "text": "o",
+          "rationale": "Not this choice. Topic-particle は is pronounced wa, although ordinary は in words is usually ha."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Topic-particle は is pronounced wa, although ordinary は in words is usually ha.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "particle-o"
+      ],
+      "prompt": "What does を do in コーヒーをのみます?",
+      "example": "コーヒーをのみます。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It marks コーヒー as the direct object.",
+          "rationale": "Correct: を follows the object and is pronounced o in modern standard Japanese."
+        },
+        {
+          "id": "b",
+          "text": "It turns the sentence into English.",
+          "rationale": "Not this choice. を follows the object and is pronounced o in modern standard Japanese."
+        },
+        {
+          "id": "c",
+          "text": "It means 'I'.",
+          "rationale": "Not this choice. を follows the object and is pronounced o in modern standard Japanese."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "を follows the object and is pronounced o in modern standard Japanese.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o4"
+      ],
+      "knowledgeItemIds": [
+        "copula-desu"
+      ],
+      "prompt": "Which sentence is a polite noun-predicate statement ('This is a book')?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "これはほんです。",
+          "rationale": "Correct: です completes a polite noun-predicate statement. The second sentence means 'This reads a book' and is not the requested meaning."
+        },
+        {
+          "id": "b",
+          "text": "これはほんをよみます。",
+          "rationale": "Not this choice. です completes a polite noun-predicate statement. The second sentence means 'This reads a book' and is not the requested meaning."
+        },
+        {
+          "id": "c",
+          "text": "これはほんですます。",
+          "rationale": "Not this choice. です completes a polite noun-predicate statement. The second sentence means 'This reads a book' and is not the requested meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "です completes a polite noun-predicate statement. The second sentence means 'This reads a book' and is not the requested meaning.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o4"
+      ],
+      "knowledgeItemIds": [
+        "verb-masu"
+      ],
+      "prompt": "Why is のみますです not a normal polite form?",
+      "example": "のみますです",
+      "choices": [
+        {
+          "id": "a",
+          "text": "のみます is already a polite action verb.",
+          "rationale": "Correct: Polite 〜ます verb forms do not normally take an additional です."
+        },
+        {
+          "id": "b",
+          "text": "です is needed after every verb.",
+          "rationale": "Not this choice. Polite 〜ます verb forms do not normally take an additional です."
+        },
+        {
+          "id": "c",
+          "text": "のみます means 'book'.",
+          "rationale": "Not this choice. Polite 〜ます verb forms do not normally take an additional です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Polite 〜ます verb forms do not normally take an additional です.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "topic-omission"
+      ],
+      "prompt": "Can コーヒーをのみます be a complete natural utterance?",
+      "example": "コーヒーをのみます。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, if the person is understood from context.",
+          "rationale": "Correct: Japanese often omits an understood topic or subject; the object and verb can suffice."
+        },
+        {
+          "id": "b",
+          "text": "No, every sentence must say わたし.",
+          "rationale": "Not this choice. Japanese often omits an understood topic or subject; the object and verb can suffice."
+        },
+        {
+          "id": "c",
+          "text": "No, Japanese forbids sentences without kanji.",
+          "rationale": "Not this choice. Japanese often omits an understood topic or subject; the object and verb can suffice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Japanese often omits an understood topic or subject; the object and verb can suffice.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "particle-contrast"
+      ],
+      "prompt": "What changes when コーヒーをのみます becomes コーヒーはのみます?",
+      "example": "コーヒーはのみます。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coffee is presented as the topic, possibly in contrast.",
+          "rationale": "Correct: は topicalizes coffee; を marks it as an object. Both sentences can be grammatical, but their focus differs."
+        },
+        {
+          "id": "b",
+          "text": "Coffee becomes a verb.",
+          "rationale": "Not this choice. は topicalizes coffee; を marks it as an object. Both sentences can be grammatical, but their focus differs."
+        },
+        {
+          "id": "c",
+          "text": "The sentence becomes English.",
+          "rationale": "Not this choice. は topicalizes coffee; を marks it as an object. Both sentences can be grammatical, but their focus differs."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "は topicalizes coffee; を marks it as an object. Both sentences can be grammatical, but their focus differs.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-mix"
+      ],
+      "prompt": "Which statement about script roles is accurate?",
+      "example": "私 は コーヒー を 飲みます",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hiragana can write particles and verb endings, alongside kanji and katakana.",
+          "rationale": "Correct: Japanese mixes scripts; their common functions are tendencies, not rigid boundaries."
+        },
+        {
+          "id": "b",
+          "text": "All Japanese sentences must be written only in kanji.",
+          "rationale": "Not this choice. Japanese mixes scripts; their common functions are tendencies, not rigid boundaries."
+        },
+        {
+          "id": "c",
+          "text": "Katakana cannot occur beside hiragana.",
+          "rationale": "Not this choice. Japanese mixes scripts; their common functions are tendencies, not rigid boundaries."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Japanese mixes scripts; their common functions are tendencies, not rigid boundaries.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l03-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "order-verb-final"
+      ],
+      "prompt": "What is the final action in せんせいはひらがなをかきます?",
+      "example": "せんせいはひらがなをかきます。",
+      "choices": [
+        {
+          "id": "a",
+          "text": "せんせい (teacher)",
+          "rationale": "Not this choice. かきます is the polite action verb at the end; ひらがな is what is written."
+        },
+        {
+          "id": "b",
+          "text": "ひらがな (hiragana)",
+          "rationale": "Not this choice. かきます is the polite action verb at the end; ひらがな is what is written."
+        },
+        {
+          "id": "c",
+          "text": "かきます (writes)",
+          "rationale": "Correct: かきます is the polite action verb at the end; ひらがな is what is written."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "かきます is the polite action verb at the end; ひらがな is what is written.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "grammar-recognition",
+        "sentence-function"
+      ]
+    }
+  ]
+}
