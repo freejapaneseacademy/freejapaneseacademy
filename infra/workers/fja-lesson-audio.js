@@ -8,6 +8,9 @@ const TRACKS = Object.freeze({
   '/l0-m01-c01-l06-b.wav': Object.freeze({ key: 'l0-m01-c01-l06-track-b.wav.b64', bytes: 992532 }),
 });
 const inFlight = new Map();
+// Per-isolate warm copy: essential when the Cache API is unavailable on workers.dev.
+const warm = new Map();
+const MEMORY_CACHE_MS = 15 * 60 * 1000;
 const FULL_CACHE_SECONDS = 86400;
 const PUBLIC_CACHE_SECONDS = 3600;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -40,6 +43,9 @@ function edgeCache() {
   catch (_) { return null; }
 }
 async function loadAudio(track, pathname, event) {
+  const hot = warm.get(track.key);
+  if (hot && hot.expires > Date.now()) return { bytes: hot.bytes, source: 'memory' };
+  if (hot) warm.delete(track.key);
   const cache = edgeCache();
   const cacheKey = new Request('https://fja-lesson-audio.internal.invalid' + pathname);
   if (cache) {
@@ -57,6 +63,7 @@ async function loadAudio(track, pathname, event) {
   }
   if (!inFlight.has(track.key)) {
     const work = readFromKV(track).then(bytes => {
+      warm.set(track.key, { bytes, expires: Date.now() + MEMORY_CACHE_MS });
       if (cache) {
         const response = new Response(bytes, {
           headers: { 'Content-Type': 'audio/wav', 'Cache-Control': 'public, max-age=' + FULL_CACHE_SECONDS },
