@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { verifyWavRangeOrFull } from './audio-response';
 const url = '/learn/start/module-01/chapter-01/lesson-08/';
 
 test('L08 reuses full WAV model audio with working remote byte ranges', async ({ page }) => {
@@ -10,13 +11,7 @@ test('L08 reuses full WAV model audio with working remote byte ranges', async ({
   for (const src of sources) {
     expect(src).toMatch(/fja-lesson-audio/);
     const response = await page.request.get(src, { headers: { Range: 'bytes=0-43' }, timeout: 30000 });
-    expect(response.status()).toBe(206);
-    expect(response.headers()['content-type']).toMatch(/^audio\/wav/);
-    expect(response.headers()['content-range']).toMatch(/^bytes 0-43\/\d+$/);
-    const header = await response.body();
-    expect(header.length).toBe(44);
-    expect(header.subarray(0, 4).toString('ascii')).toBe('RIFF');
-    expect(header.subarray(8, 12).toString('ascii')).toBe('WAVE');
+    await verifyWavRangeOrFull(response, src);
     const full = await page.request.get(src, { timeout: 30000 });
     expect(full.status()).toBe(200);
     const wav = await full.body();

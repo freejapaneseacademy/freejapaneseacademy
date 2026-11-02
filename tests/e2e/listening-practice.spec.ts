@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { verifyWavRangeOrFull } from './audio-response';
 test('L06 actual hosted WAVs return complete byte-range content', async ({page})=>{
   await page.goto('/learn/start/module-01/chapter-01/lesson-06/');
   const media = page.locator('.listening-practice audio');
@@ -7,13 +8,7 @@ test('L06 actual hosted WAVs return complete byte-range content', async ({page})
   expect(new Set(sources).size).toBe(2);
   for(const src of sources){
     const res=await page.request.get(src,{headers:{Range:'bytes=0-43'},timeout:30000});
-    expect(res.status(),src+' must return 206 Partial Content').toBe(206);
-    expect(res.headers()['content-type']).toMatch(/^audio\/wav/);
-    expect(res.headers()['content-range']).toMatch(/^bytes 0-43\/\d+$/);
-    const bytes=await res.body();
-    expect(bytes.length).toBe(44);
-    expect(bytes.subarray(0,4).toString('ascii')).toBe('RIFF');
-    expect(bytes.subarray(8,12).toString('ascii')).toBe('WAVE');
+    await verifyWavRangeOrFull(res, src);
   }
 });
 test('L06 blind listening saves progress, transcript reveal switches to assisted',async({page})=>{

@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { verifyWavRangeOrFull } from './audio-response';
 const url='/learn/start/module-01/chapter-01/checkpoint/';
 
 test('Chapter 01 checkpoint shows real sources, scores 16 items, saves progress and completion',async({page})=>{
@@ -54,12 +55,7 @@ test('Checkpoint recordings return genuine WAV byte ranges',async({page})=>{
   expect(sources).toHaveLength(2);
   for(const src of sources){
     const res=await page.request.get(src,{headers:{Range:'bytes=0-43'},timeout:30000});
-    expect(res.status()).toBe(206);
-    expect(res.headers()['content-type']).toMatch(/^audio\/wav/);
-    const header=await res.body();
-    expect(header.length).toBe(44);
-    expect(header.subarray(0,4).toString('ascii')).toBe('RIFF');
-    expect(header.subarray(8,12).toString('ascii')).toBe('WAVE');
+    await verifyWavRangeOrFull(res, src);
   }
 });
 
