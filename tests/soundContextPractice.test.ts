@@ -31,9 +31,9 @@ describe('L0-M01-C02-L01 original vowel context bank', () => {
   it('keeps written mora counts separate from auditory certification', () => {
     const length = soundContextQuestions.find(q => q.knowledgeItemIds.includes('mora-length-preview'))!;
     expect(length.answerKey.choiceId).toBe('longer');
-    expect(length.explanation).toMatch(/extra timing unit/);
+    expect(length.explanation).toMatch(/previews vowel length/);
     const limits = soundContextQuestions.find(q => q.knowledgeItemIds.includes('sound-learning-limits'))!;
     expect(limits.answerKey.choiceId).toBe('written');
-    expect(limits.explanation).toMatch(/real audio/i);
+    expect(limits.explanation).toMatch(/genuine recordings/i);
   });
 });
