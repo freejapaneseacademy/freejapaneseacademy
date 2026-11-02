@@ -56,6 +56,7 @@ export default function ProgressPanel() {
     : quizId === 'l0-m01-c02-l01-check-v1' ? 'Foundations: Five vowels and mora timing'
     : quizId === 'l0-m01-c02-l02-check-v1' ? 'Foundations: Vowel words and meanings'
     : quizId === 'l0-m01-c02-l03-check-v1' ? 'Foundations: Vowel length and word function'
+    : quizId === 'l0-m01-c02-l04-check-v1' ? 'Foundations: Sound-symbol recognition and typing'
     : quizId === 'l0-m01-c01-chk-v1' ? 'Foundations: Chapter 01 mixed checkpoint'
     : quizId === 'hiragana-demo-v1' ? 'Hiragana demo quiz' : 'Japanese practice quiz';
   return <div>
