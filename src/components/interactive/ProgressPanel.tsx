@@ -51,6 +51,7 @@ export default function ProgressPanel() {
     : quizId === 'l0-m01-c01-l04-check-v1' ? 'Foundations: Kana recognition and typing'
     : quizId === 'l0-m01-c01-l05-check-v1' ? 'Foundations: Chart reading and evidence'
     : quizId === 'l0-m01-c01-l06-check-v1' ? 'Foundations: Japanese listening overview'
+    : quizId === 'l0-m01-c01-l06-check-v2' ? 'Foundations: Japanese conversation listening'
     : quizId === 'l0-m01-c01-l07-check-v1' ? 'Foundations: Script writing and typing'
     : quizId === 'l0-m01-c01-l08-check-v1' ? 'Foundations: Speaking phrase preparation'
     : quizId === 'l0-m01-c02-l01-check-v1' ? 'Foundations: Five vowels and mora timing'
@@ -58,7 +59,8 @@ export default function ProgressPanel() {
     : quizId === 'l0-m01-c02-l03-check-v1' ? 'Foundations: Vowel length and word function'
     : quizId === 'l0-m01-c02-l04-check-v1' ? 'Foundations: Sound-symbol recognition and typing'
     : quizId === 'l0-m01-c02-l05-check-v1' ? 'Foundations: Pronunciation-map reading'
-    : quizId === 'l0-m01-c01-chk-v1' ? 'Foundations: Chapter 01 mixed checkpoint'
+    : quizId === 'l0-m01-c01-chk-v1' ? 'Foundations: Chapter 01 mixed checkpoint (original listening)'
+    : quizId === 'l0-m01-c01-chk-v2' ? 'Foundations: Chapter 01 mixed checkpoint'
     : quizId === 'hiragana-demo-v1' ? 'Hiragana demo quiz' : 'Japanese practice quiz';
   return <div>
     <div className="stat-grid">
