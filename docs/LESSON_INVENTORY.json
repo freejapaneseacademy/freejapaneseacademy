@@ -218,6 +218,22 @@
       "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c02-l05",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c02",
+      "slot": "L05",
+      "title": "Reading practice — Original Japanese pronunciation map",
+      "content": "src/content/lessons/l0/japanese-sound-system-reading.mdx",
+      "url": "/learn/start/module-01/chapter-02/lesson-05/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese-language review not claimed",
+      "assessmentReview": "pending — independent assessment editor review not claimed",
+      "audio": "not required for written L05; no recording or listening proficiency claimed",
+      "noindex": false,
+      "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
