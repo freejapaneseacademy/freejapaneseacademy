@@ -8,6 +8,7 @@ on:
       - .github/workflows/aivis-kohaku-trial.yml
       - scripts/tts/aivis_kohaku_l06.json
       - scripts/tts/aivis_kohaku_generate.py
+      - public/voice-preview/kohaku/index.html
   workflow_dispatch:
 
 permissions:
