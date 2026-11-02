@@ -28,6 +28,9 @@ export function validateListeningQuestions() {
     if(!/^\/audio\/[a-z0-9-]+\.wav$/.test(track.url) || !track.transcript || track.durationSeconds < 3) throw new Error('Missing real media metadata.');
   }
   for(const q of listeningQuestions) {
+    const sourceTrack=listeningTracks.find(x=>x.assetId===q.trackId);
+    if(!sourceTrack || !sourceTrack.transcript.includes(q.evidence)) throw new Error('Unheard answer evidence: '+q.id);
+    if(/hiragana|katakana|kanji|romaji|script|written|printed/i.test(q.prompt)) throw new Error('Reading-only question in listening exercise: '+q.id);
     if(ids.has(q.id)) throw new Error('Duplicate question ID.');
     ids.add(q.id);
     const c=q.choices.map(x=>x.id);
