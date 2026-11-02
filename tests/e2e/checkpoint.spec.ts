@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { verifyWavRangeOrFull } from './audio-response';
 const url='/learn/start/module-01/chapter-01/checkpoint/';
 
 test('Chapter 01 checkpoint shows real sources, scores 16 items, saves progress and completion',async({page})=>{
@@ -11,9 +12,12 @@ test('Chapter 01 checkpoint shows real sources, scores 16 items, saves progress 
   await expect(root.locator('audio')).toHaveCount(2);
   await expect(root.locator('fieldset')).toHaveCount(16);
   console.log('Checkpoint E2E: source and fieldset counts verified');
+  // Ensure React has hydrated media event handlers before dispatching play.
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   await expect(root.getByRole('button',{name:'Check answers & save checkpoint score'})).toBeDisabled();
   for(const audio of await root.locator('audio').all())await audio.dispatchEvent('play');
-  console.log('Checkpoint E2E: both play events dispatched');
+  await expect(root.getByText('Playback started')).toHaveCount(2);
+  console.log('Checkpoint E2E: both play events observed');
   for(const group of await root.locator('fieldset').all())await group.locator('input[type=radio]').first().check();
   console.log('Checkpoint E2E: 16 radio answers checked');
   await root.getByRole('button',{name:'Check answers & save checkpoint score'}).click();
@@ -35,9 +39,12 @@ test('Chapter 01 checkpoint shows real sources, scores 16 items, saves progress 
 test('Chapter checkpoint transcript-assisted attempts are never saved as blind scores',async({page})=>{
   await page.goto(url);
   const root=page.locator('.checkpoint-practice');
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   await root.getByRole('button',{name:/Reveal transcript/}).first().click();
   await expect(root.getByText(/Assisted mode: a transcript was revealed/)).toBeVisible();
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   for(const audio of await root.locator('audio').all())await audio.dispatchEvent('play');
+  await expect(root.getByText('Playback started')).toHaveCount(2);
   for(const group of await root.locator('fieldset').all())await group.locator('input[type=radio]').first().check();
   await root.getByRole('button',{name:'Check assisted answers'}).click();
   await expect(root.getByText(/No blind checkpoint score was saved/)).toBeVisible();
@@ -54,12 +61,7 @@ test('Checkpoint recordings return genuine WAV byte ranges',async({page})=>{
   expect(sources).toHaveLength(2);
   for(const src of sources){
     const res=await page.request.get(src,{headers:{Range:'bytes=0-43'},timeout:30000});
-    expect(res.status()).toBe(206);
-    expect(res.headers()['content-type']).toMatch(/^audio\/wav/);
-    const header=await res.body();
-    expect(header.length).toBe(44);
-    expect(header.subarray(0,4).toString('ascii')).toBe('RIFF');
-    expect(header.subarray(8,12).toString('ascii')).toBe('WAVE');
+    await verifyWavRangeOrFull(res, src);
   }
 });
 

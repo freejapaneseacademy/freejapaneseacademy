@@ -25,7 +25,7 @@ export function validateListeningQuestions() {
   const tracks = new Set(listeningTracks.map(t => t.assetId));
   if(listeningTracks.length !== 2 || listeningQuestions.length !== 8) throw new Error('L06 needs two recordings and eight original questions.');
   for(const track of listeningTracks) {
-    if(!track.url.startsWith('https://') || !track.transcript || track.durationSeconds < 3) throw new Error('Missing real media metadata.');
+    if(!/^\/audio\/[a-z0-9-]+\.wav$/.test(track.url) || !track.transcript || track.durationSeconds < 3) throw new Error('Missing real media metadata.');
   }
   for(const q of listeningQuestions) {
     if(ids.has(q.id)) throw new Error('Duplicate question ID.');

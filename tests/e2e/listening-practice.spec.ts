@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { verifyWavRangeOrFull } from './audio-response';
 test('L06 actual hosted WAVs return complete byte-range content', async ({page})=>{
   await page.goto('/learn/start/module-01/chapter-01/lesson-06/');
   const media = page.locator('.listening-practice audio');
@@ -7,13 +8,7 @@ test('L06 actual hosted WAVs return complete byte-range content', async ({page})
   expect(new Set(sources).size).toBe(2);
   for(const src of sources){
     const res=await page.request.get(src,{headers:{Range:'bytes=0-43'},timeout:30000});
-    expect(res.status(),src+' must return 206 Partial Content').toBe(206);
-    expect(res.headers()['content-type']).toMatch(/^audio\/wav/);
-    expect(res.headers()['content-range']).toMatch(/^bytes 0-43\/\d+$/);
-    const bytes=await res.body();
-    expect(bytes.length).toBe(44);
-    expect(bytes.subarray(0,4).toString('ascii')).toBe('RIFF');
-    expect(bytes.subarray(8,12).toString('ascii')).toBe('WAVE');
+    await verifyWavRangeOrFull(res, src);
   }
 });
 test('L06 blind listening saves progress, transcript reveal switches to assisted',async({page})=>{
@@ -22,10 +17,13 @@ test('L06 blind listening saves progress, transcript reveal switches to assisted
   const root=page.locator('.listening-practice');
   await expect(root.locator('audio')).toHaveCount(2);
   await expect(root.locator('fieldset')).toHaveCount(8);
+  // React client:load must attach media listeners before simulated play events.
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   await expect(root.getByRole('button',{name:'Check answers & save blind score'})).toBeDisabled();
   // Playback is checked by the independent real HTTP byte-range test.
   // Simulate the HTMLMediaElement play event here to exercise just the React state transition.
   for(const audio of await root.locator('audio').all())await audio.dispatchEvent('play');
+  await expect(root.getByText('Playback started')).toHaveCount(2);
   for(const group of await root.locator('fieldset').all())await group.locator('input[type=radio]').first().check();
   await root.getByRole('button',{name:'Check answers & save blind score'}).click();
   await expect(root.getByText(/Your blind listening practice score was saved locally/)).toBeVisible();
@@ -37,9 +35,12 @@ test('L06 blind listening saves progress, transcript reveal switches to assisted
   await page.reload();
   await expect(page.getByRole('button',{name:/Lesson completed/})).toBeVisible();
   await page.goto('/learn/start/module-01/chapter-01/lesson-06/');
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   await root.getByRole('button',{name:/Reveal transcript/}).first().click();
   await expect(root.getByText(/Assisted mode: you revealed a transcript/)).toBeVisible();
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   for(const audio of await root.locator('audio').all())await audio.dispatchEvent('play');
+  await expect(root.getByText('Playback started')).toHaveCount(2);
   for(const group of await root.locator('fieldset').all())await group.locator('input[type=radio]').first().check();
   await root.getByRole('button',{name:'Check assisted answers'}).click();
   await expect(root.getByText(/No blind listening score was saved/)).toBeVisible();

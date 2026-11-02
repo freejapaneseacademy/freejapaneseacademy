@@ -37,7 +37,7 @@ export function validateSpeakingPreparation() {
   const assetIds=new Set(speakingTracks.map(x=>x.assetId));
   if(bank.modelAssetIds.some(x=>!assetIds.has(x))) throw new Error('Model references do not resolve.');
   for(const track of speakingTracks) {
-    if(!track.url.startsWith('https://') || !track.transcript || track.durationSeconds<5) throw new Error('Model audio is missing.');
+    if(!/^\/audio\/[a-z0-9-]+\.wav$/.test(track.url) || !track.transcript || track.durationSeconds<5) throw new Error('Model audio is missing.');
   }
   for(const cue of speakingCues) {
     const transcript=speakingTracks.find(x=>x.id===cue.track)?.transcript ?? '';
