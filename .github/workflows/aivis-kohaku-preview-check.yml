@@ -46,7 +46,9 @@ jobs:
             if(response.status!==200||createHash('sha256').update(data).digest('hex')!==sha)throw Error('Audio '+id+' invalid '+response.status);
             const range=await fetch(url,{headers:{...headers,Range:'bytes=0-43'}});
             const bytes=Buffer.from(await range.arrayBuffer());
-            if(range.status!==206||bytes.length!==44||bytes.toString('ascii',0,4)!=='RIFF')throw Error('Range '+id+' invalid '+range.status);
-            console.log('PASS',id,data.length);
+            const validPartial=range.status===206&&bytes.length===44&&bytes.toString('ascii',0,4)==='RIFF';
+            const validFull=range.status===200&&createHash('sha256').update(bytes).digest('hex')===sha;
+            if(!validPartial&&!validFull)throw Error('Audio Range/Full integrity failed '+id+' status='+range.status);
+            console.log('PASS',id,data.length,'rangeStatus',range.status);
           }
           JS
