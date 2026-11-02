@@ -1,0 +1,95 @@
+{
+  "voice": "コハク",
+  "style": "ノーマル",
+  "license": "ACML-1.0",
+  "credit": "AivisSpeech: コハク",
+  "candidateOnly": true,
+  "humanPronunciationReviewed": false,
+  "naturalnessReviewed": false,
+  "tracks": [
+    {
+      "id": "a",
+      "presetId": "calm",
+      "presetName": "Calm classroom teacher",
+      "parameters": {
+        "speedScale": 0.91,
+        "intonationScale": 0.7,
+        "tempoDynamicsScale": 0.65,
+        "pitchScale": 0,
+        "prePhonemeLength": 0.16,
+        "postPhonemeLength": 0.2
+      },
+      "transcript": "みなさん、こんにちは。今日は、日本語の文字について、いっしょに見ていきましょう。まず、ひらがなです。これは「あ」。次は、カタカナです。これは「ア」。形は違いますが、どちらも同じ「あ」の音です。",
+      "file": "track-a-teacher-calm.wav",
+      "durationSeconds": 18.97,
+      "bytes": 1673182,
+      "sha256": "94f5f6c468f4d5122defda486d90cd131097baead4255c954809d118b87a4b5c",
+      "sampleRateHz": 44100,
+      "sampledRms": 0.1383,
+      "sampledClipping": 0.0
+    },
+    {
+      "id": "b",
+      "presetId": "calm",
+      "presetName": "Calm classroom teacher",
+      "parameters": {
+        "speedScale": 0.91,
+        "intonationScale": 0.7,
+        "tempoDynamicsScale": 0.65,
+        "pitchScale": 0,
+        "prePhonemeLength": 0.16,
+        "postPhonemeLength": 0.2
+      },
+      "transcript": "次は、漢字です。「山」は漢字で、「やま」と読みます。そして「さくら」は、ひらがなで書かれています。最後に、ローマ字です。ローマ字は、アルファベットを使って日本語を書く方法です。",
+      "file": "track-b-teacher-calm.wav",
+      "durationSeconds": 17.07,
+      "bytes": 1505334,
+      "sha256": "f9a5c6e930b513f36d907a9ef4150d61cdd3548d0cfe85b30e3e9622bdf2e476",
+      "sampleRateHz": 44100,
+      "sampledRms": 0.1457,
+      "sampledClipping": 0.0
+    },
+    {
+      "id": "a",
+      "presetId": "warm",
+      "presetName": "Friendly classroom teacher",
+      "parameters": {
+        "speedScale": 0.96,
+        "intonationScale": 0.84,
+        "tempoDynamicsScale": 0.83,
+        "pitchScale": 0,
+        "prePhonemeLength": 0.13,
+        "postPhonemeLength": 0.16
+      },
+      "transcript": "みなさん、こんにちは。今日は、日本語の文字について、いっしょに見ていきましょう。まず、ひらがなです。これは「あ」。次は、カタカナです。これは「ア」。形は違いますが、どちらも同じ「あ」の音です。",
+      "file": "track-a-teacher-warm.wav",
+      "durationSeconds": 17.74,
+      "bytes": 1564882,
+      "sha256": "f1047f54d0acbc1b801df3c2e46b969d27eadd65fe2142347ce6222f175c4f0f",
+      "sampleRateHz": 44100,
+      "sampledRms": 0.1478,
+      "sampledClipping": 0.0
+    },
+    {
+      "id": "b",
+      "presetId": "warm",
+      "presetName": "Friendly classroom teacher",
+      "parameters": {
+        "speedScale": 0.96,
+        "intonationScale": 0.84,
+        "tempoDynamicsScale": 0.83,
+        "pitchScale": 0,
+        "prePhonemeLength": 0.13,
+        "postPhonemeLength": 0.16
+      },
+      "transcript": "次は、漢字です。「山」は漢字で、「やま」と読みます。そして「さくら」は、ひらがなで書かれています。最後に、ローマ字です。ローマ字は、アルファベットを使って日本語を書く方法です。",
+      "file": "track-b-teacher-warm.wav",
+      "durationSeconds": 16.28,
+      "bytes": 1435714,
+      "sha256": "b9afb8029df3bafa12dfbbc3fcaf9edd58c54185df05590292b6b4d08afa7e6b",
+      "sampleRateHz": 44100,
+      "sampledRms": 0.1323,
+      "sampledClipping": 0.0
+    }
+  ]
+}
