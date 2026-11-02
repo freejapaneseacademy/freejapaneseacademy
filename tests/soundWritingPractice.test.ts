@@ -38,7 +38,7 @@ describe('Chapter 02 L07 written Japanese production', () => {
   it('uses contextual guided choices and an ungraded self-review rubric', () => {
     expect(soundWritingCards).toHaveLength(4);
     expect(soundWritingCards.map(card => card.correct)).toEqual(['いえ', 'いいえ', 'おばさん', 'おばあさん']);
-    expect(soundWritingCards.every(card => card.options.includes(card.correct))).toBe(true);
+    expect(soundWritingCards.every(card => (card.options as readonly string[]).includes(card.correct))).toBe(true);
     expect(soundWritingRubric).toHaveLength(4);
     expect(new Set(soundWritingRubric.map(item => item.id)).size).toBe(4);
   });
