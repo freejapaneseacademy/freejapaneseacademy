@@ -1,0 +1,456 @@
+{
+  "lessonId": "l0-m01-c02-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m01-c02-l03-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "vowel-e"
+      ],
+      "prompt": "Which description best fits the Japanese vowel え?",
+      "example": "え",
+      "choices": [
+        {
+          "id": "steady",
+          "text": "A steady e vowel, without an English-style ending glide.",
+          "rationale": "Correct. The target is a relatively steady mid-front vowel."
+        },
+        {
+          "id": "ay",
+          "text": "The English letter name A, with a glide at the end.",
+          "rationale": "English 'ay' typically glides; it is not a dependable model for え."
+        },
+        {
+          "id": "oo",
+          "text": "A rounded English 'oo' sound.",
+          "rationale": "That is not the vowel category written え."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "steady"
+      },
+      "explanation": "え is the Japanese e vowel. English letter names can add glides that do not belong in the target.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "articulation-concept"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "vowel-u"
+      ],
+      "prompt": "Which beginner cue is most appropriate for う?",
+      "example": "う",
+      "choices": [
+        {
+          "id": "relaxed",
+          "text": "Keep the lips relatively relaxed; Japanese /u/ is typically less rounded than English 'oo'.",
+          "rationale": "Correct. Japanese /u/ is commonly relatively unrounded or compressed."
+        },
+        {
+          "id": "round",
+          "text": "Round the lips strongly exactly as for English 'oo' in 'food'.",
+          "rationale": "That English comparison can introduce too much rounding."
+        },
+        {
+          "id": "open",
+          "text": "Open the mouth widely as for あ.",
+          "rationale": "あ is an open vowel; う is high."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "relaxed"
+      },
+      "explanation": "Japanese う is a high vowel often produced with less lip rounding than English 'oo'. Written cues are not audio verification.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "articulation-concept"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-ie",
+        "mora-timing"
+      ],
+      "prompt": "How many morae are written in いえ (house)?",
+      "example": "いえ",
+      "choices": [
+        {
+          "id": "two",
+          "text": "2",
+          "rationale": "Correct: い・え is two timing units."
+        },
+        {
+          "id": "three",
+          "text": "3",
+          "rationale": "That would fit いいえ (no), with an additional い."
+        },
+        {
+          "id": "one",
+          "text": "1",
+          "rationale": "Both い and え contribute a mora."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "two"
+      },
+      "explanation": "いえ = い・え = two morae; it names a house in this context.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-iie",
+        "mora-length-i"
+      ],
+      "prompt": "How many morae are written in いいえ (no)?",
+      "example": "いいえ",
+      "choices": [
+        {
+          "id": "three",
+          "text": "3",
+          "rationale": "Correct: い・い・え has three morae."
+        },
+        {
+          "id": "two",
+          "text": "2",
+          "rationale": "That is the count for いえ, not いいえ."
+        },
+        {
+          "id": "four",
+          "text": "4",
+          "rationale": "There are only three written mora units here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "three"
+      },
+      "explanation": "いいえ is い・い・え, three morae, and means 'no' as a response.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-obaasan",
+        "mora-length-a",
+        "mora-nasal"
+      ],
+      "prompt": "Count the morae in おばあさん as written.",
+      "example": "おばあさん",
+      "choices": [
+        {
+          "id": "five",
+          "text": "5",
+          "rationale": "Correct: お・ば・あ・さ・ん = five."
+        },
+        {
+          "id": "four",
+          "text": "4",
+          "rationale": "Do not omit the extra あ or the final ん."
+        },
+        {
+          "id": "six",
+          "text": "6",
+          "rationale": "There are five morae in this word, not six."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "five"
+      },
+      "explanation": "おばあさん has five morae. The extra あ makes the a long, and ん also counts as one mora.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-obasan",
+        "word-obaasan"
+      ],
+      "prompt": "On a family chart, which label identifies the grandmother rather than the aunt?",
+      "example": "Family-chart labels",
+      "choices": [
+        {
+          "id": "grandmother",
+          "text": "おばあさん",
+          "rationale": "Correct in this family context; the long a is written ああ."
+        },
+        {
+          "id": "aunt",
+          "text": "おばさん",
+          "rationale": "In this chart おばさん labels the aunt; the a is short."
+        },
+        {
+          "id": "no",
+          "text": "いいえ",
+          "rationale": "This is a response meaning 'no', not a family label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "grandmother"
+      },
+      "explanation": "おばあさん (grandmother in this context) contains an extra あ compared with おばさん (aunt in this context). Both can have broader age-related meanings.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-ie",
+        "word-iie"
+      ],
+      "prompt": "Ren wants to politely answer 'No, that's not right.' Which beginning fits?",
+      "example": "____、ちがいます。",
+      "choices": [
+        {
+          "id": "iie",
+          "text": "いいえ",
+          "rationale": "Correct: いいえ is a negative reply."
+        },
+        {
+          "id": "ie",
+          "text": "いえ",
+          "rationale": "いえ is the noun 'house', not the negative response."
+        },
+        {
+          "id": "isu",
+          "text": "いす",
+          "rationale": "いす means 'chair', not 'no'."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "iie"
+      },
+      "explanation": "いいえ、ちがいます。 means 'No, that's not correct.' Do not replace いいえ with いえ.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o4"
+      ],
+      "knowledgeItemIds": [
+        "mora-length-a"
+      ],
+      "prompt": "Which explanation of a long vowel is accurate?",
+      "choices": [
+        {
+          "id": "time",
+          "text": "The vowel occupies an additional mora, not simply more volume.",
+          "rationale": "Correct. Length concerns timing, not loudness."
+        },
+        {
+          "id": "loud",
+          "text": "The vowel is the same length but shouted.",
+          "rationale": "Loudness does not create the additional mora."
+        },
+        {
+          "id": "stress",
+          "text": "The vowel is automatically stressed like an English stressed syllable.",
+          "rationale": "Stress and Japanese vowel length are different concepts."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "time"
+      },
+      "explanation": "A long vowel contributes an additional mora. Natural speech is not perfectly metronomic, but length is not the same as stress or volume.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-koukou",
+        "mora-long-o"
+      ],
+      "prompt": "The written word こうこう (high school) is divided こ・う・こ・う. How many morae?",
+      "example": "こうこう",
+      "choices": [
+        {
+          "id": "four",
+          "text": "4",
+          "rationale": "Correct: four written timing units."
+        },
+        {
+          "id": "two",
+          "text": "2",
+          "rationale": "Each う contributes a mora; do not count only the こ symbols."
+        },
+        {
+          "id": "six",
+          "text": "6",
+          "rationale": "The written sequence contains four morae, not six."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "four"
+      },
+      "explanation": "こうこう has four morae. The う in each こう contributes to the long o; the spelling does not imply a pause between vowels.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-obasan",
+        "mora-nasal"
+      ],
+      "prompt": "How many morae are in おばさん (aunt in the family chart)?",
+      "example": "おばさん",
+      "choices": [
+        {
+          "id": "four",
+          "text": "4",
+          "rationale": "Correct: お・ば・さ・ん = four."
+        },
+        {
+          "id": "three",
+          "text": "3",
+          "rationale": "The final ん counts as a mora."
+        },
+        {
+          "id": "five",
+          "text": "5",
+          "rationale": "Five is the count for おばあさん, with the additional あ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "four"
+      },
+      "explanation": "おばさん = お・ば・さ・ん (four morae). Compare おばあさん (five).",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-ie"
+      ],
+      "prompt": "Type the house-card word in kana, or plain lowercase romaji (no spaces).",
+      "answerKey": {
+        "accepted": [
+          "いえ",
+          "ie"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "いえ (ie) means 'house' and has two morae. いいえ (iie) means 'no' and is not accepted for this card.",
+      "type": "short-input",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness",
+        "contextual-meaning"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l03-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-obaasan",
+        "mora-length-a"
+      ],
+      "prompt": "Type the grandmother's family-chart label in kana, or plain lowercase romaji (no spaces).",
+      "answerKey": {
+        "accepted": [
+          "おばあさん",
+          "obaasan"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "おばあさん (obaasan) is the five-mora family-chart label for grandmother. おばさん is the four-mora aunt label in this context.",
+      "type": "short-input",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "written-mora-awareness",
+        "contextual-meaning"
+      ]
+    }
+  ]
+}
