@@ -12,9 +12,12 @@ test('Chapter 01 checkpoint shows real sources, scores 16 items, saves progress 
   await expect(root.locator('audio')).toHaveCount(2);
   await expect(root.locator('fieldset')).toHaveCount(16);
   console.log('Checkpoint E2E: source and fieldset counts verified');
+  // Ensure React has hydrated media event handlers before dispatching play.
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   await expect(root.getByRole('button',{name:'Check answers & save checkpoint score'})).toBeDisabled();
   for(const audio of await root.locator('audio').all())await audio.dispatchEvent('play');
-  console.log('Checkpoint E2E: both play events dispatched');
+  await expect(root.getByText('Playback started')).toHaveCount(2);
+  console.log('Checkpoint E2E: both play events observed');
   for(const group of await root.locator('fieldset').all())await group.locator('input[type=radio]').first().check();
   console.log('Checkpoint E2E: 16 radio answers checked');
   await root.getByRole('button',{name:'Check answers & save checkpoint score'}).click();
@@ -38,7 +41,9 @@ test('Chapter checkpoint transcript-assisted attempts are never saved as blind s
   const root=page.locator('.checkpoint-practice');
   await root.getByRole('button',{name:/Reveal transcript/}).first().click();
   await expect(root.getByText(/Assisted mode: a transcript was revealed/)).toBeVisible();
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   for(const audio of await root.locator('audio').all())await audio.dispatchEvent('play');
+  await expect(root.getByText('Playback started')).toHaveCount(2);
   for(const group of await root.locator('fieldset').all())await group.locator('input[type=radio]').first().check();
   await root.getByRole('button',{name:'Check assisted answers'}).click();
   await expect(root.getByText(/No blind checkpoint score was saved/)).toBeVisible();
