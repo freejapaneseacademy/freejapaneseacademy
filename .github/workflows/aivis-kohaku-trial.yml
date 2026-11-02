@@ -1,0 +1,93 @@
+name: AivisSpeech Kohaku Japanese audio audition
+
+on:
+  push:
+    branches:
+      - infra/tts/aivis-kohaku-pilot
+    paths:
+      - .github/workflows/aivis-kohaku-trial.yml
+      - scripts/tts/aivis_kohaku_l06.json
+      - scripts/tts/aivis_kohaku_generate.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aivis-kohaku-\${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate audio generator
+        run: |
+          python3 -m py_compile scripts/tts/aivis_kohaku_generate.py
+          python3 -c 'import json; x=json.load(open("scripts/tts/aivis_kohaku_l06.json")); assert x["candidateOnly"] and len(x["tracks"])==2'
+      - name: Download Kohaku model with exact SHA256 verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/aivis/Models"
+          curl -fLSs --retry 3 --retry-delay 3 --max-time 480 \
+            'https://api.aivis-project.com/v1/aivm-models/22e8ed77-94fe-4ef2-871f-a86f94e9a579/download?model_type=AIVMX' \
+            -o "$RUNNER_TEMP/aivis/Models/kohaku.aivmx"
+          echo "3f5c08b52bb8a64efd361268580c81510f96c927cd6905aa7dbae6851333270a  $RUNNER_TEMP/aivis/Models/kohaku.aivmx" | sha256sum -c -
+          chmod -R a+rX "$RUNNER_TEMP/aivis"
+          sudo chown -R 1000:1000 "$RUNNER_TEMP/aivis"
+      - name: Launch AivisSpeech Japanese CPU engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run -d --name aivis-engine --pull=always \
+            -p 127.0.0.1:10101:10101 \
+            -v "$RUNNER_TEMP/aivis:/home/user/.local/share/AivisSpeech-Engine-Dev" \
+            ghcr.io/aivis-project/aivisspeech-engine:cpu-latest
+          ready=0
+          for i in $(seq 1 120); do
+            if curl -fsS --connect-timeout 3 --max-time 8 http://127.0.0.1:10101/speakers -o "$RUNNER_TEMP/speakers.json"; then
+              if python3 -c 'import json,sys; sys.exit(0 if any("コハク" in x.get("name","") for x in json.load(open(sys.argv[1]))) else 1)' "$RUNNER_TEMP/speakers.json"; then
+                ready=1; break
+              fi
+            fi
+            if [ "$(docker inspect -f '{{.State.Running}}' aivis-engine 2>/dev/null || true)" != true ]; then
+              docker logs --tail 120 aivis-engine || true
+              exit 1
+            fi
+            sleep 5
+          done
+          if [ "$ready" -ne 1 ]; then
+            docker logs --tail 120 aivis-engine
+            exit 1
+          fi
+      - name: Generate and validate two audition WAVs
+        run: python3 scripts/tts/aivis_kohaku_generate.py
+      - name: Make files available from GitHub even if preview publishing fails
+        uses: actions/upload-artifact@v4
+        with:
+          name: kohaku-japanese-audition
+          path: |
+            public/voice-preview/kohaku/*.wav
+            public/voice-preview/kohaku/candidate-report.json
+            public/voice-preview/kohaku/index.html
+          if-no-files-found: error
+          retention-days: 14
+      - name: Publish only to this preview branch (not main)
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/voice-preview/kohaku/track-a.wav public/voice-preview/kohaku/track-b.wav public/voice-preview/kohaku/candidate-report.json
+          if git diff --cached --quiet; then
+            echo 'Preview already committed'
+          else
+            git commit -m 'chore: add candidate-only AivisSpeech Japanese recordings'
+            git push origin HEAD:refs/heads/infra/tts/aivis-kohaku-pilot
+          fi
+      - name: Engine diagnostic logs if failed
+        if: failure()
+        run: docker logs --tail 180 aivis-engine || true
