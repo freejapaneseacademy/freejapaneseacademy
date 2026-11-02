@@ -1,0 +1,165 @@
+{
+  "lessonId": "l0-m01-c02-l06",
+  "chapterId": "l0-m01-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m01-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m01-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 11.52,
+      "transcript": "男性： これ、家の写真ですか。\n女性： いいえ、これはお店の写真です。\n男性： あ、家じゃないんですね。\n女性： はい。お店です。小さいお店ですよ。",
+      "english": "Man: Is this a photo of a house?\nWoman: No, this is a photo of a shop.\nMan: Oh, so it's not a house.\nWoman: Right. It's a shop. A small shop.",
+      "scriptPurpose": "A photo of a house or a shop",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m01-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "これ、家の写真ですか。",
+          "english": "Is this a photo of a house?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.14
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ、これはお店の写真です。",
+          "english": "No, this is a photo of a shop.",
+          "startSeconds": 2.42,
+          "endSeconds": 5.23
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "あ、家じゃないんですね。",
+          "english": "Oh, so it's not a house.",
+          "startSeconds": 5.51,
+          "endSeconds": 7.4
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。お店です。小さいお店ですよ。",
+          "english": "Right. It's a shop. A small shop.",
+          "startSeconds": 7.68,
+          "endSeconds": 11.52
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Automated FreeJapaneseAcademy license screening, 2026-11-02 (AivisHub model pages and ACML 1.0; no human review claimed)",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "6c230126d0b4493c0dde470bf51d4e63831062d5fd6c5d25658b4e4621c42929",
+        "bytes": 1015976,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m01-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m01-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 11.69,
+      "transcript": "女性： この写真の人は、あなたのおばさんですか。\n男性： いいえ、私のおばあさんです。\n女性： あ、おばあさんなんですね。\n男性： はい。とても元気ですよ。",
+      "english": "Woman: Is the person in this photo your aunt?\nMan: No, she's my grandmother.\nWoman: Oh, she's your grandmother!\nMan: Yes. She's very energetic.",
+      "scriptPurpose": "Who is in the family photo?",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m01-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "この写真の人は、あなたのおばさんですか。",
+          "english": "Is the person in this photo your aunt?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.63
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいえ、私のおばあさんです。",
+          "english": "No, she's my grandmother.",
+          "startSeconds": 3.91,
+          "endSeconds": 6.4
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "あ、おばあさんなんですね。",
+          "english": "Oh, she's your grandmother!",
+          "startSeconds": 6.68,
+          "endSeconds": 9.04
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。とても元気ですよ。",
+          "english": "Yes. She's very energetic.",
+          "startSeconds": 9.32,
+          "endSeconds": 11.69
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Automated FreeJapaneseAcademy license screening, 2026-11-02 (AivisHub model pages and ACML 1.0; no human review claimed)",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "021a85997459b2e7f31fd1f50090cf4dae03bd255042519ca54650ea23502529",
+        "bytes": 1031418,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
