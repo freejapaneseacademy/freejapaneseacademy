@@ -122,3 +122,19 @@
 .reading-chart__jp ruby{ruby-position:over}
 .reading-chart__jp rt{font-size:.63em}
 @media(max-width:520px){.reading-chart{min-width:590px}.reading-chart th,.reading-chart td{padding:11px 9px}}
+
+/* L06 narrated listening: native players, accessible controls, narrow-screen safety. */
+.listening-practice{overflow-wrap:anywhere}
+.listening-tracks{display:grid;grid-template-columns:minmax(0,1fr);gap:22px;margin:26px 0}
+.listening-track{min-width:0;border:1px solid var(--border);border-radius:12px;background:var(--cream);padding:clamp(16px,3vw,24px)}
+.listening-track h3{font-size:1.2rem;margin:11px 0;color:var(--ink)}
+.listening-track audio{display:block;width:100%;max-width:100%;margin:18px 0}
+.listening-playback-options{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:16px 0}
+.listening-playback-options label{font-weight:700;font-size:.88rem}
+.listening-playback-options select{background:var(--white);color:var(--ink);border:1px solid var(--border);border-radius:7px;min-height:42px;padding:6px 11px}
+.listening-playback-options select:focus-visible,.listening-track button:focus-visible,.listening-restart:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.listening-transcript{background:var(--white);color:var(--ink);margin-top:16px;padding:18px;border:1px solid var(--border);border-radius:10px}
+.listening-transcript p[lang=ja]{font-family:'Noto Sans JP',system-ui,sans-serif;line-height:2;font-size:1.05rem;overflow-wrap:anywhere}
+.listening-mode-note{padding:14px 18px;border-left:4px solid var(--red);background:var(--cream);border-radius:5px;color:var(--ink)}
+.listening-restart{margin:18px 0 8px}
+@media(max-width:520px){.listening-track{padding:16px}.listening-track audio{min-width:0}.listening-playback-options{align-items:flex-start}}

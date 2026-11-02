@@ -1,0 +1,89 @@
+{
+  "lessonId": "l0-m01-c01-l06",
+  "chapterId": "l0-m01-c01",
+  "version": 1,
+  "generatedBy": "Cloudflare Workers AI @cf/myshell-ai/melotts (lang jp)",
+  "storage": "Cloudflare Workers KV, served by read-only Worker fja-lesson-audio",
+  "assets": [
+    {
+      "id": "audio-l0-m01-c01-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "melotts-japanese-synthetic"
+      ],
+      "mediaPath": "https://fja-lesson-audio.free-japanese-academy.workers.dev/l0-m01-c01-l06-a.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 15.25,
+      "transcript": "みなさん、こんにちは。きょうは、にほんごの もじを みます。はじめは、ひらがなです。「あ」は、ひらがなです。つぎは、カタカナです。「ア」は、カタカナです。どちらも、おなじ「あ」の おとです。",
+      "english": "Hello, everyone. Today we will look at Japanese characters. First is hiragana. 'あ' is hiragana. Next is katakana. 'ア' is katakana. Both have the same 'a' sound.",
+      "scriptPurpose": "Track A — The two kana scripts",
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1",
+        "l0-m01-c01-l06-o2"
+      ],
+      "rights": {
+        "source": "Original academy-authored script synthesized using MeloTTS Japanese weights",
+        "license": "MIT (MeloTTS Japanese model); Cloudflare Workers AI Customer Content",
+        "licenseUris": [
+          "https://huggingface.co/myshell-ai/MeloTTS-Japanese",
+          "https://developers.cloudflare.com/workers-ai/platform/data-usage/"
+        ],
+        "redistributionCleared": true,
+        "attribution": "MeloTTS by MyShell.ai; synthetic audio. No human speech clone."
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "notes": "Automated WAV measurements performed at generation and full audio saved to KV. Web playback and byte-range access require CI verification; independent Japanese pronunciation review pending."
+      }
+    },
+    {
+      "id": "audio-l0-m01-c01-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "melotts-japanese-synthetic"
+      ],
+      "mediaPath": "https://fja-lesson-audio.free-japanese-academy.workers.dev/l0-m01-c01-l06-b.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 11.25,
+      "transcript": "つぎは、かんじです。「山」は、かんじです。「やま」と よみます。「さくら」は、ひらがなです。ローマじは、アルファベットで にほんごを かく ほうほうです。",
+      "english": "Next is kanji. '山' is kanji; it is read yama. 'さくら' is hiragana. Romaji is a way to write Japanese using the Latin alphabet.",
+      "scriptPurpose": "Track B — Kanji and romaji",
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1",
+        "l0-m01-c01-l06-o2"
+      ],
+      "rights": {
+        "source": "Original academy-authored script synthesized using MeloTTS Japanese weights",
+        "license": "MIT (MeloTTS Japanese model); Cloudflare Workers AI Customer Content",
+        "licenseUris": [
+          "https://huggingface.co/myshell-ai/MeloTTS-Japanese",
+          "https://developers.cloudflare.com/workers-ai/platform/data-usage/"
+        ],
+        "redistributionCleared": true,
+        "attribution": "MeloTTS by MyShell.ai; synthetic audio. No human speech clone."
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "notes": "Automated WAV measurements performed at generation and full audio saved to KV. Web playback and byte-range access require CI verification; independent Japanese pronunciation review pending."
+      }
+    }
+  ]
+}
