@@ -38,6 +38,10 @@ jobs:
           done
       - name: Validate actual two-speaker audio, pinned WAV hashes and listening-only questions
         run: python3 scripts/validate_real_listening.py
+      - name: Validate reusable Aivis audio job contract
+        run: python3 -m unittest discover -s tests -p 'test_listening_generator.py'
+      - name: Check all versioned lesson audio packages
+        run: python3 scripts/tts/validate_listening_package.py --all
       - name: Astro and TypeScript diagnostics
         run: npm run check
       - name: Unit tests
