@@ -47,7 +47,9 @@ for(const width of [320,375,390,768,1024,1440])test('Chapter 02 L04 responsive, 
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width+2);
   await page.locator('html').evaluate(el=>{el.dataset.theme='dark';});
   await expect(root.getByRole('button',{name:'Reveal kana'})).toBeVisible();
-  await root.getByRole('button',{name:'Reveal kana'}).focus();
+  const reveal = root.getByRole('button',{name:'Reveal kana'});
+  await expect(reveal).toBeEnabled();
+  await reveal.focus();
   await page.keyboard.press('Enter');
   await expect(root.locator('.script-pair__glyph')).toHaveText('か');
 });
