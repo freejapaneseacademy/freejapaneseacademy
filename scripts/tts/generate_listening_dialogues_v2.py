@@ -116,7 +116,7 @@ def make_audio(job,track,styles):
         if i<len(track["turns"])-1:
             pcm.extend(gap)
         print("Generated",track["id"],"turn",i+1,role,"seconds",round(count/RATE,2),flush=True)
-    if not 14<=len(pcm)/(RATE*2)<=120:
+    if not 10<=len(pcm)/(RATE*2)<=120:
         raise ValueError("Unreasonable conversation duration")
     OUT.mkdir(parents=True,exist_ok=True)
     dst=OUT/track["filename"]
