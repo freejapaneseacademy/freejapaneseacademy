@@ -35,6 +35,7 @@ test('L06 blind listening saves progress, transcript reveal switches to assisted
   await page.reload();
   await expect(page.getByRole('button',{name:/Lesson completed/})).toBeVisible();
   await page.goto('/learn/start/module-01/chapter-01/lesson-06/');
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   await root.getByRole('button',{name:/Reveal transcript/}).first().click();
   await expect(root.getByText(/Assisted mode: you revealed a transcript/)).toBeVisible();
   await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();

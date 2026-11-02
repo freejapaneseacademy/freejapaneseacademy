@@ -39,6 +39,7 @@ test('Chapter 01 checkpoint shows real sources, scores 16 items, saves progress 
 test('Chapter checkpoint transcript-assisted attempts are never saved as blind scores',async({page})=>{
   await page.goto(url);
   const root=page.locator('.checkpoint-practice');
+  await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
   await root.getByRole('button',{name:/Reveal transcript/}).first().click();
   await expect(root.getByText(/Assisted mode: a transcript was revealed/)).toBeVisible();
   await expect(root.locator('fieldset input[type=radio]').first()).toBeEnabled();
