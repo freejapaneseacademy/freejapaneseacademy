@@ -1,0 +1,341 @@
+{
+  "id": "l0-m01-c01-l06-check-v1",
+  "lessonId": "l0-m01-c01-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m01-c01-l06-a",
+    "audio-l0-m01-c01-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c01-l06-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-hiragana"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "What does the teacher do at the beginning of Track A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Introduce Japanese writing",
+          "rationale": "Supported by the narration."
+        },
+        {
+          "id": "b",
+          "text": "Ask for the weather",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "c",
+          "text": "Order coffee",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "At the start, the teacher greets the class and says they will look at Japanese characters.",
+      "evidence": "Recognize the spoken introduction to Japanese writing.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-hiragana"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "Which script does the speaker introduce FIRST in Track A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Katakana",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "b",
+          "text": "Hiragana",
+          "rationale": "Supported by the narration."
+        },
+        {
+          "id": "c",
+          "text": "Kanji",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The phrase はじめは、ひらがなです identifies hiragana as the first script.",
+      "evidence": "Listen for はじめは (first), followed by ひらがな.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-katakana"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "Which script is introduced AFTER hiragana in Track A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Katakana",
+          "rationale": "Supported by the narration."
+        },
+        {
+          "id": "b",
+          "text": "Romaji",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "c",
+          "text": "Kanji",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The speaker then says つぎは、カタカナです (next is katakana).",
+      "evidence": "Listen for つぎは (next), followed by カタカナ.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-a",
+        "kana-kata-a"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "What does the teacher say about the vowel examples あ and ア?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They have different meanings",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "b",
+          "text": "They have the same a sound",
+          "rationale": "Supported by the narration."
+        },
+        {
+          "id": "c",
+          "text": "One of them means mountain",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "どちらも、おなじ「あ」の おとです states that both represent the same a sound.",
+      "evidence": "Track A contrasts hiragana あ and katakana ア.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "kanji-yama"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "Which type of character is 山 in Track B?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hiragana",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "b",
+          "text": "Romaji",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "c",
+          "text": "Kanji",
+          "rationale": "Supported by the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The speaker explicitly states 「山」は、かんじです.",
+      "evidence": "Listen for かんじ after 山.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "kanji-yama"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "Which reading is given for the character 山?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "やま",
+          "rationale": "Supported by the narration."
+        },
+        {
+          "id": "b",
+          "text": "さくら",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "c",
+          "text": "にほんご",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The narrator says 「やま」と よみます (it is read yama).",
+      "evidence": "Listen for the word immediately after the kanji example.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-sakura",
+        "script-hiragana"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "How does the narrator classify さくら?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Katakana",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "b",
+          "text": "Hiragana",
+          "rationale": "Supported by the narration."
+        },
+        {
+          "id": "c",
+          "text": "Latin alphabet",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The narrator says 「さくら」は、ひらがなです.",
+      "evidence": "Track B identifies さくら as hiragana.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "script-romaji"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "How does the speaker describe romaji?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Japanese written using Latin letters",
+          "rationale": "Supported by the narration."
+        },
+        {
+          "id": "b",
+          "text": "An extra kanji reading",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        },
+        {
+          "id": "c",
+          "text": "Another name for katakana",
+          "rationale": "This does not match the information explicitly stated in the narration."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ローマじは、アルファベットで にほんごを かく ほうほうです explains that romaji uses alphabet letters to write Japanese.",
+      "evidence": "Listen for アルファベット and にほんご in the description.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "auditory-sequence"
+      ]
+    }
+  ]
+}
