@@ -1,0 +1,46 @@
+name: Verify Kohaku audition page and WAV playback from public runner
+
+on:
+  push:
+    branches:
+      - infra/tts/aivis-kohaku-pilot
+    paths:
+      - .github/workflows/aivis-kohaku-preview-check.yml
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Check deployed preview HTML, complete WAVs and byte ranges
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib,urllib.request
+          url='https://f982caad.free-japanese-academy.pages.dev/voice-preview/kohaku/'
+          with urllib.request.urlopen(url,timeout=30) as r:
+              html=r.read().decode('utf-8')
+              assert r.status==200
+              assert 'Try our Japanese-native voice' in html
+          for track,sha in [
+              ('a','3a916771aadfdba804e3825d35cef1c3bc14bafc625959cab9d1b8d00e8b9dd5'),
+              ('b','715be3947d642fb9b29cc9d6f1782ea7a6d6f46f86e68226b64b17f7b3ee64b4')]:
+              media=url+'track-'+track+'.wav'
+              with urllib.request.urlopen(media,timeout=50) as response:
+                  data=response.read()
+                  assert response.status==200
+              assert hashlib.sha256(data).hexdigest()==sha
+              assert data[:4]==b'RIFF' and data[8:12]==b'WAVE'
+              request=urllib.request.Request(media,headers={'Range':'bytes=0-43'})
+              with urllib.request.urlopen(request,timeout=30) as response:
+                  snippet=response.read()
+                  assert response.status==206
+                  assert len(snippet)==44
+                  assert snippet[:4]==b'RIFF'
+              print('PASS: public preview track '+track+': '+str(len(data))+' bytes, SHA256 and HTTP 206')
+          print('PASS: standalone Japanese audition page publicly playable')
+          PY
