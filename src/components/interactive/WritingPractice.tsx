@@ -157,3 +157,4 @@ export default function WritingPractice() {
     </div>
     <p className="foundation-storage-note">Privacy and progress: only the eight-item aggregate typing score, separately chosen lesson completion and bookmarks use the existing Dexie v1 database. Guided labels, open writing and rubric choices are held in page memory only, never uploaded or automatically saved. Download a copy before leaving; browser-local progress can also be lost when storage is cleared. No new libraries, migrations, audio or microphone access.</p>
   </section>;
+}
