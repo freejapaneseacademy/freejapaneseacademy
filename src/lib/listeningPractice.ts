@@ -9,7 +9,7 @@ export type ListeningQuestion = {
   level: 'l0'; skills: string[];
 };
 export const listeningLessonId = 'l0-m01-c01-l06';
-export const listeningQuizId = listeningLessonId + '-check-v1';
+export const listeningQuizId = listeningLessonId + '-check-v2';
 export const listeningQuestions = (bank as unknown as { items: ListeningQuestion[] }).items;
 export const listeningTracks = media.assets.map((item, i) => ({
   id: i === 0 ? 'a' : 'b', assetId: item.id,

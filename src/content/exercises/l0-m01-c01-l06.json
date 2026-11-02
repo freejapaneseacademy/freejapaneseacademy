@@ -22,22 +22,24 @@
         {
           "id": "a",
           "text": "Coffee",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "b",
           "text": "Tea",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         },
         {
           "id": "c",
           "text": "Water",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         }
       ],
-      "answerKey": {},
-      "explanation": "お茶をお願いします。",
-      "evidence": 1,
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The man orders tea by saying お茶をお願いします。",
+      "evidence": "お茶をお願いします。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
@@ -61,22 +63,24 @@
         {
           "id": "a",
           "text": "Hot tea or cold tea",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         },
         {
           "id": "b",
           "text": "Tea or coffee",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "c",
           "text": "Water or juice",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         }
       ],
-      "answerKey": {},
-      "explanation": "温かいお茶ですか。冷たいお茶ですか。",
-      "evidence": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman offers a choice between hot tea and cold tea.",
+      "evidence": "温かいお茶ですか。冷たいお茶ですか。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
@@ -100,22 +104,24 @@
         {
           "id": "a",
           "text": "Cold",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "b",
           "text": "No drink",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "c",
           "text": "Hot",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         }
       ],
-      "answerKey": {},
-      "explanation": "温かいお茶をお願いします。",
-      "evidence": 2,
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The man chooses hot tea.",
+      "evidence": "温かいお茶をお願いします。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
@@ -139,22 +145,24 @@
         {
           "id": "a",
           "text": "Thank you",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         },
         {
           "id": "b",
           "text": "Good night",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "c",
           "text": "See you tomorrow",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         }
       ],
-      "answerKey": {},
-      "explanation": "ありがとうございます。",
-      "evidence": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The man says thank you after receiving the drink.",
+      "evidence": "ありがとうございます。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
@@ -178,22 +186,24 @@
         {
           "id": "a",
           "text": "Good morning",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         },
         {
           "id": "b",
           "text": "Good night",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "c",
           "text": "Goodbye",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         }
       ],
-      "answerKey": {},
-      "explanation": "おはようございます。",
-      "evidence": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman begins with a good-morning greeting.",
+      "evidence": "おはようございます。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
@@ -217,22 +227,24 @@
         {
           "id": "a",
           "text": "It's raining",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "b",
           "text": "The weather is nice",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         },
         {
           "id": "c",
           "text": "It is snowing",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         }
       ],
-      "answerKey": {},
-      "explanation": "今日はいい天気ですね。",
-      "evidence": 1,
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The woman says the weather is nice today.",
+      "evidence": "今日はいい天気ですね。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
@@ -256,22 +268,24 @@
         {
           "id": "a",
           "text": "A train station",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "b",
           "text": "Cherry blossoms",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         },
         {
           "id": "c",
           "text": "A restaurant",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         }
       ],
-      "answerKey": {},
-      "explanation": "山の近くに桜がありますよ。",
-      "evidence": 1,
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The woman mentions cherry blossoms near the mountain.",
+      "evidence": "山の近くに桜がありますよ。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
@@ -295,22 +309,24 @@
         {
           "id": "a",
           "text": "Go together",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "The spoken conversation directly supports this answer."
         },
         {
           "id": "b",
           "text": "Stay home",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         },
         {
           "id": "c",
           "text": "Drink coffee",
-          "rationale": "This does not match the recorded conversation."
+          "rationale": "This does not match what the speakers said."
         }
       ],
-      "answerKey": {},
-      "explanation": "一緒に行きましょう。",
-      "evidence": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The man suggests going together, and the woman agrees.",
+      "evidence": "一緒に行きましょう。",
       "type": "single-choice",
       "status": "published",
       "level": "l0",
