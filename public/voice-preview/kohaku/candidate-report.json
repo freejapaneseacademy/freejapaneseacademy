@@ -1,0 +1,33 @@
+{
+  "voice": "コハク",
+  "style": "ノーマル",
+  "license": "ACML-1.0",
+  "credit": "AivisSpeech: コハク",
+  "candidateOnly": true,
+  "humanPronunciationReviewed": false,
+  "naturalnessReviewed": false,
+  "tracks": [
+    {
+      "id": "a",
+      "transcript": "みなさん、こんにちは。今日は、日本語の文字について、いっしょに見ていきましょう。まず、ひらがなです。これは「あ」。次は、カタカナです。これは「ア」。形は違いますが、どちらも同じ「あ」の音です。",
+      "file": "track-a.wav",
+      "durationSeconds": 17.19,
+      "bytes": 1516178,
+      "sha256": "3a916771aadfdba804e3825d35cef1c3bc14bafc625959cab9d1b8d00e8b9dd5",
+      "sampleRateHz": 44100,
+      "sampledRms": 0.1542,
+      "sampledClipping": 0.0
+    },
+    {
+      "id": "b",
+      "transcript": "次は、漢字です。「山」は漢字で、「やま」と読みます。そして「さくら」は、ひらがなで書かれています。最後に、ローマ字です。ローマ字は、アルファベットを使って日本語を書く方法です。",
+      "file": "track-b.wav",
+      "durationSeconds": 15.72,
+      "bytes": 1386210,
+      "sha256": "715be3947d642fb9b29cc9d6f1782ea7a6d6f46f86e68226b64b17f7b3ee64b4",
+      "sampleRateHz": 44100,
+      "sampledRms": 0.1161,
+      "sampledClipping": 0.0
+    }
+  ]
+}
