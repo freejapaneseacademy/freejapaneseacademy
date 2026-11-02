@@ -1,0 +1,431 @@
+{
+  "id": "l0-m01-c01-l04-check-v1",
+  "lessonId": "l0-m01-c01-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m01-c01-l04-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-a"
+      ],
+      "prompt": "Which script is the large character あ written in?",
+      "example": "あ",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hiragana",
+          "rationale": "Correct: あ is the hiragana vowel a."
+        },
+        {
+          "id": "b",
+          "text": "Katakana",
+          "rationale": "ア, not あ, is the katakana form."
+        },
+        {
+          "id": "c",
+          "text": "Kanji",
+          "rationale": "あ is a kana, not a kanji."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あ is hiragana. Its katakana partner is ア; both represent the vowel /a/.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-kata-a"
+      ],
+      "prompt": "Which script is the large character ア written in?",
+      "example": "ア",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hiragana",
+          "rationale": "あ is the hiragana form."
+        },
+        {
+          "id": "b",
+          "text": "Katakana",
+          "rationale": "Correct: ア is the katakana vowel a."
+        },
+        {
+          "id": "c",
+          "text": "Romaji",
+          "rationale": "Romaji would use the Latin letter a."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "ア is katakana; あ is hiragana. Script shape changes, not the vowel.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-pair-i"
+      ],
+      "prompt": "Which katakana character represents the same vowel as hiragana い?",
+      "example": "い",
+      "choices": [
+        {
+          "id": "a",
+          "text": "エ",
+          "rationale": "エ is e, not i."
+        },
+        {
+          "id": "b",
+          "text": "イ",
+          "rationale": "Correct: イ corresponds to い."
+        },
+        {
+          "id": "c",
+          "text": "ウ",
+          "rationale": "ウ is u, not i."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "い and イ both represent the vowel i. Do not confuse イ with エ.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-pair-u"
+      ],
+      "prompt": "Which hiragana character matches katakana ウ?",
+      "example": "ウ",
+      "choices": [
+        {
+          "id": "a",
+          "text": "う",
+          "rationale": "Correct: う corresponds to ウ."
+        },
+        {
+          "id": "b",
+          "text": "え",
+          "rationale": "え is e."
+        },
+        {
+          "id": "c",
+          "text": "お",
+          "rationale": "お is o."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ウ and う represent the vowel u; they are different scripts.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-sakura"
+      ],
+      "prompt": "A beginner sees さくら in a picture caption. Which description fits its written form?",
+      "example": "さくら",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three hiragana characters",
+          "rationale": "Correct: さ・く・ら are hiragana."
+        },
+        {
+          "id": "b",
+          "text": "Three katakana characters",
+          "rationale": "Katakana would use サクラ."
+        },
+        {
+          "id": "c",
+          "text": "Three kanji characters",
+          "rationale": "There are no kanji in さくら."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "さくら (sakura, cherry blossom) uses hiragana さ・く・ら. The same word can be written differently in some contexts.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-koohii"
+      ],
+      "prompt": "What does the mark ー do in コーヒー?",
+      "example": "コーヒー",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It extends the preceding vowel sound",
+          "rationale": "Correct: ー marks vowel length in katakana."
+        },
+        {
+          "id": "b",
+          "text": "It separates two English words",
+          "rationale": "Japanese long-vowel marks are not English spaces."
+        },
+        {
+          "id": "c",
+          "text": "It turns the word into kanji",
+          "rationale": "The word remains in katakana."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The long-vowel mark ー lengthens the preceding vowel. コーヒー is written in katakana and means coffee.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o4"
+      ],
+      "knowledgeItemIds": [
+        "kanji-yama"
+      ],
+      "prompt": "In the sample 山（やま）, which statement is accurate?",
+      "example": "山（やま）",
+      "choices": [
+        {
+          "id": "a",
+          "text": "山 is a kanji and やま is its reading here",
+          "rationale": "Correct: やま supplies the reading of 山 in this example."
+        },
+        {
+          "id": "b",
+          "text": "山 is a katakana vowel",
+          "rationale": "山 is kanji, not katakana."
+        },
+        {
+          "id": "c",
+          "text": "やま is the English translation",
+          "rationale": "やま is Japanese reading; mountain is English meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "山 is a kanji; やま is the reading in this example. Recognize the role, but do not memorize kanji readings yet.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o4"
+      ],
+      "knowledgeItemIds": [
+        "furigana-role"
+      ],
+      "prompt": "What is the role of small やま shown above 山 in a textbook?",
+      "example": "山（やま）",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a second unrelated word",
+          "rationale": "The small kana annotate the kanji reading."
+        },
+        {
+          "id": "b",
+          "text": "It is furigana showing how to read the kanji",
+          "rationale": "Correct: furigana are small reading guides."
+        },
+        {
+          "id": "c",
+          "text": "It is romaji",
+          "rationale": "Romaji uses Latin letters, not kana."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Furigana are reading annotations, usually in kana; they are not a separate fifth writing system.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-recognition",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o2"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-a"
+      ],
+      "prompt": "Enter the HIRAGANA character for the vowel a (not romaji).",
+      "type": "short-input",
+      "inputScript": "hiragana",
+      "answerKey": {
+        "accepted": [
+          "あ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "The hiragana vowel a is あ. The katakana equivalent is ア; Latin a is romaji.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o2"
+      ],
+      "knowledgeItemIds": [
+        "kana-kata-i"
+      ],
+      "prompt": "Enter the KATAKANA character for the vowel i (not romaji).",
+      "type": "short-input",
+      "inputScript": "katakana",
+      "answerKey": {
+        "accepted": [
+          "イ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "The katakana vowel i is イ. The hiragana equivalent is い.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o2"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-u"
+      ],
+      "prompt": "Enter the HIRAGANA character for the vowel u (not romaji).",
+      "type": "short-input",
+      "inputScript": "hiragana",
+      "answerKey": {
+        "accepted": [
+          "う"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "The hiragana vowel u is う. The katakana equivalent is ウ.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "script-identification"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l04-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l04-o2"
+      ],
+      "knowledgeItemIds": [
+        "kana-kata-o"
+      ],
+      "prompt": "Enter the KATAKANA character for the vowel o (not romaji).",
+      "type": "short-input",
+      "inputScript": "katakana",
+      "answerKey": {
+        "accepted": [
+          "オ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "The katakana vowel o is オ. The hiragana equivalent is お.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "script-identification"
+      ]
+    }
+  ]
+}
