@@ -46,6 +46,7 @@ export default function ProgressPanel() {
   const hasFoundationsProgress = data.lessons.some((item) => item.level === 'l0') || data.attempts.some((item) => item.level === 'l0');
   const quizLabel = (quizId: string) => quizId === 'l0-m01-c01-l01-check-v1'
     ? 'Foundations: Japanese writing systems'
+    : quizId === 'l0-m01-c01-l02-check-v1' ? 'Foundations: Classroom vocabulary'
     : quizId === 'hiragana-demo-v1' ? 'Hiragana demo quiz' : 'Japanese practice quiz';
   return <div>
     <div className="stat-grid">
