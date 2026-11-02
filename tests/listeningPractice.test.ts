@@ -6,7 +6,7 @@ describe('L06 listening data', () => {
     expect(listeningTracks).toHaveLength(2);
     expect(new Set(listeningTracks.map(t => t.url)).size).toBe(2);
     for(const t of listeningTracks) {
-      expect(t.url).toMatch(/^https:\/\/.*\.wav$/);
+      expect(t.url).toMatch(/^\/audio\/[a-z0-9-]+\.wav$/);
       expect(t.transcript.length).toBeGreaterThan(30);
       expect(t.durationSeconds).toBeGreaterThan(8);
     }

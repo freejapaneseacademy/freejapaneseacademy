@@ -1,8 +1,8 @@
 /* Strict real-network audio test: no mocks, no hidden retries. */
 import { createHash } from 'node:crypto';
-const base = (process.env.FJA_AUDIO_BASE_URL || 'https://fja-lesson-audio.free-japanese-academy.workers.dev').replace(/\/$/, '');
-if (!/^https:\/\/[a-z0-9.-]+\.workers\.dev$/.test(base)) throw Error('Expected trusted workers.dev HTTPS origin');
-const tracks = [{path:'/l0-m01-c01-l06-a.wav',bytes:1344706},{path:'/l0-m01-c01-l06-b.wav',bytes:992532}];
+const base = (process.env.FJA_AUDIO_BASE_URL || 'https://free-japanese-academy.pages.dev').replace(/\/$/, '');
+if (!/^https:\/\/[a-z0-9.-]+\.pages\.dev$/.test(base)) throw Error('Expected HTTPS Cloudflare Pages origin');
+const tracks = [{path:'/audio/fja-lesson-audio-l06-a.wav',bytes:1344706},{path:'/audio/fja-lesson-audio-l06-b.wav',bytes:992532}];
 const checks=['bytes=0-43','bytes=0-1023','bytes=50000-50127','bytes=-128',null];
 const hashes=new Map();let total=0;
 async function probe(track, range, method='GET') {

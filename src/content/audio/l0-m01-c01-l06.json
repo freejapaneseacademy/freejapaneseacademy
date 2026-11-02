@@ -3,7 +3,7 @@
   "chapterId": "l0-m01-c01",
   "version": 1,
   "generatedBy": "Cloudflare Workers AI @cf/myshell-ai/melotts (lang jp)",
-  "storage": "Cloudflare Workers KV, served by read-only Worker fja-lesson-audio",
+  "storage": "Exact original WAVs: public/audio/ in GitHub, deployed as immutable-source static assets by Cloudflare Pages (no Workers KV required for playback)",
   "assets": [
     {
       "id": "audio-l0-m01-c01-l06-a",
@@ -12,7 +12,7 @@
       "speakerIds": [
         "melotts-japanese-synthetic"
       ],
-      "mediaPath": "https://fja-lesson-audio.free-japanese-academy.workers.dev/l0-m01-c01-l06-a.wav",
+      "mediaPath": "/audio/fja-lesson-audio-l06-a.wav",
       "format": "audio/wav",
       "sampleRateHz": 44100,
       "channels": 1,
@@ -42,7 +42,7 @@
         "nativePronunciationReviewed": false,
         "transcriptMatchedToAudio": false,
         "playbackTested": false,
-        "notes": "Automated WAV measurements performed at generation and full audio saved to KV. Web playback and byte-range access require CI verification; independent Japanese pronunciation review pending."
+        "notes": "Original WAV SHA-256 verified before binary-safe migration to public/audio; browser playback and byte-range tests required. Independent Japanese pronunciation review still pending."
       }
     },
     {
@@ -52,7 +52,7 @@
       "speakerIds": [
         "melotts-japanese-synthetic"
       ],
-      "mediaPath": "https://fja-lesson-audio.free-japanese-academy.workers.dev/l0-m01-c01-l06-b.wav",
+      "mediaPath": "/audio/fja-lesson-audio-l06-b.wav",
       "format": "audio/wav",
       "sampleRateHz": 44100,
       "channels": 1,
@@ -82,7 +82,7 @@
         "nativePronunciationReviewed": false,
         "transcriptMatchedToAudio": false,
         "playbackTested": false,
-        "notes": "Automated WAV measurements performed at generation and full audio saved to KV. Web playback and byte-range access require CI verification; independent Japanese pronunciation review pending."
+        "notes": "Original WAV SHA-256 verified before binary-safe migration to public/audio; browser playback and byte-range tests required. Independent Japanese pronunciation review still pending."
       }
     }
   ]

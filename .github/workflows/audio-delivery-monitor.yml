@@ -1,23 +1,22 @@
 name: Audio Delivery Monitor
 
 on:
-  push:
-    branches: ['infra/**']
-    paths:
-      - 'infra/workers/**'
-      - 'scripts/check_audio_delivery.mjs'
-      - '.github/workflows/audio-delivery-monitor.yml'
-      - 'tests/audio-worker.test.cjs'
-  pull_request:
-    branches: [main]
-    paths:
-      - 'infra/workers/**'
-      - 'scripts/check_audio_delivery.mjs'
-      - '.github/workflows/audio-delivery-monitor.yml'
-      - 'tests/audio-worker.test.cjs'
   schedule:
     - cron: '27 */2 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'public/audio/**'
+      - 'src/content/audio/**'
+      - 'scripts/check_audio_delivery.mjs'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'public/audio/**'
+      - 'src/content/audio/**'
+      - 'scripts/check_audio_delivery.mjs'
+      - 'scripts/verify_static_audio.mjs'
 
 permissions:
   contents: read
@@ -27,26 +26,36 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  audio-unit:
-    name: Validate audio Worker error handling
+  audio-integrity:
+    name: Verify checked-in original SHA-256 WAVs
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/audio-worker.test.cjs
+      - run: node scripts/verify_static_audio.mjs
 
   audio-integration:
-    name: Check real WAV media, ranges, concurrency and integrity
+    name: Live Cloudflare Pages WAV availability and ranges
+    if: github.event_name != 'pull_request'
+    needs: [audio-integrity]
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Probe actual Cloudflare audio (36 independent requests)
+      - name: Wait for production Pages upload on first merge
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          for attempt in $(seq 1 24); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' 'https://free-japanese-academy.pages.dev/audio/fja-lesson-audio-l06-a.wav' || true)
+            if [ "$code" = "200" ]; then break; fi
+            echo "Cloudflare Pages static asset not ready: HTTP $code"
+            sleep 10
+          done
+      - name: Perform 36 strict full/range/HEAD WAV requests (no hidden retries)
         run: node scripts/check_audio_delivery.mjs
-        env:
-          FJA_AUDIO_BASE_URL: https://fja-lesson-audio.free-japanese-academy.workers.dev
