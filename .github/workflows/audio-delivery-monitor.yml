@@ -11,6 +11,7 @@ on:
       - 'src/content/audio/**'
       - 'scripts/check_audio_delivery.mjs'
       - 'functions/audio/**'
+      - '.github/workflows/audio-delivery-monitor.yml'
   pull_request:
     branches: [main]
     paths:
