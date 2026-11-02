@@ -106,6 +106,22 @@
       "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and production verification"
     },
     {
+      "id": "l0-m01-c01-l07",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c01",
+      "slot": "L07",
+      "title": "Writing and typing — Japanese script labels and supported composition",
+      "content": "src/content/lessons/l0/japanese-language-map-writing.mdx",
+      "url": "/learn/start/module-01/chapter-01/lesson-07/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese writing review not claimed",
+      "assessmentReview": "pending — independent writing rubric and item review not claimed",
+      "audio": "not required for L07; L06 recorded audio is unchanged",
+      "noindex": false,
+      "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
