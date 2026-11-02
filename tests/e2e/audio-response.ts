@@ -1,6 +1,10 @@
 import { expect, type APIResponse } from '@playwright/test';
 import { createHash } from 'node:crypto';
-import listening from '../../src/content/audio/l0-m01-c01-l06.json';
+import { readFileSync } from 'node:fs';
+
+const listening = JSON.parse(readFileSync(new URL('../../src/content/audio/l0-m01-c01-l06.json', import.meta.url),'utf8')) as {
+  assets: Array<{mediaPath:string;qa:{bytes:number;sha256:string}}>
+};
 
 const originals = {
   'fja-lesson-audio-l06-a.wav': { size: 1344706, sha: 'da38bd5223c82181281514fea1b382fff872936d602affdb69830e9c7fdda703' },
