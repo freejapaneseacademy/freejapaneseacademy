@@ -49,14 +49,32 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Wait for production Pages upload on first merge
+      - name: Wait for the exact newly deployed dialogue audio
         if: github.event_name == 'push'
         shell: bash
         run: |
-          for attempt in $(seq 1 24); do
-            code=$(curl -s -o /dev/null -w '%{http_code}' 'https://free-japanese-academy.pages.dev/audio/fja-lesson-audio-l06-a.wav' || true)
-            if [ "$code" = "200" ]; then break; fi
-            echo "Cloudflare Pages static asset not ready: HTTP $code"
+          set -euo pipefail
+          tracks=(
+            'fja-l06-real-dialogue-a-v2.wav'
+            'fja-l06-real-dialogue-b-v2.wav'
+          )
+          for attempt in $(seq 1 36); do
+            ready=true
+            for track in "${tracks[@]}"; do
+              code=$(curl --silent --max-time 12 -o /dev/null -w '%{http_code}' "https://free-japanese-academy.pages.dev/audio/$track" || true)
+              if [[ "$code" != "200" ]]; then
+                echo "New production audio not deployed yet: $track HTTP $code (attempt $attempt)"
+                ready=false
+              fi
+            done
+            if [[ "$ready" == "true" ]]; then
+              echo 'Both new production dialogue assets now available for strict integrity probes'
+              break
+            fi
+            if [[ "$attempt" == "36" ]]; then
+              echo 'Production Cloudflare deployment did not expose both new dialogue files'
+              exit 1
+            fi
             sleep 10
           done
       - name: Perform 72 strict full/range/HEAD WAV requests (no hidden retries)
