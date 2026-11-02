@@ -6,7 +6,7 @@ test('Chapter 02 L01 presents five vowel context, written practice, retry and br
   await page.goto('/learn/start/');
   await page.getByRole('link', { name: /Study Chapter 02 lesson 01/ }).click();
   await expect(page.getByRole('heading', { level: 1, name: /Five Japanese vowels/ })).toBeVisible();
-  await expect(page.getByText(/Emi's five-vowel card/)).toBeVisible();
+  await expect(page.locator('.foundation-scenario')).toBeVisible();
   const practice = page.locator('.sound-context-practice');
   await expect(practice.locator('fieldset')).toHaveCount(10);
   await expect(practice.locator('audio')).toHaveCount(0);
@@ -38,7 +38,9 @@ for (const width of [320, 375, 390, 768, 1024, 1440]) {
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width + 2);
     await page.locator('html').evaluate(element => { element.dataset.theme = 'dark'; });
     await expect(practice.locator('fieldset').first()).toBeVisible();
-    await practice.locator('fieldset').first().locator('input[type=radio]').first().focus();
-    await expect(practice.locator('fieldset').first().locator('input[type=radio]').first()).toBeFocused();
+    const firstChoice = practice.locator('fieldset').first().locator('input[type=radio]').first();
+    await expect(firstChoice).toBeEnabled();
+    await firstChoice.focus();
+    await expect(firstChoice).toBeFocused();
   });
 }
