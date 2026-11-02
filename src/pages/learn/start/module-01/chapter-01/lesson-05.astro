@@ -1,0 +1,22 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReadingPractice from '../../../../../components/interactive/ReadingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/japanese-language-map-reading');
+if(!lesson)throw new Error('Missing blueprint lesson l0-m01-c01-l05');
+const {Content}=await render(lesson);
+const id=lesson.data.lessonId??'l0-m01-c01-l05';
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Reading practice',href:'/learn/start/module-01/chapter-01/lesson-05/'}]}>
+  <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Lesson 05</span></nav><span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 01 · LESSON 05</span><h1>Read a classroom script chart.</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Lessons 01–04 recommended</span><span>Original reading · evidence · feedback</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original FreeJapaneseAcademy reading.</strong> Automated language screening is not independent Japanese-language or assessment review. This is not official JLPT material.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <ReadingPractice client:load />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>Read the chart, practise citing evidence and mark the lesson complete when ready. Completion and practice accuracy are separate browser-local records.</p><LessonActions client:load lessonId={id} level="l0" /></div>
+    <div class="lesson-next"><h3>Continue Japanese Foundations</h3><p>The next blueprint step, L06, requires original, playable and licensed narrated audio. It has not been published.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-01/lesson-04/">← Review lesson 04</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a></div>
+  </div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Japanese language map</h3><p><strong>L0-M01-C01-L05</strong></p><p>Read a nine-row classroom chart and locate symbols, explicit details and exact evidence.</p><div class="sample-rule"></div><h3>Study steps</h3><ol><li>Scan for the requested symbol.</li><li>Read the entire row note.</li><li>Cite a row and exact quotation.</li><li>Check twelve evidence questions.</li><li>Write an optional self-reviewed note.</li></ol><p>No audio, kanji memorization target or automatic writing grade is included.</p></aside></div></section>
+</Base>
