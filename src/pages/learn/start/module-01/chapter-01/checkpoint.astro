@@ -1,0 +1,33 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import CheckpointPractice from '../../../../../components/interactive/CheckpointPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','l0/japanese-language-map-checkpoint');
+if (!lesson) throw new Error('Missing canonical chapter checkpoint l0-m01-c01-chk');
+const { Content } = await render(lesson);
+const id = lesson.data.lessonId ?? 'l0-m01-c01-chk';
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Chapter 01 checkpoint',href:'/learn/start/module-01/chapter-01/checkpoint/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 01 checkpoint</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 01 · CHECKPOINT</span>
+    <h1>Can you explain Japanese writing?</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Lessons 01–08 recommended</span><span>16 new questions · Reading + two real audio tracks</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original academy checkpoint.</strong> This is practice, not an official JLPT test. Independent Japanese, assessment and pronunciation reviews remain pending. The audio recordings are existing licensed synthetic WAVs, reused unchanged.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR CHECKPOINT GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <CheckpointPractice client:load />
+    <div class="foundation-completion"><h2>Finish Chapter 01</h2><p>Mark the checkpoint complete after you have reviewed your work. Completion is separate from score and mastery, and you may revisit the checkpoint at any time. Optional speaking is never required.</p><LessonActions client:load lessonId={id} level="l0" /></div>
+    <div class="lesson-next"><h3>Continue Japanese Foundations</h3><p>Next in blueprint order: L0-M01-C02-L01 — Japanese sound system, context and meaning. It is not yet published.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-01/lesson-08/">← Review lesson 08</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a></div>
+  </div><aside class="lesson-side foundation-side">
+    <span class="eyebrow">STUDY GUIDE</span><h3>Chapter 01 mixed review</h3><p><strong>L0-M01-C01-CHK</strong></p>
+    <p>Review script roles, first kana, particle functions, chart evidence and the two recorded Japanese overviews.</p>
+    <div class="sample-rule"></div><h3>Suggested order</h3><ol><li>Review the chapter's four writing systems.</li><li>Play both recordings without transcripts.</li><li>Read the original chart.</li><li>Answer all 16 questions and submit.</li><li>Read evidence and review errors.</li><li>Optionally write an explanation and compare with the model.</li></ol>
+    <p>Transcript-assisted practice is not stored as a blind checkpoint score. Independent human review remains pending.</p>
+  </aside></div></section>
+</Base>
