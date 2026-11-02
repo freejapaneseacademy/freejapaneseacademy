@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { recordAttempt } from '../../lib/progress';
 import { firstLessonId, firstLessonQuizId, scoreScriptQuestions, scriptQuestions } from '../../lib/foundationsPractice';
 
 export default function FoundationsPractice() {
   const [answers, setAnswers] = useState<Record<string,string>>({});
+  const [ready, setReady] = useState(false);
+  useEffect(() => setReady(true), []);
   const [submitted,setSubmitted] = useState(false);
   const [saving,setSaving] = useState(false);
   const [error,setError] = useState('');
@@ -29,7 +31,7 @@ export default function FoundationsPractice() {
       <div className="foundation-progress-label" aria-live="polite">{answered} of {scriptQuestions.length} answered</div>
       <div className="foundation-progress" role="progressbar" aria-label="Questions answered" aria-valuemin={0} aria-valuemax={scriptQuestions.length} aria-valuenow={answered}><span style={{width:`${100*answered/scriptQuestions.length}%`}} /></div>
     </div>
-    {scriptQuestions.map((question,index)=><fieldset className="foundation-question" key={question.id} disabled={submitted||saving}>
+    {scriptQuestions.map((question,index)=><fieldset className="foundation-question" key={question.id} disabled={!ready||submitted||saving}>
       <legend><span className="foundation-question__number">{String(index+1).padStart(2,'0')}</span>{question.prompt}</legend>
       {question.example&&<div className="foundation-prompt-jp" lang={/^[A-Za-z ]+$/.test(question.example)?'en':'ja'}>{question.example}</div>}
       <div className="foundation-options">{question.choices.map(option=>{
@@ -48,7 +50,7 @@ export default function FoundationsPractice() {
     {error&&<p role="alert" className="inline-error">{error} Your answers are still here; please try again.</p>}
     {!submitted?<div className="foundation-practice__actions">
       <span className="muted">All questions must be answered before scoring.</span>
-      <button type="button" className="btn btn-primary" onClick={submit} disabled={answered!==scriptQuestions.length||saving}>{saving?'Saving…':'Check answers & save score'}</button>
+      <button type="button" className="btn btn-primary" onClick={submit} disabled={!ready||answered!==scriptQuestions.length||saving}>{saving?'Saving…':'Check answers & save score'}</button>
     </div>:<div className="foundation-result" role="status" aria-live="polite">
       <span className="eyebrow">PRACTICE RESULT</span>
       <h3>{score} / {scriptQuestions.length} correct</h3>
@@ -59,8 +61,8 @@ export default function FoundationsPractice() {
       <h3>Explain it in your own words</h3>
       <p>Imagine a friend asks, “Why do Japanese words look so different on a sign?” Write a short explanation that mentions hiragana, katakana, kanji, and romaji. This is a self-check, not an automatically graded writing test.</p>
       <label htmlFor="script-explanation">Your explanation (optional)</label>
-      <textarea id="script-explanation" rows={4} value={explanation} onChange={e=>setExplanation(e.target.value)} placeholder="Hiragana is used for…" />
-      <button type="button" className="btn btn-outline" aria-expanded={showModel} onClick={()=>setShowModel(x=>!x)}>{showModel?'Hide example explanation':'Compare with an example explanation'}</button>
+      <textarea id="script-explanation" rows={4} disabled={!ready} value={explanation} onChange={e=>setExplanation(e.target.value)} placeholder="Hiragana is used for…" />
+      <button type="button" className="btn btn-outline" disabled={!ready} aria-expanded={showModel} onClick={()=>setShowModel(x=>!x)}>{showModel?'Hide example explanation':'Compare with an example explanation'}</button>
       {showModel&&<div className="foundation-feedback">
         <strong>Example of a clear explanation</strong>
         <p>Japanese commonly uses three writing systems. Hiragana is a sound-based script used for many native words and grammar parts. Katakana is also sound-based and is often used for loanwords. Kanji are characters used in many words and can have different readings. Romaji represents Japanese using Latin letters, but most Japanese text is not written only in romaji.</p>
