@@ -1,4 +1,4 @@
-name: AivisSpeech Kohaku Japanese audio audition
+name: AivisSpeech Kohaku teacher voice audition
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
       - name: Validate audio generator
         run: |
           python3 -m py_compile scripts/tts/aivis_kohaku_generate.py
-          python3 -c 'import json; x=json.load(open("scripts/tts/aivis_kohaku_l06.json")); assert x["candidateOnly"] and len(x["tracks"])==2'
+          python3 -c 'import json; x=json.load(open("scripts/tts/aivis_kohaku_l06.json")); assert x["candidateOnly"] and len(x["tracks"])==2 and len(x["teachingPresets"])==2'
       - name: Download Kohaku model with exact SHA256 verification
         shell: bash
         run: |
@@ -69,7 +69,7 @@ jobs:
       - name: Make files available from GitHub even if preview publishing fails
         uses: actions/upload-artifact@v4
         with:
-          name: kohaku-japanese-audition
+          name: kohaku-classroom-teacher-audition
           path: |
             public/voice-preview/kohaku/*.wav
             public/voice-preview/kohaku/candidate-report.json
@@ -82,11 +82,11 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/voice-preview/kohaku/track-a.wav public/voice-preview/kohaku/track-b.wav public/voice-preview/kohaku/candidate-report.json
+          git add public/voice-preview/kohaku/track-*-teacher-*.wav public/voice-preview/kohaku/teacher-candidate-report.json
           if git diff --cached --quiet; then
             echo 'Preview already committed'
           else
-            git commit -m 'chore: add candidate-only AivisSpeech Japanese recordings'
+            git commit -m 'chore(audio): add calm and warm teacher voice audition WAVs'
             git push origin HEAD:refs/heads/infra/tts/aivis-kohaku-pilot
           fi
       - name: Engine diagnostic logs if failed

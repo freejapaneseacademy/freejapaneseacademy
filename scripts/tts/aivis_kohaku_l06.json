@@ -14,5 +14,27 @@
       "id": "b",
       "text": "次は、漢字です。「山」は漢字で、「やま」と読みます。そして「さくら」は、ひらがなで書かれています。最後に、ローマ字です。ローマ字は、アルファベットを使って日本語を書く方法です。"
     }
+  ],
+  "teachingPresets": [
+    {
+      "id": "calm",
+      "name": "Calm classroom teacher",
+      "speedScale": 0.91,
+      "intonationScale": 0.7,
+      "tempoDynamicsScale": 0.65,
+      "prePhonemeLength": 0.16,
+      "postPhonemeLength": 0.2,
+      "pitchScale": 0
+    },
+    {
+      "id": "warm",
+      "name": "Friendly classroom teacher",
+      "speedScale": 0.96,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.83,
+      "prePhonemeLength": 0.13,
+      "postPhonemeLength": 0.16,
+      "pitchScale": 0
+    }
   ]
 }
