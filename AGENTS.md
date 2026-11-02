@@ -45,3 +45,7 @@ Retain `public/ads.txt` for publisher `pub-3399213817491318`. Future page
 generation must not bypass the shared layout; preserve `tests/e2e/adsense.spec.ts`.
 Do not invent ad slot IDs, imply approval to serve ads, or circumvent applicable
 privacy/consent requirements. See `docs/monetization/ADSENSE.md`.
+
+## Public contact route and accountable communication
+
+Keep the accessible `/contact/` page linked from the shared footer and mobile navigation; it contains the owner's public mailbox `free-japanese-academy@protonmail.com`, a FormSubmit HTTPS contact form and a direct mailto fallback. Preserve the privacy disclosure and `tests/e2e/contact.spec.ts`. FormSubmit needs a one-time recipient email activation before delivery: do not state delivery works without confirmation. Read `docs/monetization/CONTACT_FORM.md` for details; never send test enquiries automatically.
