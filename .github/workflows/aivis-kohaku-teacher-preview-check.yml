@@ -1,0 +1,50 @@
+name: Verify Kohaku teacher-tone audition from public network
+
+on:
+  push:
+    branches:
+      - infra/tts/aivis-kohaku-pilot
+    paths:
+      - .github/workflows/aivis-kohaku-teacher-preview-check.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Confirm 4 real teacher-tone audio previews
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check public preview HTML, complete WAV hashes and browser range requests
+        run: |
+          node --input-type=module - <<'JS'
+          import { createHash } from 'node:crypto';
+          const base = 'https://96bc044d.free-japanese-academy.pages.dev/voice-preview/kohaku/';
+          const expected = {
+            'track-a-teacher-calm.wav':'94f5f6c468f4d5122defda486d90cd131097baead4255c954809d118b87a4b5c',
+            'track-b-teacher-calm.wav':'f9a5c6e930b513f36d907a9ef4150d61cdd3548d0cfe85b30e3e9622bdf2e476',
+            'track-a-teacher-warm.wav':'f1047f54d0acbc1b801df3c2e46b969d27eadd65fe2142347ce6222f175c4f0f',
+            'track-b-teacher-warm.wav':'b9afb8029df3bafa12dfbbc3fcaf9edd58c54185df05590292b6b4d08afa7e6b'
+          };
+          const headers = { 'User-Agent':'Mozilla/5.0 FreeJapaneseAcademyVoiceQA/1.0' };
+          const page = await fetch(base, {headers});
+          const html = await page.text();
+          if (page.status!==200 || !html.includes('Compare classroom teaching voices') || !html.includes('Calm classroom teacher') || !html.includes('Friendly classroom teacher')) throw Error('Audition HTML is not published: '+page.status);
+          console.log('PASS public compare page HTTP 200');
+          for (const [name,sha] of Object.entries(expected)) {
+            const src=base+name;
+            const response = await fetch(src,{headers});
+            const bytes = Buffer.from(await response.arrayBuffer());
+            const digest=createHash('sha256').update(bytes).digest('hex');
+            if(response.status!==200 || digest!==sha || bytes.toString('ascii',0,4)!=='RIFF' || bytes.toString('ascii',8,12)!=='WAVE') throw Error(name+' complete WAV hash or header failed: '+response.status+' '+digest);
+            const ranged=await fetch(src,{headers:{...headers,Range:'bytes=0-43'}});
+            const part=Buffer.from(await ranged.arrayBuffer());
+            const goodPartial=ranged.status===206 && part.length===44 && part.toString('ascii',0,4)==='RIFF';
+            const goodFull=ranged.status===200 && createHash('sha256').update(part).digest('hex')===sha;
+            if(!goodPartial && !goodFull) throw Error(name+' range/full response invalid '+ranged.status);
+            console.log('PASS',name,'bytes',bytes.length,'SHA256',digest,'range-response',ranged.status);
+          }
+          console.log('PASS all four teacher-style WAVs publicly accessible, original audio untouched.');
+          JS
