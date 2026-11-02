@@ -1,0 +1,40 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import audio from '../../../../../content/audio/l0-m01-c02-l06-v1.json';
+import bank from '../../../../../content/exercises/l0-m01-c02-l06.json';
+import '../../../../../styles/foundations.css';
+
+const lesson = await getEntry('lessons', 'l0/japanese-sound-system-listening');
+if (!lesson || lesson.data.lessonId !== 'l0-m01-c02-l06') throw new Error('Missing canonical L0-M01-C02-L06 lesson');
+if (audio.lessonId !== lesson.data.lessonId || bank.lessonId !== lesson.data.lessonId || audio.assets.length !== 2 || bank.items.length !== 7) throw new Error('Listening audio/exercise package mismatch');
+const { Content } = await render(lesson);
+const tracks = audio.assets.map((asset, index) => ({
+  id: (index === 0 ? 'a' : 'b') as 'a' | 'b',
+  assetId: asset.id,
+  label: index === 0 ? 'Photo conversation' : 'Family photo conversation',
+  url: asset.mediaPath,
+  durationSeconds: asset.durationSeconds,
+  transcript: asset.transcript,
+  english: asset.english
+}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Japanese sound system',href:'/learn/start/module-01/chapter-02/lesson-06/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 02 · Lesson 06</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 02 · LESSON 06</span>
+    <h1>Hear Japanese vowel length in conversation.</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Lessons 01–05 recommended</span><span>Two real dual-voice WAV tracks · Seven listening questions</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original Japanese listening with licensed synthetic voices.</strong> AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ), Calm; AivisSpeech: morioki (voice: morioki; model: yuki), Normal. Both models use ACML 1.0. Automated WAV integrity checks are not an independent native Japanese pronunciation or naturalness review; those reviews remain pending. This is not an official JLPT assessment.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR LISTENING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <ReusableListeningPractice client:load lessonId="l0-m01-c02-l06" level="l0" version={bank.version} tracks={tracks} questions={bank.items} />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>Listen and review at your own pace. Completion and your optional blind quiz score are separate browser-local records; neither certifies Japanese pronunciation or mastery.</p><LessonActions client:load lessonId="l0-m01-c02-l06" level="l0" /></div>
+    <div class="lesson-next"><h3>Continue learning</h3><p>Next in Blueprint order: L0-M01-C02-L07 — writing and typing the vowel forms. It has not yet been published.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-02/lesson-05/">← Review reading lesson 05</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a><a class="btn btn-outline" href="/dashboard/">My learning ↗</a></div>
+  </div><aside class="lesson-side foundation-side"><span class="eyebrow">YOUR STUDY GUIDE</span><h3>Hear the contrast</h3><p><strong>L0-M01-C02-L06</strong></p><p>Two complete conversations with alternating male and female speakers. Listen for a question, correction and a held vowel in context.</p><div class="sample-rule"></div><h3>Suggested order</h3><ol><li>Review vowel quality and mora timing.</li><li>Listen to both tracks without written help.</li><li>Replay the short reply and correction.</li><li>Answer seven audio-only questions.</li><li>Reveal transcripts and check evidence.</li><li>Optionally shadow one short line.</li></ol><p>Transcripts are always available for assisted access; no microphone or written-script recognition is required.</p></aside></div></section>
+</Base>

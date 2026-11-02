@@ -234,6 +234,22 @@
       "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c02-l06",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c02",
+      "slot": "L06",
+      "title": "Listening practice — Japanese vowel length in two conversations",
+      "content": "src/content/lessons/l0/japanese-sound-system-listening.mdx",
+      "url": "/learn/start/module-01/chapter-02/lesson-06/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified pronunciation and naturalness review not claimed",
+      "assessmentReview": "pending — independent assessment-editor review not claimed",
+      "audio": "two original dual-voice AivisSpeech ACML 1.0 WAVs generated and SHA-256 validated via hosted workflow; versioned static assets; human listening review pending",
+      "noindex": false,
+      "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
