@@ -1,0 +1,162 @@
+{
+  "id": "l0-m01-c02-chk",
+  "version": 1,
+  "status": "draft",
+  "source": "original academy-authored written checkpoint questions",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "passingPercentSuggested": 80,
+    "officialJLPTScore": false
+  },
+  "integrity": {
+    "blindListeningQuestionsIncluded": false,
+    "reason": "Listening questions require verified alignment with published Chapter 02 L06 audio and transcript; do not mislabel written items as listening."
+  },
+  "items": [
+    {
+      "id": "l0-m01-c02-chk-w01",
+      "skill": "written",
+      "prompt": "Which row lists the five basic Japanese vowel symbols in their usual teaching order?",
+      "options": [
+        "あ・い・う・え・お",
+        "あ・え・い・お・う",
+        "か・き・く・け・こ"
+      ],
+      "correctIndex": 0,
+      "feedback": "The five basic vowels are あ, い, う, え, お; the か row includes consonants."
+    },
+    {
+      "id": "l0-m01-c02-chk-w02",
+      "skill": "written",
+      "prompt": "How many morae are in いえ (house)?",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1,
+      "feedback": "い・え: each vowel is one mora, giving two."
+    },
+    {
+      "id": "l0-m01-c02-chk-w03",
+      "skill": "written",
+      "prompt": "How many morae are in いいえ (no)?",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 1,
+      "feedback": "い・い・え has three vowel morae; the repeated い is not ignored."
+    },
+    {
+      "id": "l0-m01-c02-chk-w04",
+      "skill": "written",
+      "prompt": "In the written word おばあさん (grandmother), how many morae are there?",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "feedback": "お・ば・あ・さ・ん = five; the long vowel and ん each contribute a mora."
+    },
+    {
+      "id": "l0-m01-c02-chk-w05",
+      "skill": "written",
+      "prompt": "Which word refers to an aunt, not a grandmother?",
+      "options": [
+        "おばさん",
+        "おばあさん",
+        "Both always mean aunt"
+      ],
+      "correctIndex": 0,
+      "feedback": "おばさん means aunt; おばあさん with the extra あ means grandmother."
+    },
+    {
+      "id": "l0-m01-c02-chk-w06",
+      "skill": "written",
+      "prompt": "Which is the correct mora breakdown for おばさん?",
+      "options": [
+        "お・ば・さ・ん",
+        "お・ばさ・ん",
+        "おば・さん"
+      ],
+      "correctIndex": 0,
+      "feedback": "The four timing units are お, ば, さ, ん; the nasal counts separately."
+    },
+    {
+      "id": "l0-m01-c02-chk-w07",
+      "skill": "written",
+      "prompt": "A family photo is captioned おばあさん. Which correction is appropriate if someone reads it as おばさん?",
+      "options": [
+        "Add あ after ば",
+        "Remove ん",
+        "Replace さ with し"
+      ],
+      "correctIndex": 0,
+      "feedback": "The extra あ marks the long vowel in おばあさん."
+    },
+    {
+      "id": "l0-m01-c02-chk-w08",
+      "skill": "reading",
+      "prompt": "In the map note, which written pair differs by one additional い?",
+      "options": [
+        "いえ / いいえ",
+        "おばさん / おばあさん",
+        "あお / あい"
+      ],
+      "correctIndex": 0,
+      "feedback": "Compare い・え and い・い・え. The second contains one more い."
+    },
+    {
+      "id": "l0-m01-c02-chk-w09",
+      "skill": "reading",
+      "prompt": "The map note says the second word in おばさん / おばあさん contains which extra symbol?",
+      "options": [
+        "ん",
+        "あ",
+        "お"
+      ],
+      "correctIndex": 1,
+      "feedback": "The added あ follows ば in おばあさん."
+    },
+    {
+      "id": "l0-m01-c02-chk-w10",
+      "skill": "concept",
+      "prompt": "Which statement about morae is accurate?",
+      "options": [
+        "Morae always equal English syllables",
+        "A long vowel adds a timing unit",
+        "The nasal ん never counts"
+      ],
+      "correctIndex": 1,
+      "feedback": "A lengthened vowel occupies an additional mora; ん also occupies one."
+    },
+    {
+      "id": "l0-m01-c02-chk-w11",
+      "skill": "concept",
+      "prompt": "What can a written kana comparison demonstrate by itself?",
+      "options": [
+        "That the learner understood a spoken dialogue",
+        "The location of an extra written vowel",
+        "That the learner has native-like pronunciation"
+      ],
+      "correctIndex": 1,
+      "feedback": "Written evidence supports visual recognition only, not listening or pronunciation proficiency."
+    },
+    {
+      "id": "l0-m01-c02-chk-w12",
+      "skill": "concept",
+      "prompt": "A learner reveals a transcript before answering a spoken question. How should the result be described?",
+      "options": [
+        "Blind listening",
+        "Transcript-assisted comprehension",
+        "Certified pronunciation"
+      ],
+      "correctIndex": 1,
+      "feedback": "The transcript supplies written evidence, so the attempt is assisted rather than blind listening."
+    }
+  ]
+}
