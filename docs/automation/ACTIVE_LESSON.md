@@ -1,18 +1,21 @@
-# Active canonical lesson — 2026-11-03
+# Active incremental lesson: l0-m01-c02-chk
 
-Lesson: **l0-m01-c02-chk**, Chapter 02 Japanese sound system mixed checkpoint.
-Branch: `lesson/l0-m01-c02-chk-20261103-1113`.
-Status: **draft, NOT published**. L08 was already merged and deployed via PR #27.
+Branch: `lesson/l0-m01-c02-chk-20261103-1113`  
+Draft PR: https://github.com/freejapaneseacademy/freejapaneseacademy/pull/28
 
-## Completed
-- Created `src/content/lessons/l0/japanese-sound-system-checkpoint.mdx` with blueprint-aligned five-vowel and mora-timing explanations, original reading stimulus, worked evidence, meaning contrasts, and explicit separation of reading versus listening.
-- Checked GitHub main `12ed56f84238c008d7323406985e5c7f30830cd7`, no open PRs or competing checkpoint branch at branch creation.
-- Cloudflare latest production deployment `47704442-ecbc-4e55-ba59-d148839de183` succeeded for the same main SHA.
-- This is a partial draft, not an independently reviewed or scored lesson.
+Status: **unpublished; implementation in progress**. Chapter 02 L08 was previously merged and is not active work.
 
-## Next work on SAME branch and PR
-1. Read existing Chapter 01 checkpoint implementation and Chapter 02 L06 audio manifest/exercise data; reuse accessible quiz/listening components.
-2. Add 10–25 original, correctly keyed mixed questions: vocabulary, vowel-length and mora counting, script, fresh reading with explicit evidence, and real audio comprehension from verified Chapter 02 Aivis WAVs. Keep transcripts hidden until scoring and assisted results separate.
-3. Implement Astro route with Base.astro, quiz interaction and Dexie progress, responsive navigation, SEO, inventory candidate and review notes. Preserve all previous lesson IDs and audio.
-4. Add unit and Playwright E2E tests; run authoritative `.github/workflows/lesson-quality.yml` against final exact head SHA; fix failures. Human Japanese pronunciation and assessment review pending unless actually performed.
-5. Only after completed checks and no competing work, merge with expected SHA, confirm Cloudflare production success, then mark published. Do not generate Chapter 03 L01 until this checkpoint is published.
+## Completed on this branch
+
+- Original MDX teaching and checkpoint orientation: `src/content/lessons/l0/japanese-sound-system-checkpoint.mdx`.
+- Twelve original single-choice written/reading/concept questions, stable IDs, explicit answer indices and feedback: `src/content/exercises/l0-m01-c02-chk-written-v1.json`.
+- Questions distinguish written reading evidence from audio comprehension. The bank is **not** a finished multi-skill checkpoint and must not be published alone.
+
+## Required next work
+
+1. Validate the original question bank with the repository exercise schema and Japanese QA; fix any ambiguous item or implementation mismatch.
+2. Read published Chapter 02 L06 manifest and real versioned WAV metadata, confirm rights and waveform integrity, and write genuine spoken-evidence listening items. Keep transcripts hidden until scored; assisted mode must be separately identified. Do not reuse writing-system narration as blind listening.
+3. Implement accessible Astro route and interactive mixed checkpoint using existing React quiz, Dexie attempt recording and retry feedback; add source validators, unit and Playwright E2E tests.
+4. Update navigation, SEO and inventory without marking publication prematurely. Run authoritative exact-head lesson-quality CI, repair failures, verify Cloudflare preview, then merge with expected SHA and confirm production deployment.
+
+Independent native Japanese pronunciation/naturalness and independent assessment reviews: **pending; no signoff claimed**.
