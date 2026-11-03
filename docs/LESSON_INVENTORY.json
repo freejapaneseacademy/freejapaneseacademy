@@ -428,6 +428,21 @@
       "ownerApproval": "2026-11-03: owner preauthorized automatic publication conditional on exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c03-chk",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c03",
+      "slot": "CHK",
+      "title": "Chapter 03 checkpoint — Long vowels, small っ and nasal ん",
+      "content": "src/content/lessons/l0/sound-changes-rhythm-checkpoint.mdx",
+      "url": "/learn/start/module-01/chapter-03/checkpoint/",
+      "status": "published",
+      "humanJapaneseReview": "pending - independent qualified native review not claimed",
+      "assessmentReview": "pending - independent assessment editor review not claimed",
+      "audio": "Reuses unchanged Chapter 03 L06 AivisSpeech ACML 1.0 WAVs with source-manifest SHA-256; independent pronunciation review pending",
+      "noindex": false
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
