@@ -32,7 +32,7 @@
       },
       "explanation": "Aya wants to produce a kana label.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -71,7 +71,7 @@
       },
       "explanation": "Ken explains the input setting and supports Aya.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -110,7 +110,7 @@
       },
       "explanation": "The chapter Can-do combines keyboard entry with optional reading aids.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -149,7 +149,7 @@
       },
       "explanation": "The sequence neko yields ねこ in common romaji input.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -188,7 +188,7 @@
       },
       "explanation": "An inactive Japanese input method may leave Latin letters unchanged.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -227,7 +227,7 @@
       },
       "explanation": "In this input scheme kk yields the small っ before こ.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -266,7 +266,7 @@
       },
       "explanation": "The reading aid にほんご gives pronunciation, not an English translation.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -305,7 +305,7 @@
       },
       "explanation": "Hiding a reading aid does not erase the main word.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -344,7 +344,7 @@
       },
       "explanation": "もういちど means one more time; the phrase is a polite request.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -383,7 +383,7 @@
       },
       "explanation": "ゆっくり requests a slower pace in this classroom context.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -422,7 +422,7 @@
       },
       "explanation": "かけました expresses that she managed to write it.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
@@ -461,7 +461,7 @@
       },
       "explanation": "Input and reading aids serve distinct purposes.",
       "type": "single-choice",
-      "status": "draft",
+      "status": "published",
       "level": "l0",
       "skills": [
         "context-recognition",
