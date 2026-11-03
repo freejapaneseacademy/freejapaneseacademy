@@ -1,0 +1,165 @@
+{
+  "lessonId": "l0-m01-c03-l06",
+  "chapterId": "l0-m01-c03",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m01-c03-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m01-c03-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 13.66,
+      "transcript": "女性： すみません。切手を二枚ください。\n男性： はい。二枚ですね。お手紙は日本に送りますか。\n女性： はい。大阪の友達に送ります。\n男性： わかりました。こちらです。",
+      "english": "Woman: Excuse me. Two stamps, please.\nMan: Certainly. Two, right? Are you sending the letter within Japan?\nWoman: Yes. I'm sending it to a friend in Osaka.\nMan: Understood. Here you are.",
+      "scriptPurpose": "Buying stamps at the post office",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m01-c03-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。切手を二枚ください。",
+          "english": "Excuse me. Two stamps, please.",
+          "startSeconds": 0.0,
+          "endSeconds": 2.97
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。二枚ですね。お手紙は日本に送りますか。",
+          "english": "Certainly. Two, right? Are you sending the letter within Japan?",
+          "startSeconds": 3.25,
+          "endSeconds": 7.59
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。大阪の友達に送ります。",
+          "english": "Yes. I'm sending it to a friend in Osaka.",
+          "startSeconds": 7.87,
+          "endSeconds": 11.04
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "わかりました。こちらです。",
+          "english": "Understood. Here you are.",
+          "startSeconds": 11.32,
+          "endSeconds": 13.66
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Automated FreeJapaneseAcademy license screening, 2026-11-03 (pinned AivisHub model pages and ACML 1.0; no independent human review claimed)",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "810e64cf694a51294c34ad569b06a44de9dd19ea7736b144e9bcd68d38537932",
+        "bytes": 1204502,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m01-c03-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m01-c03-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 13.12,
+      "transcript": "男性： 明日のピクニック、何を持っていきますか。\n女性： パンとお茶を持っていきます。\n男性： いいですね。かばんは大きいですか。\n女性： いいえ、小さいです。でも、パンは入りますよ。",
+      "english": "Man: What will you bring to tomorrow's picnic?\nWoman: I'll bring bread and tea.\nMan: Sounds good. Is your bag big?\nWoman: No, it's small. But the bread will fit.",
+      "scriptPurpose": "Getting ready for a picnic",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m01-c03-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "明日のピクニック、何を持っていきますか。",
+          "english": "What will you bring to tomorrow's picnic?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.27
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "パンとお茶を持っていきます。",
+          "english": "I'll bring bread and tea.",
+          "startSeconds": 3.55,
+          "endSeconds": 5.68
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいですね。かばんは大きいですか。",
+          "english": "Sounds good. Is your bag big?",
+          "startSeconds": 5.96,
+          "endSeconds": 8.88
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ、小さいです。でも、パンは入りますよ。",
+          "english": "No, it's small. But the bread will fit.",
+          "startSeconds": 9.16,
+          "endSeconds": 13.12
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Automated FreeJapaneseAcademy license screening, 2026-11-03 (pinned AivisHub model pages and ACML 1.0; no independent human review claimed)",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "3f2399263ff5803bc2545483800fb0bd25706cd43cf75d57eed31d2aba981556",
+        "bytes": 1157382,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
