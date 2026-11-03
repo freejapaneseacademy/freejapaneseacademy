@@ -1,0 +1,24 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import StudyToolsGrammarPractice from '../../../../../components/interactive/StudyToolsGrammarPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/study-tools-input-sentence-function');
+if(!lesson||lesson.data.lessonId!=='l0-m01-c04-l03')throw new Error('Missing canonical lesson l0-m01-c04-l03');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Sentence functions',href:'/learn/start/module-01/chapter-04/lesson-03/'}]}>
+<section class="page-hero"><div class="container">
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 04 · Lesson 03</span></nav>
+<span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 04 · LESSON 03</span><h1>Ask clearly.<br/>Use the right tool.</h1><p>{lesson.data.description}</p>
+<div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Lesson 02 recommended</span><span>12 written questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+<div class="course-notice"><strong>Original written grammar lesson.</strong> Learn sentence functions in a fictional classroom exchange. No audio or spoken proficiency is assessed. Independent reviews pending.</div>
+<div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+<article class="lesson-article foundation-article"><Content/></article>
+<StudyToolsGrammarPractice client:load/>
+<div class="foundation-completion"><h2>Finish this lesson</h2><p>Mark completion separately from your scored practice.</p><LessonActions client:load lessonId="l0-m01-c04-l03" level="l0"/></div>
+<div class="lesson-next"><h3>Continue learning</h3><a class="btn btn-outline" href="/learn/start/module-01/chapter-04/lesson-02/">← Review lesson 02</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div>
+</div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Meaning and function</h3><p>Distinguish a wish from a request, conversion from furigana, and a general request from a specific one.</p></aside></div></section>
+</Base>
