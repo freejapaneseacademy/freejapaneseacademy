@@ -15,7 +15,7 @@
   },
   "items": [
     {
-      "id": "l0-m01-c02-chk-w01",
+      "id": "ex-l0-m01-c02-chk-w01",
       "skill": "written",
       "prompt": "Which row lists the five basic Japanese vowel symbols in their usual teaching order?",
       "options": [
@@ -24,10 +24,43 @@
         "か・き・く・け・こ"
       ],
       "correctIndex": 0,
-      "feedback": "The five basic vowels are あ, い, う, え, お; the か row includes consonants."
+      "feedback": "The five basic vowels are あ, い, う, え, お; the か row includes consonants.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "written"
+      ],
+      "explanation": "The five basic vowels are あ, い, う, え, お; the か row includes consonants.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w01-c1",
+          "text": "あ・い・う・え・お",
+          "rationale": "The five basic vowels are あ, い, う, え, お; the か row includes consonants."
+        },
+        {
+          "id": "l0-m01-c02-chk-w01-c2",
+          "text": "あ・え・い・お・う",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w01-c3",
+          "text": "か・き・く・け・こ",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w01-c1"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w02",
+      "id": "ex-l0-m01-c02-chk-w02",
       "skill": "written",
       "prompt": "How many morae are in いえ (house)?",
       "options": [
@@ -36,10 +69,43 @@
         "3"
       ],
       "correctIndex": 1,
-      "feedback": "い・え: each vowel is one mora, giving two."
+      "feedback": "い・え: each vowel is one mora, giving two.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "written"
+      ],
+      "explanation": "い・え: each vowel is one mora, giving two.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w02-c1",
+          "text": "1",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w02-c2",
+          "text": "2",
+          "rationale": "い・え: each vowel is one mora, giving two."
+        },
+        {
+          "id": "l0-m01-c02-chk-w02-c3",
+          "text": "3",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w02-c2"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w03",
+      "id": "ex-l0-m01-c02-chk-w03",
       "skill": "written",
       "prompt": "How many morae are in いいえ (no)?",
       "options": [
@@ -48,10 +114,43 @@
         "4"
       ],
       "correctIndex": 1,
-      "feedback": "い・い・え has three vowel morae; the repeated い is not ignored."
+      "feedback": "い・い・え has three vowel morae; the repeated い is not ignored.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "written"
+      ],
+      "explanation": "い・い・え has three vowel morae; the repeated い is not ignored.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w03-c1",
+          "text": "2",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w03-c2",
+          "text": "3",
+          "rationale": "い・い・え has three vowel morae; the repeated い is not ignored."
+        },
+        {
+          "id": "l0-m01-c02-chk-w03-c3",
+          "text": "4",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w03-c2"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w04",
+      "id": "ex-l0-m01-c02-chk-w04",
       "skill": "written",
       "prompt": "In the written word おばあさん (grandmother), how many morae are there?",
       "options": [
@@ -60,10 +159,43 @@
         "6"
       ],
       "correctIndex": 1,
-      "feedback": "お・ば・あ・さ・ん = five; the long vowel and ん each contribute a mora."
+      "feedback": "お・ば・あ・さ・ん = five; the long vowel and ん each contribute a mora.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "written"
+      ],
+      "explanation": "お・ば・あ・さ・ん = five; the long vowel and ん each contribute a mora.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w04-c1",
+          "text": "4",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w04-c2",
+          "text": "5",
+          "rationale": "お・ば・あ・さ・ん = five; the long vowel and ん each contribute a mora."
+        },
+        {
+          "id": "l0-m01-c02-chk-w04-c3",
+          "text": "6",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w04-c2"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w05",
+      "id": "ex-l0-m01-c02-chk-w05",
       "skill": "written",
       "prompt": "Which word refers to an aunt, not a grandmother?",
       "options": [
@@ -72,10 +204,43 @@
         "Both always mean aunt"
       ],
       "correctIndex": 0,
-      "feedback": "おばさん means aunt; おばあさん with the extra あ means grandmother."
+      "feedback": "おばさん means aunt; おばあさん with the extra あ means grandmother.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "written"
+      ],
+      "explanation": "おばさん means aunt; おばあさん with the extra あ means grandmother.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w05-c1",
+          "text": "おばさん",
+          "rationale": "おばさん means aunt; おばあさん with the extra あ means grandmother."
+        },
+        {
+          "id": "l0-m01-c02-chk-w05-c2",
+          "text": "おばあさん",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w05-c3",
+          "text": "Both always mean aunt",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w05-c1"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w06",
+      "id": "ex-l0-m01-c02-chk-w06",
       "skill": "written",
       "prompt": "Which is the correct mora breakdown for おばさん?",
       "options": [
@@ -84,10 +249,43 @@
         "おば・さん"
       ],
       "correctIndex": 0,
-      "feedback": "The four timing units are お, ば, さ, ん; the nasal counts separately."
+      "feedback": "The four timing units are お, ば, さ, ん; the nasal counts separately.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "written"
+      ],
+      "explanation": "The four timing units are お, ば, さ, ん; the nasal counts separately.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w06-c1",
+          "text": "お・ば・さ・ん",
+          "rationale": "The four timing units are お, ば, さ, ん; the nasal counts separately."
+        },
+        {
+          "id": "l0-m01-c02-chk-w06-c2",
+          "text": "お・ばさ・ん",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w06-c3",
+          "text": "おば・さん",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w06-c1"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w07",
+      "id": "ex-l0-m01-c02-chk-w07",
       "skill": "written",
       "prompt": "A family photo is captioned おばあさん. Which correction is appropriate if someone reads it as おばさん?",
       "options": [
@@ -96,10 +294,43 @@
         "Replace さ with し"
       ],
       "correctIndex": 0,
-      "feedback": "The extra あ marks the long vowel in おばあさん."
+      "feedback": "The extra あ marks the long vowel in おばあさん.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "written"
+      ],
+      "explanation": "The extra あ marks the long vowel in おばあさん.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w07-c1",
+          "text": "Add あ after ば",
+          "rationale": "The extra あ marks the long vowel in おばあさん."
+        },
+        {
+          "id": "l0-m01-c02-chk-w07-c2",
+          "text": "Remove ん",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w07-c3",
+          "text": "Replace さ with し",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w07-c1"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w08",
+      "id": "ex-l0-m01-c02-chk-w08",
       "skill": "reading",
       "prompt": "In the map note, which written pair differs by one additional い?",
       "options": [
@@ -108,10 +339,43 @@
         "あお / あい"
       ],
       "correctIndex": 0,
-      "feedback": "Compare い・え and い・い・え. The second contains one more い."
+      "feedback": "Compare い・え and い・い・え. The second contains one more い.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "explanation": "Compare い・え and い・い・え. The second contains one more い.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w08-c1",
+          "text": "いえ / いいえ",
+          "rationale": "Compare い・え and い・い・え. The second contains one more い."
+        },
+        {
+          "id": "l0-m01-c02-chk-w08-c2",
+          "text": "おばさん / おばあさん",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w08-c3",
+          "text": "あお / あい",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w08-c1"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w09",
+      "id": "ex-l0-m01-c02-chk-w09",
       "skill": "reading",
       "prompt": "The map note says the second word in おばさん / おばあさん contains which extra symbol?",
       "options": [
@@ -120,10 +384,43 @@
         "お"
       ],
       "correctIndex": 1,
-      "feedback": "The added あ follows ば in おばあさん."
+      "feedback": "The added あ follows ば in おばあさん.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "explanation": "The added あ follows ば in おばあさん.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w09-c1",
+          "text": "ん",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w09-c2",
+          "text": "あ",
+          "rationale": "The added あ follows ば in おばあさん."
+        },
+        {
+          "id": "l0-m01-c02-chk-w09-c3",
+          "text": "お",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w09-c2"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w10",
+      "id": "ex-l0-m01-c02-chk-w10",
       "skill": "concept",
       "prompt": "Which statement about morae is accurate?",
       "options": [
@@ -132,10 +429,43 @@
         "The nasal ん never counts"
       ],
       "correctIndex": 1,
-      "feedback": "A lengthened vowel occupies an additional mora; ん also occupies one."
+      "feedback": "A lengthened vowel occupies an additional mora; ん also occupies one.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "concept"
+      ],
+      "explanation": "A lengthened vowel occupies an additional mora; ん also occupies one.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w10-c1",
+          "text": "Morae always equal English syllables",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w10-c2",
+          "text": "A long vowel adds a timing unit",
+          "rationale": "A lengthened vowel occupies an additional mora; ん also occupies one."
+        },
+        {
+          "id": "l0-m01-c02-chk-w10-c3",
+          "text": "The nasal ん never counts",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w10-c2"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w11",
+      "id": "ex-l0-m01-c02-chk-w11",
       "skill": "concept",
       "prompt": "What can a written kana comparison demonstrate by itself?",
       "options": [
@@ -144,10 +474,43 @@
         "That the learner has native-like pronunciation"
       ],
       "correctIndex": 1,
-      "feedback": "Written evidence supports visual recognition only, not listening or pronunciation proficiency."
+      "feedback": "Written evidence supports visual recognition only, not listening or pronunciation proficiency.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "concept"
+      ],
+      "explanation": "Written evidence supports visual recognition only, not listening or pronunciation proficiency.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w11-c1",
+          "text": "That the learner understood a spoken dialogue",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w11-c2",
+          "text": "The location of an extra written vowel",
+          "rationale": "Written evidence supports visual recognition only, not listening or pronunciation proficiency."
+        },
+        {
+          "id": "l0-m01-c02-chk-w11-c3",
+          "text": "That the learner has native-like pronunciation",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w11-c2"
+      }
     },
     {
-      "id": "l0-m01-c02-chk-w12",
+      "id": "ex-l0-m01-c02-chk-w12",
       "skill": "concept",
       "prompt": "A learner reveals a transcript before answering a spoken question. How should the result be described?",
       "options": [
@@ -156,7 +519,40 @@
         "Certified pronunciation"
       ],
       "correctIndex": 1,
-      "feedback": "The transcript supplies written evidence, so the attempt is assisted rather than blind listening."
+      "feedback": "The transcript supplies written evidence, so the attempt is assisted rather than blind listening.",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m01-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c02-vowels-mora"
+      ],
+      "skills": [
+        "concept"
+      ],
+      "explanation": "The transcript supplies written evidence, so the attempt is assisted rather than blind listening.",
+      "choices": [
+        {
+          "id": "l0-m01-c02-chk-w12-c1",
+          "text": "Blind listening",
+          "rationale": "Not supported by the written source or mora rule."
+        },
+        {
+          "id": "l0-m01-c02-chk-w12-c2",
+          "text": "Transcript-assisted comprehension",
+          "rationale": "The transcript supplies written evidence, so the attempt is assisted rather than blind listening."
+        },
+        {
+          "id": "l0-m01-c02-chk-w12-c3",
+          "text": "Certified pronunciation",
+          "rationale": "Not supported by the written source or mora rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "l0-m01-c02-chk-w12-c2"
+      }
     }
   ]
 }
