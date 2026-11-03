@@ -19,10 +19,10 @@
   "releaseGate": "Do not publish or score until audio playback, transcript concealment, source alignment and tests verified.",
   "items": [
     {
-      "id": "l0-m01-c02-chk-a01",
+      "id": "ex-l0-m01-c02-chk-a01",
       "version": 1,
-      "status": "draft",
-      "type": "listening-comprehension",
+      "status": "drafted",
+      "type": "single-choice",
       "level": "l0",
       "skills": [
         "listening"
@@ -52,7 +52,9 @@
           "rationale": "Not supported by the cited spoken turn."
         }
       ],
-      "answerKey": "a01-1",
+      "answerKey": {
+        "choiceId": "a01-1"
+      },
       "explanation": "The woman corrects the man's guess: 「いいえ、これはお店の写真です。」",
       "evidence": {
         "turn": "Woman's first reply, 2.42–5.23 s",
@@ -61,10 +63,10 @@
       "transcriptPolicy": "hidden until submitted; reveal triggers assisted mode, not blind listening"
     },
     {
-      "id": "l0-m01-c02-chk-a02",
+      "id": "ex-l0-m01-c02-chk-a02",
       "version": 1,
-      "status": "draft",
-      "type": "listening-comprehension",
+      "status": "drafted",
+      "type": "single-choice",
       "level": "l0",
       "skills": [
         "listening"
@@ -94,7 +96,9 @@
           "rationale": "Not supported by the cited spoken turn."
         }
       ],
-      "answerKey": "a02-2",
+      "answerKey": {
+        "choiceId": "a02-2"
+      },
       "explanation": "Her last turn is 「はい。お店です。小さいお店ですよ。」 She describes the shop as small; she does not identify its owner.",
       "evidence": {
         "turn": "Woman's final turn, 7.68–11.52 s",
@@ -103,10 +107,10 @@
       "transcriptPolicy": "hidden until submitted; reveal triggers assisted mode, not blind listening"
     },
     {
-      "id": "l0-m01-c02-chk-b01",
+      "id": "ex-l0-m01-c02-chk-b01",
       "version": 1,
-      "status": "draft",
-      "type": "listening-comprehension",
+      "status": "drafted",
+      "type": "single-choice",
       "level": "l0",
       "skills": [
         "listening"
@@ -136,7 +140,9 @@
           "rationale": "Not supported by the cited spoken turn."
         }
       ],
-      "answerKey": "b01-2",
+      "answerKey": {
+        "choiceId": "b01-2"
+      },
       "explanation": "The man says 「いいえ、私のおばあさんです。」 correcting the woman's initial guess.",
       "evidence": {
         "turn": "Man's reply, 3.91–6.40 s",
@@ -145,10 +151,10 @@
       "transcriptPolicy": "hidden until submitted; reveal triggers assisted mode, not blind listening"
     },
     {
-      "id": "l0-m01-c02-chk-b02",
+      "id": "ex-l0-m01-c02-chk-b02",
       "version": 1,
-      "status": "draft",
-      "type": "listening-comprehension",
+      "status": "drafted",
+      "type": "single-choice",
       "level": "l0",
       "skills": [
         "listening"
@@ -178,7 +184,9 @@
           "rationale": "Not supported by the cited spoken turn."
         }
       ],
-      "answerKey": "b02-1",
+      "answerKey": {
+        "choiceId": "b02-1"
+      },
       "explanation": "The man's last turn is 「はい。とても元気ですよ。」 He says she is very well/energetic.",
       "evidence": {
         "turn": "Man's final turn, 9.32–11.69 s",
