@@ -54,7 +54,7 @@ export default function SoundCheckpointListening() {
         <div key={asset.id} className="rounded-xl border border-current/20 p-4 space-y-3">
           <h3 className="font-semibold">Conversation {index + 1}</h3>
           <audio controls preload="none" src={asset.mediaPath} aria-label={`Play Japanese conversation ${index + 1}`}
-            onPlay={() => setPlayed((prev) => ({ ...prev, [asset.id]: true }))}
+            onEnded={() => setPlayed((prev) => ({ ...prev, [asset.id]: true }))}
             onError={() => setAudioError((prev) => ({ ...prev, [asset.id]: true }))}>
             Your browser does not support WAV playback.
           </audio>
@@ -92,7 +92,7 @@ export default function SoundCheckpointListening() {
             Reveal transcripts (switch to assisted mode)
           </button>}
           {assisted && <p role="status">Assisted mode: transcripts are visible. This attempt will not be recorded as blind listening.</p>}
-          <p role="status">{!allPlayed ? 'Play both recordings before checking your listening answers.' : 'Both recordings have been started.'}</p>
+          <p role="status">{!allPlayed ? 'Listen to both recordings through to the end before checking your answers.' : 'Both recordings have finished playing.'}</p>
           <div><button type="button" disabled={!complete || !allPlayed || Object.values(audioError).some(Boolean)}
             onClick={submit} className="rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white disabled:opacity-50">
             Check listening answers
