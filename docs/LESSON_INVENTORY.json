@@ -298,6 +298,22 @@
       "ownerApproval": "2026-11-03: owner explicitly preauthorized automatic merging and publication after exact-head automated tests and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c03-l01",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c03",
+      "slot": "L01",
+      "title": "Sound changes and rhythm — Context and meaning",
+      "content": "src/content/lessons/l0/sound-changes-rhythm-context.mdx",
+      "url": "/learn/start/module-01/chapter-03/lesson-01/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written context L01; no listening or pronunciation assessment",
+      "noindex": false,
+      "ownerApproval": "2026-11-03: automatic publication authorized conditional on exact-head CI and verified production deployment"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
