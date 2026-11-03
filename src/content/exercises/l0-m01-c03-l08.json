@@ -1,0 +1,206 @@
+{
+  "id": "l0-m01-c03-l08-preparation-v1",
+  "lessonId": "l0-m01-c03-l08",
+  "version": 1,
+  "modelAssetIds": [
+    "audio-l0-m01-c03-l06-a",
+    "audio-l0-m01-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c03-l08-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "rhythm-speaking-1"
+      ],
+      "prompt": "In the post-office model, what does 切手を二枚ください mean?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two stamps, please.",
+          "rationale": "Correct: The customer asks for two stamps. 切手 means stamp; 二枚 counts two flat items."
+        },
+        {
+          "id": "b",
+          "text": "Please come twice.",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        },
+        {
+          "id": "c",
+          "text": "Two bags, please.",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The customer asks for two stamps. 切手 means stamp; 二枚 counts two flat items.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l08-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "rhythm-speaking-2"
+      ],
+      "prompt": "Which timing guide is correct for 切手（きって）?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "き・て = two morae",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        },
+        {
+          "id": "b",
+          "text": "き・っ・て = three morae",
+          "rationale": "Correct: Small っ occupies a timing unit as a consonant closure; it is not pronounced as a full つ."
+        },
+        {
+          "id": "c",
+          "text": "き・つ・て = three fully spoken syllables",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Small っ occupies a timing unit as a consonant closure; it is not pronounced as a full つ.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l08-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "rhythm-speaking-3"
+      ],
+      "prompt": "Which word in the post-office conversation has a long initial vowel?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "おおさか (Osaka)",
+          "rationale": "Correct: 大阪（おおさか） has four morae: お・お・さ・か. The first vowel lasts two timing units."
+        },
+        {
+          "id": "b",
+          "text": "きって (stamp)",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        },
+        {
+          "id": "c",
+          "text": "にほん (Japan)",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "大阪（おおさか） has four morae: お・お・さ・か. The first vowel lasts two timing units.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l08-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "rhythm-speaking-4"
+      ],
+      "prompt": "When shadowing かばん (bag), what should happen to the final ん?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add a full 'nuh' syllable",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        },
+        {
+          "id": "b",
+          "text": "Omit the nasal entirely",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        },
+        {
+          "id": "c",
+          "text": "Give the nasal its own timing unit without an added vowel",
+          "rationale": "Correct: かばん is か・ば・ん, three morae; nasal ん does not require an added vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "かばん is か・ば・ん, three morae; nasal ん does not require an added vowel.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l08-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l08-o4"
+      ],
+      "knowledgeItemIds": [
+        "rhythm-speaking-5"
+      ],
+      "prompt": "Which is an appropriate way to rehearse the picnic correction?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Replay the actual turn, imitate the whole phrase, and self-review without a machine speaking grade",
+          "rationale": "Correct: The recorded correction is いいえ、小さいです。でも、パンは入りますよ。 Optional learner-controlled recording and honest self-review support practice."
+        },
+        {
+          "id": "b",
+          "text": "Treat a written quiz score as a verified accent rating",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        },
+        {
+          "id": "c",
+          "text": "Start recording automatically when the page opens",
+          "rationale": "This choice does not match the recorded model or the taught timing rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recorded correction is いいえ、小さいです。でも、パンは入りますよ。 Optional learner-controlled recording and honest self-review support practice.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    }
+  ]
+}
