@@ -5,18 +5,18 @@ Canonical ID: `l0-m01-c03-l03`
 Branch: `lesson/l0-m01-c03-l03-owner-45-20261103`
 PR: https://github.com/freejapaneseacademy/freejapaneseacademy/pull/31
 
-## Completed
-- Original Chapter 03 L03 MDX authored at `src/content/lessons/l0/sound-changes-rhythm-sentence-function.mdx`.
-- Accurate written explanations of long vowels, small っ and ん in different phonetic environments; contextual grammar examples, common errors, five guided answers and independent written self-review.
-- Frontmatter stable lesson ID, prerequisites and draft publication state.
-- No listening or pronunciation claims; no audio files altered.
+## Implemented on branch (NOT published)
+- Original MDX: `src/content/lessons/l0/sound-changes-rhythm-sentence-function.mdx`.
+- Eight original written contextual questions and answer explanations: `src/lib/rhythmSentencePractice.ts`.
+- Accessible React radio assessment, feedback, retries and Dexie attempt recording: `src/components/interactive/RhythmSentencePractice.tsx`.
+- Canonical Base.astro route: `src/pages/learn/start/module-01/chapter-03/lesson-03.astro`.
+- Vitest answer-key tests: `tests/rhythmSentencePractice.test.ts`.
+- Draft-only inventory entry: `docs/LESSON_INVENTORY.json`. No published status or audio claim.
 
-## Next actions (owner :45 only)
-1. Inspect current main and both predecessor PRs (#29 :15 L01; #30 :30 L02). Preserve exclusive ownership.
-2. Implement route through Base.astro and an accessible React check (3–8 scored questions, answer feedback, retry, stable Dexie attempt key); include source/Playwright tests.
-3. Add draft inventory and navigation without marking published; validate MDX against Astro 5 and test on mobile/dark mode.
-4. Complete Japanese-language and assessment QA; independent qualified review remains pending.
-5. Run exact-head `.github/workflows/lesson-quality.yml`; repair failures and verify successful completion.
-6. Only after L01 and L02 are confirmed production-published, merge this PR using expected head SHA and verify Cloudflare production deployment of the merge commit.
+## Release blockers and remaining verification
+1. Chapter 03 L01 PR #29 (:15) and L02 PR #30 (:30) remain open and unpublished; **do not merge L03** until both have successful Cloudflare production deployments.
+2. GitHub Actions returned no exact-head runs at `78196f4ea51277e55603511b5716e0310a41d0fc`; verify and run full lesson-quality gates, including Astro, Vitest, build and Playwright. Fix any failures before merge.
+3. Add/verify responsive keyboard and browser E2E coverage, final navigation and canonical metadata. Independent Japanese and assessment reviews remain pending; never fabricate signoff.
+4. Once predecessors and all checks are verified, mark draft ready, merge using expected head SHA and verify exact merge commit on Cloudflare production.
 
-Status: DRAFT, not ready, not published. No independent Japanese, assessment or pronunciation reviewer signoff.
+Owner slot :45 only. Do not edit another owner's lesson. No learner data or existing audio modified.
