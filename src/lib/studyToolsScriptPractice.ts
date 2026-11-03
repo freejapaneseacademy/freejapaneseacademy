@@ -28,19 +28,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "や"
-      },
-      {
-        "id": "b",
         "text": "ゃ"
       },
       {
-        "id": "c",
+        "id": "b",
         "text": "ゅ"
+      },
+      {
+        "id": "c",
+        "text": "や"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "c"
     },
     "explanation": "や is full size; ゃ is the small counterpart."
   },
@@ -50,19 +50,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "っ"
+        "text": "し"
       },
       {
         "id": "b",
-        "text": "つ"
+        "text": "っ"
       },
       {
         "id": "c",
-        "text": "し"
+        "text": "つ"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "b"
     },
     "explanation": "っ is the smaller version of つ, used here for a held consonant."
   },
@@ -94,19 +94,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "ねこ"
-      },
-      {
-        "id": "b",
         "text": "にこ"
       },
       {
-        "id": "c",
+        "id": "b",
         "text": "のこ"
+      },
+      {
+        "id": "c",
+        "text": "ねこ"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "c"
     },
     "explanation": "ne-ko corresponds to ねこ."
   },
@@ -116,19 +116,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "にほんご"
+        "text": "にほんこ"
       },
       {
         "id": "b",
-        "text": "にほご"
+        "text": "にほんご"
       },
       {
         "id": "c",
-        "text": "にほんこ"
+        "text": "にほご"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "b"
     },
     "explanation": "The nasal ん and voiced ご are both needed in にほんご."
   },
@@ -160,19 +160,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "No; hiragana can be appropriate"
-      },
-      {
-        "id": "b",
         "text": "Yes; every word must use kanji"
       },
       {
-        "id": "c",
+        "id": "b",
         "text": "Yes; furigana requires it"
+      },
+      {
+        "id": "c",
+        "text": "No; hiragana can be appropriate"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "c"
     },
     "explanation": "The word can be left in hiragana; conversion is optional and context-dependent."
   },
@@ -182,19 +182,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "きゅ"
+        "text": "くゆ"
       },
       {
         "id": "b",
-        "text": "きゆ"
+        "text": "きゅ"
       },
       {
         "id": "c",
-        "text": "くゆ"
+        "text": "きゆ"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "b"
     },
     "explanation": "きゅ uses small ゅ; きゆ uses full-size ゆ."
   },
@@ -226,19 +226,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "がっこう"
-      },
-      {
-        "id": "b",
         "text": "がこう"
       },
       {
-        "id": "c",
+        "id": "b",
         "text": "かっこ"
+      },
+      {
+        "id": "c",
+        "text": "がっこう"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "c"
     },
     "explanation": "The model is がっこう, with small っ and final う."
   },
@@ -248,19 +248,19 @@ export const studyToolsScriptQuestions=[
     "choices": [
       {
         "id": "a",
-        "text": "That the candidate matches the intended word"
+        "text": "That it adds furigana automatically"
       },
       {
         "id": "b",
-        "text": "That it contains the most kanji"
+        "text": "That the candidate matches the intended word"
       },
       {
         "id": "c",
-        "text": "That it adds furigana automatically"
+        "text": "That it contains the most kanji"
       }
     ],
     "answerKey": {
-      "choiceId": "a"
+      "choiceId": "b"
     },
     "explanation": "IME candidates can differ in meaning; choose the contextually correct form."
   }
