@@ -1,0 +1,472 @@
+{
+  "items": [
+    {
+      "id": "ex-l0-m01-c03-l01-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-scene"
+      ],
+      "prompt": "Who is helping Haru match the picture cards?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mika, the teacher",
+          "rationale": "Mika gives the instructions; Haru is the learner."
+        },
+        {
+          "id": "b",
+          "text": "A shopkeeper",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "A train conductor",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Mika gives the instructions; Haru is the learner.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-purpose"
+      ],
+      "prompt": "Why does Haru check the small kana on the labels?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To identify the intended picture and meaning",
+          "rationale": "A long vowel or extra timing mora may distinguish words."
+        },
+        {
+          "id": "b",
+          "text": "To change the ink color",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "To write English plurals",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "A long vowel or extra timing mora may distinguish words.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-request"
+      ],
+      "prompt": "What does ゆっくり おねがいします mean in the classroom scene?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slowly, please",
+          "rationale": "Haru politely asks for a slower pace."
+        },
+        {
+          "id": "b",
+          "text": "Good night",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "Where is the station?",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Haru politely asks for a slower pace.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-grandmother"
+      ],
+      "prompt": "Which card matches the usual meaning 'grandmother'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "おばあさん",
+          "rationale": "おばあさん has the additional あ indicating a long vowel."
+        },
+        {
+          "id": "b",
+          "text": "おばさん",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "おば",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "おばあさん has the additional あ indicating a long vowel.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-aunt"
+      ],
+      "prompt": "Which card usually means 'aunt' rather than 'grandmother'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "おばさん",
+          "rationale": "おばさん lacks the extra あ; both terms also have context-dependent uses."
+        },
+        {
+          "id": "b",
+          "text": "おばあさん",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "おばあ",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "おばさん lacks the extra あ; both terms also have context-dependent uses.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-writer"
+      ],
+      "prompt": "Which label identifies a writer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "さっか",
+          "rationale": "さっか has a small っ before か; さか means slope."
+        },
+        {
+          "id": "b",
+          "text": "さか",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "さつか",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "さっか has a small っ before か; さか means slope.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-slope"
+      ],
+      "prompt": "Which label means a slope or hill?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "さか",
+          "rationale": "さか is two morae, without the consonant hold."
+        },
+        {
+          "id": "b",
+          "text": "さっか",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "さっき",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "さか is two morae, without the consonant hold.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-mora"
+      ],
+      "prompt": "How many morae are in さっか?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three: さ・っ・か",
+          "rationale": "Small っ counts as a mora without being pronounced as a separate 'tsu'."
+        },
+        {
+          "id": "b",
+          "text": "Two: さ・か",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "Four: さ・つ・か・あ",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Small っ counts as a mora without being pronounced as a separate 'tsu'.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-nasal"
+      ],
+      "prompt": "How many morae are in ほんや (bookstore)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three: ほ・ん・や",
+          "rationale": "The nasal ん occupies one mora."
+        },
+        {
+          "id": "b",
+          "text": "Two: ほ・や",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "One",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The nasal ん occupies one mora.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-walk"
+      ],
+      "prompt": "Which spelling matches 'a stroll'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "さんぽ",
+          "rationale": "さんぽ includes the nasal mora ん; before p it is often articulated with lip closure."
+        },
+        {
+          "id": "b",
+          "text": "さぽ",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "さっぽ",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "さんぽ includes the nasal mora ん; before p it is often articulated with lip closure.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-length"
+      ],
+      "prompt": "How many morae does おばあさん contain?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Five",
+          "rationale": "お・ば・あ・さ・ん: five morae, one more than おばさん."
+        },
+        {
+          "id": "b",
+          "text": "Four",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "Six",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "お・ば・あ・さ・ん: five morae, one more than おばさん.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l01-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "c03-context-evidence"
+      ],
+      "prompt": "What does a written kana-identification quiz NOT establish?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accurate listening or pronunciation",
+          "rationale": "Listening and speaking require separate evidence from genuine audio or self-review."
+        },
+        {
+          "id": "b",
+          "text": "Recognition of a written small っ",
+          "rationale": "This does not match the written scene or the relevant kana contrast."
+        },
+        {
+          "id": "c",
+          "text": "Counting printed mora units",
+          "rationale": "Check the word's spelling and the explained meaning again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Listening and speaking require separate evidence from genuine audio or self-review.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "context-recognition",
+        "mora-awareness"
+      ]
+    }
+  ]
+}
