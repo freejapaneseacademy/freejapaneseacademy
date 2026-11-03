@@ -38,3 +38,25 @@ describe('Chapter 02 checkpoint evidence integrity', () => {
     expect(listening.scoring.officialJLPTScore).toBe(false);
   });
 });
+
+
+describe('canonical mixed checkpoint release contract', () => {
+  it('written selections match the published stable answerKey, rather than a legacy index mismatch', () => {
+    for (const q of written.items) {
+      expect(q.options).toHaveLength(q.choices.length);
+      expect(q.options[q.correctIndex]).toBe(q.choices.find(c => c.id === q.answerKey.choiceId)?.text);
+      expect(q.status).toBe('published');
+      expect(q.explanation?.trim().length).toBeGreaterThan(12);
+    }
+  });
+  it('listening questions are meaningful spoken evidence, not visual spelling', () => {
+    for (const q of listening.items) {
+      const asset = audio.assets.find(asset => asset.id === q.stimulusId);
+      expect(asset).toBeDefined();
+      expect(q.evidence.turn).toBeTruthy();
+      expect(q.choices.length).toBe(3);
+      expect(q.status).toBe('published');
+      expect(q.prompt).not.toMatch(/which kana|which spelling|written character/i);
+    }
+  });
+});

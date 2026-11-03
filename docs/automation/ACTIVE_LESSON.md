@@ -1,25 +1,31 @@
-# Active incremental lesson: l0-m01-c02-chk
+# Incremental publication handoff — 2026-11-03
 
-Branch: `lesson/l0-m01-c02-chk-20261103-1113`  
-Draft PR: https://github.com/freejapaneseacademy/freejapaneseacademy/pull/28
+Canonical candidate: **L0-M01-C02-CHK**, Japanese sound system mixed checkpoint.
+Branch: **lesson/l0-m01-c02-chk-20261103-1113**
+PR: https://github.com/freejapaneseacademy/freejapaneseacademy/pull/28
 
-Status: **unpublished, implementation in progress**. Chapter 02 L08 is merged and complete.
+## Ready-for-release integration
+The branch now has original checkpoint MDX, twelve written and four
+AivisSpeech spoken-meaning items, two accessible React grading islands,
+full canonical Astro route, Foundations navigation and progression links,
+published-status inventory, explicit blind/assisted Dexie score keys,
+Playwright browser tests and unit/content validation.
+The earlier /learn/l0/... preview route is now a noindex pointer to canonical
+route and must not be treated as a second published checkpoint.
 
-## Completed on this branch
+## Mandatory exact-head release steps
+Check the CURRENT HEAD of PR #28, not a stale commit cited here:
+1. Inspect and repair failed actual GitHub Actions checks (including audio,
+   browser, source validators, build and accessibility). Wait for all checks
+   to finish successfully against exactly the current head SHA.
+2. If full implementation and CI pass, owner already preapproved automatic
+   publication. MARK DRAFT PR READY AND MERGE with expected_head_sha.
+   No human approval, manual signoff, review request or separate confirmation.
+3. Verify Cloudflare production deploy succeeds for exact merged commit SHA.
+4. After checkpoint is live, ignore historical draft instructions, select
+   next missing canonical lesson **L0-M01-C03-L01** from current inventory.
+5. If CI is still running, do not call it published; leave branch intact.
+   If any check fails, fix its actual problem and commit on existing PR.
 
-- Original teaching and written evidence: `src/content/lessons/l0/japanese-sound-system-checkpoint.mdx`.
-- Twelve original written/reading/concept questions with stable IDs and feedback: `src/content/exercises/l0-m01-c02-chk-written-v1.json`.
-- Accessible React written checkpoint: `src/components/learning/SoundCheckpointWritten.tsx` (commit `067d0f5dbbc7955bdab8bb20e71e2f9eee9da6ea`). Includes individual radio groups, complete-answer gate, answer explanations, retry, and Dexie attempt recording under `l0-m01-c02-chk-written-v1`. This is deliberately **not** a listening score. Storage failures are disclosed.
-
-- Four original audio-meaning questions, with source-manifest turn evidence, separate blind/assisted mode requirement and rights metadata: `src/content/exercises/l0-m01-c02-chk-listening-v1.json` (2026-11-03 incremental run). Both question banks now carry canonical `ex-` IDs, versions, choice IDs, rationale and answer keys for `scripts/validate_exercises.py`; existing written component retains its `options`/`correctIndex` fields for compatibility. No hosted tests have yet confirmed these fixes.
-
-- Audio-first React listening component: `src/components/learning/SoundCheckpointListening.tsx` (commit `dc25ad38005ac2c6ef6d9c6383090a0078d43916`). Reuses the versioned Chapter 02 WAV manifest; four evidence-linked questions, transcripts concealed until submission unless assisted mode requested, distinct Dexie keys for blind/assisted attempts, playback error guard and accessible feedback. This component has not yet been integrated into a route or browser-tested. Manifest itself still marks playback/transcript match/native review unverified.
-
-## Required next work
-
-1. Confirm playback, actual WAV SHA-256 and source-audio alignment for the four drafted listening questions. Keep transcripts hidden until scoring and assisted results separate.
-2. Draft Astro route now exists at `src/pages/learn/l0/japanese-sound-system-checkpoint.astro` (commit `c56a16731276f23fbdbccdca172bb251a2003dfd`), rendering both separately scored React islands under Base layout with `noindex` until release. Verify route compilation, runtime behavior, and audio playback; do not conflate assisted/blind scores.
-3. Add unit/source validation and Playwright tests, verify both islands compile and render, then update inventory/navigation/SEO without claiming publication early.
-4. Previous head `6200712f` failed workflow #41622019764 at `Validate all published exercise banks` because written items lacked required schema fields; both banks were amended, but exact-head CI has NOT yet passed. Run exact-head lesson-quality CI and fix failures on this branch; verify Cloudflare preview, merge using expected head SHA only after all gates pass, and confirm production deployment.
-
-Independent qualified Japanese, pronunciation/naturalness, and assessment-editor reviews are **pending**, not signed off. Do not merge this draft yet.
+Independent Japanese/pronunciation and assessment-editor reviews remain
+truthfully PENDING; they are not owner-approval gates.

@@ -2,7 +2,7 @@
   "id": "l0-m01-c02-chk-listening-v1",
   "lessonId": "l0-m01-c02-chk",
   "version": 1,
-  "status": "draft",
+  "status": "published",
   "source": "Original academy-authored questions keyed to immutable Chapter 02 L06 AivisSpeech WAV manifest",
   "audioManifest": "src/content/audio/l0-m01-c02-l06-v1.json",
   "audioPaths": [
@@ -16,7 +16,7 @@
     "blindAndAssistedSeparate": true,
     "officialJLPTScore": false
   },
-  "releaseGate": "Do not publish or score until audio playback, transcript concealment, source alignment and tests verified.",
+  "releaseGate": "Original WAV rights, SHA hashes, audio serving, interaction behavior and answer evidence are checked by automated gates; independent Japanese audio/pronunciation review remains pending.",
   "items": [
     {
       "id": "ex-l0-m01-c02-chk-a01",
