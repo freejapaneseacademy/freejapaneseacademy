@@ -298,6 +298,21 @@
       "ownerApproval": "2026-11-03: owner explicitly preauthorized automatic merging and publication after exact-head automated tests and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c03-l03",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c03",
+      "slot": "L03",
+      "title": "Grammar and sentence function — Sound changes in context",
+      "content": "src/content/lessons/l0/sound-changes-rhythm-sentence-function.mdx",
+      "url": "/learn/start/module-01/chapter-03/lesson-03/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written grammar and sentence-function practice; no audio evidence claimed",
+      "noindex": true
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
