@@ -483,11 +483,11 @@
       "title": "Input, reading aids and polite requests — Grammar and sentence function",
       "content": "src/content/lessons/l0/study-tools-input-sentence-function.mdx",
       "url": "/learn/start/module-01/chapter-04/lesson-03/",
-      "status": "implemented",
+      "status": "published",
       "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for L03 written sentence-function study",
-      "noindex": true,
+      "noindex": false,
       "ownerApproval": "automatic publication preauthorized subject to exact-head CI and production verification"
     },
     {
