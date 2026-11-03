@@ -11,7 +11,7 @@ import '../../../../../styles/foundations.css';
 
 const lesson = await getEntry('lessons', 'l0/sound-changes-rhythm-checkpoint');
 if (!lesson || lesson.data.lessonId !== 'l0-m01-c03-chk' ||
-    !['draft','published'].includes(lesson.data.publicationStatus) ||
+    lesson.data.publicationStatus !== 'published' ||
     written.items.length !== 12 || listening.items.length !== 4 ||
     listening.lessonId !== lesson.data.lessonId || audio.assets.length !== 2 ||
     listening.items.some(item => !audio.assets.some(asset => asset.id === item.stimulusId))) {
