@@ -1,20 +1,25 @@
-# Active incremental lesson — 2026-11-03
+# Active lesson — Chapter 03 L08
 
-Canonical ID: **l0-m01-c03-l01** — Sound changes and rhythm: Context and meaning.
-Branch: `lesson/l0-m01-c03-l01-20261103-1316`
-Base main at branch creation: `3e6f7124e20e42b977324230296646978de189a2`.
+OWNER SLOT :30
+TASK ID 6ae7c291cefc81919a2bd5a0162f0a93
+Canonical ID: l0-m01-c03-l08
+Branch: lesson/l0-m01-c03-l08-owner-30-20261103
 
-## Committed
-- `src/content/lessons/l0/sound-changes-rhythm-context.mdx`: original context scene, supported Japanese, vowel-length / small-っ / nasal-ん examples, mora counts, guided practice, answer feedback and unscored self-review.
-- Status remains **draft**. No invented listening audio, human review, or score.
+## Release candidate
+- Original full optional speaking MDX: src/content/lessons/l0/sound-changes-rhythm-speaking.mdx
+- Canonical Astro route: src/pages/learn/start/module-01/chapter-03/lesson-08.astro
+- Accessible React audio/turn shadowing, optional local MediaRecorder and self-review: src/components/interactive/RhythmSpeakingPractice.tsx
+- Five versioned knowledge checks with answer rationales: src/content/exercises/l0-m01-c03-l08.json
+- Canonical inventory and Foundations navigation updated.
+- Browser tests: tests/e2e/rhythm-speaking.spec.ts
 
-## Next actions
-1. Inspect current main, exact-head branch and any competing work before editing.
-2. Add 3–8 original machine-readable scored context/reading questions and an accessible React practice island using stable ID `l0-m01-c03-l01`; preserve Dexie v1 and existing learner data.
-3. Create canonical Astro route through shared Base.astro, register inventory, navigation and SEO without prematurely marking published.
-4. Add Vitest/content validators and Playwright responsive, keyboard and progress tests.
-5. Run exact-head lesson-quality.yml to completion; repair failures. Mark PR ready and merge using expected SHA only after all required automated checks pass.
-6. Verify Cloudflare Pages **production** deployment for exact merged commit before reporting publication.
-7. Independent Japanese, assessment and pronunciation reviews remain pending unless actually performed.
+## Source/audio screening
+Two existing published Chapter 03 L06 AivisSpeech WAVs are reused unchanged, as referenced by src/content/audio/l0-m01-c03-l06-v1.json. Track A: /audio/fja-l0-m01-c03-l06-a-v1.wav, manifest SHA-256 810e64cf694a51294c34ad569b06a44de9dd19ea7736b144e9bcd68d38537932. Track B: /audio/fja-l0-m01-c03-l06-b-v1.wav, SHA-256 3f2399263ff5803bc2545483800fb0bd25706cd43cf75d57eed31d2aba981556. Existing recorded turn boundaries and rights attribution preserved; no new audio generated. Speaking is optional, recording is initiated only by the learner, never uploaded, and never machine graded.
 
-Do not create L02 in this PR. No new audio required for this text-first L01; do not claim audio comprehension.
+Automated Japanese-language screening: meanings, counters, particles and mora counts checked against the source transcript; no independent native Japanese pronunciation or naturalness review performed. Assessment editor review pending. The quiz is explicitly a knowledge check, not a speech evaluation.
+
+## Required release actions
+1. Obtain terminal success from exact-head GitHub Actions Lesson Quality Gates (source, exercise, Astro, Vitest, build, Playwright). Repair actual failures on this owner branch.
+2. Confirm main and predecessor l0-m01-c03-l07 production; reconcile if main advanced.
+3. Mark PR ready, merge with expected head SHA only after all checks pass.
+4. Verify Cloudflare Pages production success for exact merge SHA and live canonical route before reporting publication.
