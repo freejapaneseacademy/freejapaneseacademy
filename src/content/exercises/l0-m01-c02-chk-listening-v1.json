@@ -21,7 +21,7 @@
     {
       "id": "ex-l0-m01-c02-chk-a01",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "level": "l0",
       "skills": [
@@ -65,7 +65,7 @@
     {
       "id": "ex-l0-m01-c02-chk-a02",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "level": "l0",
       "skills": [
@@ -109,7 +109,7 @@
     {
       "id": "ex-l0-m01-c02-chk-b01",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "level": "l0",
       "skills": [
@@ -153,7 +153,7 @@
     {
       "id": "ex-l0-m01-c02-chk-b02",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "level": "l0",
       "skills": [
