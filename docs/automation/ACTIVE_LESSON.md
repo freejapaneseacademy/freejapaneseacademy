@@ -13,10 +13,12 @@ Status: **unpublished, implementation in progress**. Chapter 02 L08 is merged an
 
 - Four original audio-meaning questions, with source-manifest turn evidence, separate blind/assisted mode requirement and rights metadata: `src/content/exercises/l0-m01-c02-chk-listening-v1.json` (2026-11-03 incremental run). Both question banks now carry canonical `ex-` IDs, versions, choice IDs, rationale and answer keys for `scripts/validate_exercises.py`; existing written component retains its `options`/`correctIndex` fields for compatibility. No hosted tests have yet confirmed these fixes.
 
+- Audio-first React listening component: `src/components/learning/SoundCheckpointListening.tsx` (commit `dc25ad38005ac2c6ef6d9c6383090a0078d43916`). Reuses the versioned Chapter 02 WAV manifest; four evidence-linked questions, transcripts concealed until submission unless assisted mode requested, distinct Dexie keys for blind/assisted attempts, playback error guard and accessible feedback. This component has not yet been integrated into a route or browser-tested. Manifest itself still marks playback/transcript match/native review unverified.
+
 ## Required next work
 
 1. Confirm playback, actual WAV SHA-256 and source-audio alignment for the four drafted listening questions. Keep transcripts hidden until scoring and assisted results separate.
-2. Add accessible audio-first mixed checkpoint component and Astro route, integrate written React section, and ensure overall checkpoint score includes listening without conflating assisted/blind evidence.
+2. Integrate the existing written and listening React components into an accessible Astro route, and ensure overall checkpoint score reports both sections without conflating assisted/blind evidence.
 3. Add unit/source validation and Playwright tests, verify the written component compiles and renders, then update inventory/navigation/SEO without claiming publication early.
 4. Previous head `6200712f` failed workflow #41622019764 at `Validate all published exercise banks` because written items lacked required schema fields; both banks were amended, but exact-head CI has NOT yet passed. Run exact-head lesson-quality CI and fix failures on this branch; verify Cloudflare preview, merge using expected head SHA only after all gates pass, and confirm production deployment.
 
