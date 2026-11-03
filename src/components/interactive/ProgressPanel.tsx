@@ -64,6 +64,7 @@ export default function ProgressPanel() {
     : quizId === 'l0-m01-c02-chk-written-v1' ? 'Foundations: Chapter 02 written sound-system checkpoint'
     : quizId === 'l0-m01-c02-chk-listening-blind-v1' ? 'Foundations: Chapter 02 blind audio checkpoint'
     : quizId === 'l0-m01-c02-chk-listening-assisted-v1' ? 'Foundations: Chapter 02 transcript-assisted listening'
+    : quizId === 'l0-m01-c03-l03-written-v1' ? 'Foundations: Chapter 03 sentence meaning checkpoint'
     : quizId === 'l0-m01-c01-chk-v1' ? 'Foundations: Chapter 01 mixed checkpoint (original listening)'
     : quizId === 'l0-m01-c01-chk-v2' ? 'Foundations: Chapter 01 mixed checkpoint'
     : quizId === 'hiragana-demo-v1' ? 'Hiragana demo quiz' : 'Japanese practice quiz';
