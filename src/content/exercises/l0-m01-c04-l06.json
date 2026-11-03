@@ -1,0 +1,251 @@
+{
+  "id": "l0-m01-c04-l06-check-v1",
+  "lessonId": "l0-m01-c04-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m01-c04-l06-a",
+    "audio-l0-m01-c04-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c04-l06-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "study-input-goal"
+      ],
+      "trackId": "audio-l0-m01-c04-l06-a",
+      "prompt": "What does the learner want to do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Enter Japanese",
+          "rationale": "The spoken dialogue explicitly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "Print a picture",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Send an email",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The learner explicitly says she wants to enter Japanese.",
+      "evidence": "日本語を入力したいです。",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l06-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "study-select-input"
+      ],
+      "trackId": "audio-l0-m01-c04-l06-a",
+      "prompt": "What does the teacher tell the learner to select first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "English subtitles",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Japanese input",
+          "rationale": "The spoken dialogue explicitly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "A printer",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "まず means first; the instruction is to select Japanese input.",
+      "evidence": "まず、日本語の入力を選んでください。",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l06-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "study-romaji-try"
+      ],
+      "trackId": "audio-l0-m01-c04-l06-a",
+      "prompt": "What does the teacher ask the learner to try next?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Restart the computer",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Read a textbook aloud",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Enter a word using romaji input",
+          "rationale": "The spoken dialogue explicitly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The teacher asks her to try entering a word with romaji input.",
+      "evidence": "ローマ字で「ねこ」と入力してみてください。",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l06-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "study-reading-question"
+      ],
+      "trackId": "audio-l0-m01-c04-l06-b",
+      "prompt": "What does the learner say he does not know?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How to read a word",
+          "rationale": "The spoken dialogue explicitly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "How to buy a ticket",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Where the classroom is",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "読み方がわかりません means he does not know the reading.",
+      "evidence": "この言葉の読み方がわかりません。",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l06-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "study-furigana"
+      ],
+      "trackId": "audio-l0-m01-c04-l06-b",
+      "prompt": "What reading aid does the teacher recommend?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A map",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Furigana",
+          "rationale": "The spoken dialogue explicitly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "A calculator",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The instruction specifically recommends looking at furigana.",
+      "evidence": "ふりがなを見てください。",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l06-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "study-check-meaning"
+      ],
+      "trackId": "audio-l0-m01-c04-l06-b",
+      "prompt": "When choosing kanji, what should the learner check?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The weather",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "The battery level",
+          "rationale": "This is not what the speaker says; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "The meaning of the candidates",
+          "rationale": "The spoken dialogue explicitly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The teacher instructs the learner to look at candidates and check their meaning.",
+      "evidence": "候補を見て、意味を確認してください。",
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ]
+    }
+  ]
+}
