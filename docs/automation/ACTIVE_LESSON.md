@@ -18,8 +18,8 @@ Status: **unpublished, implementation in progress**. Chapter 02 L08 is merged an
 ## Required next work
 
 1. Confirm playback, actual WAV SHA-256 and source-audio alignment for the four drafted listening questions. Keep transcripts hidden until scoring and assisted results separate.
-2. Integrate the existing written and listening React components into an accessible Astro route, and ensure overall checkpoint score reports both sections without conflating assisted/blind evidence.
-3. Add unit/source validation and Playwright tests, verify the written component compiles and renders, then update inventory/navigation/SEO without claiming publication early.
+2. Draft Astro route now exists at `src/pages/learn/l0/japanese-sound-system-checkpoint.astro` (commit `c56a16731276f23fbdbccdca172bb251a2003dfd`), rendering both separately scored React islands under Base layout with `noindex` until release. Verify route compilation, runtime behavior, and audio playback; do not conflate assisted/blind scores.
+3. Add unit/source validation and Playwright tests, verify both islands compile and render, then update inventory/navigation/SEO without claiming publication early.
 4. Previous head `6200712f` failed workflow #41622019764 at `Validate all published exercise banks` because written items lacked required schema fields; both banks were amended, but exact-head CI has NOT yet passed. Run exact-head lesson-quality CI and fix failures on this branch; verify Cloudflare preview, merge using expected head SHA only after all gates pass, and confirm production deployment.
 
 Independent qualified Japanese, pronunciation/naturalness, and assessment-editor reviews are **pending**, not signed off. Do not merge this draft yet.
