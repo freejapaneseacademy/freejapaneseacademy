@@ -266,6 +266,22 @@
       "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c02-l08",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c02",
+      "slot": "L08",
+      "title": "Optional speaking and shadowing — Japanese vowels and mora timing",
+      "content": "src/content/lessons/l0/japanese-sound-system-speaking.mdx",
+      "url": "/learn/start/module-01/chapter-02/lesson-08/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment-editor review not claimed",
+      "audio": "reuses the two independently versioned AivisSpeech Chapter 02 L06 WAVs with validated speaker-turn timing and documented rights; no new audio or voice grade",
+      "noindex": false,
+      "ownerApproval": "2026-11-02: automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
