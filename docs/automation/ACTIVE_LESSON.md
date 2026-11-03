@@ -1,31 +1,20 @@
-# Incremental publication handoff — 2026-11-03
+# Active incremental lesson — 2026-11-03
 
-Canonical candidate: **L0-M01-C02-CHK**, Japanese sound system mixed checkpoint.
-Branch: **lesson/l0-m01-c02-chk-20261103-1113**
-PR: https://github.com/freejapaneseacademy/freejapaneseacademy/pull/28
+Canonical ID: **l0-m01-c03-l01** — Sound changes and rhythm: Context and meaning.
+Branch: `lesson/l0-m01-c03-l01-20261103-1316`
+Base main at branch creation: `3e6f7124e20e42b977324230296646978de189a2`.
 
-## Ready-for-release integration
-The branch now has original checkpoint MDX, twelve written and four
-AivisSpeech spoken-meaning items, two accessible React grading islands,
-full canonical Astro route, Foundations navigation and progression links,
-published-status inventory, explicit blind/assisted Dexie score keys,
-Playwright browser tests and unit/content validation.
-The earlier /learn/l0/... preview route is now a noindex pointer to canonical
-route and must not be treated as a second published checkpoint.
+## Committed
+- `src/content/lessons/l0/sound-changes-rhythm-context.mdx`: original context scene, supported Japanese, vowel-length / small-っ / nasal-ん examples, mora counts, guided practice, answer feedback and unscored self-review.
+- Status remains **draft**. No invented listening audio, human review, or score.
 
-## Mandatory exact-head release steps
-Check the CURRENT HEAD of PR #28, not a stale commit cited here:
-1. Inspect and repair failed actual GitHub Actions checks (including audio,
-   browser, source validators, build and accessibility). Wait for all checks
-   to finish successfully against exactly the current head SHA.
-2. If full implementation and CI pass, owner already preapproved automatic
-   publication. MARK DRAFT PR READY AND MERGE with expected_head_sha.
-   No human approval, manual signoff, review request or separate confirmation.
-3. Verify Cloudflare production deploy succeeds for exact merged commit SHA.
-4. After checkpoint is live, ignore historical draft instructions, select
-   next missing canonical lesson **L0-M01-C03-L01** from current inventory.
-5. If CI is still running, do not call it published; leave branch intact.
-   If any check fails, fix its actual problem and commit on existing PR.
+## Next actions
+1. Inspect current main, exact-head branch and any competing work before editing.
+2. Add 3–8 original machine-readable scored context/reading questions and an accessible React practice island using stable ID `l0-m01-c03-l01`; preserve Dexie v1 and existing learner data.
+3. Create canonical Astro route through shared Base.astro, register inventory, navigation and SEO without prematurely marking published.
+4. Add Vitest/content validators and Playwright responsive, keyboard and progress tests.
+5. Run exact-head lesson-quality.yml to completion; repair failures. Mark PR ready and merge using expected SHA only after all required automated checks pass.
+6. Verify Cloudflare Pages **production** deployment for exact merged commit before reporting publication.
+7. Independent Japanese, assessment and pronunciation reviews remain pending unless actually performed.
 
-Independent Japanese/pronunciation and assessment-editor reviews remain
-truthfully PENDING; they are not owner-approval gates.
+Do not create L02 in this PR. No new audio required for this text-first L01; do not claim audio comprehension.

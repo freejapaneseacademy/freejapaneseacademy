@@ -1,0 +1,28 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import RhythmSentencePractice from '../../../../../components/interactive/RhythmSentencePractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+
+const lesson = await getEntry('lessons', 'l0/sound-changes-rhythm-sentence-function');
+if (!lesson || lesson.data.lessonId !== 'l0-m01-c03-l03') throw new Error('Missing canonical lesson l0-m01-c03-l03');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Sound changes and rhythm',href:'/learn/start/module-01/chapter-03/lesson-03/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 03 · Lesson 03</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 03 · LESSON 03</span>
+    <h1>One mora changes the message.</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Chapter 03 lessons 01–02 recommended</span><span>Eight written checks</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original academy lesson.</strong> Written contextual and grammatical evidence only. No hearing or pronunciation grading. Independent Japanese-language and assessment-editor reviews are pending.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string)=><li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <RhythmSentencePractice client:load />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>Read the examples and feedback, then mark the lesson complete. Your score and completion marker are stored separately on this device.</p><LessonActions client:load lessonId="l0-m01-c03-l03" level="l0" /></div>
+    <div class="lesson-next"><h3>Continue learning</h3><p>Next: Chapter 03 L04 — recognize and type sound-change spellings.</p><a class="btn btn-primary" href="/learn/start/module-01/chapter-03/lesson-04/">Study lesson 04 ↗</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div>
+  </div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Sound changes and rhythm</h3><p><strong>L0-M01-C03-L03</strong></p><p>Compare family words, stamp labels and short replies. Count morae and connect each spelling to its sentence meaning.</p><div class="sample-rule"></div><h3>Study order</h3><ol><li>Review the written mora contrasts.</li><li>Read the example sentences and meanings.</li><li>Check the common mistakes.</li><li>Complete eight questions and inspect feedback.</li><li>Write an optional explanation for self-review.</li></ol><p>For listening comprehension, use a dedicated audio lesson with real recordings.</p></aside></div></section>
+</Base>
