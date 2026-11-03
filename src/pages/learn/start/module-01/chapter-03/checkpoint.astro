@@ -1,0 +1,45 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import RhythmCheckpointWritten from '../../../../../components/learning/RhythmCheckpointWritten';
+import RhythmCheckpointListening from '../../../../../components/learning/RhythmCheckpointListening';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import written from '../../../../../content/exercises/l0-m01-c03-chk-written-v1.json';
+import listening from '../../../../../content/exercises/l0-m01-c03-chk-listening-v1.json';
+import audio from '../../../../../content/audio/l0-m01-c03-l06-v1.json';
+import '../../../../../styles/foundations.css';
+
+const lesson = await getEntry('lessons', 'l0/sound-changes-rhythm-checkpoint');
+if (!lesson || lesson.data.lessonId !== 'l0-m01-c03-chk' ||
+    !['draft','published'].includes(lesson.data.publicationStatus) ||
+    written.items.length !== 12 || listening.items.length !== 4 ||
+    listening.lessonId !== lesson.data.lessonId || audio.assets.length !== 2 ||
+    listening.items.some(item => !audio.assets.some(asset => asset.id === item.stimulusId))) {
+  throw new Error('Incomplete canonical L0-M01-C02 checkpoint package');
+}
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Chapter 03 checkpoint',href:'/learn/start/module-01/chapter-03/checkpoint/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 03 checkpoint</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 02 · CHECKPOINT</span>
+    <h1>Can you distinguish long vowels, small っ and nasal ん?</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Chapter 03 lessons 01–08 recommended</span><span>12 written checks · 4 genuine audio checks</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original Japanese rhythm checkpoint.</strong> Twelve written/reading questions and four real audio-meaning questions are scored separately. The listening questions use the two original licensed Chapter 03 AivisSpeech WAVs; transcripts are hidden for blind listening and can be revealed for explicitly assisted practice. Independent qualified Japanese/pronunciation and assessment reviews are pending. This is not an official JLPT score.</div>
+    <div class="lesson-intro"><span class="eyebrow">CHECKPOINT GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <RhythmCheckpointWritten client:load />
+    <div class="sample-rule"></div>
+    <RhythmCheckpointListening client:load />
+    <div class="foundation-completion"><h2>Finish Chapter 03</h2><p>Mark this checkpoint complete after reviewing your written and listening results. A transcript-assisted answer is never stored as blind audio comprehension. Completion does not certify pronunciation or mastery.</p><LessonActions client:load lessonId="l0-m01-c03-chk" level="l0" /></div>
+    <div class="lesson-next"><h3>Continue Japanese Foundations</h3><p>Next in blueprint order: Level 0 · Module 01 · Chapter 03, covering sound changes and rhythm. More lessons are in development.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-03/lesson-08/">← Review optional speaking lesson 08</a><a class="btn btn-primary" href="/learn/start/">All Foundations lessons ↗</a><a class="btn btn-outline" href="/dashboard/">My learning ↗</a></div>
+  </div><aside class="lesson-side foundation-side">
+    <span class="eyebrow">STUDY GUIDE</span><h3>Japanese sound system</h3><p><strong>L0-M01-C02-CHK</strong></p>
+    <p>Use four complementary skills: identify vowels, explain written mora timing, cite printed evidence, and listen for actual spoken meaning.</p>
+    <div class="sample-rule"></div><h3>Suggested steps</h3><ol><li>Review the vowel and mora map.</li><li>Complete 12 written questions and read their explanations.</li><li>Play both original conversations all the way through.</li><li>Answer four meaning-focused listening questions without transcripts, or choose assisted practice.</li><li>Review errors, revisit a difficult earlier lesson and save your progress.</li></ol>
+    <p>Recorded pronunciation and listening naturalness remain subject to independent human review.</p>
+  </aside></div></section>
+</Base>
