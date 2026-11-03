@@ -26,7 +26,7 @@
       "correctIndex": 0,
       "feedback": "The five basic vowels are あ, い, う, え, お; the か row includes consonants.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -71,7 +71,7 @@
       "correctIndex": 1,
       "feedback": "い・え: each vowel is one mora, giving two.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -116,7 +116,7 @@
       "correctIndex": 1,
       "feedback": "い・い・え has three vowel morae; the repeated い is not ignored.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -161,7 +161,7 @@
       "correctIndex": 1,
       "feedback": "お・ば・あ・さ・ん = five; the long vowel and ん each contribute a mora.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -206,7 +206,7 @@
       "correctIndex": 0,
       "feedback": "おばさん means aunt; おばあさん with the extra あ means grandmother.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -251,7 +251,7 @@
       "correctIndex": 0,
       "feedback": "The four timing units are お, ば, さ, ん; the nasal counts separately.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -296,7 +296,7 @@
       "correctIndex": 0,
       "feedback": "The extra あ marks the long vowel in おばあさん.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -341,7 +341,7 @@
       "correctIndex": 0,
       "feedback": "Compare い・え and い・い・え. The second contains one more い.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -386,7 +386,7 @@
       "correctIndex": 1,
       "feedback": "The added あ follows ば in おばあさん.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -431,7 +431,7 @@
       "correctIndex": 1,
       "feedback": "A lengthened vowel occupies an additional mora; ん also occupies one.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -476,7 +476,7 @@
       "correctIndex": 1,
       "feedback": "Written evidence supports visual recognition only, not listening or pronunciation proficiency.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
@@ -521,7 +521,7 @@
       "correctIndex": 1,
       "feedback": "The transcript supplies written evidence, so the attempt is assisted rather than blind listening.",
       "version": 1,
-      "status": "drafted",
+      "status": "published",
       "type": "single-choice",
       "objectiveIds": [
         "l0-m01-c02-chk-written"
