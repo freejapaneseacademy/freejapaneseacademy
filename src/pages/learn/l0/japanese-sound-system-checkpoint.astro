@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SoundCheckpointWritten from '../../../components/learning/SoundCheckpointWritten';
+import SoundCheckpointListening from '../../../components/learning/SoundCheckpointListening';
+---
+<Base
+  title="Japanese sound system — Chapter 02 checkpoint"
+  description="Original written and audio-first Japanese vowel-length and mora-timing checkpoint."
+  noindex={true}
+  breadcrumbs={[{ label: 'Courses', href: '/learn/' }, { label: 'Japanese sound system checkpoint', href: '/learn/l0/japanese-sound-system-checkpoint/' }]}
+>
+  <main id="main-content" class="container mx-auto max-w-4xl px-4 py-10 space-y-10">
+    <header class="space-y-3">
+      <p class="text-sm font-semibold uppercase tracking-wide">Level 0 · Module 01 · Chapter 02</p>
+      <h1 class="text-3xl font-bold">Japanese sound system: mixed checkpoint</h1>
+      <p>Practise the five vowels, meaningful short and long vowels, and mora timing. Then listen to two real Japanese conversations for meaning. Allow about 25 minutes.</p>
+      <p>This is original academy practice, not an official JLPT test or a pronunciation grade. Written and listening results are saved separately on your device; assisted listening never counts as blind listening.</p>
+    </header>
+    <section aria-labelledby="checkpoint-review" class="space-y-3">
+      <h2 id="checkpoint-review" class="text-2xl font-semibold">Quick review</h2>
+      <p>Japanese has five basic vowels: <span lang="ja">あ・い・う・え・お</span>. A mora is a timing unit. A lengthened vowel adds one mora, and <span lang="ja">ん</span> counts as one mora. For example, <span lang="ja">おばさん</span> (aunt) has four morae, while <span lang="ja">おばあさん</span> (grandmother) has five. The added <span lang="ja">あ</span> changes the word's meaning.</p>
+      <p>Read each question carefully. The written section measures printed evidence and timing reasoning, not hearing. The listening section uses recordings; do not reveal transcripts before scoring unless you choose assisted mode.</p>
+    </section>
+    <SoundCheckpointWritten client:load />
+    <hr class="border-current/20" />
+    <SoundCheckpointListening client:load />
+    <aside class="rounded-xl border border-current/20 p-5 space-y-2" aria-label="Checkpoint interpretation">
+      <h2 class="text-xl font-semibold">Understand your results</h2>
+      <p>Review the answer feedback after each section. A correct written answer does not prove you heard the same contrast. A transcript-assisted listening result is useful practice, but not blind comprehension evidence.</p>
+      <p>To revise, revisit Chapter 02 Lesson 06 for audio comprehension and Lesson 07 for written vowel-length contrasts. Independent native pronunciation and assessment-editor reviews remain pending.</p>
+    </aside>
+  </main>
+</Base>
