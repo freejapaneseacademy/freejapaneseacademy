@@ -41,7 +41,7 @@
       "explanation": "The customer requests two stamps, not an envelope or postcard.",
       "evidence": "切手を二枚ください。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -82,7 +82,7 @@
       "explanation": "二枚 (nimai) is the counter phrase for two flat items.",
       "evidence": "切手を二枚ください。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -123,7 +123,7 @@
       "explanation": "大阪の友達 means a friend in Osaka.",
       "evidence": "大阪の友達に送ります。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -164,7 +164,7 @@
       "explanation": "パンとお茶 explicitly means bread and tea.",
       "evidence": "パンとお茶を持っていきます。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -205,7 +205,7 @@
       "explanation": "She says いいえ, then 小さいです (it is small).",
       "evidence": "いいえ、小さいです。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -246,7 +246,7 @@
       "explanation": "入ります means it fits or goes inside; でも introduces the contrast.",
       "evidence": "でも、パンは入りますよ。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
