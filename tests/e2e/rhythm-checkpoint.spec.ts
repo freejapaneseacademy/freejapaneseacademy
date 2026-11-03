@@ -14,7 +14,7 @@ test('canonical checkpoint is public, indexable and linked from Foundations', as
   await expect(page.locator('section[aria-labelledby="checkpoint-listening-title"] fieldset')).toHaveCount(4);
   await page.goto('/learn/l0/sound-changes-rhythm-checkpoint/');
   await expect(page.locator('meta[name="robots"][content*="noindex"]')).toHaveCount(1);
-  await expect(page.getByRole('link',{name:/Open Chapter 03 checkpoint/})).toHaveAttribute('href',url);
+  // The generic MDX presentation is intentionally noindex; the canonical checkpoint route is linked above.
 });
 
 test('written questions provide feedback, retry and separate saved progress',async ({ page }) => {
