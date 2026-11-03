@@ -117,7 +117,7 @@ export const studyToolsReadingQuestions=[
       "choiceId": "a"
     },
     "evidenceStep": "④",
-    "evidence": "変換の候補を見て",
+    "evidence": "漢字にしたいときは、変換の候補を見て",
     "explanation": "候補 means candidate; the guide instructs you to look at it."
   },
   {
