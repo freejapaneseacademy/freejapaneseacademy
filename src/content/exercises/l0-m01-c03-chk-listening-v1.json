@@ -1,0 +1,197 @@
+{
+  "id": "l0-m01-c03-chk-listening-v1",
+  "lessonId": "l0-m01-c03-chk",
+  "version": 1,
+  "status": "published",
+  "source": "Original academy-authored questions keyed to unchanged Chapter 03 L06 AivisSpeech recordings",
+  "audioManifest": "src/content/audio/l0-m01-c03-l06-v1.json",
+  "audioPaths": [
+    "/audio/fja-l0-m01-c03-l06-a-v1.wav",
+    "/audio/fja-l0-m01-c03-l06-b-v1.wav"
+  ],
+  "rights": "Existing AivisSpeech ACML 1.0 source manifest contains SHA-256 and attribution; independent native review pending",
+  "scoring": {
+    "mode": "single-choice",
+    "maxListeningScore": 4,
+    "blindAndAssistedSeparate": true,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m01-c03-chk-a01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c03-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m01-c03-l06-a",
+      "prompt": "What does the woman ask to buy?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c03-chk-a01-c1",
+          "text": "Two stamps",
+          "rationale": "Supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-a01-c2",
+          "text": "Two bags",
+          "rationale": "Not supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-a01-c3",
+          "text": "One cup of tea",
+          "rationale": "Not supported by the cited spoken turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c03-chk-a01-c1"
+      },
+      "explanation": "She requests 「切手を二枚ください。」, two stamps.",
+      "evidence": {
+        "turn": "Woman's first turn, 0.00–2.97 s",
+        "source": "src/content/audio/l0-m01-c03-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m01-c03-chk-a02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c03-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m01-c03-l06-a",
+      "prompt": "Where does the woman plan to send her letter?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c03-chk-a02-c1",
+          "text": "To a friend in Osaka",
+          "rationale": "Supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-a02-c2",
+          "text": "To a teacher in Tokyo",
+          "rationale": "Not supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-a02-c3",
+          "text": "To the picnic park",
+          "rationale": "Not supported by the cited spoken turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c03-chk-a02-c1"
+      },
+      "explanation": "She says 「大阪の友達に送ります。」, to a friend in Osaka.",
+      "evidence": {
+        "turn": "Woman's third turn, 7.87–11.04 s",
+        "source": "src/content/audio/l0-m01-c03-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m01-c03-chk-b01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c03-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m01-c03-l06-b",
+      "prompt": "What will the woman bring to the picnic?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c03-chk-b01-c1",
+          "text": "Bread and tea",
+          "rationale": "Supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-b01-c2",
+          "text": "Two stamps",
+          "rationale": "Not supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-b01-c3",
+          "text": "Only a large bag",
+          "rationale": "Not supported by the cited spoken turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c03-chk-b01-c1"
+      },
+      "explanation": "She answers 「パンとお茶を持っていきます。」, bread and tea.",
+      "evidence": {
+        "turn": "Woman's second turn, 3.55–5.68 s",
+        "source": "src/content/audio/l0-m01-c03-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m01-c03-chk-b02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c03-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m01-c03-l06-b",
+      "prompt": "What does the woman say about her bag?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c03-chk-b02-c1",
+          "text": "It is small but the bread fits",
+          "rationale": "Supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-b02-c2",
+          "text": "It is very large",
+          "rationale": "Not supported by the cited spoken turn."
+        },
+        {
+          "id": "ex-l0-m01-c03-chk-b02-c3",
+          "text": "She does not have a bag",
+          "rationale": "Not supported by the cited spoken turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c03-chk-b02-c1"
+      },
+      "explanation": "She says 「小さいです。でも、パンは入りますよ。」",
+      "evidence": {
+        "turn": "Woman's final turn, 9.16–13.12 s",
+        "source": "src/content/audio/l0-m01-c03-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    }
+  ]
+}
