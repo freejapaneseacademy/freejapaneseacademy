@@ -1,0 +1,257 @@
+{
+  "id": "l0-m01-c03-l06-check-v1",
+  "lessonId": "l0-m01-c03-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m01-c03-l06-a",
+    "audio-l0-m01-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c03-l06-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-kitte"
+      ],
+      "trackId": "audio-l0-m01-c03-l06-a",
+      "prompt": "What does the customer ask for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two envelopes",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "b",
+          "text": "Two stamps",
+          "rationale": "The recording explicitly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "One postcard",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The customer requests two stamps, not an envelope or postcard.",
+      "evidence": "切手を二枚ください。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l06-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "counter-nimai"
+      ],
+      "trackId": "audio-l0-m01-c03-l06-a",
+      "prompt": "How many does the customer want?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two",
+          "rationale": "The recording explicitly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "One",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "c",
+          "text": "Three",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "二枚 (nimai) is the counter phrase for two flat items.",
+      "evidence": "切手を二枚ください。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l06-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-osaka"
+      ],
+      "trackId": "audio-l0-m01-c03-l06-a",
+      "prompt": "To whom will the customer send the letter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A teacher in Tokyo",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "b",
+          "text": "A family member abroad",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "c",
+          "text": "A friend in Osaka",
+          "rationale": "The recording explicitly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "大阪の友達 means a friend in Osaka.",
+      "evidence": "大阪の友達に送ります。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l06-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-pan"
+      ],
+      "trackId": "audio-l0-m01-c03-l06-b",
+      "prompt": "What will the woman bring to the picnic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rice and water",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "b",
+          "text": "Bread and tea",
+          "rationale": "The recording explicitly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "Fruit and coffee",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "パンとお茶 explicitly means bread and tea.",
+      "evidence": "パンとお茶を持っていきます。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l06-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-chiisai"
+      ],
+      "trackId": "audio-l0-m01-c03-l06-b",
+      "prompt": "How does the woman describe her bag?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is small",
+          "rationale": "The recording explicitly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "It is large",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "c",
+          "text": "It is heavy",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "She says いいえ, then 小さいです (it is small).",
+      "evidence": "いいえ、小さいです。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c03-l06-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-hairimasu"
+      ],
+      "trackId": "audio-l0-m01-c03-l06-b",
+      "prompt": "What does she say about the bread and her bag?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The bread will not fit",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "b",
+          "text": "She forgot the bread",
+          "rationale": "This detail is not stated by the speakers; listen to the relevant turn again."
+        },
+        {
+          "id": "c",
+          "text": "The bread will fit",
+          "rationale": "The recording explicitly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "入ります means it fits or goes inside; でも introduces the contrast.",
+      "evidence": "でも、パンは入りますよ。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    }
+  ]
+}
