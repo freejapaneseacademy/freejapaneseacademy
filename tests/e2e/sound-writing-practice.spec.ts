@@ -76,7 +76,11 @@ for (const width of [320, 375, 390, 430, 768, 1024, 1440]) {
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width + 2);
     await page.locator('html').evaluate(element => { element.dataset.theme = 'dark'; });
     const key = practice.locator('fieldset').first().getByRole('button', { name: 'Insert あ in entry 1', exact: true });
+    // Astro's client:load island briefly disables the fieldset until React hydration.
+    // Wait for an actionable button, otherwise keyboard Enter can be lost.
+    await expect(key).toBeEnabled();
     await key.focus();
+    await expect(key).toBeFocused();
     await page.keyboard.press('Enter');
     await expect(practice.locator('fieldset').first().locator('input[type=text]')).toHaveValue('あ');
   });
