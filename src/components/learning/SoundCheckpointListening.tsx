@@ -45,15 +45,15 @@ export default function SoundCheckpointListening() {
   }
 
   return (
-    <section aria-labelledby="checkpoint-listening-title" className="space-y-6">
+    <section aria-labelledby="checkpoint-listening-title" className="space-y-6 min-w-0">
       <h2 id="checkpoint-listening-title" className="text-2xl font-semibold">Listen to two conversations</h2>
       <p>Play each real Japanese dialogue, then answer the questions about what the speakers mean.
         Transcripts are hidden until you submit. You can reveal them earlier for an assisted attempt;
         assisted results are never counted as blind listening.</p>
       {manifest.assets.map((asset, index) => (
-        <div key={asset.id} className="rounded-xl border border-current/20 p-4 space-y-3">
+        <div key={asset.id} className="rounded-xl border border-current/20 p-4 space-y-3 min-w-0">
           <h3 className="font-semibold">Conversation {index + 1}</h3>
-          <audio controls preload="none" src={asset.mediaPath} aria-label={`Play Japanese conversation ${index + 1}`}
+          <audio controls preload="none" src={asset.mediaPath} className="block w-full max-w-full min-w-0" style={{ width: "100%", maxWidth: "100%", minWidth: 0 }} aria-label={`Play Japanese conversation ${index + 1}`}
             onEnded={() => setPlayed((prev) => ({ ...prev, [asset.id]: true }))}
             onError={() => setAudioError((prev) => ({ ...prev, [asset.id]: true }))}>
             Your browser does not support WAV playback.
