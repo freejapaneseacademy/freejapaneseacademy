@@ -491,6 +491,22 @@
       "ownerApproval": "automatic publication preauthorized subject to exact-head CI and production verification"
     },
     {
+      "id": "l0-m01-c04-l04",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c04",
+      "slot": "L04",
+      "title": "Study tools and input — Kana and orthographic practice",
+      "content": "src/content/lessons/l0/study-tools-input-script-practice.mdx",
+      "url": "/learn/start/module-01/chapter-04/lesson-04/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for L04 written kana and IME practice",
+      "noindex": false,
+      "ownerApproval": "automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
