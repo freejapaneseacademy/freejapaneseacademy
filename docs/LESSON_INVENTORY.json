@@ -507,6 +507,22 @@
       "ownerApproval": "automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c04-l05",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c04",
+      "slot": "L05",
+      "title": "Read a Japanese keyboard guide — find the evidence",
+      "content": "src/content/lessons/l0/study-tools-input-reading.mdx",
+      "url": "/learn/start/module-01/chapter-04/lesson-05/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for L05 original written keyboard guide",
+      "noindex": false,
+      "ownerApproval": "automatic publication preauthorized, conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
