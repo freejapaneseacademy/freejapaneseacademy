@@ -1,0 +1,524 @@
+{
+  "id": "l0-m02-c01-l02",
+  "lessonId": "l0-m02-c01-l02",
+  "version": 1,
+  "status": "published",
+  "source": "Original Mio/Sora vocabulary cards and example scenes",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c01-l02-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "What does かさ mean on Mio's rainy-day picture card?",
+      "options": [
+        "umbrella",
+        "chair",
+        "morning"
+      ],
+      "correctIndex": 0,
+      "feedback": "かさ (kasa) is an umbrella; the rainy-day scene helps identify the object.",
+      "explanation": "かさ (kasa) is an umbrella; the rainy-day scene helps identify the object.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "かさ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-01-c1",
+          "text": "umbrella",
+          "rationale": "かさ (kasa) is an umbrella; the rainy-day scene helps identify the object."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-01-c2",
+          "text": "chair",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-01-c3",
+          "text": "morning",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "Which written word means chair?",
+      "options": [
+        "あさ",
+        "いす",
+        "かお"
+      ],
+      "correctIndex": 1,
+      "feedback": "いす (isu) means chair, not morning or face.",
+      "explanation": "いす (isu) means chair, not morning or face.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "いす"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-02-c1",
+          "text": "あさ",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-02-c2",
+          "text": "いす",
+          "rationale": "いす (isu) means chair, not morning or face."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-02-c3",
+          "text": "かお",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "Which word is read sushi?",
+      "options": [
+        "すし",
+        "さし",
+        "しす"
+      ],
+      "correctIndex": 0,
+      "feedback": "すし is su + shi, the familiar food name.",
+      "explanation": "すし is su + shi, the familiar food name.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "すし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-03-c1",
+          "text": "すし",
+          "rationale": "すし is su + shi, the familiar food name."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-03-c2",
+          "text": "さし",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-03-c3",
+          "text": "しす",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "What does あさ mean?",
+      "options": [
+        "face",
+        "morning",
+        "world"
+      ],
+      "correctIndex": 1,
+      "feedback": "あさ (asa) refers to morning.",
+      "explanation": "あさ (asa) refers to morning.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "あさ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-04-c1",
+          "text": "face",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-04-c2",
+          "text": "morning",
+          "rationale": "あさ (asa) refers to morning."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-04-c3",
+          "text": "world",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "Which word means face?",
+      "options": [
+        "かお",
+        "あし",
+        "ここ"
+      ],
+      "correctIndex": 0,
+      "feedback": "かお (kao) is face; あし is a foot or leg.",
+      "explanation": "かお (kao) is face; あし is a foot or leg.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "かお"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-05-c1",
+          "text": "かお",
+          "rationale": "かお (kao) is face; あし is a foot or leg."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-05-c2",
+          "text": "あし",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-05-c3",
+          "text": "ここ",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "On a body-parts card, what does あし name?",
+      "options": [
+        "a fish",
+        "a foot or leg",
+        "a chair"
+      ],
+      "correctIndex": 1,
+      "feedback": "あし (ashi) refers to the foot or leg, depending on context.",
+      "explanation": "あし (ashi) refers to the foot or leg, depending on context.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "あし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-06-c1",
+          "text": "a fish",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-06-c2",
+          "text": "a foot or leg",
+          "rationale": "あし (ashi) refers to the foot or leg, depending on context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-06-c3",
+          "text": "a chair",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "At a fish shop, さけ most likely means…",
+      "options": [
+        "salmon",
+        "chair",
+        "here"
+      ],
+      "correctIndex": 0,
+      "feedback": "At a fish shop さけ can mean salmon. The same kana can also represent sake, the alcoholic drink, in other contexts.",
+      "explanation": "At a fish shop さけ can mean salmon. The same kana can also represent sake, the alcoholic drink, in other contexts.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "さけ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-07-c1",
+          "text": "salmon",
+          "rationale": "At a fish shop さけ can mean salmon. The same kana can also represent sake, the alcoholic drink, in other contexts."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-07-c2",
+          "text": "chair",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-07-c3",
+          "text": "here",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "What is the difference between ここ and そこ?",
+      "options": [
+        "ここ means here; そこ means there near the listener",
+        "Both mean umbrella",
+        "ここ means world; そこ means chair"
+      ],
+      "correctIndex": 0,
+      "feedback": "ここ is here near the speaker; そこ is there near the listener.",
+      "explanation": "ここ is here near the speaker; そこ is there near the listener.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "ここ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-08-c1",
+          "text": "ここ means here; そこ means there near the listener",
+          "rationale": "ここ is here near the speaker; そこ is there near the listener."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-08-c2",
+          "text": "Both mean umbrella",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-08-c3",
+          "text": "ここ means world; そこ means chair",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "Which word means world?",
+      "options": [
+        "せかい",
+        "かさ",
+        "あさ"
+      ],
+      "correctIndex": 0,
+      "feedback": "せかい (sekai) means world, even though its characters are individually sounds.",
+      "explanation": "せかい (sekai) means world, even though its characters are individually sounds.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "せかい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-09-c1",
+          "text": "せかい",
+          "rationale": "せかい (sekai) means world, even though its characters are individually sounds."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-09-c2",
+          "text": "かさ",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-09-c3",
+          "text": "あさ",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-09-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l02-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-first-words"
+      ],
+      "prompt": "Why should you not translate か and さ separately in かさ?",
+      "options": [
+        "Each kana is a sound unit; the whole word means umbrella",
+        "か always means rain",
+        "さ always means shade"
+      ],
+      "correctIndex": 0,
+      "feedback": "Individual kana generally represent sounds; the combination かさ is a lexical word meaning umbrella.",
+      "explanation": "Individual kana generally represent sounds; the combination かさ is a lexical word meaning umbrella.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-vocabulary.mdx",
+        "phrase": "かさ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l02-10-c1",
+          "text": "Each kana is a sound unit; the whole word means umbrella",
+          "rationale": "Individual kana generally represent sounds; the combination かさ is a lexical word meaning umbrella."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-10-c2",
+          "text": "か always means rain",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        },
+        {
+          "id": "ex-l0-m02-c01-l02-10-c3",
+          "text": "さ always means shade",
+          "rationale": "This option does not match the meaning in the lesson's example and context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l02-10-c1"
+      }
+    }
+  ]
+}
