@@ -97,7 +97,7 @@
         "study-romaji-try"
       ],
       "trackId": "audio-l0-m01-c04-l06-a",
-      "prompt": "What does the teacher ask the learner to try next?",
+      "prompt": "What does the teacher ask the learner to enter next?",
       "choices": [
         {
           "id": "a",
@@ -217,7 +217,7 @@
         "study-check-meaning"
       ],
       "trackId": "audio-l0-m01-c04-l06-b",
-      "prompt": "When choosing kanji, what should the learner check?",
+      "prompt": "What should the learner check when choosing a candidate?",
       "choices": [
         {
           "id": "a",
