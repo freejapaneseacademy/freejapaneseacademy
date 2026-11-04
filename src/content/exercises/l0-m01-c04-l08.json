@@ -1,0 +1,206 @@
+{
+  "id": "l0-m01-c04-l08-preparation-v1",
+  "lessonId": "l0-m01-c04-l08",
+  "version": 1,
+  "modelAssetIds": [
+    "audio-l0-m01-c04-l06-a",
+    "audio-l0-m01-c04-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c04-l08-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "tools-speaking-1"
+      ],
+      "prompt": "In the first model, what does どうすればいいですか ask?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What should I do?",
+          "rationale": "The student asks how to proceed with Japanese input."
+        },
+        {
+          "id": "b",
+          "text": "Where is the station?",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        },
+        {
+          "id": "c",
+          "text": "Is this a book?",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The student asks how to proceed with Japanese input.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "classroom-requests"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l08-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "tools-speaking-2"
+      ],
+      "prompt": "Which expression politely asks someone to select Japanese input?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "日本語の入力を選んでください。",
+          "rationale": "選んでください requests that the listener select Japanese input."
+        },
+        {
+          "id": "b",
+          "text": "日本語の入力が好きです。",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        },
+        {
+          "id": "c",
+          "text": "日本語を読みました。",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "選んでください requests that the listener select Japanese input.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "classroom-requests"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l08-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "tools-speaking-3"
+      ],
+      "prompt": "After the teacher explains romaji input, which short reply fits the model?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "できました。ありがとうございます。",
+          "rationale": "The student confirms success and thanks the helper."
+        },
+        {
+          "id": "b",
+          "text": "いいえ、行きません。",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        },
+        {
+          "id": "c",
+          "text": "おはようございます。",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The student confirms success and thanks the helper.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "classroom-requests"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l08-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "tools-speaking-4"
+      ],
+      "prompt": "What does 読み方がわかりません mean in the second exchange?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I do not know how to read it.",
+          "rationale": "読み方 refers to how a word is read, and わかりません means not knowing."
+        },
+        {
+          "id": "b",
+          "text": "I cannot hear music.",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        },
+        {
+          "id": "c",
+          "text": "I do not have a keyboard.",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "読み方 refers to how a word is read, and わかりません means not knowing.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "classroom-requests"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c04-l08-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c04-l08-o4"
+      ],
+      "knowledgeItemIds": [
+        "tools-speaking-5"
+      ],
+      "prompt": "Which is a responsible way to practise speaking here?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Play a real turn, repeat aloud, optionally record only after consent, and self-review.",
+          "rationale": "Optional learner-controlled recording and self-review cannot certify pronunciation."
+        },
+        {
+          "id": "b",
+          "text": "Let the site start the microphone automatically.",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        },
+        {
+          "id": "c",
+          "text": "Treat the written quiz as a certified pronunciation score.",
+          "rationale": "This does not fit the recorded classroom model or responsible speaking practice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Optional learner-controlled recording and self-review cannot certify pronunciation.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "classroom-requests"
+      ]
+    }
+  ]
+}
