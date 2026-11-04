@@ -7,7 +7,7 @@ export default function HiraganaFormPractice() {
   const [answers,setAnswers] = useState<Record<string,string>>({});
   const [submitted,setSubmitted] = useState(false);
   const [saving,setSaving] = useState<'idle'|'saving'|'saved'|'error'>('idle');
-  const isCorrect = (q: typeof items[number]) => q.type === 'kana-input'
+  const isCorrect = (q: typeof items[number]) => q.type === 'short-input'
     ? answers[q.id]?.normalize('NFC').trim() === ('answer' in q ? q.answer : '')
     : answers[q.id] === String('correctIndex' in q ? q.correctIndex : -1);
   const complete = items.every(q => (answers[q.id] ?? '').trim().length > 0);
@@ -23,13 +23,13 @@ export default function HiraganaFormPractice() {
     <p>Use a Japanese IME for the fifteen typed answers. Five more questions test visual recognition. No audio or handwriting is graded.</p>
     {items.map((q,i)=><fieldset key={q.id} disabled={submitted} className="min-w-0 rounded-xl border border-current/20 p-4">
       <legend className="px-1 font-semibold">{i+1}. {q.prompt}</legend>
-      {q.type === 'kana-input' ? <label className="mt-3 block">
+      {q.type === 'short-input' ? <label className="mt-3 block">
         <span className="block text-sm">Japanese kana answer</span>
         <input lang="ja" autoComplete="off" spellCheck={false} className="mt-2 block w-full min-w-0 rounded-lg border border-current/40 bg-transparent p-3 text-xl" value={answers[q.id]??''} onChange={e=>setAnswers(a=>({...a,[q.id]:e.target.value}))}/>
       </label> : <div className="mt-3 space-y-2">{('options' in q ? q.options : []).map((opt,j)=><label key={j} className="flex min-h-11 cursor-pointer items-center gap-3 rounded-lg p-3 focus-within:outline focus-within:outline-2">
         <input type="radio" name={q.id} checked={answers[q.id]===String(j)} onChange={()=>setAnswers(a=>({...a,[q.id]:String(j)}))}/><span lang="ja" className="text-xl">{opt}</span>
       </label>)}</div>}
-      {submitted&&<p role="status" className="mt-3"><strong>{isCorrect(q)?'Correct.':'Review this form.'}</strong> {q.explanation} {!isCorrect(q)&&q.type==='kana-input'&&<span>Model: <span lang="ja">{'answer' in q?q.answer:''}</span>.</span>}</p>}
+      {submitted&&<p role="status" className="mt-3"><strong>{isCorrect(q)?'Correct.':'Review this form.'}</strong> {q.explanation} {!isCorrect(q)&&q.type==='short-input'&&<span>Model: <span lang="ja">{'answer' in q?q.answer:''}</span>.</span>}</p>}
     </fieldset>)}
     {!submitted?<button type="button" disabled={!complete} onClick={submit} className="rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white disabled:opacity-50">Check all 20 answers</button>:<div role="status" aria-live="polite" className="space-y-3"><p><strong>Written score: {score}/{items.length}.</strong> This does not grade pronunciation or pen strokes.</p>
       {saving==='saved'&&<p>Attempt saved locally on this device.</p>}{saving==='saving'&&<p>Saving locally…</p>}{saving==='error'&&<p>Local storage unavailable; your score remains visible.</p>}
