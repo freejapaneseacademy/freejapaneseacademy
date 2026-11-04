@@ -539,6 +539,23 @@
       "ownerApproval": "automatic publication preauthorized; exact-head CI and Cloudflare production verification required"
     },
     {
+      "id": "l0-m01-c04-l07",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c04",
+      "slot": "L07",
+      "title": "Write and type Japanese classroom requests",
+      "content": "src/content/lessons/l0/study-tools-input-writing.mdx",
+      "url": "/learn/start/module-01/chapter-04/lesson-07/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L07; no pronunciation assessment",
+      "noindex": false,
+      "ownerSlot": ":15",
+      "ownerApproval": "automatic publication preauthorized after exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
