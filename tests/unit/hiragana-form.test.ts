@@ -11,7 +11,7 @@ describe('L0 M02 C01 L04 kana assessment',()=>{
   for(const q of bank.items){
    expect(q.explanation.length).toBeGreaterThan(15);
    if(q.type==='short-input')expect(q.answer).toMatch(/^[あ-ん]$/u);
-   else {expect(q.options[q.correctIndex]).toBeTruthy();expect(q.answerKey.choiceId).toBe(q.choices[q.correctIndex].id);}
+   else {const index=q.correctIndex ?? -1; expect((q.options ?? [])[index]).toBeTruthy();expect(q.answerKey.choiceId).toBe((q.choices ?? [])[index]?.id);}
   }
  });
 });
