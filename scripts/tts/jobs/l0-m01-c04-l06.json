@@ -71,7 +71,7 @@
       "comprehensionPrompts": [
         "What does the learner want to do?",
         "What does the teacher tell her to select first?",
-        "What does the teacher ask her to try next?"
+        "What does the teacher ask the learner to enter next?"
       ]
     },
     {
@@ -109,7 +109,7 @@
       "comprehensionPrompts": [
         "What does the learner say he does not know?",
         "What aid does the teacher recommend?",
-        "What does the teacher tell him to check when choosing a candidate?"
+        "What should the learner check when choosing a candidate?"
       ]
     }
   ]
