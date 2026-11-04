@@ -1,0 +1,422 @@
+{
+  "id": "l0-m02-c01-l05",
+  "lessonId": "l0-m02-c01-l05",
+  "version": 1,
+  "status": "published",
+  "source": "Original classroom character grid and five word cards",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c01-l05-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "In Source A, what is in the S column and i row?",
+      "options": [
+        "し",
+        "す",
+        "せ"
+      ],
+      "correctIndex": 0,
+      "feedback": "The i row intersects the S column at し (shi).",
+      "explanation": "The i row intersects the S column at し (shi).",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "し"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-01-c1",
+          "text": "し",
+          "rationale": "The i row intersects the S column at し (shi)."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-01-c2",
+          "text": "す",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-01-c3",
+          "text": "せ",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l05-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which kana is at the K column and e row?",
+      "options": [
+        "き",
+        "け",
+        "こ"
+      ],
+      "correctIndex": 1,
+      "feedback": "The K/e intersection prints け (ke).",
+      "explanation": "The K/e intersection prints け (ke).",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "け"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-02-c1",
+          "text": "き",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-02-c2",
+          "text": "け",
+          "rationale": "The K/e intersection prints け (ke)."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-02-c3",
+          "text": "こ",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l05-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which source cell contains the vowel-only o symbol?",
+      "options": [
+        "お",
+        "あ",
+        "う"
+      ],
+      "correctIndex": 0,
+      "feedback": "The vowel-only column in the o row prints お.",
+      "explanation": "The vowel-only column in the o row prints お.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "お"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-03-c1",
+          "text": "お",
+          "rationale": "The vowel-only column in the o row prints お."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-03-c2",
+          "text": "あ",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-03-c3",
+          "text": "う",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l05-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "What is the printed word on Card C (chair)?",
+      "options": [
+        "いす",
+        "すし",
+        "かさ"
+      ],
+      "correctIndex": 0,
+      "feedback": "Card C explicitly prints いす with the label chair.",
+      "explanation": "Card C explicitly prints いす with the label chair.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "いす"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-04-c1",
+          "text": "いす",
+          "rationale": "Card C explicitly prints いす with the label chair."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-04-c2",
+          "text": "すし",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-04-c3",
+          "text": "かさ",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l05-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which card explicitly labels the word せかい as world?",
+      "options": [
+        "Card A",
+        "Card E",
+        "Card D"
+      ],
+      "correctIndex": 1,
+      "feedback": "Source B Card E prints せかい and labels it world.",
+      "explanation": "Source B Card E prints せかい and labels it world.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "せかい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-05-c1",
+          "text": "Card A",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-05-c2",
+          "text": "Card E",
+          "rationale": "Source B Card E prints せかい and labels it world."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-05-c3",
+          "text": "Card D",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l05-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which pair of cells spells Card B in order?",
+      "options": [
+        "S/u す then S/i し",
+        "S/i し then S/u す",
+        "K/u く then S/i し"
+      ],
+      "correctIndex": 0,
+      "feedback": "Card B prints すし; the grid locates す at S/u and し at S/i.",
+      "explanation": "Card B prints すし; the grid locates す at S/u and し at S/i.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "すし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-06-c1",
+          "text": "S/u す then S/i し",
+          "rationale": "Card B prints すし; the grid locates す at S/u and し at S/i."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-06-c2",
+          "text": "S/i し then S/u す",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-06-c3",
+          "text": "K/u く then S/i し",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l05-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "How many kana are printed on Card D?",
+      "options": [
+        "one",
+        "two",
+        "three"
+      ],
+      "correctIndex": 1,
+      "feedback": "Card D prints ここ, repeating こ twice.",
+      "explanation": "Card D prints ここ, repeating こ twice.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "ここ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-07-c1",
+          "text": "one",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-07-c2",
+          "text": "two",
+          "rationale": "Card D prints ここ, repeating こ twice."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-07-c3",
+          "text": "three",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l05-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which evidence supports the beginning of Card A?",
+      "options": [
+        "K/a か, followed by S/a さ",
+        "S/a さ, followed by K/a か",
+        "K/o こ, followed by S/a さ"
+      ],
+      "correctIndex": 0,
+      "feedback": "Card A prints かさ; Source A locates か at K/a and さ at S/a.",
+      "explanation": "Card A prints かさ; Source A locates か at K/a and さ at S/a.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-reading.mdx",
+        "phrase": "かさ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l05-08-c1",
+          "text": "K/a か, followed by S/a さ",
+          "rationale": "Card A prints かさ; Source A locates か at K/a and さ at S/a."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-08-c2",
+          "text": "S/a さ, followed by K/a か",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        },
+        {
+          "id": "ex-l0-m02-c01-l05-08-c3",
+          "text": "K/o こ, followed by S/a さ",
+          "rationale": "This option does not match the printed grid or card; locate the exact row, column, or card label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l05-08-c1"
+      }
+    }
+  ]
+}
