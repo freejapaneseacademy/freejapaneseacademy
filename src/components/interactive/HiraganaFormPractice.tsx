@@ -26,7 +26,7 @@ export default function HiraganaFormPractice() {
       {q.type === 'short-input' ? <label className="mt-3 block">
         <span className="block text-sm">Japanese kana answer</span>
         <input lang="ja" autoComplete="off" spellCheck={false} className="mt-2 block w-full min-w-0 rounded-lg border border-current/40 bg-transparent p-3 text-xl" value={answers[q.id]??''} onChange={e=>setAnswers(a=>({...a,[q.id]:e.target.value}))}/>
-      </label> : <div className="mt-3 space-y-2">{('options' in q ? q.options : []).map((opt,j)=><label key={j} className="flex min-h-11 cursor-pointer items-center gap-3 rounded-lg p-3 focus-within:outline focus-within:outline-2">
+      </label> : <div className="mt-3 space-y-2">{('options' in q ? (q.options ?? []) : []).map((opt,j)=><label key={j} className="flex min-h-11 cursor-pointer items-center gap-3 rounded-lg p-3 focus-within:outline focus-within:outline-2">
         <input type="radio" name={q.id} checked={answers[q.id]===String(j)} onChange={()=>setAnswers(a=>({...a,[q.id]:String(j)}))}/><span lang="ja" className="text-xl">{opt}</span>
       </label>)}</div>}
       {submitted&&<p role="status" className="mt-3"><strong>{isCorrect(q)?'Correct.':'Review this form.'}</strong> {q.explanation} {!isCorrect(q)&&q.type==='short-input'&&<span>Model: <span lang="ja">{'answer' in q?q.answer:''}</span>.</span>}</p>}
