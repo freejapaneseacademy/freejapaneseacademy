@@ -14,7 +14,7 @@
       "id": "ex-l0-m02-c01-l04-01",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -33,13 +33,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "あ"
+      },
+      "answerKey": {
+        "accepted": [
+          "あ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-02",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -58,13 +64,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "い"
+      },
+      "answerKey": {
+        "accepted": [
+          "い"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-03",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -83,13 +95,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "う"
+      },
+      "answerKey": {
+        "accepted": [
+          "う"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-04",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -108,13 +126,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "え"
+      },
+      "answerKey": {
+        "accepted": [
+          "え"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-05",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -133,13 +157,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "お"
+      },
+      "answerKey": {
+        "accepted": [
+          "お"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-06",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -158,13 +188,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "か"
+      },
+      "answerKey": {
+        "accepted": [
+          "か"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-07",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -183,13 +219,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "き"
+      },
+      "answerKey": {
+        "accepted": [
+          "き"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-08",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -208,13 +250,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "く"
+      },
+      "answerKey": {
+        "accepted": [
+          "く"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-09",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -233,13 +281,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "け"
+      },
+      "answerKey": {
+        "accepted": [
+          "け"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-10",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -258,13 +312,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "こ"
+      },
+      "answerKey": {
+        "accepted": [
+          "こ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-11",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -283,13 +343,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "さ"
+      },
+      "answerKey": {
+        "accepted": [
+          "さ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-12",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -308,13 +374,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "し"
+      },
+      "answerKey": {
+        "accepted": [
+          "し"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-13",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -333,13 +405,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "す"
+      },
+      "answerKey": {
+        "accepted": [
+          "す"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-14",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -358,13 +436,19 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "せ"
+      },
+      "answerKey": {
+        "accepted": [
+          "せ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c01-l04-15",
       "version": 1,
       "status": "published",
-      "type": "kana-input",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -383,6 +467,12 @@
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
         "phrase": "そ"
+      },
+      "answerKey": {
+        "accepted": [
+          "そ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
