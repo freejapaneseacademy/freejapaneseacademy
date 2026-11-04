@@ -573,6 +573,24 @@
       "ownerApproval": "automatic publication preauthorized after exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m01-c04-chk",
+      "level": "l0",
+      "moduleId": "l0-m01",
+      "chapterId": "l0-m01-c04",
+      "slot": "CHK",
+      "title": "Study tools and input methods — mixed checkpoint",
+      "content": "src/content/lessons/l0/study-tools-input-checkpoint.mdx",
+      "url": "/learn/start/module-01/chapter-04/checkpoint/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "two unchanged rights-cleared Chapter 04 L06 AivisSpeech WAVs; SHA-256 in versioned manifest; independent pronunciation review pending",
+      "noindex": false,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
+      "ownerApproval": "automatic publication preauthorized after exact-head CI and production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
