@@ -4,13 +4,13 @@ describe('L0 M02 C01 L04 kana assessment',()=>{
  it('contains fifteen unique typed kana and five unique visual choices',()=>{
   expect(bank.items).toHaveLength(20);
   expect(new Set(bank.items.map(q=>q.id)).size).toBe(20);
-  expect(bank.items.filter(q=>q.type==='kana-input')).toHaveLength(15);
+  expect(bank.items.filter(q=>q.type==='short-input')).toHaveLength(15);
   expect(bank.items.filter(q=>q.type==='single-choice')).toHaveLength(5);
  });
  it('all answer keys and explanations are complete',()=>{
   for(const q of bank.items){
    expect(q.explanation.length).toBeGreaterThan(15);
-   if(q.type==='kana-input')expect(q.answer).toMatch(/^[あ-ん]$/u);
+   if(q.type==='short-input')expect(q.answer).toMatch(/^[あ-ん]$/u);
    else {expect(q.options[q.correctIndex]).toBeTruthy();expect(q.answerKey.choiceId).toBe(q.choices[q.correctIndex].id);}
   }
  });
