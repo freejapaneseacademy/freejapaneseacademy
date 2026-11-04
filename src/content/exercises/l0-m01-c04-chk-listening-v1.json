@@ -1,0 +1,197 @@
+{
+  "id": "l0-m01-c04-chk-listening-v1",
+  "lessonId": "l0-m01-c04-chk",
+  "version": 1,
+  "status": "published",
+  "source": "Original unseen questions keyed to existing licensed Chapter 04 L06 audio",
+  "audioManifest": "src/content/audio/l0-m01-c04-l06-v1.json",
+  "audioPaths": [
+    "/audio/fja-l0-m01-c04-l06-a-v1.wav",
+    "/audio/fja-l0-m01-c04-l06-b-v1.wav"
+  ],
+  "rights": "Original licensed AivisSpeech ACML 1.0 recordings, rights and SHA-256 in immutable source manifest; independent human review pending",
+  "scoring": {
+    "mode": "single-choice",
+    "maxListeningScore": 4,
+    "blindAndAssistedSeparate": true,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m01-c04-chk-a01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-spoken-instructions"
+      ],
+      "stimulusId": "audio-l0-m01-c04-l06-a",
+      "prompt": "What does the woman want to do?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-a01-c1",
+          "text": "Enter Japanese",
+          "rationale": "The woman says 日本語を入力したいです。"
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a01-c2",
+          "text": "Buy a train ticket",
+          "rationale": "The recorded turn does not support this answer."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a01-c3",
+          "text": "Listen to a weather report",
+          "rationale": "The recorded turn does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-a01-c1"
+      },
+      "explanation": "The woman says 日本語を入力したいです。",
+      "evidence": {
+        "turn": "Woman's opening turn, 0.00–4.85 s",
+        "source": "src/content/audio/l0-m01-c04-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-a02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-spoken-instructions"
+      ],
+      "stimulusId": "audio-l0-m01-c04-l06-a",
+      "prompt": "What does the teacher ask her to select first?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-a02-c1",
+          "text": "A printer",
+          "rationale": "The recorded turn does not support this answer."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a02-c2",
+          "text": "Japanese input",
+          "rationale": "The teacher says まず、日本語の入力を選んでください。"
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a02-c3",
+          "text": "English captions",
+          "rationale": "The recorded turn does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-a02-c2"
+      },
+      "explanation": "The teacher says まず、日本語の入力を選んでください。",
+      "evidence": {
+        "turn": "Man's first turn, 5.13–8.35 s",
+        "source": "src/content/audio/l0-m01-c04-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-a03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-spoken-instructions"
+      ],
+      "stimulusId": "audio-l0-m01-c04-l06-b",
+      "prompt": "What help does the teacher suggest for understanding a word's reading?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-a03-c1",
+          "text": "Look at furigana",
+          "rationale": "The teacher says ふりがなを見てください。"
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a03-c2",
+          "text": "Use a calculator",
+          "rationale": "The recorded turn does not support this answer."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a03-c3",
+          "text": "Ask for a train map",
+          "rationale": "The recorded turn does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-a03-c1"
+      },
+      "explanation": "The teacher says ふりがなを見てください。",
+      "evidence": {
+        "turn": "Woman's first turn, 2.91–7.00 s",
+        "source": "src/content/audio/l0-m01-c04-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-a04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-spoken-instructions"
+      ],
+      "stimulusId": "audio-l0-m01-c04-l06-b",
+      "prompt": "What does the teacher say to check when choosing a candidate?",
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-a04-c1",
+          "text": "The weather",
+          "rationale": "The recorded turn does not support this answer."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a04-c2",
+          "text": "The candidate meaning",
+          "rationale": "The teacher says 候補を見て、意味を確認してください。"
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-a04-c3",
+          "text": "The battery charge",
+          "rationale": "The recorded turn does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-a04-c2"
+      },
+      "explanation": "The teacher says 候補を見て、意味を確認してください。",
+      "evidence": {
+        "turn": "Woman's second turn, 11.26–14.55 s",
+        "source": "src/content/audio/l0-m01-c04-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    }
+  ]
+}
