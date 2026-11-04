@@ -15,6 +15,10 @@ const rhythmListening = JSON.parse(readFileSync(
   new URL('../../src/content/audio/l0-m01-c03-l06-v1.json', import.meta.url), 'utf8'
 )) as { assets: Array<{mediaPath:string;qa:{bytes:number;sha256:string}}> };
 
+const studyToolsListening = JSON.parse(readFileSync(
+  new URL('../../src/content/audio/l0-m01-c04-l06-v1.json', import.meta.url), 'utf8'
+)) as { assets: Array<{mediaPath:string;qa:{bytes:number;sha256:string}}> };
+
 const originals = {
   'fja-lesson-audio-l06-a.wav': { size: 1344706, sha: 'da38bd5223c82181281514fea1b382fff872936d602affdb69830e9c7fdda703' },
   'fja-lesson-audio-l06-b.wav': { size: 992532, sha: '69ae9543c408a3f973e0dec3a495fa128c7b68e63b43aa5dfb007bb741b11d3b' }
@@ -28,7 +32,10 @@ const chapterTwo = Object.fromEntries(soundSystemListening.assets.map(track => [
 const chapterThree = Object.fromEntries(rhythmListening.assets.map(track => [
   track.mediaPath.split('/').at(-1)!, { size: track.qa.bytes, sha: track.qa.sha256 }
 ]));
-const known: Record<string, {size: number;sha:string}> = { ...originals, ...current, ...chapterTwo, ...chapterThree };
+const chapterFour = Object.fromEntries(studyToolsListening.assets.map(track => [
+  track.mediaPath.split('/').at(-1)!, { size: track.qa.bytes, sha: track.qa.sha256 }
+]));
+const known: Record<string, {size: number;sha:string}> = { ...originals, ...current, ...chapterTwo, ...chapterThree, ...chapterFour };
 
 /** In local Astro dev, a valid WAV range request may return full 200 instead of 206.
  * Verify the exact whole WAV's pinned hash; never accept an HTML fallback.
