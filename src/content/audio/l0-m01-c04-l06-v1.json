@@ -1,0 +1,181 @@
+{
+  "lessonId": "l0-m01-c04-l06",
+  "chapterId": "l0-m01-c04",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m01-c04-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m01-c04-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.91,
+      "transcript": "女性： すみません。日本語を入力したいです。どうすればいいですか。\n男性： まず、日本語の入力を選んでください。\n女性： はい。次は何をしますか。\n男性： ローマ字で「ねこ」と入力してみてください。\n女性： できました。ありがとうございます。",
+      "english": "Woman: Excuse me. I want to enter Japanese. What should I do?\nMan: First, please select Japanese input.\nWoman: Okay. What do I do next?\nMan: Try entering 'neko' using romaji input.\nWoman: I did it. Thank you.",
+      "scriptPurpose": "Asking for help with Japanese input",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m01-c04-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。日本語を入力したいです。どうすればいいですか。",
+          "english": "Excuse me. I want to enter Japanese. What should I do?",
+          "startSeconds": 0.0,
+          "endSeconds": 4.85
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "まず、日本語の入力を選んでください。",
+          "english": "First, please select Japanese input.",
+          "startSeconds": 5.13,
+          "endSeconds": 8.35
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。次は何をしますか。",
+          "english": "Okay. What do I do next?",
+          "startSeconds": 8.63,
+          "endSeconds": 11.4
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ローマ字で「ねこ」と入力してみてください。",
+          "english": "Try entering 'neko' using romaji input.",
+          "startSeconds": 11.68,
+          "endSeconds": 14.69
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "できました。ありがとうございます。",
+          "english": "I did it. Thank you.",
+          "startSeconds": 14.97,
+          "endSeconds": 17.91
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Automated FreeJapaneseAcademy license screening, 2026-11-04 (pinned AivisHub model pages and ACML 1.0; no independent human review claimed)",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "25e5d9f8d48e7460d332f11d961a6622aaeceb717236a26bf517e11052772bfe",
+        "bytes": 1579288,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m01-c04-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m01-c04-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.73,
+      "transcript": "男性： この言葉の読み方がわかりません。\n女性： ふりがなを見てください。読み方がわかりますよ。\n男性： ありがとうございます。漢字を選ぶときはどうしますか。\n女性： 候補を見て、意味を確認してください。\n男性： わかりました。もう一度やってみます。",
+      "english": "Man: I don't know how to read this word.\nWoman: Please look at the furigana. It will show you the reading.\nMan: Thank you. What should I do when choosing kanji?\nWoman: Look at the candidates and check the meaning.\nMan: Understood. I'll try again.",
+      "scriptPurpose": "Asking how to check a word reading",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m01-c04-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "この言葉の読み方がわかりません。",
+          "english": "I don't know how to read this word.",
+          "startSeconds": 0.0,
+          "endSeconds": 2.63
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ふりがなを見てください。読み方がわかりますよ。",
+          "english": "Please look at the furigana. It will show you the reading.",
+          "startSeconds": 2.91,
+          "endSeconds": 7.0
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ありがとうございます。漢字を選ぶときはどうしますか。",
+          "english": "Thank you. What should I do when choosing kanji?",
+          "startSeconds": 7.28,
+          "endSeconds": 10.98
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "候補を見て、意味を確認してください。",
+          "english": "Look at the candidates and check the meaning.",
+          "startSeconds": 11.26,
+          "endSeconds": 14.55
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "わかりました。もう一度やってみます。",
+          "english": "Understood. I'll try again.",
+          "startSeconds": 14.83,
+          "endSeconds": 17.73
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Automated FreeJapaneseAcademy license screening, 2026-11-04 (pinned AivisHub model pages and ACML 1.0; no independent human review claimed)",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "1280fce076eb033432beef8aee61dd3c2ccfa3612e36009b2b8b00827cc74437",
+        "bytes": 1563672,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
