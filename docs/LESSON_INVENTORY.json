@@ -681,6 +681,22 @@
       "ownerApproval": "automatic publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m02-c01-l06",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c01",
+      "slot": "L06",
+      "title": "Listening practice — Umbrella request and lunch conversation",
+      "content": "src/content/lessons/l0/hiragana-vowels-ks-listening.mdx",
+      "url": "/learn/start/module-02/chapter-01/lesson-06/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified pronunciation and language review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "two original rights-cleared AivisSpeech PCM WAV recordings, manifest checksums; native review pending",
+      "noindex": false,
+      "ownerApproval": "2026-11-04: automated publication preauthorized subject to exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
