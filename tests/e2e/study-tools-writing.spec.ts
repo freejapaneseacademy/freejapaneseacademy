@@ -8,7 +8,7 @@ test('writing lesson supports keyboard, local feedback and self-review',async({p
  await page.getByRole('button',{name:'Check 12 Japanese spellings'}).click();
  await expect(page.getByText('1 / 12')).toBeVisible();
  await page.getByRole('button',{name:'Reveal models for self-review'}).click();
- await expect(page.getByText('ひらがなで かいてください。')).toBeVisible();
+ await expect(page.getByRole('region').getByText('ひらがなで かいてください。')).toBeVisible();
  await page.getByLabel(/Ask a teacher to write in hiragana/).fill('ひらがなで かいてください。');
  await page.getByRole('button',{name:'Clear my drafts'}).click();
  await expect(page.getByLabel(/Ask a teacher to write in hiragana/)).toHaveValue('');
