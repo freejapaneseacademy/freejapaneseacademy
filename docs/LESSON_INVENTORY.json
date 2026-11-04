@@ -645,6 +645,24 @@
       "ownerApproval": "automatic publication preauthorized after exact-head CI and Cloudflare production verification"
     },
     {
+      "id": "l0-m02-c01-l04",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c01",
+      "slot": "L04",
+      "title": "Hiragana form lab — recognize and type fifteen kana",
+      "content": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+      "url": "/learn/start/module-02/chapter-01/lesson-04/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written script practice; syllable listening reserved for L06",
+      "noindex": false,
+      "ownerSlot": ":45",
+      "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
+      "ownerApproval": "automatic publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",
