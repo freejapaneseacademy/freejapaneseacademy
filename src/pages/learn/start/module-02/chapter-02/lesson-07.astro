@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import HiraganaTNHWritingStudio from '../../../../../components/interactive/HiraganaTNHWritingStudio';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/hiragana-tnh-writing');
+if(!lesson||lesson.data.lessonId!=='l0-m02-c02-l07')throw new Error('Missing canonical lesson l0-m02-c02-l07');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'T/N/H writing',href:'/learn/start/module-02/chapter-02/lesson-07/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 02 · Chapter 02 · Lesson 07</span></nav><span class="eyebrow">LEVEL 0 · MODULE 02 · CHAPTER 02 · LESSON 07</span><h1>Write T/N/H hiragana and classroom labels</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>20 written questions</span><span>2 ungraded drafts</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original writing lesson.</strong> Exact kana scoring; handwriting and open writing self-reviewed. Independent qualified reviews pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><HiraganaTNHWritingStudio client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion and numeric writing attempts are separate browser-local records.</p><LessonActions client:load lessonId="l0-m02-c02-l07" level="l0"/></div><div class="lesson-next"><h3>Continue learning</h3><a class="btn btn-outline" href="/learn/start/module-02/chapter-02/lesson-06/">Previous: listening practice</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Write, compare, revise</h3><p>Use Japanese IME or a kana keyboard. Paper writing is optional and self-reviewed.</p></aside></div></section>
+</Base>
