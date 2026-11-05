@@ -19,7 +19,7 @@ test('L06 keyboard controls and transcript reset', async ({ page }) => {
   await page.goto('/learn/start/module-02/chapter-02/lesson-06/');
   await page.getByRole('button', { name: 'Reveal transcript (assisted practice)' }).first().focus();
   await page.keyboard.press('Enter');
-  await expect(page.getByText('Japanese transcript').first()).toBeVisible();
+  await expect(page.getByText('Japanese transcript', { exact: true }).first()).toBeVisible();
   await page.getByRole('button', { name: 'Start a new listening attempt' }).click();
-  await expect(page.getByText('Japanese transcript')).toHaveCount(0);
+  await expect(page.getByText('Japanese transcript', { exact: true })).toHaveCount(0);
 });
