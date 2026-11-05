@@ -1,0 +1,165 @@
+{
+  "lessonId": "l0-m02-c02-l06",
+  "chapterId": "l0-m02-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m02-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m02-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 10.46,
+      "transcript": "女性： すみません。ぼうしはありますか。\n男性： はい。あかいぼうしと、しろいぼうしがあります。\n女性： あかいぼうしをください。\n男性： はい。どうぞ。",
+      "english": "Woman: Excuse me. Do you have hats?\nMan: Yes. We have red hats and white hats.\nWoman: The red hat, please.\nMan: Certainly. Here you are.",
+      "scriptPurpose": "A hat at the shop",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m02-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。ぼうしはありますか。",
+          "english": "Excuse me. Do you have hats?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.72
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。あかいぼうしと、しろいぼうしがあります。",
+          "english": "Yes. We have red hats and white hats.",
+          "startSeconds": 3.0,
+          "endSeconds": 6.3
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "あかいぼうしをください。",
+          "english": "The red hat, please.",
+          "startSeconds": 6.58,
+          "endSeconds": 8.63
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。どうぞ。",
+          "english": "Certainly. Here you are.",
+          "startSeconds": 8.91,
+          "endSeconds": 10.46
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy automated licensing review of pinned AivisHub ACML 1.0 voice model metadata, 2026-11-05; independent legal and native Japanese pronunciation review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "e802700843ff1f4499109705f76026dbd9d8c9c9ed206679dfe83c21fab66e56",
+        "bytes": 922924,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m02-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m02-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 10.5,
+      "transcript": "男性： こんにちは。おちゃをのみますか。\n女性： はい。あたたかいおちゃをおねがいします。\n男性： はい。おちゃとおかしです。\n女性： ありがとうございます。",
+      "english": "Man: Hello. Would you like some tea?\nWoman: Yes. Warm tea, please.\nMan: Here are tea and sweets.\nWoman: Thank you.",
+      "scriptPurpose": "Tea at a friend's home",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m02-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "こんにちは。おちゃをのみますか。",
+          "english": "Hello. Would you like some tea?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.51
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。あたたかいおちゃをおねがいします。",
+          "english": "Yes. Warm tea, please.",
+          "startSeconds": 2.79,
+          "endSeconds": 5.94
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。おちゃとおかしです。",
+          "english": "Here are tea and sweets.",
+          "startSeconds": 6.22,
+          "endSeconds": 8.42
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ありがとうございます。",
+          "english": "Thank you.",
+          "startSeconds": 8.7,
+          "endSeconds": 10.5
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy automated licensing review of pinned AivisHub ACML 1.0 voice model metadata, 2026-11-05; independent legal and native Japanese pronunciation review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "0c991c049e47de2c792be6eb7ac2c6dcf10213a264bea838ee68a50840485185",
+        "bytes": 925900,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
