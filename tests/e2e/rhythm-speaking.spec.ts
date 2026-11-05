@@ -31,7 +31,8 @@ test('L08 works at 320px with keyboard navigation and no horizontal page overflo
   // The static Astro HTML can show the button before React hydration attaches handlers.
   // Wait for the island's own hydrated signal, then verify the keyboard activation.
   await expect(page.getByRole('button', { name: 'Play track A turn 1' })).toBeEnabled();
-  const reveal = page.getByRole('button', { name: 'Show full transcript and translation' }).first();
+  // Keep a stable locator: the button's accessible name changes from Show to Hide on activation.
+  const reveal = page.locator('button[aria-expanded]').filter({ hasText: 'full transcript and translation' }).first();
   await reveal.focus();
   await page.keyboard.press('Enter');
   await expect(reveal).toHaveAttribute('aria-expanded', 'true');
