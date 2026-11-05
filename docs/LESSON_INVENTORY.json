@@ -861,6 +861,24 @@
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m02-c02-l07",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c02",
+      "slot": "L07",
+      "title": "Write T/N/H hiragana and classroom labels",
+      "content": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+      "url": "/learn/start/module-02/chapter-02/lesson-07/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L07",
+      "noindex": false,
+      "ownerSlot": ":45",
+      "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

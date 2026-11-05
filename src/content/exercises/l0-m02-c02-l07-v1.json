@@ -1,0 +1,634 @@
+{
+  "id": "l0-m02-c02-l07",
+  "lessonId": "l0-m02-c02-l07",
+  "version": 1,
+  "status": "published",
+  "source": "Original T/N/H kana and label production",
+  "scoring": {
+    "mode": "constrained-written",
+    "maxWrittenScore": 20,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c02-l07-01",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-ta"
+      ],
+      "prompt": "Type ta in hiragana.",
+      "answer": "た",
+      "feedback": "The model is た.",
+      "explanation": "ta is written た; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "た"
+      },
+      "answerKey": {
+        "accepted": [
+          "た"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-02",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-chi"
+      ],
+      "prompt": "Type chi in hiragana.",
+      "answer": "ち",
+      "feedback": "The model is ち.",
+      "explanation": "chi is written ち; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ち"
+      },
+      "answerKey": {
+        "accepted": [
+          "ち"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-03",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-tsu"
+      ],
+      "prompt": "Type tsu in hiragana.",
+      "answer": "つ",
+      "feedback": "The model is つ.",
+      "explanation": "tsu is written つ; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "つ"
+      },
+      "answerKey": {
+        "accepted": [
+          "つ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-04",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-te"
+      ],
+      "prompt": "Type te in hiragana.",
+      "answer": "て",
+      "feedback": "The model is て.",
+      "explanation": "te is written て; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "て"
+      },
+      "answerKey": {
+        "accepted": [
+          "て"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-05",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-to"
+      ],
+      "prompt": "Type to in hiragana.",
+      "answer": "と",
+      "feedback": "The model is と.",
+      "explanation": "to is written と; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "と"
+      },
+      "answerKey": {
+        "accepted": [
+          "と"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-06",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-na"
+      ],
+      "prompt": "Type na in hiragana.",
+      "answer": "な",
+      "feedback": "The model is な.",
+      "explanation": "na is written な; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "な"
+      },
+      "answerKey": {
+        "accepted": [
+          "な"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-07",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-ni"
+      ],
+      "prompt": "Type ni in hiragana.",
+      "answer": "に",
+      "feedback": "The model is に.",
+      "explanation": "ni is written に; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "に"
+      },
+      "answerKey": {
+        "accepted": [
+          "に"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-08",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-nu"
+      ],
+      "prompt": "Type nu in hiragana.",
+      "answer": "ぬ",
+      "feedback": "The model is ぬ.",
+      "explanation": "nu is written ぬ; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ぬ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ぬ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-09",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-ne"
+      ],
+      "prompt": "Type ne in hiragana.",
+      "answer": "ね",
+      "feedback": "The model is ね.",
+      "explanation": "ne is written ね; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ね"
+      },
+      "answerKey": {
+        "accepted": [
+          "ね"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-10",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-no"
+      ],
+      "prompt": "Type no in hiragana.",
+      "answer": "の",
+      "feedback": "The model is の.",
+      "explanation": "no is written の; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "の"
+      },
+      "answerKey": {
+        "accepted": [
+          "の"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-11",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-ha"
+      ],
+      "prompt": "Type ha in hiragana.",
+      "answer": "は",
+      "feedback": "The model is は.",
+      "explanation": "ha is written は; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "は"
+      },
+      "answerKey": {
+        "accepted": [
+          "は"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-12",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-hi"
+      ],
+      "prompt": "Type hi in hiragana.",
+      "answer": "ひ",
+      "feedback": "The model is ひ.",
+      "explanation": "hi is written ひ; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ひ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ひ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-13",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-fu"
+      ],
+      "prompt": "Type fu in hiragana.",
+      "answer": "ふ",
+      "feedback": "The model is ふ.",
+      "explanation": "fu is written ふ; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ふ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ふ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-14",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-he"
+      ],
+      "prompt": "Type he in hiragana.",
+      "answer": "へ",
+      "feedback": "The model is へ.",
+      "explanation": "he is written へ; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "へ"
+      },
+      "answerKey": {
+        "accepted": [
+          "へ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-15",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-kana-ho"
+      ],
+      "prompt": "Type ho in hiragana.",
+      "answer": "ほ",
+      "feedback": "The model is ほ.",
+      "explanation": "ho is written ほ; Latin letters do not count.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ほ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ほ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-16",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-word-summer"
+      ],
+      "prompt": "Write summer as a classroom label in hiragana.",
+      "answer": "なつ",
+      "feedback": "The model is なつ.",
+      "explanation": "The complete classroom label is なつ; check each kana in order.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "なつ"
+      },
+      "answerKey": {
+        "accepted": [
+          "なつ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-17",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-word-boat"
+      ],
+      "prompt": "Write boat as a classroom label in hiragana.",
+      "answer": "ふね",
+      "feedback": "The model is ふね.",
+      "explanation": "The complete classroom label is ふね; check each kana in order.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ふね"
+      },
+      "answerKey": {
+        "accepted": [
+          "ふね"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-18",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-word-star"
+      ],
+      "prompt": "Write star as a classroom label in hiragana.",
+      "answer": "ほし",
+      "feedback": "The model is ほし.",
+      "explanation": "The complete classroom label is ほし; check each kana in order.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ほし"
+      },
+      "answerKey": {
+        "accepted": [
+          "ほし"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-19",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-word-cat"
+      ],
+      "prompt": "Write cat as a classroom label in hiragana.",
+      "answer": "ねこ",
+      "feedback": "The model is ねこ.",
+      "explanation": "The complete classroom label is ねこ; check each kana in order.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ねこ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ねこ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l07-20",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "skills": [
+        "written"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l07-word-person"
+      ],
+      "prompt": "Write person as a classroom label in hiragana.",
+      "answer": "ひと",
+      "feedback": "The model is ひと.",
+      "explanation": "The complete classroom label is ひと; check each kana in order.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-writing.mdx",
+        "phrase": "ひと"
+      },
+      "answerKey": {
+        "accepted": [
+          "ひと"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    }
+  ]
+}
