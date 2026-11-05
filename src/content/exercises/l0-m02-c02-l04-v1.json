@@ -1,0 +1,719 @@
+{
+  "id": "l0-m02-c02-l04",
+  "lessonId": "l0-m02-c02-l04",
+  "version": 1,
+  "status": "published",
+  "source": "Original T/N/H form workshop",
+  "scoring": {
+    "mode": "mixed-written",
+    "maxWrittenScore": 20,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c02-l04-01",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for ta.",
+      "answer": "た",
+      "feedback": "た is ta.",
+      "explanation": "The Japanese character for ta is た; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "た"
+      },
+      "answerKey": {
+        "accepted": [
+          "た"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-02",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for chi.",
+      "answer": "ち",
+      "feedback": "ち is chi.",
+      "explanation": "The Japanese character for chi is ち; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ち"
+      },
+      "answerKey": {
+        "accepted": [
+          "ち"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-03",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for tsu.",
+      "answer": "つ",
+      "feedback": "つ is tsu.",
+      "explanation": "The Japanese character for tsu is つ; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "つ"
+      },
+      "answerKey": {
+        "accepted": [
+          "つ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-04",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for te.",
+      "answer": "て",
+      "feedback": "て is te.",
+      "explanation": "The Japanese character for te is て; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "て"
+      },
+      "answerKey": {
+        "accepted": [
+          "て"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-05",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for to.",
+      "answer": "と",
+      "feedback": "と is to.",
+      "explanation": "The Japanese character for to is と; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "と"
+      },
+      "answerKey": {
+        "accepted": [
+          "と"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-06",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for na.",
+      "answer": "な",
+      "feedback": "な is na.",
+      "explanation": "The Japanese character for na is な; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "な"
+      },
+      "answerKey": {
+        "accepted": [
+          "な"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-07",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for ni.",
+      "answer": "に",
+      "feedback": "に is ni.",
+      "explanation": "The Japanese character for ni is に; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "に"
+      },
+      "answerKey": {
+        "accepted": [
+          "に"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-08",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for nu.",
+      "answer": "ぬ",
+      "feedback": "ぬ is nu.",
+      "explanation": "The Japanese character for nu is ぬ; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ぬ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ぬ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-09",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for ne.",
+      "answer": "ね",
+      "feedback": "ね is ne.",
+      "explanation": "The Japanese character for ne is ね; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ね"
+      },
+      "answerKey": {
+        "accepted": [
+          "ね"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-10",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for no.",
+      "answer": "の",
+      "feedback": "の is no.",
+      "explanation": "The Japanese character for no is の; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "の"
+      },
+      "answerKey": {
+        "accepted": [
+          "の"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-11",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for ha.",
+      "answer": "は",
+      "feedback": "は is ha.",
+      "explanation": "The Japanese character for ha is は; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "は"
+      },
+      "answerKey": {
+        "accepted": [
+          "は"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-12",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for hi.",
+      "answer": "ひ",
+      "feedback": "ひ is hi.",
+      "explanation": "The Japanese character for hi is ひ; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ひ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ひ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-13",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for fu.",
+      "answer": "ふ",
+      "feedback": "ふ is fu.",
+      "explanation": "The Japanese character for fu is ふ; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ふ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ふ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-14",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for he.",
+      "answer": "へ",
+      "feedback": "へ is he.",
+      "explanation": "The Japanese character for he is へ; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "へ"
+      },
+      "answerKey": {
+        "accepted": [
+          "へ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-15",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Type the Japanese hiragana for ho.",
+      "answer": "ほ",
+      "feedback": "ほ is ho.",
+      "explanation": "The Japanese character for ho is ほ; Latin keyboard letters are not the answer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ほ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ほ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-16",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Which printed hiragana is ho?",
+      "options": [
+        "ほ",
+        "は"
+      ],
+      "correctIndex": 0,
+      "feedback": "ほ has an extra short horizontal line on the right.",
+      "explanation": "ほ has an extra short horizontal line on the right.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ほ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l04-16-c1",
+          "text": "ほ",
+          "rationale": "ほ has an extra short horizontal line on the right."
+        },
+        {
+          "id": "ex-l0-m02-c02-l04-16-c2",
+          "text": "は",
+          "rationale": "は represents another kana; inspect the full printed shape."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l04-16-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-17",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Which printed hiragana is nu?",
+      "options": [
+        "ね",
+        "ぬ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぬ has a looped lower-right ending; ね has an upright right-side shape.",
+      "explanation": "ぬ has a looped lower-right ending; ね has an upright right-side shape.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ぬ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l04-17-c1",
+          "text": "ね",
+          "rationale": "ね represents another kana; inspect the full printed shape."
+        },
+        {
+          "id": "ex-l0-m02-c02-l04-17-c2",
+          "text": "ぬ",
+          "rationale": "ぬ has a looped lower-right ending; ね has an upright right-side shape."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l04-17-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-18",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Which printed hiragana is ne?",
+      "options": [
+        "ね",
+        "ぬ"
+      ],
+      "correctIndex": 0,
+      "feedback": "ね has a more upright right-side ending than ぬ.",
+      "explanation": "ね has a more upright right-side ending than ぬ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ね"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l04-18-c1",
+          "text": "ね",
+          "rationale": "ね has a more upright right-side ending than ぬ."
+        },
+        {
+          "id": "ex-l0-m02-c02-l04-18-c2",
+          "text": "ぬ",
+          "rationale": "ぬ represents another kana; inspect the full printed shape."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l04-18-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-19",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Which printed hiragana is ta?",
+      "options": [
+        "な",
+        "た"
+      ],
+      "correctIndex": 1,
+      "feedback": "The right-hand strokes distinguish た from な.",
+      "explanation": "The right-hand strokes distinguish た from な.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "た"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l04-19-c1",
+          "text": "な",
+          "rationale": "な represents another kana; inspect the full printed shape."
+        },
+        {
+          "id": "ex-l0-m02-c02-l04-19-c2",
+          "text": "た",
+          "rationale": "The right-hand strokes distinguish た from な."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l04-19-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l04-20",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l04-kana"
+      ],
+      "prompt": "Which printed hiragana is fu?",
+      "options": [
+        "ふ",
+        "ほ"
+      ],
+      "correctIndex": 0,
+      "feedback": "ふ and ほ are different H-row forms.",
+      "explanation": "ふ and ほ are different H-row forms.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-script-practice.mdx",
+        "phrase": "ふ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l04-20-c1",
+          "text": "ふ",
+          "rationale": "ふ and ほ are different H-row forms."
+        },
+        {
+          "id": "ex-l0-m02-c02-l04-20-c2",
+          "text": "ほ",
+          "rationale": "ほ represents another kana; inspect the full printed shape."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l04-20-c1"
+      }
+    }
+  ]
+}
