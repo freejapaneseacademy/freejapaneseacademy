@@ -36,7 +36,10 @@
         "phrase": "た"
       },
       "answerKey": {
-        "text": "た"
+        "accepted": [
+          "た"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -65,7 +68,10 @@
         "phrase": "ち"
       },
       "answerKey": {
-        "text": "ち"
+        "accepted": [
+          "ち"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -94,7 +100,10 @@
         "phrase": "つ"
       },
       "answerKey": {
-        "text": "つ"
+        "accepted": [
+          "つ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -123,7 +132,10 @@
         "phrase": "て"
       },
       "answerKey": {
-        "text": "て"
+        "accepted": [
+          "て"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -152,7 +164,10 @@
         "phrase": "と"
       },
       "answerKey": {
-        "text": "と"
+        "accepted": [
+          "と"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -181,7 +196,10 @@
         "phrase": "な"
       },
       "answerKey": {
-        "text": "な"
+        "accepted": [
+          "な"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -210,7 +228,10 @@
         "phrase": "に"
       },
       "answerKey": {
-        "text": "に"
+        "accepted": [
+          "に"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -239,7 +260,10 @@
         "phrase": "ぬ"
       },
       "answerKey": {
-        "text": "ぬ"
+        "accepted": [
+          "ぬ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -268,7 +292,10 @@
         "phrase": "ね"
       },
       "answerKey": {
-        "text": "ね"
+        "accepted": [
+          "ね"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -297,7 +324,10 @@
         "phrase": "の"
       },
       "answerKey": {
-        "text": "の"
+        "accepted": [
+          "の"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -326,7 +356,10 @@
         "phrase": "は"
       },
       "answerKey": {
-        "text": "は"
+        "accepted": [
+          "は"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -355,7 +388,10 @@
         "phrase": "ひ"
       },
       "answerKey": {
-        "text": "ひ"
+        "accepted": [
+          "ひ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -384,7 +420,10 @@
         "phrase": "ふ"
       },
       "answerKey": {
-        "text": "ふ"
+        "accepted": [
+          "ふ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -413,7 +452,10 @@
         "phrase": "へ"
       },
       "answerKey": {
-        "text": "へ"
+        "accepted": [
+          "へ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
@@ -442,7 +484,10 @@
         "phrase": "ほ"
       },
       "answerKey": {
-        "text": "ほ"
+        "accepted": [
+          "ほ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
