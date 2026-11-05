@@ -12,6 +12,9 @@ test('Chapter 03 listening has playable original tracks, six questions and hidde
   await expect(page.locator('fieldset[data-question-id]')).toHaveCount(6);
   await expect(page.getByText('Japanese transcript', { exact: true })).toHaveCount(0);
   await expect(page.getByRole('button', { name: /Check answers & save blind score/ })).toBeDisabled();
+  // Astro renders the button before React hydration; wait for an interactive island
+  // so the click cannot be lost during initial hydration.
+  await expect(page.locator('fieldset[data-question-id]').first().locator('input[type=radio]').first()).toBeEnabled();
   await page.getByRole('button', { name: /Reveal transcript/ }).first().click();
   await expect(page.getByText('Japanese transcript', { exact: true })).toBeVisible();
   await expect(page.getByText(/Assisted practice: you revealed written support/)).toBeVisible();
