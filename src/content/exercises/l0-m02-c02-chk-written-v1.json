@@ -1,0 +1,613 @@
+{
+  "id": "l0-m02-c02-chk",
+  "version": 1,
+  "status": "published",
+  "source": "Original T/N/H written and label checkpoint",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c02-chk-w01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-1"
+      ],
+      "prompt": "Which row contains the T hiragana?",
+      "options": [
+        "た ち つ て と",
+        "な に ぬ ね の",
+        "は ひ ふ へ ほ"
+      ],
+      "correctIndex": 0,
+      "feedback": "The correct answer is た ち つ て と. See た ち つ て と in the taught row or printed card.",
+      "explanation": "The correct answer is た ち つ て と. See た ち つ て と in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "た ち つ て と"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w01-c1",
+          "text": "た ち つ て と",
+          "rationale": "The correct answer is た ち つ て と. See た ち つ て と in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w01-c2",
+          "text": "な に ぬ ね の",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w01-c3",
+          "text": "は ひ ふ へ ほ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-2"
+      ],
+      "prompt": "Which kana is read chi?",
+      "options": [
+        "つ",
+        "ち",
+        "て"
+      ],
+      "correctIndex": 1,
+      "feedback": "The correct answer is ち. See ち in the taught row or printed card.",
+      "explanation": "The correct answer is ち. See ち in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "ち"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w02-c1",
+          "text": "つ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w02-c2",
+          "text": "ち",
+          "rationale": "The correct answer is ち. See ち in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w02-c3",
+          "text": "て",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-3"
+      ],
+      "prompt": "Which kana is read tsu?",
+      "options": [
+        "と",
+        "た",
+        "つ"
+      ],
+      "correctIndex": 2,
+      "feedback": "The correct answer is つ. See つ in the taught row or printed card.",
+      "explanation": "The correct answer is つ. See つ in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "つ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w03-c1",
+          "text": "と",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w03-c2",
+          "text": "た",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w03-c3",
+          "text": "つ",
+          "rationale": "The correct answer is つ. See つ in the taught row or printed card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-4"
+      ],
+      "prompt": "Which kana is read fu?",
+      "options": [
+        "ふ",
+        "ほ",
+        "へ"
+      ],
+      "correctIndex": 0,
+      "feedback": "The correct answer is ふ. See ふ in the taught row or printed card.",
+      "explanation": "The correct answer is ふ. See ふ in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "ふ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w04-c1",
+          "text": "ふ",
+          "rationale": "The correct answer is ふ. See ふ in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w04-c2",
+          "text": "ほ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w04-c3",
+          "text": "へ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-5"
+      ],
+      "prompt": "Which row contains the N hiragana?",
+      "options": [
+        "は ひ ふ へ ほ",
+        "な に ぬ ね の",
+        "た ち つ て と"
+      ],
+      "correctIndex": 1,
+      "feedback": "The correct answer is な に ぬ ね の. See な に ぬ ね の in the taught row or printed card.",
+      "explanation": "The correct answer is な に ぬ ね の. See な に ぬ ね の in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "な に ぬ ね の"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w05-c1",
+          "text": "は ひ ふ へ ほ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w05-c2",
+          "text": "な に ぬ ね の",
+          "rationale": "The correct answer is な に ぬ ね の. See な に ぬ ね の in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w05-c3",
+          "text": "た ち つ て と",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-6"
+      ],
+      "prompt": "Which row contains the H hiragana?",
+      "options": [
+        "な に ぬ ね の",
+        "た ち つ て と",
+        "は ひ ふ へ ほ"
+      ],
+      "correctIndex": 2,
+      "feedback": "The correct answer is は ひ ふ へ ほ. See は ひ ふ へ ほ in the taught row or printed card.",
+      "explanation": "The correct answer is は ひ ふ へ ほ. See は ひ ふ へ ほ in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "は ひ ふ へ ほ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w06-c1",
+          "text": "な に ぬ ね の",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w06-c2",
+          "text": "た ち つ て と",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w06-c3",
+          "text": "は ひ ふ へ ほ",
+          "rationale": "The correct answer is は ひ ふ へ ほ. See は ひ ふ へ ほ in the taught row or printed card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w06-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-7"
+      ],
+      "prompt": "Which kana means the sound nu, not ne?",
+      "options": [
+        "ぬ",
+        "ね",
+        "の"
+      ],
+      "correctIndex": 0,
+      "feedback": "The correct answer is ぬ. See ぬ in the taught row or printed card.",
+      "explanation": "The correct answer is ぬ. See ぬ in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "ぬ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w07-c1",
+          "text": "ぬ",
+          "rationale": "The correct answer is ぬ. See ぬ in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w07-c2",
+          "text": "ね",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w07-c3",
+          "text": "の",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "kana"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-8"
+      ],
+      "prompt": "Which kana means the sound ho, not ha?",
+      "options": [
+        "は",
+        "ほ",
+        "ひ"
+      ],
+      "correctIndex": 1,
+      "feedback": "The correct answer is ほ. See ほ in the taught row or printed card.",
+      "explanation": "The correct answer is ほ. See ほ in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "ほ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w08-c1",
+          "text": "は",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w08-c2",
+          "text": "ほ",
+          "rationale": "The correct answer is ほ. See ほ in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w08-c3",
+          "text": "ひ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-9"
+      ],
+      "prompt": "What does CARD A: ぼうし mean?",
+      "options": [
+        "Boat",
+        "Star",
+        "Hat"
+      ],
+      "correctIndex": 2,
+      "feedback": "The correct answer is Hat. See ぼうし in the taught row or printed card.",
+      "explanation": "The correct answer is Hat. See ぼうし in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "ぼうし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w09-c1",
+          "text": "Boat",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w09-c2",
+          "text": "Star",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w09-c3",
+          "text": "Hat",
+          "rationale": "The correct answer is Hat. See ぼうし in the taught row or printed card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w09-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-10"
+      ],
+      "prompt": "Which printed card means boat?",
+      "options": [
+        "CARD B: ふね",
+        "CARD C: なつ",
+        "CARD D: ほし"
+      ],
+      "correctIndex": 0,
+      "feedback": "The correct answer is CARD B: ふね. See ふね in the taught row or printed card.",
+      "explanation": "The correct answer is CARD B: ふね. See ふね in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "ふね"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w10-c1",
+          "text": "CARD B: ふね",
+          "rationale": "The correct answer is CARD B: ふね. See ふね in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w10-c2",
+          "text": "CARD C: なつ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w10-c3",
+          "text": "CARD D: ほし",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w10-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w11",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-11"
+      ],
+      "prompt": "Which card means summer?",
+      "options": [
+        "CARD D: ほし",
+        "CARD C: なつ",
+        "CARD A: ぼうし"
+      ],
+      "correctIndex": 1,
+      "feedback": "The correct answer is CARD C: なつ. See なつ in the taught row or printed card.",
+      "explanation": "The correct answer is CARD C: なつ. See なつ in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "なつ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w11-c1",
+          "text": "CARD D: ほし",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w11-c2",
+          "text": "CARD C: なつ",
+          "rationale": "The correct answer is CARD C: なつ. See なつ in the taught row or printed card."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w11-c3",
+          "text": "CARD A: ぼうし",
+          "rationale": "This is not the correct row, character, or card meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w11-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-chk-w12",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-chk-item-12"
+      ],
+      "prompt": "Which printed word means star?",
+      "options": [
+        "なつ",
+        "ふね",
+        "ほし"
+      ],
+      "correctIndex": 2,
+      "feedback": "The correct answer is ほし. See ほし in the taught row or printed card.",
+      "explanation": "The correct answer is ほし. See ほし in the taught row or printed card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+        "phrase": "ほし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-chk-w12-c1",
+          "text": "なつ",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w12-c2",
+          "text": "ふね",
+          "rationale": "This is not the correct row, character, or card meaning."
+        },
+        {
+          "id": "ex-l0-m02-c02-chk-w12-c3",
+          "text": "ほし",
+          "rationale": "The correct answer is ほし. See ほし in the taught row or printed card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-chk-w12-c3"
+      }
+    }
+  ]
+}

@@ -897,6 +897,24 @@
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m02-c02-chk",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c02",
+      "slot": "CHK",
+      "title": "T/N/H hiragana — mixed chapter checkpoint",
+      "content": "src/content/lessons/l0/hiragana-tnh-checkpoint.mdx",
+      "url": "/learn/start/module-02/chapter-02/checkpoint/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "Two unchanged licensed L06 AivisSpeech WAVs; manifest SHA-256 and attribution preserved",
+      "noindex": false,
+      "ownerSlot": ":45",
+      "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
