@@ -1,0 +1,422 @@
+{
+  "id": "l0-m02-c02-l03",
+  "lessonId": "l0-m02-c02-l03",
+  "version": 1,
+  "status": "published",
+  "source": "Original Ren/Aki T/N/H sound-key lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c02-l03-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "What is the conventional reading aid for ち?",
+      "options": [
+        "ti",
+        "chi",
+        "shi"
+      ],
+      "correctIndex": 1,
+      "feedback": "ち is conventionally romanized chi in this course; the T-row position does not force ti.",
+      "explanation": "ち is conventionally romanized chi in this course; the T-row position does not force ti.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "ち"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-01-c1",
+          "text": "ti",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-01-c2",
+          "text": "chi",
+          "rationale": "ち is conventionally romanized chi in this course; the T-row position does not force ti."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-01-c3",
+          "text": "shi",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-01-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l03-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "Which single kana is conventionally read tsu?",
+      "options": [
+        "て",
+        "ち",
+        "つ"
+      ],
+      "correctIndex": 2,
+      "feedback": "つ is tsu; ち is chi and て is te.",
+      "explanation": "つ is tsu; ち is chi and て is te.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "つ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-02-c1",
+          "text": "て",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-02-c2",
+          "text": "ち",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-02-c3",
+          "text": "つ",
+          "rationale": "つ is tsu; ち is chi and て is te."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-02-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l03-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "What is the conventional reading aid for ふ?",
+      "options": [
+        "hu",
+        "fu",
+        "ho"
+      ],
+      "correctIndex": 1,
+      "feedback": "ふ is conventionally fu; hu may be an IME input sequence but is not our reading aid.",
+      "explanation": "ふ is conventionally fu; hu may be an IME input sequence but is not our reading aid.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "ふ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-03-c1",
+          "text": "hu",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-03-c2",
+          "text": "fu",
+          "rationale": "ふ is conventionally fu; hu may be an IME input sequence but is not our reading aid."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-03-c3",
+          "text": "ho",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l03-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "Which is the reading of なつ?",
+      "options": [
+        "natu",
+        "natsu",
+        "nachi"
+      ],
+      "correctIndex": 1,
+      "feedback": "な is na and つ is tsu: natsu means summer.",
+      "explanation": "な is na and つ is tsu: natsu means summer.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "なつ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-04-c1",
+          "text": "natu",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-04-c2",
+          "text": "natsu",
+          "rationale": "な is na and つ is tsu: natsu means summer."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-04-c3",
+          "text": "nachi",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l03-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "Which written word is fune (boat)?",
+      "options": [
+        "ほね",
+        "ふね",
+        "ふぬ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ふね is fu-ne, boat; changing a kana changes the word.",
+      "explanation": "ふね is fu-ne, boat; changing a kana changes the word.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "ふね"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-05-c1",
+          "text": "ほね",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-05-c2",
+          "text": "ふね",
+          "rationale": "ふね is fu-ne, boat; changing a kana changes the word."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-05-c3",
+          "text": "ふぬ",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l03-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "Which character has an extra short horizontal stroke on the right compared with は?",
+      "options": [
+        "は",
+        "ほ",
+        "ひ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ほ (ho) has the extra horizontal stroke compared with は (ha).",
+      "explanation": "ほ (ho) has the extra horizontal stroke compared with は (ha).",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "ほ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-06-c1",
+          "text": "は",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-06-c2",
+          "text": "ほ",
+          "rationale": "ほ (ho) has the extra horizontal stroke compared with は (ha)."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-06-c3",
+          "text": "ひ",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l03-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "Which pair requires checking the different right-side endings?",
+      "options": [
+        "ぬ and ね",
+        "つ and と",
+        "て and ひ"
+      ],
+      "correctIndex": 0,
+      "feedback": "ぬ (nu) and ね (ne) share a similar beginning but have different right-side shapes.",
+      "explanation": "ぬ (nu) and ね (ne) share a similar beginning but have different right-side shapes.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "ぬ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-07-c1",
+          "text": "ぬ and ね",
+          "rationale": "ぬ (nu) and ね (ne) share a similar beginning but have different right-side shapes."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-07-c2",
+          "text": "つ and と",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-07-c3",
+          "text": "て and ひ",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l03-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l03-sound-keys"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l03-kana"
+      ],
+      "prompt": "Why is it misleading to say つ by itself means moon?",
+      "options": [
+        "Every T-row kana means moon",
+        "The full word つき means moon",
+        "つ is always a particle"
+      ],
+      "correctIndex": 1,
+      "feedback": "つ is a kana representing a sound unit; つき is the complete word meaning moon.",
+      "explanation": "つ is a kana representing a sound unit; つき is the complete word meaning moon.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-sound-exceptions.mdx",
+        "phrase": "つき"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l03-08-c1",
+          "text": "Every T-row kana means moon",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-08-c2",
+          "text": "The full word つき means moon",
+          "rationale": "つ is a kana representing a sound unit; つき is the complete word meaning moon."
+        },
+        {
+          "id": "ex-l0-m02-c02-l03-08-c3",
+          "text": "つ is always a particle",
+          "rationale": "This choice conflicts with the printed kana or reading cue explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l03-08-c2"
+      }
+    }
+  ]
+}
