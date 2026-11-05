@@ -767,6 +767,24 @@
       "ownerApproval": "2026-11-05: automatic publication preauthorized, conditional on exact-head CI and production verification"
     },
     {
+      "id": "l0-m02-c02-l02",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c02",
+      "slot": "L02",
+      "title": "T/N/H hiragana in useful words — classroom word cards",
+      "content": "src/content/lessons/l0/hiragana-tnh-vocabulary.mdx",
+      "url": "/learn/start/module-02/chapter-02/lesson-02/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for L02 written vocabulary and word study",
+      "noindex": false,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
       "id": "n5-hiragana-demo",
       "status": "demonstration-only",
       "content": "src/content/lessons/n5/hiragana-introduction.mdx",

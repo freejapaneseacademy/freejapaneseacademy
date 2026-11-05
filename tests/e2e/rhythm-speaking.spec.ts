@@ -28,8 +28,14 @@ test('L08 works at 320px with keyboard navigation and no horizontal page overflo
   await page.setViewportSize({ width: 320, height: 700 });
   await page.goto(route);
   await expect(page.getByRole('heading', { name: 'Speak the rhythm in real Japanese conversations' })).toBeVisible();
-  await page.getByRole('button', { name: 'Show full transcript and translation' }).first().focus();
+  // The static Astro HTML can show the button before React hydration attaches handlers.
+  // Wait for the island's own hydrated signal, then verify the keyboard activation.
+  await expect(page.getByRole('button', { name: 'Play track A turn 1' })).toBeEnabled();
+  // Keep a stable locator: the button's accessible name changes from Show to Hide on activation.
+  const reveal = page.locator('button[aria-expanded]').filter({ hasText: 'full transcript and translation' }).first();
+  await reveal.focus();
   await page.keyboard.press('Enter');
+  await expect(reveal).toHaveAttribute('aria-expanded', 'true');
   await expect(page.getByRole('heading', { name: 'Japanese', exact: true }).first()).toBeVisible();
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 2);
   expect(overflow).toBe(false);
