@@ -140,7 +140,7 @@
       "explanation": "ん is a mora of its own.",
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-myrw-grammar.mdx",
-        "phrase": "ん"
+        "phrase": "ほん"
       },
       "choices": [
         {
@@ -497,7 +497,7 @@
       "explanation": "Modern standard Japanese generally reads particle を as o, but its spelling and function differ from お.",
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-myrw-grammar.mdx",
-        "phrase": "を"
+        "phrase": "ほんをよむ。"
       },
       "choices": [
         {
