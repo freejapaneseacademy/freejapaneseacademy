@@ -1,0 +1,3 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../../src/content/exercises/l0-m02-c02-l04-v1.json';
+describe('T/N/H kana form workshop',()=>{it('has 15 unique typed kana and five keyed visual contrasts',()=>{expect(bank.items).toHaveLength(20);expect(new Set(bank.items.map(q=>q.id)).size).toBe(20);const typed=bank.items.filter(q=>q.type==='short-input');expect(typed).toHaveLength(15);expect(new Set(typed.map(q=>q.answer)).size).toBe(15);for(const q of bank.items){expect(q.explanation.length).toBeGreaterThan(20);expect(q.evidence.phrase.length).toBeGreaterThan(0);if(q.type==='single-choice'){expect(q.answerKey.choiceId).toBe(q.choices[q.correctIndex].id);expect(q.options[q.correctIndex]).toBe(q.evidence.phrase)}}})});
