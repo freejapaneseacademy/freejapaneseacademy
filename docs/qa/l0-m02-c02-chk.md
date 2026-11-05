@@ -1,0 +1,3 @@
+# L0-M02-C02-CHK QA — 2026-11-05
+
+Owner slot :45, task 6ae7c2b298788191b8bbfc80472fac52. Twelve written/reading and four audio-meaning questions; stable IDs, answer rationales, source evidence. T/N/H rows and exceptions ち, つ, ふ, confusables ぬ/ね, は/ほ and four original printed labels. Unchanged licensed L06 AivisSpeech WAVs, SHA-256 and attribution in source manifest. Blind and transcript-assisted scores separated; written scores separate; ungraded optional writing. Independent qualified Japanese, waveform listening and assessment reviews pending. CI and production deployment must be independently verified; this note is not proof of test success.
