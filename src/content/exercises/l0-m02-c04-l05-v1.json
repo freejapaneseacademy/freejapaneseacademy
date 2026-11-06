@@ -1,0 +1,524 @@
+{
+  "id": "l0-m02-c04-l05",
+  "lessonId": "l0-m02-c04-l05",
+  "version": 1,
+  "status": "published",
+  "source": "Original classroom word-card display and three written instructions",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c04-l05-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which card is the cat?",
+      "options": [
+        "A — ねこ",
+        "B — いぬ",
+        "F — はな"
+      ],
+      "correctIndex": 0,
+      "feedback": "The row A label ねこ means cat.",
+      "explanation": "The row A label ねこ means cat.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "ねこ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-01-c1",
+          "text": "A — ねこ",
+          "rationale": "The row A label ねこ means cat."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-01-c2",
+          "text": "B — いぬ",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-01-c3",
+          "text": "F — はな",
+          "rationale": "The printed card or instruction does not support this option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which label is on card C?",
+      "options": [
+        "かわ",
+        "くるま",
+        "やま"
+      ],
+      "correctIndex": 1,
+      "feedback": "Card C prints くるま, the word for car.",
+      "explanation": "Card C prints くるま, the word for car.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "くるま"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-02-c1",
+          "text": "かわ",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-02-c2",
+          "text": "くるま",
+          "rationale": "Card C prints くるま, the word for car."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-02-c3",
+          "text": "やま",
+          "rationale": "The printed card or instruction does not support this option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which card shows the river?",
+      "options": [
+        "G — そら",
+        "D — やま",
+        "H — かわ"
+      ],
+      "correctIndex": 2,
+      "feedback": "The river drawing is paired with H: かわ.",
+      "explanation": "The river drawing is paired with H: かわ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "かわ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-03-c1",
+          "text": "G — そら",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-03-c2",
+          "text": "D — やま",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-03-c3",
+          "text": "H — かわ",
+          "rationale": "The river drawing is paired with H: かわ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which word means book?",
+      "options": [
+        "はな",
+        "ほん",
+        "そら"
+      ],
+      "correctIndex": 1,
+      "feedback": "The card E label ほん means book.",
+      "explanation": "The card E label ほん means book.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "ほん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-04-c1",
+          "text": "はな",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-04-c2",
+          "text": "ほん",
+          "rationale": "The card E label ほん means book."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-04-c3",
+          "text": "そら",
+          "rationale": "The printed card or instruction does not support this option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which label is on card G?",
+      "options": [
+        "そら",
+        "ねこ",
+        "かわ"
+      ],
+      "correctIndex": 0,
+      "feedback": "Card G prints そら, sky.",
+      "explanation": "Card G prints そら, sky.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "そら"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-05-c1",
+          "text": "そら",
+          "rationale": "Card G prints そら, sky."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-05-c2",
+          "text": "ねこ",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-05-c3",
+          "text": "かわ",
+          "rationale": "The printed card or instruction does not support this option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which card shows a mountain?",
+      "options": [
+        "C — くるま",
+        "D — やま",
+        "E — ほん"
+      ],
+      "correctIndex": 1,
+      "feedback": "The mountain is on card D, labelled やま.",
+      "explanation": "The mountain is on card D, labelled やま.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "やま"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-06-c1",
+          "text": "C — くるま",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-06-c2",
+          "text": "D — やま",
+          "rationale": "The mountain is on card D, labelled やま."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-06-c3",
+          "text": "E — ほん",
+          "rationale": "The printed card or instruction does not support this option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which printed direction asks you to look at the book?",
+      "options": [
+        "Aのねこをみてください。",
+        "Hのかわをみてください。",
+        "Eのほんをみてください。"
+      ],
+      "correctIndex": 2,
+      "feedback": "The book instruction explicitly says Eのほんをみてください。",
+      "explanation": "The book instruction explicitly says Eのほんをみてください。",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "Eのほんをみてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-07-c1",
+          "text": "Aのねこをみてください。",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-07-c2",
+          "text": "Hのかわをみてください。",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-07-c3",
+          "text": "Eのほんをみてください。",
+          "rationale": "The book instruction explicitly says Eのほんをみてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-07-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "What is the object in Aのねこをみてください。?",
+      "options": [
+        "ねこ",
+        "を",
+        "みてください"
+      ],
+      "correctIndex": 0,
+      "feedback": "The object noun is ねこ (cat); を marks that object.",
+      "explanation": "The object noun is ねこ (cat); を marks that object.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "Aのねこをみてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-08-c1",
+          "text": "ねこ",
+          "rationale": "The object noun is ねこ (cat); を marks that object."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-08-c2",
+          "text": "を",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-08-c3",
+          "text": "みてください",
+          "rationale": "The printed card or instruction does not support this option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "Which instruction refers to card H?",
+      "options": [
+        "Hのかわをみてください。",
+        "Eのほんをみてください。",
+        "Aのねこをみてください。"
+      ],
+      "correctIndex": 0,
+      "feedback": "The H instruction names かわ (river).",
+      "explanation": "The H instruction names かわ (river).",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "Hのかわをみてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-09-c1",
+          "text": "Hのかわをみてください。",
+          "rationale": "The H instruction names かわ (river)."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-09-c2",
+          "text": "Eのほんをみてください。",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-09-c3",
+          "text": "Aのねこをみてください。",
+          "rationale": "The printed card or instruction does not support this option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-09-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l05-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l05-word-cards"
+      ],
+      "prompt": "In くるま, which kana appears in the middle?",
+      "options": [
+        "ろ",
+        "れ",
+        "る"
+      ],
+      "correctIndex": 2,
+      "feedback": "The complete printed word くるま has る in the middle.",
+      "explanation": "The complete printed word くるま has る in the middle.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-reading.mdx",
+        "phrase": "くるま"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l05-10-c1",
+          "text": "ろ",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-10-c2",
+          "text": "れ",
+          "rationale": "The printed card or instruction does not support this option."
+        },
+        {
+          "id": "ex-l0-m02-c04-l05-10-c3",
+          "text": "る",
+          "rationale": "The complete printed word くるま has る in the middle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l05-10-c3"
+      }
+    }
+  ]
+}
