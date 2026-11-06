@@ -14,7 +14,7 @@
       "id": "ex-l0-m02-c04-l04-01",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -39,14 +39,17 @@
         "phrase": "ねこ"
       },
       "answerKey": {
-        "text": "ねこ"
+        "accepted": [
+          "ねこ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-02",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -71,14 +74,17 @@
         "phrase": "いぬ"
       },
       "answerKey": {
-        "text": "いぬ"
+        "accepted": [
+          "いぬ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-03",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -103,14 +109,17 @@
         "phrase": "くるま"
       },
       "answerKey": {
-        "text": "くるま"
+        "accepted": [
+          "くるま"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-04",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -135,14 +144,17 @@
         "phrase": "やま"
       },
       "answerKey": {
-        "text": "やま"
+        "accepted": [
+          "やま"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-05",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -167,14 +179,17 @@
         "phrase": "ほん"
       },
       "answerKey": {
-        "text": "ほん"
+        "accepted": [
+          "ほん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-06",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -199,14 +214,17 @@
         "phrase": "はな"
       },
       "answerKey": {
-        "text": "はな"
+        "accepted": [
+          "はな"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-07",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -231,14 +249,17 @@
         "phrase": "そら"
       },
       "answerKey": {
-        "text": "そら"
+        "accepted": [
+          "そら"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-08",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -263,14 +284,17 @@
         "phrase": "みみ"
       },
       "answerKey": {
-        "text": "みみ"
+        "accepted": [
+          "みみ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-09",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -295,14 +319,17 @@
         "phrase": "ゆき"
       },
       "answerKey": {
-        "text": "ゆき"
+        "accepted": [
+          "ゆき"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     },
     {
       "id": "ex-l0-m02-c04-l04-10",
       "version": 1,
       "status": "published",
-      "type": "short-answer",
+      "type": "short-input",
       "skill": "written",
       "level": "l0",
       "skills": [
@@ -327,7 +354,10 @@
         "phrase": "かわ"
       },
       "answerKey": {
-        "text": "かわ"
+        "accepted": [
+          "かわ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
       }
     }
   ]
