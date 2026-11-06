@@ -9,7 +9,7 @@
     "redistributionCleared": true,
     "reviewedBy": "Academy automated licensing review of pinned AivisHub ACML 1.0 voice model metadata, 2026-11-05; independent legal and native Japanese pronunciation review pending",
     "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
-    "notes": "Synthetic voices with required AivisSpeech attribution; educational, non-deceptive distribution; no implied endorsement."
+    "notes": "Synthetic voices with required AivisSpeech attribution; educational, non-deceptive distribution; no implied endorsement. Original lesson branch candidate generation; do not publish until verified."
   },
   "voices": {
     "male": {
