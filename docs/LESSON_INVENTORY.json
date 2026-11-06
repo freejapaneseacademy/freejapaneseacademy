@@ -1167,6 +1167,24 @@
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m02-c04-l06",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c04",
+      "slot": "L06",
+      "title": "Listen to two short hiragana word-card passages",
+      "content": "src/content/lessons/l0/hiragana-fluency-listening.mdx",
+      "url": "/learn/start/module-02/chapter-04/lesson-06/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "two original licensed AivisSpeech WAVs; checksum and rights verified in v1 manifest; independent waveform listening review pending",
+      "noindex": false,
+      "ownerSlot": ":45",
+      "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
