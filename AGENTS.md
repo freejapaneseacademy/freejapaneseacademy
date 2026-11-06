@@ -49,3 +49,12 @@ privacy/consent requirements. See `docs/monetization/ADSENSE.md`.
 ## Public contact route and accountable communication
 
 Keep the accessible `/contact/` page linked from the shared footer and mobile navigation; it contains the owner's public mailbox `free-japanese-academy@protonmail.com`, a FormSubmit HTTPS contact form and a direct mailto fallback. Preserve the privacy disclosure and `tests/e2e/contact.spec.ts`. FormSubmit needs a one-time recipient email activation before delivery: do not state delivery works without confirmation. Read `docs/monetization/CONTACT_FORM.md` for details; never send test enquiries automatically.
+
+
+## Foundations course catalog and autonomous publishing (2026-11-06)
+- NEVER append manual lesson cards or standalone sections in src/pages/learn/start/index.astro. It renders all published activity cards in canonical order from docs/LESSON_INVENTORY.json and MDX metadata.
+- Every authored lesson must update its own MDX publicationStatus to published, inventory status to published, noindex to false, and provide its real canonical Astro route. The CI script scripts/validate_foundations_catalog.py rejects duplicates, missing steps, unindexed published lessons and out-of-layout hardcoded cards.
+- The browser regression tests at tests/e2e/foundations-catalog.spec.ts check order, uniqueness, chapter checkpoints, keyboard, dark mode and 320px mobile overflow. Do not skip them.
+- After fully implementing, integrating and committing a lesson to its owner branch, mark its same-repo PR ready even if GitHub Actions is still running. The trusted default-branch Autonomous Lesson Release workflow can finish merging when exact-head PUSH Lesson Quality Gates succeed and all prerequisites are already published. It never merges draft, failing, fork, stale, out-of-order or workflow-modifying PRs. Cloudflare Pages deployment matching the merge SHA is a required success signal.
+- On local git checkout or DNS failure, use the connected GitHub API for Git trees, commits, refs and Actions. A failed shell command does NOT mean the connected GitHub tools are unavailable.
+- A task that has no eligible unclaimed lesson should report a short neutral idle/dependency status, rather than a misleading failed-publication alert. Genuine content, CI, rights and deployment problems are reported accurately and repaired by the owner task; never fabricate success.
