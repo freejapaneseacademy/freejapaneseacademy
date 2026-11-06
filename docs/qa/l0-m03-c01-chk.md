@@ -1,0 +1,3 @@
+# l0-m03-c01-chk QA — owner :30
+
+Blueprint Can-do: read and write voiced and p-series hiragana. Original 12-question bank with stable IDs, rationale and cited Japanese evidence: four script, four reading and four listening. Two unchanged licensed AivisSpeech WAVs from L06; rights, SHA-256, attribution and transcript in l0-m03-c01-l06-v1.json. Independent pronunciation, waveform listening and assessment reviews pending; no fabricated human review. Transcript revelation marks assisted attempts; score and bookmarks remain local; optional speaking is not required. Exact-head CI must validate Astro build, Vitest and Playwright, including keyboard, 320px mobile and dark mode. Foundations index and security workflows untouched.
