@@ -1,0 +1,16 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import HiraganaFluencyShadowing from '../../../../../components/interactive/HiraganaFluencyShadowing';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import audio from '../../../../../content/audio/l0-m02-c04-l06-v1.json';
+import '../../../../../styles/foundations.css';
+import '../../../../../styles/vowel-speaking.css';
+const lesson=await getEntry('lessons','l0/hiragana-fluency-speaking');
+if(!lesson||lesson.data.lessonId!=='l0-m02-c04-l08'||audio.lessonId!=='l0-m02-c04-l06'||audio.assets.length!==2||audio.assets.some(a=>!a.rights.redistributionCleared||!a.qa.sha256||a.turns.length<4))throw new Error('Missing speaking lesson or verified model audio');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Hiragana fluency speaking',href:'/learn/start/module-02/chapter-04/lesson-08/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 02 · Chapter 04 · Lesson 08</span></nav><span class="eyebrow">LEVEL 0 · MODULE 02 · CHAPTER 04 · LESSON 08</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>2 licensed model tracks</span><span>6 optional knowledge questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Optional spoken rehearsal, no automated pronunciation grade.</strong> Independent Japanese and assessment reviews pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><HiraganaFluencyShadowing client:load tracks={audio.assets}/><div class="foundation-completion"><h2>Finish this optional lesson</h2><p>Completion does not require a microphone or a knowledge score.</p><LessonActions client:load lessonId="l0-m02-c04-l08" level="l0"/></div><div class="lesson-next"><h3>Continue learning</h3><a class="btn btn-outline" href="/learn/start/module-02/chapter-04/lesson-07/">Previous: writing</a><a class="btn btn-primary" href="/learn/start/module-02/chapter-04/checkpoint/">Next: Chapter 04 checkpoint</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Listen, shadow, reflect</h3><p>Replay whole tracks or turns, then reflect on word clarity and rhythm. No speaking grade is calculated.</p></aside></div></section>
+</Base>
