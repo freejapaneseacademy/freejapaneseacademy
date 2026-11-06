@@ -1,0 +1,524 @@
+{
+  "id": "l0-m03-c02-l02",
+  "lessonId": "l0-m03-c02-l02",
+  "version": 1,
+  "status": "published",
+  "source": "Original Yui/Sora contracted-kana picture-card word study",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c02-l02-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which card labels tea in a cup?",
+      "options": [
+        "おちゃ",
+        "おや",
+        "おかし"
+      ],
+      "correctIndex": 0,
+      "feedback": "おちゃ is tea; ちゃ contains a small ゃ.",
+      "explanation": "おちゃ is tea; ちゃ contains a small ゃ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "おちゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-01-c1",
+          "text": "おちゃ",
+          "rationale": "おちゃ is tea; ちゃ contains a small ゃ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-01-c2",
+          "text": "おや",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-01-c3",
+          "text": "おかし",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which word means dictionary?",
+      "options": [
+        "しゃしん",
+        "じしょ",
+        "きゃく"
+      ],
+      "correctIndex": 1,
+      "feedback": "じしょ is a dictionary; しょ uses a small ょ.",
+      "explanation": "じしょ is a dictionary; しょ uses a small ょ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "じしょ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-02-c1",
+          "text": "しゃしん",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-02-c2",
+          "text": "じしょ",
+          "rationale": "じしょ is a dictionary; しょ uses a small ょ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-02-c3",
+          "text": "きゃく",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which card matches a bicycle?",
+      "options": [
+        "じてんしゃ",
+        "りょこう",
+        "びょういん"
+      ],
+      "correctIndex": 0,
+      "feedback": "じてんしゃ means bicycle; しゃ appears at the end.",
+      "explanation": "じてんしゃ means bicycle; しゃ appears at the end.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "じてんしゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-03-c1",
+          "text": "じてんしゃ",
+          "rationale": "じてんしゃ means bicycle; しゃ appears at the end."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-03-c2",
+          "text": "りょこう",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-03-c3",
+          "text": "びょういん",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which word labels a photograph?",
+      "options": [
+        "じしょ",
+        "しゃしん",
+        "きょう"
+      ],
+      "correctIndex": 1,
+      "feedback": "しゃしん means photograph and begins with しゃ.",
+      "explanation": "しゃしん means photograph and begins with しゃ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "しゃしん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-04-c1",
+          "text": "じしょ",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-04-c2",
+          "text": "しゃしん",
+          "rationale": "しゃしん means photograph and begins with しゃ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-04-c3",
+          "text": "きょう",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which card labels a hospital?",
+      "options": [
+        "びょういん",
+        "ぎゅうにゅう",
+        "しゅくだい"
+      ],
+      "correctIndex": 0,
+      "feedback": "びょういん is a hospital; びょ has small ょ.",
+      "explanation": "びょういん is a hospital; びょ has small ょ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "びょういん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-05-c1",
+          "text": "びょういん",
+          "rationale": "びょういん is a hospital; びょ has small ょ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-05-c2",
+          "text": "ぎゅうにゅう",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-05-c3",
+          "text": "しゅくだい",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which word means milk?",
+      "options": [
+        "きゃく",
+        "ぎゅうにゅう",
+        "おちゃ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぎゅうにゅう is milk and contains ぎゅ and にゅ.",
+      "explanation": "ぎゅうにゅう is milk and contains ぎゅ and にゅ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "ぎゅうにゅう"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-06-c1",
+          "text": "きゃく",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-06-c2",
+          "text": "ぎゅうにゅう",
+          "rationale": "ぎゅうにゅう is milk and contains ぎゅ and にゅ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-06-c3",
+          "text": "おちゃ",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which card means homework?",
+      "options": [
+        "りょこう",
+        "きょう",
+        "しゅくだい"
+      ],
+      "correctIndex": 2,
+      "feedback": "しゅくだい means homework and begins with しゅ.",
+      "explanation": "しゅくだい means homework and begins with しゅ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "しゅくだい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-07-c1",
+          "text": "りょこう",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-07-c2",
+          "text": "きょう",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-07-c3",
+          "text": "しゅくだい",
+          "rationale": "しゅくだい means homework and begins with しゅ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-07-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which word means a trip or travel?",
+      "options": [
+        "りょこう",
+        "しゃしん",
+        "じしょ"
+      ],
+      "correctIndex": 0,
+      "feedback": "りょこう means travel; りょ has small ょ.",
+      "explanation": "りょこう means travel; りょ has small ょ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "りょこう"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-08-c1",
+          "text": "りょこう",
+          "rationale": "りょこう means travel; りょ has small ょ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-08-c2",
+          "text": "しゃしん",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-08-c3",
+          "text": "じしょ",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "Which word names a guest?",
+      "options": [
+        "きょう",
+        "きゃく",
+        "おちゃ"
+      ],
+      "correctIndex": 1,
+      "feedback": "きゃく means a guest; きゃ contains small ゃ.",
+      "explanation": "きゃく means a guest; きゃ contains small ゃ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "きゃく"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-09-c1",
+          "text": "きょう",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-09-c2",
+          "text": "きゃく",
+          "rationale": "きゃく means a guest; きゃ contains small ゃ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-09-c3",
+          "text": "おちゃ",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l02-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l02-words"
+      ],
+      "prompt": "In しゃしんをみてください。, what should you look at?",
+      "options": [
+        "じしょ (dictionary)",
+        "しゃしん (photograph)",
+        "じてんしゃ (bicycle)"
+      ],
+      "correctIndex": 1,
+      "feedback": "しゃしんをみてください。 asks you to look at the photograph.",
+      "explanation": "しゃしんをみてください。 asks you to look at the photograph.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-vocabulary.mdx",
+        "phrase": "しゃしんをみてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l02-10-c1",
+          "text": "じしょ (dictionary)",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-10-c2",
+          "text": "しゃしん (photograph)",
+          "rationale": "しゃしんをみてください。 asks you to look at the photograph."
+        },
+        {
+          "id": "ex-l0-m03-c02-l02-10-c3",
+          "text": "じてんしゃ (bicycle)",
+          "rationale": "This card does not match the meaning or written clue in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l02-10-c2"
+      }
+    }
+  ]
+}
