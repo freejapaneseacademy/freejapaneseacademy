@@ -14,7 +14,7 @@
       "id": "ex-l0-m02-c03-l05-01",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -42,17 +42,36 @@
         "phrase": "やま"
       },
       "answerKey": {
-        "accepted": [
-          "やま"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-01-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-01-c1",
+          "text": "やま",
+          "rationale": "Card A prints やま for mountain."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-01-c2",
+          "text": "ゆめ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-01-c3",
+          "text": "もも",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-01-c4",
+          "text": "わに",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-02",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -80,17 +99,36 @@
         "phrase": "ゆめ"
       },
       "answerKey": {
-        "accepted": [
-          "ゆめ"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-02-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-02-c1",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-02-c2",
+          "text": "ゆめ",
+          "rationale": "Card B prints ゆめ for dream."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-02-c3",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-02-c4",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-03",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -118,17 +156,36 @@
         "phrase": "もも"
       },
       "answerKey": {
-        "accepted": [
-          "もも"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-03-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-03-c1",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-03-c2",
+          "text": "もも",
+          "rationale": "Card C prints もも for peach."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-03-c3",
+          "text": "みかん",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-03-c4",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-04",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -156,17 +213,36 @@
         "phrase": "わに"
       },
       "answerKey": {
-        "accepted": [
-          "わに"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-04-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-04-c1",
+          "text": "わに",
+          "rationale": "Card D prints わに for crocodile."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-04-c2",
+          "text": "くるま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-04-c3",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-04-c4",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-05",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -194,17 +270,36 @@
         "phrase": "ほん"
       },
       "answerKey": {
-        "accepted": [
-          "ほん"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-05-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-05-c1",
+          "text": "ほん",
+          "rationale": "Card E prints ほん for book."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-05-c2",
+          "text": "もも",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-05-c3",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-05-c4",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-06",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -232,17 +327,36 @@
         "phrase": "みかん"
       },
       "answerKey": {
-        "accepted": [
-          "F"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-06-c3"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-06-c1",
+          "text": "B",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-06-c2",
+          "text": "D",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-06-c3",
+          "text": "F",
+          "rationale": "Card F prints みかん for mandarin orange."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-06-c4",
+          "text": "I",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-07",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -270,17 +384,36 @@
         "phrase": "むら"
       },
       "answerKey": {
-        "accepted": [
-          "むら"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-07-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-07-c1",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-07-c2",
+          "text": "むら",
+          "rationale": "Card G prints むら for village."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-07-c3",
+          "text": "くるま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-07-c4",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-08",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -308,17 +441,36 @@
         "phrase": "くるま"
       },
       "answerKey": {
-        "accepted": [
-          "くるま"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-08-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-08-c1",
+          "text": "くるま",
+          "rationale": "Card H prints くるま for car."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-08-c2",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-08-c3",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-08-c4",
+          "text": "わに",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-09",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -346,17 +498,36 @@
         "phrase": "もり"
       },
       "answerKey": {
-        "accepted": [
-          "もり"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-09-c3"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-09-c1",
+          "text": "もも",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-09-c2",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-09-c3",
+          "text": "もり",
+          "rationale": "Card I prints もり for forest."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-09-c4",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-10",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -384,17 +555,36 @@
         "phrase": "よる"
       },
       "answerKey": {
-        "accepted": [
-          "よる"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-10-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-10-c1",
+          "text": "ゆめ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-10-c2",
+          "text": "よる",
+          "rationale": "Card J prints よる for night."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-10-c3",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-10-c4",
+          "text": "ほん",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-11",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -422,17 +612,36 @@
         "phrase": "ほんをよむ。"
       },
       "answerKey": {
-        "accepted": [
-          "ほん"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-11-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-11-c1",
+          "text": "よむ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-11-c2",
+          "text": "ほん",
+          "rationale": "The notice ほんをよむ。 uses ほん (book) before object particle を."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-11-c3",
+          "text": "みる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-11-c4",
+          "text": "みかん",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     },
     {
       "id": "ex-l0-m02-c03-l05-12",
       "version": 1,
       "status": "published",
-      "type": "multiple-choice",
+      "type": "single-choice",
       "skill": "reading",
       "skills": [
         "reading"
@@ -460,11 +669,30 @@
         "phrase": "みかんをみる。"
       },
       "answerKey": {
-        "accepted": [
-          "みかんをみる。"
-        ],
-        "normalization": "exact-option"
-      }
+        "choiceId": "ex-l0-m02-c03-l05-12-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-12-c1",
+          "text": "ほんをよむ。",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-12-c2",
+          "text": "みかんをみる。",
+          "rationale": "The second notice explicitly prints みかんをみる。"
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-12-c3",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-12-c4",
+          "text": "ゆめ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
     }
   ]
 }
