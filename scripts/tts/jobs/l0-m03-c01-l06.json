@@ -9,7 +9,7 @@
     "redistributionCleared": true,
     "reviewedBy": "Academy review of pinned AivisHub ACML 1.0 terms and approved model metadata, 2026-11-06; independent legal and native pronunciation review pending",
     "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
-    "notes": "Original synthetic speech, attributed and not endorsed by model creators. Approved model IDs and hashes verified by generation workflow."
+    "notes": "Original synthetic speech with required attribution; independent native-language and legal review pending. Rerun identical job after previous artifact push raced with legitimate lesson commits; no audio or question wording changed."
   },
   "voices": {
     "male": {
