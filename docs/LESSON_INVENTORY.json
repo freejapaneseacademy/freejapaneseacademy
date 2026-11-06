@@ -1005,6 +1005,24 @@
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m02-c03-l06",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c03",
+      "slot": "L06",
+      "title": "Hear M/Y/R/W words in two everyday conversations",
+      "content": "src/content/lessons/l0/hiragana-myrw-listening.mdx",
+      "url": "/learn/start/module-02/chapter-03/lesson-06/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese and pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "Two original rights-cleared AivisSpeech WAV dialogues with pinned model and file SHA-256 metadata in generated v1 manifest; independent pronunciation and playback review pending",
+      "noindex": false,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

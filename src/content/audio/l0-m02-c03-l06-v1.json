@@ -1,0 +1,165 @@
+{
+  "lessonId": "l0-m02-c03-l06",
+  "chapterId": "l0-m02-c03",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m02-c03-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m02-c03-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 10.19,
+      "transcript": "女性： すみません。ももはありますか。\n男性： はい。ももとみかんがあります。\n女性： ももをふたつください。\n男性： はい。ありがとうございます。",
+      "english": "Woman: Excuse me. Do you have peaches?\nMan: Yes. We have peaches and mandarin oranges.\nWoman: Two peaches, please.\nMan: Certainly. Thank you.",
+      "scriptPurpose": "Choosing a peach at the fruit shop",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m02-c03-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。ももはありますか。",
+          "english": "Excuse me. Do you have peaches?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.66
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。ももとみかんがあります。",
+          "english": "Yes. We have peaches and mandarin oranges.",
+          "startSeconds": 2.94,
+          "endSeconds": 5.49
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ももをふたつください。",
+          "english": "Two peaches, please.",
+          "startSeconds": 5.77,
+          "endSeconds": 7.66
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。ありがとうございます。",
+          "english": "Certainly. Thank you.",
+          "startSeconds": 7.94,
+          "endSeconds": 10.19
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy automated licensing review of pinned AivisHub ACML 1.0 voice model metadata, 2026-11-05; independent legal and native Japanese pronunciation review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "e56fcfbada6e25f0d30eec99e4c3b158d607df20e3c2bc32aef2e9c147c236cc",
+        "bytes": 898498,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m02-c03-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m02-c03-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 9.03,
+      "transcript": "男性： あのほんをみてください。\n女性： はい。やまのほんですね。\n男性： そうです。よんでください。\n女性： はい。よみます。",
+      "english": "Man: Please look at that book.\nWoman: Yes. It's a book about mountains, isn't it?\nMan: That's right. Please read it.\nWoman: Okay. I'll read it.",
+      "scriptPurpose": "A book in the classroom",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m02-c03-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "あのほんをみてください。",
+          "english": "Please look at that book.",
+          "startSeconds": 0.0,
+          "endSeconds": 1.79
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。やまのほんですね。",
+          "english": "Yes. It's a book about mountains, isn't it?",
+          "startSeconds": 2.07,
+          "endSeconds": 4.53
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "そうです。よんでください。",
+          "english": "That's right. Please read it.",
+          "startSeconds": 4.81,
+          "endSeconds": 6.92
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。よみます。",
+          "english": "Okay. I'll read it.",
+          "startSeconds": 7.2,
+          "endSeconds": 9.03
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy automated licensing review of pinned AivisHub ACML 1.0 voice model metadata, 2026-11-05; independent legal and native Japanese pronunciation review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "d96a3922433d36ba9a4a1e778897024bc204b5e91194f92bff79fecc2caa977e",
+        "bytes": 796564,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
