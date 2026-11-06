@@ -340,8 +340,8 @@
         "ぱ"
       ],
       "correctIndex": 1,
-      "feedback": "ぶ is ふ with dakuten.",
-      "explanation": "ぶ is ふ with dakuten.",
+      "feedback": "ぶ is ふ with dakuten. This is the conventional written form.",
+      "explanation": "ぶ is ふ with dakuten. This is the conventional written form.",
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
         "phrase": "ぶた"
@@ -355,7 +355,7 @@
         {
           "id": "ex-l0-m03-c01-l04-07-c2",
           "text": "ぶ",
-          "rationale": "ぶ is ふ with dakuten."
+          "rationale": "ぶ is ふ with dakuten. This is the conventional written form."
         },
         {
           "id": "ex-l0-m03-c01-l04-07-c3",
