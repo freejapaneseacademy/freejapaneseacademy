@@ -1203,6 +1203,24 @@
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m02-c04-l08",
+      "level": "l0",
+      "moduleId": "l0-m02",
+      "chapterId": "l0-m02-c04",
+      "slot": "L08",
+      "title": "Shadow connected hiragana words in two everyday scenes",
+      "content": "src/content/lessons/l0/hiragana-fluency-speaking.mdx",
+      "url": "/learn/start/module-02/chapter-04/lesson-08/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "two unchanged licensed AivisSpeech WAVs from L06; SHA and rights documented in v1 manifest; independent waveform listening review pending",
+      "noindex": false,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
