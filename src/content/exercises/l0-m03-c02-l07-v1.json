@@ -5,7 +5,7 @@
   "status": "published",
   "source": "Original reading-club small-kana writing",
   "scoring": {
-    "mode": "exact-constrained-text",
+    "mode": "exact-kana-typing",
     "maxWrittenScore": 8,
     "officialJLPTScore": false
   },
@@ -14,12 +14,12 @@
       "id": "ex-l0-m03-c02-l07-01",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -36,19 +36,25 @@
         "phrase": "きゃ"
       },
       "answerKey": {
-        "text": "きゃ"
-      }
+        "accepted": [
+          "きゃ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "きゃ"
+      ]
     },
     {
       "id": "ex-l0-m03-c02-l07-02",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -65,19 +71,25 @@
         "phrase": "しゅ"
       },
       "answerKey": {
-        "text": "しゅ"
-      }
+        "accepted": [
+          "しゅ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "しゅ"
+      ]
     },
     {
       "id": "ex-l0-m03-c02-l07-03",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -94,19 +106,25 @@
         "phrase": "ちょ"
       },
       "answerKey": {
-        "text": "ちょ"
-      }
+        "accepted": [
+          "ちょ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "ちょ"
+      ]
     },
     {
       "id": "ex-l0-m03-c02-l07-04",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -123,19 +141,25 @@
         "phrase": "おちゃ"
       },
       "answerKey": {
-        "text": "おちゃ"
-      }
+        "accepted": [
+          "おちゃ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "おちゃ"
+      ]
     },
     {
       "id": "ex-l0-m03-c02-l07-05",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -152,19 +176,25 @@
         "phrase": "じしょ"
       },
       "answerKey": {
-        "text": "じしょ"
-      }
+        "accepted": [
+          "じしょ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "じしょ"
+      ]
     },
     {
       "id": "ex-l0-m03-c02-l07-06",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -181,19 +211,25 @@
         "phrase": "しゃしん"
       },
       "answerKey": {
-        "text": "しゃしん"
-      }
+        "accepted": [
+          "しゃしん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "しゃしん"
+      ]
     },
     {
       "id": "ex-l0-m03-c02-l07-07",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -210,19 +246,25 @@
         "phrase": "おちゃが あります。"
       },
       "answerKey": {
-        "text": "おちゃが あります。"
-      }
+        "accepted": [
+          "おちゃが あります。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "おちゃが あります。"
+      ]
     },
     {
       "id": "ex-l0-m03-c02-l07-08",
       "version": 1,
       "status": "published",
-      "type": "short-text",
-      "skill": "writing",
+      "type": "short-input",
+      "skill": "written",
       "level": "l0",
       "skills": [
-        "writing",
-        "written"
+        "written",
+        "reading"
       ],
       "objectiveIds": [
         "l0-m03-c02-l07-writing"
@@ -239,8 +281,14 @@
         "phrase": "いっしょに よみましょう。"
       },
       "answerKey": {
-        "text": "いっしょに よみましょう。"
-      }
+        "accepted": [
+          "いっしょに よみましょう。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "いっしょに よみましょう。"
+      ]
     }
   ]
 }
