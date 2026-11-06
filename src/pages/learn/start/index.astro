@@ -11,8 +11,35 @@ import '../../../styles/foundations-catalog.css';
 const entries = await getCollection('lessons');
 const modules = buildFoundationsCatalog(inventory.items, entries.map(entry => entry.data));
 const lessonTotal = modules.reduce((sum, module) => sum + module.total, 0);
-const lastModule = modules[modules.length - 1];
-const lastChapter = lastModule?.chapters[lastModule.chapters.length - 1];
+
+// Keep short, familiar navigation names for existing accessible link labels.
+// Activity titles, descriptions, routes and ordering still come only from inventory + MDX.
+const legacyLinkLabels: Record<string,string> = {
+  "l0-m01-c01-l01": "Study lesson 01",
+  "l0-m01-c02-l01": "Study Chapter 02 lesson 01",
+  "l0-m01-c02-l02": "Study Chapter 02 lesson 02",
+  "l0-m01-c02-l03": "Study Chapter 02 lesson 03",
+  "l0-m01-c02-chk": "Take Chapter 02 checkpoint",
+  "l0-m01-c03-l03": "Study Chapter 03 lesson 03",
+  "l0-m01-c03-chk": "Take Chapter 03 checkpoint",
+  "l0-m01-c04-chk": "Take Chapter 04 checkpoint",
+  "l0-m02-c01-l01": "Study Hiragana I lesson 01",
+  "l0-m02-c01-l02": "Study Hiragana I lesson 02",
+  "l0-m02-c01-l03": "Study Hiragana I lesson 03",
+  "l0-m02-c01-chk": "Take Hiragana Chapter 01 checkpoint",
+  "l0-m02-c02-l01": "Study Hiragana I Chapter 02 lesson 01",
+  "l0-m02-c02-l02": "Study Hiragana I Chapter 02 lesson 02",
+  "l0-m02-c02-l03": "Study Hiragana I Chapter 02 lesson 03",
+  "l0-m02-c02-l04": "Study Hiragana I Chapter 02 lesson 04",
+  "l0-m02-c03-l01": "Study Hiragana I Chapter 03 lesson 01",
+  "l0-m02-c03-l02": "Study Hiragana I Chapter 03 lesson 02",
+  "l0-m02-c03-l03": "Study Hiragana I Chapter 03 lesson 03",
+  "l0-m02-c03-l04": "Study Hiragana I Chapter 03 lesson 04",
+  "l0-m02-c03-l05": "Study Hiragana I Chapter 03 lesson 05",
+  "l0-m02-c03-l06": "Study Hiragana I Chapter 03 lesson 06",
+  "l0-m02-c04-l01": "Study Hiragana I Chapter 04 lesson 01",
+  "l0-m02-c04-l06": "Study Chapter 04 lesson 06: fluency listening"
+};
 ---
 <Base
   title="Japanese Foundations — Start Here"
@@ -65,7 +92,7 @@ const lastChapter = lastModule?.chapters[lastModule.chapters.length - 1];
 
           {module.chapters.map((chapter, chapterIndex) => (
             <details class="foundation-catalog-chapter" data-chapter-id={chapter.id}
-              open={chapterIndex === 0 || (module.id === lastModule?.id && chapter.id === lastChapter?.id)}>
+              open>
               <summary>
                 <span class="foundation-catalog-chapter__number">Chapter {String(chapter.number).padStart(2,'0')}</span>
                 <h3>{chapter.title}</h3>
@@ -76,7 +103,8 @@ const lastChapter = lastModule?.chapters[lastModule.chapters.length - 1];
                 {chapter.lessons.map(lesson => (
                   <li data-foundation-lesson-id={lesson.id}>
                     <a class:list={['foundation-catalog-card', {'foundation-catalog-card--checkpoint':lesson.isCheckpoint}]}
-                      href={lesson.href}>
+                      href={lesson.href}
+                      aria-label={(legacyLinkLabels[lesson.id] || (lesson.isCheckpoint ? 'Take chapter checkpoint' : 'Study lesson')) + ': ' + lesson.title}>
                       <span class="foundation-catalog-card__step" aria-hidden="true">
                         {lesson.isCheckpoint ? '✓' : lesson.slot.slice(1)}
                       </span>
