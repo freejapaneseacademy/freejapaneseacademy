@@ -1,0 +1,364 @@
+{
+  "id": "l0-m02-c04-l07",
+  "lessonId": "l0-m02-c04-l07",
+  "version": 1,
+  "status": "published",
+  "source": "Original word-card and classroom request writing prompts",
+  "scoring": {
+    "mode": "exact-kana-typing",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c04-l07-01",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-01"
+      ],
+      "prompt": "Type the word for cat.",
+      "answer": "ねこ",
+      "acceptedAnswers": [
+        "ねこ"
+      ],
+      "feedback": "The label ねこ means cat; compare ね with れ.",
+      "explanation": "The label ねこ means cat; compare ね with れ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "ねこ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ねこ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-02",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-02"
+      ],
+      "prompt": "Type the word for dog.",
+      "answer": "いぬ",
+      "acceptedAnswers": [
+        "いぬ"
+      ],
+      "feedback": "The word いぬ ends in ぬ, not め.",
+      "explanation": "The word いぬ ends in ぬ, not め.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "いぬ"
+      },
+      "answerKey": {
+        "accepted": [
+          "いぬ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-03",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-03"
+      ],
+      "prompt": "Type the word for car.",
+      "answer": "くるま",
+      "acceptedAnswers": [
+        "くるま"
+      ],
+      "feedback": "The middle kana is る, not ろ.",
+      "explanation": "The middle kana is る, not ろ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "くるま"
+      },
+      "answerKey": {
+        "accepted": [
+          "くるま"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-04",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-04"
+      ],
+      "prompt": "Type the word for mountain.",
+      "answer": "やま",
+      "acceptedAnswers": [
+        "やま"
+      ],
+      "feedback": "The two kana や・ま form やま.",
+      "explanation": "The two kana や・ま form やま.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "やま"
+      },
+      "answerKey": {
+        "accepted": [
+          "やま"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-05",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-05"
+      ],
+      "prompt": "Type the word for book.",
+      "answer": "ほん",
+      "acceptedAnswers": [
+        "ほん"
+      ],
+      "feedback": "The final ん is its own mora.",
+      "explanation": "The final ん is its own mora.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "ほん"
+      },
+      "answerKey": {
+        "accepted": [
+          "ほん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-06",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-06"
+      ],
+      "prompt": "Type the word for river.",
+      "answer": "かわ",
+      "acceptedAnswers": [
+        "かわ"
+      ],
+      "feedback": "The two kana か・わ form かわ.",
+      "explanation": "The two kana か・わ form かわ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "かわ"
+      },
+      "answerKey": {
+        "accepted": [
+          "かわ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-07",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-07"
+      ],
+      "prompt": "Type 'cat and dog' with と between the nouns.",
+      "answer": "ねこといぬ",
+      "acceptedAnswers": [
+        "ねこといぬ"
+      ],
+      "feedback": "と connects the two nouns: ねこ + と + いぬ.",
+      "explanation": "と connects the two nouns: ねこ + と + いぬ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "ねこといぬ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ねこといぬ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-08",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-08"
+      ],
+      "prompt": "Type 'mountain and river' with と between the nouns.",
+      "answer": "やまとかわ",
+      "acceptedAnswers": [
+        "やまとかわ"
+      ],
+      "feedback": "Use やま + と + かわ, with no spaces.",
+      "explanation": "Use やま + と + かわ, with no spaces.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "やまとかわ"
+      },
+      "answerKey": {
+        "accepted": [
+          "やまとかわ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-09",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-09"
+      ],
+      "prompt": "Type 'Please look at the cat.' using ねこ, を, みてください.",
+      "answer": "ねこをみてください。",
+      "acceptedAnswers": [
+        "ねこをみてください。"
+      ],
+      "feedback": "The noun is ねこ; を marks the object; みてください is the request.",
+      "explanation": "The noun is ねこ; を marks the object; みてください is the request.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "ねこをみてください。"
+      },
+      "answerKey": {
+        "accepted": [
+          "ねこをみてください。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l07-10",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l07-phrase-10"
+      ],
+      "prompt": "Type 'Please look at the book.' using ほん, を, みてください.",
+      "answer": "ほんをみてください。",
+      "acceptedAnswers": [
+        "ほんをみてください。"
+      ],
+      "feedback": "The noun is ほん; を is written with を, not お.",
+      "explanation": "The noun is ほん; を is written with を, not お.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-writing.mdx",
+        "phrase": "ほんをみてください。"
+      },
+      "answerKey": {
+        "accepted": [
+          "ほんをみてください。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    }
+  ]
+}
