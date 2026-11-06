@@ -1,0 +1,189 @@
+{
+  "lessonId": "l0-m03-c02-l06",
+  "chapterId": "l0-m03-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m03-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m03-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 13.12,
+      "transcript": "女性： こんにちは。きょうは、なにをのみますか。\n男性： ぎゅうにゅうをください。\n女性： つめたいぎゅうにゅうですか。\n男性： はい。つめたいのをひとつください。\n女性： はい、しょうしょうおまちください。",
+      "english": "Woman: Hello. What will you drink today?\nMan: Milk, please.\nWoman: Cold milk?\nMan: Yes. One cold one, please.\nWoman: Certainly, please wait a moment.",
+      "scriptPurpose": "Choosing a drink at a café",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m03-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "こんにちは。きょうは、なにをのみますか。",
+          "english": "Hello. What will you drink today?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.39
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ぎゅうにゅうをください。",
+          "english": "Milk, please.",
+          "startSeconds": 3.67,
+          "endSeconds": 5.2
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "つめたいぎゅうにゅうですか。",
+          "english": "Cold milk?",
+          "startSeconds": 5.48,
+          "endSeconds": 7.52
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。つめたいのをひとつください。",
+          "english": "Yes. One cold one, please.",
+          "startSeconds": 7.8,
+          "endSeconds": 10.35
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい、しょうしょうおまちください。",
+          "english": "Certainly, please wait a moment.",
+          "startSeconds": 10.63,
+          "endSeconds": 13.12
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy project rights policy v5 and pinned ACML 1.0 model review; independent legal and native-audio review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "5e2023d521c1584956b080b35a53e0e307e27ebe3f0091897861c08ac579703d",
+        "bytes": 1157420,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m03-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m03-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 14.16,
+      "transcript": "男性： にちようびは、どこへいきますか。\n女性： としょかんへいきます。\n男性： としょかんで、なにをしますか。\n女性： いっしょにほんをよみましょう。\n男性： いいですね。なんじにいきますか。\n女性： じゅうじにいきましょう。",
+      "english": "Man: Where are you going on Sunday?\nWoman: I'm going to the library.\nMan: What will you do at the library?\nWoman: Let's read books together.\nMan: Sounds good. What time shall we go?\nWoman: Let's go at ten o'clock.",
+      "scriptPurpose": "Planning a weekend outing",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m03-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "にちようびは、どこへいきますか。",
+          "english": "Where are you going on Sunday?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.44
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "としょかんへいきます。",
+          "english": "I'm going to the library.",
+          "startSeconds": 2.72,
+          "endSeconds": 4.41
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "としょかんで、なにをしますか。",
+          "english": "What will you do at the library?",
+          "startSeconds": 4.69,
+          "endSeconds": 6.88
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いっしょにほんをよみましょう。",
+          "english": "Let's read books together.",
+          "startSeconds": 7.16,
+          "endSeconds": 9.17
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいですね。なんじにいきますか。",
+          "english": "Sounds good. What time shall we go?",
+          "startSeconds": 9.45,
+          "endSeconds": 12.13
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "じゅうじにいきましょう。",
+          "english": "Let's go at ten o'clock.",
+          "startSeconds": 12.41,
+          "endSeconds": 14.16
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy project rights policy v5 and pinned ACML 1.0 model review; independent legal and native-audio review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "b7ad32ac904e714462e0a4d136d6051ee43a58d4103acd2dbf28164c3def486a",
+        "bytes": 1249214,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
