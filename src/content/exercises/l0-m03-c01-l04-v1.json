@@ -1,0 +1,524 @@
+{
+  "id": "l0-m03-c01-l04",
+  "lessonId": "l0-m03-c01-l04",
+  "version": 1,
+  "status": "published",
+  "source": "Original classroom label-maker and written kana recognition lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c01-l04-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which kana is か with dakuten?",
+      "options": [
+        "が",
+        "か",
+        "ぱ"
+      ],
+      "correctIndex": 0,
+      "feedback": "が is か with two short strokes.",
+      "explanation": "が is か with two short strokes.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "か き く け こ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-01-c1",
+          "text": "が",
+          "rationale": "が is か with two short strokes."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-01-c2",
+          "text": "か",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-01-c3",
+          "text": "ぱ",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which kana is は with handakuten?",
+      "options": [
+        "ば",
+        "ぱ",
+        "は"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぱ uses a small circle, unlike ば.",
+      "explanation": "ぱ uses a small circle, unlike ば.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "は → ぱ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-02-c1",
+          "text": "ば",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-02-c2",
+          "text": "ぱ",
+          "rationale": "ぱ uses a small circle, unlike ば."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-02-c3",
+          "text": "は",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which is the voiced counterpart of ほ?",
+      "options": [
+        "ぽ",
+        "ぼ",
+        "ほ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぼ has dakuten; ぽ has a circle.",
+      "explanation": "ぼ has dakuten; ぽ has a circle.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "ほ → ぼ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-03-c1",
+          "text": "ぽ",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-03-c2",
+          "text": "ぼ",
+          "rationale": "ぼ has dakuten; ぽ has a circle."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-03-c3",
+          "text": "ほ",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which printed label means key?",
+      "options": [
+        "かぎ",
+        "かき",
+        "かばん"
+      ],
+      "correctIndex": 0,
+      "feedback": "かぎ means key, and ぎ has dakuten.",
+      "explanation": "かぎ means key, and ぎ has dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "かぎ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-04-c1",
+          "text": "かぎ",
+          "rationale": "かぎ means key, and ぎ has dakuten."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-04-c2",
+          "text": "かき",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-04-c3",
+          "text": "かばん",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which word contains ず?",
+      "options": [
+        "みず",
+        "ぶた",
+        "ぱん"
+      ],
+      "correctIndex": 0,
+      "feedback": "みず (water) ends with ず.",
+      "explanation": "みず (water) ends with ず.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "みず"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-05-c1",
+          "text": "みず",
+          "rationale": "みず (water) ends with ず."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-05-c2",
+          "text": "ぶた",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-05-c3",
+          "text": "ぱん",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which label uses handakuten?",
+      "options": [
+        "ともだち",
+        "えんぴつ",
+        "てがみ"
+      ],
+      "correctIndex": 1,
+      "feedback": "えんぴつ contains ぴ, with a circle.",
+      "explanation": "えんぴつ contains ぴ, with a circle.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "えんぴつ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-06-c1",
+          "text": "ともだち",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-06-c2",
+          "text": "えんぴつ",
+          "rationale": "えんぴつ contains ぴ, with a circle."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-06-c3",
+          "text": "てがみ",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which character in ぶた carries dakuten?",
+      "options": [
+        "た",
+        "ぶ",
+        "ぱ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぶ is ふ with dakuten.",
+      "explanation": "ぶ is ふ with dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "ぶた"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-07-c1",
+          "text": "た",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-07-c2",
+          "text": "ぶ",
+          "rationale": "ぶ is ふ with dakuten."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-07-c3",
+          "text": "ぱ",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which romaji IME input commonly produces ぱ?",
+      "options": [
+        "ba",
+        "pa",
+        "ha"
+      ],
+      "correctIndex": 1,
+      "feedback": "pa commonly produces ぱ in romaji input mode.",
+      "explanation": "pa commonly produces ぱ in romaji input mode.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "pa → ぱ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-08-c1",
+          "text": "ba",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-08-c2",
+          "text": "pa",
+          "rationale": "pa commonly produces ぱ in romaji input mode."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-08-c3",
+          "text": "ha",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which spelling means 'continue'?",
+      "options": [
+        "つずく",
+        "つづく",
+        "つじく"
+      ],
+      "correctIndex": 1,
+      "feedback": "The conventional spelling is つづく, using づ.",
+      "explanation": "The conventional spelling is つづく, using づ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "つづく"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-09-c1",
+          "text": "つずく",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-09-c2",
+          "text": "つづく",
+          "rationale": "The conventional spelling is つづく, using づ."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-09-c3",
+          "text": "つじく",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l04-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l04-marked-kana"
+      ],
+      "prompt": "Which statement is accurate about ぱん?",
+      "options": [
+        "It is the usual katakana spelling",
+        "It is a hiragana practice spelling of パン",
+        "It contains dakuten"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぱん is practice hiragana; パン is the usual spelling.",
+      "explanation": "ぱん is practice hiragana; パン is the usual spelling.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-script-practice.mdx",
+        "phrase": "ぱん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l04-10-c1",
+          "text": "It is the usual katakana spelling",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-10-c2",
+          "text": "It is a hiragana practice spelling of パン",
+          "rationale": "ぱん is practice hiragana; パン is the usual spelling."
+        },
+        {
+          "id": "ex-l0-m03-c01-l04-10-c3",
+          "text": "It contains dakuten",
+          "rationale": "The written kana or label does not match the taught mark or spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l04-10-c2"
+      }
+    }
+  ]
+}
