@@ -12,6 +12,7 @@ test('Voiced L08 optional speaking is keyboard accessible, responsive and ungrad
  await expect(page.getByText(/knowledge answers correct/)).toBeVisible();
  await page.getByRole('button',{name:'Try again'}).click();
  await expect(page.getByRole('button',{name:'Check preparation and save knowledge score'})).toBeDisabled();
+ await expect(page.getByRole('link',{name:'Return to Foundations course catalog'})).toHaveAttribute('href','/learn/start/');
  await page.evaluate(()=>document.documentElement.classList.add('dark'));
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1)).toBeTruthy();
 });
