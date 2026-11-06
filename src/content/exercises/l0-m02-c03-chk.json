@@ -1,0 +1,494 @@
+{
+  "id": "l0-m02-c03-chk-v1",
+  "lessonId": "l0-m02-c03-chk",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m02-c03-l06-a",
+    "audio-l0-m02-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m02-c03-chk-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-1"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Which kana spells the sound 'ma'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ま",
+          "rationale": "Correct: ま is ma; も is mo and や is ya."
+        },
+        {
+          "id": "b",
+          "text": "も",
+          "rationale": "This is not supported by the chapter example or recording. ま is ma; も is mo and や is ya."
+        },
+        {
+          "id": "c",
+          "text": "や",
+          "rationale": "This is not supported by the chapter example or recording. ま is ma; も is mo and や is ya."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ま is ma; も is mo and や is ya.",
+      "evidence": "ま"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-2"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Which kana spells 'yu'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ゆ",
+          "rationale": "Correct: ゆ is yu, not よ (yo) or り (ri)."
+        },
+        {
+          "id": "b",
+          "text": "よ",
+          "rationale": "This is not supported by the chapter example or recording. ゆ is yu, not よ (yo) or り (ri)."
+        },
+        {
+          "id": "c",
+          "text": "り",
+          "rationale": "This is not supported by the chapter example or recording. ゆ is yu, not よ (yo) or り (ri)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ゆ is yu, not よ (yo) or り (ri).",
+      "evidence": "ゆ"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-3"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Which kana spells 'ro'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ろ",
+          "rationale": "Correct: ろ is ro; る is ru and れ is re."
+        },
+        {
+          "id": "b",
+          "text": "る",
+          "rationale": "This is not supported by the chapter example or recording. ろ is ro; る is ru and れ is re."
+        },
+        {
+          "id": "c",
+          "text": "れ",
+          "rationale": "This is not supported by the chapter example or recording. ろ is ro; る is ru and れ is re."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ろ is ro; る is ru and れ is re.",
+      "evidence": "ろ"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-4"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Which character is the nasal mora in ほん?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ん",
+          "rationale": "Correct: ほん ends in ん, a separate mora."
+        },
+        {
+          "id": "b",
+          "text": "を",
+          "rationale": "This is not supported by the chapter example or recording. ほん ends in ん, a separate mora."
+        },
+        {
+          "id": "c",
+          "text": "わ",
+          "rationale": "This is not supported by the chapter example or recording. ほん ends in ん, a separate mora."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ほん ends in ん, a separate mora.",
+      "evidence": "ほん"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-5"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "particle",
+      "prompt": "Choose the correctly written phrase for 'Two peaches, please.'",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ももをふたつください。",
+          "rationale": "Correct: The object particle is written を even though normally pronounced o."
+        },
+        {
+          "id": "b",
+          "text": "ももおふたつください。",
+          "rationale": "This is not supported by the chapter example or recording. The object particle is written を even though normally pronounced o."
+        },
+        {
+          "id": "c",
+          "text": "ももんふたつください。",
+          "rationale": "This is not supported by the chapter example or recording. The object particle is written を even though normally pronounced o."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The object particle is written を even though normally pronounced o.",
+      "evidence": "ももをふたつください。"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-6"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "particle",
+      "prompt": "What is the role of を in ほんをみてください。?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It marks ほん as the object.",
+          "rationale": "Correct: を marks the object of the action みる (look at)."
+        },
+        {
+          "id": "b",
+          "text": "It means mountain.",
+          "rationale": "This is not supported by the chapter example or recording. を marks the object of the action みる (look at)."
+        },
+        {
+          "id": "c",
+          "text": "It is the final nasal mora.",
+          "rationale": "This is not supported by the chapter example or recording. を marks the object of the action みる (look at)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "を marks the object of the action みる (look at).",
+      "evidence": "ほんをみてください。"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-7"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "In the classroom notice, what should you read?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A book",
+          "rationale": "Correct: The notice says ほんをよんでください。 — Please read the book."
+        },
+        {
+          "id": "b",
+          "text": "Peaches",
+          "rationale": "This is not supported by the chapter example or recording. The notice says ほんをよんでください。 — Please read the book."
+        },
+        {
+          "id": "c",
+          "text": "A mountain itself",
+          "rationale": "This is not supported by the chapter example or recording. The notice says ほんをよんでください。 — Please read the book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The notice says ほんをよんでください。 — Please read the book.",
+      "evidence": "ほんをよんでください。"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-8"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Which written word means 'mountain'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "やま",
+          "rationale": "Correct: やま means mountain; the other words are fruits."
+        },
+        {
+          "id": "b",
+          "text": "もも",
+          "rationale": "This is not supported by the chapter example or recording. やま means mountain; the other words are fruits."
+        },
+        {
+          "id": "c",
+          "text": "みかん",
+          "rationale": "This is not supported by the chapter example or recording. やま means mountain; the other words are fruits."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "やま means mountain; the other words are fruits.",
+      "evidence": "やまのほん"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-9"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does みてください ask you to do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Please look.",
+          "rationale": "Correct: みてください means please look; よんでください means please read."
+        },
+        {
+          "id": "b",
+          "text": "Please read.",
+          "rationale": "This is not supported by the chapter example or recording. みてください means please look; よんでください means please read."
+        },
+        {
+          "id": "c",
+          "text": "Please buy.",
+          "rationale": "This is not supported by the chapter example or recording. みてください means please look; よんでください means please read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "みてください means please look; よんでください means please read.",
+      "evidence": "ほんをみてください。"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-10"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "prompt": "In the fruit-shop recording, how many peaches are requested?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two",
+          "rationale": "Correct: The customer says ももをふたつください。 (Two peaches, please.)"
+        },
+        {
+          "id": "b",
+          "text": "One",
+          "rationale": "This is not supported by the chapter example or recording. The customer says ももをふたつください。 (Two peaches, please.)"
+        },
+        {
+          "id": "c",
+          "text": "Three",
+          "rationale": "This is not supported by the chapter example or recording. The customer says ももをふたつください。 (Two peaches, please.)"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The customer says ももをふたつください。 (Two peaches, please.)",
+      "evidence": "ももをふたつください。",
+      "trackId": "audio-l0-m02-c03-l06-a"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-11"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "prompt": "Which two fruits does the shopkeeper say are available?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peaches and mandarins",
+          "rationale": "Correct: The response is ももとみかんがあります。"
+        },
+        {
+          "id": "b",
+          "text": "Apples and pears",
+          "rationale": "This is not supported by the chapter example or recording. The response is ももとみかんがあります。"
+        },
+        {
+          "id": "c",
+          "text": "Peaches and bananas",
+          "rationale": "This is not supported by the chapter example or recording. The response is ももとみかんがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The response is ももとみかんがあります。",
+      "evidence": "ももとみかんがあります。",
+      "trackId": "audio-l0-m02-c03-l06-a"
+    },
+    {
+      "id": "ex-l0-m02-c03-chk-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-chk-item-12"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "prompt": "In the classroom recording, what does the teacher ask after confirming the mountain book?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Please read it.",
+          "rationale": "Correct: The teacher says そうです。よんでください。"
+        },
+        {
+          "id": "b",
+          "text": "Please buy it.",
+          "rationale": "This is not supported by the chapter example or recording. The teacher says そうです。よんでください。"
+        },
+        {
+          "id": "c",
+          "text": "Please eat it.",
+          "rationale": "This is not supported by the chapter example or recording. The teacher says そうです。よんでください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The teacher says そうです。よんでください。",
+      "evidence": "そうです。よんでください。",
+      "trackId": "audio-l0-m02-c03-l06-b"
+    }
+  ]
+}
