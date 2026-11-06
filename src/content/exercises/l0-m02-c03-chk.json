@@ -67,13 +67,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "ゆ",
-          "rationale": "Correct: ゆ is yu, not よ (yo) or り (ri)."
+          "text": "よ",
+          "rationale": "This is not supported by the chapter example or recording. ゆ is yu, not よ (yo) or り (ri)."
         },
         {
           "id": "b",
-          "text": "よ",
-          "rationale": "This is not supported by the chapter example or recording. ゆ is yu, not よ (yo) or り (ri)."
+          "text": "ゆ",
+          "rationale": "Correct: ゆ is yu, not よ (yo) or り (ri)."
         },
         {
           "id": "c",
@@ -82,7 +82,7 @@
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "b"
       },
       "explanation": "ゆ is yu, not よ (yo) or り (ri).",
       "evidence": "ゆ"
@@ -107,22 +107,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "ろ",
-          "rationale": "Correct: ろ is ro; る is ru and れ is re."
-        },
-        {
-          "id": "b",
           "text": "る",
           "rationale": "This is not supported by the chapter example or recording. ろ is ro; る is ru and れ is re."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "れ",
           "rationale": "This is not supported by the chapter example or recording. ろ is ro; る is ru and れ is re."
+        },
+        {
+          "id": "c",
+          "text": "ろ",
+          "rationale": "Correct: ろ is ro; る is ru and れ is re."
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "c"
       },
       "explanation": "ろ is ro; る is ru and れ is re.",
       "evidence": "ろ"
@@ -187,13 +187,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "ももをふたつください。",
-          "rationale": "Correct: The object particle is written を even though normally pronounced o."
+          "text": "ももおふたつください。",
+          "rationale": "This is not supported by the chapter example or recording. The object particle is written を even though normally pronounced o."
         },
         {
           "id": "b",
-          "text": "ももおふたつください。",
-          "rationale": "This is not supported by the chapter example or recording. The object particle is written を even though normally pronounced o."
+          "text": "ももをふたつください。",
+          "rationale": "Correct: The object particle is written を even though normally pronounced o."
         },
         {
           "id": "c",
@@ -202,7 +202,7 @@
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "b"
       },
       "explanation": "The object particle is written を even though normally pronounced o.",
       "evidence": "ももをふたつください。"
@@ -227,22 +227,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "It marks ほん as the object.",
-          "rationale": "Correct: を marks the object of the action みる (look at)."
-        },
-        {
-          "id": "b",
           "text": "It means mountain.",
           "rationale": "This is not supported by the chapter example or recording. を marks the object of the action みる (look at)."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "It is the final nasal mora.",
           "rationale": "This is not supported by the chapter example or recording. を marks the object of the action みる (look at)."
+        },
+        {
+          "id": "c",
+          "text": "It marks ほん as the object.",
+          "rationale": "Correct: を marks the object of the action みる (look at)."
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "c"
       },
       "explanation": "を marks the object of the action みる (look at).",
       "evidence": "ほんをみてください。"
@@ -307,13 +307,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "やま",
-          "rationale": "Correct: やま means mountain; the other words are fruits."
+          "text": "もも",
+          "rationale": "This is not supported by the chapter example or recording. やま means mountain; the other words are fruits."
         },
         {
           "id": "b",
-          "text": "もも",
-          "rationale": "This is not supported by the chapter example or recording. やま means mountain; the other words are fruits."
+          "text": "やま",
+          "rationale": "Correct: やま means mountain; the other words are fruits."
         },
         {
           "id": "c",
@@ -322,7 +322,7 @@
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "b"
       },
       "explanation": "やま means mountain; the other words are fruits.",
       "evidence": "やまのほん"
@@ -347,22 +347,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Please look.",
-          "rationale": "Correct: みてください means please look; よんでください means please read."
-        },
-        {
-          "id": "b",
           "text": "Please read.",
           "rationale": "This is not supported by the chapter example or recording. みてください means please look; よんでください means please read."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Please buy.",
           "rationale": "This is not supported by the chapter example or recording. みてください means please look; よんでください means please read."
+        },
+        {
+          "id": "c",
+          "text": "Please look.",
+          "rationale": "Correct: みてください means please look; よんでください means please read."
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "c"
       },
       "explanation": "みてください means please look; よんでください means please read.",
       "evidence": "ほんをみてください。"
@@ -428,13 +428,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Peaches and mandarins",
-          "rationale": "Correct: The response is ももとみかんがあります。"
+          "text": "Apples and pears",
+          "rationale": "This is not supported by the chapter example or recording. The response is ももとみかんがあります。"
         },
         {
           "id": "b",
-          "text": "Apples and pears",
-          "rationale": "This is not supported by the chapter example or recording. The response is ももとみかんがあります。"
+          "text": "Peaches and mandarins",
+          "rationale": "Correct: The response is ももとみかんがあります。"
         },
         {
           "id": "c",
@@ -443,7 +443,7 @@
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "b"
       },
       "explanation": "The response is ももとみかんがあります。",
       "evidence": "ももとみかんがあります。",
@@ -469,22 +469,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Please read it.",
-          "rationale": "Correct: The teacher says そうです。よんでください。"
-        },
-        {
-          "id": "b",
           "text": "Please buy it.",
           "rationale": "This is not supported by the chapter example or recording. The teacher says そうです。よんでください。"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Please eat it.",
           "rationale": "This is not supported by the chapter example or recording. The teacher says そうです。よんでください。"
+        },
+        {
+          "id": "c",
+          "text": "Please read it.",
+          "rationale": "Correct: The teacher says そうです。よんでください。"
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "c"
       },
       "explanation": "The teacher says そうです。よんでください。",
       "evidence": "そうです。よんでください。",
