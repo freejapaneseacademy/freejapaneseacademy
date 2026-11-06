@@ -9,7 +9,7 @@ describe('M/Y/R/W checkpoint', () => {
      expect(q.id).toMatch(/^ex-l0-m02-c03-chk-\d{3}$/);
      expect(q.choices.some(c => c.id === q.answerKey.choiceId)).toBe(true);
      expect(q.choices.every(c => c.rationale.length > 8)).toBe(true);
-     expect(q.evidence.length).toBeGreaterThan(1);
+     expect(q.evidence.length).toBeGreaterThan(0); // A single kana such as ま is sufficient written evidence.
    }
  });
  it('scores fully correct and blank attempts', () => {
