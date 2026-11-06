@@ -1347,6 +1347,24 @@
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m03-c01-l07",
+      "level": "l0",
+      "moduleId": "l0-m03",
+      "chapterId": "l0-m03-c01",
+      "slot": "L07",
+      "title": "Write voiced and p-series hiragana in classroom labels",
+      "content": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+      "url": "/learn/start/module-03/chapter-01/lesson-07/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese writing review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written typing and composition; L06 recordings remain unchanged",
+      "noindex": false,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
