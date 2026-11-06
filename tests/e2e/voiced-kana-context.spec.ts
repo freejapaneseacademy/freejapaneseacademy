@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 const url='/learn/start/module-03/chapter-01/lesson-01/';
 test('voiced kana context is indexed, accessible and scored',async({page})=>{
  await page.goto('/learn/start/');
- await expect(page.getByRole('link',{name:/Study Hiragana II Chapter 01 lesson 01/})).toHaveAttribute('href',url);
+ await expect(page.locator('[data-foundation-lesson-id="l0-m03-c01-l01"] a')).toHaveAttribute('href',url);
  await page.goto(url);
  await expect(page.getByRole('heading',{level:1,name:'Voiced hiragana — preparing a picture-card sorting game'})).toBeVisible();
  await expect(page.locator('meta[name="robots"][content*="noindex"]')).toHaveCount(0);
