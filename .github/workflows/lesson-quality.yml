@@ -31,6 +31,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Validate all authoring sources
         run: python3 scripts/validate_curriculum_sources.py
+      - name: Validate Foundations catalog structure, order and routes
+        run: python3 scripts/validate_foundations_catalog.py
       - name: Validate all published exercise banks
         run: |
           for bank in src/content/exercises/*.json; do
