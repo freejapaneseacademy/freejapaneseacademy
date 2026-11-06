@@ -15,7 +15,7 @@ const expected=inventory.items.filter((entry:any)=>entry.level==='l0'&&entry.sta
 test('Foundations is a single catalog with unique inventory-derived entries in correct order',async({page})=>{
   await page.goto(route);
   await expect(page.getByRole('heading',{level:1,name:/Your path into Japanese/})).toBeVisible();
-  await expect(page.locator('.foundation-catalog-module')).toHaveCount(new Set(expected.map(id=>id.match(/^l0-m\d+/)![0])).size);
+  await expect(page.locator('.foundation-catalog-module')).toHaveCount(new Set(expected.map((id:string)=>id.match(/^l0-m\d+/)![0])).size);
   const ids=await page.locator('#foundations-catalog [data-foundation-lesson-id]')
     .evaluateAll(nodes=>nodes.map(node=>node.getAttribute('data-foundation-lesson-id')));
   expect(ids).toEqual(expected);
