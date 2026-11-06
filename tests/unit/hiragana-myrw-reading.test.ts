@@ -7,7 +7,7 @@ describe('M/Y/R/W original reading bank',()=>{
   for(const q of bank.items){
    expect(q.options).toHaveLength(4);
    expect(q.options[q.correctIndex]).toBe(q.answer);
-   expect(q.answerKey.accepted).toEqual([q.answer]);
+   expect(q.answerKey.choiceId).toBe(q.choices[q.correctIndex].id);
    expect(q.evidence.phrase.length).toBeGreaterThan(1);
    expect(q.explanation).toContain(q.evidence.phrase);
   }
