@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { recordAttempt, toggleBookmark } from '../../lib/progress';
+import { recordAttempt, toggleBookmark, getSnapshot } from '../../lib/progress';
 
 export type CheckQuestion = { id: string; area: string; prompt: string; choices: { id: string; text: string; rationale: string }[]; answerKey: { choiceId: string }; explanation: string; evidence: string; trackId?: string };
 export type CheckTrack = { id: string; label: string; url: string; transcript: string; english: string };
@@ -16,7 +16,7 @@ export default function MYRWCheckpoint({ questions, tracks }: { questions: Check
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [audioError, setAudioError] = useState<Record<string,boolean>>({});
-  const [bookmarked, setBookmarked] = useState(false);
+  const [weakSaved, setWeakSaved] = useState(false);
   const [ready, setReady] = useState(false);
   useEffect(() => setReady(true), []);
   const valid = questions.length === 12 && new Set(questions.map(q => q.id)).size === 12 && tracks.length === 2;
@@ -34,7 +34,7 @@ export default function MYRWCheckpoint({ questions, tracks }: { questions: Check
     finally { setBusy(false); }
   }
   function restart() {
-    setAnswers({}); setPlayed({}); setRevealed({}); setAssisted(false); setSubmitted(false); setSaved(false); setError(''); setAudioError({});
+    setAnswers({}); setPlayed({}); setRevealed({}); setAssisted(false); setSubmitted(false); setSaved(false); setError(''); setAudioError({}); setWeakSaved(false);
   }
   return <section className="foundation-practice" aria-labelledby="checkpoint-heading">
     <h2 id="checkpoint-heading">Chapter 03 mixed checkpoint</h2>
@@ -64,7 +64,16 @@ export default function MYRWCheckpoint({ questions, tracks }: { questions: Check
       <h3 role="status">{score} / {questions.length} correct — {assisted ? 'assisted transcript review' : 'unaided listening attempt'}</h3>
       <p>{saved ? 'Attempt saved in this browser.' : 'Attempt was not saved.'} Review explanations above and practise any missed areas.</p>
       <button type="button" className="btn btn-outline" onClick={restart}>Try checkpoint again</button>
-      <button type="button" className="btn btn-outline" aria-pressed={bookmarked} onClick={async () => { try { setBookmarked(await toggleBookmark('l0-m02-c03-chk-review')); setError(''); } catch { setError('Unable to save review bookmark.'); } }}>{bookmarked ? 'Review bookmarked' : 'Bookmark weak areas for review'}</button>
+      <button type="button" className="btn btn-outline" disabled={weakSaved || score === questions.length} onClick={async () => {
+        try {
+          const existing = new Set((await getSnapshot()).bookmarks.map(b => b.id));
+          for (const q of questions.filter(q => answers[q.id] !== q.answerKey.choiceId)) {
+            const key = 'review-' + q.id;
+            if (!existing.has(key)) await toggleBookmark(key);
+          }
+          setWeakSaved(true); setError('');
+        } catch { setError('Unable to save missed-item review bookmarks.'); }
+      }}>{weakSaved ? 'Missed items saved for review' : 'Save missed items to review bookmarks'}</button>
       <p><a href="/learn/start/module-02/chapter-03/lesson-03/">Review ん and を</a> · <a href="/learn/start/module-02/chapter-03/lesson-05/">Review reading</a> · <a href="/learn/start/module-02/chapter-03/lesson-06/">Review listening</a> · <a href="/learn/start/module-02/chapter-03/lesson-07/">Review writing</a></p>
     </>}
     {error && <p role="alert">{error}</p>}
