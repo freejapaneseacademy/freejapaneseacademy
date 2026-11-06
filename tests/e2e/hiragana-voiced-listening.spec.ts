@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 const url='/learn/start/module-03/chapter-01/lesson-06/';
 test('listening route and Foundations navigation',async({page})=>{
  await page.goto('/learn/start/');
- await expect(page.getByRole('link',{name:/Study Chapter 01 lesson 06: voiced hiragana listening/})).toHaveAttribute('href',url);
+ await expect(page.getByRole('link',{name:/Study lesson: Hear voiced hiragana in a bakery and at the zoo/})).toHaveAttribute('href',url);
  await page.goto(url);
  await expect(page.getByRole('heading',{level:1,name:'Hear voiced hiragana in a bakery and at the zoo'})).toBeVisible();
  await expect(page.locator('audio')).toHaveCount(2);
