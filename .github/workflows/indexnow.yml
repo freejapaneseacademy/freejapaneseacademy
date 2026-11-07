@@ -1,0 +1,37 @@
+name: IndexNow production notifications
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: Submit every canonical indexable URL from production sitemap
+        type: boolean
+        required: false
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: indexnow-production-main
+  cancel-in-progress: true
+jobs:
+  submit:
+    if: github.repository == 'freejapaneseacademy/freejapaneseacademy'
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test IndexNow URL safety
+        run: node --test tests/indexnow.test.mjs
+      - name: Submit only after the exact production deployment succeeds
+        run: node scripts/indexnow-submit.mjs
+        env:
+          TARGET_COMMIT: ${{ github.sha }}
+          PREVIOUS_COMMIT: ${{ github.event.before }}
+          INDEXNOW_BOOTSTRAP: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap || false }}

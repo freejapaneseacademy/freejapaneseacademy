@@ -1,0 +1,214 @@
+{
+  "lessonId": "l0-m03-c04-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m03-c04-l07-01",
+      "prompt": "Type 'book' in hiragana.",
+      "answer": "ほん",
+      "explanation": "ほん means book; the kana are ほ + ん.",
+      "legacyId": "c04l07-q01",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-1"
+      ],
+      "answerKey": {
+        "accepted": [
+          "ほん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l07-02",
+      "prompt": "Type 'cat' in hiragana.",
+      "answer": "ねこ",
+      "explanation": "ねこ means cat, written ね + こ.",
+      "legacyId": "c04l07-q02",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-2"
+      ],
+      "answerKey": {
+        "accepted": [
+          "ねこ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l07-03",
+      "prompt": "Type 'library' in hiragana.",
+      "answer": "としょかん",
+      "explanation": "としょかん contains small ょ in しょ and final ん.",
+      "legacyId": "c04l07-q03",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-3"
+      ],
+      "answerKey": {
+        "accepted": [
+          "としょかん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l07-04",
+      "prompt": "Type 'next to' in hiragana.",
+      "answer": "となり",
+      "explanation": "となり identifies an adjacent location.",
+      "legacyId": "c04l07-q04",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-4"
+      ],
+      "answerKey": {
+        "accepted": [
+          "となり"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l07-05",
+      "prompt": "Type 'a book about cats' as one hiragana phrase, without spaces.",
+      "answer": "ねこのほん",
+      "explanation": "の links ねこ and ほん: a book about cats.",
+      "legacyId": "c04l07-q05",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-5"
+      ],
+      "answerKey": {
+        "accepted": [
+          "ねこのほん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l07-06",
+      "prompt": "Type 'I look at a book.' in hiragana with 。 and no spaces.",
+      "answer": "ほんをみます。",
+      "explanation": "を marks the object ほん; みます is the polite verb; 。 closes the sentence.",
+      "legacyId": "c04l07-q06",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-6"
+      ],
+      "answerKey": {
+        "accepted": [
+          "ほんをみます。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l07-07",
+      "prompt": "Type 'Do you have a book?' in hiragana with 。 and no spaces.",
+      "answer": "ほんはありますか。",
+      "explanation": "は marks the topic and か makes this a question; the full stop 。 ends the sentence.",
+      "legacyId": "c04l07-q07",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-7"
+      ],
+      "answerKey": {
+        "accepted": [
+          "ほんはありますか。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l07-08",
+      "prompt": "Type 'The cat book is over there.' in hiragana with 。 and no spaces.",
+      "answer": "ねこのほんはあそこです。",
+      "explanation": "ねこのほん is the topic marked by は; あそこです means it is over there.",
+      "legacyId": "c04l07-q08",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "level": "l0",
+      "skills": [
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l07-hiragana-text-8"
+      ],
+      "answerKey": {
+        "accepted": [
+          "ねこのほんはあそこです。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    }
+  ]
+}

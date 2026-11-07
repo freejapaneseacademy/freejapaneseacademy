@@ -29,10 +29,11 @@ function entryFor(mainItems, branchItems, target) {
 function allowed(path, id, entry) {
   if(path==='docs/LESSON_INVENTORY.json'||path===entry.content)return true;
   if(path===entry.url.replace(/^\//,'src/pages/').replace(/\/$/,'.astro'))return true;
+  if(path==='docs/qa/'+id+'.md')return true;
   if(path.startsWith('scripts/tts/jobs/'))return path==='scripts/tts/jobs/'+id+'.json';
   if(path.startsWith('public/audio/'))return path.includes(id)&&path.endsWith('.wav');
   if(path.startsWith('src/content/audio/'))return path.includes(id)&&path.endsWith('.json');
-  return /^(src\/components\/interactive\/[^/]+\.tsx|src\/lib\/[^/]+\.ts|src\/content\/exercises\/[^/]+\.json|tests\/(?:e2e\/)?[^/]+\.(?:spec|test)\.(?:ts|tsx)|docs\/QA[^/]+\.md|docs\/automation\/OWNERS\/[^/]+\.md)$/.test(path);
+  return /^(src\/components\/interactive\/[^/]+\.tsx|src\/lib\/[^/]+\.ts|src\/content\/exercises\/[^/]+\.json|src\/test\/[^/]+\.test\.ts|tests\/(?:e2e\/[^/]+\.spec\.(?:ts|tsx)|unit\/[^/]+\.test\.(?:ts|tsx)|[^/]+\.(?:spec|test)\.(?:ts|tsx))|docs\/QA[^/]+\.md|docs\/automation\/OWNERS\/[^/]+\.md)$/.test(path);
 }
 function exactSuccess(runs, sha, repo){
   return runs.some(r=>r.head_sha===sha&&['push','workflow_dispatch'].includes(r.event)&&
@@ -108,19 +109,14 @@ async function run({github,core,context}){
     core.warning('Canonical source or route already exists in production; do not overwrite it.');
     return;
   }
-  // The L06 audio generator may be running for up to 55 minutes.
-  // Never touch its branch while the genuine WAVs/manifest are still absent.
-  if(target.endsWith('-l06')){
-    const names=[...headTree.files.keys()];
-    const manifest=names.some(p=>p.startsWith('src/content/audio/'+target+'-v')&&p.endsWith('.json'));
-    const waves=['a','b'].every(track=>names.some(p=>
-      p.startsWith('public/audio/fja-'+target+'-'+track+'-v')&&p.endsWith('.wav')));
-    if(!manifest||!waves){
-      core.info('Audio generator has not finished both real recordings for '+target+
-        '; other owners can complete later lessons in parallel.');
-      return;
-    }
-  }
+  // Genuine audio is mandatory, but reconciling a stale author branch must
+  // happen before waiting for it: otherwise a failed generator push deadlocks
+  // the publication queue. The rebuilt branch receives latest trusted audio CI.
+  const names=[...headTree.files.keys()];
+  const mediaReady=!target.endsWith('-l06')||(
+    names.some(p=>p.startsWith('src/content/audio/'+target+'-v')&&p.endsWith('.json'))&&
+    ['a','b'].every(track=>names.some(p=>
+      p.startsWith('public/audio/fja-'+target+'-'+track+'-v')&&p.endsWith('.wav'))));
   const ancestor=(await github.rest.repos.compareCommits({owner,repo,base:main,head})).data.merge_base_commit.sha;
   const needsReconcile=ancestor!==main||entry.status!=='published'||entry.noindex!==false;
   if(needsReconcile){
@@ -151,12 +147,48 @@ async function run({github,core,context}){
     const mergeCommit=(await github.rest.git.createCommit({owner,repo,tree:tree.sha,
       parents:[head,main],message:'ci(release): reconcile '+target+' with production main'})).data;
     await github.rest.git.updateRef({owner,repo,ref:'heads/'+branch,sha:mergeCommit.sha,force:false});
-    await github.rest.actions.createWorkflowDispatch({
-      owner,repo,workflow_id:'lesson-quality.yml',ref:branch
-    });
-    core.notice('Integrated complete '+target+' at '+mergeCommit.sha+
-      '; dispatched exact-head CI for automatic release.');
+    // The job is already on the branch; dispatch generator from this *latest*
+    // main-integrated head, not the superseded pre-integration workflow.
+    if(target.endsWith('-l06')&&!mediaReady){
+      const prior=(await github.rest.actions.listWorkflowRuns({
+        owner,repo,workflow_id:'lesson-audio-generation.yml',branch,per_page:20
+      })).data.workflow_runs;
+      if(!prior.some(r=>r.status!=='completed')){
+        await github.rest.actions.createWorkflowDispatch({
+          owner,repo,workflow_id:'lesson-audio-generation.yml',ref:branch,
+          inputs:{job_path:'scripts/tts/jobs/'+target+'.json'}
+        });
+      }
+      core.notice('Integrated '+target+' at '+mergeCommit.sha+
+        '; real audio generation queued on the reconciled branch.');
+    }else{
+      await github.rest.actions.createWorkflowDispatch({
+        owner,repo,workflow_id:'lesson-quality.yml',ref:branch
+      });
+      core.notice('Integrated complete '+target+' at '+mergeCommit.sha+
+        '; dispatched exact-head CI for automatic release.');
+    }
     return;
+  }
+  if(!mediaReady){
+    // Reclaim stalled audio jobs automatically after checkout/branch races.
+    // Never merge or claim real audio exists without WAV + manifest evidence.
+    const audio=(await github.rest.actions.listWorkflowRuns({
+      owner,repo,workflow_id:'lesson-audio-generation.yml',branch,per_page:30
+    })).data.workflow_runs;
+    if(audio.some(r=>r.status!=='completed')){
+      core.info('Real audio synthesis is still running for '+target);return;
+    }
+    const failures=audio.filter(r=>r.status==='completed'&&r.conclusion==='failure'&&r.head_sha===head);
+    if(failures.length>=2){
+      core.warning('Audio generator failed twice on the SAME head '+head+
+        '; owning author must repair based on workflow logs.');return;
+    }
+    await github.rest.actions.createWorkflowDispatch({
+      owner,repo,workflow_id:'lesson-audio-generation.yml',ref:branch,
+      inputs:{job_path:'scripts/tts/jobs/'+target+'.json'}
+    });
+    core.notice('Dispatched authentic audio generation for '+target);return;
   }
   if(!green){
     const active=history.some(r=>r.head_sha===head&&r.status!=='completed'&&
