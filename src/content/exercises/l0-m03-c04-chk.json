@@ -17,7 +17,7 @@
         "l0-m03-c04-chk-item-1"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -57,7 +57,7 @@
         "l0-m03-c04-chk-item-2"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -97,7 +97,7 @@
         "l0-m03-c04-chk-item-3"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -137,7 +137,7 @@
         "l0-m03-c04-chk-item-4"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "script-recognition"
@@ -177,7 +177,7 @@
         "l0-m03-c04-chk-item-5"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "reading-comprehension"
@@ -217,7 +217,7 @@
         "l0-m03-c04-chk-item-6"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "reading-comprehension"
@@ -257,7 +257,7 @@
         "l0-m03-c04-chk-item-7"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "reading-comprehension"
@@ -297,7 +297,7 @@
         "l0-m03-c04-chk-item-8"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "reading-comprehension"
@@ -337,7 +337,7 @@
         "l0-m03-c04-chk-item-9"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension"
@@ -378,7 +378,7 @@
         "l0-m03-c04-chk-item-10"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension"
@@ -419,7 +419,7 @@
         "l0-m03-c04-chk-item-11"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension"
@@ -460,7 +460,7 @@
         "l0-m03-c04-chk-item-12"
       ],
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension"
