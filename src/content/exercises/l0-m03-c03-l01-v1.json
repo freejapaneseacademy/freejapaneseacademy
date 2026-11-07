@@ -1,0 +1,422 @@
+{
+  "id": "l0-m03-c03-l01",
+  "lessonId": "l0-m03-c03-l01",
+  "version": 1,
+  "status": "published",
+  "source": "Original library label-reading lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c03-l01-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Who prepares the written labels?",
+      "options": [
+        "Mika",
+        "Ren",
+        "Nao"
+      ],
+      "correctIndex": 0,
+      "feedback": "Mika prepares three labels for the display shelf.",
+      "explanation": "Mika prepares three labels for the display shelf.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "Mika prepares three labels"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-01-c1",
+          "text": "Mika",
+          "rationale": "Mika prepares three labels for the display shelf."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-01-c2",
+          "text": "Ren",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-01-c3",
+          "text": "Nao",
+          "rationale": "This does not match the written label or participant evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l01-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Who matches labels to pictures?",
+      "options": [
+        "Nao",
+        "Ren",
+        "Mika"
+      ],
+      "correctIndex": 1,
+      "feedback": "Ren matches each label to a picture.",
+      "explanation": "Ren matches each label to a picture.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "Ren matches each label"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-02-c1",
+          "text": "Nao",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-02-c2",
+          "text": "Ren",
+          "rationale": "Ren matches each label to a picture."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-02-c3",
+          "text": "Mika",
+          "rationale": "This does not match the written label or participant evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l01-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Who checks the kana sizes?",
+      "options": [
+        "Mika",
+        "Ren",
+        "Nao"
+      ],
+      "correctIndex": 2,
+      "feedback": "Nao checks the kana and explains small っ.",
+      "explanation": "Nao checks the kana and explains small っ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "Nao"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-03-c1",
+          "text": "Mika",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-03-c2",
+          "text": "Ren",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-03-c3",
+          "text": "Nao",
+          "rationale": "Nao checks the kana and explains small っ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l01-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word means postage stamp?",
+      "options": [
+        "きっぷ",
+        "きって",
+        "つき"
+      ],
+      "correctIndex": 1,
+      "feedback": "きって means postage stamp and contains small っ.",
+      "explanation": "きって means postage stamp and contains small っ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "きって"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-04-c1",
+          "text": "きっぷ",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-04-c2",
+          "text": "きって",
+          "rationale": "きって means postage stamp and contains small っ."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-04-c3",
+          "text": "つき",
+          "rationale": "This does not match the written label or participant evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l01-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Which label has full-sized つ rather than small っ?",
+      "options": [
+        "つき",
+        "きって",
+        "きっぷ"
+      ],
+      "correctIndex": 0,
+      "feedback": "つき begins with full-sized つ and means moon.",
+      "explanation": "つき begins with full-sized つ and means moon.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "full-sized つ at the start"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-05-c1",
+          "text": "つき",
+          "rationale": "つき begins with full-sized つ and means moon."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-05-c2",
+          "text": "きって",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-05-c3",
+          "text": "きっぷ",
+          "rationale": "This does not match the written label or participant evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l01-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word means ticket?",
+      "options": [
+        "こうえん",
+        "きって",
+        "きっぷ"
+      ],
+      "correctIndex": 2,
+      "feedback": "きっぷ means ticket and contains small っ.",
+      "explanation": "きっぷ means ticket and contains small っ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "きっぷ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-06-c1",
+          "text": "こうえん",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-06-c2",
+          "text": "きって",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-06-c3",
+          "text": "きっぷ",
+          "rationale": "きっぷ means ticket and contains small っ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l01-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Which label uses the おお long-o spelling?",
+      "options": [
+        "おおきい",
+        "こうえん",
+        "せんせい"
+      ],
+      "correctIndex": 0,
+      "feedback": "おおきい means big and uses おお.",
+      "explanation": "おおきい means big and uses おお.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "おおきい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-07-c1",
+          "text": "おおきい",
+          "rationale": "おおきい means big and uses おお."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-07-c2",
+          "text": "こうえん",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-07-c3",
+          "text": "せんせい",
+          "rationale": "This does not match the written label or participant evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l01-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l01-small-tsu-long-vowels"
+      ],
+      "prompt": "Which label uses the common えい long-e spelling?",
+      "options": [
+        "こうえん",
+        "せんせい",
+        "おおきい"
+      ],
+      "correctIndex": 1,
+      "feedback": "せんせい means teacher and includes せい.",
+      "explanation": "せんせい means teacher and includes せい.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
+        "phrase": "せんせい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l01-08-c1",
+          "text": "こうえん",
+          "rationale": "This does not match the written label or participant evidence."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-08-c2",
+          "text": "せんせい",
+          "rationale": "せんせい means teacher and includes せい."
+        },
+        {
+          "id": "ex-l0-m03-c03-l01-08-c3",
+          "text": "おおきい",
+          "rationale": "This does not match the written label or participant evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l01-08-c2"
+      }
+    }
+  ]
+}
