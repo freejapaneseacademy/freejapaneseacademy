@@ -1883,6 +1883,23 @@
       "noindex": false,
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52"
+    },
+    {
+      "id": "l0-m04-c02-l03",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c02",
+      "slot": "L03",
+      "title": "Katakana shape clues — distinguish N, H, M and Y rows",
+      "content": "src/content/lessons/l0/katakana-nhmy-shape-function.mdx",
+      "url": "/learn/start/module-04/chapter-02/lesson-03/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written shape discrimination; authentic listening belongs to L06",
+      "noindex": true,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
