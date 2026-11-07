@@ -242,7 +242,7 @@
       "explanation": "つき begins with full-sized つ and means moon.",
       "evidence": {
         "source": "src/content/lessons/l0/hiragana-small-tsu-context.mdx",
-        "phrase": "つき"
+        "phrase": "full-sized つ at the start"
       },
       "choices": [
         {
