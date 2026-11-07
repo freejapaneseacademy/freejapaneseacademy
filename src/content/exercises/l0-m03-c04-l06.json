@@ -41,7 +41,7 @@
       "explanation": "The visitor asks for a book about cats.",
       "evidence": "はい。ねこのほんはありますか。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -82,7 +82,7 @@
       "explanation": "あのたな means that shelf.",
       "evidence": "はい。あのたなにあります。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -123,7 +123,7 @@
       "explanation": "はい confirms it is available.",
       "evidence": "はい。あのたなにあります。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -164,7 +164,7 @@
       "explanation": "かりる means to borrow.",
       "evidence": "このほんをかりてもいいですか。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -205,7 +205,7 @@
       "explanation": "なまえ means name.",
       "evidence": "はい。なまえをかいてください。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
@@ -246,7 +246,7 @@
       "explanation": "ここに means here.",
       "evidence": "はい。ここにかいてください。",
       "type": "single-choice",
-      "status": "draft",
+      "status": "drafted",
       "level": "l0",
       "skills": [
         "listening-comprehension",
