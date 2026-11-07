@@ -7,9 +7,9 @@ import bank from '../../../../../content/exercises/l0-m04-c02-chk.json';
 import manifest from '../../../../../content/audio/l0-m04-c02-l06-v1.json';
 import '../../../../../styles/foundations.css';
 const lesson=await getEntry('lessons','l0/katakana-nhmy-checkpoint');
-if(!lesson||lesson.data.lessonId!=='l0-m04-c02-chk'||bank.items.length!==12||manifest.assets.length!==2||manifest.assets.some(a=>!a.rights.redistributionCleared||!a.qa.sha256||a.turns.length<4))throw new Error('Missing checkpoint or verified source-audio manifest');
+if(!lesson||lesson.data.lessonId!=='l0-m04-c02-chk'||bank.items.length!==12||manifest.assets.length!==2||manifest.assets.some((a: (typeof manifest.assets)[number])=>!a.rights.redistributionCleared||!a.qa.sha256||a.turns.length<4))throw new Error('Missing checkpoint or verified source-audio manifest');
 const {Content}=await render(lesson);
-const tracks=manifest.assets.map((a,i)=>({id:a.id,label:i?'Track B — Deli counter':'Track A — Fruit stall',url:a.mediaPath,transcript:a.transcript,english:a.english}));
+const tracks=manifest.assets.map((a: (typeof manifest.assets)[number],i: number)=>({id:a.id,label:i?'Track B — Deli counter':'Track A — Fruit stall',url:a.mediaPath,transcript:a.transcript,english:a.english}));
 ---
 <Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Katakana checkpoint',href:'/learn/start/module-04/chapter-02/checkpoint/'}]}>
 <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 04 · Chapter 02 · Checkpoint</span></nav><span class="eyebrow">LEVEL 0 · MODULE 04 · CHAPTER 02 · CHECKPOINT</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>12 scored questions</span><span>2 licensed audio tracks</span></div></div></section>
