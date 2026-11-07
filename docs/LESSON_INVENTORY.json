@@ -1599,6 +1599,24 @@
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m03-c03-l03",
+      "level": "l0",
+      "moduleId": "l0-m03",
+      "chapterId": "l0-m03-c03",
+      "slot": "L03",
+      "title": "Small っ and long vowels — why spelling changes timing",
+      "content": "src/content/lessons/l0/hiragana-small-tsu-grammar.mdx",
+      "url": "/learn/start/module-03/chapter-03/lesson-03/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written grammar L03; genuine dictation deferred to L06",
+      "noindex": false,
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
