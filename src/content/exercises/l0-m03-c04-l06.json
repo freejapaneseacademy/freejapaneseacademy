@@ -1,0 +1,257 @@
+{
+  "id": "l0-m03-c04-l06-check-v1",
+  "lessonId": "l0-m03-c04-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m03-c04-l06-a",
+    "audio-l0-m03-c04-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m03-c04-l06-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l06-spoken-1"
+      ],
+      "trackId": "audio-l0-m03-c04-l06-a",
+      "prompt": "What kind of book is the visitor looking for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A book about cats",
+          "rationale": "The spoken evidence is: はい。ねこのほんはありますか。"
+        },
+        {
+          "id": "b",
+          "text": "A book about trains",
+          "rationale": "This is not what the speakers say."
+        },
+        {
+          "id": "c",
+          "text": "A cookbook",
+          "rationale": "This is not what the speakers say."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The visitor asks for a book about cats.",
+      "evidence": "はい。ねこのほんはありますか。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c04-l06-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l06-spoken-2"
+      ],
+      "trackId": "audio-l0-m03-c04-l06-a",
+      "prompt": "Where does the clerk say the book is?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On that shelf",
+          "rationale": "The spoken evidence is: はい。あのたなにあります。"
+        },
+        {
+          "id": "b",
+          "text": "At the entrance",
+          "rationale": "This is not what the speakers say."
+        },
+        {
+          "id": "c",
+          "text": "On the desk",
+          "rationale": "This is not what the speakers say."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あのたな means that shelf.",
+      "evidence": "はい。あのたなにあります。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c04-l06-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l06-spoken-3"
+      ],
+      "trackId": "audio-l0-m03-c04-l06-a",
+      "prompt": "Does the clerk have the requested book?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes",
+          "rationale": "The spoken evidence is: はい。あのたなにあります。"
+        },
+        {
+          "id": "b",
+          "text": "No",
+          "rationale": "This is not what the speakers say."
+        },
+        {
+          "id": "c",
+          "text": "The clerk is unsure",
+          "rationale": "This is not what the speakers say."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "はい confirms it is available.",
+      "evidence": "はい。あのたなにあります。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c04-l06-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l06-spoken-4"
+      ],
+      "trackId": "audio-l0-m03-c04-l06-b",
+      "prompt": "What does the visitor want to do with the book?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Borrow it",
+          "rationale": "The spoken evidence is: このほんをかりてもいいですか。"
+        },
+        {
+          "id": "b",
+          "text": "Buy it",
+          "rationale": "This is not what the speakers say."
+        },
+        {
+          "id": "c",
+          "text": "Return it",
+          "rationale": "This is not what the speakers say."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "かりる means to borrow.",
+      "evidence": "このほんをかりてもいいですか。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c04-l06-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l06-spoken-5"
+      ],
+      "trackId": "audio-l0-m03-c04-l06-b",
+      "prompt": "What does the clerk ask the visitor to write?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their name",
+          "rationale": "The spoken evidence is: はい。なまえをかいてください。"
+        },
+        {
+          "id": "b",
+          "text": "The date",
+          "rationale": "This is not what the speakers say."
+        },
+        {
+          "id": "c",
+          "text": "The book title",
+          "rationale": "This is not what the speakers say."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "なまえ means name.",
+      "evidence": "はい。なまえをかいてください。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c04-l06-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l06-spoken-6"
+      ],
+      "trackId": "audio-l0-m03-c04-l06-b",
+      "prompt": "Where should the visitor write?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Here",
+          "rationale": "The spoken evidence is: はい。ここにかいてください。"
+        },
+        {
+          "id": "b",
+          "text": "At home",
+          "rationale": "This is not what the speakers say."
+        },
+        {
+          "id": "c",
+          "text": "On the shelf",
+          "rationale": "This is not what the speakers say."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ここに means here.",
+      "evidence": "はい。ここにかいてください。",
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    }
+  ]
+}
