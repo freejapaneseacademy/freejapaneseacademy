@@ -1900,6 +1900,23 @@
       "noindex": false,
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "l0-m04-c03-l05",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c03",
+      "slot": "L05",
+      "title": "Read katakana shop labels and cite printed evidence",
+      "content": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+      "url": "/learn/start/module-04/chapter-03/lesson-05/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written store-label reading L05; pronunciation audio belongs to L06",
+      "noindex": true,
+      "ownerSlot": ":45",
+      "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
