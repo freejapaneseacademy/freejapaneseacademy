@@ -1,6 +1,6 @@
 # FreeJapaneseAcademy — agent instructions
 
-Read `docs/automation/Master_Prompt_v2_1.txt` and the full `docs/curriculum/FreeJapaneseAcademy_Master_Curriculum_Blueprint.txt` before choosing or implementing a lesson. Follow the chapter/step's exact ID and objective, and do NOT extrapolate from a partial blueprint excerpt.
+Read `docs/automation/Master_Prompt_v2_1.txt`, `docs/automation/PARALLEL_LESSON_RELEASE.md`, and the FULL relevant module/chapter/lesson section (including prerequisites and objectives) of `docs/curriculum/FreeJapaneseAcademy_Master_Curriculum_Blueprint.txt` before implementing a lesson. Follow the exact ID and objective; do NOT invent missing curriculum details or spend a scheduled production run scanning unrelated sections.
 
 ## Six educational skills (the complete extracted source ZIPs)
 - `.agents/skills/japanese-lesson-author/SKILL.md`
@@ -17,7 +17,7 @@ The website owner explicitly preauthorizes AUTOMATED PUBLICATION of completed le
 
 ## Safety for concurrent scheduled agents
 - One canonical micro-lesson per invocation. Do not create adjacent lessons.
-- Read latest `main`, active pull requests/branches, and Cloudflare production/preview deployments. If a lesson task is in progress, skip.
+- Read latest `main`, all lesson branch refs/PRs, and Cloudflare production status. If the next lesson is already claimed, atomically claim the earliest OTHER unclaimed canonical ID and author it fully in this run. Another task being in progress is NOT a reason to skip production; the trusted release queue handles strict publication order.
 - Do not force-push or overwrite changes. Recheck latest `main` immediately before merge; use expected-head SHA and merge protection.
 - Never infer a successful deployment from a GitHub commit; confirm production deployment from Cloudflare.
 - When tools for editing/testing/deployment are unavailable, report the blocker truthfully rather than fabricating progress or skipping tests unnoticed.
