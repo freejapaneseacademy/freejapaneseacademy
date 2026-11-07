@@ -157,7 +157,31 @@ jobs:
             echo 'Identical candidates already committed'
           else
             git commit -m 'chore(audio): store verified candidate recordings for lesson review'
-            git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
+            # Other owners may have updated this same branch while AivisSpeech
+            # was synthesizing. Never force-push or discard either change.
+            # Preserve the original job contract; refuse stale recordings if
+            # the spoken dialogue/job changed during generation.
+            audio_job_hash="$(sha256sum "$LESSON_AUDIO_JOB" | cut -d' ' -f1)"
+            published=0
+            for attempt in 1 2 3 4; do
+              if git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"; then
+                published=1
+                break
+              fi
+              echo "Audio push raced with another branch update; fetching and safely rebasing (attempt $attempt)"
+              git fetch --no-tags origin "refs/heads/$GITHUB_REF_NAME"
+              remote_job_hash="$(git show "FETCH_HEAD:$LESSON_AUDIO_JOB" | sha256sum | cut -d' ' -f1)"
+              if [ "$remote_job_hash" != "$audio_job_hash" ]; then
+                echo 'Audio job changed while synthesizing. Do not publish stale WAV files.'
+                exit 1
+              fi
+              git rebase FETCH_HEAD
+              sleep 2
+            done
+            if [ "$published" -ne 1 ]; then
+              echo 'Audio commit could not be pushed safely after four fetch-and-rebase attempts.'
+              exit 1
+            fi
           fi
 
       - name: Dispatch fresh quality gates on the generated branch head

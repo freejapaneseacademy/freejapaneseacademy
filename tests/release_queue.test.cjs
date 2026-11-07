@@ -33,6 +33,12 @@ test('only new lesson files are eligible for privileged automatic release',()=>{
   assert.equal(allowed('public/audio/fja-l0-m03-c04-l05-a-v1.wav',id,entry),false);
   assert.equal(allowed('public/audio/fja-l0-m03-c04-l06-a-v1.wav',id,entry),true);
   assert.equal(allowed('src/pages/learn/start/module-03/chapter-04/lesson-06.astro',id,entry),true);
+  assert.equal(allowed('docs/qa/'+id+'.md',id,entry),true);
+  assert.equal(allowed('docs/qa/l0-m03-c04-l08.md',id,entry),false);
+  assert.equal(allowed('tests/unit/l06-unit.test.ts',id,entry),true);
+  assert.equal(allowed('src/test/l06-unit.test.ts',id,entry),true);
+  assert.equal(allowed('tests/e2e/l06-playback.spec.ts',id,entry),true);
+  assert.equal(allowed('.github/workflows/autonomous-lesson-release.yml',id,entry),false);
 });
 test('exact-head CI success is not inferred from another SHA or failed run',()=>{
   const r={head_sha:'candidate',event:'workflow_dispatch',conclusion:'success',
