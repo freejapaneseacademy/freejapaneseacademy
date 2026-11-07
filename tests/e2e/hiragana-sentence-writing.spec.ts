@@ -4,7 +4,7 @@ test('L07 writing keyboard and 320px mobile', async ({ page }) => {
  await page.goto('/learn/start/module-03/chapter-04/lesson-07/');
  await expect(page.getByRole('heading',{name:'Write the library words and sentences'})).toBeVisible();
  const values=['ほん','ねこ','としょかん','となり','ねこのほん','ほんをみます。','ほんはありますか。','ねこのほんはあそこです。'];
- for(let i=0;i<values.length;i++){await page.locator('input[id="c04l07-q0'+(i+1)+'"]').fill(values[i]);}
+ for(let i=0;i<values.length;i++){await page.locator('input[id="ex-l0-m03-c04-l07-0'+(i+1)+'"]').fill(values[i]);}
  await page.getByRole('button',{name:'Check eight answers'}).click();
  await expect(page.getByText('Writing score: 8/8.',{exact:false})).toBeVisible();
  await page.getByRole('button',{name:'Try again'}).click();
