@@ -1900,6 +1900,22 @@
       "noindex": false,
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "l0-m04-c03-l06",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c03",
+      "slot": "L06",
+      "title": "Hear two original shop conversations: bread, juice and a gift",
+      "content": "src/content/lessons/l0/katakana-rw-voiced-listening.mdx",
+      "url": "/learn/start/module-04/chapter-03/lesson-06/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent pronunciation and transcript-to-waveform review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "schema-v3 AivisSpeech job committed; two real WAVs and manifest must be generated and validated before publication",
+      "noindex": true,
+      "ownerApproval": "automatic publication preauthorized after exact-head CI and Cloudflare verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
