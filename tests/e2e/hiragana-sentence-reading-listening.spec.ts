@@ -11,8 +11,10 @@ test('listening lesson renders via shared layout and remains usable at 320px', a
 test('listening lesson has keyboard-operable player and six questions', async ({ page }) => {
  await page.goto(path);
  await expect(page.locator('audio')).toHaveCount(2);
- await expect(page.getByText('What kind of book is the visitor looking for?')).toBeVisible();
- await expect(page.getByText('What does the clerk ask the visitor to write?')).toBeVisible();
+ const questions = page.locator('fieldset.foundation-question');
+ await expect(questions).toHaveCount(6);
+ await expect(questions.first().locator('legend')).toContainText('What kind of book is the visitor looking for?');
+ await expect(questions.nth(4).locator('legend')).toContainText('What does the clerk ask the visitor to write?');
  await page.keyboard.press('Tab');
  expect(await page.evaluate(() => document.activeElement?.tagName)).not.toBe('BODY');
 });
