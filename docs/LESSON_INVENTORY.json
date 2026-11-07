@@ -1900,6 +1900,23 @@
       "noindex": false,
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "l0-m04-c01-l02",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c01",
+      "slot": "L02",
+      "title": "Katakana kiosk vocabulary — cocoa, cacao, ice and text",
+      "content": "src/content/lessons/l0/katakana-kst-vocabulary.mdx",
+      "url": "/learn/start/module-04/chapter-01/lesson-02/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L02",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
