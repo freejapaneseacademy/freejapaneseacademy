@@ -468,23 +468,23 @@
         {
           "id": "a",
           "text": "Eight o'clock",
-          "rationale": "Review: じゅうじ is ten o'clock."
+          "rationale": "Review: じゅうじ is ten o'clock. The quoted evidence confirms this answer."
         },
         {
           "id": "b",
           "text": "Ten o'clock",
-          "rationale": "Correct. じゅうじ is ten o'clock."
+          "rationale": "Correct. じゅうじ is ten o'clock. The quoted evidence confirms this answer."
         },
         {
           "id": "c",
           "text": "Noon",
-          "rationale": "Review: じゅうじ is ten o'clock."
+          "rationale": "Review: じゅうじ is ten o'clock. The quoted evidence confirms this answer."
         }
       ],
       "answerKey": {
         "choiceId": "b"
       },
-      "explanation": "じゅうじ is ten o'clock.",
+      "explanation": "じゅうじ is ten o'clock. Listen for the exact phrase in the original dialogue.",
       "evidence": "じゅうじにいきましょう。"
     }
   ]
