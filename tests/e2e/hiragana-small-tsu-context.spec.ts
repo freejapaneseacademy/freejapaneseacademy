@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 const url='/learn/start/module-03/chapter-03/lesson-01/';
 test('small-tsu library context is accessible and scores written responses',async({page})=>{
  await page.goto(url);
- await expect(page.getByRole('heading',{name:/Small っ and long vowels/})).toBeVisible();
+ await expect(page.getByRole('heading',{level:1,name:/Small っ and long vowels/})).toBeVisible();
  const fields=page.locator('fieldset');await expect(fields).toHaveCount(8);
  for(let i=0;i<8;i++)await fields.nth(i).locator('input[type=radio]').first().check();
  await page.getByRole('button',{name:'Check all eight answers'}).click();
