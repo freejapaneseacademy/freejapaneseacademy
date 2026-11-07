@@ -53,6 +53,17 @@ async function run({github,core,context}){
   const {owner,repo}=context.repo,full=owner+'/'+repo;
   if(full!==EXPECTED_REPO)throw new Error('Wrong repository for this release coordinator.');
   const main=(await github.rest.repos.getBranch({owner,repo,branch:'main'})).data.commit.sha;
+  // Never publish another lesson until the previously published main SHA
+  // has actually reached successful Cloudflare production.
+  const mainChecks=(await github.rest.checks.listForRef({
+    owner,repo,ref:main,per_page:100
+  })).data.check_runs;
+  const production=mainChecks.find(x=>x.name==='Cloudflare Pages');
+  if(!production||production.status!=='completed'||production.conclusion!=='success'){
+    core.info('Cloudflare production is not yet verified for main '+main+
+      '; queue will automatically retry after deployment.');
+    return;
+  }
   const mainDoc=JSON.parse(await getText(github,owner,repo,'docs/LESSON_INVENTORY.json',main));
   const mainPublished=mainDoc.items.filter(x=>x.level==='l0'&&x.status==='published');
   const target=nextId(mainPublished);
@@ -167,7 +178,14 @@ async function run({github,core,context}){
       owner,repo,ref:result.data.sha,per_page:100})).data.check_runs;
     const cf=runs.find(x=>x.name==='Cloudflare Pages');
     if(cf?.status==='completed'){
-      if(cf.conclusion==='success')core.notice('PUBLISHED '+target+' at '+result.data.sha);
+      if(cf.conclusion==='success'){
+        core.notice('PUBLISHED '+target+' at '+result.data.sha);
+        // GitHub GITHUB_TOKEN pushes do not trigger ordinary push workflows.
+        // Explicit dispatch guarantees the next prepared lesson is considered.
+        await github.rest.actions.createWorkflowDispatch({
+          owner,repo,workflow_id:'autonomous-lesson-release.yml',ref:'main'
+        });
+      }
       else core.setFailed('Cloudflare Pages failed at '+result.data.sha+
         '; owning author must repair. Do not claim published.');
       return;
