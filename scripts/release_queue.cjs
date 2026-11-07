@@ -91,6 +91,19 @@ async function run({github,core,context}){
   const green=exactSuccess(history,head,full);
   const mainTree=await getTree(github,owner,repo,main);
   const headTree=await getTree(github,owner,repo,head);
+  // The L06 audio generator may be running for up to 55 minutes.
+  // Never touch its branch while the genuine WAVs/manifest are still absent.
+  if(target.endsWith('-l06')){
+    const names=[...headTree.files.keys()];
+    const manifest=names.some(p=>p.startsWith('src/content/audio/'+target+'-v')&&p.endsWith('.json'));
+    const waves=['a','b'].every(track=>names.some(p=>
+      p.startsWith('public/audio/fja-'+target+'-'+track+'-v')&&p.endsWith('.wav')));
+    if(!manifest||!waves){
+      core.info('Audio generator has not finished both real recordings for '+target+
+        '; other owners can complete later lessons in parallel.');
+      return;
+    }
+  }
   const ancestor=(await github.rest.repos.compareCommits({owner,repo,base:main,head})).data.merge_base_commit.sha;
   const needsReconcile=ancestor!==main||entry.status!=='published'||entry.noindex!==false;
   if(needsReconcile){
