@@ -218,7 +218,20 @@ async function run({github,core,context}){
     if(cf?.status==='completed'){
       if(cf.conclusion==='success'){
         core.notice('PUBLISHED '+target+' at '+result.data.sha);
-        // GitHub GITHUB_TOKEN pushes do not trigger ordinary push workflows.
+        // GitHub GITHUB_TOKEN merges do not emit normal push workflow events.
+        // Dispatch IndexNow for only the newly deployed URLs, with the
+        // already-verified previous main commit as the diff base.
+        try {
+          await github.rest.actions.createWorkflowDispatch({
+            owner,repo,workflow_id:'indexnow.yml',ref:'main',
+            inputs:{bootstrap:'false',previous_commit:main}
+          });
+          core.notice('Dispatched incremental IndexNow for '+target);
+        } catch(e) {
+          // A search-engine notification issue must not conceal that the
+          // production deployment itself succeeded or stall the lesson queue.
+          core.warning('IndexNow dispatch failed for '+target+': '+String(e));
+        }
         // Explicit dispatch guarantees the next prepared lesson is considered.
         await github.rest.actions.createWorkflowDispatch({
           owner,repo,workflow_id:'autonomous-lesson-release.yml',ref:'main'

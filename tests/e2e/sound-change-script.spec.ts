@@ -23,6 +23,8 @@ for(const width of [320,375,390,768,1024]){
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width+2);
   await page.locator('html').evaluate(node=>{node.dataset.theme='dark';});
   const input=page.locator('#l04-q01');
+  // Astro renders this React-controlled input disabled until hydration completes.
+  await expect(input).toBeEnabled();
   await input.focus();await page.keyboard.type('test');
   await expect(input).toHaveValue('test');
  });

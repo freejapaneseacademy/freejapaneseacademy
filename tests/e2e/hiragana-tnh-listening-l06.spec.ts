@@ -17,7 +17,10 @@ test('L06 has two real audio controls, six questions and assisted scoring at 320
 
 test('L06 keyboard controls and transcript reset', async ({ page }) => {
   await page.goto('/learn/start/module-02/chapter-02/lesson-06/');
-  await page.getByRole('button', { name: 'Reveal transcript (assisted practice)' }).first().focus();
+  const transcriptButton = page.getByRole('button', { name: 'Reveal transcript (assisted practice)' }).first();
+  // The server-rendered button becomes interactive only after the React island hydrates.
+  await expect(transcriptButton).toBeEnabled();
+  await transcriptButton.focus();
   await page.keyboard.press('Enter');
   await expect(page.getByText('Japanese transcript', { exact: true }).first()).toBeVisible();
   await page.getByRole('button', { name: 'Start a new listening attempt' }).click();

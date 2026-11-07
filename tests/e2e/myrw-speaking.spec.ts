@@ -15,6 +15,9 @@ test('keyboard answers optional knowledge check and saves a separate numeric res
   await page.goto(route);
   const questions = page.locator('fieldset[data-question-id^="ex-l0-m02-c03-l08-"]');
   await expect(questions).toHaveCount(6);
+  // The React island enables its questions after hydration; pressing Space
+  // while the fieldset is still disabled silently fails on slower CI runners.
+  await expect(questions.first()).toBeEnabled();
   for (let i = 0; i < 6; i++) {
     const first = questions.nth(i).locator('input[type="radio"]').first();
     await first.focus();
