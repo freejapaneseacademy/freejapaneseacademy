@@ -16,3 +16,9 @@ Four independently running authors each create one complete DIFFERENT lesson per
 - Later lesson authors and tests work in parallel; public merges remain sequential. No duplicate lesson is published; no publisher may overwrite another's content, skip a missing prerequisite, or disable quality checks.
 - A complete lesson awaiting an earlier release is queued for publication, not failed or live. An actual failing check requires its OWNER to fix the lesson. A local Git DNS failure must not prevent use of connected GitHub API.
 - Only call a lesson "published" after the exact merged main commit has succeeded on Cloudflare. An unverified or blocked release cannot truthfully be labelled success.
+
+## 2026-11-07 operational repairs
+- The release coordinator accepts newly added lesson-only docs/qa/<lesson-id>.md, tests/unit and src/test files, while still refusing changes to existing lesson/global files or workflows.
+- A complete L06 with a valid committed job can be reconciled against latest main and the licensed WAV-generation workflow dispatched automatically; the queue still refuses to publish until both authentic WAV files and their verified manifest exist.
+- During synthesis, safe Git fetch-and-rebase retries accommodate authors moving their own branch; do not force push, overwrite the job contract, or claim that audio was reviewed by a human.
+- Keep publisher slots staggered. A quarter-hour is a throughput TARGET. Source, audio, quality and production gates cannot be bypassed to force a timestamp; a fully authored queued lesson is real progress, not a failed audit.
