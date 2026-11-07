@@ -1,6 +1,6 @@
 # FreeJapaneseAcademy — agent instructions
 
-Read `docs/automation/Master_Prompt_v2_1.txt` and the full `docs/curriculum/FreeJapaneseAcademy_Master_Curriculum_Blueprint.txt` before choosing or implementing a lesson. Follow the chapter/step's exact ID and objective, and do NOT extrapolate from a partial blueprint excerpt.
+Read `docs/automation/Master_Prompt_v2_1.txt`, `docs/automation/PARALLEL_LESSON_RELEASE.md`, and the FULL relevant module/chapter/lesson section (including prerequisites and objectives) of `docs/curriculum/FreeJapaneseAcademy_Master_Curriculum_Blueprint.txt` before implementing a lesson. Follow the exact ID and objective; do NOT invent missing curriculum details or spend a scheduled production run scanning unrelated sections.
 
 ## Six educational skills (the complete extracted source ZIPs)
 - `.agents/skills/japanese-lesson-author/SKILL.md`
@@ -17,7 +17,7 @@ The website owner explicitly preauthorizes AUTOMATED PUBLICATION of completed le
 
 ## Safety for concurrent scheduled agents
 - One canonical micro-lesson per invocation. Do not create adjacent lessons.
-- Read latest `main`, active pull requests/branches, and Cloudflare production/preview deployments. If a lesson task is in progress, skip.
+- Read latest `main`, all lesson branch refs/PRs, and Cloudflare production status. If the next lesson is already claimed, atomically claim the earliest OTHER unclaimed canonical ID and author it fully in this run. Another task being in progress is NOT a reason to skip production; the trusted release queue handles strict publication order.
 - Do not force-push or overwrite changes. Recheck latest `main` immediately before merge; use expected-head SHA and merge protection.
 - Never infer a successful deployment from a GitHub commit; confirm production deployment from Cloudflare.
 - When tools for editing/testing/deployment are unavailable, report the blocker truthfully rather than fabricating progress or skipping tests unnoticed.
@@ -58,3 +58,11 @@ Keep the accessible `/contact/` page linked from the shared footer and mobile na
 - After fully implementing, integrating and committing a lesson to its owner branch, mark its same-repo PR ready even if GitHub Actions is still running. The trusted default-branch Autonomous Lesson Release workflow can finish merging when exact-head PUSH Lesson Quality Gates succeed and all prerequisites are already published. It never merges draft, failing, fork, stale, out-of-order or workflow-modifying PRs. Cloudflare Pages deployment matching the merge SHA is a required success signal.
 - On local git checkout or DNS failure, use the connected GitHub API for Git trees, commits, refs and Actions. A failed shell command does NOT mean the connected GitHub tools are unavailable.
 - A task that has no eligible unclaimed lesson should report a short neutral idle/dependency status, rather than a misleading failed-publication alert. Genuine content, CI, rights and deployment problems are reported accurately and repaired by the owner task; never fabricate success.
+
+
+## Parallel lesson production and the trusted release queue (2026-11-07)
+Every scheduled automation must follow docs/automation/PARALLEL_LESSON_RELEASE.md. No more than one canonical lesson per task per run; create one complete lesson, not an audit. Atomically claim a unique branch lesson/<canonical-id> after checking existing lesson refs and PRs. Independent tasks may author ahead of unpublished predecessors, but publishing is strictly canonical.
+
+Modify only your own new lesson assets, lesson-specific tests and one new inventory entry. Do not append Foundations index cards or change shared previously published files. If a predecessor is not yet deployed, keep your complete later lesson inventory entry as draft/noindex and mark its PR ready for the release queue. It will integrate and publish in order after fresh exact-head GitHub Actions pass. For L06 immediately create a valid AivisSpeech JSON job to trigger automatic WAV production, and implement all surrounding listening content and tests in the same run.
+
+Never misreport a queued, fully authored lesson as published; never spam the owner with audits or false "NOT PUBLISHED" headlines when another lesson is in the release queue. Fix genuine CI/media errors via connected GitHub tools, retain ownership and resume automatically. Production verification remains mandatory; technical outages cannot be waved away to meet a timed publication goal.
