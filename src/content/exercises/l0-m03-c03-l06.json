@@ -1,0 +1,257 @@
+{
+  "id": "l0-m03-c03-l06-check-v1",
+  "lessonId": "l0-m03-c03-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m03-c03-l06-a",
+    "audio-l0-m03-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m03-c03-l06-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l06-spoken-1"
+      ],
+      "trackId": "audio-l0-m03-c03-l06-a",
+      "prompt": "What is the customer looking for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A small notebook",
+          "rationale": "Supported by the spoken dialogue: ちいさいノートをさがしています。"
+        },
+        {
+          "id": "b",
+          "text": "A pencil",
+          "rationale": "The speakers do not state this answer."
+        },
+        {
+          "id": "c",
+          "text": "A magazine",
+          "rationale": "The speakers do not state this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The customer explicitly asks for a small notebook.",
+      "evidence": "ちいさいノートをさがしています。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c03-l06-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l06-spoken-2"
+      ],
+      "trackId": "audio-l0-m03-c03-l06-a",
+      "prompt": "What color notebook does the clerk offer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blue",
+          "rationale": "Supported by the spoken dialogue: このあおいノートはどうですか。"
+        },
+        {
+          "id": "b",
+          "text": "Red",
+          "rationale": "The speakers do not state this answer."
+        },
+        {
+          "id": "c",
+          "text": "White",
+          "rationale": "The speakers do not state this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The clerk points to the blue notebook.",
+      "evidence": "このあおいノートはどうですか。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c03-l06-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l06-spoken-3"
+      ],
+      "trackId": "audio-l0-m03-c03-l06-a",
+      "prompt": "How many notebooks does the customer request?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One",
+          "rationale": "Supported by the spoken dialogue: いいですね。いっさつください。"
+        },
+        {
+          "id": "b",
+          "text": "Two",
+          "rationale": "The speakers do not state this answer."
+        },
+        {
+          "id": "c",
+          "text": "Three",
+          "rationale": "The speakers do not state this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "いっさつ is the counter phrase for one bound item such as a notebook.",
+      "evidence": "いいですね。いっさつください。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c03-l06-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l06-spoken-4"
+      ],
+      "trackId": "audio-l0-m03-c03-l06-b",
+      "prompt": "At what time will they meet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three o'clock",
+          "rationale": "Supported by the spoken dialogue: はい。さんじにあいましょう。"
+        },
+        {
+          "id": "b",
+          "text": "Two o'clock",
+          "rationale": "The speakers do not state this answer."
+        },
+        {
+          "id": "c",
+          "text": "Four o'clock",
+          "rationale": "The speakers do not state this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "さんじ means three o'clock.",
+      "evidence": "はい。さんじにあいましょう。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c03-l06-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l06-spoken-5"
+      ],
+      "trackId": "audio-l0-m03-c03-l06-b",
+      "prompt": "Where do they finally agree to meet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In front of the park",
+          "rationale": "Supported by the spoken dialogue: いいえ。こうえんのまえであいましょう。"
+        },
+        {
+          "id": "b",
+          "text": "In front of the school",
+          "rationale": "The speakers do not state this answer."
+        },
+        {
+          "id": "c",
+          "text": "At the bookstore",
+          "rationale": "The speakers do not state this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman corrects the school location and proposes the park.",
+      "evidence": "いいえ。こうえんのまえであいましょう。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c03-l06-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l06-spoken-6"
+      ],
+      "trackId": "audio-l0-m03-c03-l06-b",
+      "prompt": "What does the man say about his arrival?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He will go a little early",
+          "rationale": "Supported by the spoken dialogue: わかりました。ちょっとはやくいきます。"
+        },
+        {
+          "id": "b",
+          "text": "He will be late",
+          "rationale": "The speakers do not state this answer."
+        },
+        {
+          "id": "c",
+          "text": "He cannot go",
+          "rationale": "The speakers do not state this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ちょっとはやくいきます means he will go a little early.",
+      "evidence": "わかりました。ちょっとはやくいきます。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    }
+  ]
+}
