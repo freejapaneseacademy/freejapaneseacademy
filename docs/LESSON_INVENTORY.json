@@ -1883,6 +1883,23 @@
       "noindex": false,
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52"
+    },
+    {
+      "id": "l0-m04-c02-l06",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c02",
+      "slot": "L06",
+      "title": "Hear katakana shelf words in two spoken shop requests",
+      "content": "src/content/lessons/l0/katakana-nhmy-listening.mdx",
+      "url": "/learn/start/module-04/chapter-02/lesson-06/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified pronunciation and Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "licensed schema-v3 original two-scene AivisSpeech job committed; WAV and manifest generation pending verification",
+      "ownerSlot": ":45",
+      "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
