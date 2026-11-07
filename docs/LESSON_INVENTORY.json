@@ -1617,6 +1617,24 @@
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b",
       "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
+    },
+    {
+      "id": "l0-m03-c03-l04",
+      "level": "l0",
+      "moduleId": "l0-m03",
+      "chapterId": "l0-m03-c03",
+      "slot": "L04",
+      "title": "Small っ and long vowels — recognize, type and trace",
+      "content": "src/content/lessons/l0/hiragana-small-tsu-script-practice.mdx",
+      "url": "/learn/start/module-03/chapter-03/lesson-04/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written script L04; genuine dictation deferred to L06",
+      "noindex": false,
+      "ownerSlot": ":45",
+      "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52",
+      "ownerApproval": "automated publication preauthorized conditional on exact-head CI and Cloudflare production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
