@@ -9,7 +9,7 @@ describe('N/H/M/Y script exercise integrity',()=>{
    expect(q.id.startsWith('ex-l0-m04-c02-l04-')).toBe(true);
    expect(q.explanation.length).toBeGreaterThan(20);
    if(q.type==='single-choice') expect(q.choices?.some(c=>c.id===q.answerKey.choiceId)).toBe(true);
-   else expect(q.answerKey.accepted.length).toBeGreaterThan(0);
+   else expect('accepted' in q.answerKey && Array.isArray(q.answerKey.accepted) && q.answerKey.accepted.length > 0).toBe(true);
   }
  });
  it('normalizes whitespace/NFC but distinguishes katakana from hiragana',()=>{

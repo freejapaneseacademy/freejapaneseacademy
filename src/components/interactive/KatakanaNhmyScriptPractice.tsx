@@ -5,7 +5,7 @@ type Answer = string;
 export const normalizeKana = (s: string) => s.trim().normalize('NFC');
 export const isCorrect = (q: (typeof bank.items)[number], answer: string) =>
   q.type === 'short-input'
-    ? 'accepted' in q.answerKey && q.answerKey.accepted.some(a => normalizeKana(a) === normalizeKana(answer))
+    ? 'accepted' in q.answerKey && Array.isArray(q.answerKey.accepted) && q.answerKey.accepted.some(a => normalizeKana(a) === normalizeKana(answer))
     : 'choiceId' in q.answerKey && answer === q.answerKey.choiceId;
 export default function KatakanaNhmyScriptPractice() {
   const [answers,setAnswers] = useState<Record<string,Answer>>({});
