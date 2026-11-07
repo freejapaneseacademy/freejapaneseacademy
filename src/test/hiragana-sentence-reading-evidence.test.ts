@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import bank from '../src/content/exercises/l0-m03-c04-l05-v1.json';
+import bank from '../content/exercises/l0-m03-c04-l05-v1.json';
 import { readFileSync } from 'node:fs';
 describe('L0-M03-C04-L05 evidence reading',()=>{
  const source=readFileSync('src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx','utf8');
