@@ -1,136 +1,40 @@
 name: Autonomous Lesson Release
-
-# Runs default-branch trusted code only; never check out the incoming lesson branch.
+# One trusted, serialized queue. Completed lessons can be authored concurrently.
 on:
+  pull_request_target:
+    types: [opened, synchronize, ready_for_review, reopened]
   workflow_run:
     workflows: ["Lesson Quality Gates"]
     types: [completed]
-    branches: ["lesson/**"]
-  pull_request_target:
-    types: [ready_for_review]
+  push:
+    branches: [main]
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 permissions:
-  actions: read
-  checks: read
   contents: write
   pull-requests: write
+  actions: write
+  checks: read
 
 concurrency:
-  group: freejapaneseacademy-autonomous-release
+  group: autonomous-foundations-release-queue
   cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 12
     steps:
-      - name: Merge exactly one trusted completed lesson and verify Pages
+      - name: Checkout trusted default branch coordinator
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Reconcile next ready lesson and publish safely
         uses: actions/github-script@v8
         with:
           script: |
-            const owner=context.repo.owner, repo=context.repo.repo, full=owner+'/'+repo;
-            if (full!=='freejapaneseacademy/freejapaneseacademy') {
-              core.setFailed('Wrong publishing repository.'); return;
-            }
-            let branch, sha;
-            if (context.eventName==='workflow_run') {
-              const run=context.payload.workflow_run;
-              if (run.event!=='push' || run.conclusion!=='success' ||
-                  run.head_repository?.full_name!==full ||
-                  run.actor?.login!==owner || !run.head_branch?.startsWith('lesson/')) {
-                core.info('Ignoring untrusted or incomplete workflow.'); return;
-              }
-              branch=run.head_branch; sha=run.head_sha;
-            } else if (context.eventName==='pull_request_target') {
-              const pr=context.payload.pull_request;
-              if (!pr || pr.draft || pr.user?.login!==owner ||
-                  pr.base?.ref!=='main' || pr.head.repo?.full_name!==full ||
-                  !pr.head.ref.startsWith('lesson/')) {
-                core.info('Not an owner-authorized, ready lesson PR.'); return;
-              }
-              branch=pr.head.ref; sha=pr.head.sha;
-            } else return;
-            const open=await github.paginate(github.rest.pulls.list,
-              {owner,repo,state:'open',per_page:100});
-            const pr=open.find(p=>p.head.sha===sha && p.head.ref===branch &&
-              p.head.repo?.full_name===full && p.user?.login===owner &&
-              p.base.ref==='main' && !p.draft);
-            if (!pr) { core.info('No ready exact-head owner PR.'); return; }
-            const history=await github.rest.actions.listWorkflowRuns({
-              owner,repo,workflow_id:'lesson-quality.yml',branch,per_page:50
-            });
-            if (!history.data.workflow_runs.some(r=>r.head_sha===sha &&
-                r.event==='push' && r.conclusion==='success' &&
-                r.head_repository?.full_name===full)) {
-              core.info('Exact-head pushed content, unit, build and browser tests are not green.'); return;
-            }
-            const changed=await github.paginate(github.rest.pulls.listFiles,
-              {owner,repo,pull_number:pr.number,per_page:100});
-            if (changed.some(f=>f.filename.startsWith('.github/workflows/') ||
-                f.filename==='scripts/validate_foundations_catalog.py' ||
-                f.filename==='scripts/validate_curriculum_sources.py')) {
-              core.info('Infrastructure changes require a separate controlled PR.'); return;
-            }
-            async function published(ref) {
-              const x=await github.rest.repos.getContent({
-                owner,repo,path:'docs/LESSON_INVENTORY.json',ref
-              });
-              if (Array.isArray(x.data) || !('content' in x.data))
-                throw new Error('Missing inventory at '+ref);
-              return JSON.parse(Buffer.from(x.data.content,'base64').toString('utf8')).items
-                .filter(x=>x.level==='l0' && x.status==='published');
-            }
-            const base=await published('main'), candidate=await published(sha);
-            const oldIds=new Set(base.map(x=>x.id)), newIds=new Set(candidate.map(x=>x.id));
-            const added=candidate.filter(x=>!oldIds.has(x.id));
-            if (added.length!==1 || base.some(x=>!newIds.has(x.id))) {
-              core.info('Release must add one published lesson and preserve all predecessors.'); return;
-            }
-            const last=/^l0-m(\d{2})-c(\d{2})-(l(\d{2})|chk)$/.exec(base.at(-1)?.id||'');
-            if (!last) { core.info('Unknown current curriculum position.'); return; }
-            let m=Number(last[1]), c=Number(last[2]), slot;
-            if (last[3]==='chk') {
-              if(c===4){m++;c=1;} else c++;
-              slot='l01';
-            } else if(Number(last[4])===8) slot='chk';
-            else slot='l'+String(Number(last[4])+1).padStart(2,'0');
-            const expected='l0-m'+String(m).padStart(2,'0')+
-              '-c'+String(c).padStart(2,'0')+'-'+slot;
-            if (added[0].id!==expected || added[0].noindex!==false) {
-              core.info('Prerequisite gate: expected '+expected+', got '+added[0].id); return;
-            }
-            const fullPr=(await github.rest.pulls.get({
-              owner,repo,pull_number:pr.number
-            })).data;
-            if (fullPr.draft || fullPr.mergeable!==true || fullPr.head.sha!==sha) {
-              core.info('PR is draft, dirty or changed; owner task must repair it.'); return;
-            }
-            const currentMain=(await github.rest.repos.getBranch({
-              owner,repo,branch:'main'
-            })).data.commit.sha;
-            if (fullPr.base.sha!==currentMain) {
-              core.info('Main changed; owner task must reconcile.'); return;
-            }
-            const result=await github.rest.pulls.merge({
-              owner,repo,pull_number:pr.number,sha,merge_method:'squash',
-              commit_title:'feat(curriculum): publish '+added[0].id+' (#'+pr.number+')'
-            });
-            if (!result.data.merged) throw new Error('Exact-head merge rejected.');
-            core.notice('Merged '+added[0].id+' at '+result.data.sha);
-            for(let attempt=0;attempt<32;attempt++){
-              const checks=await github.rest.checks.listForRef({
-                owner,repo,ref:result.data.sha,per_page:100
-              });
-              const cf=checks.data.check_runs.find(x=>x.name==='Cloudflare Pages');
-              if(cf?.status==='completed' && cf.conclusion==='success'){
-                core.notice('PUBLISHED '+added[0].id+' — Cloudflare Pages success for '+result.data.sha);
-                return;
-              }
-              if(cf?.status==='completed' && cf.conclusion!=='success'){
-                core.setFailed('Cloudflare deployment failed for '+result.data.sha+
-                  '; owning task must repair.'); return;
-              }
-              await new Promise(resolve=>setTimeout(resolve,15000));
-            }
-            core.setFailed('Pages production has not been verified for '+result.data.sha+
-              '; owning task must recheck it.');
+            const {run} = require('./scripts/release_queue.cjs');
+            await run({github, core, context});
