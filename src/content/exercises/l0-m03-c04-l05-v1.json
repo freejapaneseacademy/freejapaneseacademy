@@ -1,0 +1,422 @@
+{
+  "id": "l0-m03-c04-l05",
+  "lessonId": "l0-m03-c04-l05",
+  "version": 1,
+  "status": "published",
+  "source": "Original six-turn written library dialogue in L05 MDX",
+  "scoring": {
+    "mode": "single-choice",
+    "maxReadingScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c04-l05-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "Who asks whether the library has a cat book?",
+      "options": [
+        "Yui",
+        "Sora",
+        "Both speakers"
+      ],
+      "correctIndex": 0,
+      "feedback": "Yui says ねこのほんはありますか。 in turn 1; Sora answers in turn 2.",
+      "explanation": "Yui says ねこのほんはありますか。 in turn 1; Sora answers in turn 2.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "ねこのほんはありますか。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-01-c1",
+          "text": "Yui",
+          "rationale": "Yui says ねこのほんはありますか。 in turn 1; Sora answers in turn 2."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-01-c2",
+          "text": "Sora",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-01-c3",
+          "text": "Both speakers",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l05-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "What book does Yui request?",
+      "options": [
+        "A blue book",
+        "A book about cats",
+        "A picture book about dogs"
+      ],
+      "correctIndex": 1,
+      "feedback": "ねこのほん means a book about cats in this scene; blue describes the neighboring book.",
+      "explanation": "ねこのほん means a book about cats in this scene; blue describes the neighboring book.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "ねこのほんはありますか。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-02-c1",
+          "text": "A blue book",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-02-c2",
+          "text": "A book about cats",
+          "rationale": "ねこのほん means a book about cats in this scene; blue describes the neighboring book."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-02-c3",
+          "text": "A picture book about dogs",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l05-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "Which phrase proves the book is available?",
+      "options": [
+        "どこですか。",
+        "どうぞ。",
+        "はい、あります。"
+      ],
+      "correctIndex": 2,
+      "feedback": "Sora's はい、あります。 explicitly answers yes to the availability question.",
+      "explanation": "Sora's はい、あります。 explicitly answers yes to the availability question.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "はい、あります。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-03-c1",
+          "text": "どこですか。",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-03-c2",
+          "text": "どうぞ。",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-03-c3",
+          "text": "はい、あります。",
+          "rationale": "Sora's はい、あります。 explicitly answers yes to the availability question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l05-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "Which sentence asks for a location?",
+      "options": [
+        "どこですか。",
+        "あそこです。",
+        "すみません。"
+      ],
+      "correctIndex": 0,
+      "feedback": "Yui asks どこですか。; どこ means where and か marks the question.",
+      "explanation": "Yui asks どこですか。; どこ means where and か marks the question.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "どこですか。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-04-c1",
+          "text": "どこですか。",
+          "rationale": "Yui asks どこですか。; どこ means where and か marks the question."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-04-c2",
+          "text": "あそこです。",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-04-c3",
+          "text": "すみません。",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l05-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "What does Sora say is beside the blue book?",
+      "options": [
+        "The cat book",
+        "The library desk",
+        "Yui's bag"
+      ],
+      "correctIndex": 0,
+      "feedback": "あおいほんのとなりです。 gives the cat book's location next to the blue book; it does not make the cat book blue.",
+      "explanation": "あおいほんのとなりです。 gives the cat book's location next to the blue book; it does not make the cat book blue.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "あおいほんのとなりです。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-05-c1",
+          "text": "The cat book",
+          "rationale": "あおいほんのとなりです。 gives the cat book's location next to the blue book; it does not make the cat book blue."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-05-c2",
+          "text": "The library desk",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-05-c3",
+          "text": "Yui's bag",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l05-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "Which Japanese phrase means 'over there'?",
+      "options": [
+        "ここ",
+        "あそこ",
+        "となり"
+      ],
+      "correctIndex": 1,
+      "feedback": "あそこ means over there, as Sora says in あそこです。",
+      "explanation": "あそこ means over there, as Sora says in あそこです。",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "あそこです。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-06-c1",
+          "text": "ここ",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-06-c2",
+          "text": "あそこ",
+          "rationale": "あそこ means over there, as Sora says in あそこです。"
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-06-c3",
+          "text": "となり",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l05-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "What action does Yui state?",
+      "options": [
+        "She will buy the book",
+        "She will borrow the book",
+        "She will look at the book"
+      ],
+      "correctIndex": 2,
+      "feedback": "The verb みます in ねこのほんをみます。 means look at; no purchase or borrowing is stated.",
+      "explanation": "The verb みます in ねこのほんをみます。 means look at; no purchase or borrowing is stated.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "ねこのほんをみます。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-07-c1",
+          "text": "She will buy the book",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-07-c2",
+          "text": "She will borrow the book",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-07-c3",
+          "text": "She will look at the book",
+          "rationale": "The verb みます in ねこのほんをみます。 means look at; no purchase or borrowing is stated."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-07-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l05-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "evidence"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l05-library-reading"
+      ],
+      "prompt": "Which phrase shows Sora invites Yui to proceed?",
+      "options": [
+        "どうぞ。",
+        "どこですか。",
+        "ありがとうございます。"
+      ],
+      "correctIndex": 0,
+      "feedback": "Sora's final どうぞ。 is a polite invitation to proceed in this context.",
+      "explanation": "Sora's final どうぞ。 is a polite invitation to proceed in this context.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-evidence.mdx",
+        "phrase": "どうぞ。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l05-08-c1",
+          "text": "どうぞ。",
+          "rationale": "Sora's final どうぞ。 is a polite invitation to proceed in this context."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-08-c2",
+          "text": "どこですか。",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        },
+        {
+          "id": "ex-l0-m03-c04-l05-08-c3",
+          "text": "ありがとうございます。",
+          "rationale": "This answer is not supported by the cited Japanese phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l05-08-c1"
+      }
+    }
+  ]
+}
