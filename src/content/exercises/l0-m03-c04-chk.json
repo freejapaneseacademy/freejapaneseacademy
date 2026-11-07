@@ -1,0 +1,495 @@
+{
+  "id": "l0-m03-c04-chk-v1",
+  "lessonId": "l0-m03-c04-chk",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m03-c04-l06-a",
+    "audio-l0-m03-c04-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m03-c04-chk-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-1"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which line is a polite availability question?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "えほんはありますか。",
+          "rationale": "Correct. The topic は and question-final か ask if picture books are available."
+        },
+        {
+          "id": "b",
+          "text": "えほんをみます。",
+          "rationale": "Review the evidence: The topic は and question-final か ask if picture books are available."
+        },
+        {
+          "id": "c",
+          "text": "はい、あります。",
+          "rationale": "Review the evidence: The topic は and question-final か ask if picture books are available."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The topic は and question-final か ask if picture books are available.",
+      "evidence": "えほんはありますか。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-2"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which particle marks the object in えほんをみます。?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "を",
+          "rationale": "Correct. を marks the thing being looked at."
+        },
+        {
+          "id": "b",
+          "text": "は",
+          "rationale": "Review the evidence: を marks the thing being looked at."
+        },
+        {
+          "id": "c",
+          "text": "か",
+          "rationale": "Review the evidence: を marks the thing being looked at."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "を marks the thing being looked at.",
+      "evidence": "えほんをみます。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-3"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which line uses the Japanese comma correctly?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "はい、あります。",
+          "rationale": "Correct. 、 separates はい from the reply; 。 ends the sentence."
+        },
+        {
+          "id": "b",
+          "text": "はい。あります、",
+          "rationale": "Review the evidence: 、 separates はい from the reply; 。 ends the sentence."
+        },
+        {
+          "id": "c",
+          "text": "はい、あります、",
+          "rationale": "Review the evidence: 、 separates はい from the reply; 。 ends the sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "、 separates はい from the reply; 。 ends the sentence.",
+      "evidence": "はい、あります。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-4"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which phrase correctly identifies the topic marker pronounced wa?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "えほんはここです。",
+          "rationale": "Correct. The topic particle は is written は and pronounced wa."
+        },
+        {
+          "id": "b",
+          "text": "えほんをみます。",
+          "rationale": "Review the evidence: The topic particle は is written は and pronounced wa."
+        },
+        {
+          "id": "c",
+          "text": "ここにかきます。",
+          "rationale": "Review the evidence: The topic particle は is written は and pronounced wa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The topic particle は is written は and pronounced wa.",
+      "evidence": "えほんはここです。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-5"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "In the new written dialogue, what does Yui ask for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A book about cats",
+          "rationale": "Correct. ねこのほん means a book about cats."
+        },
+        {
+          "id": "b",
+          "text": "A book about dogs",
+          "rationale": "Review the evidence: ねこのほん means a book about cats."
+        },
+        {
+          "id": "c",
+          "text": "A blue notebook",
+          "rationale": "Review the evidence: ねこのほん means a book about cats."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ねこのほん means a book about cats.",
+      "evidence": "ねこのほんはありますか。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-6"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Where is the cat book relative to the blue book?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Next to it",
+          "rationale": "Correct. となり describes a position next to the blue book."
+        },
+        {
+          "id": "b",
+          "text": "Inside it",
+          "rationale": "Review the evidence: となり describes a position next to the blue book."
+        },
+        {
+          "id": "c",
+          "text": "Under it",
+          "rationale": "Review the evidence: となり describes a position next to the blue book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "となり describes a position next to the blue book.",
+      "evidence": "あおいほんのとなりです。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-7"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Yui say she will do with the cat book?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Look at it",
+          "rationale": "Correct. みます means look at, not buy or borrow."
+        },
+        {
+          "id": "b",
+          "text": "Buy it",
+          "rationale": "Review the evidence: みます means look at, not buy or borrow."
+        },
+        {
+          "id": "c",
+          "text": "Return it",
+          "rationale": "Review the evidence: みます means look at, not buy or borrow."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "みます means look at, not buy or borrow.",
+      "evidence": "ねこのほんをみます。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-8"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Which is an unsupported inference from the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yui borrows the book",
+          "rationale": "Correct. Looking at the book does not establish borrowing."
+        },
+        {
+          "id": "b",
+          "text": "The book is available",
+          "rationale": "Review the evidence: Looking at the book does not establish borrowing."
+        },
+        {
+          "id": "c",
+          "text": "Sora indicates a location",
+          "rationale": "Review the evidence: Looking at the book does not establish borrowing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Looking at the book does not establish borrowing.",
+      "evidence": "ねこのほんをみます。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-9"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "audio-l0-m03-c04-l06-a",
+      "prompt": "In Track A, what kind of book does the visitor ask about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A book about cats",
+          "rationale": "Correct. The visitor explicitly requests a book about cats."
+        },
+        {
+          "id": "b",
+          "text": "A book about birds",
+          "rationale": "Review the evidence: The visitor explicitly requests a book about cats."
+        },
+        {
+          "id": "c",
+          "text": "A dictionary",
+          "rationale": "Review the evidence: The visitor explicitly requests a book about cats."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The visitor explicitly requests a book about cats.",
+      "evidence": "はい。ねこのほんはありますか。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-10"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "audio-l0-m03-c04-l06-a",
+      "prompt": "In Track A, where does the librarian say the book is?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On that shelf",
+          "rationale": "Correct. あのたな refers to that shelf."
+        },
+        {
+          "id": "b",
+          "text": "Near the door",
+          "rationale": "Review the evidence: あのたな refers to that shelf."
+        },
+        {
+          "id": "c",
+          "text": "On this table",
+          "rationale": "Review the evidence: あのたな refers to that shelf."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あのたな refers to that shelf.",
+      "evidence": "はい。あのたなにあります。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-11"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "audio-l0-m03-c04-l06-b",
+      "prompt": "In Track B, what does the visitor request permission to do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Borrow the book",
+          "rationale": "Correct. かりてもいいですか asks permission to borrow."
+        },
+        {
+          "id": "b",
+          "text": "Buy the book",
+          "rationale": "Review the evidence: かりてもいいですか asks permission to borrow."
+        },
+        {
+          "id": "c",
+          "text": "Photograph the book",
+          "rationale": "Review the evidence: かりてもいいですか asks permission to borrow."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "かりてもいいですか asks permission to borrow.",
+      "evidence": "このほんをかりてもいいですか。"
+    },
+    {
+      "id": "ex-l0-m03-c04-chk-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m03-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-chk-item-12"
+      ],
+      "type": "single-choice",
+      "status": "draft",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "audio-l0-m03-c04-l06-b",
+      "prompt": "In Track B, what must the visitor write?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their name",
+          "rationale": "Correct. なまえ means name."
+        },
+        {
+          "id": "b",
+          "text": "Their address",
+          "rationale": "Review the evidence: なまえ means name."
+        },
+        {
+          "id": "c",
+          "text": "The book price",
+          "rationale": "Review the evidence: なまえ means name."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "なまえ means name.",
+      "evidence": "はい。なまえをかいてください。"
+    }
+  ]
+}
