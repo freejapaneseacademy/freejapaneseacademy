@@ -4,7 +4,7 @@ test('optional shadowing page is keyboard accessible with separate written gradi
  await page.goto(path);
  await expect(page.getByRole('heading',{name:/optional model-audio shadowing/i})).toBeVisible();
  await expect(page.locator('audio')).toHaveCount(2);
- await expect(page.getByText(/not a speaking grade/i).first()).toBeVisible();
+ await expect(page.getByText(/not a pronunciation test/i).first()).toBeVisible();
  const submit=page.getByRole('button',{name:'Check eight written answers'});
  await expect(submit).toBeDisabled();
  const groups=page.locator('fieldset').filter({has:page.locator('input[type=radio]')});
