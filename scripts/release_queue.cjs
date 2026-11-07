@@ -82,7 +82,9 @@ async function run({github,core,context}){
   }catch(e){core.warning('Candidate is not ready: '+String(e));return;}
   const files=await github.paginate(github.rest.pulls.listFiles,
     {owner,repo,pull_number:pr.number,per_page:100});
-  if(files.some(f=>!allowed(f.filename,target,entry)||['removed','renamed','copied'].includes(f.status))){
+  if(files.some(f=>!allowed(f.filename,target,entry)||
+    (f.filename!=='docs/LESSON_INVENTORY.json' && f.status!=='added') ||
+    ['removed','renamed','copied'].includes(f.status))){
     core.warning('PR contains non-isolated changes: '+files.filter(f=>!allowed(f.filename,target,entry)||
       ['removed','renamed','copied'].includes(f.status)).map(f=>f.filename).join(', '));return;
   }
@@ -102,6 +104,10 @@ async function run({github,core,context}){
   const green=exactSuccess(history,head,full);
   const mainTree=await getTree(github,owner,repo,main);
   const headTree=await getTree(github,owner,repo,head);
+  if(mainTree.files.has(entry.content)||mainTree.files.has(route)){
+    core.warning('Canonical source or route already exists in production; do not overwrite it.');
+    return;
+  }
   // The L06 audio generator may be running for up to 55 minutes.
   // Never touch its branch while the genuine WAVs/manifest are still absent.
   if(target.endsWith('-l06')){
