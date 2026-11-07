@@ -1883,6 +1883,23 @@
       "noindex": false,
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52"
+    },
+    {
+      "id": "l0-m04-c01-l01",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c01",
+      "slot": "L01",
+      "title": "Katakana at the station kiosk — vowels and K/S/T rows",
+      "content": "src/content/lessons/l0/katakana-kst-context.mdx",
+      "url": "/learn/start/module-04/chapter-01/lesson-01/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written context L01; syllable listening in L06",
+      "noindex": false,
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
