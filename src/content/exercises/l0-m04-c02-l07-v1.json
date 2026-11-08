@@ -1,0 +1,390 @@
+{
+  "id": "l0-m04-c02-l07",
+  "lessonId": "l0-m04-c02-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional shop label writing and typing practice",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c02-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which written label spells 'hamu' (ham)?",
+      "options": [
+        "ハム",
+        "ハマ",
+        "ナム"
+      ],
+      "correctIndex": 0,
+      "explanation": "ハ is ha and ム is mu; ハム is the standard katakana spelling of ham.",
+      "feedback": "ハ is ha and ム is mu; ハム is the standard katakana spelling of ham.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-01-c1",
+          "text": "ハム",
+          "rationale": "ハ is ha and ム is mu; ハム is the standard katakana spelling of ham."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-01-c2",
+          "text": "ハマ",
+          "rationale": "Not this form. ハ is ha and ム is mu; ハム is the standard katakana spelling of ham."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-01-c3",
+          "text": "ナム",
+          "rationale": "Not this form. ハ is ha and ム is mu; ハム is the standard katakana spelling of ham."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which label correctly spells 'memo'?",
+      "options": [
+        "メマ",
+        "メモ",
+        "ナモ"
+      ],
+      "correctIndex": 1,
+      "explanation": "メ is me and モ is mo; メモ is memo.",
+      "feedback": "メ is me and モ is mo; メモ is memo.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-02-c1",
+          "text": "メマ",
+          "rationale": "Not this form. メ is me and モ is mo; メモ is memo."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-02-c2",
+          "text": "メモ",
+          "rationale": "メ is me and モ is mo; メモ is memo."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-02-c3",
+          "text": "ナモ",
+          "rationale": "Not this form. メ is me and モ is mo; メモ is memo."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which is the correct katakana spelling of the given name 'Yumi'?",
+      "options": [
+        "ヨミ",
+        "ユミ",
+        "ユム"
+      ],
+      "correctIndex": 1,
+      "explanation": "ユ is yu and ミ is mi. ヨ is yo, and ム is mu.",
+      "feedback": "ユ is yu and ミ is mi. ヨ is yo, and ム is mu.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-03-c1",
+          "text": "ヨミ",
+          "rationale": "Not this form. ユ is yu and ミ is mi. ヨ is yo, and ム is mu."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-03-c2",
+          "text": "ユミ",
+          "rationale": "ユ is yu and ミ is mi. ヨ is yo, and ム is mu."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-03-c3",
+          "text": "ユム",
+          "rationale": "Not this form. ユ is yu and ミ is mi. ヨ is yo, and ム is mu."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which pair writes 'na' then 'me'?",
+      "options": [
+        "ナ メ",
+        "メ ナ",
+        "ヌ メ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ナ represents na; メ represents me. Their intersecting strokes differ.",
+      "feedback": "ナ represents na; メ represents me. Their intersecting strokes differ.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-04-c1",
+          "text": "ナ メ",
+          "rationale": "ナ represents na; メ represents me. Their intersecting strokes differ."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-04-c2",
+          "text": "メ ナ",
+          "rationale": "Not this form. ナ represents na; メ represents me. Their intersecting strokes differ."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-04-c3",
+          "text": "ヌ メ",
+          "rationale": "Not this form. ナ represents na; メ represents me. Their intersecting strokes differ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which sequence is the N row in the usual vowel order?",
+      "options": [
+        "ナ ニ ネ ヌ ノ",
+        "ナ ニ ヌ ネ ノ",
+        "ナ ヌ ニ ネ ノ"
+      ],
+      "correctIndex": 1,
+      "explanation": "The N row is ナ (na), ニ (ni), ヌ (nu), ネ (ne), ノ (no).",
+      "feedback": "The N row is ナ (na), ニ (ni), ヌ (nu), ネ (ne), ノ (no).",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-05-c1",
+          "text": "ナ ニ ネ ヌ ノ",
+          "rationale": "Not this form. The N row is ナ (na), ニ (ni), ヌ (nu), ネ (ne), ノ (no)."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-05-c2",
+          "text": "ナ ニ ヌ ネ ノ",
+          "rationale": "The N row is ナ (na), ニ (ni), ヌ (nu), ネ (ne), ノ (no)."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-05-c3",
+          "text": "ナ ヌ ニ ネ ノ",
+          "rationale": "Not this form. The N row is ナ (na), ニ (ni), ヌ (nu), ネ (ne), ノ (no)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which correctly writes 'nuno' as a katakana copying drill?",
+      "options": [
+        "ヌノ",
+        "ノヌ",
+        "ヌネ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ヌ is nu and ノ is no. Cloth is ordinarily 布 or ぬの; ヌノ is a deliberate script drill.",
+      "feedback": "ヌ is nu and ノ is no. Cloth is ordinarily 布 or ぬの; ヌノ is a deliberate script drill.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-06-c1",
+          "text": "ヌノ",
+          "rationale": "ヌ is nu and ノ is no. Cloth is ordinarily 布 or ぬの; ヌノ is a deliberate script drill."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-06-c2",
+          "text": "ノヌ",
+          "rationale": "Not this form. ヌ is nu and ノ is no. Cloth is ordinarily 布 or ぬの; ヌノ is a deliberate script drill."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-06-c3",
+          "text": "ヌネ",
+          "rationale": "Not this form. ヌ is nu and ノ is no. Cloth is ordinarily 布 or ぬの; ヌノ is a deliberate script drill."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which sequence correctly writes 'mimi' (ears) as a katakana sound drill?",
+      "options": [
+        "ミム",
+        "ムミ",
+        "ミミ"
+      ],
+      "correctIndex": 2,
+      "explanation": "ミ is mi, so mi-mi is ミミ. Ordinary writing generally uses 耳 or みみ.",
+      "feedback": "ミ is mi, so mi-mi is ミミ. Ordinary writing generally uses 耳 or みみ.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-07-c1",
+          "text": "ミム",
+          "rationale": "Not this form. ミ is mi, so mi-mi is ミミ. Ordinary writing generally uses 耳 or みみ."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-07-c2",
+          "text": "ムミ",
+          "rationale": "Not this form. ミ is mi, so mi-mi is ミミ. Ordinary writing generally uses 耳 or みみ."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-07-c3",
+          "text": "ミミ",
+          "rationale": "ミ is mi, so mi-mi is ミミ. Ordinary writing generally uses 耳 or みみ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-07-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l07-nhmy"
+      ],
+      "prompt": "Which pair is 'yu' then 'yo'?",
+      "options": [
+        "ヨ ユ",
+        "ユ ヨ",
+        "ヤ ヨ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ユ is yu and ヨ is yo; ヤ is ya.",
+      "feedback": "ユ is yu and ヨ is yo; ヤ is ya.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l07-08-c1",
+          "text": "ヨ ユ",
+          "rationale": "Not this form. ユ is yu and ヨ is yo; ヤ is ya."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-08-c2",
+          "text": "ユ ヨ",
+          "rationale": "ユ is yu and ヨ is yo; ヤ is ya."
+        },
+        {
+          "id": "ex-l0-m04-c02-l07-08-c3",
+          "text": "ヤ ヨ",
+          "rationale": "Not this form. ユ is yu and ヨ is yo; ヤ is ya."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l07-08-c2"
+      }
+    }
+  ]
+}
