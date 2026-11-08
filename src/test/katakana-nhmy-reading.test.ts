@@ -1,0 +1,4 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../content/exercises/l0-m04-c02-l05-v1.json';
+import {scoreAnswers} from '../components/interactive/KatakanaNhmyReading';
+describe('N/H/M/Y evidence reading',()=>{it('has eight stable, supported answers and rationales',()=>{expect(bank.items).toHaveLength(8);expect(new Set(bank.items.map(q=>q.id)).size).toBe(8);for(const q of bank.items){expect(q.id.startsWith('ex-l0-m04-c02-l05-')).toBe(true);expect(q.explanation.length).toBeGreaterThan(15);expect(q.choices.some(c=>c.id===q.answerKey.choiceId)).toBe(true);expect(new Set(q.choices.map(c=>c.id)).size).toBe(q.choices.length);}});it('scores only selected correct choices',()=>{const all=Object.fromEntries(bank.items.map(q=>[q.id,q.answerKey.choiceId]));expect(scoreAnswers(all)).toBe(8);expect(scoreAnswers({})).toBe(0);expect(scoreAnswers({...all,[bank.items[0].id]:bank.items[0].choices[1].id})).toBe(7);});});

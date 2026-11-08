@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "l0-m04-c03-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy project ACML 1.0 pinned model rights review; independent Japanese and legal review pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original synthetic dialogues; audio is not claimed to exist until generator commits verified WAVs and manifest."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "At the bakery counter",
+      "scenarioType": "dialogue",
+      "objectiveId": "l0-m04-c03-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "いらっしゃいませ。パンはいかがですか。",
+          "english": "Welcome. Would you like some bread?"
+        },
+        {
+          "speaker": "male",
+          "text": "はい。パンをふたつください。",
+          "english": "Yes. Two breads, please."
+        },
+        {
+          "speaker": "female",
+          "text": "はい。ジュースもありますよ。",
+          "english": "Certainly. We also have juice."
+        },
+        {
+          "speaker": "male",
+          "text": "では、ジュースもひとつください。",
+          "english": "Then one juice too, please."
+        }
+      ],
+      "comprehensionPrompts": [
+        "How many breads does the customer request?",
+        "What additional drink does the clerk mention?",
+        "How many drinks does the customer order?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "At the gift shop",
+      "scenarioType": "dialogue",
+      "objectiveId": "l0-m04-c03-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "このバッグはだれのですか。",
+          "english": "Whose bag is this?"
+        },
+        {
+          "speaker": "female",
+          "text": "それはミナさんのバッグです。",
+          "english": "That is Mina's bag."
+        },
+        {
+          "speaker": "male",
+          "text": "ああ。プレゼントですか。",
+          "english": "Oh. Is it a present?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい。ミナさんへのプレゼントです。",
+          "english": "Yes. It is a present for Mina."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Whose bag is it?",
+        "Is the bag a present?",
+        "For whom is the present?"
+      ]
+    }
+  ]
+}
