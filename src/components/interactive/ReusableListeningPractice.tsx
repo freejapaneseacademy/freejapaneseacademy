@@ -114,7 +114,7 @@ export default function ReusableListeningPractice({ lessonId, level, version, tr
           </select>
           <span className="muted">{heard[track.id] ? 'Playback started' : 'Not yet played'}</span>
         </div>
-        <button type="button" className="btn btn-outline"
+        <button type="button" className="btn btn-outline" disabled={!ready}
           onClick={() => toggleTranscript(track.id)} aria-expanded={Boolean(revealed[track.id])}>
           {revealed[track.id] ? 'Hide transcript' : 'Reveal transcript (assisted practice)'}
         </button>
@@ -172,7 +172,7 @@ export default function ReusableListeningPractice({ lessonId, level, version, tr
         'Assisted answers reviewed. No unaided listening score was recorded.'}</p>
       <p>Now reveal the transcripts and replay the spoken lines that you missed.</p>
     </div>}
-    <button type="button" className="btn btn-outline listening-restart" onClick={restart}>
+    <button type="button" className="btn btn-outline listening-restart" onClick={restart} disabled={!ready}>
       Start a new listening attempt
     </button>
     <p className="foundation-storage-note">Learning progress is saved in this browser only. No microphone access is required. Transcript-assisted practice remains accessible even when the sound cannot play.</p>
