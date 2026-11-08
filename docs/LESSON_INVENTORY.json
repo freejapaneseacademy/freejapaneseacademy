@@ -2138,6 +2138,23 @@
       "audio": "licensed schema-v3 original two-scene AivisSpeech job committed; WAV and manifest generation pending verification",
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52"
+    },
+    {
+      "id": "l0-m04-c02-l07",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c02",
+      "slot": "L07",
+      "title": "Write katakana N/H/M/Y shop labels",
+      "content": "src/content/lessons/l0/katakana-nhmy-writing.mdx",
+      "url": "/learn/start/module-04/chapter-02/lesson-07/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese handwriting review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written writing/typing practice; L06 handles genuine listening",
+      "noindex": false,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
