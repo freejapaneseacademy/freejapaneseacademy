@@ -2121,6 +2121,23 @@
       "audio": "not required for written L05; genuine spoken-word listening belongs to L06",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "l0-m05-c01-l02",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c01",
+      "slot": "L02",
+      "title": "Greetings and classroom Japanese — words you can use",
+      "content": "src/content/lessons/l0/greetings-classroom-vocabulary.mdx",
+      "url": "/learn/start/module-05/chapter-01/lesson-02/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L02; actual listening belongs to L06",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
