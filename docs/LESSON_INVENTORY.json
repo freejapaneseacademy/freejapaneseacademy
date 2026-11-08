@@ -2104,6 +2104,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written recognition and IME typing; listening is L06",
       "noindex": false
+    },
+    {
+      "id": "l0-m04-c02-l05",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c02",
+      "slot": "L05",
+      "title": "Read katakana product labels and cite evidence",
+      "content": "src/content/lessons/l0/katakana-nhmy-reading.mdx",
+      "url": "/learn/start/module-04/chapter-02/lesson-05/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05; genuine spoken-word listening belongs to L06",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
