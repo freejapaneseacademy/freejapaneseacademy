@@ -4,6 +4,8 @@ test('L02 word study is keyboard-accessible, responsive and can retry', async ({
  await page.goto('/learn/start/module-02/chapter-04/lesson-02/');
  await expect(page.getByRole('heading',{name:/Mixed hiragana words/i})).toBeVisible();
  await expect(page.locator('fieldset')).toHaveCount(10);
+ // Wait for Astro's client:load island to hydrate before interacting with controlled radios.
+ await expect(page.locator('astro-island[component-url*="HiraganaFluencyVocabularyPractice"]')).not.toHaveAttribute('ssr');
  await expect(page.getByRole('button',{name:'Check all ten answers'})).toBeDisabled();
  for(const field of await page.locator('fieldset').all()) await field.locator('input[type=radio]').first().check();
  await page.getByRole('button',{name:'Check all ten answers'}).click();
