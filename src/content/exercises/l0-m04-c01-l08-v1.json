@@ -1,0 +1,390 @@
+{
+  "id": "l0-m04-c01-l08",
+  "lessonId": "l0-m04-c01-l08",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original written self-check accompanying optional katakana shadowing",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c01-l08-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "Which printed kana represents the vowel a?",
+      "options": [
+        "ア",
+        "オ",
+        "カ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ア is a; オ is o and カ is ka.",
+      "feedback": "ア is a; オ is o and カ is ka.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-01-c1",
+          "text": "ア",
+          "rationale": "ア is a; オ is o and カ is ka."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-01-c2",
+          "text": "オ",
+          "rationale": "オ does not match. ア is a; オ is o and カ is ka."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-01-c3",
+          "text": "カ",
+          "rationale": "カ does not match. ア is a; オ is o and カ is ka."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l08-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "Which printed symbol represents shi?",
+      "options": [
+        "ツ",
+        "シ",
+        "ス"
+      ],
+      "correctIndex": 1,
+      "explanation": "シ is shi; ツ is tsu and ス is su.",
+      "feedback": "シ is shi; ツ is tsu and ス is su.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-02-c1",
+          "text": "ツ",
+          "rationale": "ツ does not match. シ is shi; ツ is tsu and ス is su."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-02-c2",
+          "text": "シ",
+          "rationale": "シ is shi; ツ is tsu and ス is su."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-02-c3",
+          "text": "ス",
+          "rationale": "ス does not match. シ is shi; ツ is tsu and ス is su."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l08-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "Which symbol represents tsu?",
+      "options": [
+        "チ",
+        "シ",
+        "ツ"
+      ],
+      "correctIndex": 2,
+      "explanation": "ツ is tsu; チ is chi and シ is shi.",
+      "feedback": "ツ is tsu; チ is chi and シ is shi.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-03-c1",
+          "text": "チ",
+          "rationale": "チ does not match. ツ is tsu; チ is chi and シ is shi."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-03-c2",
+          "text": "シ",
+          "rationale": "シ does not match. ツ is tsu; チ is chi and シ is shi."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-03-c3",
+          "text": "ツ",
+          "rationale": "ツ is tsu; チ is chi and シ is shi."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l08-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "Which written sequence matches ko-ko-a?",
+      "options": [
+        "ココア",
+        "カカオ",
+        "コカア"
+      ],
+      "correctIndex": 0,
+      "explanation": "ココア has コ ko, コ ko, ア a.",
+      "feedback": "ココア has コ ko, コ ko, ア a.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-04-c1",
+          "text": "ココア",
+          "rationale": "ココア has コ ko, コ ko, ア a."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-04-c2",
+          "text": "カカオ",
+          "rationale": "カカオ does not match. ココア has コ ko, コ ko, ア a."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-04-c3",
+          "text": "コカア",
+          "rationale": "コカア does not match. ココア has コ ko, コ ko, ア a."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l08-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "How many simple kana beats are in アイス?",
+      "options": [
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctIndex": 1,
+      "explanation": "アイス contains ア a, イ i and ス su: three beats.",
+      "feedback": "アイス contains ア a, イ i and ス su: three beats.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-05-c1",
+          "text": "Two",
+          "rationale": "Two does not match. アイス contains ア a, イ i and ス su: three beats."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-05-c2",
+          "text": "Three",
+          "rationale": "アイス contains ア a, イ i and ス su: three beats."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-05-c3",
+          "text": "Four",
+          "rationale": "Four does not match. アイス contains ア a, イ i and ス su: three beats."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l08-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "Which written label matches te-ki-su-to?",
+      "options": [
+        "テキスト",
+        "タキスト",
+        "テクスト"
+      ],
+      "correctIndex": 0,
+      "explanation": "テキスト is テ te + キ ki + ス su + ト to.",
+      "feedback": "テキスト is テ te + キ ki + ス su + ト to.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-06-c1",
+          "text": "テキスト",
+          "rationale": "テキスト is テ te + キ ki + ス su + ト to."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-06-c2",
+          "text": "タキスト",
+          "rationale": "タキスト does not match. テキスト is テ te + キ ki + ス su + ト to."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-06-c3",
+          "text": "テクスト",
+          "rationale": "テクスト does not match. テキスト is テ te + キ ki + ス su + ト to."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l08-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "Which pair is correctly matched?",
+      "options": [
+        "ケ = ku",
+        "ク = ku",
+        "キ = ke"
+      ],
+      "correctIndex": 1,
+      "explanation": "ク reads ku; ケ reads ke and キ reads ki.",
+      "feedback": "ク reads ku; ケ reads ke and キ reads ki.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-07-c1",
+          "text": "ケ = ku",
+          "rationale": "ケ = ku does not match. ク reads ku; ケ reads ke and キ reads ki."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-07-c2",
+          "text": "ク = ku",
+          "rationale": "ク reads ku; ケ reads ke and キ reads ki."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-07-c3",
+          "text": "キ = ke",
+          "rationale": "キ = ke does not match. ク reads ku; ケ reads ke and キ reads ki."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l08-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l08-sound-symbol"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l08-vowel-kst"
+      ],
+      "prompt": "Which written sequence reads ka-ka-o?",
+      "options": [
+        "ココア",
+        "カカオ",
+        "カコオ"
+      ],
+      "correctIndex": 1,
+      "explanation": "カカオ contains カ ka, カ ka and オ o.",
+      "feedback": "カカオ contains カ ka, カ ka and オ o.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l08-08-c1",
+          "text": "ココア",
+          "rationale": "ココア does not match. カカオ contains カ ka, カ ka and オ o."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-08-c2",
+          "text": "カカオ",
+          "rationale": "カカオ contains カ ka, カ ka and オ o."
+        },
+        {
+          "id": "ex-l0-m04-c01-l08-08-c3",
+          "text": "カコオ",
+          "rationale": "カコオ does not match. カカオ contains カ ka, カ ka and オ o."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l08-08-c2"
+      }
+    }
+  ]
+}
