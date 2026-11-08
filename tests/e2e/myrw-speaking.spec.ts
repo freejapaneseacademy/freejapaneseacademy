@@ -20,6 +20,8 @@ test('keyboard answers optional knowledge check and saves a separate numeric res
   await expect(questions.first()).toBeEnabled();
   for (let i = 0; i < 6; i++) {
     const first = questions.nth(i).locator('input[type="radio"]').first();
+    await expect(first.locator('xpath=ancestor::astro-island')).not.toHaveAttribute('ssr', '');
+    await expect(first).toBeEnabled();
     await first.focus();
     await page.keyboard.press('Space');
     await expect(first).toBeChecked();
