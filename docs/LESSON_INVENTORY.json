@@ -2290,6 +2290,23 @@
       "audio": "schema-v3 AivisSpeech job committed; two real WAVs and manifest must be generated and validated before publication",
       "noindex": false,
       "ownerApproval": "automatic publication preauthorized after exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "l0-m04-c03-l07",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c03",
+      "slot": "L07",
+      "title": "Write katakana shop labels with voiced and semi-voiced forms",
+      "content": "src/content/lessons/l0/katakana-voiced-writing.mdx",
+      "url": "/learn/start/module-04/chapter-03/lesson-07/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified Japanese writing review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L07; no pronunciation scoring",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
