@@ -11,6 +11,7 @@ test('katakana listening lesson is usable at 320px without horizontal overflow',
 test('transcript reveal is keyboard accessible and marks assisted practice',async ({page})=>{
  await page.goto(path);
  const reveal=page.getByRole('button',{name:/Reveal transcript/i}).first();
+ await expect(reveal.locator('xpath=ancestor::astro-island')).not.toHaveAttribute('ssr', '');
  await reveal.focus();
  await page.keyboard.press('Enter');
  await expect(page.getByText(/Assisted practice: you revealed written support/i)).toBeVisible();
