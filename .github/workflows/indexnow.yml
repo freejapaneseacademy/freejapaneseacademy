@@ -9,6 +9,11 @@ on:
         type: boolean
         required: false
         default: true
+      previous_commit:
+        description: Previous production commit SHA for incremental notifications
+        type: string
+        required: false
+        default: ''
 permissions:
   contents: read
 concurrency:
@@ -33,5 +38,5 @@ jobs:
         run: node scripts/indexnow-submit.mjs
         env:
           TARGET_COMMIT: ${{ github.sha }}
-          PREVIOUS_COMMIT: ${{ github.event.before }}
+          PREVIOUS_COMMIT: ${{ github.event.before || inputs.previous_commit }}
           INDEXNOW_BOOTSTRAP: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap || false }}
