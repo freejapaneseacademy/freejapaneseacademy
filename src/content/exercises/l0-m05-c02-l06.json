@@ -1,0 +1,266 @@
+{
+  "id": "l0-m05-c02-l06",
+  "lessonId": "l0-m05-c02-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original spoken registration and class-introduction scenes; blind auditory comprehension only",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c02-l06-a1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l06-audio-a"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l06-spoken-a"
+      ],
+      "trackId": "audio-l0-m05-c02-l06-a",
+      "prompt": "What name does the person give?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l06-a1-c1",
+          "text": "Mika",
+          "rationale": "Not supported by the spoken line. The registrant says たなかです (I'm Tanaka)."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-a1-c2",
+          "text": "Tanaka",
+          "rationale": "The registrant says たなかです (I'm Tanaka)."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-a1-c3",
+          "text": "Ken",
+          "rationale": "Not supported by the spoken line. The registrant says たなかです (I'm Tanaka)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l06-a1-c2"
+      },
+      "explanation": "The registrant says たなかです (I'm Tanaka).",
+      "feedback": "The registrant says たなかです (I'm Tanaka).",
+      "evidence": "たなかです。"
+    },
+    {
+      "id": "ex-l0-m05-c02-l06-a2",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l06-audio-a"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l06-spoken-a"
+      ],
+      "trackId": "audio-l0-m05-c02-l06-a",
+      "prompt": "Which number is given at the desk?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l06-a2-c1",
+          "text": "20",
+          "rationale": "Not supported by the spoken line. じゅうに means twelve, not ten or twenty."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-a2-c2",
+          "text": "10",
+          "rationale": "Not supported by the spoken line. じゅうに means twelve, not ten or twenty."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-a2-c3",
+          "text": "12",
+          "rationale": "じゅうに means twelve, not ten or twenty."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l06-a2-c3"
+      },
+      "explanation": "じゅうに means twelve, not ten or twenty.",
+      "feedback": "じゅうに means twelve, not ten or twenty.",
+      "evidence": "じゅうにです。"
+    },
+    {
+      "id": "ex-l0-m05-c02-l06-a3",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l06-audio-a"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l06-spoken-a"
+      ],
+      "trackId": "audio-l0-m05-c02-l06-a",
+      "prompt": "What does the clerk do at the end?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l06-a3-c1",
+          "text": "Asks for a country",
+          "rationale": "Not supported by the spoken line. The clerk ends with ありがとうございます, a thank-you."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-a3-c2",
+          "text": "Thanks the visitor",
+          "rationale": "The clerk ends with ありがとうございます, a thank-you."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-a3-c3",
+          "text": "Says goodbye",
+          "rationale": "Not supported by the spoken line. The clerk ends with ありがとうございます, a thank-you."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l06-a3-c2"
+      },
+      "explanation": "The clerk ends with ありがとうございます, a thank-you.",
+      "feedback": "The clerk ends with ありがとうございます, a thank-you.",
+      "evidence": "ありがとうございます。"
+    },
+    {
+      "id": "ex-l0-m05-c02-l06-b1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l06-audio-b"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l06-spoken-b"
+      ],
+      "trackId": "audio-l0-m05-c02-l06-b",
+      "prompt": "Where does Ken say he came from?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l06-b1-c1",
+          "text": "Japan",
+          "rationale": "Not supported by the spoken line. Ken says he came from Canada."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-b1-c2",
+          "text": "Canada",
+          "rationale": "Ken says he came from Canada."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-b1-c3",
+          "text": "Australia",
+          "rationale": "Not supported by the spoken line. Ken says he came from Canada."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l06-b1-c2"
+      },
+      "explanation": "Ken says he came from Canada.",
+      "feedback": "Ken says he came from Canada.",
+      "evidence": "カナダからきました。"
+    },
+    {
+      "id": "ex-l0-m05-c02-l06-b2",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l06-audio-b"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l06-spoken-b"
+      ],
+      "trackId": "audio-l0-m05-c02-l06-b",
+      "prompt": "Where does Mika say she came from?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l06-b2-c1",
+          "text": "Canada",
+          "rationale": "Not supported by the spoken line. Mika says she came from Japan."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-b2-c2",
+          "text": "Korea",
+          "rationale": "Not supported by the spoken line. Mika says she came from Japan."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-b2-c3",
+          "text": "Japan",
+          "rationale": "Mika says she came from Japan."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l06-b2-c3"
+      },
+      "explanation": "Mika says she came from Japan.",
+      "feedback": "Mika says she came from Japan.",
+      "evidence": "にほんからきました。"
+    },
+    {
+      "id": "ex-l0-m05-c02-l06-b3",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l06-audio-b"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l06-spoken-b"
+      ],
+      "trackId": "audio-l0-m05-c02-l06-b",
+      "prompt": "Which class number do both students mention?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l06-b3-c1",
+          "text": "3",
+          "rationale": "Mika says class three; Ken says he is also in class three."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-b3-c2",
+          "text": "2",
+          "rationale": "Not supported by the spoken line. Mika says class three; Ken says he is also in class three."
+        },
+        {
+          "id": "ex-l0-m05-c02-l06-b3-c3",
+          "text": "4",
+          "rationale": "Not supported by the spoken line. Mika says class three; Ken says he is also in class three."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l06-b3-c1"
+      },
+      "explanation": "Mika says class three; Ken says he is also in class three.",
+      "feedback": "Mika says class three; Ken says he is also in class three.",
+      "evidence": "さんばんです。／わたしもさんばんです。"
+    }
+  ]
+}
