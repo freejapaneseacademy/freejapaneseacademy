@@ -1,0 +1,390 @@
+{
+  "id": "l0-m04-c01-l07",
+  "lessonId": "l0-m04-c01-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original katakana vowel/K/S/T writing and typing practice",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c01-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Which katakana correctly writes 'kokoa' (cocoa)?",
+      "options": [
+        "ココア",
+        "カカオ",
+        "ココオ"
+      ],
+      "correctIndex": 0,
+      "explanation": "コ is ko and ア is a: ココア spells ko-ko-a.",
+      "feedback": "コ is ko and ア is a: ココア spells ko-ko-a.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-01-c1",
+          "text": "ココア",
+          "rationale": "コ is ko and ア is a: ココア spells ko-ko-a."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-01-c2",
+          "text": "カカオ",
+          "rationale": "Not this form. コ is ko and ア is a: ココア spells ko-ko-a."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-01-c3",
+          "text": "ココオ",
+          "rationale": "Not this form. コ is ko and ア is a: ココア spells ko-ko-a."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Choose the correct katakana for 'aisu' (ice cream in this kiosk context).",
+      "options": [
+        "アイシ",
+        "アイス",
+        "アエス"
+      ],
+      "correctIndex": 1,
+      "explanation": "ア・イ・ス spell a-i-su. シ is shi, not su.",
+      "feedback": "ア・イ・ス spell a-i-su. シ is shi, not su.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-02-c1",
+          "text": "アイシ",
+          "rationale": "Not this form. ア・イ・ス spell a-i-su. シ is shi, not su."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-02-c2",
+          "text": "アイス",
+          "rationale": "ア・イ・ス spell a-i-su. シ is shi, not su."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-02-c3",
+          "text": "アエス",
+          "rationale": "Not this form. ア・イ・ス spell a-i-su. シ is shi, not su."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Which is the correct written form of 'kakao'?",
+      "options": [
+        "カカオ",
+        "ココア",
+        "カコオ"
+      ],
+      "correctIndex": 0,
+      "explanation": "カ is ka and オ is o: カカオ spells ka-ka-o.",
+      "feedback": "カ is ka and オ is o: カカオ spells ka-ka-o.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-03-c1",
+          "text": "カカオ",
+          "rationale": "カ is ka and オ is o: カカオ spells ka-ka-o."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-03-c2",
+          "text": "ココア",
+          "rationale": "Not this form. カ is ka and オ is o: カカオ spells ka-ka-o."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-03-c3",
+          "text": "カコオ",
+          "rationale": "Not this form. カ is ka and オ is o: カカオ spells ka-ka-o."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Select the katakana for the sound 'shi'.",
+      "options": [
+        "ツ",
+        "シ",
+        "ス"
+      ],
+      "correctIndex": 1,
+      "explanation": "シ is shi. ツ is tsu; ス is su. Compare the direction of the short marks.",
+      "feedback": "シ is shi. ツ is tsu; ス is su. Compare the direction of the short marks.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-04-c1",
+          "text": "ツ",
+          "rationale": "Not this form. シ is shi. ツ is tsu; ス is su. Compare the direction of the short marks."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-04-c2",
+          "text": "シ",
+          "rationale": "シ is shi. ツ is tsu; ス is su. Compare the direction of the short marks."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-04-c3",
+          "text": "ス",
+          "rationale": "Not this form. シ is shi. ツ is tsu; ス is su. Compare the direction of the short marks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Select the katakana for the sound 'tsu'.",
+      "options": [
+        "シ",
+        "チ",
+        "ツ"
+      ],
+      "correctIndex": 2,
+      "explanation": "ツ is tsu. チ is chi, and シ is shi.",
+      "feedback": "ツ is tsu. チ is chi, and シ is shi.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-05-c1",
+          "text": "シ",
+          "rationale": "Not this form. ツ is tsu. チ is chi, and シ is shi."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-05-c2",
+          "text": "チ",
+          "rationale": "Not this form. ツ is tsu. チ is chi, and シ is shi."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-05-c3",
+          "text": "ツ",
+          "rationale": "ツ is tsu. チ is chi, and シ is shi."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-05-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Which sequence spells 'tekisuto' (text)?",
+      "options": [
+        "テキスト",
+        "テチスト",
+        "テキシト"
+      ],
+      "correctIndex": 0,
+      "explanation": "テ・キ・ス・ト correspond to te-ki-su-to.",
+      "feedback": "テ・キ・ス・ト correspond to te-ki-su-to.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-06-c1",
+          "text": "テキスト",
+          "rationale": "テ・キ・ス・ト correspond to te-ki-su-to."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-06-c2",
+          "text": "テチスト",
+          "rationale": "Not this form. テ・キ・ス・ト correspond to te-ki-su-to."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-06-c3",
+          "text": "テキシト",
+          "rationale": "Not this form. テ・キ・ス・ト correspond to te-ki-su-to."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Which row is copied correctly as ka, ki, ku, ke, ko?",
+      "options": [
+        "カ キ ク ケ コ",
+        "カ キ ケ ク コ",
+        "カ チ ク ケ コ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The K row in order is カ キ ク ケ コ; チ belongs to the T row.",
+      "feedback": "The K row in order is カ キ ク ケ コ; チ belongs to the T row.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-07-c1",
+          "text": "カ キ ク ケ コ",
+          "rationale": "The K row in order is カ キ ク ケ コ; チ belongs to the T row."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-07-c2",
+          "text": "カ キ ケ ク コ",
+          "rationale": "Not this form. The K row in order is カ キ ク ケ コ; チ belongs to the T row."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-07-c3",
+          "text": "カ チ ク ケ コ",
+          "rationale": "Not this form. The K row in order is カ キ ク ケ コ; チ belongs to the T row."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l07-katakana-kst"
+      ],
+      "prompt": "Which sequence writes 'sushi' as a katakana sound-form drill?",
+      "options": [
+        "スシ",
+        "ツシ",
+        "スツ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ス is su and シ is shi, so スシ spells su-shi; ordinary sushi is commonly written すし or 寿司.",
+      "feedback": "ス is su and シ is shi, so スシ spells su-shi; ordinary sushi is commonly written すし or 寿司.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l07-08-c1",
+          "text": "スシ",
+          "rationale": "ス is su and シ is shi, so スシ spells su-shi; ordinary sushi is commonly written すし or 寿司."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-08-c2",
+          "text": "ツシ",
+          "rationale": "Not this form. ス is su and シ is shi, so スシ spells su-shi; ordinary sushi is commonly written すし or 寿司."
+        },
+        {
+          "id": "ex-l0-m04-c01-l07-08-c3",
+          "text": "スツ",
+          "rationale": "Not this form. ス is su and シ is shi, so スシ spells su-shi; ordinary sushi is commonly written すし or 寿司."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l07-08-c1"
+      }
+    }
+  ]
+}
