@@ -1,0 +1,243 @@
+{
+  "id": "l0-m05-c01-l06",
+  "lessonId": "l0-m05-c01-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy classroom dialogues; score only with authentic verified WAVs",
+  "items": [
+    {
+      "id": "ex-l0-m05-c01-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l06-a-01"
+      ],
+      "trackId": "audio-l0-m05-c01-l06-a",
+      "prompt": "What greeting does the learner use when arriving?",
+      "explanation": "こんばんは",
+      "evidence": "The learner begins with おはようございます, a polite morning greeting.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l06-01-c1",
+          "text": "What greeting does the learner use when arriving?",
+          "rationale": "こんばんは"
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-01-c2",
+          "text": "おはようございます",
+          "rationale": "This is not what the speaker says. Listen for: The learner begins with おはようございます, a polite morning greeting."
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-01-c3",
+          "text": "こんにちは",
+          "rationale": "This is not what the speaker says. Listen for: The learner begins with おはようございます, a polite morning greeting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l06-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l06-a-02"
+      ],
+      "trackId": "audio-l0-m05-c01-l06-a",
+      "prompt": "What does the teacher ask the learner to do?",
+      "explanation": "Write a name",
+      "evidence": "入ってください is a polite request to enter.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l06-02-c1",
+          "text": "What does the teacher ask the learner to do?",
+          "rationale": "Write a name"
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-02-c2",
+          "text": "Come in",
+          "rationale": "This is not what the speaker says. Listen for: 入ってください is a polite request to enter."
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-02-c3",
+          "text": "Open the book",
+          "rationale": "This is not what the speaker says. Listen for: 入ってください is a polite request to enter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l06-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l06-a-03"
+      ],
+      "trackId": "audio-l0-m05-c01-l06-a",
+      "prompt": "How does the learner respond after the invitation?",
+      "explanation": "Says good evening",
+      "evidence": "ありがとうございます is the learner's thanks.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l06-03-c1",
+          "text": "How does the learner respond after the invitation?",
+          "rationale": "Says good evening"
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-03-c2",
+          "text": "Thanks the teacher",
+          "rationale": "This is not what the speaker says. Listen for: ありがとうございます is the learner's thanks."
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-03-c3",
+          "text": "Asks for a book",
+          "rationale": "This is not what the speaker says. Listen for: ありがとうございます is the learner's thanks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l06-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l06-b-04"
+      ],
+      "trackId": "audio-l0-m05-c01-l06-b",
+      "prompt": "Which greeting begins the afternoon class?",
+      "explanation": "おやすみなさい",
+      "evidence": "こんにちは is the greeting in the second conversation.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l06-04-c1",
+          "text": "Which greeting begins the afternoon class?",
+          "rationale": "おやすみなさい"
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-04-c2",
+          "text": "こんにちは",
+          "rationale": "This is not what the speaker says. Listen for: こんにちは is the greeting in the second conversation."
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-04-c3",
+          "text": "おはようございます",
+          "rationale": "This is not what the speaker says. Listen for: こんにちは is the greeting in the second conversation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l06-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l06-b-05"
+      ],
+      "trackId": "audio-l0-m05-c01-l06-b",
+      "prompt": "What does the teacher ask the class to do?",
+      "explanation": "Write their names",
+      "evidence": "本を開いてください asks the class to open books.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l06-05-c1",
+          "text": "What does the teacher ask the class to do?",
+          "rationale": "Write their names"
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-05-c2",
+          "text": "Open their books",
+          "rationale": "This is not what the speaker says. Listen for: 本を開いてください asks the class to open books."
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-05-c3",
+          "text": "Close their books",
+          "rationale": "This is not what the speaker says. Listen for: 本を開いてください asks the class to open books."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l06-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l06-b-06"
+      ],
+      "trackId": "audio-l0-m05-c01-l06-b",
+      "prompt": "What does the learner request?",
+      "explanation": "A pencil",
+      "evidence": "もう一度お願いします asks the teacher to say it once more.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l06-06-c1",
+          "text": "What does the learner request?",
+          "rationale": "A pencil"
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-06-c2",
+          "text": "A repetition",
+          "rationale": "This is not what the speaker says. Listen for: もう一度お願いします asks the teacher to say it once more."
+        },
+        {
+          "id": "ex-l0-m05-c01-l06-06-c3",
+          "text": "A break",
+          "rationale": "This is not what the speaker says. Listen for: もう一度お願いします asks the teacher to say it once more."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l06-06-c1"
+      }
+    }
+  ]
+}
