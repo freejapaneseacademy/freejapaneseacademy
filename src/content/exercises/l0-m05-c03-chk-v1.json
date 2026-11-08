@@ -1,0 +1,585 @@
+{
+  "id": "l0-m05-c03-chk-v1",
+  "lessonId": "l0-m05-c03-chk",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m05-c03-l06-a",
+    "audio-l0-m05-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m05-c03-chk-001",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-1"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "trackId": "は marks the topic, pronounced wa when used as a particle.",
+      "prompt": "In 「わたしは がくせいです」, what does は do?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Marks the topic",
+          "rationale": "Review. わたしは がくせいです"
+        },
+        {
+          "id": "c2",
+          "text": "Marks a direct object",
+          "rationale": "Review. わたしは がくせいです"
+        },
+        {
+          "id": "c3",
+          "text": "Turns the sentence into a question",
+          "rationale": "Review. わたしは がくせいです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cMarks the topic,Marks a direct object,Turns the sentence into a question1"
+      },
+      "explanation": "わたしは がくせいです",
+      "evidence": 0
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-002",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-2"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "trackId": "Adding か to the polite statement makes a question.",
+      "prompt": "Which sentence asks whether this is a book?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "これは ほんです。",
+          "rationale": "Review. これは ほんですか"
+        },
+        {
+          "id": "c2",
+          "text": "これは ほんですか。",
+          "rationale": "Review. これは ほんですか"
+        },
+        {
+          "id": "c3",
+          "text": "これは ほんを。",
+          "rationale": "Review. これは ほんですか"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cこれは ほんです。,これは ほんですか。,これは ほんを。1"
+      },
+      "explanation": "これは ほんですか",
+      "evidence": 1
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-003",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-3"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "trackId": "The object particle is written を, ordinarily pronounced o.",
+      "prompt": "Which particle is written を when marking an object?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お",
+          "rationale": "Review. ほんを よみます"
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Review. ほんを よみます"
+        },
+        {
+          "id": "c3",
+          "text": "は",
+          "rationale": "Review. ほんを よみます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cお,を,は1"
+      },
+      "explanation": "ほんを よみます",
+      "evidence": 1
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-004",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-4"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "vocab",
+      "trackId": "ノート is notebook; せんせい is teacher and ほん is book.",
+      "prompt": "Which word means notebook?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ノート",
+          "rationale": "Review. ノート"
+        },
+        {
+          "id": "c2",
+          "text": "せんせい",
+          "rationale": "Review. ノート"
+        },
+        {
+          "id": "c3",
+          "text": "ほん",
+          "rationale": "Review. ノート"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cノート,せんせい,ほん1"
+      },
+      "explanation": "ノート",
+      "evidence": 0
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-005",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-5"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "trackId": "はい confirms the teacher statement; the topic may be omitted when understood.",
+      "prompt": "Which reply confirms 「たなかさんは せんせいですか」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いいえ、がくせいです。",
+          "rationale": "Review. はい、せんせいです"
+        },
+        {
+          "id": "c2",
+          "text": "はい、せんせいです。",
+          "rationale": "Review. はい、せんせいです"
+        },
+        {
+          "id": "c3",
+          "text": "これは ノートです。",
+          "rationale": "Review. はい、せんせいです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cいいえ、がくせいです。,はい、せんせいです。,これは ノートです。1"
+      },
+      "explanation": "はい、せんせいです",
+      "evidence": 1
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-006",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-6"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "trackId": "The topic particle is written は, not わ, although pronounced wa.",
+      "prompt": "Which spelling correctly marks the topic in 「わたし＿がくせいです」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "わ",
+          "rationale": "Review. わたしは がくせいです"
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Review. わたしは がくせいです"
+        },
+        {
+          "id": "c3",
+          "text": "は",
+          "rationale": "Review. わたしは がくせいです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cわ,を,は1"
+      },
+      "explanation": "わたしは がくせいです",
+      "evidence": 2
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-007",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-7"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "trackId": "The second sentence says 'am a student'; Mina is the understood topic.",
+      "prompt": "Profile A says 「わたしは ミナです。がくせいです。」 Who is Mina?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A teacher",
+          "rationale": "Review. がくせいです"
+        },
+        {
+          "id": "c2",
+          "text": "A student",
+          "rationale": "Review. がくせいです"
+        },
+        {
+          "id": "c3",
+          "text": "A book",
+          "rationale": "Review. がくせいです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cA teacher,A student,A book1"
+      },
+      "explanation": "がくせいです",
+      "evidence": 1
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-008",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-8"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "trackId": "The role is explicitly teacher.",
+      "prompt": "Profile B says 「わたしは たなかです。せんせいです。」 What is Tanaka's role?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Teacher",
+          "rationale": "Review. せんせいです"
+        },
+        {
+          "id": "c2",
+          "text": "Student",
+          "rationale": "Review. せんせいです"
+        },
+        {
+          "id": "c3",
+          "text": "Shopkeeper",
+          "rationale": "Review. せんせいです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cTeacher,Student,Shopkeeper1"
+      },
+      "explanation": "せんせいです",
+      "evidence": 0
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-009",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-9"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "trackId": "これ refers to this item, explicitly a notebook.",
+      "prompt": "Profile C says 「これは ノートです。あれは ほんです。」 Which item is the notebook?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The distant item (あれ)",
+          "rationale": "Review. これは ノートです"
+        },
+        {
+          "id": "c2",
+          "text": "This item (これ)",
+          "rationale": "Review. これは ノートです"
+        },
+        {
+          "id": "c3",
+          "text": "Neither",
+          "rationale": "Review. これは ノートです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cThe distant item (あれ),This item (これ),Neither1"
+      },
+      "explanation": "これは ノートです",
+      "evidence": 1
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-010",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-10"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "trackId": "えんぴつ means pencil and か marks the question.",
+      "prompt": "Profile D asks 「これは えんぴつですか。」 What is being asked?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Is this a pencil?",
+          "rationale": "Review. これは えんぴつですか"
+        },
+        {
+          "id": "c2",
+          "text": "Who is the teacher?",
+          "rationale": "Review. これは えんぴつですか"
+        },
+        {
+          "id": "c3",
+          "text": "Is that a book?",
+          "rationale": "Review. これは えんぴつですか"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cIs this a pencil?,Who is the teacher?,Is that a book?1"
+      },
+      "explanation": "これは えんぴつですか",
+      "evidence": 0
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-011",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-11"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "area": "listening",
+      "trackId": "The man's answer says ほん (book).",
+      "prompt": "Track A: What does the man identify?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A book",
+          "rationale": "Review. それは、ほんです。"
+        },
+        {
+          "id": "c2",
+          "text": "A notebook",
+          "rationale": "Review. それは、ほんです。"
+        },
+        {
+          "id": "c3",
+          "text": "A pencil",
+          "rationale": "Review. それは、ほんです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cA book,A notebook,A pencil1"
+      },
+      "explanation": "それは、ほんです。",
+      "evidence": 0
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-012",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-12"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "area": "listening",
+      "trackId": "The man explicitly confirms Tanaka is a teacher.",
+      "prompt": "Track A: What is Tanaka's occupation?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Student",
+          "rationale": "Review. はい。たなかさんは、せんせいです。"
+        },
+        {
+          "id": "c2",
+          "text": "Teacher",
+          "rationale": "Review. はい。たなかさんは、せんせいです。"
+        },
+        {
+          "id": "c3",
+          "text": "Driver",
+          "rationale": "Review. はい。たなかさんは、せんせいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cStudent,Teacher,Driver1"
+      },
+      "explanation": "はい。たなかさんは、せんせいです。",
+      "evidence": 1
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-013",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-13"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "area": "listening",
+      "trackId": "She confirms ノート (notebook).",
+      "prompt": "Track B: What object does the woman confirm?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A bag",
+          "rationale": "Review. はい。ノートです。"
+        },
+        {
+          "id": "c2",
+          "text": "A book",
+          "rationale": "Review. はい。ノートです。"
+        },
+        {
+          "id": "c3",
+          "text": "A notebook",
+          "rationale": "Review. はい。ノートです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cA bag,A book,A notebook1"
+      },
+      "explanation": "はい。ノートです。",
+      "evidence": 2
+    },
+    {
+      "id": "ex-l0-m05-c03-chk-014",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m05-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-chk-item-14"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "area": "listening",
+      "trackId": "いいえ rejects student and せんせい identifies teacher.",
+      "prompt": "Track B: Is the person a student?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes",
+          "rationale": "Review. いいえ。あのひとは、せんせいです。"
+        },
+        {
+          "id": "c2",
+          "text": "No; a teacher",
+          "rationale": "Review. いいえ。あのひとは、せんせいです。"
+        },
+        {
+          "id": "c3",
+          "text": "No answer is given",
+          "rationale": "Review. いいえ。あのひとは、せんせいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "cYes,No; a teacher,No answer is given1"
+      },
+      "explanation": "いいえ。あのひとは、せんせいです。",
+      "evidence": 1
+    }
+  ]
+}
