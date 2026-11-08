@@ -1,0 +1,390 @@
+{
+  "id": "l0-m04-c02-l02",
+  "lessonId": "l0-m04-c02-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional katakana product-shelf vocabulary",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c02-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "Which printed word means ham?",
+      "options": [
+        "ハム",
+        "ユミ",
+        "ミナ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ハ is ha and ム is mu; ハム is ham, a food label.",
+      "feedback": "ハ is ha and ム is mu; ハム is ham, a food label.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-01-c1",
+          "text": "ハム",
+          "rationale": "ハ is ha and ム is mu; ハム is ham, a food label."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-01-c2",
+          "text": "ユミ",
+          "rationale": "Not this choice. ハ is ha and ム is mu; ハム is ham, a food label."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-01-c3",
+          "text": "ミナ",
+          "rationale": "Not this choice. ハ is ha and ム is mu; ハム is ham, a food label."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "Which printed word is a person's name in the scene?",
+      "options": [
+        "ハム",
+        "ユミ",
+        "バナナ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ユミ (Yumi) identifies a person, not a product.",
+      "feedback": "ユミ (Yumi) identifies a person, not a product.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-02-c1",
+          "text": "ハム",
+          "rationale": "Not this choice. ユミ (Yumi) identifies a person, not a product."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-02-c2",
+          "text": "ユミ",
+          "rationale": "ユミ (Yumi) identifies a person, not a product."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-02-c3",
+          "text": "バナナ",
+          "rationale": "Not this choice. ユミ (Yumi) identifies a person, not a product."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "Which pair reads mi-na?",
+      "options": [
+        "ムナ",
+        "ミナ",
+        "メナ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ミ is mi and ナ is na, so ミナ reads Mina.",
+      "feedback": "ミ is mi and ナ is na, so ミナ reads Mina.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-03-c1",
+          "text": "ムナ",
+          "rationale": "Not this choice. ミ is mi and ナ is na, so ミナ reads Mina."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-03-c2",
+          "text": "ミナ",
+          "rationale": "ミ is mi and ナ is na, so ミナ reads Mina."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-03-c3",
+          "text": "メナ",
+          "rationale": "Not this choice. ミ is mi and ナ is na, so ミナ reads Mina."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "Which symbol starts the word ハム?",
+      "options": [
+        "ナ",
+        "マ",
+        "ハ"
+      ],
+      "correctIndex": 2,
+      "explanation": "ハ represents ha; it begins ハム.",
+      "feedback": "ハ represents ha; it begins ハム.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-04-c1",
+          "text": "ナ",
+          "rationale": "Not this choice. ハ represents ha; it begins ハム."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-04-c2",
+          "text": "マ",
+          "rationale": "Not this choice. ハ represents ha; it begins ハム."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-04-c3",
+          "text": "ハ",
+          "rationale": "ハ represents ha; it begins ハム."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-04-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "Which word contains the Y-row symbol ユ?",
+      "options": [
+        "ミナ",
+        "ハム",
+        "ユミ"
+      ],
+      "correctIndex": 2,
+      "explanation": "ユ is yu; ユミ begins with ユ.",
+      "feedback": "ユ is yu; ユミ begins with ユ.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-05-c1",
+          "text": "ミナ",
+          "rationale": "Not this choice. ユ is yu; ユミ begins with ユ."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-05-c2",
+          "text": "ハム",
+          "rationale": "Not this choice. ユ is yu; ユミ begins with ユ."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-05-c3",
+          "text": "ユミ",
+          "rationale": "ユ is yu; ユミ begins with ユ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-05-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "Which label contains the same ナ twice?",
+      "options": [
+        "バナナ",
+        "ハム",
+        "ユミ"
+      ],
+      "correctIndex": 0,
+      "explanation": "バナナ contains ナ twice; バ carries a voiced mark.",
+      "feedback": "バナナ contains ナ twice; バ carries a voiced mark.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-06-c1",
+          "text": "バナナ",
+          "rationale": "バナナ contains ナ twice; バ carries a voiced mark."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-06-c2",
+          "text": "ハム",
+          "rationale": "Not this choice. バナナ contains ナ twice; バ carries a voiced mark."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-06-c3",
+          "text": "ユミ",
+          "rationale": "Not this choice. バナナ contains ナ twice; バ carries a voiced mark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "What does a product label ハム alone tell you?",
+      "options": [
+        "The price is 200 yen.",
+        "The product name, not its price.",
+        "That Yumi bought it."
+      ],
+      "correctIndex": 1,
+      "explanation": "A name label does not establish price or purchase details.",
+      "feedback": "A name label does not establish price or purchase details.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-07-c1",
+          "text": "The price is 200 yen.",
+          "rationale": "Not this choice. A name label does not establish price or purchase details."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-07-c2",
+          "text": "The product name, not its price.",
+          "rationale": "A name label does not establish price or purchase details."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-07-c3",
+          "text": "That Yumi bought it.",
+          "rationale": "Not this choice. A name label does not establish price or purchase details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c02-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-l02-shelf-words"
+      ],
+      "prompt": "Which character is mu in ハム?",
+      "options": [
+        "マ",
+        "ム",
+        "ミ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ム is mu. マ and ミ are different M-row shapes.",
+      "feedback": "ム is mu. マ and ミ are different M-row shapes.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c02-l02-08-c1",
+          "text": "マ",
+          "rationale": "Not this choice. ム is mu. マ and ミ are different M-row shapes."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-08-c2",
+          "text": "ム",
+          "rationale": "ム is mu. マ and ミ are different M-row shapes."
+        },
+        {
+          "id": "ex-l0-m04-c02-l02-08-c3",
+          "text": "ミ",
+          "rationale": "Not this choice. ム is mu. マ and ミ are different M-row shapes."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c02-l02-08-c2"
+      }
+    }
+  ]
+}

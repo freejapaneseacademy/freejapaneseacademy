@@ -1,0 +1,390 @@
+{
+  "id": "l0-m04-c03-l02",
+  "lessonId": "l0-m04-c03-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional voiced katakana shop vocabulary",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c03-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "Which printed label means pen?",
+      "options": [
+        "ペン",
+        "パン",
+        "ソース"
+      ],
+      "correctIndex": 0,
+      "explanation": "ペン means pen; パン means bread.",
+      "feedback": "ペン means pen; パン means bread.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-01-c1",
+          "text": "ペン",
+          "rationale": "ペン means pen; パン means bread."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-01-c2",
+          "text": "パン",
+          "rationale": "Not this label. ペン means pen; パン means bread."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-01-c3",
+          "text": "ソース",
+          "rationale": "Not this label. ペン means pen; パン means bread."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "Which label names a bag?",
+      "options": [
+        "パン",
+        "カバン",
+        "ペン"
+      ],
+      "correctIndex": 1,
+      "explanation": "カバン means bag; バ carries dakuten.",
+      "feedback": "カバン means bag; バ carries dakuten.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-02-c1",
+          "text": "パン",
+          "rationale": "Not this label. カバン means bag; バ carries dakuten."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-02-c2",
+          "text": "カバン",
+          "rationale": "カバン means bag; バ carries dakuten."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-02-c3",
+          "text": "ペン",
+          "rationale": "Not this label. カバン means bag; バ carries dakuten."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "Which word is bread?",
+      "options": [
+        "ペン",
+        "パン",
+        "ソース"
+      ],
+      "correctIndex": 1,
+      "explanation": "パン means bread; パ has a small circle.",
+      "feedback": "パン means bread; パ has a small circle.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-03-c1",
+          "text": "ペン",
+          "rationale": "Not this label. パン means bread; パ has a small circle."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-03-c2",
+          "text": "パン",
+          "rationale": "パン means bread; パ has a small circle."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-03-c3",
+          "text": "ソース",
+          "rationale": "Not this label. パン means bread; パ has a small circle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "Which word means sauce?",
+      "options": [
+        "ソース",
+        "コップ",
+        "カバン"
+      ],
+      "correctIndex": 0,
+      "explanation": "ソース means sauce; ー lengthens the vowel.",
+      "feedback": "ソース means sauce; ー lengthens the vowel.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-04-c1",
+          "text": "ソース",
+          "rationale": "ソース means sauce; ー lengthens the vowel."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-04-c2",
+          "text": "コップ",
+          "rationale": "Not this label. ソース means sauce; ー lengthens the vowel."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-04-c3",
+          "text": "カバン",
+          "rationale": "Not this label. ソース means sauce; ー lengthens the vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "Which label means cup?",
+      "options": [
+        "ソース",
+        "コップ",
+        "パン"
+      ],
+      "correctIndex": 1,
+      "explanation": "コップ means cup; small ッ marks a held consonant.",
+      "feedback": "コップ means cup; small ッ marks a held consonant.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-05-c1",
+          "text": "ソース",
+          "rationale": "Not this label. コップ means cup; small ッ marks a held consonant."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-05-c2",
+          "text": "コップ",
+          "rationale": "コップ means cup; small ッ marks a held consonant."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-05-c3",
+          "text": "パン",
+          "rationale": "Not this label. コップ means cup; small ッ marks a held consonant."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "Which printed word ends in ン (n)?",
+      "options": [
+        "ソース",
+        "ペン",
+        "コップ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ペン ends in ン; ソ in ソース is so.",
+      "feedback": "ペン ends in ン; ソ in ソース is so.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-06-c1",
+          "text": "ソース",
+          "rationale": "Not this label. ペン ends in ン; ソ in ソース is so."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-06-c2",
+          "text": "ペン",
+          "rationale": "ペン ends in ン; ソ in ソース is so."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-06-c3",
+          "text": "コップ",
+          "rationale": "Not this label. ペン ends in ン; ソ in ソース is so."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "Which is the fictional customer's name?",
+      "options": [
+        "レン",
+        "パン",
+        "カバン"
+      ],
+      "correctIndex": 0,
+      "explanation": "レン is the customer's name, not a product.",
+      "feedback": "レン is the customer's name, not a product.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-07-c1",
+          "text": "レン",
+          "rationale": "レン is the customer's name, not a product."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-07-c2",
+          "text": "パン",
+          "rationale": "Not this label. レン is the customer's name, not a product."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-07-c3",
+          "text": "カバン",
+          "rationale": "Not this label. レン is the customer's name, not a product."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l02-shop-labels"
+      ],
+      "prompt": "What does カバン alone establish?",
+      "options": [
+        "It labels a bag, not a price.",
+        "Ren bought a bag.",
+        "The bag costs 500 yen."
+      ],
+      "correctIndex": 0,
+      "explanation": "カバン names a bag; a bare label gives no price or purchase.",
+      "feedback": "カバン names a bag; a bare label gives no price or purchase.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l02-08-c1",
+          "text": "It labels a bag, not a price.",
+          "rationale": "カバン names a bag; a bare label gives no price or purchase."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-08-c2",
+          "text": "Ren bought a bag.",
+          "rationale": "Not this label. カバン names a bag; a bare label gives no price or purchase."
+        },
+        {
+          "id": "ex-l0-m04-c03-l02-08-c3",
+          "text": "The bag costs 500 yen.",
+          "rationale": "Not this label. カバン names a bag; a bare label gives no price or purchase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l02-08-c1"
+      }
+    }
+  ]
+}
