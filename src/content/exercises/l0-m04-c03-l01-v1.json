@@ -1,0 +1,422 @@
+{
+  "id": "l0-m04-c03-l01",
+  "lessonId": "l0-m04-c03-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional shop-label context",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c03-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "Who is the customer in the shop scene?",
+      "options": [
+        "Ren",
+        "Aya",
+        "The delivery driver"
+      ],
+      "correctIndex": 0,
+      "feedback": "Ren is the customer; Aya is the shop assistant.",
+      "explanation": "Ren is the customer; Aya is the shop assistant.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "Ren | Customer"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-01-c1",
+          "text": "Ren",
+          "rationale": "Ren is the customer; Aya is the shop assistant."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-01-c2",
+          "text": "Aya",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-01-c3",
+          "text": "The delivery driver",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "What is Ren looking for?",
+      "options": [
+        "A pen and a bag",
+        "Sauce and bread",
+        "A train ticket"
+      ],
+      "correctIndex": 0,
+      "feedback": "Ren is looking for ペン (pen) and カバン (bag).",
+      "explanation": "Ren is looking for ペン (pen) and カバン (bag).",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "Find a pen and a bag"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-02-c1",
+          "text": "A pen and a bag",
+          "rationale": "Ren is looking for ペン (pen) and カバン (bag)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-02-c2",
+          "text": "Sauce and bread",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-02-c3",
+          "text": "A train ticket",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "Which label means 'bag'?",
+      "options": [
+        "パン",
+        "カバン",
+        "ペン"
+      ],
+      "correctIndex": 1,
+      "feedback": "カバン means bag; パン means bread and ペン means pen.",
+      "explanation": "カバン means bag; パン means bread and ペン means pen.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "カバン"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-03-c1",
+          "text": "パン",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-03-c2",
+          "text": "カバン",
+          "rationale": "カバン means bag; パン means bread and ペン means pen."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-03-c3",
+          "text": "ペン",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "Which label contains バ with dakuten?",
+      "options": [
+        "カバン",
+        "パン",
+        "ソース"
+      ],
+      "correctIndex": 0,
+      "feedback": "カバン contains バ, the voiced form of ハ; パン has パ instead.",
+      "explanation": "カバン contains バ, the voiced form of ハ; パン has パ instead.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "カバン"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-04-c1",
+          "text": "カバン",
+          "rationale": "カバン contains バ, the voiced form of ハ; パン has パ instead."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-04-c2",
+          "text": "パン",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-04-c3",
+          "text": "ソース",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "Which label contains パ with handakuten?",
+      "options": [
+        "ペン",
+        "カバン",
+        "パン"
+      ],
+      "correctIndex": 2,
+      "feedback": "パン starts with パ, whose small circle marks the pa sound.",
+      "explanation": "パン starts with パ, whose small circle marks the pa sound.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "パン"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-05-c1",
+          "text": "ペン",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-05-c2",
+          "text": "カバン",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-05-c3",
+          "text": "パン",
+          "rationale": "パン starts with パ, whose small circle marks the pa sound."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-05-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "Which printed character ends ペン?",
+      "options": [
+        "ソ",
+        "ン",
+        "ツ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ペン ends in ン (n); ソ is a different character (so).",
+      "explanation": "ペン ends in ン (n); ソ is a different character (so).",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "ペン"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-06-c1",
+          "text": "ソ",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-06-c2",
+          "text": "ン",
+          "rationale": "ペン ends in ン (n); ソ is a different character (so)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-06-c3",
+          "text": "ツ",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "Which shop label starts with ソ?",
+      "options": [
+        "ソース",
+        "コップ",
+        "カバン"
+      ],
+      "correctIndex": 0,
+      "feedback": "ソース (sauce) begins with ソ, not ン.",
+      "explanation": "ソース (sauce) begins with ソ, not ン.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "ソース"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-07-c1",
+          "text": "ソース",
+          "rationale": "ソース (sauce) begins with ソ, not ン."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-07-c2",
+          "text": "コップ",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-07-c3",
+          "text": "カバン",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l01-shop-signs"
+      ],
+      "prompt": "Which statement about the marks is correct?",
+      "options": [
+        "The two marks on バ change its sound",
+        "The circle on パ is punctuation",
+        "The marks can be ignored in reading"
+      ],
+      "correctIndex": 0,
+      "feedback": "Dakuten and handakuten are part of the kana spelling and affect the represented sound.",
+      "explanation": "Dakuten and handakuten are part of the kana spelling and affect the represented sound.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-context.mdx",
+        "phrase": "Do not treat the marks as decoration"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l01-08-c1",
+          "text": "The two marks on バ change its sound",
+          "rationale": "Dakuten and handakuten are part of the kana spelling and affect the represented sound."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-08-c2",
+          "text": "The circle on パ is punctuation",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        },
+        {
+          "id": "ex-l0-m04-c03-l01-08-c3",
+          "text": "The marks can be ignored in reading",
+          "rationale": "This option does not match the printed shop signs or the roles described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l01-08-c1"
+      }
+    }
+  ]
+}
