@@ -13,6 +13,9 @@ test('320px dark mode keyboard and no overflow',async({page})=>{
  await page.setViewportSize({width:320,height:720});await page.emulateMedia({colorScheme:'dark'});await page.goto(url);
  await expect(page.getByRole('heading',{name:'Listen and shadow · optional speaking'})).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);
- await page.getByRole('button',{name:'Play track A turn 1'}).focus();
- await expect(page.getByRole('button',{name:'Play track A turn 1'})).toBeFocused();
+ const playTurn = page.getByRole('button',{name:'Play track A turn 1'});
+ // Wait for the React island to enable playback controls after hydration.
+ await expect(playTurn).toBeEnabled();
+ await playTurn.focus();
+ await expect(playTurn).toBeFocused();
 });
