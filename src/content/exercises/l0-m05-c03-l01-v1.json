@@ -76,19 +76,14 @@
       ],
       "prompt": "Who is speaking in 「わたしは ミナです。」?",
       "options": [
-        "Mina",
         "The teacher",
-        "A visitor named Ken"
+        "A visitor named Ken",
+        "Mina"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "feedback": "The speaker identifies themself as Mina.",
       "explanation": "The speaker identifies themself as Mina.",
       "choices": [
-        {
-          "id": "ex-l0-m05-c03-l01-02-c1",
-          "text": "Mina",
-          "rationale": "The speaker identifies themself as Mina."
-        },
         {
           "id": "ex-l0-m05-c03-l01-02-c2",
           "text": "The teacher",
@@ -98,6 +93,11 @@
           "id": "ex-l0-m05-c03-l01-02-c3",
           "text": "A visitor named Ken",
           "rationale": "Not supported: The speaker identifies themself as Mina."
+        },
+        {
+          "id": "ex-l0-m05-c03-l01-02-c1",
+          "text": "Mina",
+          "rationale": "The speaker identifies themself as Mina."
         }
       ],
       "answerKey": {
@@ -123,14 +123,19 @@
       ],
       "prompt": "What does 「ミナさんは がくせいですか。」 do?",
       "options": [
+        "It says Mina is a teacher.",
         "It asks whether Mina is a student.",
-        "It orders Mina to study.",
-        "It says Mina is a teacher."
+        "It orders Mina to study."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "feedback": "The sentence-final か marks a polite yes/no question.",
       "explanation": "The sentence-final か marks a polite yes/no question.",
       "choices": [
+        {
+          "id": "ex-l0-m05-c03-l01-03-c3",
+          "text": "It says Mina is a teacher.",
+          "rationale": "Not supported: The sentence-final か marks a polite yes/no question."
+        },
         {
           "id": "ex-l0-m05-c03-l01-03-c1",
           "text": "It asks whether Mina is a student.",
@@ -139,11 +144,6 @@
         {
           "id": "ex-l0-m05-c03-l01-03-c2",
           "text": "It orders Mina to study.",
-          "rationale": "Not supported: The sentence-final か marks a polite yes/no question."
-        },
-        {
-          "id": "ex-l0-m05-c03-l01-03-c3",
-          "text": "It says Mina is a teacher.",
           "rationale": "Not supported: The sentence-final か marks a polite yes/no question."
         }
       ],
@@ -217,19 +217,14 @@
       ],
       "prompt": "In 「これは ほんです。」, what is identified?",
       "options": [
-        "This is a book.",
         "That is a teacher.",
-        "This is a pencil."
+        "This is a pencil.",
+        "This is a book."
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "feedback": "これ points to this item; ほん means book.",
       "explanation": "これ points to this item; ほん means book.",
       "choices": [
-        {
-          "id": "ex-l0-m05-c03-l01-05-c1",
-          "text": "This is a book.",
-          "rationale": "これ points to this item; ほん means book."
-        },
         {
           "id": "ex-l0-m05-c03-l01-05-c2",
           "text": "That is a teacher.",
@@ -239,6 +234,11 @@
           "id": "ex-l0-m05-c03-l01-05-c3",
           "text": "This is a pencil.",
           "rationale": "Not supported: これ points to this item; ほん means book."
+        },
+        {
+          "id": "ex-l0-m05-c03-l01-05-c1",
+          "text": "This is a book.",
+          "rationale": "これ points to this item; ほん means book."
         }
       ],
       "answerKey": {
@@ -264,14 +264,19 @@
       ],
       "prompt": "What is the function of は in 「わたしは ミナです。」?",
       "options": [
+        "It means 'and'.",
         "It marks the topic.",
-        "It marks a direct object.",
-        "It means 'and'."
+        "It marks a direct object."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "feedback": "Topic-marking は is written は but pronounced wa.",
       "explanation": "Topic-marking は is written は but pronounced wa.",
       "choices": [
+        {
+          "id": "ex-l0-m05-c03-l01-06-c3",
+          "text": "It means 'and'.",
+          "rationale": "Not supported: Topic-marking は is written は but pronounced wa."
+        },
         {
           "id": "ex-l0-m05-c03-l01-06-c1",
           "text": "It marks the topic.",
@@ -280,11 +285,6 @@
         {
           "id": "ex-l0-m05-c03-l01-06-c2",
           "text": "It marks a direct object.",
-          "rationale": "Not supported: Topic-marking は is written は but pronounced wa."
-        },
-        {
-          "id": "ex-l0-m05-c03-l01-06-c3",
-          "text": "It means 'and'.",
           "rationale": "Not supported: Topic-marking は is written は but pronounced wa."
         }
       ],
@@ -358,19 +358,14 @@
       ],
       "prompt": "Which statement about を is accurate at this stage?",
       "options": [
-        "It is usually pronounced o when used as a particle.",
         "It marks the topic in this sentence.",
-        "It is the same particle as は."
+        "It is the same particle as は.",
+        "It is usually pronounced o when used as a particle."
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "feedback": "を is previewed as an object particle, pronounced o; its full use comes later.",
       "explanation": "を is previewed as an object particle, pronounced o; its full use comes later.",
       "choices": [
-        {
-          "id": "ex-l0-m05-c03-l01-08-c1",
-          "text": "It is usually pronounced o when used as a particle.",
-          "rationale": "を is previewed as an object particle, pronounced o; its full use comes later."
-        },
         {
           "id": "ex-l0-m05-c03-l01-08-c2",
           "text": "It marks the topic in this sentence.",
@@ -380,6 +375,11 @@
           "id": "ex-l0-m05-c03-l01-08-c3",
           "text": "It is the same particle as は.",
           "rationale": "Not supported: を is previewed as an object particle, pronounced o; its full use comes later."
+        },
+        {
+          "id": "ex-l0-m05-c03-l01-08-c1",
+          "text": "It is usually pronounced o when used as a particle.",
+          "rationale": "を is previewed as an object particle, pronounced o; its full use comes later."
         }
       ],
       "answerKey": {
@@ -405,14 +405,19 @@
       ],
       "prompt": "A teacher shows a book and says 「これは ほんです。」. Which role does the phrase play?",
       "options": [
+        "It asks the price.",
         "It identifies an object.",
-        "It introduces the teacher's name.",
-        "It asks the price."
+        "It introduces the teacher's name."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "feedback": "これは ほんです identifies the book in front of the speakers.",
       "explanation": "これは ほんです identifies the book in front of the speakers.",
       "choices": [
+        {
+          "id": "ex-l0-m05-c03-l01-09-c3",
+          "text": "It asks the price.",
+          "rationale": "Not supported: これは ほんです identifies the book in front of the speakers."
+        },
         {
           "id": "ex-l0-m05-c03-l01-09-c1",
           "text": "It identifies an object.",
@@ -421,11 +426,6 @@
         {
           "id": "ex-l0-m05-c03-l01-09-c2",
           "text": "It introduces the teacher's name.",
-          "rationale": "Not supported: これは ほんです identifies the book in front of the speakers."
-        },
-        {
-          "id": "ex-l0-m05-c03-l01-09-c3",
-          "text": "It asks the price.",
           "rationale": "Not supported: これは ほんです identifies the book in front of the speakers."
         }
       ],
