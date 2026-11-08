@@ -2274,6 +2274,21 @@
       "noindex": false,
       "ownerSlot": ":45",
       "ownerTaskId": "6ae7c2b298788191b8bbfc80472fac52"
+    },
+    {
+      "id": "l0-m05-c03-l03",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c03",
+      "slot": "L03",
+      "title": "First sentence grammar — topics, polite questions and particle spelling",
+      "content": "src/content/lessons/l0/first-sentence-grammar.mdx",
+      "url": "/learn/start/module-05/chapter-03/lesson-03/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L03",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
