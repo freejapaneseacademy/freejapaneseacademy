@@ -2223,6 +2223,21 @@
       "noindex": false,
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
+    },
+    {
+      "id": "l0-m05-c03-l02",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c03",
+      "slot": "L02",
+      "title": "People and objects — first Japanese sentence vocabulary",
+      "content": "src/content/lessons/l0/first-sentence-vocabulary.mdx",
+      "url": "/learn/start/module-05/chapter-03/lesson-02/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written L02",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
