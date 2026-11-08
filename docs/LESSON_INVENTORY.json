@@ -1951,6 +1951,24 @@
       "noindex": false,
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
+    },
+    {
+      "id": "l0-m04-c01-l05",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c01",
+      "slot": "L05",
+      "title": "Read katakana kiosk labels and cite visible evidence",
+      "content": "src/content/lessons/l0/katakana-kst-label-reading.mdx",
+      "url": "/learn/start/module-04/chapter-01/lesson-05/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for original printed label reading; L06 owns genuine syllable audio",
+      "noindex": false,
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b",
+      "ownerApproval": "automated publication preauthorized subject to exact-head CI and Cloudflare verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
