@@ -2121,6 +2121,23 @@
       "audio": "not required for written L05; genuine spoken-word listening belongs to L06",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "l0-m05-c02-l05",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c02",
+      "slot": "L05",
+      "title": "Read a Japanese registration form and cite exact details",
+      "content": "src/content/lessons/l0/registration-form-reading.mdx",
+      "url": "/learn/start/module-05/chapter-02/lesson-05/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written reading; L06 handles genuine introduction recordings",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
