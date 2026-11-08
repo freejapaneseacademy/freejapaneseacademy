@@ -56,6 +56,11 @@
           "speaker": "female",
           "text": "ありがとうございます。",
           "english": "Thank you."
+        },
+        {
+          "speaker": "male",
+          "text": "どういたしまして。",
+          "english": "You're welcome."
         }
       ],
       "comprehensionPrompts": [
