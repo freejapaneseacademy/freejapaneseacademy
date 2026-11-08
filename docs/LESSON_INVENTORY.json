@@ -2307,6 +2307,23 @@
       "audio": "not required for written L07; no pronunciation scoring",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "l0-m04-c03-l08",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c03",
+      "slot": "L08",
+      "title": "Shadow a katakana shop exchange: voiced sounds and ン",
+      "content": "src/content/lessons/l0/katakana-shop-shadowing.mdx",
+      "url": "/learn/start/module-04/chapter-03/lesson-08/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified Japanese and pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses two original L06 AivisSpeech WAVs; SHA-256 manifest and rights verification required before release",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
