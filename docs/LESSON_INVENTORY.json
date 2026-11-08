@@ -2121,6 +2121,21 @@
       "audio": "not required for written L05; genuine spoken-word listening belongs to L06",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "l0-m05-c01-l06",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c01",
+      "slot": "L06",
+      "title": "Listening — morning greetings and classroom instructions",
+      "content": "src/content/lessons/l0/greeting-classroom-listening.mdx",
+      "url": "/learn/start/module-05/chapter-01/lesson-06/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "two original AivisSpeech WAVs pending verified generation and manifest",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
