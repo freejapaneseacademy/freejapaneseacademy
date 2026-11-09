@@ -2624,6 +2624,23 @@
       "audio": "reuses original L06 AivisSpeech WAVs only after genuine files, rights and manifest verification; no new synthesis",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m02-c01-l01",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c01",
+      "slot": "L01",
+      "title": "Whose umbrella? Understanding a lost-and-found exchange",
+      "content": "src/content/lessons/n5/objects-ownership-context.mdx",
+      "url": "/learn/n5/module-02/chapter-01/lesson-01/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L01; no listening or pronunciation assessment",
+      "noindex": true,
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
