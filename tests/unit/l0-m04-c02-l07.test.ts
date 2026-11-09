@@ -1,0 +1,6 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../../src/content/exercises/l0-m04-c02-l07-v1.json';
+describe('l0-m04-c02-l07 written practice',()=>{
+ it('has eight distinct schema-compliant scored questions',()=>{expect(bank.items).toHaveLength(8);expect(new Set(bank.items.map(q=>q.id)).size).toBe(8);for(const q of bank.items){expect(q.id).toMatch(/^ex-/);expect(q.status).toBe('drafted');expect(q.version).toBeGreaterThanOrEqual(1);expect(q.skills).toContain('written');expect(q.objectiveIds.length).toBeGreaterThan(0);expect(q.knowledgeItemIds.length).toBeGreaterThan(0);expect(q.choices.length).toBe(q.options.length);expect(q.choices[q.correctIndex].id).toBe(q.answerKey.choiceId);expect(new Set(q.options).size).toBe(q.options.length);expect(q.explanation.length).toBeGreaterThan(15);}});
+ it('covers complete row and shape distinctions',()=>{const prompts=bank.items.map(q=>q.prompt).join(' ');expect(prompts).toMatch(/N row/);expect(prompts).toMatch(/yu/);expect(prompts).toMatch(/memo/);});
+});

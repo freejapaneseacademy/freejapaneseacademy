@@ -1,0 +1,484 @@
+{
+  "id": "l0-m04-c04-l03",
+  "lessonId": "l0-m04-c04-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional café and station katakana orthography exercises",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c04-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Which spelling marks a long vowel in 'coffee'?",
+      "options": [
+        "コヒ",
+        "コーヒー",
+        "コヒー"
+      ],
+      "correctIndex": 1,
+      "explanation": "コーヒー has ー after コ and ヒ; the bars represent vowel length in the borrowed word.",
+      "feedback": "コーヒー has ー after コ and ヒ; the bars represent vowel length in the borrowed word.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-01-c1",
+          "text": "コヒ",
+          "rationale": "Not quite. コーヒー has ー after コ and ヒ; the bars represent vowel length in the borrowed word."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-01-c2",
+          "text": "コーヒー",
+          "rationale": "コーヒー has ー after コ and ヒ; the bars represent vowel length in the borrowed word."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-01-c3",
+          "text": "コヒー",
+          "rationale": "Not quite. コーヒー has ー after コ and ヒ; the bars represent vowel length in the borrowed word."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-01-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Which is the standard katakana spelling for 'party'?",
+      "options": [
+        "パーテイー",
+        "パーティー",
+        "パテー"
+      ],
+      "correctIndex": 1,
+      "explanation": "パーティー uses small ィ after テ to represent the borrowed ti sound; イ is not the same-sized character.",
+      "feedback": "パーティー uses small ィ after テ to represent the borrowed ti sound; イ is not the same-sized character.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-02-c1",
+          "text": "パーテイー",
+          "rationale": "Not quite. パーティー uses small ィ after テ to represent the borrowed ti sound; イ is not the same-sized character."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-02-c2",
+          "text": "パーティー",
+          "rationale": "パーティー uses small ィ after テ to represent the borrowed ti sound; イ is not the same-sized character."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-02-c3",
+          "text": "パテー",
+          "rationale": "Not quite. パーティー uses small ィ after テ to represent the borrowed ti sound; イ is not the same-sized character."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "In ファイル (file), what does ファ represent?",
+      "options": [
+        "ha",
+        "fu-a as two full kana",
+        "fa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Small ァ combines with フ to represent fa, rather than separate full-size フ and ア.",
+      "feedback": "Small ァ combines with フ to represent fa, rather than separate full-size フ and ア.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-03-c1",
+          "text": "ha",
+          "rationale": "Not quite. Small ァ combines with フ to represent fa, rather than separate full-size フ and ア."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-03-c2",
+          "text": "fu-a as two full kana",
+          "rationale": "Not quite. Small ァ combines with フ to represent fa, rather than separate full-size フ and ア."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-03-c3",
+          "text": "fa",
+          "rationale": "Small ァ combines with フ to represent fa, rather than separate full-size フ and ア."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Which spelling represents the borrowed 'che' sound?",
+      "options": [
+        "チエ",
+        "チェ",
+        "テェ"
+      ],
+      "correctIndex": 1,
+      "explanation": "チェ combines チ with small ェ; チエ uses full-size エ and represents a different kana sequence.",
+      "feedback": "チェ combines チ with small ェ; チエ uses full-size エ and represents a different kana sequence.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-04-c1",
+          "text": "チエ",
+          "rationale": "Not quite. チェ combines チ with small ェ; チエ uses full-size エ and represents a different kana sequence."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-04-c2",
+          "text": "チェ",
+          "rationale": "チェ combines チ with small ェ; チエ uses full-size エ and represents a different kana sequence."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-04-c3",
+          "text": "テェ",
+          "rationale": "Not quite. チェ combines チ with small ェ; チエ uses full-size エ and represents a different kana sequence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "A café menu lists ケーキ. Which statement is supported?",
+      "options": [
+        "Cake is listed",
+        "Two cakes were ordered",
+        "The cake is free"
+      ],
+      "correctIndex": 0,
+      "explanation": "ケーキ means cake. A menu label alone does not tell us a quantity, purchase or price.",
+      "feedback": "ケーキ means cake. A menu label alone does not tell us a quantity, purchase or price.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-05-c1",
+          "text": "Cake is listed",
+          "rationale": "ケーキ means cake. A menu label alone does not tell us a quantity, purchase or price."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-05-c2",
+          "text": "Two cakes were ordered",
+          "rationale": "Not quite. ケーキ means cake. A menu label alone does not tell us a quantity, purchase or price."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-05-c3",
+          "text": "The cake is free",
+          "rationale": "Not quite. ケーキ means cake. A menu label alone does not tell us a quantity, purchase or price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Which printed word is 'taxi'?",
+      "options": [
+        "タクシ",
+        "タクシー",
+        "タクシィ"
+      ],
+      "correctIndex": 1,
+      "explanation": "タクシー is the usual spelling of taxi; the final long-vowel mark matters.",
+      "feedback": "タクシー is the usual spelling of taxi; the final long-vowel mark matters.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-06-c1",
+          "text": "タクシ",
+          "rationale": "Not quite. タクシー is the usual spelling of taxi; the final long-vowel mark matters."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-06-c2",
+          "text": "タクシー",
+          "rationale": "タクシー is the usual spelling of taxi; the final long-vowel mark matters."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-06-c3",
+          "text": "タクシィ",
+          "rationale": "Not quite. タクシー is the usual spelling of taxi; the final long-vowel mark matters."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Which is the correct spelling of 'team'?",
+      "options": [
+        "チム",
+        "チーム",
+        "ティム"
+      ],
+      "correctIndex": 1,
+      "explanation": "チーム (team) has ー after チ. ティム would be a different sound sequence.",
+      "feedback": "チーム (team) has ー after チ. ティム would be a different sound sequence.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-07-c1",
+          "text": "チム",
+          "rationale": "Not quite. チーム (team) has ー after チ. ティム would be a different sound sequence."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-07-c2",
+          "text": "チーム",
+          "rationale": "チーム (team) has ー after チ. ティム would be a different sound sequence."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-07-c3",
+          "text": "ティム",
+          "rationale": "Not quite. チーム (team) has ー after チ. ティム would be a different sound sequence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Why is ティ not written as テイ in ティッシュ?",
+      "options": [
+        "It is a kanji reading",
+        "It is a small-vowel combination for ti",
+        "It marks a doubled consonant"
+      ],
+      "correctIndex": 1,
+      "explanation": "ティ is テ plus small ィ for the borrowed ti sound. Full イ would not be the same combination.",
+      "feedback": "ティ is テ plus small ィ for the borrowed ti sound. Full イ would not be the same combination.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-08-c1",
+          "text": "It is a kanji reading",
+          "rationale": "Not quite. ティ is テ plus small ィ for the borrowed ti sound. Full イ would not be the same combination."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-08-c2",
+          "text": "It is a small-vowel combination for ti",
+          "rationale": "ティ is テ plus small ィ for the borrowed ti sound. Full イ would not be the same combination."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-08-c3",
+          "text": "It marks a doubled consonant",
+          "rationale": "Not quite. ティ is テ plus small ィ for the borrowed ti sound. Full イ would not be the same combination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Which form correctly spells 'fashion' in common katakana?",
+      "options": [
+        "フアション",
+        "ファション",
+        "ファッション"
+      ],
+      "correctIndex": 2,
+      "explanation": "ファッション uses small ァ in ファ and small ッ before ショ for the held consonant.",
+      "feedback": "ファッション uses small ァ in ファ and small ッ before ショ for the held consonant.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-09-c1",
+          "text": "フアション",
+          "rationale": "Not quite. ファッション uses small ァ in ファ and small ッ before ショ for the held consonant."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-09-c2",
+          "text": "ファション",
+          "rationale": "Not quite. ファッション uses small ァ in ファ and small ッ before ショ for the held consonant."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-09-c3",
+          "text": "ファッション",
+          "rationale": "ファッション uses small ァ in ファ and small ッ before ショ for the held consonant."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-09-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l03-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l03-long-vowel-small-kana"
+      ],
+      "prompt": "Which statement about ー is correct?",
+      "options": [
+        "It always means a word boundary",
+        "It lengthens the preceding vowel",
+        "It always means English letter r"
+      ],
+      "correctIndex": 1,
+      "explanation": "The chōonpu ー extends the preceding vowel in katakana; it does not mark an English letter or a word break.",
+      "feedback": "The chōonpu ー extends the preceding vowel in katakana; it does not mark an English letter or a word break.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l03-10-c1",
+          "text": "It always means a word boundary",
+          "rationale": "Not quite. The chōonpu ー extends the preceding vowel in katakana; it does not mark an English letter or a word break."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-10-c2",
+          "text": "It lengthens the preceding vowel",
+          "rationale": "The chōonpu ー extends the preceding vowel in katakana; it does not mark an English letter or a word break."
+        },
+        {
+          "id": "ex-l0-m04-c04-l03-10-c3",
+          "text": "It always means English letter r",
+          "rationale": "Not quite. The chōonpu ー extends the preceding vowel in katakana; it does not mark an English letter or a word break."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l03-10-c2"
+      }
+    }
+  ]
+}
