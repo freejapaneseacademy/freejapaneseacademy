@@ -13,6 +13,28 @@ test('sequential publication across lesson, checkpoint, chapter and module', () 
   ];
   for(const [id,expected] of cases) assert.equal(nextId([{id}]),expected);
 });
+test('level boundaries follow the approved six-level master blueprint', () => {
+  const cases=[
+    ['l0-m05-c04-chk','n5-m01-c01-l01'],
+    ['n5-m01-c01-l01','n5-m01-c01-l02'],
+    ['n5-m10-c04-chk','n4-m01-c01-l01'],
+    ['n4-m10-c04-chk','n3-m01-c01-l01'],
+    ['n3-m12-c04-chk','n2-m01-c01-l01'],
+    ['n2-m12-c04-chk','n1-m01-c01-l01'],
+    ['n1-m13-c04-chk',null]
+  ];
+  for(const [id,expected] of cases)assert.equal(nextId([{id}]),expected);
+});
+test('N5 chapter candidate uses /learn/n5 canonical route with one isolated entry',()=>{
+  const prior=[{id:'l0-m05-c04-chk',level:'l0',status:'published'}];
+  const id='n5-m01-c01-l01';
+  const entry={id,level:'n5',status:'draft',noindex:true,
+    url:'/learn/n5/module-01/chapter-01/lesson-01/',
+    content:'src/content/lessons/n5/introductions.mdx'};
+  assert.equal(entryFor(prior,[...prior,entry],id).id,id);
+  assert.throws(()=>entryFor(prior,[...prior,{...entry,url:'/learn/start/module-01/chapter-01/lesson-01/'}],id),/Wrong/);
+  assert.throws(()=>entryFor(prior,[...prior,{...entry,level:'l0'}],id),/Wrong/);
+});
 test('draft/ready candidates can be staged ahead without duplicate publication',()=>{
   const current=[{id:'l0-m03-c04-l05',status:'published',level:'l0'}];
   const id='l0-m03-c04-l06';
