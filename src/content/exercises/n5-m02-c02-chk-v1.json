@@ -25,7 +25,7 @@
         "n5-m02-c02-chk-grammar-01"
       ],
       "prompt": "At the information desk, the staff member points to the floor under their feet. Which word means 'here'?",
-      "evidence": "ここ refers to the speaker's location.",
+      "evidence": "受付はここです。",
       "explanation": "ここ refers to the speaker's location.",
       "choices": [
         {
@@ -68,7 +68,7 @@
         "n5-m02-c02-chk-grammar-02"
       ],
       "prompt": "The restroom is away from both people. Which word fits 'The restroom is over there'?",
-      "evidence": "あそこ refers to a place away from both speakers.",
+      "evidence": "トイレはあそこです。",
       "explanation": "あそこ refers to a place away from both speakers.",
       "choices": [
         {
@@ -111,7 +111,7 @@
         "n5-m02-c02-chk-grammar-03"
       ],
       "prompt": "Which question politely asks where the office is?",
-      "evidence": "どこですか asks for a location.",
+      "evidence": "事務室はどこですか。",
       "explanation": "どこですか asks for a location.",
       "choices": [
         {
@@ -154,7 +154,7 @@
         "n5-m02-c02-chk-grammar-04"
       ],
       "prompt": "Which sentence says 'The library is on the second floor' using あります?",
-      "evidence": "に marks the location with あります.",
+      "evidence": "図書館は二階にあります。",
       "explanation": "に marks the location with あります.",
       "choices": [
         {
@@ -197,7 +197,7 @@
         "n5-m02-c02-chk-grammar-05"
       ],
       "prompt": "Which natural answer to '受付はどこですか' means 'It is here'?",
-      "evidence": "ここです answers the location question with a noun-like location word.",
+      "evidence": "受付はここです。",
       "explanation": "ここです answers the location question with a noun-like location word.",
       "choices": [
         {
@@ -240,7 +240,7 @@
         "n5-m02-c02-chk-grammar-06"
       ],
       "prompt": "Which sentence says the office is on the first floor's east side?",
-      "evidence": "一階の東 links floor and side with の before です.",
+      "evidence": "事務室は一階の東です。",
       "explanation": "一階の東 links floor and side with の before です.",
       "choices": [
         {
