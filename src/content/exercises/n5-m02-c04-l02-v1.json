@@ -1,0 +1,500 @@
+{
+  "lessonId": "n5-m02-c04-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You want to name the piece of furniture you study at.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-furniture-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机",
+          "rationale": "机 (つくえ) is a desk used for work or study."
+        },
+        {
+          "id": "c2",
+          "text": "いす",
+          "rationale": "いす does not fit this context. 机 (つくえ) is a desk used for work or study."
+        },
+        {
+          "id": "c3",
+          "text": "ベッド",
+          "rationale": "ベッド does not fit this context. 机 (つくえ) is a desk used for work or study."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "机 (つくえ) is a desk used for work or study."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A visitor wants a seat. Which word means chair?",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-furniture-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机",
+          "rationale": "机 does not fit this context. いす means chair, not a desk or bookshelf."
+        },
+        {
+          "id": "c2",
+          "text": "いす",
+          "rationale": "いす means chair, not a desk or bookshelf."
+        },
+        {
+          "id": "c3",
+          "text": "本棚",
+          "rationale": "本棚 does not fit this context. いす means chair, not a desk or bookshelf."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "いす means chair, not a desk or bookshelf."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "The books are stored on a piece of furniture with shelves.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-furniture-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ベッド",
+          "rationale": "ベッド does not fit this context. 本棚 (ほんだな) is a bookshelf; 本 alone is a book."
+        },
+        {
+          "id": "c2",
+          "text": "窓",
+          "rationale": "窓 does not fit this context. 本棚 (ほんだな) is a bookshelf; 本 alone is a book."
+        },
+        {
+          "id": "c3",
+          "text": "本棚",
+          "rationale": "本棚 (ほんだな) is a bookshelf; 本 alone is a book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "本棚 (ほんだな) is a bookshelf; 本 alone is a book."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the katakana word for bed.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-furniture-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ベッド",
+          "rationale": "ベッド means bed; the small ッ is part of its spelling."
+        },
+        {
+          "id": "c2",
+          "text": "テーブル",
+          "rationale": "テーブル does not fit this context. ベッド means bed; the small ッ is part of its spelling."
+        },
+        {
+          "id": "c3",
+          "text": "ドア",
+          "rationale": "ドア does not fit this context. ベッド means bed; the small ッ is part of its spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ベッド means bed; the small ッ is part of its spelling."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A family eats at a table, not necessarily a study desk.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-furniture-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ドア",
+          "rationale": "ドア does not fit this context. テーブル is a table; 机 often names a study/work desk."
+        },
+        {
+          "id": "c2",
+          "text": "テーブル",
+          "rationale": "テーブル is a table; 机 often names a study/work desk."
+        },
+        {
+          "id": "c3",
+          "text": "いす",
+          "rationale": "いす does not fit this context. テーブル is a table; 机 often names a study/work desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "テーブル is a table; 机 often names a study/work desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You can see the garden through it.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-furniture-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ドア",
+          "rationale": "ドア does not fit this context. 窓 (まど) is a window; ドア is a door."
+        },
+        {
+          "id": "c2",
+          "text": "本棚",
+          "rationale": "本棚 does not fit this context. 窓 (まど) is a window; ドア is a door."
+        },
+        {
+          "id": "c3",
+          "text": "窓",
+          "rationale": "窓 (まど) is a window; ドア is a door."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "窓 (まど) is a window; ドア is a door."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A person opens this to enter the room.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-furniture-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ドア",
+          "rationale": "ドア is a door, not a window."
+        },
+        {
+          "id": "c2",
+          "text": "窓",
+          "rationale": "窓 does not fit this context. ドア is a door, not a window."
+        },
+        {
+          "id": "c3",
+          "text": "机",
+          "rationale": "机 does not fit this context. ドア is a door, not a window."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ドア is a door, not a window."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "本は 机の ___ に あります。 The book is on the desk.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-spatial-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "下",
+          "rationale": "下 does not fit this context. 机の上 (つくえのうえ) locates something on or above the desk."
+        },
+        {
+          "id": "c2",
+          "text": "上",
+          "rationale": "机の上 (つくえのうえ) locates something on or above the desk."
+        },
+        {
+          "id": "c3",
+          "text": "中",
+          "rationale": "中 does not fit this context. 机の上 (つくえのうえ) locates something on or above the desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "机の上 (つくえのうえ) locates something on or above the desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "かばんは いすの ___ に あります。 The bag is under the chair.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-spatial-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "前",
+          "rationale": "前 does not fit this context. いすの下 (した) means under the chair."
+        },
+        {
+          "id": "c2",
+          "text": "隣",
+          "rationale": "隣 does not fit this context. いすの下 (した) means under the chair."
+        },
+        {
+          "id": "c3",
+          "text": "下",
+          "rationale": "いすの下 (した) means under the chair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "いすの下 (した) means under the chair."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "机は 窓の ___ に あります。 The desk is in front of the window.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-spatial-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "前",
+          "rationale": "窓の前 (まえ) means in front of the window."
+        },
+        {
+          "id": "c2",
+          "text": "後ろ",
+          "rationale": "後ろ does not fit this context. 窓の前 (まえ) means in front of the window."
+        },
+        {
+          "id": "c3",
+          "text": "中",
+          "rationale": "中 does not fit this context. 窓の前 (まえ) means in front of the window."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "窓の前 (まえ) means in front of the window."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "いすは ドアの ___ に あります。 The chair is behind the door.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-spatial-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "前",
+          "rationale": "前 does not fit this context. ドアの後ろ (うしろ) means behind the door."
+        },
+        {
+          "id": "c2",
+          "text": "後ろ",
+          "rationale": "ドアの後ろ (うしろ) means behind the door."
+        },
+        {
+          "id": "c3",
+          "text": "上",
+          "rationale": "上 does not fit this context. ドアの後ろ (うしろ) means behind the door."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "ドアの後ろ (うしろ) means behind the door."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "本は かばんの ___ に あります。 The book is inside the bag.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-spatial-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "上",
+          "rationale": "上 does not fit this context. かばんの中 (なか) means inside the bag."
+        },
+        {
+          "id": "c2",
+          "text": "隣",
+          "rationale": "隣 does not fit this context. かばんの中 (なか) means inside the bag."
+        },
+        {
+          "id": "c3",
+          "text": "中",
+          "rationale": "かばんの中 (なか) means inside the bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "かばんの中 (なか) means inside the bag."
+    },
+    {
+      "id": "ex-n5-m02-c04-l02-q13-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "猫は いすの ___ に います。 The cat is beside the chair.",
+      "objectiveIds": [
+        "n5-m02-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l02-spatial-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "隣",
+          "rationale": "いすの隣 (となり) means beside the chair; 猫 takes います."
+        },
+        {
+          "id": "c2",
+          "text": "中",
+          "rationale": "中 does not fit this context. いすの隣 (となり) means beside the chair; 猫 takes います."
+        },
+        {
+          "id": "c3",
+          "text": "下",
+          "rationale": "下 does not fit this context. いすの隣 (となり) means beside the chair; 猫 takes います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いすの隣 (となり) means beside the chair; 猫 takes います."
+    }
+  ]
+}
