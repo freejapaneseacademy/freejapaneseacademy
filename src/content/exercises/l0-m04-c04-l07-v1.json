@@ -1,0 +1,230 @@
+{
+  "id": "l0-m04-c04-l07",
+  "lessonId": "l0-m04-c04-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional station café written loanword labels",
+  "scoring": {
+    "mode": "short-input",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c04-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'coffee' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "コーヒー"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "Both コー and ヒー require long-vowel marks.",
+      "feedback": "Both コー and ヒー require long-vowel marks."
+    },
+    {
+      "id": "ex-l0-m04-c04-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'cake' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "ケーキ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "The first vowel is long: ケー.",
+      "feedback": "The first vowel is long: ケー."
+    },
+    {
+      "id": "ex-l0-m04-c04-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'tea (loanword menu label)' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "ティー"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "Use small ィ after テ, then ー.",
+      "feedback": "Use small ィ after テ, then ー."
+    },
+    {
+      "id": "ex-l0-m04-c04-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'file' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "ファイル"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "Use small ァ after フ.",
+      "feedback": "Use small ァ after フ."
+    },
+    {
+      "id": "ex-l0-m04-c04-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'chain' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "チェーン"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "Use small ェ after チ and a long-vowel mark.",
+      "feedback": "Use small ェ after チ and a long-vowel mark."
+    },
+    {
+      "id": "ex-l0-m04-c04-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'taxi' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "タクシー"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "The conventional spelling ends in ー.",
+      "feedback": "The conventional spelling ends in ー."
+    },
+    {
+      "id": "ex-l0-m04-c04-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'ticket' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "チケット"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "Small ッ marks a consonant closure.",
+      "feedback": "Small ッ marks a consonant closure."
+    },
+    {
+      "id": "ex-l0-m04-c04-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l07-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l07-loanwords"
+      ],
+      "prompt": "Type the conventional katakana spelling for 'menu' on the fictional sign.",
+      "answerKey": {
+        "accepted": [
+          "メニュー"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "Use small ュ and final ー.",
+      "feedback": "Use small ュ and final ー."
+    }
+  ]
+}
