@@ -8,7 +8,7 @@ const lesson = await getEntry('lessons','l0/greeting-classroom-shadowing');
 if (!lesson) throw new Error('Missing l0-m05-c01-l08');
 const { Content } = await render(lesson);
 ---
-<Base title={lesson.data.title} description={lesson.data.description} noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Optional classroom speaking',href:'/learn/start/module-05/chapter-01/lesson-08/'}]}>
+<Base title={lesson.data.title} description={lesson.data.description} noindex={false} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Optional classroom speaking',href:'/learn/start/module-05/chapter-01/lesson-08/'}]}>
  <section class="page-hero"><div class="container"><span class="eyebrow">LEVEL 0 · MODULE 05 · CHAPTER 01 · LESSON 08</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><p>About {lesson.data.minutes} minutes · Optional speaking · Genuine L06 audio required for shadowing</p></div></section>
  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
  <div class="course-notice">Original academy lesson. No automated pronunciation grade or independent human pronunciation review is claimed. Speaking and microphone use are optional.</div>
