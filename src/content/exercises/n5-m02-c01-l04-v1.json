@@ -1,0 +1,350 @@
+{
+  "lessonId": "n5-m02-c01-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c01-l04-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-1"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 本 on a book label. Which reading is correct?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ほん",
+          "rationale": "ほん is the contextual reading for book."
+        },
+        {
+          "id": "c2",
+          "text": "もと",
+          "rationale": "もと is another reading, not the reading for book here."
+        },
+        {
+          "id": "c3",
+          "text": "なまえ",
+          "rationale": "なまえ is 名前."
+        },
+        {
+          "id": "c4",
+          "text": "ひと",
+          "rationale": "ひと is 人."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "本 means book and is read ほん here."
+    },
+    {
+      "id": "ex-n5-m02-c01-l04-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-2"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "What is the reading of 学校?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "がくせい",
+          "rationale": "がくせい is 学生."
+        },
+        {
+          "id": "c2",
+          "text": "がっこう",
+          "rationale": "がっこう is 学校."
+        },
+        {
+          "id": "c3",
+          "text": "せんせい",
+          "rationale": "せんせい is 先生."
+        },
+        {
+          "id": "c4",
+          "text": "なまえ",
+          "rationale": "なまえ is 名前."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "学校 is がっこう, school; the small っ matters."
+    },
+    {
+      "id": "ex-n5-m02-c01-l04-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-3"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Who is described by 学生の 本?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "a teacher",
+          "rationale": "Teacher is 先生."
+        },
+        {
+          "id": "c2",
+          "text": "a student",
+          "rationale": "学生 means student."
+        },
+        {
+          "id": "c3",
+          "text": "a parent",
+          "rationale": "Parent is not indicated."
+        },
+        {
+          "id": "c4",
+          "text": "a receptionist",
+          "rationale": "Receptionist is not indicated."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "学生 means student. The label does not name the individual."
+    },
+    {
+      "id": "ex-n5-m02-c01-l04-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-4"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "How do you read 先生?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "がくせい",
+          "rationale": "がくせい is 学生."
+        },
+        {
+          "id": "c2",
+          "text": "せんせい",
+          "rationale": "せんせい is 先生."
+        },
+        {
+          "id": "c3",
+          "text": "がっこう",
+          "rationale": "がっこう is 学校."
+        },
+        {
+          "id": "c4",
+          "text": "ひと",
+          "rationale": "ひと is 人."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "先生 is せんせい, teacher."
+    },
+    {
+      "id": "ex-n5-m02-c01-l04-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-5"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "What does 名前 mean?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "book",
+          "rationale": "本 means book."
+        },
+        {
+          "id": "c2",
+          "text": "school",
+          "rationale": "学校 means school."
+        },
+        {
+          "id": "c3",
+          "text": "name",
+          "rationale": "名前 means name."
+        },
+        {
+          "id": "c4",
+          "text": "umbrella",
+          "rationale": "かさ means umbrella."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "名前 is なまえ, name."
+    },
+    {
+      "id": "ex-n5-m02-c01-l04-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-6"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "How is 何 normally read in 何ですか?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "なに",
+          "rationale": "なに is possible elsewhere, but not the usual reading of 何ですか."
+        },
+        {
+          "id": "c2",
+          "text": "なん",
+          "rationale": "なん is the usual reading in 何ですか."
+        },
+        {
+          "id": "c3",
+          "text": "ほん",
+          "rationale": "ほん means book."
+        },
+        {
+          "id": "c4",
+          "text": "もの",
+          "rationale": "もの means thing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "何ですか is normally なんですか."
+    },
+    {
+      "id": "ex-n5-m02-c01-l04-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-7"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "How do you read 人 in あの 人?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ひと",
+          "rationale": "ひと is the reading in あの 人."
+        },
+        {
+          "id": "c2",
+          "text": "じん",
+          "rationale": "じん is found in compounds, not this phrase."
+        },
+        {
+          "id": "c3",
+          "text": "ほん",
+          "rationale": "ほん means book."
+        },
+        {
+          "id": "c4",
+          "text": "なまえ",
+          "rationale": "なまえ means name."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "人 is ひと in あの 人."
+    },
+    {
+      "id": "ex-n5-m02-c01-l04-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l04-kanji-8"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "How do you read 物 when it means 'thing' on its own?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ぶつ",
+          "rationale": "ぶつ occurs in compounds, not the standalone word here."
+        },
+        {
+          "id": "c2",
+          "text": "もの",
+          "rationale": "もの is the correct standalone reading."
+        },
+        {
+          "id": "c3",
+          "text": "ほん",
+          "rationale": "ほん means book."
+        },
+        {
+          "id": "c4",
+          "text": "がっこう",
+          "rationale": "がっこう means school."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "物 is もの as this standalone word."
+    }
+  ]
+}
