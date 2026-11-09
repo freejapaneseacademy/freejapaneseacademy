@@ -2867,6 +2867,21 @@
       "noindex": false,
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m02-c02-chk",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c02",
+      "slot": "CHK",
+      "title": "Places and directions — chapter checkpoint",
+      "content": "src/content/lessons/n5/places-directions-checkpoint.mdx",
+      "url": "/learn/n5/module-02/chapter-02/checkpoint/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment editor review not claimed",
+      "audio": "reuses two original N5-M02-C02-L06 recordings; playable WAVs, integrity, rights and pronunciation review pending",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
