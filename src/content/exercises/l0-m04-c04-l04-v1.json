@@ -1,0 +1,484 @@
+{
+  "id": "l0-m04-c04-l04",
+  "lessonId": "l0-m04-c04-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original Level 0 loanword orthography and IME practice",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c04-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Which written word correctly spells 'coffee' in katakana? ",
+      "options": [
+        "コーヒー",
+        "コヒー",
+        "コーヒ"
+      ],
+      "correctIndex": 0,
+      "explanation": "コーヒー has both the long vowel after コ and the long vowel after ヒ. Omitting either ー changes the written form.",
+      "feedback": "コーヒー has both the long vowel after コ and the long vowel after ヒ. Omitting either ー changes the written form.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-01-c1",
+          "text": "コーヒー",
+          "rationale": "コーヒー has both the long vowel after コ and the long vowel after ヒ. Omitting either ー changes the written form."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-01-c2",
+          "text": "コヒー",
+          "rationale": "コヒー is not the conventional form requested here. コーヒー has both the long vowel after コ and the long vowel after ヒ. Omitting either ー changes the written form."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-01-c3",
+          "text": "コーヒ",
+          "rationale": "コーヒ is not the conventional form requested here. コーヒー has both the long vowel after コ and the long vowel after ヒ. Omitting either ー changes the written form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Choose the correct katakana for 'tea' (the English loanword).",
+      "options": [
+        "テイー",
+        "ティー",
+        "チー"
+      ],
+      "correctIndex": 1,
+      "explanation": "ティー uses small ィ after テ for ti, followed by ー. チー represents chii, not tii.",
+      "feedback": "ティー uses small ィ after テ for ti, followed by ー. チー represents chii, not tii.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-02-c1",
+          "text": "テイー",
+          "rationale": "テイー is not the conventional form requested here. ティー uses small ィ after テ for ti, followed by ー. チー represents chii, not tii."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-02-c2",
+          "text": "ティー",
+          "rationale": "ティー uses small ィ after テ for ti, followed by ー. チー represents chii, not tii."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-02-c3",
+          "text": "チー",
+          "rationale": "チー is not the conventional form requested here. ティー uses small ィ after テ for ti, followed by ー. チー represents chii, not tii."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Which word is the common katakana spelling of 'file'?",
+      "options": [
+        "ハイル",
+        "ファイル",
+        "フアイル"
+      ],
+      "correctIndex": 1,
+      "explanation": "ファイル begins with フ plus small ァ to represent fa. Full-size ア would create a separate vowel.",
+      "feedback": "ファイル begins with フ plus small ァ to represent fa. Full-size ア would create a separate vowel.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-03-c1",
+          "text": "ハイル",
+          "rationale": "ハイル is not the conventional form requested here. ファイル begins with フ plus small ァ to represent fa. Full-size ア would create a separate vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-03-c2",
+          "text": "ファイル",
+          "rationale": "ファイル begins with フ plus small ァ to represent fa. Full-size ア would create a separate vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-03-c3",
+          "text": "フアイル",
+          "rationale": "フアイル is not the conventional form requested here. ファイル begins with フ plus small ァ to represent fa. Full-size ア would create a separate vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Which label means 'chain' in a shop name?",
+      "options": [
+        "チェーン",
+        "チエーン",
+        "チェン"
+      ],
+      "correctIndex": 0,
+      "explanation": "チェーン uses small ェ to represent che and ー to lengthen the following vowel.",
+      "feedback": "チェーン uses small ェ to represent che and ー to lengthen the following vowel.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-04-c1",
+          "text": "チェーン",
+          "rationale": "チェーン uses small ェ to represent che and ー to lengthen the following vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-04-c2",
+          "text": "チエーン",
+          "rationale": "チエーン is not the conventional form requested here. チェーン uses small ェ to represent che and ー to lengthen the following vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-04-c3",
+          "text": "チェン",
+          "rationale": "チェン is not the conventional form requested here. チェーン uses small ェ to represent che and ー to lengthen the following vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Choose the correct written word for 'taxi'.",
+      "options": [
+        "タクシ",
+        "タクシー",
+        "タクスー"
+      ],
+      "correctIndex": 1,
+      "explanation": "タクシー ends with ー, which represents the long vowel in the conventional spelling.",
+      "feedback": "タクシー ends with ー, which represents the long vowel in the conventional spelling.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-05-c1",
+          "text": "タクシ",
+          "rationale": "タクシ is not the conventional form requested here. タクシー ends with ー, which represents the long vowel in the conventional spelling."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-05-c2",
+          "text": "タクシー",
+          "rationale": "タクシー ends with ー, which represents the long vowel in the conventional spelling."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-05-c3",
+          "text": "タクスー",
+          "rationale": "タクスー is not the conventional form requested here. タクシー ends with ー, which represents the long vowel in the conventional spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Which word is a common spelling for 'computer'?",
+      "options": [
+        "コンピューター",
+        "コンピユータ",
+        "コンピュータア"
+      ],
+      "correctIndex": 0,
+      "explanation": "コンピューター uses small ュ in ピュ and long vowel marks; コンピュータ is also seen as a style variant, but is not among these choices.",
+      "feedback": "コンピューター uses small ュ in ピュ and long vowel marks; コンピュータ is also seen as a style variant, but is not among these choices.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-06-c1",
+          "text": "コンピューター",
+          "rationale": "コンピューター uses small ュ in ピュ and long vowel marks; コンピュータ is also seen as a style variant, but is not among these choices."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-06-c2",
+          "text": "コンピユータ",
+          "rationale": "コンピユータ is not the conventional form requested here. コンピューター uses small ュ in ピュ and long vowel marks; コンピュータ is also seen as a style variant, but is not among these choices."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-06-c3",
+          "text": "コンピュータア",
+          "rationale": "コンピュータア is not the conventional form requested here. コンピューター uses small ュ in ピュ and long vowel marks; コンピュータ is also seen as a style variant, but is not among these choices."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Which pair contains a small kana character in BOTH words?",
+      "options": [
+        "ティー / ファイル",
+        "テーブル / バス",
+        "コーヒー / タクシー"
+      ],
+      "correctIndex": 0,
+      "explanation": "ティー has small ィ and ファイル has small ァ. The other pairs do not both contain a small kana.",
+      "feedback": "ティー has small ィ and ファイル has small ァ. The other pairs do not both contain a small kana.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-07-c1",
+          "text": "ティー / ファイル",
+          "rationale": "ティー has small ィ and ファイル has small ァ. The other pairs do not both contain a small kana."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-07-c2",
+          "text": "テーブル / バス",
+          "rationale": "テーブル / バス is not the conventional form requested here. ティー has small ィ and ファイル has small ァ. The other pairs do not both contain a small kana."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-07-c3",
+          "text": "コーヒー / タクシー",
+          "rationale": "コーヒー / タクシー is not the conventional form requested here. ティー has small ィ and ファイル has small ァ. The other pairs do not both contain a small kana."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "On a café sign, which word spells 'cake'?",
+      "options": [
+        "ケキ",
+        "ケーキ",
+        "キェーキ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ケーキ is the standard loanword spelling for cake; ー lengthens the vowel after ケ.",
+      "feedback": "ケーキ is the standard loanword spelling for cake; ー lengthens the vowel after ケ.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-08-c1",
+          "text": "ケキ",
+          "rationale": "ケキ is not the conventional form requested here. ケーキ is the standard loanword spelling for cake; ー lengthens the vowel after ケ."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-08-c2",
+          "text": "ケーキ",
+          "rationale": "ケーキ is the standard loanword spelling for cake; ー lengthens the vowel after ケ."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-08-c3",
+          "text": "キェーキ",
+          "rationale": "キェーキ is not the conventional form requested here. ケーキ is the standard loanword spelling for cake; ー lengthens the vowel after ケ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Which word has a long vowel mark immediately after チェ?",
+      "options": [
+        "チェス",
+        "チェーン",
+        "チエン"
+      ],
+      "correctIndex": 1,
+      "explanation": "チェーン begins チェー: small ェ and then ー. チェス has no long vowel mark.",
+      "feedback": "チェーン begins チェー: small ェ and then ー. チェス has no long vowel mark.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-09-c1",
+          "text": "チェス",
+          "rationale": "チェス is not the conventional form requested here. チェーン begins チェー: small ェ and then ー. チェス has no long vowel mark."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-09-c2",
+          "text": "チェーン",
+          "rationale": "チェーン begins チェー: small ェ and then ー. チェス has no long vowel mark."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-09-c3",
+          "text": "チエン",
+          "rationale": "チエン is not the conventional form requested here. チェーン begins チェー: small ェ and then ー. チェス has no long vowel mark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l04-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l04-loanword-forms"
+      ],
+      "prompt": "Choose the correctly written loanword for 'ticket'.",
+      "options": [
+        "チケット",
+        "チケト",
+        "チケート"
+      ],
+      "correctIndex": 0,
+      "explanation": "チケット uses small ッ to mark the consonant closure before ト. This is different from ー, which lengthens a vowel.",
+      "feedback": "チケット uses small ッ to mark the consonant closure before ト. This is different from ー, which lengthens a vowel.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l04-10-c1",
+          "text": "チケット",
+          "rationale": "チケット uses small ッ to mark the consonant closure before ト. This is different from ー, which lengthens a vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-10-c2",
+          "text": "チケト",
+          "rationale": "チケト is not the conventional form requested here. チケット uses small ッ to mark the consonant closure before ト. This is different from ー, which lengthens a vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l04-10-c3",
+          "text": "チケート",
+          "rationale": "チケート is not the conventional form requested here. チケット uses small ッ to mark the consonant closure before ト. This is different from ー, which lengthens a vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l04-10-c1"
+      }
+    }
+  ]
+}
