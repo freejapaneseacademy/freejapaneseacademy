@@ -1,0 +1,494 @@
+{
+  "id": "l0-m04-c02-chk-v1",
+  "lessonId": "l0-m04-c02-chk",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m04-c02-l06-a",
+    "audio-l0-m04-c02-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m04-c02-chk-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-1"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which katakana spells /nu/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ヌ",
+          "rationale": "Correct. ヌ is nu; ス is su and メ is me."
+        },
+        {
+          "id": "b",
+          "text": "ス",
+          "rationale": "Not this one. ヌ is nu; ス is su and メ is me."
+        },
+        {
+          "id": "c",
+          "text": "メ",
+          "rationale": "Not this one. ヌ is nu; ス is su and メ is me."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ヌ is nu; ス is su and メ is me.",
+      "evidence": "ヌ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-2"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which katakana spells /yu/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ヨ",
+          "rationale": "Not this one. ユ represents yu, while ヨ is yo and ヤ is ya."
+        },
+        {
+          "id": "b",
+          "text": "ユ",
+          "rationale": "Correct. ユ represents yu, while ヨ is yo and ヤ is ya."
+        },
+        {
+          "id": "c",
+          "text": "ヤ",
+          "rationale": "Not this one. ユ represents yu, while ヨ is yo and ヤ is ya."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "ユ represents yu, while ヨ is yo and ヤ is ya.",
+      "evidence": "ユ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-3"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which katakana spells /mi/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ム",
+          "rationale": "Not this one. ミ represents mi; its three strokes differ from ム and マ."
+        },
+        {
+          "id": "b",
+          "text": "ミ",
+          "rationale": "Correct. ミ represents mi; its three strokes differ from ム and マ."
+        },
+        {
+          "id": "c",
+          "text": "マ",
+          "rationale": "Not this one. ミ represents mi; its three strokes differ from ム and マ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "ミ represents mi; its three strokes differ from ム and マ.",
+      "evidence": "ミ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-4"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which pair reads /na/ then /me/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "メ・ナ",
+          "rationale": "Not this one. ナ is na and メ is me. Their crossed strokes differ."
+        },
+        {
+          "id": "b",
+          "text": "ナ・メ",
+          "rationale": "Correct. ナ is na and メ is me. Their crossed strokes differ."
+        },
+        {
+          "id": "c",
+          "text": "ヌ・モ",
+          "rationale": "Not this one. ナ is na and メ is me. Their crossed strokes differ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "ナ is na and メ is me. Their crossed strokes differ.",
+      "evidence": "ナ・メ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-5"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which is the standard katakana /hi/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ヒ",
+          "rationale": "Correct. ヒ is hi; ヘ is he and ホ is ho."
+        },
+        {
+          "id": "b",
+          "text": "ヘ",
+          "rationale": "Not this one. ヒ is hi; ヘ is he and ホ is ho."
+        },
+        {
+          "id": "c",
+          "text": "ホ",
+          "rationale": "Not this one. ヒ is hi; ヘ is he and ホ is ho."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ヒ is hi; ヘ is he and ホ is ho.",
+      "evidence": "ヒ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-6"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "The food shelf has ハム and バナナ. Which label names ham?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "バナナ",
+          "rationale": "Not this one. The food-shelf card explicitly labels ham as ハム."
+        },
+        {
+          "id": "b",
+          "text": "ハム",
+          "rationale": "Correct. The food-shelf card explicitly labels ham as ハム."
+        },
+        {
+          "id": "c",
+          "text": "メモ",
+          "rationale": "Not this one. The food-shelf card explicitly labels ham as ハム."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The food-shelf card explicitly labels ham as ハム.",
+      "evidence": "ハム"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-7"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "A visitor name card says ユミ. Which is the exact name?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ミナ",
+          "rationale": "Not this one. The printed visitor name is ユミ; メモ is a note heading."
+        },
+        {
+          "id": "b",
+          "text": "ユミ",
+          "rationale": "Correct. The printed visitor name is ユミ; メモ is a note heading."
+        },
+        {
+          "id": "c",
+          "text": "メモ",
+          "rationale": "Not this one. The printed visitor name is ユミ; メモ is a note heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The printed visitor name is ユミ; メモ is a note heading.",
+      "evidence": "ユミ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-8"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "The stationery heading is メモ. Which printed label is the note heading?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ヌノ",
+          "rationale": "Not this one. メモ is the stationery-table note heading in the original display."
+        },
+        {
+          "id": "b",
+          "text": "メモ",
+          "rationale": "Correct. メモ is the stationery-table note heading in the original display."
+        },
+        {
+          "id": "c",
+          "text": "ハム",
+          "rationale": "Not this one. メモ is the stationery-table note heading in the original display."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "メモ is the stationery-table note heading in the original display.",
+      "evidence": "メモ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-9"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Which pair on the original display are visitor names?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ハム・バナナ",
+          "rationale": "Not this one. The visitor cards are explicitly marked ミナ and ユミ."
+        },
+        {
+          "id": "b",
+          "text": "ミナ・ユミ",
+          "rationale": "Correct. The visitor cards are explicitly marked ミナ and ユミ."
+        },
+        {
+          "id": "c",
+          "text": "ヌノ・メモ",
+          "rationale": "Not this one. The visitor cards are explicitly marked ミナ and ユミ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The visitor cards are explicitly marked ミナ and ユミ.",
+      "evidence": "ミナ・ユミ"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-10"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "a",
+      "prompt": "Track A: What does the customer ask for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "バナナ",
+          "rationale": "Correct. In Track A the customer asks バナナはありますか. This is an audio-based answer, not a printed-label guess."
+        },
+        {
+          "id": "b",
+          "text": "ハム",
+          "rationale": "Not this one. In Track A the customer asks バナナはありますか. This is an audio-based answer, not a printed-label guess."
+        },
+        {
+          "id": "c",
+          "text": "メモ",
+          "rationale": "Not this one. In Track A the customer asks バナナはありますか. This is an audio-based answer, not a printed-label guess."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "In Track A the customer asks バナナはありますか. This is an audio-based answer, not a printed-label guess.",
+      "evidence": "バナナはありますか。"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-11"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "a",
+      "prompt": "Track A: How many bananas does the customer request?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ひとつ",
+          "rationale": "Not this one. The customer says バナナをふたつください: two bananas."
+        },
+        {
+          "id": "b",
+          "text": "ふたつ",
+          "rationale": "Correct. The customer says バナナをふたつください: two bananas."
+        },
+        {
+          "id": "c",
+          "text": "みっつ",
+          "rationale": "Not this one. The customer says バナナをふたつください: two bananas."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The customer says バナナをふたつください: two bananas.",
+      "evidence": "バナナをふたつください。"
+    },
+    {
+      "id": "ex-l0-m04-c02-chk-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m04-c02-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c02-chk-item-12"
+      ],
+      "type": "single-choice",
+      "status": "drafted",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "b",
+      "prompt": "Track B: Which item does the customer request?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ヌノ",
+          "rationale": "Not this one. The customer asks for ハム in Track B."
+        },
+        {
+          "id": "b",
+          "text": "バナナ",
+          "rationale": "Not this one. The customer asks for ハム in Track B."
+        },
+        {
+          "id": "c",
+          "text": "ハム",
+          "rationale": "Correct. The customer asks for ハム in Track B."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The customer asks for ハム in Track B.",
+      "evidence": "ハムはありますか。"
+    }
+  ]
+}

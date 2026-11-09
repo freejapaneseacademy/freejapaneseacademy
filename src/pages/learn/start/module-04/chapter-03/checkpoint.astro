@@ -1,0 +1,17 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import KatakanaVoicedCheckpoint from '../../../../../components/interactive/KatakanaVoicedCheckpoint';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import bank from '../../../../../content/exercises/l0-m04-c03-chk.json';
+import manifest from '../../../../../content/audio/l0-m04-c03-l06-v1.json';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/katakana-voiced-checkpoint');
+if(!lesson||lesson.data.lessonId!=='l0-m04-c03-chk'||bank.items.length!==12||manifest.assets.length!==2||manifest.assets.some((a: (typeof manifest.assets)[number])=>!a.rights.redistributionCleared||!a.qa.sha256||a.turns.length<4))throw new Error('Missing checkpoint or verified source-audio manifest');
+const {Content}=await render(lesson);
+const tracks=manifest.assets.map((a: (typeof manifest.assets)[number],i: number)=>({id:a.id,label:i?'Track B — Gift shop':'Track A — Bakery',url:a.mediaPath,transcript:a.transcript,english:a.english}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Katakana checkpoint',href:'/learn/start/module-04/chapter-03/checkpoint/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 04 · Chapter 03 · Checkpoint</span></nav><span class="eyebrow">LEVEL 0 · MODULE 04 · CHAPTER 03 · CHECKPOINT</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>12 scored questions</span><span>2 licensed audio tracks</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original mixed checkpoint.</strong> Independent Japanese pronunciation and assessment reviews pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><KatakanaVoicedCheckpoint client:load tracks={tracks}/><div class="foundation-completion"><h2>Finish Chapter 03</h2><p>Attempts and completion are stored separately on this device.</p><LessonActions client:load lessonId="l0-m04-c03-chk" level="l0"/></div><div class="lesson-next"><h3>Continue learning</h3><a class="btn btn-outline" href="/learn/start/module-04/chapter-03/lesson-07/">Review writing</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Read, compare and listen</h3><p>Transcript-assisted attempts are marked separately. Review the voiced marks and replay the relevant audio.</p></aside></div></section>
+</Base>
