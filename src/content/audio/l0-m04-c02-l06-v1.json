@@ -1,0 +1,181 @@
+{
+  "lessonId": "l0-m04-c02-l06",
+  "chapterId": "l0-m04-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m04-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m04-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 11.09,
+      "transcript": "女性： いらっしゃいませ。\n男性： バナナはありますか。\n女性： はい。バナナがあります。\n男性： バナナをふたつください。\n女性： はい。ふたつですね。",
+      "english": "Woman: Welcome.\nMan: Do you have bananas?\nWoman: Yes, we have bananas.\nMan: Two bananas, please.\nWoman: Certainly, two, right?",
+      "scriptPurpose": "At a fruit stall",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m04-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いらっしゃいませ。",
+          "english": "Welcome.",
+          "startSeconds": 0.0,
+          "endSeconds": 1.64
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "バナナはありますか。",
+          "english": "Do you have bananas?",
+          "startSeconds": 1.92,
+          "endSeconds": 3.56
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。バナナがあります。",
+          "english": "Yes, we have bananas.",
+          "startSeconds": 3.84,
+          "endSeconds": 6.32
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "バナナをふたつください。",
+          "english": "Two bananas, please.",
+          "startSeconds": 6.6,
+          "endSeconds": 8.5
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。ふたつですね。",
+          "english": "Certainly, two, right?",
+          "startSeconds": 8.78,
+          "endSeconds": 11.09
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy project ACML 1.0 pinned model rights review; independent Japanese and legal review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "c7d5d2ccd8e594a0d87141d907a970ad6c36b24e56dd7dfe9b296f4fd877a414",
+        "bytes": 978164,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m04-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m04-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 12.72,
+      "transcript": "男性： いらっしゃいませ。なににしますか。\n女性： ハムはありますか。\n男性： はい。ハムがあります。\n女性： では、ハムをひとつください。\n男性： はい。ひとつですね。",
+      "english": "Man: Welcome. What would you like?\nWoman: Do you have ham?\nMan: Yes, we have ham.\nWoman: Then one ham, please.\nMan: Certainly, one, right?",
+      "scriptPurpose": "At a deli counter",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m04-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いらっしゃいませ。なににしますか。",
+          "english": "Welcome. What would you like?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.83
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ハムはありますか。",
+          "english": "Do you have ham?",
+          "startSeconds": 3.11,
+          "endSeconds": 4.95
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。ハムがあります。",
+          "english": "Yes, we have ham.",
+          "startSeconds": 5.23,
+          "endSeconds": 7.29
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "では、ハムをひとつください。",
+          "english": "Then one ham, please.",
+          "startSeconds": 7.57,
+          "endSeconds": 10.39
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。ひとつですね。",
+          "english": "Certainly, one, right?",
+          "startSeconds": 10.67,
+          "endSeconds": 12.72
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy project ACML 1.0 pinned model rights review; independent Japanese and legal review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "0ba4957da67f1cd45132319eb8d7b714360d60165d138e194fcc09cf9c9a2c37",
+        "bytes": 1121812,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
