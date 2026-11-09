@@ -129,7 +129,7 @@
       ],
       "correctIndex": 0,
       "feedback": "Saki states 出身は大阪です.",
-      "explanation": "Saki states 出身は大阪です.",
+      "explanation": "Saki's profile says 出身は大阪です, which identifies Osaka as her place of origin.",
       "choices": [
         {
           "id": "ex-n5-m01-c04-l01-03-c1",
