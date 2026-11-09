@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m02-c03-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the classroom, there is a teacher. Choose the word for teacher.",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生",
+          "rationale": "先生 is a teacher, a person who takes います."
+        },
+        {
+          "id": "c2",
+          "text": "学生",
+          "rationale": "学生 does not match this context. 先生 is a teacher, a person who takes います."
+        },
+        {
+          "id": "c3",
+          "text": "本",
+          "rationale": "本 does not match this context. 先生 is a teacher, a person who takes います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "先生 is a teacher, a person who takes います."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You see a student in the room. Which noun names a student?",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生",
+          "rationale": "先生 does not match this context. 学生 means student; it refers to a person."
+        },
+        {
+          "id": "c2",
+          "text": "学生",
+          "rationale": "学生 means student; it refers to a person."
+        },
+        {
+          "id": "c3",
+          "text": "机",
+          "rationale": "机 does not match this context. 学生 means student; it refers to a person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "学生 means student; it refers to a person."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A cat is in the room. Which word names the animal?",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本",
+          "rationale": "本 does not match this context. 猫 (ねこ) means cat, not dog or book."
+        },
+        {
+          "id": "c2",
+          "text": "犬",
+          "rationale": "犬 does not match this context. 猫 (ねこ) means cat, not dog or book."
+        },
+        {
+          "id": "c3",
+          "text": "猫",
+          "rationale": "猫 (ねこ) means cat, not dog or book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "猫 (ねこ) means cat, not dog or book."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A dog is in the classroom. Choose the word for dog.",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "犬",
+          "rationale": "犬 (いぬ) means dog."
+        },
+        {
+          "id": "c2",
+          "text": "猫",
+          "rationale": "猫 does not match this context. 犬 (いぬ) means dog."
+        },
+        {
+          "id": "c3",
+          "text": "かばん",
+          "rationale": "かばん does not match this context. 犬 (いぬ) means dog."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "犬 (いぬ) means dog."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You found a book on a desk. Choose the word for book.",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机",
+          "rationale": "机 does not match this context. 本 (ほん) means book."
+        },
+        {
+          "id": "c2",
+          "text": "本",
+          "rationale": "本 (ほん) means book."
+        },
+        {
+          "id": "c3",
+          "text": "人",
+          "rationale": "人 does not match this context. 本 (ほん) means book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "本 (ほん) means book."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You want to say a bag is in the room. Choose the noun for bag.",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いす",
+          "rationale": "いす does not match this context. かばん means bag, an inanimate object."
+        },
+        {
+          "id": "c2",
+          "text": "友だち",
+          "rationale": "友だち does not match this context. かばん means bag, an inanimate object."
+        },
+        {
+          "id": "c3",
+          "text": "かばん",
+          "rationale": "かばん means bag, an inanimate object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "かばん means bag, an inanimate object."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which noun names a desk rather than a chair?",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机",
+          "rationale": "机 (つくえ) is a desk; いす is a chair."
+        },
+        {
+          "id": "c2",
+          "text": "いす",
+          "rationale": "いす does not match this context. 机 (つくえ) is a desk; いす is a chair."
+        },
+        {
+          "id": "c3",
+          "text": "部屋",
+          "rationale": "部屋 does not match this context. 机 (つくえ) is a desk; いす is a chair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "机 (つくえ) is a desk; いす is a chair."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which noun names a chair rather than a desk?",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机",
+          "rationale": "机 does not match this context. いす is a chair; 机 is a desk."
+        },
+        {
+          "id": "c2",
+          "text": "いす",
+          "rationale": "いす is a chair; 机 is a desk."
+        },
+        {
+          "id": "c3",
+          "text": "教室",
+          "rationale": "教室 does not match this context. いす is a chair; 机 is a desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "いす is a chair; 机 is a desk."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means classroom, a place where lessons happen?",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "部屋",
+          "rationale": "部屋 does not match this context. 教室 (きょうしつ) is a classroom."
+        },
+        {
+          "id": "c2",
+          "text": "先生",
+          "rationale": "先生 does not match this context. 教室 (きょうしつ) is a classroom."
+        },
+        {
+          "id": "c3",
+          "text": "教室",
+          "rationale": "教室 (きょうしつ) is a classroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "教室 (きょうしつ) is a classroom."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means a room in general, not necessarily a classroom?",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-people-things-places"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "部屋",
+          "rationale": "部屋 (へや) is a room."
+        },
+        {
+          "id": "c2",
+          "text": "教室",
+          "rationale": "教室 does not match this context. 部屋 (へや) is a room."
+        },
+        {
+          "id": "c3",
+          "text": "学生",
+          "rationale": "学生 does not match this context. 部屋 (へや) is a room."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "部屋 (へや) is a room."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression completes: 教室に 先生が ___。",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-existence-choice"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あります",
+          "rationale": "あります does not match this context. 先生 is a person, so います expresses existence."
+        },
+        {
+          "id": "c2",
+          "text": "います",
+          "rationale": "先生 is a person, so います expresses existence."
+        },
+        {
+          "id": "c3",
+          "text": "ですか",
+          "rationale": "ですか does not match this context. 先生 is a person, so います expresses existence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "先生 is a person, so います expresses existence."
+    },
+    {
+      "id": "ex-n5-m02-c03-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression completes: 部屋に 本が ___。",
+      "objectiveIds": [
+        "n5-m02-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l02-existence-choice"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "います",
+          "rationale": "います does not match this context. 本 is a thing, so あります expresses existence."
+        },
+        {
+          "id": "c2",
+          "text": "どこ",
+          "rationale": "どこ does not match this context. 本 is a thing, so あります expresses existence."
+        },
+        {
+          "id": "c3",
+          "text": "あります",
+          "rationale": "本 is a thing, so あります expresses existence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "本 is a thing, so あります expresses existence."
+    }
+  ]
+}
