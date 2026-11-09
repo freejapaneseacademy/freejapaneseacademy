@@ -1,0 +1,484 @@
+{
+  "id": "l0-m04-c04-l05",
+  "lessonId": "l0-m04-c04-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional station café menu and signs",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c04-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "The menu says コーヒー 400円. What costs 400 yen?",
+      "options": [
+        "Coffee",
+        "Tea",
+        "Cake"
+      ],
+      "correctIndex": 0,
+      "explanation": "コーヒー 400円 is the printed coffee row.",
+      "feedback": "コーヒー 400円 is the printed coffee row.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-01-c1",
+          "text": "Coffee",
+          "rationale": "コーヒー 400円 is the printed coffee row."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-01-c2",
+          "text": "Tea",
+          "rationale": "This option is not supported by the cited sign. コーヒー 400円 is the printed coffee row."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-01-c3",
+          "text": "Cake",
+          "rationale": "This option is not supported by the cited sign. コーヒー 400円 is the printed coffee row."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "The menu says ケーキ 350円. What is the cake price?",
+      "options": [
+        "300 yen",
+        "350 yen",
+        "450 yen"
+      ],
+      "correctIndex": 1,
+      "explanation": "ケーキ 350円 gives the price directly.",
+      "feedback": "ケーキ 350円 gives the price directly.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-02-c1",
+          "text": "300 yen",
+          "rationale": "This option is not supported by the cited sign. ケーキ 350円 gives the price directly."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-02-c2",
+          "text": "350 yen",
+          "rationale": "ケーキ 350円 gives the price directly."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-02-c3",
+          "text": "450 yen",
+          "rationale": "This option is not supported by the cited sign. ケーキ 350円 gives the price directly."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "Which printed menu label means tea?",
+      "options": [
+        "ティー",
+        "テイー",
+        "チー"
+      ],
+      "correctIndex": 0,
+      "explanation": "ティー uses small ィ and a long vowel mark.",
+      "feedback": "ティー uses small ィ and a long vowel mark.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-03-c1",
+          "text": "ティー",
+          "rationale": "ティー uses small ィ and a long vowel mark."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-03-c2",
+          "text": "テイー",
+          "rationale": "This option is not supported by the cited sign. ティー uses small ィ and a long vowel mark."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-03-c3",
+          "text": "チー",
+          "rationale": "This option is not supported by the cited sign. ティー uses small ィ and a long vowel mark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "The set says コーヒー＋ケーキ 650円. What is included?",
+      "options": [
+        "Tea and cake",
+        "Coffee and cake",
+        "Coffee and taxi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The set row joins コーヒー and ケーキ with ＋.",
+      "feedback": "The set row joins コーヒー and ケーキ with ＋.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-04-c1",
+          "text": "Tea and cake",
+          "rationale": "This option is not supported by the cited sign. The set row joins コーヒー and ケーキ with ＋."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-04-c2",
+          "text": "Coffee and cake",
+          "rationale": "The set row joins コーヒー and ケーキ with ＋."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-04-c3",
+          "text": "Coffee and taxi",
+          "rationale": "This option is not supported by the cited sign. The set row joins コーヒー and ケーキ with ＋."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "Which menu item is 450円?",
+      "options": [
+        "ケーキ",
+        "コーヒー",
+        "サンドイッチ"
+      ],
+      "correctIndex": 2,
+      "explanation": "サンドイッチ 450円 is the sandwich row.",
+      "feedback": "サンドイッチ 450円 is the sandwich row.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-05-c1",
+          "text": "ケーキ",
+          "rationale": "This option is not supported by the cited sign. サンドイッチ 450円 is the sandwich row."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-05-c2",
+          "text": "コーヒー",
+          "rationale": "This option is not supported by the cited sign. サンドイッチ 450円 is the sandwich row."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-05-c3",
+          "text": "サンドイッチ",
+          "rationale": "サンドイッチ 450円 is the sandwich row."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-05-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "The station sign says タクシー → 東口. What does the arrow direct you toward?",
+      "options": [
+        "A taxi",
+        "A cake",
+        "A file"
+      ],
+      "correctIndex": 0,
+      "explanation": "タクシー names a taxi; the arrow indicates its direction.",
+      "feedback": "タクシー names a taxi; the arrow indicates its direction.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-06-c1",
+          "text": "A taxi",
+          "rationale": "タクシー names a taxi; the arrow indicates its direction."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-06-c2",
+          "text": "A cake",
+          "rationale": "This option is not supported by the cited sign. タクシー names a taxi; the arrow indicates its direction."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-06-c3",
+          "text": "A file",
+          "rationale": "This option is not supported by the cited sign. タクシー names a taxi; the arrow indicates its direction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "Which printed label names a file?",
+      "options": [
+        "フアイル",
+        "ファイル",
+        "フェイル"
+      ],
+      "correctIndex": 1,
+      "explanation": "ファイル has small ァ and identifies a file.",
+      "feedback": "ファイル has small ァ and identifies a file.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-07-c1",
+          "text": "フアイル",
+          "rationale": "This option is not supported by the cited sign. ファイル has small ァ and identifies a file."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-07-c2",
+          "text": "ファイル",
+          "rationale": "ファイル has small ァ and identifies a file."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-07-c3",
+          "text": "フェイル",
+          "rationale": "This option is not supported by the cited sign. ファイル has small ァ and identifies a file."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "Coffee is 400円 and tea is 300円. Which is cheaper?",
+      "options": [
+        "Coffee by 100 yen",
+        "Tea by 100 yen",
+        "Same price"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tea row is 300円, 100 yen less than coffee.",
+      "feedback": "The tea row is 300円, 100 yen less than coffee.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-08-c1",
+          "text": "Coffee by 100 yen",
+          "rationale": "This option is not supported by the cited sign. The tea row is 300円, 100 yen less than coffee."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-08-c2",
+          "text": "Tea by 100 yen",
+          "rationale": "The tea row is 300円, 100 yen less than coffee."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-08-c3",
+          "text": "Same price",
+          "rationale": "This option is not supported by the cited sign. The tea row is 300円, 100 yen less than coffee."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "Which line proves that cake is sold?",
+      "options": [
+        "ケーキ 350円",
+        "タクシー → 東口",
+        "ファイル 200円"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cake row explicitly prints ケーキ 350円.",
+      "feedback": "The cake row explicitly prints ケーキ 350円.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-09-c1",
+          "text": "ケーキ 350円",
+          "rationale": "The cake row explicitly prints ケーキ 350円."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-09-c2",
+          "text": "タクシー → 東口",
+          "rationale": "This option is not supported by the cited sign. The cake row explicitly prints ケーキ 350円."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-09-c3",
+          "text": "ファイル 200円",
+          "rationale": "This option is not supported by the cited sign. The cake row explicitly prints ケーキ 350円."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-09-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l05-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l05-menu"
+      ],
+      "prompt": "Which sign contains small ェ and a long-vowel bar?",
+      "options": [
+        "チケット",
+        "チェーン",
+        "コーヒー"
+      ],
+      "correctIndex": 1,
+      "explanation": "チェーン uses small ェ and ー.",
+      "feedback": "チェーン uses small ェ and ー.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l05-10-c1",
+          "text": "チケット",
+          "rationale": "This option is not supported by the cited sign. チェーン uses small ェ and ー."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-10-c2",
+          "text": "チェーン",
+          "rationale": "チェーン uses small ェ and ー."
+        },
+        {
+          "id": "ex-l0-m04-c04-l05-10-c3",
+          "text": "コーヒー",
+          "rationale": "This option is not supported by the cited sign. チェーン uses small ェ and ー."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l05-10-c2"
+      }
+    }
+  ]
+}
