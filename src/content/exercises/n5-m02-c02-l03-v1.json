@@ -189,33 +189,33 @@
         "grammar",
         "reading"
       ],
-      "prompt": "Choose the location particle: 'The meeting is in the classroom.'",
+      "prompt": "Choose the correct sentence: 'The dictionary is in the classroom.'",
       "choices": [
         {
           "id": "c1",
-          "text": "かいぎは きょうしつに あります。",
-          "rationale": "に marks the location of an existence statement. For an event, かいぎは きょうしつで あります is also possible in different usage; here the simple existence frame uses に."
+          "text": "じしょは きょうしつに あります。",
+          "rationale": "に marks the location of an inanimate object with あります."
         },
         {
           "id": "c2",
-          "text": "かいぎは きょうしつを あります。",
-          "rationale": "This does not match the stated location or sentence function. に marks the location of an existence statement. For an event, かいぎは きょうしつで あります is also possible in different usage; here the simple existence frame uses に."
+          "text": "じしょは きょうしつを あります。",
+          "rationale": "The location in an existence sentence takes に, not this particle."
         },
         {
           "id": "c3",
-          "text": "かいぎは きょうしつが あります。",
-          "rationale": "This does not match the stated location or sentence function. に marks the location of an existence statement. For an event, かいぎは きょうしつで あります is also possible in different usage; here the simple existence frame uses に."
+          "text": "じしょは きょうしつが あります。",
+          "rationale": "The location in an existence sentence takes に, not this particle."
         },
         {
           "id": "c4",
-          "text": "かいぎは きょうしつは あります。",
-          "rationale": "This does not match the stated location or sentence function. に marks the location of an existence statement. For an event, かいぎは きょうしつで あります is also possible in different usage; here the simple existence frame uses に."
+          "text": "じしょは きょうしつは あります。",
+          "rationale": "The location in an existence sentence takes に, not this particle."
         }
       ],
       "answerKey": {
         "choiceId": "c1"
       },
-      "explanation": "に marks the location of an existence statement. For an event, かいぎは きょうしつで あります is also possible in different usage; here the simple existence frame uses に."
+      "explanation": "に marks the location of an inanimate object with あります."
     },
     {
       "id": "ex-n5-m02-c02-l03-v1-06",
