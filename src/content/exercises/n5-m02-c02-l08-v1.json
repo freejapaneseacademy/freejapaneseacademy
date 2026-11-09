@@ -21,24 +21,24 @@
       "choices": [
         {
           "id": "c1",
-          "text": "In Scene A, what does the visitor ask?",
-          "rationale": "図書室は ここです。"
+          "text": "図書室は ここです。",
+          "rationale": "ここです is an answer meaning here, not the visitor's question."
         },
         {
           "id": "c2",
           "text": "図書室は どこですか。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は ここです。"
+          "rationale": "どこですか asks for the location of the library."
         },
         {
           "id": "c3",
           "text": "図書室は あそこです。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は ここです。"
+          "rationale": "あそこです is a location answer, not a question."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
-      "explanation": "図書室は ここです。"
+      "explanation": "The visitor asks 図書室は どこですか, meaning where the library is."
     },
     {
       "id": "ex-n5-m02-c02-l08-q02-v1",
@@ -60,23 +60,23 @@
         {
           "id": "c1",
           "text": "図書室は あそこです。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は そこです。"
+          "rationale": "あそこ is the distant location away from both people."
         },
         {
           "id": "c2",
-          "text": "The library is away from both people. Which answer fits?",
-          "rationale": "図書室は そこです。"
+          "text": "図書室は そこです。",
+          "rationale": "The prompt repeated as an answer is not a Japanese location expression."
         },
         {
           "id": "c3",
           "text": "図書室は ここです。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は そこです。"
+          "rationale": "ここ means near the speaker, not far from both."
         }
       ],
       "answerKey": {
-        "choiceId": "c2"
+        "choiceId": "c1"
       },
-      "explanation": "図書室は そこです。"
+      "explanation": "あそこ refers to a location away from both speaker and listener."
     },
     {
       "id": "ex-n5-m02-c02-l08-q03-v1",
@@ -98,23 +98,23 @@
         {
           "id": "c1",
           "text": "そこです。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. あそこです。"
+          "rationale": "そこ points to the room beside the visitor, the attendant's listener."
         },
         {
           "id": "c2",
           "text": "ここです。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. あそこです。"
+          "rationale": "ここ would mean beside the attendant, contrary to the scene."
         },
         {
           "id": "c3",
-          "text": "The health room is beside the visitor, not the attendant. What does the attendant say?",
-          "rationale": "あそこです。"
+          "text": "あそこです。",
+          "rationale": "The English question is not a Japanese answer to the visitor."
         }
       ],
       "answerKey": {
-        "choiceId": "c3"
+        "choiceId": "c1"
       },
-      "explanation": "あそこです。"
+      "explanation": "From the attendant's perspective, the health room is near the listener, so そこです is correct."
     },
     {
       "id": "ex-n5-m02-c02-l08-q04-v1",
@@ -135,24 +135,24 @@
       "choices": [
         {
           "id": "c1",
-          "text": "In Scene B, why does the visitor say ここですか?",
-          "rationale": "The visitor is asking whose room it is."
+          "text": "The visitor is asking who owns the room.",
+          "rationale": "ここですか asks whether the door is here, not who owns the room."
         },
         {
           "id": "c2",
           "text": "The door is near the visitor, who is now speaking.",
-          "rationale": "This does not fit the stated speaker positions or question meaning. The visitor is asking whose room it is."
+          "rationale": "The visitor is next to the door and confirms its location as here."
         },
         {
           "id": "c3",
           "text": "The room is far from both people.",
-          "rationale": "This does not fit the stated speaker positions or question meaning. The visitor is asking whose room it is."
+          "rationale": "あそこ would mean far from both people, which the scene denies."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
-      "explanation": "The visitor is asking whose room it is."
+      "explanation": "The visitor is standing by the door, so ここですか confirms 'Here?'."
     },
     {
       "id": "ex-n5-m02-c02-l08-q05-v1",
@@ -174,23 +174,23 @@
         {
           "id": "c1",
           "text": "保健室は どこですか。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 保健室は あそこです。"
+          "rationale": "どこですか is the question word for where, correctly asking for the health room."
         },
         {
           "id": "c2",
-          "text": "Which question asks where the health room is?",
-          "rationale": "保健室は あそこです。"
+          "text": "保健室は あそこです。",
+          "rationale": "The English prompt is not a valid Japanese question answer."
         },
         {
           "id": "c3",
           "text": "保健室は そこです。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 保健室は あそこです。"
+          "rationale": "そこです states a location rather than asking where it is."
         }
       ],
       "answerKey": {
-        "choiceId": "c2"
+        "choiceId": "c1"
       },
-      "explanation": "保健室は あそこです。"
+      "explanation": "保健室は どこですか asks where the health room is."
     },
     {
       "id": "ex-n5-m02-c02-l08-q06-v1",
@@ -212,23 +212,23 @@
         {
           "id": "c1",
           "text": "図書室は 二階に あります。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は どこですか。"
+          "rationale": "二階に あります correctly locates an inanimate room on the second floor."
         },
         {
           "id": "c2",
           "text": "図書室は 二階に います。",
-          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は どこですか。"
+          "rationale": "います describes animate beings, not the existence of a library room."
         },
         {
           "id": "c3",
-          "text": "Which phrase explicitly states that the library is on the second floor?",
-          "rationale": "図書室は どこですか。"
+          "text": "図書室は どこですか。",
+          "rationale": "The repeated English prompt is not a Japanese statement."
         }
       ],
       "answerKey": {
-        "choiceId": "c3"
+        "choiceId": "c1"
       },
-      "explanation": "図書室は どこですか。"
+      "explanation": "図書室は 二階に あります states that the library is located on the second floor."
     },
     {
       "id": "ex-n5-m02-c02-l08-q07-v1",
@@ -249,24 +249,24 @@
       "choices": [
         {
           "id": "c1",
-          "text": "What does すみません do at the beginning of the visitor's question?",
-          "rationale": "Says the visitor owns the room."
+          "text": "It means the visitor owns the room.",
+          "rationale": "The prompt repeated as an answer does not explain すみません."
         },
         {
           "id": "c2",
           "text": "Politely gets the listener's attention.",
-          "rationale": "This does not fit the stated speaker positions or question meaning. Says the visitor owns the room."
+          "rationale": "すみません is a polite attention-getter before asking for help."
         },
         {
           "id": "c3",
           "text": "Says the room is nearby.",
-          "rationale": "This does not fit the stated speaker positions or question meaning. Says the visitor owns the room."
+          "rationale": "すみません does not indicate proximity or direction."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
-      "explanation": "Says the visitor owns the room."
+      "explanation": "すみません politely attracts the attendant's attention before the location question."
     },
     {
       "id": "ex-n5-m02-c02-l08-q08-v1",
@@ -288,23 +288,23 @@
         {
           "id": "c1",
           "text": "Its floor is not stated.",
-          "rationale": "This does not fit the stated speaker positions or question meaning. It is definitely on the second floor."
+          "rationale": "Neither first nor second floor is specified in Scene A."
         },
         {
           "id": "c2",
-          "text": "What can you conclude about the library's floor from Scene A alone?",
-          "rationale": "It is definitely on the second floor."
+          "text": "It is definitely on the second floor.",
+          "rationale": "The repeated English question does not state a supported conclusion."
         },
         {
           "id": "c3",
           "text": "It is definitely on the first floor.",
-          "rationale": "This does not fit the stated speaker positions or question meaning. It is definitely on the second floor."
+          "rationale": "No first-floor statement appears in the original dialogue."
         }
       ],
       "answerKey": {
-        "choiceId": "c2"
+        "choiceId": "c1"
       },
-      "explanation": "It is definitely on the second floor."
+      "explanation": "Scene A only places the library down the corridor; it does not name a floor."
     }
   ]
 }
