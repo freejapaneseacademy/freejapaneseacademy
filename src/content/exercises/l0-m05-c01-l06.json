@@ -21,27 +21,27 @@
       ],
       "trackId": "audio-l0-m05-c01-l06-a",
       "prompt": "What greeting does the learner use when arriving?",
-      "explanation": "こんばんは",
-      "evidence": "The learner begins with おはようございます, a polite morning greeting.",
+      "explanation": "The learner says おはようございます, the polite morning greeting.",
+      "evidence": "おはようございます",
       "choices": [
         {
           "id": "ex-l0-m05-c01-l06-01-c1",
           "text": "What greeting does the learner use when arriving?",
-          "rationale": "こんばんは"
+          "rationale": "Not supported by the recorded dialogue; listen for おはようございます."
         },
         {
           "id": "ex-l0-m05-c01-l06-01-c2",
           "text": "おはようございます",
-          "rationale": "This is not what the speaker says. Listen for: The learner begins with おはようございます, a polite morning greeting."
+          "rationale": "The learner says おはようございます, the polite morning greeting."
         },
         {
           "id": "ex-l0-m05-c01-l06-01-c3",
           "text": "こんにちは",
-          "rationale": "This is not what the speaker says. Listen for: The learner begins with おはようございます, a polite morning greeting."
+          "rationale": "Not supported by the recorded dialogue; listen for おはようございます."
         }
       ],
       "answerKey": {
-        "choiceId": "ex-l0-m05-c01-l06-01-c1"
+        "choiceId": "ex-l0-m05-c01-l06-01-c2"
       }
     },
     {
@@ -60,27 +60,27 @@
       ],
       "trackId": "audio-l0-m05-c01-l06-a",
       "prompt": "What does the teacher ask the learner to do?",
-      "explanation": "Write a name",
-      "evidence": "入ってください is a polite request to enter.",
+      "explanation": "The teacher says 入ってください, inviting the learner to enter.",
+      "evidence": "入ってください",
       "choices": [
         {
           "id": "ex-l0-m05-c01-l06-02-c1",
           "text": "What does the teacher ask the learner to do?",
-          "rationale": "Write a name"
+          "rationale": "Not supported by the recorded dialogue; listen for 入ってください."
         },
         {
           "id": "ex-l0-m05-c01-l06-02-c2",
           "text": "Come in",
-          "rationale": "This is not what the speaker says. Listen for: 入ってください is a polite request to enter."
+          "rationale": "The teacher says 入ってください, inviting the learner to enter."
         },
         {
           "id": "ex-l0-m05-c01-l06-02-c3",
           "text": "Open the book",
-          "rationale": "This is not what the speaker says. Listen for: 入ってください is a polite request to enter."
+          "rationale": "Not supported by the recorded dialogue; listen for 入ってください."
         }
       ],
       "answerKey": {
-        "choiceId": "ex-l0-m05-c01-l06-02-c1"
+        "choiceId": "ex-l0-m05-c01-l06-02-c2"
       }
     },
     {
@@ -99,27 +99,27 @@
       ],
       "trackId": "audio-l0-m05-c01-l06-a",
       "prompt": "How does the learner respond after the invitation?",
-      "explanation": "Says good evening",
-      "evidence": "ありがとうございます is the learner's thanks.",
+      "explanation": "The learner says ありがとうございます to thank the teacher.",
+      "evidence": "ありがとうございます",
       "choices": [
         {
           "id": "ex-l0-m05-c01-l06-03-c1",
           "text": "How does the learner respond after the invitation?",
-          "rationale": "Says good evening"
+          "rationale": "Not supported by the recorded dialogue; listen for ありがとうございます."
         },
         {
           "id": "ex-l0-m05-c01-l06-03-c2",
           "text": "Thanks the teacher",
-          "rationale": "This is not what the speaker says. Listen for: ありがとうございます is the learner's thanks."
+          "rationale": "The learner says ありがとうございます to thank the teacher."
         },
         {
           "id": "ex-l0-m05-c01-l06-03-c3",
           "text": "Asks for a book",
-          "rationale": "This is not what the speaker says. Listen for: ありがとうございます is the learner's thanks."
+          "rationale": "Not supported by the recorded dialogue; listen for ありがとうございます."
         }
       ],
       "answerKey": {
-        "choiceId": "ex-l0-m05-c01-l06-03-c1"
+        "choiceId": "ex-l0-m05-c01-l06-03-c2"
       }
     },
     {
@@ -138,27 +138,27 @@
       ],
       "trackId": "audio-l0-m05-c01-l06-b",
       "prompt": "Which greeting begins the afternoon class?",
-      "explanation": "おやすみなさい",
-      "evidence": "こんにちは is the greeting in the second conversation.",
+      "explanation": "The teacher opens the afternoon class with こんにちは.",
+      "evidence": "こんにちは",
       "choices": [
         {
           "id": "ex-l0-m05-c01-l06-04-c1",
           "text": "Which greeting begins the afternoon class?",
-          "rationale": "おやすみなさい"
+          "rationale": "Not supported by the recorded dialogue; listen for こんにちは."
         },
         {
           "id": "ex-l0-m05-c01-l06-04-c2",
           "text": "こんにちは",
-          "rationale": "This is not what the speaker says. Listen for: こんにちは is the greeting in the second conversation."
+          "rationale": "The teacher opens the afternoon class with こんにちは."
         },
         {
           "id": "ex-l0-m05-c01-l06-04-c3",
           "text": "おはようございます",
-          "rationale": "This is not what the speaker says. Listen for: こんにちは is the greeting in the second conversation."
+          "rationale": "Not supported by the recorded dialogue; listen for こんにちは."
         }
       ],
       "answerKey": {
-        "choiceId": "ex-l0-m05-c01-l06-04-c1"
+        "choiceId": "ex-l0-m05-c01-l06-04-c2"
       }
     },
     {
@@ -177,27 +177,27 @@
       ],
       "trackId": "audio-l0-m05-c01-l06-b",
       "prompt": "What does the teacher ask the class to do?",
-      "explanation": "Write their names",
-      "evidence": "本を開いてください asks the class to open books.",
+      "explanation": "The teacher says 本を開いてください, asking learners to open their books.",
+      "evidence": "本を開いてください",
       "choices": [
         {
           "id": "ex-l0-m05-c01-l06-05-c1",
           "text": "What does the teacher ask the class to do?",
-          "rationale": "Write their names"
+          "rationale": "Not supported by the recorded dialogue; listen for 本を開いてください."
         },
         {
           "id": "ex-l0-m05-c01-l06-05-c2",
           "text": "Open their books",
-          "rationale": "This is not what the speaker says. Listen for: 本を開いてください asks the class to open books."
+          "rationale": "The teacher says 本を開いてください, asking learners to open their books."
         },
         {
           "id": "ex-l0-m05-c01-l06-05-c3",
           "text": "Close their books",
-          "rationale": "This is not what the speaker says. Listen for: 本を開いてください asks the class to open books."
+          "rationale": "Not supported by the recorded dialogue; listen for 本を開いてください."
         }
       ],
       "answerKey": {
-        "choiceId": "ex-l0-m05-c01-l06-05-c1"
+        "choiceId": "ex-l0-m05-c01-l06-05-c2"
       }
     },
     {
@@ -216,27 +216,27 @@
       ],
       "trackId": "audio-l0-m05-c01-l06-b",
       "prompt": "What does the learner request?",
-      "explanation": "A pencil",
-      "evidence": "もう一度お願いします asks the teacher to say it once more.",
+      "explanation": "The learner says もう一度お願いします, requesting a repetition.",
+      "evidence": "もう一度お願いします",
       "choices": [
         {
           "id": "ex-l0-m05-c01-l06-06-c1",
           "text": "What does the learner request?",
-          "rationale": "A pencil"
+          "rationale": "Not supported by the recorded dialogue; listen for もう一度お願いします."
         },
         {
           "id": "ex-l0-m05-c01-l06-06-c2",
           "text": "A repetition",
-          "rationale": "This is not what the speaker says. Listen for: もう一度お願いします asks the teacher to say it once more."
+          "rationale": "The learner says もう一度お願いします, requesting a repetition."
         },
         {
           "id": "ex-l0-m05-c01-l06-06-c3",
           "text": "A break",
-          "rationale": "This is not what the speaker says. Listen for: もう一度お願いします asks the teacher to say it once more."
+          "rationale": "Not supported by the recorded dialogue; listen for もう一度お願いします."
         }
       ],
       "answerKey": {
-        "choiceId": "ex-l0-m05-c01-l06-06-c1"
+        "choiceId": "ex-l0-m05-c01-l06-06-c2"
       }
     }
   ]
