@@ -1,30 +1,57 @@
 'use strict';
 // Trusted main-branch release coordinator. Never execute code from incoming PRs.
 const EXPECTED_REPO = 'freejapaneseacademy/freejapaneseacademy';
-const idPattern = /^l0-m(\d{2})-c(\d{2})-(l(\d{2})|chk)$/;
-const branchPattern = /^lesson\/(l0-m\d{2}-c\d{2}-(?:l\d{2}|chk))(?:-|$)/;
+const idPattern = /^(l0|n5|n4|n3|n2|n1)-m(\d{2})-c(\d{2})-(l(\d{2})|chk)$/;
+const branchPattern = /^lesson\/((?:l0|n5|n4|n3|n2|n1)-m\d{2}-c\d{2}-(?:l\d{2}|chk))(?:-|$)/;
+const levelOrder = ['l0','n5','n4','n3','n2','n1'];
+const moduleCounts = {l0:5,n5:10,n4:10,n3:12,n2:12,n1:13};
 
 function nextId(items) {
   const last=items.at(-1)?.id;
   const x=idPattern.exec(last||'');
   if(!x) throw new Error('Unrecognized latest published lesson: '+last);
-  let m=Number(x[1]), c=Number(x[2]), slot;
-  if(x[3]==='chk'){if(c===4){m++;c=1;}else c++;slot='l01';}
-  else if(Number(x[4])===8)slot='chk';
-  else slot='l'+String(Number(x[4])+1).padStart(2,'0');
-  return 'l0-m'+String(m).padStart(2,'0')+'-c'+String(c).padStart(2,'0')+'-'+slot;
+  let level=x[1],m=Number(x[2]),c=Number(x[3]),slot;
+  if(x[4]==='chk'){
+    if(c===4){
+      if(m===moduleCounts[level]){
+        const nextLevel=levelOrder[levelOrder.indexOf(level)+1];
+        if(!nextLevel)return null; // The full six-level academy is published.
+        level=nextLevel;m=1;c=1;
+      }else{m++;c=1;}
+    }else c++;
+    slot='l01';
+  }
+  else if(Number(x[5])===8)slot='chk';
+  else slot='l'+String(Number(x[5])+1).padStart(2,'0');
+  return level+'-m'+String(m).padStart(2,'0')+'-c'+String(c).padStart(2,'0')+'-'+slot;
 }
 function entryFor(mainItems, branchItems, target) {
-  const published=new Set(mainItems.filter(x=>x.level==='l0'&&x.status==='published').map(x=>x.id));
-  const additions=branchItems.filter(x=>x.level==='l0'&&!published.has(x.id)&&
+  const match=idPattern.exec(target||'');
+  if(!match)throw new Error('Unknown curriculum candidate: '+target);
+  const level=match[1];
+  const published=new Set(mainItems.filter(x=>x.status==='published'&&idPattern.test(x.id)).map(x=>x.id));
+  const additions=branchItems.filter(x=>idPattern.test(x.id)&&!published.has(x.id)&&
     ['draft','reviewed','published'].includes(x.status));
   if(additions.length!==1 || additions[0].id!==target)throw new Error('Exactly one new candidate required: '+target);
-  const entry=additions[0], match=idPattern.exec(target);
-  const url='/learn/start/module-'+match[1]+'/chapter-'+match[2]+'/' +
-    (match[3]==='chk'?'checkpoint/':'lesson-'+match[4]+'/');
-  if(entry.url!==url || !entry.content?.startsWith('src/content/lessons/l0/') ||
-    !entry.content.endsWith('.mdx'))throw new Error('Wrong lesson route or source: '+target);
+  const entry=additions[0], root=level==='l0'?'start':level;
+  const url='/learn/'+root+'/module-'+match[2]+'/chapter-'+match[3]+'/' +
+    (match[4]==='chk'?'checkpoint/':'lesson-'+match[5]+'/');
+  if(entry.level!==level || entry.url!==url ||
+    !entry.content?.startsWith('src/content/lessons/'+level+'/') ||
+    !entry.content.endsWith('.mdx'))throw new Error('Wrong lesson route, level or source: '+target);
   return entry;
+}
+function promoteRoute(source) {
+  if (typeof source!=='string' || !/<Base(?:\s|>)/.test(source)) {
+    throw new Error('Canonical lesson route must render the shared Base layout');
+  }
+  // Authored preview routes may set an explicit noindex; remove that restriction
+  // ONLY in the coordinator's trusted, published promotion commit.
+  const result=source.replace(/\bnoindex\s*=\s*\{\s*true\s*\}/g,'noindex={false}');
+  if (/\bnoindex\s*=\s*["']true["']/.test(result)) {
+    throw new Error('Unsupported literal noindex on canonical published lesson');
+  }
+  return result;
 }
 function allowed(path, id, entry) {
   if(path==='docs/LESSON_INVENTORY.json'||path===entry.content)return true;
@@ -66,8 +93,9 @@ async function run({github,core,context}){
     return;
   }
   const mainDoc=JSON.parse(await getText(github,owner,repo,'docs/LESSON_INVENTORY.json',main));
-  const mainPublished=mainDoc.items.filter(x=>x.level==='l0'&&x.status==='published');
+  const mainPublished=mainDoc.items.filter(x=>x.status==='published'&&idPattern.test(x.id));
   const target=nextId(mainPublished);
+  if(!target){core.notice('All six curriculum levels published; no further lessons to release.');return;}
   const open=await github.paginate(github.rest.pulls.list,{owner,repo,state:'open',per_page:100});
   const claimed=open.filter(p=>p.base.ref==='main'&&p.head.repo?.full_name===full&&
     p.user?.login===owner&&branchPattern.exec(p.head.ref)?.[1]===target);
@@ -131,6 +159,14 @@ async function run({github,core,context}){
       if((f.status==='added'&&now&&now!==obj.sha)||
          (f.status==='modified'&&now!==before&&now!==obj.sha)){
         core.warning('Concurrent modification requires owner repair: '+f.filename);return;
+      }
+      if(f.filename===route){
+        const originalRoute=await getText(github,owner,repo,route,head);
+        const publishedRoute=promoteRoute(originalRoute);
+        // Published routes must not retain authoring-time noindex. CI runs on
+        // this exact integrated head, not on the earlier draft branch.
+        treeEntries.push({path:route,mode:obj.mode,type:'blob',content:publishedRoute});
+        continue;
       }
       if(now!==obj.sha)treeEntries.push({path:f.filename,mode:obj.mode,type:'blob',sha:obj.sha});
     }
@@ -245,4 +281,4 @@ async function run({github,core,context}){
   }
   core.warning('Merged '+target+' but exact-commit Cloudflare is pending. Verify before claiming live.');
 }
-module.exports={run,nextId,entryFor,allowed,exactSuccess};
+module.exports={run,nextId,entryFor,allowed,exactSuccess,promoteRoute};
