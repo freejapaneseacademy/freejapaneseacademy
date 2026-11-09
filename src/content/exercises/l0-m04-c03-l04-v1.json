@@ -1,0 +1,578 @@
+{
+  "id": "l0-m04-c03-l04",
+  "lessonId": "l0-m04-c03-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original beginner katakana script-recognition and typing lesson; fictional labels",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c03-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-ra"
+      ],
+      "prompt": "Which is the katakana for 'ra'?",
+      "options": [
+        "ラ",
+        "フ",
+        "テ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ラ is ra; フ is fu and テ is te.",
+      "feedback": "ラ is ra; フ is fu and テ is te.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-01-c1",
+          "text": "ラ",
+          "rationale": "ラ is ra; フ is fu and テ is te."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-01-c2",
+          "text": "フ",
+          "rationale": "Not this form. ラ is ra; フ is fu and テ is te."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-01-c3",
+          "text": "テ",
+          "rationale": "Not this form. ラ is ra; フ is fu and テ is te."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-ri"
+      ],
+      "prompt": "Which is the katakana for 'ri'?",
+      "options": [
+        "ル",
+        "リ",
+        "レ"
+      ],
+      "correctIndex": 1,
+      "explanation": "リ is ri, made with two strokes; ル is ru and レ is re.",
+      "feedback": "リ is ri, made with two strokes; ル is ru and レ is re.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-02-c1",
+          "text": "ル",
+          "rationale": "Not this form. リ is ri, made with two strokes; ル is ru and レ is re."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-02-c2",
+          "text": "リ",
+          "rationale": "リ is ri, made with two strokes; ル is ru and レ is re."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-02-c3",
+          "text": "レ",
+          "rationale": "Not this form. リ is ri, made with two strokes; ル is ru and レ is re."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-ru"
+      ],
+      "prompt": "Which is the katakana for 'ru'?",
+      "options": [
+        "レ",
+        "ロ",
+        "ル"
+      ],
+      "correctIndex": 2,
+      "explanation": "ル is ru; レ is re and ロ is ro.",
+      "feedback": "ル is ru; レ is re and ロ is ro.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-03-c1",
+          "text": "レ",
+          "rationale": "Not this form. ル is ru; レ is re and ロ is ro."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-03-c2",
+          "text": "ロ",
+          "rationale": "Not this form. ル is ru; レ is re and ロ is ro."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-03-c3",
+          "text": "ル",
+          "rationale": "ル is ru; レ is re and ロ is ro."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-re"
+      ],
+      "prompt": "Which is the katakana for 're'?",
+      "options": [
+        "レ",
+        "ラ",
+        "ル"
+      ],
+      "correctIndex": 0,
+      "explanation": "レ is re; its bent stroke is distinct from ラ and ル.",
+      "feedback": "レ is re; its bent stroke is distinct from ラ and ル.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-04-c1",
+          "text": "レ",
+          "rationale": "レ is re; its bent stroke is distinct from ラ and ル."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-04-c2",
+          "text": "ラ",
+          "rationale": "Not this form. レ is re; its bent stroke is distinct from ラ and ル."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-04-c3",
+          "text": "ル",
+          "rationale": "Not this form. レ is re; its bent stroke is distinct from ラ and ル."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-ro"
+      ],
+      "prompt": "Which is the katakana for 'ro'?",
+      "options": [
+        "ロ",
+        "コ",
+        "口"
+      ],
+      "correctIndex": 0,
+      "explanation": "ロ is katakana ro. コ is ko; 口 is the visually similar kanji for mouth.",
+      "feedback": "ロ is katakana ro. コ is ko; 口 is the visually similar kanji for mouth.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-05-c1",
+          "text": "ロ",
+          "rationale": "ロ is katakana ro. コ is ko; 口 is the visually similar kanji for mouth."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-05-c2",
+          "text": "コ",
+          "rationale": "Not this form. ロ is katakana ro. コ is ko; 口 is the visually similar kanji for mouth."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-05-c3",
+          "text": "口",
+          "rationale": "Not this form. ロ is katakana ro. コ is ko; 口 is the visually similar kanji for mouth."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-ringo"
+      ],
+      "prompt": "Which spelling reads 'ringo' (an invented product brand here)?",
+      "options": [
+        "リンゴ",
+        "リソゴ",
+        "リンコ"
+      ],
+      "correctIndex": 0,
+      "explanation": "リンゴ combines リ (ri), ン (n), and ゴ (go with dakuten).",
+      "feedback": "リンゴ combines リ (ri), ン (n), and ゴ (go with dakuten).",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-06-c1",
+          "text": "リンゴ",
+          "rationale": "リンゴ combines リ (ri), ン (n), and ゴ (go with dakuten)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-06-c2",
+          "text": "リソゴ",
+          "rationale": "Not this form. リンゴ combines リ (ri), ン (n), and ゴ (go with dakuten)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-06-c3",
+          "text": "リンコ",
+          "rationale": "Not this form. リンゴ combines リ (ri), ン (n), and ゴ (go with dakuten)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-mira"
+      ],
+      "prompt": "Which character completes the fictional name 'ミ__' to read 'Mira'?",
+      "options": [
+        "ラ",
+        "ル",
+        "ロ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ミラ is mi-ra; ラ represents ra.",
+      "feedback": "ミラ is mi-ra; ラ represents ra.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-07-c1",
+          "text": "ラ",
+          "rationale": "ミラ is mi-ra; ラ represents ra."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-07-c2",
+          "text": "ル",
+          "rationale": "Not this form. ミラ is mi-ra; ラ represents ra."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-07-c3",
+          "text": "ロ",
+          "rationale": "Not this form. ミラ is mi-ra; ラ represents ra."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-radio"
+      ],
+      "prompt": "Which written label means 'radio'?",
+      "options": [
+        "ラジオ",
+        "ラシオ",
+        "ラヂオ"
+      ],
+      "correctIndex": 0,
+      "explanation": "ラジオ is the conventional spelling for radio; ジ uses dakuten on シ.",
+      "feedback": "ラジオ is the conventional spelling for radio; ジ uses dakuten on シ.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-08-c1",
+          "text": "ラジオ",
+          "rationale": "ラジオ is the conventional spelling for radio; ジ uses dakuten on シ."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-08-c2",
+          "text": "ラシオ",
+          "rationale": "Not this form. ラジオ is the conventional spelling for radio; ジ uses dakuten on シ."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-08-c3",
+          "text": "ラヂオ",
+          "rationale": "Not this form. ラジオ is the conventional spelling for radio; ジ uses dakuten on シ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-po"
+      ],
+      "prompt": "Choose the form that changes ホ (ho) to po.",
+      "options": [
+        "ボ",
+        "ポ",
+        "ホ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ポ has the small circle (handakuten), representing po; ボ has dakuten and is bo.",
+      "feedback": "ポ has the small circle (handakuten), representing po; ボ has dakuten and is bo.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-09-c1",
+          "text": "ボ",
+          "rationale": "Not this form. ポ has the small circle (handakuten), representing po; ボ has dakuten and is bo."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-09-c2",
+          "text": "ポ",
+          "rationale": "ポ has the small circle (handakuten), representing po; ボ has dakuten and is bo."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-09-c3",
+          "text": "ホ",
+          "rationale": "Not this form. ポ has the small circle (handakuten), representing po; ボ has dakuten and is bo."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-n"
+      ],
+      "prompt": "Which shop label contains ン (n), not ソ (so)?",
+      "options": [
+        "ペン",
+        "ペソ",
+        "ソース"
+      ],
+      "correctIndex": 0,
+      "explanation": "ペン ends with ン; ペソ ends with ソ. The word context helps disambiguate.",
+      "feedback": "ペン ends with ン; ペソ ends with ソ. The word context helps disambiguate.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-10-c1",
+          "text": "ペン",
+          "rationale": "ペン ends with ン; ペソ ends with ソ. The word context helps disambiguate."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-10-c2",
+          "text": "ペソ",
+          "rationale": "Not this form. ペン ends with ン; ペソ ends with ソ. The word context helps disambiguate."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-10-c3",
+          "text": "ソース",
+          "rationale": "Not this form. ペン ends with ン; ペソ ends with ソ. The word context helps disambiguate."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-10-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-ra-copy"
+      ],
+      "prompt": "Type the katakana for 'ra' (choose the exact model).",
+      "options": [
+        "ラ",
+        "ヲ",
+        "フ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The target is ラ, not ヲ (wo) or フ (fu).",
+      "feedback": "The target is ラ, not ヲ (wo) or フ (fu).",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-11-c1",
+          "text": "ラ",
+          "rationale": "The target is ラ, not ヲ (wo) or フ (fu)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-11-c2",
+          "text": "ヲ",
+          "rationale": "Not this form. The target is ラ, not ヲ (wo) or フ (fu)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-11-c3",
+          "text": "フ",
+          "rationale": "Not this form. The target is ラ, not ヲ (wo) or フ (fu)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-11-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l04-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l04-marks"
+      ],
+      "prompt": "Which pair correctly distinguishes 'ba' and 'pa'?",
+      "options": [
+        "バ / パ",
+        "パ / バ",
+        "ハ / バ"
+      ],
+      "correctIndex": 0,
+      "explanation": "バ has dakuten (ba); パ has handakuten (pa).",
+      "feedback": "バ has dakuten (ba); パ has handakuten (pa).",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l04-12-c1",
+          "text": "バ / パ",
+          "rationale": "バ has dakuten (ba); パ has handakuten (pa)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-12-c2",
+          "text": "パ / バ",
+          "rationale": "Not this form. バ has dakuten (ba); パ has handakuten (pa)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l04-12-c3",
+          "text": "ハ / バ",
+          "rationale": "Not this form. バ has dakuten (ba); パ has handakuten (pa)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l04-12-c1"
+      }
+    }
+  ]
+}
