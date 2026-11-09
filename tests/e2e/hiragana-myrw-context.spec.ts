@@ -13,6 +13,7 @@ test('quiz scores, saves and retries',async({page})=>{
  const quiz=page.locator('section[aria-labelledby="hiragana-myrw-context-practice"]');
  const button=quiz.getByRole('button',{name:'Check all eight answers'});
  await expect(button).toBeDisabled();
+ await expect(quiz.locator('fieldset').first()).toBeEnabled();
  for(const field of await quiz.locator('fieldset').all())await field.locator('input[type=radio]').first().check();
  await button.click();
  await expect(quiz.getByText(/Written score: \d+\/8/)).toBeVisible();

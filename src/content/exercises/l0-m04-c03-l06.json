@@ -1,0 +1,257 @@
+{
+  "id": "l0-m04-c03-l06-check-v1",
+  "lessonId": "l0-m04-c03-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m04-c03-l06-a",
+    "audio-l0-m04-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m04-c03-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l06-spoken-1"
+      ],
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ],
+      "trackId": "audio-l0-m04-c03-l06-a",
+      "prompt": "How many breads does the customer request?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two",
+          "rationale": "Supported by the spoken turn."
+        },
+        {
+          "id": "b",
+          "text": "One",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "c",
+          "text": "Three",
+          "rationale": "Not supported by this conversation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The customer explicitly requests two breads.",
+      "evidence": "はい。パンをふたつください。"
+    },
+    {
+      "id": "ex-l0-m04-c03-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l06-spoken-2"
+      ],
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ],
+      "trackId": "audio-l0-m04-c03-l06-a",
+      "prompt": "What additional item does the clerk mention?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tea",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "b",
+          "text": "Juice",
+          "rationale": "Supported by the spoken turn."
+        },
+        {
+          "id": "c",
+          "text": "Coffee",
+          "rationale": "Not supported by this conversation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The clerk says juice is also available.",
+      "evidence": "はい。ジュースもありますよ。"
+    },
+    {
+      "id": "ex-l0-m04-c03-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l06-spoken-3"
+      ],
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ],
+      "trackId": "audio-l0-m04-c03-l06-a",
+      "prompt": "How many juices does the customer request?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "b",
+          "text": "Two",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "c",
+          "text": "One",
+          "rationale": "Supported by the spoken turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The customer asks for one juice.",
+      "evidence": "では、ジュースもひとつください。"
+    },
+    {
+      "id": "ex-l0-m04-c03-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l06-spoken-4"
+      ],
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ],
+      "trackId": "audio-l0-m04-c03-l06-b",
+      "prompt": "Whose bag is being discussed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mina's",
+          "rationale": "Supported by the spoken turn."
+        },
+        {
+          "id": "b",
+          "text": "The clerk's",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "c",
+          "text": "The man's",
+          "rationale": "Not supported by this conversation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The speaker identifies it as Mina's bag.",
+      "evidence": "それはミナさんのバッグです。"
+    },
+    {
+      "id": "ex-l0-m04-c03-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l06-spoken-5"
+      ],
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ],
+      "trackId": "audio-l0-m04-c03-l06-b",
+      "prompt": "Is the bag described as a present?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "b",
+          "text": "Yes",
+          "rationale": "Supported by the spoken turn."
+        },
+        {
+          "id": "c",
+          "text": "Nobody knows",
+          "rationale": "Not supported by this conversation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The speaker explicitly confirms it is a present.",
+      "evidence": "はい。ミナさんへのプレゼントです。"
+    },
+    {
+      "id": "ex-l0-m04-c03-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l06-spoken-6"
+      ],
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ],
+      "trackId": "audio-l0-m04-c03-l06-b",
+      "prompt": "Who is the present intended for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The man",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "b",
+          "text": "The clerk",
+          "rationale": "Not supported by this conversation."
+        },
+        {
+          "id": "c",
+          "text": "Mina",
+          "rationale": "Supported by the spoken turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The speaker says the present is for Mina.",
+      "evidence": "はい。ミナさんへのプレゼントです。"
+    }
+  ]
+}
