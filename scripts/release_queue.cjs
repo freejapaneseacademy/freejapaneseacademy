@@ -42,13 +42,13 @@ function entryFor(mainItems, branchItems, target) {
   return entry;
 }
 function promoteRoute(source) {
-  if (typeof source!=='string' || !/<Base(?:\\s|>)/.test(source)) {
+  if (typeof source!=='string' || !/<Base(?:\s|>)/.test(source)) {
     throw new Error('Canonical lesson route must render the shared Base layout');
   }
   // Authored preview routes may set an explicit noindex; remove that restriction
   // ONLY in the coordinator's trusted, published promotion commit.
-  const result=source.replace(/\\bnoindex\\s*=\\s*\\{\\s*true\\s*\\}/g,'noindex={false}');
-  if (/\\bnoindex\\s*=\\s*["']true["']/.test(result)) {
+  const result=source.replace(/\bnoindex\s*=\s*\{\s*true\s*\}/g,'noindex={false}');
+  if (/\bnoindex\s*=\s*["']true["']/.test(result)) {
     throw new Error('Unsupported literal noindex on canonical published lesson');
   }
   return result;
