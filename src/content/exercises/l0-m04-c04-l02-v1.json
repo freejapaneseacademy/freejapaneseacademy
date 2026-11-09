@@ -1,0 +1,389 @@
+{
+  "id": "l0-m04-c04-l02",
+  "lessonId": "l0-m04-c04-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional station café, stationery counter and railway signs; written vocabulary practice",
+  "items": [
+    {
+      "id": "ex-l0-m04-c04-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-food-coffee"
+      ],
+      "prompt": "Which label means coffee?",
+      "explanation": "コーヒー is coffee; コピー is a copy, not a drink.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-01-c1",
+          "text": "ケーキ",
+          "rationale": "Not this one. コーヒー is coffee; コピー is a copy, not a drink."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-01-c2",
+          "text": "コーヒー",
+          "rationale": "コーヒー is coffee; コピー is a copy, not a drink."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-01-c3",
+          "text": "コピー",
+          "rationale": "Not this one. コーヒー is coffee; コピー is a copy, not a drink."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-01-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-food-cake"
+      ],
+      "prompt": "Which word names a cake?",
+      "explanation": "ケーキ is cake, while ケータイ is a mobile phone.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-02-c1",
+          "text": "ケーキ",
+          "rationale": "ケーキ is cake, while ケータイ is a mobile phone."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-02-c2",
+          "text": "ケータイ",
+          "rationale": "Not this one. ケーキ is cake, while ケータイ is a mobile phone."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-02-c3",
+          "text": "コーヒー",
+          "rationale": "Not this one. ケーキ is cake, while ケータイ is a mobile phone."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-transport-taxi"
+      ],
+      "prompt": "Which label is a taxi?",
+      "explanation": "タクシー means taxi; テキスト means a text or textbook.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-03-c1",
+          "text": "タクシー",
+          "rationale": "タクシー means taxi; テキスト means a text or textbook."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-03-c2",
+          "text": "テキスト",
+          "rationale": "Not this one. タクシー means taxi; テキスト means a text or textbook."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-03-c3",
+          "text": "ティー",
+          "rationale": "Not this one. タクシー means taxi; テキスト means a text or textbook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-tech-file"
+      ],
+      "prompt": "Which word refers to a file or folder?",
+      "explanation": "ファイル refers to a file or folder, depending on context.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-04-c1",
+          "text": "ファイル",
+          "rationale": "ファイル refers to a file or folder, depending on context."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-04-c2",
+          "text": "ファイト",
+          "rationale": "Not this one. ファイル refers to a file or folder, depending on context."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-04-c3",
+          "text": "ファン",
+          "rationale": "Not this one. ファイル refers to a file or folder, depending on context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-transport-ticket"
+      ],
+      "prompt": "Which label means a ticket?",
+      "explanation": "チケット means ticket; チェリー means cherry.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-05-c1",
+          "text": "チケット",
+          "rationale": "チケット means ticket; チェリー means cherry."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-05-c2",
+          "text": "チェリー",
+          "rationale": "Not this one. チケット means ticket; チェリー means cherry."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-05-c3",
+          "text": "チキン",
+          "rationale": "Not this one. チケット means ticket; チェリー means cherry."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-food-cherry"
+      ],
+      "prompt": "Which label means cherry?",
+      "explanation": "チェリー means cherry; small ェ is part of チェ.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-06-c1",
+          "text": "チーズ",
+          "rationale": "Not this one. チェリー means cherry; small ェ is part of チェ."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-06-c2",
+          "text": "チェリー",
+          "rationale": "チェリー means cherry; small ェ is part of チェ."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-06-c3",
+          "text": "チケット",
+          "rationale": "Not this one. チェリー means cherry; small ェ is part of チェ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-food-tea"
+      ],
+      "prompt": "Which spelling means tea in the café card?",
+      "explanation": "ティー means tea here. The small ィ and ー are both important.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-07-c1",
+          "text": "テイ",
+          "rationale": "Not this one. ティー means tea here. The small ィ and ー are both important."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-07-c2",
+          "text": "ティー",
+          "rationale": "ティー means tea here. The small ィ and ー are both important."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-07-c3",
+          "text": "チー",
+          "rationale": "Not this one. ティー means tea here. The small ィ and ー are both important."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-food-cheese"
+      ],
+      "prompt": "Which label means cheese?",
+      "explanation": "チーズ means cheese, with ー lengthening the vowel.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-08-c1",
+          "text": "チーズ",
+          "rationale": "チーズ means cheese, with ー lengthening the vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-08-c2",
+          "text": "チェリー",
+          "rationale": "Not this one. チーズ means cheese, with ー lengthening the vowel."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-08-c3",
+          "text": "チケット",
+          "rationale": "Not this one. チーズ means cheese, with ー lengthening the vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-transport-platform"
+      ],
+      "prompt": "A station sign says ホーム. What does it most likely mean here?",
+      "explanation": "On a Japanese railway sign ホーム commonly means a train platform, not a house.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-09-c1",
+          "text": "A family home",
+          "rationale": "Not this one. On a Japanese railway sign ホーム commonly means a train platform, not a house."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-09-c2",
+          "text": "Train platform",
+          "rationale": "On a Japanese railway sign ホーム commonly means a train platform, not a house."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-09-c3",
+          "text": "A document folder",
+          "rationale": "Not this one. On a Japanese railway sign ホーム commonly means a train platform, not a house."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l02-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l02-food-menu"
+      ],
+      "prompt": "Which Japanese word means a printed menu?",
+      "explanation": "メニュー is menu; マニュアル is manual and メール is email.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l02-10-c1",
+          "text": "メニュー",
+          "rationale": "メニュー is menu; マニュアル is manual and メール is email."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-10-c2",
+          "text": "マニュアル",
+          "rationale": "Not this one. メニュー is menu; マニュアル is manual and メール is email."
+        },
+        {
+          "id": "ex-l0-m04-c04-l02-10-c3",
+          "text": "メール",
+          "rationale": "Not this one. メニュー is menu; マニュアル is manual and メール is email."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l02-10-c1"
+      }
+    }
+  ]
+}
