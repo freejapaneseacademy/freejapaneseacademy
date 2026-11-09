@@ -2475,6 +2475,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses two original L06 AivisSpeech WAVs only after genuine media, manifest and rights verification; no new voice synthesis or pronunciation grade",
       "noindex": false
+    },
+    {
+      "id": "n5-m01-c03-l06",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c03",
+      "slot": "L06",
+      "title": "Family talk — listen for relatives and relationships",
+      "content": "src/content/lessons/n5/family-talk-listening.mdx",
+      "url": "/learn/n5/module-01/chapter-03/lesson-06/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese and pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "schema-v3 original candidate job committed; genuine WAVs, hashes, redistribution and playback pending",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
