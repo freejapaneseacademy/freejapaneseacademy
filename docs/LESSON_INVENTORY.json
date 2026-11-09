@@ -2986,6 +2986,23 @@
       "audio": "not required for written L03",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m02-c04-l01",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c04",
+      "slot": "L01",
+      "title": "A Room Tour: Where Is Everything?",
+      "content": "src/content/lessons/n5/room-tour-context.mdx",
+      "url": "/learn/n5/module-02/chapter-04/lesson-01/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment editor review not claimed",
+      "audio": "not required for written L01; no audio or pronunciation evaluation claimed",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
