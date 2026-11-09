@@ -1,0 +1,390 @@
+{
+  "id": "n5-m01-c04-l01",
+  "lessonId": "n5-m01-c04-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Saki and Leo welcome-desk profile cards",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c04-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "Who is a university student?",
+      "options": [
+        "さき",
+        "レオ",
+        "Neither person"
+      ],
+      "correctIndex": 0,
+      "feedback": "Card A explicitly says 大学生です.",
+      "explanation": "Card A explicitly says 大学生です.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-01-c1",
+          "text": "さき",
+          "rationale": "Card A explicitly says 大学生です."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-01-c2",
+          "text": "レオ",
+          "rationale": "Not supported: Card A explicitly says 大学生です."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-01-c3",
+          "text": "Neither person",
+          "rationale": "Not supported: Card A explicitly says 大学生です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c04-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "Who is 23 years old?",
+      "options": [
+        "さき",
+        "レオ",
+        "Both people"
+      ],
+      "correctIndex": 1,
+      "feedback": "Leo's card says 二十三歳です.",
+      "explanation": "Leo's card says 二十三歳です.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-02-c1",
+          "text": "さき",
+          "rationale": "Not supported: Leo's card says 二十三歳です."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-02-c2",
+          "text": "レオ",
+          "rationale": "Leo's card says 二十三歳です."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-02-c3",
+          "text": "Both people",
+          "rationale": "Not supported: Leo's card says 二十三歳です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c04-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "Where is Saki from?",
+      "options": [
+        "大阪",
+        "トロント",
+        "京都"
+      ],
+      "correctIndex": 0,
+      "feedback": "Saki states 出身は大阪です.",
+      "explanation": "Saki states 出身は大阪です.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-03-c1",
+          "text": "大阪",
+          "rationale": "Saki states 出身は大阪です."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-03-c2",
+          "text": "トロント",
+          "rationale": "Not supported: Saki states 出身は大阪です."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-03-c3",
+          "text": "京都",
+          "rationale": "Not supported: Saki states 出身は大阪です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c04-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "What does Leo's 出身はカナダのトロントです tell us?",
+      "options": [
+        "His current address is Toronto",
+        "He is from Toronto in Canada",
+        "His nationality is Canadian"
+      ],
+      "correctIndex": 1,
+      "feedback": "出身 identifies a place of origin, not current residence or nationality.",
+      "explanation": "出身 identifies a place of origin, not current residence or nationality.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-04-c1",
+          "text": "His current address is Toronto",
+          "rationale": "Not supported: 出身 identifies a place of origin, not current residence or nationality."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-04-c2",
+          "text": "He is from Toronto in Canada",
+          "rationale": "出身 identifies a place of origin, not current residence or nationality."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-04-c3",
+          "text": "His nationality is Canadian",
+          "rationale": "Not supported: 出身 identifies a place of origin, not current residence or nationality."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c04-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "Which role does Leo state?",
+      "options": [
+        "大学生",
+        "先生",
+        "会社員"
+      ],
+      "correctIndex": 2,
+      "feedback": "Leo says 会社員です, meaning he works for a company.",
+      "explanation": "Leo says 会社員です, meaning he works for a company.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-05-c1",
+          "text": "大学生",
+          "rationale": "Not supported: Leo says 会社員です, meaning he works for a company."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-05-c2",
+          "text": "先生",
+          "rationale": "Not supported: Leo says 会社員です, meaning he works for a company."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-05-c3",
+          "text": "会社員",
+          "rationale": "Leo says 会社員です, meaning he works for a company."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c04-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "Which reading matches 二十歳 in Saki's card?",
+      "options": [
+        "にじゅうさい",
+        "はたち",
+        "にじゅうさんさい"
+      ],
+      "correctIndex": 1,
+      "feedback": "二十歳 has the special reading はたち.",
+      "explanation": "二十歳 has the special reading はたち.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-06-c1",
+          "text": "にじゅうさい",
+          "rationale": "Not supported: 二十歳 has the special reading はたち."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-06-c2",
+          "text": "はたち",
+          "rationale": "二十歳 has the special reading はたち."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-06-c3",
+          "text": "にじゅうさんさい",
+          "rationale": "Not supported: 二十歳 has the special reading はたち."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c04-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "In カナダのトロント, what does の do?",
+      "options": [
+        "Links the country and city",
+        "Marks a question",
+        "Means Toronto belongs to a person"
+      ],
+      "correctIndex": 0,
+      "feedback": "の links Canada and Toronto as a geographic description.",
+      "explanation": "の links Canada and Toronto as a geographic description.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-07-c1",
+          "text": "Links the country and city",
+          "rationale": "の links Canada and Toronto as a geographic description."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-07-c2",
+          "text": "Marks a question",
+          "rationale": "Not supported: の links Canada and Toronto as a geographic description."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-07-c3",
+          "text": "Means Toronto belongs to a person",
+          "rationale": "Not supported: の links Canada and Toronto as a geographic description."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c04-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l01-profile-evidence"
+      ],
+      "prompt": "Which claim is NOT supported by either card?",
+      "options": [
+        "Both greet their classmates politely",
+        "Saki is a university student",
+        "Leo currently lives in Toronto"
+      ],
+      "correctIndex": 2,
+      "feedback": "Leo says he is from Toronto; he does not give his present residence.",
+      "explanation": "Leo says he is from Toronto; he does not give his present residence.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l01-08-c1",
+          "text": "Both greet their classmates politely",
+          "rationale": "Not supported: Leo says he is from Toronto; he does not give his present residence."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-08-c2",
+          "text": "Saki is a university student",
+          "rationale": "Not supported: Leo says he is from Toronto; he does not give his present residence."
+        },
+        {
+          "id": "ex-n5-m01-c04-l01-08-c3",
+          "text": "Leo currently lives in Toronto",
+          "rationale": "Leo says he is from Toronto; he does not give his present residence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l01-08-c3"
+      }
+    }
+  ]
+}
