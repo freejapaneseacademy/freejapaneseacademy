@@ -2771,6 +2771,21 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses two L06 candidate AivisSpeech WAVs; actual verified media and rights manifest required before publication",
       "noindex": false
+    },
+    {
+      "id": "l0-m05-c02-chk",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c02",
+      "slot": "CHK",
+      "title": "Numbers and personal details — chapter checkpoint",
+      "content": "src/content/lessons/l0/personal-details-checkpoint.mdx",
+      "url": "/learn/start/module-05/chapter-02/checkpoint/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses predecessor L06 genuine licensed WAVs; manifest and binary integrity require release-gate verification",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
