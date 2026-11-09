@@ -13,6 +13,8 @@ test('mapping quiz is keyboard-operable, scored and retryable',async({page})=>{
  const quiz=page.locator('section[aria-labelledby="hiragana-sound-practice"]');
  const button=quiz.getByRole('button',{name:'Check all eight answers'});
  await expect(button).toBeDisabled();
+ // The server-rendered inputs are disabled until the React island hydrates.
+ await expect(quiz.locator('fieldset').first()).toBeEnabled();
  for(const field of await quiz.locator('fieldset').all())await field.locator('input[type=radio]').first().check();
  await button.click();
  await expect(quiz.getByText(/Written score: \d+\/8/)).toBeVisible();
