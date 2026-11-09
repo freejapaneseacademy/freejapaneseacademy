@@ -2833,6 +2833,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written L03",
       "noindex": false
+    },
+    {
+      "id": "l0-m05-c03-l04",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c03",
+      "slot": "L04",
+      "title": "Read and type first-sentence kana: は, を and classroom nouns",
+      "content": "src/content/lessons/l0/first-sentence-script.mdx",
+      "url": "/learn/start/module-05/chapter-03/lesson-04/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L04",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
