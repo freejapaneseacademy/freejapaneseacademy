@@ -23,7 +23,9 @@ test('L06 keyboard controls and transcript reset', async ({ page }) => {
   await expect(reveal).toBeEnabled();
   await reveal.focus();
   await expect(reveal).toBeFocused();
-  await page.keyboard.press('Enter');
+  // Send a real Enter key event to the hydrated control itself, rather than
+  // relying on whichever element retains page-level focus during island setup.
+  await reveal.press('Enter');
   await expect(reveal).toHaveAttribute('aria-expanded', 'true');
   await expect(page.getByText('Japanese transcript').first()).toBeVisible();
   await page.getByRole('button', { name: 'Start a new listening attempt' }).click();
