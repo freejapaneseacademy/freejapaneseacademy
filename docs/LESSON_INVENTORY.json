@@ -2803,6 +2803,21 @@
       "audio": "not required for written context L01",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m02-c02-l04",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c02",
+      "slot": "L04",
+      "title": "Campus signs in kanji: Find rooms and floors",
+      "content": "src/content/lessons/n5/campus-sign-kanji.mdx",
+      "url": "/learn/n5/module-02/chapter-02/lesson-04/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L04",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
