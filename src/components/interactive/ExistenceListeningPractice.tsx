@@ -1,0 +1,24 @@
+import {useState} from 'react';
+import bank from '../../content/exercises/n5-m02-c03-l06-v1.json';
+import {recordAttempt} from '../../lib/progress';
+
+const tracks=[
+{id:'a',title:'Looking for a notebook in the study room',url:'/audio/fja-n5-m02-c03-l06-a-v1.wav',turns:[['Visitor','すみません。机の上にノートがありますか。','Excuse me. Is there a notebook on the desk?'],['Staff','はい、青いノートがあります。','Yes, there is a blue notebook.'],['Visitor','赤いノートもありますか。','Is there also a red notebook?'],['Staff','いいえ、赤いノートはありません。','No, there is no red notebook.']]},
+{id:'b',title:'Finding a person and a bag in the classroom',url:'/audio/fja-n5-m02-c03-l06-b-v1.wav',turns:[['Student','教室に先生がいますか。','Is the teacher in the classroom?'],['Staff','はい、先生がいます。','Yes, the teacher is here.'],['Student','教室にかばんもありますか。','Is there also a bag in the classroom?'],['Staff','いいえ、かばんは教室にありません。廊下にあります。','No, the bag is not in the classroom. It is in the hallway.']]}
+];
+export function gradeExistenceListening(answers:Record<string,string>){return bank.items.filter(q=>answers[q.id]===q.answerKey.choiceId).length;}
+export default function ExistenceListeningPractice(){
+const [answers,setAnswers]=useState<Record<string,string>>({});
+const [ready,setReady]=useState<Record<string,boolean>>({});
+const [failed,setFailed]=useState<Record<string,boolean>>({});
+const [revealed,setRevealed]=useState<Record<string,boolean>>({});
+const [assisted,setAssisted]=useState(false);
+const [submitted,setSubmitted]=useState(false);
+const [notice,setNotice]=useState('');
+const playable=tracks.every(t=>ready[t.id]&&!failed[t.id]);
+async function submit(){if(!playable||submitted||bank.items.some(q=>!answers[q.id]))return;setSubmitted(true);try{await recordAttempt('n5-m02-c03-l06-'+(assisted?'assisted':'unaided')+'-v1','n5',gradeExistenceListening(answers),bank.items.length);setNotice('Attempt saved on this device.');}catch{setNotice('Browser storage unavailable; feedback remains visible.');}}
+return <section className="min-w-0 space-y-6" aria-label="Existence and location listening practice"><h2 className="text-2xl font-semibold">Listen and answer six questions</h2><p>Play both recordings before submitting. Revealing any transcript makes this a transcript-assisted attempt.</p>
+{tracks.map(t=><section key={t.id} className="min-w-0 rounded-xl border border-current/20 p-4" aria-label={t.title}><h3 className="text-xl font-semibold">{t.title}</h3><audio controls preload="none" className="mt-3 w-full max-w-full" src={t.url} aria-label={'Play '+t.title} onCanPlay={()=>{setReady(s=>({...s,[t.id]:true}));setFailed(s=>({...s,[t.id]:false}));}} onError={()=>{setReady(s=>({...s,[t.id]:false}));setFailed(s=>({...s,[t.id]:true}));}}/><p role="status">{failed[t.id]?'Recording unavailable; scoring is locked until authentic audio can play.':ready[t.id]?'Recording is playable.':'Waiting for verified playable audio.'}</p><button type="button" className="min-h-11 rounded-lg border border-current px-4 py-2" aria-expanded={Boolean(revealed[t.id])} onClick={()=>{setAssisted(true);setRevealed(s=>({...s,[t.id]:!s[t.id]}));}}>{revealed[t.id]?'Hide':'Show'} transcript (assisted)</button>{revealed[t.id]&&<div className="mt-3 space-y-2">{t.turns.map((turn,i)=><p key={i}><strong>{turn[0]}:</strong> <span lang="ja">{turn[1]}</span> — {turn[2]}</p>)}</div>}
+{bank.items.filter(q=>q.trackId===t.id).map((q,i)=><fieldset key={q.id} disabled={submitted} data-question-id={q.id} className="mt-4 min-w-0 rounded-lg border border-current/20 p-3"><legend className="px-1 font-semibold">{i+1}. {q.prompt}</legend>{q.choices.map(c=><label key={c.id} className="flex min-h-11 items-center gap-3 rounded-lg p-2 focus-within:outline focus-within:outline-2"><input type="radio" name={q.id} checked={answers[q.id]===c.id} onChange={()=>setAnswers(s=>({...s,[q.id]:c.id}))}/><span>{c.text}</span></label>)}{submitted&&<div role="status" className="mt-2"><strong>{answers[q.id]===q.answerKey.choiceId?'Correct. ':'Review. '}</strong>{q.explanation}<p lang="ja">Spoken evidence: {q.evidence}</p><p>{q.choices.find(c=>c.id===answers[q.id])?.rationale}</p></div>}</fieldset>)}</section>)}
+{!submitted?<button type="button" disabled={!playable||bank.items.some(q=>!answers[q.id])} onClick={submit} className="min-h-11 rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white disabled:opacity-50">Check six listening answers</button>:<div role="status" aria-live="polite"><p>Practice score: {gradeExistenceListening(answers)}/{bank.items.length}. {assisted?'Transcript-assisted':'Unaided'} attempt; not a JLPT grade.</p><button type="button" className="min-h-11 rounded-lg border border-current px-4 py-3" onClick={()=>{setAnswers({});setSubmitted(false);setNotice('Ready to retry.');}}>Try again</button></div>}<p role="status" aria-live="polite">{notice}</p></section>;
+}
