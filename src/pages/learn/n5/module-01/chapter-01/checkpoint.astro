@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import N5FirstMeetingsCheckpoint from '../../../../../components/interactive/N5FirstMeetingsCheckpoint';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/first-meetings-checkpoint');
+if(!lesson||lesson.data.lessonId!=='n5-m01-c01-chk')throw new Error('Missing canonical lesson n5-m01-c01-chk');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 01 · Chapter 01 · Checkpoint</span></nav><span class="eyebrow">N5 · MODULE 01 · CHAPTER 01 · CHECKPOINT</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>14 questions</span><span>Reading, grammar and listening</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Draft checkpoint:</strong> Listening requires licensed predecessor WAVs; independent reviews pending.</div><div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><N5FirstMeetingsCheckpoint client:load/><div class="foundation-completion"><h2>Finish the checkpoint</h2><p>Completion and quiz attempts are stored locally.</p><LessonActions client:load lessonId="n5-m01-c01-chk" level="n5"/></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div></div><aside class="lesson-side foundation-side"><h3>Evidence before guesses</h3><p>Find the stated fact; do not confuse a question with its answer.</p></aside></div></section>
+</Base>
