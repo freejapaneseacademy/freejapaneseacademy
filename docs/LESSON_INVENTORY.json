@@ -2460,6 +2460,21 @@
       "audio": "not required for writing L07; original announcements belong to L06",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "l0-m04-c04-l08",
+      "level": "l0",
+      "moduleId": "l0-m04",
+      "chapterId": "l0-m04-c04",
+      "slot": "L08",
+      "title": "Optional speaking and shadowing — katakana station café announcements",
+      "content": "src/content/lessons/l0/katakana-loanword-shadowing.mdx",
+      "url": "/learn/start/module-04/chapter-04/lesson-08/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses two original L06 AivisSpeech WAVs only after genuine media, manifest and rights verification; no new voice synthesis or pronunciation grade",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
