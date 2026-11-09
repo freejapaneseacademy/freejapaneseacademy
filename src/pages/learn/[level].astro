@@ -3,25 +3,53 @@ import Base from '../../layouts/Base.astro';
 import LevelProgress from '../../components/interactive/LevelProgress';
 import { getCollection } from 'astro:content';
 import { levels } from '../../lib/curriculum';
+import inventory from '../../../docs/LESSON_INVENTORY.json';
 export async function getStaticPaths() { return levels.map(level => ({ params: { level: level.id }, props: { level } })); }
 const { level } = Astro.props;
 const lessons = (await getCollection('lessons')).filter(lesson => lesson.data.level === level.id);
 const noindex = level.id !== 'n5';
+// Published canonical inventory, not demonstration slugs, is the N5 navigation source.
+const publishedN5 = level.id === 'n5' ? inventory.items.filter(item =>
+  item.level === 'n5' && item.status === 'published' && item.noindex === false
+).map(item => {
+  const source = lessons.find(lesson => lesson.data.lessonId === item.id);
+  if (!source) throw new Error('Published N5 lesson lacks content: ' + item.id);
+  return { id: item.id, chapterId: item.chapterId || '', url: item.url,
+    title: source.data.title, description: source.data.description,
+    minutes: source.data.minutes, slot: item.slot || '' };
+}) : [];
+const n5Chapters = [...new Set(publishedN5.map(item => item.chapterId))];
+const availableCount = level.id === 'n5' ? publishedN5.length : lessons.length;
 ---
-<Base title={`JLPT ${level.label} — ${level.stage} Japanese`} description={`${level.description} Explore the FreeJapaneseAcademy ${level.label} pathway and available preview lessons.`} noindex={noindex} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:level.label,href:`/learn/${level.id}/`}] }>
+<Base title={`JLPT ${level.label} — ${level.stage} Japanese`} description={`${level.description} Explore the FreeJapaneseAcademy ${level.label} pathway and available lessons.`} noindex={noindex} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:level.label,href:`/learn/${level.id}/`}] }>
   <section class="page-hero"><div class="container level-hero-grid"><div>
     <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><span>{level.label}</span></nav>
     <span class="eyebrow">JLPT {level.label} · {level.stage.toUpperCase()}</span>
     <h1>{level.name}.</h1><p>{level.description}</p>
-    <div class="level-summary"><span class="pill">{level.label} pathway</span><span class="pill">{lessons.length} available {lessons.length === 1 ? 'lesson' : 'lessons'}</span><span class="pill">Completely free</span></div>
-    <LevelProgress client:load level={level.id} total={lessons.length} />
+    <div class="level-summary"><span class="pill">{level.label} pathway</span><span class="pill">{availableCount} available {availableCount === 1 ? 'activity' : 'activities'}</span><span class="pill">Completely free</span></div>
+    <LevelProgress client:load level={level.id} total={availableCount} />
   </div><div class={`level-badge tone-${level.tone}`}><strong>{level.label}</strong><span lang="ja">{level.japanese}</span></div></div></section>
   <section class="page-body"><div class="container">
     <span class="eyebrow">WHAT YOU WILL EXPLORE</span><h2 style="margin-top:14px">The {level.label} learning journey</h2><div class="level-topic-list">{level.topics.map((topic,i) => <div class="topic-item"><span>0{i + 1}.</span>{topic}</div>)}</div>
-    {lessons.length > 0 ? <section style="margin-top:65px"><span class="eyebrow">AVAILABLE NOW</span><h2 style="margin-top:13px">Start with a real step.</h2>
+    {level.id === 'n5' ? <section style="margin-top:65px" aria-label="Published N5 curriculum">
+      <span class="eyebrow">PUBLISHED N5 CURRICULUM</span><h2 style="margin-top:13px">Study in module and chapter order.</h2>
+      <p>Choose any lesson freely. These are original academy lessons, not official JLPT examination materials.</p>
+      {n5Chapters.map(chapter => <section class="min-w-0" style="margin-top:32px" aria-label={'Chapter ' + chapter}>
+        <h3>Module {chapter.split('-')[1]?.slice(1)} · Chapter {chapter.split('-')[2]?.slice(1)}</h3>
+        <ol class="grid min-w-0 gap-3" style="margin-top:14px">
+          {publishedN5.filter(item => item.chapterId === chapter).map(item => <li class="min-w-0">
+            <a data-canonical-n5-lesson-id={item.id} href={item.url} class="block min-w-0 rounded-xl border border-current/20 p-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
+              <span class="eyebrow">{item.slot === 'CHK' ? 'CHAPTER CHECKPOINT' : item.slot} · {item.minutes} MIN</span>
+              <h4 class="break-words" style="margin-top:8px">{item.title}</h4><p class="break-words" style="margin-top:5px">{item.description}</p>
+              <span class="text-link">Open activity</span>
+            </a>
+          </li>)}
+        </ol>
+      </section>)}
+    </section> : lessons.length > 0 ? <section style="margin-top:65px"><span class="eyebrow">AVAILABLE NOW</span><h2 style="margin-top:13px">Start with a real step.</h2>
       {lessons.map(lesson => <div class="available-lesson"><div><span class="eyebrow">SAMPLE LESSON · {lesson.data.minutes} MIN</span><h3>{lesson.data.title}</h3><p>{lesson.data.description}</p></div><a href={`/learn/${level.id}/${lesson.id.split('/').pop()}/`} class="btn btn-primary">Open lesson ↗</a></div>)}
     </section> : <div class="course-notice"><strong>Course content coming later.</strong> We're preparing the structure first; there are no published {level.label} lessons or examinations yet. You can explore the <a href="/learn/n5/hiragana-introduction/" class="text-link">N5 lesson preview</a> to see how the academy works.</div>}
-    <section style="margin-top:72px"><span class="eyebrow">PLANNED MODULES</span><h2 style="margin-top:13px">Your future chapter roadmap.</h2><div class="preview-grid">{level.pathway.map((name,i) => <div class="preview-card"><span>MODULE 0{i+1} · PLANNED</span><h3>{name}</h3><p>Detailed chapters, explanations, interactive practice, and reviews will be created in the curriculum phase.</p></div>)}</div></section>
+    <section style="margin-top:72px"><span class="eyebrow">MODULE ROADMAP</span><h2 style="margin-top:13px">Topics across the full course.</h2><div class="preview-grid">{level.pathway.map((name,i) => <div class="preview-card"><span>MODULE 0{i+1} · {level.id === 'n5' ? 'PATHWAY' : 'PLANNED'}</span><h3>{name}</h3><p>Detailed chapters, explanations, interactive practice, and reviews will be created in the curriculum phase.</p></div>)}</div></section>
     <div class="course-notice">These are planned topic areas, not completed chapters or official JLPT curriculum lists. The JLPT does not publish a complete official itemized grammar or vocabulary syllabus for each level.</div>
   </div></section>
 </Base>
