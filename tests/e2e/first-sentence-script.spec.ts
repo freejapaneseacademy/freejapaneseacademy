@@ -11,7 +11,7 @@ test('keyboard selection, feedback and retry',async ({page})=>{
  for(let i=1;i<12;i++) await groups.nth(i).locator('input[type=radio]').first().check();
  await page.getByRole('button',{name:'Check 12 answers'}).click();
  await expect(page.getByText(/Written script score:/)).toBeVisible();
- await expect(groups.first().getByText(/topic particle/i)).toBeVisible();
+ await expect(groups.first().getByRole('status').getByText(/topic particle/i)).toBeVisible();
  await page.getByRole('button',{name:'Retry questions'}).click();
  await expect(page.getByRole('button',{name:'Check 12 answers'})).toBeDisabled();
 });
