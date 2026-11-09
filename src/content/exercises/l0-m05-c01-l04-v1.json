@@ -1,0 +1,484 @@
+{
+  "id": "l0-m05-c01-l04",
+  "lessonId": "l0-m05-c01-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original Level 0 greetings and classroom instructions kana orthography",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c01-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which spelling is the standard hiragana for the polite morning greeting?",
+      "options": [
+        "おはよございます",
+        "おはようございます",
+        "おはようござます"
+      ],
+      "correctIndex": 1,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-01-c1",
+          "text": "おはよございます",
+          "rationale": "おはよございます changes or omits a kana. The full greeting is おはようございます. Keep the よう sequence and います ending."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-01-c2",
+          "text": "おはようございます",
+          "rationale": "The full greeting is おはようございます. Keep the よう sequence and います ending."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-01-c3",
+          "text": "おはようござます",
+          "rationale": "おはようござます changes or omits a kana. The full greeting is おはようございます. Keep the よう sequence and います ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-01-c2"
+      },
+      "explanation": "The full greeting is おはようございます. Keep the よう sequence and います ending.",
+      "feedback": "The full greeting is おはようございます. Keep the よう sequence and います ending."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which spelling represents the daytime greeting?",
+      "options": [
+        "こんにちは",
+        "こんいちは",
+        "こんにちわ"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-02-c1",
+          "text": "こんにちは",
+          "rationale": "The fixed greeting こんにちは ends in は, pronounced wa in this expression."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-02-c2",
+          "text": "こんいちは",
+          "rationale": "こんいちは changes or omits a kana. The fixed greeting こんにちは ends in は, pronounced wa in this expression."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-02-c3",
+          "text": "こんにちわ",
+          "rationale": "こんにちわ changes or omits a kana. The fixed greeting こんにちは ends in は, pronounced wa in this expression."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-02-c1"
+      },
+      "explanation": "The fixed greeting こんにちは ends in は, pronounced wa in this expression.",
+      "feedback": "The fixed greeting こんにちは ends in は, pronounced wa in this expression."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which is the polite expression of thanks?",
+      "options": [
+        "ありがとうござます",
+        "ありがとございます",
+        "ありがとうございます"
+      ],
+      "correctIndex": 2,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-03-c1",
+          "text": "ありがとうござます",
+          "rationale": "ありがとうござます changes or omits a kana. ありがとうございます contains とう and ございます; the long vowel in とう matters."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-03-c2",
+          "text": "ありがとございます",
+          "rationale": "ありがとございます changes or omits a kana. ありがとうございます contains とう and ございます; the long vowel in とう matters."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-03-c3",
+          "text": "ありがとうございます",
+          "rationale": "ありがとうございます contains とう and ございます; the long vowel in とう matters."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-03-c3"
+      },
+      "explanation": "ありがとうございます contains とう and ございます; the long vowel in とう matters.",
+      "feedback": "ありがとうございます contains とう and ございます; the long vowel in とう matters."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which spelling is the casual morning greeting?",
+      "options": [
+        "おはよ",
+        "おはよう",
+        "おはょ"
+      ],
+      "correctIndex": 1,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-04-c1",
+          "text": "おはよ",
+          "rationale": "おはよ changes or omits a kana. おはよう has full-size よ followed by う; おはよ is not the target standard spelling."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-04-c2",
+          "text": "おはよう",
+          "rationale": "おはよう has full-size よ followed by う; おはよ is not the target standard spelling."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-04-c3",
+          "text": "おはょ",
+          "rationale": "おはょ changes or omits a kana. おはよう has full-size よ followed by う; おはよ is not the target standard spelling."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-04-c2"
+      },
+      "explanation": "おはよう has full-size よ followed by う; おはよ is not the target standard spelling.",
+      "feedback": "おはよう has full-size よ followed by う; おはよ is not the target standard spelling."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which instruction means 'please look'?",
+      "options": [
+        "みてください",
+        "みてくださ",
+        "みでください"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-05-c1",
+          "text": "みてください",
+          "rationale": "みてください uses て, not voiced で, and ends with さい."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-05-c2",
+          "text": "みてくださ",
+          "rationale": "みてくださ changes or omits a kana. みてください uses て, not voiced で, and ends with さい."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-05-c3",
+          "text": "みでください",
+          "rationale": "みでください changes or omits a kana. みてください uses て, not voiced で, and ends with さい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-05-c1"
+      },
+      "explanation": "みてください uses て, not voiced で, and ends with さい.",
+      "feedback": "みてください uses て, not voiced で, and ends with さい."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which instruction means 'please listen'?",
+      "options": [
+        "きいでください",
+        "きてください",
+        "きいてください"
+      ],
+      "correctIndex": 2,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-06-c1",
+          "text": "きいでください",
+          "rationale": "きいでください changes or omits a kana. きいてください has きい (long /ii/) before て; きてください instead means please come."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-06-c2",
+          "text": "きてください",
+          "rationale": "きてください changes or omits a kana. きいてください has きい (long /ii/) before て; きてください instead means please come."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-06-c3",
+          "text": "きいてください",
+          "rationale": "きいてください has きい (long /ii/) before て; きてください instead means please come."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-06-c3"
+      },
+      "explanation": "きいてください has きい (long /ii/) before て; きてください instead means please come.",
+      "feedback": "きいてください has きい (long /ii/) before て; きてください instead means please come."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which instruction means 'please read'?",
+      "options": [
+        "よでください",
+        "よんでください",
+        "よんてください"
+      ],
+      "correctIndex": 1,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-07-c1",
+          "text": "よでください",
+          "rationale": "よでください changes or omits a kana. よんでください includes ん and voiced で in the request."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-07-c2",
+          "text": "よんでください",
+          "rationale": "よんでください includes ん and voiced で in the request."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-07-c3",
+          "text": "よんてください",
+          "rationale": "よんてください changes or omits a kana. よんでください includes ん and voiced で in the request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-07-c2"
+      },
+      "explanation": "よんでください includes ん and voiced で in the request.",
+      "feedback": "よんでください includes ん and voiced で in the request."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which instruction means 'please write'?",
+      "options": [
+        "かいてください",
+        "かてください",
+        "かいでください"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-08-c1",
+          "text": "かいてください",
+          "rationale": "かいてください contains かい followed by unvoiced て."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-08-c2",
+          "text": "かてください",
+          "rationale": "かてください changes or omits a kana. かいてください contains かい followed by unvoiced て."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-08-c3",
+          "text": "かいでください",
+          "rationale": "かいでください changes or omits a kana. かいてください contains かい followed by unvoiced て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-08-c1"
+      },
+      "explanation": "かいてください contains かい followed by unvoiced て.",
+      "feedback": "かいてください contains かい followed by unvoiced て."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which sequence is correctly written for 'please repeat'?",
+      "options": [
+        "もういちど いてください",
+        "もいちど いってください",
+        "もういちど いってください"
+      ],
+      "correctIndex": 2,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-09-c1",
+          "text": "もういちど いてください",
+          "rationale": "もういちど いてください changes or omits a kana. もういちど means once more; いって has small っ before て."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-09-c2",
+          "text": "もいちど いってください",
+          "rationale": "もいちど いってください changes or omits a kana. もういちど means once more; いって has small っ before て."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-09-c3",
+          "text": "もういちど いってください",
+          "rationale": "もういちど means once more; いって has small っ before て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-09-c3"
+      },
+      "explanation": "もういちど means once more; いって has small っ before て.",
+      "feedback": "もういちど means once more; いって has small っ before て."
+    },
+    {
+      "id": "ex-l0-m05-c01-l04-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "script",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l04-orthography"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l04-greeting-kana"
+      ],
+      "prompt": "Which pair correctly contrasts 'please come' and 'please listen'?",
+      "options": [
+        "きいてください / きてください",
+        "きてください / きいてください",
+        "きでください / きてください"
+      ],
+      "correctIndex": 1,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l04-10-c1",
+          "text": "きいてください / きてください",
+          "rationale": "きいてください / きてください changes or omits a kana. きてください is please come; きいてください is please listen. One extra い changes the verb."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-10-c2",
+          "text": "きてください / きいてください",
+          "rationale": "きてください is please come; きいてください is please listen. One extra い changes the verb."
+        },
+        {
+          "id": "ex-l0-m05-c01-l04-10-c3",
+          "text": "きでください / きてください",
+          "rationale": "きでください / きてください changes or omits a kana. きてください is please come; きいてください is please listen. One extra い changes the verb."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l04-10-c2"
+      },
+      "explanation": "きてください is please come; きいてください is please listen. One extra い changes the verb.",
+      "feedback": "きてください is please come; きいてください is please listen. One extra い changes the verb."
+    }
+  ]
+}
