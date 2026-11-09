@@ -1,0 +1,243 @@
+{
+  "id": "n5-m01-c02-l06",
+  "lessonId": "n5-m01-c02-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy spoken interviews; listening scoring contingent on licensed WAV verification",
+  "items": [
+    {
+      "id": "ex-n5-m01-c02-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l06-a-01"
+      ],
+      "trackId": "audio-n5-m01-c02-l06-a",
+      "prompt": "Who is the person the visitor asks about?",
+      "explanation": "The reply names Yamada and identifies her as a Japanese teacher.",
+      "evidence": "やまださんです。にほんごのせんせいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l06-01-c1",
+          "text": "Yamada",
+          "rationale": "Correct: やまださんです。にほんごのせんせいです。"
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-01-c2",
+          "text": "Tanaka",
+          "rationale": "The spoken answer supports “Yamada”, not “Tanaka”."
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-01-c3",
+          "text": "A student named Lee",
+          "rationale": "The spoken answer supports “Yamada”, not “A student named Lee”."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l06-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l06-a-02"
+      ],
+      "trackId": "audio-n5-m01-c02-l06-a",
+      "prompt": "Where is Yamada?",
+      "explanation": "The answer explicitly gives the classroom.",
+      "evidence": "きょうしつです。",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l06-02-c1",
+          "text": "In the classroom",
+          "rationale": "Correct: きょうしつです。"
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-02-c2",
+          "text": "At the station",
+          "rationale": "The spoken answer supports “In the classroom”, not “At the station”."
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-02-c3",
+          "text": "At home",
+          "rationale": "The spoken answer supports “In the classroom”, not “At home”."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l06-02-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l06-a-03"
+      ],
+      "trackId": "audio-n5-m01-c02-l06-a",
+      "prompt": "Who is also in the classroom?",
+      "explanation": "も adds Tanaka to the classroom fact.",
+      "evidence": "たなかさんも、きょうしつです。",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l06-03-c1",
+          "text": "Tanaka",
+          "rationale": "Correct: たなかさんも、きょうしつです。"
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-03-c2",
+          "text": "Lee",
+          "rationale": "The spoken answer supports “Tanaka”, not “Lee”."
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-03-c3",
+          "text": "The visitor",
+          "rationale": "The spoken answer supports “Tanaka”, not “The visitor”."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l06-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l06-b-04"
+      ],
+      "trackId": "audio-n5-m01-c02-l06-b",
+      "prompt": "What does the speaker identify first?",
+      "explanation": "じしょ means dictionary.",
+      "evidence": "それは、じしょです。",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l06-04-c1",
+          "text": "A dictionary",
+          "rationale": "Correct: それは、じしょです。"
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-04-c2",
+          "text": "A notebook",
+          "rationale": "The spoken answer supports “A dictionary”, not “A notebook”."
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-04-c3",
+          "text": "A pencil",
+          "rationale": "The spoken answer supports “A dictionary”, not “A pencil”."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l06-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l06-b-05"
+      ],
+      "trackId": "audio-n5-m01-c02-l06-b",
+      "prompt": "Which notebook belongs to the respondent?",
+      "explanation": "The reply identifies the blue notebook.",
+      "evidence": "あのあおいノートです。",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l06-05-c1",
+          "text": "The blue notebook",
+          "rationale": "Correct: あのあおいノートです。"
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-05-c2",
+          "text": "The red notebook",
+          "rationale": "The spoken answer supports “The blue notebook”, not “The red notebook”."
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-05-c3",
+          "text": "Neither notebook",
+          "rationale": "The spoken answer supports “The blue notebook”, not “Neither notebook”."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l06-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l06-b-06"
+      ],
+      "trackId": "audio-n5-m01-c02-l06-b",
+      "prompt": "Does the red notebook belong to the respondent?",
+      "explanation": "The negative reply explicitly rules out ownership.",
+      "evidence": "あかいノートは、わたしのじゃありません。",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l06-06-c1",
+          "text": "No",
+          "rationale": "Correct: あかいノートは、わたしのじゃありません。"
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-06-c2",
+          "text": "Yes",
+          "rationale": "The spoken answer supports “No”, not “Yes”."
+        },
+        {
+          "id": "ex-n5-m01-c02-l06-06-c3",
+          "text": "The speaker does not say",
+          "rationale": "The spoken answer supports “No”, not “The speaker does not say”."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l06-06-c1"
+      }
+    }
+  ]
+}
