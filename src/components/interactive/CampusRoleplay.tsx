@@ -26,3 +26,4 @@ export default function CampusRoleplay() {
  {error&&<p role="alert">{error}. Your selections are retained; retry saving.</p>}
  {!done?<button type="button" className="btn btn-primary" disabled={saving||count!==questions.length} onClick={submit}>{saving?'Saving…':'Check answers and save score'}</button>:<div className="foundation-result" role="status"><h3>{scoreCampusRoleplay(answers)} / {questions.length} correct</h3><p>This is written recognition only, not a speaking grade. Attempts are stored locally.</p><button type="button" className="btn btn-outline" onClick={()=>{setAnswers({});setDone(false);setError('');}}>Retry written check</button></div>}
  <p className="foundation-storage-note">Role and self-check choices remain in page memory; scored quiz attempts are saved in local browser storage.</p></section>;
+}
