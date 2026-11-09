@@ -1,0 +1,408 @@
+{
+  "id": "l0-m05-c04-l05-check-v1",
+  "lessonId": "l0-m05-c04-l05",
+  "version": 1,
+  "stimulusId": "l0-m05-c04-l05-story-v1",
+  "items": [
+    {
+      "id": "ex-l0-m05-c04-l05-001",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o1"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-1"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "When does Mina go to school?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In the morning",
+          "rationale": "Correct: あさ marks morning. The story states this explicitly."
+        },
+        {
+          "id": "b",
+          "text": "At night",
+          "rationale": "This is not what the quoted line says. Check: あさ、みなは がっこうへ いきました。"
+        },
+        {
+          "id": "c",
+          "text": "At noon",
+          "rationale": "This is not what the quoted line says. Check: あさ、みなは がっこうへ いきました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あさ marks morning. Evidence: あさ、みなは がっこうへ いきました。",
+      "evidence": "あさ、みなは がっこうへ いきました。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-002",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o1"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-2"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "Who receives Mina's greeting?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A student",
+          "rationale": "This is not what the quoted line says. Check: みなは せんせいに「おはようございます」と いいました。"
+        },
+        {
+          "id": "b",
+          "text": "The teacher",
+          "rationale": "Correct: せんせいに identifies the recipient. The story states this explicitly."
+        },
+        {
+          "id": "c",
+          "text": "A café worker",
+          "rationale": "This is not what the quoted line says. Check: みなは せんせいに「おはようございます」と いいました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "せんせいに identifies the recipient. Evidence: みなは せんせいに「おはようございます」と いいました。",
+      "evidence": "みなは せんせいに「おはようございます」と いいました。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-003",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o1"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-3"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "What is today's study focus?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A kanji exam",
+          "rationale": "This is not what the quoted line says. Check: きょうは かなの ふくしゅうを します。"
+        },
+        {
+          "id": "b",
+          "text": "A cooking class",
+          "rationale": "This is not what the quoted line says. Check: きょうは かなの ふくしゅうを します。"
+        },
+        {
+          "id": "c",
+          "text": "Kana review",
+          "rationale": "Correct: かなの ふくしゅう means kana review. The story states this explicitly."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "かなの ふくしゅう means kana review. Evidence: きょうは かなの ふくしゅうを します。",
+      "evidence": "きょうは かなの ふくしゅうを します。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-004",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o1"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-4"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "Which two things are on the desk?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A book and a notebook",
+          "rationale": "Correct: ほん and ノート are listed together. The story states this explicitly."
+        },
+        {
+          "id": "b",
+          "text": "Coffee and a book",
+          "rationale": "This is not what the quoted line says. Check: つくえに ほんと ノートが あります。"
+        },
+        {
+          "id": "c",
+          "text": "Two notebooks",
+          "rationale": "This is not what the quoted line says. Check: つくえに ほんと ノートが あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ほん and ノート are listed together. Evidence: つくえに ほんと ノートが あります。",
+      "evidence": "つくえに ほんと ノートが あります。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-005",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o1"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-5"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "Which two words does Mina write?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ほん and こんにちは",
+          "rationale": "This is not what the quoted line says. Check: みなは ノートに「きょう」「コーヒー」と かきました。"
+        },
+        {
+          "id": "b",
+          "text": "きょう and コーヒー",
+          "rationale": "Correct: The quoted words are the writing targets. The story states this explicitly."
+        },
+        {
+          "id": "c",
+          "text": "せんせい and がくせい",
+          "rationale": "This is not what the quoted line says. Check: みなは ノートに「きょう」「コーヒー」と かきました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The quoted words are the writing targets. Evidence: みなは ノートに「きょう」「コーヒー」と かきました。",
+      "evidence": "みなは ノートに「きょう」「コーヒー」と かきました。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-006",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o2"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-6"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "Which word contains the mark Mina forgets?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "きょう",
+          "rationale": "This is not what the quoted line says. Check: 「コーヒー」の ーを ひとつ わすれました。"
+        },
+        {
+          "id": "b",
+          "text": "ほん",
+          "rationale": "This is not what the quoted line says. Check: 「コーヒー」の ーを ひとつ わすれました。"
+        },
+        {
+          "id": "c",
+          "text": "コーヒー",
+          "rationale": "Correct: The passage explicitly names コーヒー and ー. The story states this explicitly."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The passage explicitly names コーヒー and ー. Evidence: 「コーヒー」の ーを ひとつ わすれました。",
+      "evidence": "「コーヒー」の ーを ひとつ わすれました。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-007",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o2"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-7"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "What does Mina do after noticing the error?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Looks again and rewrites correctly",
+          "rationale": "Correct: かきなおしました means rewrote. The story states this explicitly."
+        },
+        {
+          "id": "b",
+          "text": "Stops studying",
+          "rationale": "This is not what the quoted line says. Check: みなは もういちど みて、ただしく かきなおしました。"
+        },
+        {
+          "id": "c",
+          "text": "Asks for a new book",
+          "rationale": "This is not what the quoted line says. Check: みなは もういちど みて、ただしく かきなおしました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "かきなおしました means rewrote. Evidence: みなは もういちど みて、ただしく かきなおしました。",
+      "evidence": "みなは もういちど みて、ただしく かきなおしました。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-008",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o2"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-8"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "What does the teacher say after the correction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "おやすみなさい",
+          "rationale": "This is not what the quoted line says. Check: せんせいは「いいですね」と いいました。"
+        },
+        {
+          "id": "b",
+          "text": "いいですね",
+          "rationale": "Correct: The teacher's words are quoted. The story states this explicitly."
+        },
+        {
+          "id": "c",
+          "text": "さようなら",
+          "rationale": "This is not what the quoted line says. Check: せんせいは「いいですね」と いいました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The teacher's words are quoted. Evidence: せんせいは「いいですね」と いいました。",
+      "evidence": "せんせいは「いいですね」と いいました。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-009",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o2"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-9"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "What does Mina say in reply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "おはようございます",
+          "rationale": "This is not what the quoted line says. Check: みなは「ありがとうございます」と いいました。"
+        },
+        {
+          "id": "b",
+          "text": "こんにちは",
+          "rationale": "This is not what the quoted line says. Check: みなは「ありがとうございます」と いいました。"
+        },
+        {
+          "id": "c",
+          "text": "ありがとうございます",
+          "rationale": "Correct: She thanks the teacher. The story states this explicitly."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "She thanks the teacher. Evidence: みなは「ありがとうございます」と いいました。",
+      "evidence": "みなは「ありがとうございます」と いいました。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l05-010",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m05-c04-l05-o2"
+      ],
+      "knowledgeItemIds": [
+        "reading-foundation-10"
+      ],
+      "skills": [
+        "reading-comprehension",
+        "evidence-location"
+      ],
+      "prompt": "What does Mina plan for tomorrow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A little more review",
+          "rationale": "Correct: あしたも すこし indicates a little tomorrow too. The story states this explicitly."
+        },
+        {
+          "id": "b",
+          "text": "No more practice",
+          "rationale": "This is not what the quoted line says. Check: あしたも すこし ふくしゅうしようと おもいました。"
+        },
+        {
+          "id": "c",
+          "text": "A long test",
+          "rationale": "This is not what the quoted line says. Check: あしたも すこし ふくしゅうしようと おもいました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あしたも すこし indicates a little tomorrow too. Evidence: あしたも すこし ふくしゅうしようと おもいました。",
+      "evidence": "あしたも すこし ふくしゅうしようと おもいました。"
+    }
+  ]
+}
