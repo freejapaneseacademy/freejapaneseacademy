@@ -2833,6 +2833,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written L03",
       "noindex": false
+    },
+    {
+      "id": "n5-m02-c02-l08",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c02",
+      "slot": "L08",
+      "title": "Campus directions: optional role switching and shadowing",
+      "content": "src/content/lessons/n5/campus-location-roleplay.mdx",
+      "url": "/learn/n5/module-02/chapter-02/lesson-08/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "original written speaking models; no new audio required; pronunciation unverified",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
