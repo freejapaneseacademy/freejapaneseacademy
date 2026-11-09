@@ -4,6 +4,8 @@ test('keyboard answers, feedback and retry',async({page})=>{
  await page.goto(route);
  const questions=page.locator('[data-question-id]');
  await expect(questions).toHaveCount(10);
+ // SSR inputs stay disabled until React handlers are attached.
+ await expect(questions.first()).toBeEnabled();
  for(let i=0;i<10;i++){await questions.nth(i).locator('input[type=radio]').first().focus();await page.keyboard.press('Space');}
  await page.getByRole('button',{name:'Check ten answers'}).click();
  await expect(page.getByText(/Written recognition score:/)).toBeVisible();
