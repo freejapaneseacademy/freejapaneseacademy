@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 const url='/learn/n5/module-02/chapter-03/lesson-05/';
 test('room reading is keyboard accessible and provides evidence feedback',async({page})=>{
  await page.goto(url);
- await expect(page.getByRole('heading',{name:'Reading a school room diagram'})).toBeVisible();
+ await expect(page.getByRole('heading',{name:'Read a classroom room diagram'})).toBeVisible();
  const questions=page.locator('fieldset.foundation-question');
  await expect(questions).toHaveCount(10);
  for(let i=0;i<10;i++){const first=questions.nth(i).getByRole('radio').first();await first.focus();await page.keyboard.press('Space');await expect(first).toBeChecked();}
