@@ -1,7 +1,7 @@
 'use strict';
 const {test} = require('node:test');
 const assert = require('node:assert/strict');
-const {nextId, entryFor, allowed, exactSuccess} = require('../scripts/release_queue.cjs');
+const {nextId, entryFor, allowed, exactSuccess, promoteRoute} = require('../scripts/release_queue.cjs');
 
 test('sequential publication across lesson, checkpoint, chapter and module', () => {
   const cases=[
@@ -44,6 +44,14 @@ test('draft/ready candidates can be staged ahead without duplicate publication',
   assert.equal(entryFor(current,[...current,item],id).id,id);
   assert.throws(()=>entryFor(current,[...current,item,{...item,id:'l0-m03-c04-l07'}],id),/Exactly/);
   assert.throws(()=>entryFor(current,[...current,{...item,url:'/wrong/'}],id),/Wrong/);
+});
+test('trusted publication removes author-preview noindex while keeping routes intact',()=>{
+  const draft='<Base title={lesson.data.title} noindex={true} breadcrumbs={[]}><article>本です。</article></Base>';
+  assert.equal(promoteRoute(draft),'<Base title={lesson.data.title} noindex={false} breadcrumbs={[]}><article>本です。</article></Base>');
+  const normal='<Base title="Ready"><article>公開</article></Base>';
+  assert.equal(promoteRoute(normal),normal);
+  assert.throws(()=>promoteRoute('<main>Missing Base</main>'),/Base layout/);
+  assert.throws(()=>promoteRoute('<Base title="X" noindex="true"></Base>'),/Unsupported literal noindex/);
 });
 test('only new lesson files are eligible for privileged automatic release',()=>{
   const id='l0-m03-c04-l06';

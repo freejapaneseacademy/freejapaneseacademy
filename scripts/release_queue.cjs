@@ -41,6 +41,18 @@ function entryFor(mainItems, branchItems, target) {
     !entry.content.endsWith('.mdx'))throw new Error('Wrong lesson route, level or source: '+target);
   return entry;
 }
+function promoteRoute(source) {
+  if (typeof source!=='string' || !/<Base(?:\\s|>)/.test(source)) {
+    throw new Error('Canonical lesson route must render the shared Base layout');
+  }
+  // Authored preview routes may set an explicit noindex; remove that restriction
+  // ONLY in the coordinator's trusted, published promotion commit.
+  const result=source.replace(/\\bnoindex\\s*=\\s*\\{\\s*true\\s*\\}/g,'noindex={false}');
+  if (/\\bnoindex\\s*=\\s*["']true["']/.test(result)) {
+    throw new Error('Unsupported literal noindex on canonical published lesson');
+  }
+  return result;
+}
 function allowed(path, id, entry) {
   if(path==='docs/LESSON_INVENTORY.json'||path===entry.content)return true;
   if(path===entry.url.replace(/^\//,'src/pages/').replace(/\/$/,'.astro'))return true;
@@ -147,6 +159,14 @@ async function run({github,core,context}){
       if((f.status==='added'&&now&&now!==obj.sha)||
          (f.status==='modified'&&now!==before&&now!==obj.sha)){
         core.warning('Concurrent modification requires owner repair: '+f.filename);return;
+      }
+      if(f.filename===route){
+        const originalRoute=await getText(github,owner,repo,route,head);
+        const publishedRoute=promoteRoute(originalRoute);
+        // Published routes must not retain authoring-time noindex. CI runs on
+        // this exact integrated head, not on the earlier draft branch.
+        treeEntries.push({path:route,mode:obj.mode,type:'blob',content:publishedRoute});
+        continue;
       }
       if(now!==obj.sha)treeEntries.push({path:f.filename,mode:obj.mode,type:'blob',sha:obj.sha});
     }
@@ -261,4 +281,4 @@ async function run({github,core,context}){
   }
   core.warning('Merged '+target+' but exact-commit Cloudflare is pending. Verify before claiming live.');
 }
-module.exports={run,nextId,entryFor,allowed,exactSuccess};
+module.exports={run,nextId,entryFor,allowed,exactSuccess,promoteRoute};
