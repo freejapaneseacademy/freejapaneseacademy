@@ -1,0 +1,506 @@
+{
+  "id": "l0-m05-c03-l03",
+  "lessonId": "l0-m05-c03-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original FreeJapaneseAcademy fictional classroom grammar examples",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c03-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-topic-question"
+      ],
+      "prompt": "In わたしは がくせいです。, what does は mark?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-01-c1",
+          "text": "The topic わたし",
+          "rationale": "は marks the topic; the comment describes the speaker."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-01-c2",
+          "text": "A direct object",
+          "rationale": "Not in this context. は marks the topic; the comment describes the speaker."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-01-c3",
+          "text": "A question",
+          "rationale": "Not in this context. は marks the topic; the comment describes the speaker."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-01-c1"
+      },
+      "explanation": "は marks the topic; the comment describes the speaker.",
+      "feedback": "は marks the topic; the comment describes the speaker."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-topic-question"
+      ],
+      "prompt": "Choose the polite question 'Are you a student?'",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-02-c1",
+          "text": "あなたを がくせいです。",
+          "rationale": "Not in this context. か at the end changes this polite statement frame into a question."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-02-c2",
+          "text": "あなたは がくせいですか。",
+          "rationale": "か at the end changes this polite statement frame into a question."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-02-c3",
+          "text": "あなたは がくせいです。",
+          "rationale": "Not in this context. か at the end changes this polite statement frame into a question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-02-c2"
+      },
+      "explanation": "か at the end changes this polite statement frame into a question.",
+      "feedback": "か at the end changes this polite statement frame into a question."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-topic-question"
+      ],
+      "prompt": "Which is a polite statement, not a question?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-03-c1",
+          "text": "これは ほんですか。",
+          "rationale": "Not in this context. The statement ends in です。 without question particle か."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-03-c2",
+          "text": "これは ほんかです。",
+          "rationale": "Not in this context. The statement ends in です。 without question particle か."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-03-c3",
+          "text": "これは ほんです。",
+          "rationale": "The statement ends in です。 without question particle か."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-03-c3"
+      },
+      "explanation": "The statement ends in です。 without question particle か.",
+      "feedback": "The statement ends in です。 without question particle か."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-topic-question"
+      ],
+      "prompt": "How is topic particle は normally pronounced?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-04-c1",
+          "text": "wa",
+          "rationale": "The particle is spelled は but read wa in this use."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-04-c2",
+          "text": "ha",
+          "rationale": "Not in this context. The particle is spelled は but read wa in this use."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-04-c3",
+          "text": "wo",
+          "rationale": "Not in this context. The particle is spelled は but read wa in this use."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-04-c1"
+      },
+      "explanation": "The particle is spelled は but read wa in this use.",
+      "feedback": "The particle is spelled は but read wa in this use."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-particles"
+      ],
+      "prompt": "Which particle is conventionally written を but usually pronounced o?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-05-c1",
+          "text": "は",
+          "rationale": "Not in this context. を is the object marker used with verbs; it does not replace は in AはBです."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-05-c2",
+          "text": "を",
+          "rationale": "を is the object marker used with verbs; it does not replace は in AはBです."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-05-c3",
+          "text": "か",
+          "rationale": "Not in this context. を is the object marker used with verbs; it does not replace は in AはBです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-05-c2"
+      },
+      "explanation": "を is the object marker used with verbs; it does not replace は in AはBです.",
+      "feedback": "を is the object marker used with verbs; it does not replace は in AはBです."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-particles"
+      ],
+      "prompt": "Complete: あのひと___ せんせいです。",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-06-c1",
+          "text": "を",
+          "rationale": "Not in this context. The topic is あのひと; は introduces the comment せんせいです."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-06-c2",
+          "text": "か",
+          "rationale": "Not in this context. The topic is あのひと; は introduces the comment せんせいです."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-06-c3",
+          "text": "は",
+          "rationale": "The topic is あのひと; は introduces the comment せんせいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-06-c3"
+      },
+      "explanation": "The topic is あのひと; は introduces the comment せんせいです.",
+      "feedback": "The topic is あのひと; は introduces the comment せんせいです."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-particles"
+      ],
+      "prompt": "What does これは ペンですか。 ask?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-07-c1",
+          "text": "Is this a pen?",
+          "rationale": "The final か asks for confirmation about the item near the speaker."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-07-c2",
+          "text": "This is a pen.",
+          "rationale": "Not in this context. The final か asks for confirmation about the item near the speaker."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-07-c3",
+          "text": "Where is the pen?",
+          "rationale": "Not in this context. The final か asks for confirmation about the item near the speaker."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-07-c1"
+      },
+      "explanation": "The final か asks for confirmation about the item near the speaker.",
+      "feedback": "The final か asks for confirmation about the item near the speaker."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-particles"
+      ],
+      "prompt": "Which correctly identifies a book in polite Japanese?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-08-c1",
+          "text": "これを ほんです。",
+          "rationale": "Not in this context. The identification uses これ as topic plus は and the noun predicate ほんです."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-08-c2",
+          "text": "これは ほんです。",
+          "rationale": "The identification uses これ as topic plus は and the noun predicate ほんです."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-08-c3",
+          "text": "これは ほんか。",
+          "rationale": "Not in this context. The identification uses これ as topic plus は and the noun predicate ほんです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-08-c2"
+      },
+      "explanation": "The identification uses これ as topic plus は and the noun predicate ほんです.",
+      "feedback": "The identification uses これ as topic plus は and the noun predicate ほんです."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-context"
+      ],
+      "prompt": "What is the most careful translation of せんせいです。 without context?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-09-c1",
+          "text": "I am definitely a teacher.",
+          "rationale": "Not in this context. Japanese often omits an understood topic; the person cannot be fixed without context."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-09-c2",
+          "text": "You are definitely a teacher.",
+          "rationale": "Not in this context. Japanese often omits an understood topic; the person cannot be fixed without context."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-09-c3",
+          "text": "Someone understood from context is a teacher.",
+          "rationale": "Japanese often omits an understood topic; the person cannot be fixed without context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-09-c3"
+      },
+      "explanation": "Japanese often omits an understood topic; the person cannot be fixed without context.",
+      "feedback": "Japanese often omits an understood topic; the person cannot be fixed without context."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-context"
+      ],
+      "prompt": "A learner asks これは ノートですか。 The object is a notebook. Choose a natural polite reply.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-10-c1",
+          "text": "はい、ノートです。",
+          "rationale": "はい confirms the question; a short noun predicate is natural when the topic is understood."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-10-c2",
+          "text": "いいえ、ノートです。",
+          "rationale": "Not in this context. はい confirms the question; a short noun predicate is natural when the topic is understood."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-10-c3",
+          "text": "はい、ノートですか。",
+          "rationale": "Not in this context. はい confirms the question; a short noun predicate is natural when the topic is understood."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-10-c1"
+      },
+      "explanation": "はい confirms the question; a short noun predicate is natural when the topic is understood.",
+      "feedback": "はい confirms the question; a short noun predicate is natural when the topic is understood."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-context"
+      ],
+      "prompt": "Which sentence has the question particle in the correct position?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-11-c1",
+          "text": "わたしか は がくせいです。",
+          "rationale": "Not in this context. In this beginner frame か follows です. The sentence asks whether the speaker is a student."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-11-c2",
+          "text": "わたしは がくせいですか。",
+          "rationale": "In this beginner frame か follows です. The sentence asks whether the speaker is a student."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-11-c3",
+          "text": "わたしは かがくせいです。",
+          "rationale": "Not in this context. In this beginner frame か follows です. The sentence asks whether the speaker is a student."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-11-c2"
+      },
+      "explanation": "In this beginner frame か follows です. The sentence asks whether the speaker is a student.",
+      "feedback": "In this beginner frame か follows です. The sentence asks whether the speaker is a student."
+    },
+    {
+      "id": "ex-l0-m05-c03-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l03-context"
+      ],
+      "prompt": "A classroom label says つくえ. Which statement identifies the desk?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l03-12-c1",
+          "text": "これは いすです。",
+          "rationale": "Not in this context. つくえ is a desk; いす is a chair and がくせい is a student."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-12-c2",
+          "text": "これは がくせいです。",
+          "rationale": "Not in this context. つくえ is a desk; いす is a chair and がくせい is a student."
+        },
+        {
+          "id": "ex-l0-m05-c03-l03-12-c3",
+          "text": "これは つくえです。",
+          "rationale": "つくえ is a desk; いす is a chair and がくせい is a student."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l03-12-c3"
+      },
+      "explanation": "つくえ is a desk; いす is a chair and がくせい is a student.",
+      "feedback": "つくえ is a desk; いす is a chair and がくせい is a student."
+    }
+  ]
+}
