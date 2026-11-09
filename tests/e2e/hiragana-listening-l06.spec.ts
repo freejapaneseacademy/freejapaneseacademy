@@ -18,9 +18,13 @@ test('L06 has two real audio controls, six questions and assisted scoring at 320
 test('L06 keyboard controls and transcript reset', async ({ page }) => {
   await page.goto('/learn/start/module-02/chapter-01/lesson-06/');
   const reveal = page.getByRole('button', { name: 'Reveal transcript (assisted practice)' }).first();
-  await expect(reveal.locator('xpath=ancestor::astro-island')).not.toHaveAttribute('ssr', '');
+  // The Astro island can render its button before React hydration finishes.
+  // Wait for the component's own ready state before testing keyboard activation.
+  await expect(reveal).toBeEnabled();
   await reveal.focus();
+  await expect(reveal).toBeFocused();
   await page.keyboard.press('Enter');
+  await expect(reveal).toHaveAttribute('aria-expanded', 'true');
   await expect(page.getByText('Japanese transcript').first()).toBeVisible();
   await page.getByRole('button', { name: 'Start a new listening attempt' }).click();
   await expect(page.getByText('Japanese transcript')).toHaveCount(0);
