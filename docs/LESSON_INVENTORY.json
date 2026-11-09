@@ -2426,6 +2426,23 @@
       "noindex": false,
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m01-c02-l01",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c02",
+      "slot": "L01",
+      "title": "Who Is at the Welcome Desk? — Questions in Context",
+      "content": "src/content/lessons/n5/questions-context.mdx",
+      "url": "/learn/n5/module-01/chapter-02/lesson-01/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent review not claimed",
+      "assessmentReview": "pending - independent review not claimed",
+      "audio": "not required for L01",
+      "noindex": true,
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
