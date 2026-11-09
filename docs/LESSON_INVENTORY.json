@@ -2722,6 +2722,23 @@
       "audio": "not required for written reading; L06 handles genuine introduction recordings",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m02-c01-l08",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c01",
+      "slot": "L08",
+      "title": "Lost-and-found role switching: Whose is it?",
+      "content": "src/content/lessons/n5/ownership-roleplay.mdx",
+      "url": "/learn/n5/module-02/chapter-01/lesson-08/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "no new recording; original text-only optional speaking; L06 candidate audio not verified",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
