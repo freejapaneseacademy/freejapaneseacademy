@@ -2690,6 +2690,21 @@
       "noindex": false,
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
+    },
+    {
+      "id": "n5-m02-c01-l06",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c01",
+      "slot": "L06",
+      "title": "Objects and ownership — Listen at the lost-and-found desk",
+      "content": "src/content/lessons/n5/objects-ownership-listening.mdx",
+      "url": "/learn/n5/module-02/chapter-01/lesson-06/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "AivisSpeech schema-v3 candidate job committed; actual WAVs and manifest unverified",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
