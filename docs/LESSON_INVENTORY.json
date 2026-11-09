@@ -2952,6 +2952,23 @@
       "audio": "not required for written L01",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m02-c03-l05",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c03",
+      "slot": "L05",
+      "title": "Read a classroom room diagram: people and objects",
+      "content": "src/content/lessons/n5/classroom-room-diagram-reading.mdx",
+      "url": "/learn/n5/module-02/chapter-03/lesson-05/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05; listening audio belongs to L06",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
