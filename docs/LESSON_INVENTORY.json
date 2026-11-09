@@ -2590,6 +2590,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "two original AivisSpeech WAVs with versioned rights-cleared integrity manifest; automated checks recorded; independent pronunciation, transcript-listening and playback reviews pending",
       "noindex": false
+    },
+    {
+      "id": "n5-m01-c04-l08",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c04",
+      "slot": "L08",
+      "title": "Personal introductions — optional shadowing and role switching",
+      "content": "src/content/lessons/n5/personal-profile-shadowing.mdx",
+      "url": "/learn/n5/module-01/chapter-04/lesson-08/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses two L06 AivisSpeech candidate WAVs; real media integrity, rights and transcript playback verification required before publication",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
