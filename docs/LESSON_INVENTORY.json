@@ -2771,6 +2771,22 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses two L06 candidate AivisSpeech WAVs; actual verified media and rights manifest required before publication",
       "noindex": false
+    },
+    {
+      "id": "n5-m02-c02-l02",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c02",
+      "slot": "L02",
+      "title": "School places: finding rooms and facilities",
+      "content": "src/content/lessons/n5/school-places-vocabulary.mdx",
+      "url": "/learn/n5/module-02/chapter-02/lesson-02/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written vocabulary L02",
+      "noindex": true,
+      "ownerApproval": "2026-11-08: owner authorized automatic publication after exact-head quality gates and Cloudflare verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
