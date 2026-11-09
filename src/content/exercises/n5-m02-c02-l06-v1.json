@@ -1,0 +1,258 @@
+{
+  "lessonId": "n5-m02-c02-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c02-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Where is the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On the second floor"
+        },
+        {
+          "id": "c2",
+          "text": "On the first floor",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c3",
+          "text": "Next to reception",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c4",
+          "text": "Outside the building",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "図書館は二階にあります。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Which floor is the cafeteria on?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Second floor",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c2",
+          "text": "First floor"
+        },
+        {
+          "id": "c3",
+          "text": "Third floor",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c4",
+          "text": "Basement",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "食堂は一階です。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What is the cafeteria near?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The stairs",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c2",
+          "text": "The library",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c3",
+          "text": "The entrance"
+        },
+        {
+          "id": "c4",
+          "text": "The restroom",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "入口の近くです。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where is the restroom relative to the stairs?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "To the left",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c2",
+          "text": "To the right"
+        },
+        {
+          "id": "c3",
+          "text": "Upstairs",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c4",
+          "text": "Behind reception",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "階段の右です。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What does the visitor ask about after the restroom?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The library",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c2",
+          "text": "The cafeteria",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c3",
+          "text": "The entrance",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c4",
+          "text": "Reception"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "受付はどこですか。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where is reception?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Here, where the staff member is"
+        },
+        {
+          "id": "c2",
+          "text": "On the second floor",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c3",
+          "text": "Across the courtyard",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        },
+        {
+          "id": "c4",
+          "text": "Beside the cafeteria",
+          "rationale": "This location or referent is not supported by the spoken dialogue; listen again for the explicit phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "受付はここです。"
+    }
+  ]
+}
