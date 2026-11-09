@@ -2558,6 +2558,23 @@
       "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for L04 written kana orthography; L06 provides listening"
+    },
+    {
+      "id": "l0-m05-c01-l05",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c01",
+      "slot": "L05",
+      "title": "Read greeting cards and find the exact Japanese evidence",
+      "content": "src/content/lessons/l0/greetings-classroom-reading.mdx",
+      "url": "/learn/start/module-05/chapter-01/lesson-05/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05; actual listening belongs to L06",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
