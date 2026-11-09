@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
-import bank from '../../src/content/exercises/l0-m05-c03-l01-v1.json';
+import { readFileSync } from 'node:fs';
+const bank=JSON.parse(readFileSync(new URL('../../src/content/exercises/l0-m05-c03-l01-v1.json',import.meta.url),'utf8')) as {items:{correctIndex:number}[]};
 const url='/learn/start/module-05/chapter-03/lesson-01/';
 test('keyboard-accessible answer, feedback and retry',async({page})=>{
  await page.goto(url);
