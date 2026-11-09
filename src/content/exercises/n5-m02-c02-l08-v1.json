@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m02-c02-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c02-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-01"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "In Scene A, what does the visitor ask?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In Scene A, what does the visitor ask?",
+          "rationale": "図書室は ここです。"
+        },
+        {
+          "id": "c2",
+          "text": "図書室は どこですか。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は ここです。"
+        },
+        {
+          "id": "c3",
+          "text": "図書室は あそこです。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は ここです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "図書室は ここです。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-02"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "The library is away from both people. Which answer fits?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書室は あそこです。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は そこです。"
+        },
+        {
+          "id": "c2",
+          "text": "The library is away from both people. Which answer fits?",
+          "rationale": "図書室は そこです。"
+        },
+        {
+          "id": "c3",
+          "text": "図書室は ここです。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は そこです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "図書室は そこです。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-03"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "The health room is beside the visitor, not the attendant. What does the attendant say?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "そこです。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. あそこです。"
+        },
+        {
+          "id": "c2",
+          "text": "ここです。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. あそこです。"
+        },
+        {
+          "id": "c3",
+          "text": "The health room is beside the visitor, not the attendant. What does the attendant say?",
+          "rationale": "あそこです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "あそこです。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-04"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "In Scene B, why does the visitor say ここですか?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In Scene B, why does the visitor say ここですか?",
+          "rationale": "The visitor is asking whose room it is."
+        },
+        {
+          "id": "c2",
+          "text": "The door is near the visitor, who is now speaking.",
+          "rationale": "This does not fit the stated speaker positions or question meaning. The visitor is asking whose room it is."
+        },
+        {
+          "id": "c3",
+          "text": "The room is far from both people.",
+          "rationale": "This does not fit the stated speaker positions or question meaning. The visitor is asking whose room it is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The visitor is asking whose room it is."
+    },
+    {
+      "id": "ex-n5-m02-c02-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-05"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which question asks where the health room is?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "保健室は どこですか。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 保健室は あそこです。"
+        },
+        {
+          "id": "c2",
+          "text": "Which question asks where the health room is?",
+          "rationale": "保健室は あそこです。"
+        },
+        {
+          "id": "c3",
+          "text": "保健室は そこです。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 保健室は あそこです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "保健室は あそこです。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-06"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which phrase explicitly states that the library is on the second floor?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書室は 二階に あります。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は どこですか。"
+        },
+        {
+          "id": "c2",
+          "text": "図書室は 二階に います。",
+          "rationale": "This does not fit the stated speaker positions or question meaning. 図書室は どこですか。"
+        },
+        {
+          "id": "c3",
+          "text": "Which phrase explicitly states that the library is on the second floor?",
+          "rationale": "図書室は どこですか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "図書室は どこですか。"
+    },
+    {
+      "id": "ex-n5-m02-c02-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-07"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What does すみません do at the beginning of the visitor's question?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "What does すみません do at the beginning of the visitor's question?",
+          "rationale": "Says the visitor owns the room."
+        },
+        {
+          "id": "c2",
+          "text": "Politely gets the listener's attention.",
+          "rationale": "This does not fit the stated speaker positions or question meaning. Says the visitor owns the room."
+        },
+        {
+          "id": "c3",
+          "text": "Says the room is nearby.",
+          "rationale": "This does not fit the stated speaker positions or question meaning. Says the visitor owns the room."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Says the visitor owns the room."
+    },
+    {
+      "id": "ex-n5-m02-c02-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l08-location-08"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What can you conclude about the library's floor from Scene A alone?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Its floor is not stated.",
+          "rationale": "This does not fit the stated speaker positions or question meaning. It is definitely on the second floor."
+        },
+        {
+          "id": "c2",
+          "text": "What can you conclude about the library's floor from Scene A alone?",
+          "rationale": "It is definitely on the second floor."
+        },
+        {
+          "id": "c3",
+          "text": "It is definitely on the first floor.",
+          "rationale": "This does not fit the stated speaker positions or question meaning. It is definitely on the second floor."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "It is definitely on the second floor."
+    }
+  ]
+}
