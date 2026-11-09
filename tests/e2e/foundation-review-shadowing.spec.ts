@@ -11,6 +11,6 @@ test('keyboard, written feedback and retry',async({page})=>{
 test('320px and microphone opt-in in dark mode',async({page})=>{
  await page.setViewportSize({width:320,height:720});await page.goto(url);await page.emulateMedia({colorScheme:'dark'});
  await expect(page.getByRole('button',{name:'Start optional recording'})).toBeVisible();
- await expect(page.getByRole('heading',{name:/listen and rehearse a kana review plan/i})).toBeVisible();
+ await expect(page.getByRole('heading',{name:/listen and rehearse kana review plans/i})).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+1)).toBe(false);
 });
