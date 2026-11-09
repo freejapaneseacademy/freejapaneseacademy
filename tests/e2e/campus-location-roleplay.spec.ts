@@ -5,7 +5,7 @@ test('keyboard role switching, quiz feedback and retry',async({page})=>{
  await expect(page.getByRole('heading',{name:'Campus directions: optional role switching and shadowing'})).toBeVisible();
  await page.getByRole('button',{name:'Health room scene'}).click();
  await page.getByRole('button',{name:'Attendant'}).click();
- await expect(page.getByText('そこです。あなたの となりです。')).toBeVisible();
+ await expect(page.locator('p[lang="ja"][aria-live="polite"]').filter({hasText:'そこです。あなたの となりです。'})).toBeVisible();
  await page.getByRole('checkbox',{name:/I asked/}).check();
  await expect(page.getByText(/1 of 4 self-review/)).toBeVisible();
  const questions=page.locator('.foundation-question');await expect(questions).toHaveCount(8);
