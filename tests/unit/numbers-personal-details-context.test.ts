@@ -1,0 +1,3 @@
+import { describe, expect, it } from 'vitest';
+import bank from '../../src/content/exercises/l0-m05-c02-l01-v1.json';
+describe('l0-m05-c02-l01 registration context',()=>{it('has ten unique answerable items',()=>{expect(bank.items).toHaveLength(10);expect(new Set(bank.items.map(q=>q.id)).size).toBe(10);for(const q of bank.items){expect(q.status).toBe('drafted');expect(q.id.startsWith('ex-')).toBe(true);expect(q.choices).toHaveLength(3);expect(new Set(q.choices.map(c=>c.id)).size).toBe(3);expect(q.choices[q.correctIndex].id).toBe(q.answerKey.choiceId);expect(q.choices.every(c=>Boolean(c.rationale))).toBe(true);}});});

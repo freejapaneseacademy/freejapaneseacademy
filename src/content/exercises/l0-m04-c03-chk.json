@@ -1,0 +1,494 @@
+{
+  "id": "l0-m04-c03-chk-v1",
+  "lessonId": "l0-m04-c03-chk",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m04-c03-l06-a",
+    "audio-l0-m04-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m04-c03-chk-001",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-1"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which katakana is /ro/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ロ",
+          "rationale": "Correct. ロ has a closed square-like outline; コ is open on the left and ル is ru."
+        },
+        {
+          "id": "b",
+          "text": "コ",
+          "rationale": "Review. ロ has a closed square-like outline; コ is open on the left and ル is ru."
+        },
+        {
+          "id": "c",
+          "text": "ル",
+          "rationale": "Review. ロ has a closed square-like outline; コ is open on the left and ル is ru."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ロ has a closed square-like outline; コ is open on the left and ル is ru.",
+      "evidence": "ロ"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-002",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-2"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which pair correctly represents /n/ then /so/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ソ・ン",
+          "rationale": "Review. ン is the moraic nasal; ソ is so. Check the direction of the short stroke and the longer stroke."
+        },
+        {
+          "id": "b",
+          "text": "ン・ソ",
+          "rationale": "Correct. ン is the moraic nasal; ソ is so. Check the direction of the short stroke and the longer stroke."
+        },
+        {
+          "id": "c",
+          "text": "シ・ツ",
+          "rationale": "Review. ン is the moraic nasal; ソ is so. Check the direction of the short stroke and the longer stroke."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "ン is the moraic nasal; ソ is so. Check the direction of the short stroke and the longer stroke.",
+      "evidence": "ン・ソ"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-003",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-3"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which spelling has the handakuten mark for /pa/?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "バ",
+          "rationale": "Review. パ has a small circle (handakuten); バ has two short dakuten strokes; ハ is unvoiced."
+        },
+        {
+          "id": "b",
+          "text": "パ",
+          "rationale": "Correct. パ has a small circle (handakuten); バ has two short dakuten strokes; ハ is unvoiced."
+        },
+        {
+          "id": "c",
+          "text": "ハ",
+          "rationale": "Review. パ has a small circle (handakuten); バ has two short dakuten strokes; ハ is unvoiced."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "パ has a small circle (handakuten); バ has two short dakuten strokes; ハ is unvoiced.",
+      "evidence": "パ"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-004",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-4"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which symbol represents /ji/ in the common ジュース spelling?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "シ",
+          "rationale": "Review. ジ is シ with dakuten. ジュース begins ジュ, with a small ュ."
+        },
+        {
+          "id": "b",
+          "text": "ジ",
+          "rationale": "Correct. ジ is シ with dakuten. ジュース begins ジュ, with a small ュ."
+        },
+        {
+          "id": "c",
+          "text": "チ",
+          "rationale": "Review. ジ is シ with dakuten. ジュース begins ジュ, with a small ュ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "ジ is シ with dakuten. ジュース begins ジュ, with a small ュ.",
+      "evidence": "ジ"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-005",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-5"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Fictional bakery sign: パン・ジュース. Which item is bread?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ジュース",
+          "rationale": "Review. The bakery sign lists パン (bread) and ジュース (juice)."
+        },
+        {
+          "id": "b",
+          "text": "パン",
+          "rationale": "Correct. The bakery sign lists パン (bread) and ジュース (juice)."
+        },
+        {
+          "id": "c",
+          "text": "バッグ",
+          "rationale": "Review. The bakery sign lists パン (bread) and ジュース (juice)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The bakery sign lists パン (bread) and ジュース (juice).",
+      "evidence": "パン"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-006",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-6"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Fictional gift counter card: ミナさんのバッグ. Whose bag is it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mina's",
+          "rationale": "Correct. The written possessive phrase ミナさんのバッグ means Mina's bag."
+        },
+        {
+          "id": "b",
+          "text": "The baker's",
+          "rationale": "Review. The written possessive phrase ミナさんのバッグ means Mina's bag."
+        },
+        {
+          "id": "c",
+          "text": "The customer's",
+          "rationale": "Review. The written possessive phrase ミナさんのバッグ means Mina's bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The written possessive phrase ミナさんのバッグ means Mina's bag.",
+      "evidence": "ミナさんのバッグ"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-007",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-7"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "A fictional display reads パン ふたつ / ジュース ひとつ. How many juices are listed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two",
+          "rationale": "Review. The line ジュース ひとつ explicitly indicates one juice."
+        },
+        {
+          "id": "b",
+          "text": "Three",
+          "rationale": "Review. The line ジュース ひとつ explicitly indicates one juice."
+        },
+        {
+          "id": "c",
+          "text": "One",
+          "rationale": "Correct. The line ジュース ひとつ explicitly indicates one juice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The line ジュース ひとつ explicitly indicates one juice.",
+      "evidence": "ジュース ひとつ"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-008",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-8"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "A fictional shelf has パン and バン written side by side for comparison. Which form is the standard word 'bread'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "パン",
+          "rationale": "Correct. パン uses the circle on パ; バン has a voiced バ and is not the standard katakana spelling for bread."
+        },
+        {
+          "id": "b",
+          "text": "バン",
+          "rationale": "Review. パン uses the circle on パ; バン has a voiced バ and is not the standard katakana spelling for bread."
+        },
+        {
+          "id": "c",
+          "text": "Both are the same spelling",
+          "rationale": "Review. パン uses the circle on パ; バン has a voiced バ and is not the standard katakana spelling for bread."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "パン uses the circle on パ; バン has a voiced バ and is not the standard katakana spelling for bread.",
+      "evidence": "パン"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-009",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-9"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Which sign shows the product 'juice' rather than the product 'bag'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "バッグ",
+          "rationale": "Review. ジュース means juice; バッグ means bag and パン means bread."
+        },
+        {
+          "id": "b",
+          "text": "ジュース",
+          "rationale": "Correct. ジュース means juice; バッグ means bag and パン means bread."
+        },
+        {
+          "id": "c",
+          "text": "パン",
+          "rationale": "Review. ジュース means juice; バッグ means bag and パン means bread."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "ジュース means juice; バッグ means bag and パン means bread.",
+      "evidence": "ジュース"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-010",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-10"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "a",
+      "prompt": "Track A (bakery): How many breads does the customer request?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One",
+          "rationale": "Review. The customer says パンをふたつください, requesting two breads."
+        },
+        {
+          "id": "b",
+          "text": "Two",
+          "rationale": "Correct. The customer says パンをふたつください, requesting two breads."
+        },
+        {
+          "id": "c",
+          "text": "Three",
+          "rationale": "Review. The customer says パンをふたつください, requesting two breads."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The customer says パンをふたつください, requesting two breads.",
+      "evidence": "パンをふたつください。"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-011",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-11"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "a",
+      "prompt": "Track A (bakery): Which other item does the clerk offer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coffee",
+          "rationale": "Review. The clerk says ジュースもありますよ, offering juice too."
+        },
+        {
+          "id": "b",
+          "text": "Juice",
+          "rationale": "Correct. The clerk says ジュースもありますよ, offering juice too."
+        },
+        {
+          "id": "c",
+          "text": "A bag",
+          "rationale": "Review. The clerk says ジュースもありますよ, offering juice too."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The clerk says ジュースもありますよ, offering juice too.",
+      "evidence": "ジュースもありますよ。"
+    },
+    {
+      "id": "ex-l0-m04-c03-chk-012",
+      "version": 1,
+      "status": "drafted",
+      "level": "l0",
+      "type": "single-choice",
+      "objectiveIds": [
+        "l0-m04-c03-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-chk-item-12"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "trackId": "b",
+      "prompt": "Track B (gift shop): For whom is the present intended?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The man",
+          "rationale": "Review. The final reply says ミナさんへのプレゼントです: a present for Mina."
+        },
+        {
+          "id": "b",
+          "text": "Mina",
+          "rationale": "Correct. The final reply says ミナさんへのプレゼントです: a present for Mina."
+        },
+        {
+          "id": "c",
+          "text": "The clerk",
+          "rationale": "Review. The final reply says ミナさんへのプレゼントです: a present for Mina."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The final reply says ミナさんへのプレゼントです: a present for Mina.",
+      "evidence": "ミナさんへのプレゼントです。"
+    }
+  ]
+}

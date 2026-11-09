@@ -1,0 +1,390 @@
+{
+  "id": "l0-m05-c01-l07",
+  "lessonId": "l0-m05-c01-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original classroom greeting and request writing exercise",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c01-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "A teacher arrives in the morning. Choose a greeting.",
+      "options": [
+        "おはようございます。",
+        "おやすみなさい。",
+        "さようなら。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-01-c1",
+          "text": "おはようございます。",
+          "rationale": "The polite morning greeting fits a teacher."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-01-c2",
+          "text": "おやすみなさい。",
+          "rationale": "Not the intended phrase. The polite morning greeting fits a teacher."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-01-c3",
+          "text": "さようなら。",
+          "rationale": "Not the intended phrase. The polite morning greeting fits a teacher."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-01-c1"
+      },
+      "explanation": "The polite morning greeting fits a teacher.",
+      "feedback": "The polite morning greeting fits a teacher."
+    },
+    {
+      "id": "ex-l0-m05-c01-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "A classmate arrives after lunch. Choose a greeting.",
+      "options": [
+        "こんにちは。",
+        "おはよう。",
+        "ありがとうございます。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-02-c1",
+          "text": "こんにちは。",
+          "rationale": "こんにちは is a standard daytime greeting."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-02-c2",
+          "text": "おはよう。",
+          "rationale": "Not the intended phrase. こんにちは is a standard daytime greeting."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-02-c3",
+          "text": "ありがとうございます。",
+          "rationale": "Not the intended phrase. こんにちは is a standard daytime greeting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-02-c1"
+      },
+      "explanation": "こんにちは is a standard daytime greeting.",
+      "feedback": "こんにちは is a standard daytime greeting."
+    },
+    {
+      "id": "ex-l0-m05-c01-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "A teacher helps you. What do you write?",
+      "options": [
+        "ありがとうございます。",
+        "こんにちは。",
+        "きいてください。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-03-c1",
+          "text": "ありがとうございます。",
+          "rationale": "ありがとうございます expresses thanks."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-03-c2",
+          "text": "こんにちは。",
+          "rationale": "Not the intended phrase. ありがとうございます expresses thanks."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-03-c3",
+          "text": "きいてください。",
+          "rationale": "Not the intended phrase. ありがとうございます expresses thanks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-03-c1"
+      },
+      "explanation": "ありがとうございます expresses thanks.",
+      "feedback": "ありがとうございます expresses thanks."
+    },
+    {
+      "id": "ex-l0-m05-c01-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "You want classmates to listen. Choose the request.",
+      "options": [
+        "きいてください。",
+        "きてください。",
+        "みてください。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-04-c1",
+          "text": "きいてください。",
+          "rationale": "きいて asks someone to listen; きて asks them to come."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-04-c2",
+          "text": "きてください。",
+          "rationale": "Not the intended phrase. きいて asks someone to listen; きて asks them to come."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-04-c3",
+          "text": "みてください。",
+          "rationale": "Not the intended phrase. きいて asks someone to listen; きて asks them to come."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-04-c1"
+      },
+      "explanation": "きいて asks someone to listen; きて asks them to come.",
+      "feedback": "きいて asks someone to listen; きて asks them to come."
+    },
+    {
+      "id": "ex-l0-m05-c01-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "You want someone to read the card. Choose the request.",
+      "options": [
+        "よんでください。",
+        "よんてください。",
+        "みてください。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-05-c1",
+          "text": "よんでください。",
+          "rationale": "よんでください asks someone to read, using voiced で."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-05-c2",
+          "text": "よんてください。",
+          "rationale": "Not the intended phrase. よんでください asks someone to read, using voiced で."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-05-c3",
+          "text": "みてください。",
+          "rationale": "Not the intended phrase. よんでください asks someone to read, using voiced で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-05-c1"
+      },
+      "explanation": "よんでください asks someone to read, using voiced で.",
+      "feedback": "よんでください asks someone to read, using voiced で."
+    },
+    {
+      "id": "ex-l0-m05-c01-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "Which is the standard spelling of hello?",
+      "options": [
+        "こんにちは。",
+        "こんにちわ。",
+        "こんいちは。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-06-c1",
+          "text": "こんにちは。",
+          "rationale": "The fixed greeting ends with は, pronounced wa."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-06-c2",
+          "text": "こんにちわ。",
+          "rationale": "Not the intended phrase. The fixed greeting ends with は, pronounced wa."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-06-c3",
+          "text": "こんいちは。",
+          "rationale": "Not the intended phrase. The fixed greeting ends with は, pronounced wa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-06-c1"
+      },
+      "explanation": "The fixed greeting ends with は, pronounced wa.",
+      "feedback": "The fixed greeting ends with は, pronounced wa."
+    },
+    {
+      "id": "ex-l0-m05-c01-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "Ask a teacher to say it one more time.",
+      "options": [
+        "もういちど いってください。",
+        "もういちど みてください。",
+        "もういちど かいてください。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-07-c1",
+          "text": "もういちど いってください。",
+          "rationale": "いってください asks someone to say it; small っ matters."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-07-c2",
+          "text": "もういちど みてください。",
+          "rationale": "Not the intended phrase. いってください asks someone to say it; small っ matters."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-07-c3",
+          "text": "もういちど かいてください。",
+          "rationale": "Not the intended phrase. いってください asks someone to say it; small っ matters."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-07-c1"
+      },
+      "explanation": "いってください asks someone to say it; small っ matters.",
+      "feedback": "いってください asks someone to say it; small っ matters."
+    },
+    {
+      "id": "ex-l0-m05-c01-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "writing"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l07-phrases"
+      ],
+      "prompt": "Which expression asks someone to look?",
+      "options": [
+        "みてください。",
+        "きいてください。",
+        "かいてください。"
+      ],
+      "correctIndex": 0,
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l07-08-c1",
+          "text": "みてください。",
+          "rationale": "みてください means please look."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-08-c2",
+          "text": "きいてください。",
+          "rationale": "Not the intended phrase. みてください means please look."
+        },
+        {
+          "id": "ex-l0-m05-c01-l07-08-c3",
+          "text": "かいてください。",
+          "rationale": "Not the intended phrase. みてください means please look."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l07-08-c1"
+      },
+      "explanation": "みてください means please look.",
+      "feedback": "みてください means please look."
+    }
+  ]
+}
