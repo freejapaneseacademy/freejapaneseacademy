@@ -11,6 +11,8 @@ test('N/H/M/Y listening has two playable tracks and no overflow at 320px', async
 test('keyboard transcript reveal switches to assisted practice', async ({ page }) => {
  await page.goto(route);
  const reveal = page.getByRole('button', { name: /Reveal transcript/i }).first();
+ // The React island hydrates asynchronously: wait until the transcript control is interactive.
+ await expect(reveal).toBeEnabled();
  await reveal.focus();
  await page.keyboard.press('Enter');
  await expect(page.getByText(/Assisted practice: you revealed written support/i)).toBeVisible();
