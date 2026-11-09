@@ -1,0 +1,422 @@
+{
+  "id": "l0-m04-c03-l05",
+  "lessonId": "l0-m04-c03-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional store board and two written shelf lines",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c03-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which printed word is the notebook on the stationery shelf?",
+      "options": [
+        "ノート",
+        "ソース",
+        "コップ"
+      ],
+      "correctIndex": 0,
+      "feedback": "The stationery line includes ノート, the printed notebook label.",
+      "explanation": "The stationery line includes ノート, the printed notebook label.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "ノート"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-01-c1",
+          "text": "ノート",
+          "rationale": "The stationery line includes ノート, the printed notebook label."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-01-c2",
+          "text": "ソース",
+          "rationale": "ソース is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-01-c3",
+          "text": "コップ",
+          "rationale": "コップ is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which exact label proves that a bag is on the stationery shelf?",
+      "options": [
+        "パン",
+        "カバン",
+        "ソース"
+      ],
+      "correctIndex": 1,
+      "feedback": "The first shelf line explicitly includes カバン (bag).",
+      "explanation": "The first shelf line explicitly includes カバン (bag).",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "カバン"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-02-c1",
+          "text": "パン",
+          "rationale": "パン is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-02-c2",
+          "text": "カバン",
+          "rationale": "The first shelf line explicitly includes カバン (bag)."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-02-c3",
+          "text": "ソース",
+          "rationale": "ソース is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which printed food label begins with ソ rather than ン?",
+      "options": [
+        "ペン",
+        "ソース",
+        "パン"
+      ],
+      "correctIndex": 1,
+      "feedback": "ソース begins with ソ; ペン ends with ン.",
+      "explanation": "ソース begins with ソ; ペン ends with ン.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "ソース"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-03-c1",
+          "text": "ペン",
+          "rationale": "ペン is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-03-c2",
+          "text": "ソース",
+          "rationale": "ソース begins with ソ; ペン ends with ン."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-03-c3",
+          "text": "パン",
+          "rationale": "パン is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which word ends in ン and means pen?",
+      "options": [
+        "ペン",
+        "パン",
+        "ノート"
+      ],
+      "correctIndex": 0,
+      "feedback": "ペン ends with ン and means pen; パン is bread.",
+      "explanation": "ペン ends with ン and means pen; パン is bread.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "ペン"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-04-c1",
+          "text": "ペン",
+          "rationale": "ペン ends with ン and means pen; パン is bread."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-04-c2",
+          "text": "パン",
+          "rationale": "パン is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-04-c3",
+          "text": "ノート",
+          "rationale": "ノート is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which shelf line contains パン?",
+      "options": [
+        "ペン・ノート・カバン",
+        "パン・ソース・コップ",
+        "ペン・ソース・ノート"
+      ],
+      "correctIndex": 1,
+      "feedback": "The food-and-kitchen shelf note reads パン・ソース・コップ.",
+      "explanation": "The food-and-kitchen shelf note reads パン・ソース・コップ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "パン・ソース・コップ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-05-c1",
+          "text": "ペン・ノート・カバン",
+          "rationale": "ペン・ノート・カバン is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-05-c2",
+          "text": "パン・ソース・コップ",
+          "rationale": "The food-and-kitchen shelf note reads パン・ソース・コップ."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-05-c3",
+          "text": "ペン・ソース・ノート",
+          "rationale": "ペン・ソース・ノート is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which word contains バ with dakuten?",
+      "options": [
+        "カバン",
+        "パン",
+        "ペン"
+      ],
+      "correctIndex": 0,
+      "feedback": "カバン contains バ with two dakuten marks.",
+      "explanation": "カバン contains バ with two dakuten marks.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "カバン"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-06-c1",
+          "text": "カバン",
+          "rationale": "カバン contains バ with two dakuten marks."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-06-c2",
+          "text": "パン",
+          "rationale": "パン is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-06-c3",
+          "text": "ペン",
+          "rationale": "ペン is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which written word contains the small ッ and a handakuten circle?",
+      "options": [
+        "コップ",
+        "ノート",
+        "カバン"
+      ],
+      "correctIndex": 0,
+      "feedback": "コップ contains a small ッ and プ with a handakuten circle.",
+      "explanation": "コップ contains a small ッ and プ with a handakuten circle.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "コップ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-07-c1",
+          "text": "コップ",
+          "rationale": "コップ contains a small ッ and プ with a handakuten circle."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-07-c2",
+          "text": "ノート",
+          "rationale": "ノート is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-07-c3",
+          "text": "カバン",
+          "rationale": "カバン is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c03-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c03-l05-store-labels"
+      ],
+      "prompt": "Which label uses a long vowel bar and means notebook?",
+      "options": [
+        "ノート",
+        "パン",
+        "ペン"
+      ],
+      "correctIndex": 0,
+      "feedback": "ノート uses ー and is explicitly glossed as notebook.",
+      "explanation": "ノート uses ー and is explicitly glossed as notebook.",
+      "evidence": {
+        "source": "src/content/lessons/l0/katakana-voiced-store-reading.mdx",
+        "phrase": "ノート"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m04-c03-l05-08-c1",
+          "text": "ノート",
+          "rationale": "ノート uses ー and is explicitly glossed as notebook."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-08-c2",
+          "text": "パン",
+          "rationale": "パン is not the label supported by the cited shelf evidence for this question."
+        },
+        {
+          "id": "ex-l0-m04-c03-l05-08-c3",
+          "text": "ペン",
+          "rationale": "ペン is not the label supported by the cited shelf evidence for this question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c03-l05-08-c1"
+      }
+    }
+  ]
+}
