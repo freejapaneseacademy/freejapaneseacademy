@@ -4,7 +4,7 @@ test('320px dark-mode first meeting scene questions remain accessible', async ({
  await page.setViewportSize({ width: 320, height: 720 });
  await page.emulateMedia({ colorScheme: 'dark' });
  await page.goto(path);
- await expect(page.getByRole('heading', { name: /First meetings/i })).toBeVisible();
+ await expect(page.getByRole('heading', { level: 1, name: /First meetings/i })).toBeVisible();
  await expect(page.locator('fieldset[data-question-id]')).toHaveCount(8);
  expect(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)).toBe(false);
 });
