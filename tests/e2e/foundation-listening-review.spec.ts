@@ -10,8 +10,11 @@ test('mobile listening controls and six accessible questions',async({page})=>{
 });
 test('keyboard transcript reveal changes to assisted mode and retry remains available',async({page})=>{
  await page.goto(path);
- const button=page.getByRole('button',{name:/Reveal transcript/i}).first();
- await button.focus();await page.keyboard.press('Enter');
+ const button=page.locator('.listening-track').first().getByRole('button',{name:/transcript/i});
+ // An interactive control signals that its React island has finished hydrating.
+ await expect(button).toBeEnabled();
+ await button.focus();
+ await button.press('Enter');
  await expect(button).toHaveAttribute('aria-expanded','true');
  await expect(page.getByText(/Assisted practice: you revealed written support/)).toBeVisible();
  await expect(page.getByRole('button',{name:/Start a new listening attempt/i})).toBeVisible();
