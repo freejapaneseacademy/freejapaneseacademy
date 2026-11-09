@@ -2590,6 +2590,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "two original AivisSpeech WAVs with versioned rights-cleared integrity manifest; automated checks recorded; independent pronunciation, transcript-listening and playback reviews pending",
       "noindex": false
+    },
+    {
+      "id": "n5-m01-c04-l06",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c04",
+      "slot": "L06",
+      "title": "Personal profiles — listen to paired introductions",
+      "content": "src/content/lessons/n5/personal-profiles-listening.mdx",
+      "url": "/learn/n5/module-01/chapter-04/lesson-06/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "schema-v3 candidate job committed; WAV generation, hashes, rights and playback pending",
+      "noindex": true,
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
