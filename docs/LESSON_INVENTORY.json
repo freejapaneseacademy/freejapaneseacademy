@@ -2558,6 +2558,21 @@
       "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for L04 written kana orthography; L06 provides listening"
+    },
+    {
+      "id": "n5-m01-c04-l01",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c04",
+      "slot": "L01",
+      "title": "At the Orientation Desk — Reading a Short Self-Introduction",
+      "content": "src/content/lessons/n5/orientation-profiles-context.mdx",
+      "url": "/learn/n5/module-01/chapter-04/lesson-01/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written context L01",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
