@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m04-c01-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-l07-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the sentence that says 'I like tea.'",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶が好きです。",
+          "rationale": "Correct. お茶が好きです expresses a preference; が marks the liked item."
+        },
+        {
+          "id": "c2",
+          "text": "お茶を飲みます。",
+          "rationale": "Review: お茶が好きです expresses a preference; が marks the liked item."
+        },
+        {
+          "id": "c3",
+          "text": "お茶を食べます。",
+          "rationale": "Review: お茶が好きです expresses a preference; が marks the liked item."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "お茶が好きです expresses a preference; が marks the liked item."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the sentence that says 'I drink water.'",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水が好きです。",
+          "rationale": "Review: 水を飲みます describes drinking; を marks the object."
+        },
+        {
+          "id": "c2",
+          "text": "水を飲みます。",
+          "rationale": "Correct. 水を飲みます describes drinking; を marks the object."
+        },
+        {
+          "id": "c3",
+          "text": "水と飲みます。",
+          "rationale": "Review: 水を飲みます describes drinking; を marks the object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "水を飲みます describes drinking; を marks the object."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly means 'I eat bread with a friend'?",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だちをパンと食べます。",
+          "rationale": "Review: 友だちと marks the companion and パンを marks the food."
+        },
+        {
+          "id": "c2",
+          "text": "パンが友だちを食べます。",
+          "rationale": "Review: 友だちと marks the companion and パンを marks the food."
+        },
+        {
+          "id": "c3",
+          "text": "友だちとパンを食べます。",
+          "rationale": "Correct. 友だちと marks the companion and パンを marks the food."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "友だちと marks the companion and パンを marks the food."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Complete: わたしはりんご___好きです。",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "が",
+          "rationale": "Correct. The thing liked takes が in りんごが好きです."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Review: The thing liked takes が in りんごが好きです."
+        },
+        {
+          "id": "c3",
+          "text": "と",
+          "rationale": "Review: The thing liked takes が in りんごが好きです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The thing liked takes が in りんごが好きです."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Complete: コーヒー___飲みます。",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "と",
+          "rationale": "Review: The thing drunk is marked by を."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Correct. The thing drunk is marked by を."
+        },
+        {
+          "id": "c3",
+          "text": "が",
+          "rationale": "Review: The thing drunk is marked by を."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The thing drunk is marked by を."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a polite eating form?",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食ます",
+          "rationale": "Review: 食べます（たべます） keeps the べ before ます."
+        },
+        {
+          "id": "c2",
+          "text": "食るます",
+          "rationale": "Review: 食べます（たべます） keeps the べ before ます."
+        },
+        {
+          "id": "c3",
+          "text": "食べます",
+          "rationale": "Correct. 食べます（たべます） keeps the べ before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "食べます（たべます） keeps the べ before ます."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a polite drinking form?",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飲みます",
+          "rationale": "Correct. 飲みます（のみます） is the taught polite form."
+        },
+        {
+          "id": "c2",
+          "text": "飲べます",
+          "rationale": "Review: 飲みます（のみます） is the taught polite form."
+        },
+        {
+          "id": "c3",
+          "text": "飲ます",
+          "rationale": "Review: 飲みます（のみます） is the taught polite form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "飲みます（のみます） is the taught polite form."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says a preference rather than an action?",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "パンを食べます。",
+          "rationale": "Review: 好きです expresses liking, not eating or buying."
+        },
+        {
+          "id": "c2",
+          "text": "パンが好きです。",
+          "rationale": "Correct. 好きです expresses liking, not eating or buying."
+        },
+        {
+          "id": "c3",
+          "text": "パンを買います。",
+          "rationale": "Review: 好きです expresses liking, not eating or buying."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "好きです expresses liking, not eating or buying."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does と mean in 友だちと食べます?",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "the food eaten",
+          "rationale": "Review: と marks the companion in 友だちと食べます."
+        },
+        {
+          "id": "c2",
+          "text": "the time of eating",
+          "rationale": "Review: と marks the companion in 友だちと食べます."
+        },
+        {
+          "id": "c3",
+          "text": "with (a companion)",
+          "rationale": "Correct. と marks the companion in 友だちと食べます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "と marks the companion in 友だちと食べます."
+    },
+    {
+      "id": "ex-n5-m04-c01-l07-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a natural short café message?",
+      "objectiveIds": [
+        "n5-m04-c01-l07-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l07-food-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "パンが好きです。水を飲みます。友だちと食べます。",
+          "rationale": "Correct. The first message correctly uses が with 好き, を with 飲みます and と for a companion."
+        },
+        {
+          "id": "c2",
+          "text": "パンを好きです。水が飲みます。友だちを食べます。",
+          "rationale": "Review: The first message correctly uses が with 好き, を with 飲みます and と for a companion."
+        },
+        {
+          "id": "c3",
+          "text": "パンが食べます。水と飲みます。友だちが食べます。",
+          "rationale": "Review: The first message correctly uses が with 好き, を with 飲みます and と for a companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The first message correctly uses が with 好き, を with 飲みます and と for a companion."
+    }
+  ]
+}
