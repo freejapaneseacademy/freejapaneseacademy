@@ -3709,6 +3709,23 @@
       "audio": "not required for written L02 vocabulary recognition",
       "noindex": false,
       "ownerApproval": "automatic publication preauthorized; pending canonical-order QA and production verification"
+    },
+    {
+      "id": "n5-m04-c01-l08",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c01",
+      "slot": "L08",
+      "title": "At the Café: Optional Food-Preference Conversation",
+      "content": "src/content/lessons/n5/food-preference-speaking.mdx",
+      "url": "/learn/n5/module-04/chapter-01/lesson-08/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "no new recording; linked L06 audio subject to independent verification",
+      "noindex": true,
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
