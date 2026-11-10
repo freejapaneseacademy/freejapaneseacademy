@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m03-c01-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l07-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which line gives a starting time of 10 a.m.?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Which line gives a starting time of 10 a.m.?",
+          "rationale": "午前10人です。"
+        },
+        {
+          "id": "c2",
+          "text": "午前10時からです。",
+          "rationale": "This does not match the target meaning. 午前10人です。"
+        },
+        {
+          "id": "c3",
+          "text": "午後10時からです。",
+          "rationale": "This changes the counter, date or time meaning. 午前10人です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "午前10人です。"
+    },
+    {
+      "id": "ex-n5-m03-c01-l07-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you write four participants?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "4人",
+          "rationale": "This does not match the target meaning. 4時"
+        },
+        {
+          "id": "c2",
+          "text": "How do you write four participants?",
+          "rationale": "4時"
+        },
+        {
+          "id": "c3",
+          "text": "4枚",
+          "rationale": "This changes the counter, date or time meaning. 4時"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "4時"
+    },
+    {
+      "id": "ex-n5-m03-c01-l07-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 紙は2枚です mean?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "There are two sheets of paper.",
+          "rationale": "This does not match the target meaning. The event is at two o'clock."
+        },
+        {
+          "id": "c2",
+          "text": "There are two people.",
+          "rationale": "This changes the counter, date or time meaning. The event is at two o'clock."
+        },
+        {
+          "id": "c3",
+          "text": "What does 紙は2枚です mean?",
+          "rationale": "The event is at two o'clock."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The event is at two o'clock."
+    },
+    {
+      "id": "ex-n5-m03-c01-l07-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means December 4?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Which expression means December 4?",
+          "rationale": "4月12日"
+        },
+        {
+          "id": "c2",
+          "text": "12月4日",
+          "rationale": "This does not match the target meaning. 4月12日"
+        },
+        {
+          "id": "c3",
+          "text": "12時4分",
+          "rationale": "This changes the counter, date or time meaning. 4月12日"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "4月12日"
+    },
+    {
+      "id": "ex-n5-m03-c01-l07-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which particle marks a starting point?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "から",
+          "rationale": "This does not match the target meaning. が"
+        },
+        {
+          "id": "c2",
+          "text": "Which particle marks a starting point?",
+          "rationale": "が"
+        },
+        {
+          "id": "c3",
+          "text": "まで",
+          "rationale": "This changes the counter, date or time meaning. が"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "が"
+    },
+    {
+      "id": "ex-n5-m03-c01-l07-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How is 2人 read?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ふたり",
+          "rationale": "This does not match the target meaning. にじ"
+        },
+        {
+          "id": "c2",
+          "text": "にまい",
+          "rationale": "This changes the counter, date or time meaning. にじ"
+        },
+        {
+          "id": "c3",
+          "text": "How is 2人 read?",
+          "rationale": "にじ"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "にじ"
+    },
+    {
+      "id": "ex-n5-m03-c01-l07-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "The notice says 午後1時からです. When does it start?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The notice says 午後1時からです. When does it start?",
+          "rationale": "It ends at 1 p.m."
+        },
+        {
+          "id": "c2",
+          "text": "1 p.m.",
+          "rationale": "This does not match the target meaning. It ends at 1 p.m."
+        },
+        {
+          "id": "c3",
+          "text": "1 a.m.",
+          "rationale": "This changes the counter, date or time meaning. It ends at 1 p.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "It ends at 1 p.m."
+    },
+    {
+      "id": "ex-n5-m03-c01-l07-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a suitable general counter for three apples?",
+      "objectiveIds": [
+        "n5-m03-c01-l07-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l07-notice-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "りんごは3つです。",
+          "rationale": "This does not match the target meaning. りんごは3時です。"
+        },
+        {
+          "id": "c2",
+          "text": "Which is a suitable general counter for three apples?",
+          "rationale": "りんごは3時です。"
+        },
+        {
+          "id": "c3",
+          "text": "りんごは3人です。",
+          "rationale": "This changes the counter, date or time meaning. りんごは3時です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "りんごは3時です。"
+    }
+  ]
+}
