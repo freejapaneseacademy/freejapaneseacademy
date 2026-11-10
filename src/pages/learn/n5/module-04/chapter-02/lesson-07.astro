@@ -1,10 +1,11 @@
 ---
-import Base from '../../../../../../layouts/Base.astro';
+import Base from '../../../../../layouts/Base.astro';
 import {getEntry,render} from 'astro:content';
-import LessonActions from '../../../../../../components/interactive/LessonActions';
-import ShoppingWritingPractice from '../../../../../../components/interactive/ShoppingWritingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+import ShoppingWritingPractice from '../../../../../components/interactive/ShoppingWritingPractice';
 const lesson=await getEntry('lessons','n5/shopping-request-writing');
-if(!lesson)throw new Error('Missing canonical n5-m04-c02-l07 content');
+if(!lesson||lesson.data.lessonId!=='n5-m04-c02-l07')throw new Error('Missing canonical n5-m04-c02-l07 content');
 const {Content}=await render(lesson);
 ---
 <Base title={lesson.data.title} description={lesson.data.description} noindex={true}>
