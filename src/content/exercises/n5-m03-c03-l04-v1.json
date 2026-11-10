@@ -1,0 +1,484 @@
+{
+  "id": "n5-m03-c03-l04",
+  "lessonId": "n5-m03-c03-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Mina and Sora planner in yesterday-tomorrow-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "Which kanji word is read きのう?",
+      "options": [
+        "昨日",
+        "今日",
+        "明日"
+      ],
+      "correctIndex": 0,
+      "feedback": "昨日 is the whole-word spelling of きのう (yesterday).",
+      "explanation": "昨日 is the whole-word spelling of きのう (yesterday).",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-01-c1",
+          "text": "昨日",
+          "rationale": "昨日 is the whole-word spelling of きのう (yesterday)."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-01-c2",
+          "text": "今日",
+          "rationale": "Not correct in this planner: 昨日 is the whole-word spelling of きのう (yesterday)."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-01-c3",
+          "text": "明日",
+          "rationale": "Not correct in this planner: 昨日 is the whole-word spelling of きのう (yesterday)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "What is the reading of 今日 in this planner?",
+      "options": [
+        "きのう",
+        "きょう",
+        "あした"
+      ],
+      "correctIndex": 1,
+      "feedback": "今日 is read きょう, meaning today.",
+      "explanation": "今日 is read きょう, meaning today.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-02-c1",
+          "text": "きのう",
+          "rationale": "Not correct in this planner: 今日 is read きょう, meaning today."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-02-c2",
+          "text": "きょう",
+          "rationale": "今日 is read きょう, meaning today."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-02-c3",
+          "text": "あした",
+          "rationale": "Not correct in this planner: 今日 is read きょう, meaning today."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "Which label means tomorrow?",
+      "options": [
+        "昨日",
+        "朝",
+        "明日"
+      ],
+      "correctIndex": 2,
+      "feedback": "明日（あした） means tomorrow.",
+      "explanation": "明日（あした） means tomorrow.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-03-c1",
+          "text": "昨日",
+          "rationale": "Not correct in this planner: 明日（あした） means tomorrow."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-03-c2",
+          "text": "朝",
+          "rationale": "Not correct in this planner: 明日（あした） means tomorrow."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-03-c3",
+          "text": "明日",
+          "rationale": "明日（あした） means tomorrow."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "What does 午前十時 indicate?",
+      "options": [
+        "10 a.m.",
+        "10 p.m.",
+        "3 p.m."
+      ],
+      "correctIndex": 0,
+      "feedback": "午前 marks a.m. and 十時 is ten o'clock.",
+      "explanation": "午前 marks a.m. and 十時 is ten o'clock.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-04-c1",
+          "text": "10 a.m.",
+          "rationale": "午前 marks a.m. and 十時 is ten o'clock."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-04-c2",
+          "text": "10 p.m.",
+          "rationale": "Not correct in this planner: 午前 marks a.m. and 十時 is ten o'clock."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-04-c3",
+          "text": "3 p.m.",
+          "rationale": "Not correct in this planner: 午前 marks a.m. and 十時 is ten o'clock."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "Which word in the planner means midday/daytime?",
+      "options": [
+        "夜",
+        "昼",
+        "朝"
+      ],
+      "correctIndex": 1,
+      "feedback": "昼（ひる） refers to daytime or noon.",
+      "explanation": "昼（ひる） refers to daytime or noon.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-05-c1",
+          "text": "夜",
+          "rationale": "Not correct in this planner: 昼（ひる） refers to daytime or noon."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-05-c2",
+          "text": "昼",
+          "rationale": "昼（ひる） refers to daytime or noon."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-05-c3",
+          "text": "朝",
+          "rationale": "Not correct in this planner: 昼（ひる） refers to daytime or noon."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "Which kanji appears in 読みました?",
+      "options": [
+        "書",
+        "行",
+        "読"
+      ],
+      "correctIndex": 2,
+      "feedback": "読（よ） appears in 読みました, 'read' in polite past.",
+      "explanation": "読（よ） appears in 読みました, 'read' in polite past.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-06-c1",
+          "text": "書",
+          "rationale": "Not correct in this planner: 読（よ） appears in 読みました, 'read' in polite past."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-06-c2",
+          "text": "行",
+          "rationale": "Not correct in this planner: 読（よ） appears in 読みました, 'read' in polite past."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-06-c3",
+          "text": "読",
+          "rationale": "読（よ） appears in 読みました, 'read' in polite past."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "What did Mina do yesterday after going to the library?",
+      "options": [
+        "Read a Japanese book",
+        "Wrote short sentences",
+        "Studied kanji in the morning"
+      ],
+      "correctIndex": 0,
+      "feedback": "The yesterday entry says 日本語の本を読みました.",
+      "explanation": "The yesterday entry says 日本語の本を読みました.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-07-c1",
+          "text": "Read a Japanese book",
+          "rationale": "The yesterday entry says 日本語の本を読みました."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-07-c2",
+          "text": "Wrote short sentences",
+          "rationale": "Not correct in this planner: The yesterday entry says 日本語の本を読みました."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-07-c3",
+          "text": "Studied kanji in the morning",
+          "rationale": "Not correct in this planner: The yesterday entry says 日本語の本を読みました."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "Which action is planned for tomorrow afternoon?",
+      "options": [
+        "Read a book yesterday",
+        "Write short sentences",
+        "Rest at midday"
+      ],
+      "correctIndex": 1,
+      "feedback": "The 明日 entry says 午後、短い文を書きます.",
+      "explanation": "The 明日 entry says 午後、短い文を書きます.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-08-c1",
+          "text": "Read a book yesterday",
+          "rationale": "Not correct in this planner: The 明日 entry says 午後、短い文を書きます."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-08-c2",
+          "text": "Write short sentences",
+          "rationale": "The 明日 entry says 午後、短い文を書きます."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-08-c3",
+          "text": "Rest at midday",
+          "rationale": "Not correct in this planner: The 明日 entry says 午後、短い文を書きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "Which sentence correctly expresses a plan for tomorrow?",
+      "options": [
+        "明日、図書室へ行きました。",
+        "昨日、図書室へ行きます。",
+        "明日、図書室へ行きます。"
+      ],
+      "correctIndex": 2,
+      "feedback": "明日 anchors a future plan; 行きます is polite nonpast.",
+      "explanation": "明日 anchors a future plan; 行きます is polite nonpast.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-09-c1",
+          "text": "明日、図書室へ行きました。",
+          "rationale": "Not correct in this planner: 明日 anchors a future plan; 行きます is polite nonpast."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-09-c2",
+          "text": "昨日、図書室へ行きます。",
+          "rationale": "Not correct in this planner: 明日 anchors a future plan; 行きます is polite nonpast."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-09-c3",
+          "text": "明日、図書室へ行きます。",
+          "rationale": "明日 anchors a future plan; 行きます is polite nonpast."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l04-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l04-planner-words"
+      ],
+      "prompt": "What is the reading of 勉強 in 勉強します?",
+      "options": [
+        "べんきょう",
+        "かんじ",
+        "としょしつ"
+      ],
+      "correctIndex": 0,
+      "feedback": "勉強（べんきょう） means study.",
+      "explanation": "勉強（べんきょう） means study.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l04-10-c1",
+          "text": "べんきょう",
+          "rationale": "勉強（べんきょう） means study."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-10-c2",
+          "text": "かんじ",
+          "rationale": "Not correct in this planner: 勉強（べんきょう） means study."
+        },
+        {
+          "id": "ex-n5-m03-c03-l04-10-c3",
+          "text": "としょしつ",
+          "rationale": "Not correct in this planner: 勉強（べんきょう） means study."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l04-10-c1"
+      }
+    }
+  ]
+}
