@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import TimeWordsPractice from '../../../../../components/interactive/TimeWordsPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/past-future-time-vocabulary');
+if(!lesson||lesson.data.lessonId!=='n5-m03-c03-l02')throw new Error('Missing canonical lesson n5-m03-c03-l02');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Past and future schedules',href:'/learn/n5/module-03/chapter-03/lesson-02/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 03 · Chapter 03 · Lesson 02</span></nav><span class="eyebrow">N5 · MODULE 03 · CHAPTER 03 · LESSON 02</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Written vocabulary</span><span>12 questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original written lesson.</strong> Fictional examples; independent Japanese and assessment reviews pending. No audio or pronunciation score is claimed.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><TimeWordsPractice client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion is separate from your quiz score.</p><LessonActions client:load lessonId="n5-m03-c03-l02" level="n5"/></div><div class="lesson-next"><h3>Keep learning</h3><p>Next: polite past ました／ませんでした.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Time anchors</h3><p>Read the time expression first. Then decide whether the verb describes a completed action or a plan.</p></aside></div></section>
+</Base>
