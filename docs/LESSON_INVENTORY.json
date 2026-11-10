@@ -3380,6 +3380,21 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses predecessor N5-M01-C02-L06 recordings; authentic WAVs, rights and hashes require verification",
       "noindex": false
+    },
+    {
+      "id": "n5-m03-c02-l07",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c02",
+      "slot": "L07",
+      "title": "Write Your Usual Day: A Short Japanese Routine",
+      "content": "src/content/lessons/n5/daily-routine-writing.mdx",
+      "url": "/learn/n5/module-03/chapter-02/lesson-07/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written L07; L06 audio remains separate",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
