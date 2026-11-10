@@ -3544,6 +3544,21 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written context L01",
       "noindex": false
+    },
+    {
+      "id": "n5-m03-c04-l08",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c04",
+      "slot": "L08",
+      "title": "Talk about your habits — optional frequency roleplay",
+      "content": "src/content/lessons/n5/frequency-habits-roleplay.mdx",
+      "url": "/learn/n5/module-03/chapter-04/lesson-08/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "no new audio; optional text-only speaking rehearsal, no pronunciation verification",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
