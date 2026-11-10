@@ -1,0 +1,310 @@
+{
+  "lessonId": "l0-m05-c02-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m05-c02-l08-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "At the registration desk, which answer gives the visitor's name?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k1"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "たなかです。",
+          "rationale": "Correct: たなかです identifies the visitor; じゅうにです gives a number, and ありがとうございます thanks someone."
+        },
+        {
+          "id": "b",
+          "text": "じゅうにです。",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "ありがとうございます。",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "たなかです identifies the visitor; じゅうにです gives a number, and ありがとうございます thanks someone."
+    },
+    {
+      "id": "ex-l0-m05-c02-l08-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What number does the visitor give?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k2"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "12",
+          "rationale": "Correct: じゅうに is 10 + 2 = 12; にじゅういち is 21."
+        },
+        {
+          "id": "b",
+          "text": "21",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "3",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "じゅうに is 10 + 2 = 12; にじゅういち is 21."
+    },
+    {
+      "id": "ex-l0-m05-c02-l08-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does ばんごうは？ ask in the registration scene?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k3"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "What is your number?",
+          "rationale": "Correct: ばんごう means an identifying number; the scene specifies a registration number, not age."
+        },
+        {
+          "id": "b",
+          "text": "Where did you come from?",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "What is your age?",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ばんごう means an identifying number; the scene specifies a registration number, not age."
+    },
+    {
+      "id": "ex-l0-m05-c02-l08-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the polite response after the staff confirms the number?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k4"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "ありがとうございます。",
+          "rationale": "Correct: ありがとうございます expresses thanks; the other options ask a name or state an origin."
+        },
+        {
+          "id": "b",
+          "text": "おなまえは？",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "カナダからきました。",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ありがとうございます expresses thanks; the other options ask a name or state an origin."
+    },
+    {
+      "id": "ex-l0-m05-c02-l08-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does ケン say about Canada?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k5"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "He came from Canada.",
+          "rationale": "Correct: カナダからきました states origin or travel from Canada; citizenship is not stated."
+        },
+        {
+          "id": "b",
+          "text": "He has Canadian citizenship.",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "His class number is Canada.",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "カナダからきました states origin or travel from Canada; citizenship is not stated."
+    },
+    {
+      "id": "ex-l0-m05-c02-l08-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is Mika's stated class number?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k6"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "3",
+          "rationale": "Correct: さんばん means number three; both classmates give this class number."
+        },
+        {
+          "id": "b",
+          "text": "12",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "21",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "さんばん means number three; both classmates give this class number."
+    },
+    {
+      "id": "ex-l0-m05-c02-l08-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In わたしもさんばんです, what does も express?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k7"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "also / too",
+          "rationale": "Correct: も adds the speaker to the same class-number statement."
+        },
+        {
+          "id": "b",
+          "text": "a question",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "a polite farewell",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "も adds the speaker to the same class-number statement."
+    },
+    {
+      "id": "ex-l0-m05-c02-l08-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which question asks Mika for her class number?",
+      "objectiveIds": [
+        "l0-m05-c02-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l08-k8"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "クラスはなんばんですか。",
+          "rationale": "Correct: クラスはなんばんですか asks which class number; the others ask a name or greet someone."
+        },
+        {
+          "id": "b",
+          "text": "おなまえは？",
+          "rationale": "This does not match the stated scene or meaning."
+        },
+        {
+          "id": "c",
+          "text": "はじめまして。",
+          "rationale": "This belongs to a different question, context or meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "クラスはなんばんですか asks which class number; the others ask a name or greet someone."
+    }
+  ]
+}

@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { recordAttempt } from '../../lib/progress';
 import bank from '../../content/exercises/l0-m02-c03-l01-v1.json';
 
 export default function HiraganaMYRWContextPractice() {
  const questions=bank.items;
+ const [hydrated,setHydrated]=useState(false);
+ useEffect(()=>setHydrated(true),[]);
  const [answers,setAnswers]=useState<Record<string,number>>({});
  const [submitted,setSubmitted]=useState(false);
  const [saving,setSaving]=useState<'idle'|'saving'|'saved'|'error'>('idle');
@@ -19,7 +21,7 @@ export default function HiraganaMYRWContextPractice() {
  return <section aria-labelledby="hiragana-myrw-context-practice" className="space-y-5 min-w-0">
   <h2 id="hiragana-myrw-context-practice" className="text-2xl font-semibold">Check the picture board and kana chart</h2>
   <p>Eight original written questions. Choose one answer for each, then reveal explanations.</p>
-  {questions.map((q,i)=><fieldset key={q.id} disabled={submitted} className="rounded-xl border border-current/20 p-4 min-w-0">
+  {questions.map((q,i)=><fieldset key={q.id} disabled={!hydrated||submitted} className="rounded-xl border border-current/20 p-4 min-w-0">
    <legend className="px-1 font-semibold">{i+1}. {q.prompt}</legend>
    <div className="mt-3 space-y-2">{q.options.map((option,j)=><label key={j} className="flex cursor-pointer items-start gap-3 rounded-lg p-3 min-h-11 focus-within:outline focus-within:outline-2">
     <input type="radio" name={q.id} className="mt-1" checked={answers[q.id]===j} onChange={()=>setAnswers(prev=>({...prev,[q.id]:j}))}/>
