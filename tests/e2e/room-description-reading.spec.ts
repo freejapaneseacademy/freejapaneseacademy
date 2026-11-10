@@ -10,7 +10,7 @@ test('keyboard reading quiz, feedback and retry',async({page})=>{
  await page.getByRole('button',{name:'Retry reading check'}).click();
  await expect(qs.first().getByRole('radio').first()).not.toBeChecked();
  await page.getByRole('button',{name:'Compare with model'}).click();
- await expect(page.getByText('机の 上に ノートが あります。本棚の 中に 日本語の 本が あります。')).toBeVisible();
+ await expect(page.locator('.foundation-feedback').getByText('机の 上に ノートが あります。本棚の 中に 日本語の 本が あります。')).toBeVisible();
 });
 test('320px dark mode layout has no horizontal overflow',async({page})=>{
  await page.setViewportSize({width:320,height:720});await page.emulateMedia({colorScheme:'dark'});await page.goto(url);
