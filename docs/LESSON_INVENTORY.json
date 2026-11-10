@@ -3659,6 +3659,23 @@
       "audio": "reuses two L06 AivisSpeech candidate WAVs; real media integrity, rights and transcript playback verification required before publication",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m04-c01-l05",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c01",
+      "slot": "L05",
+      "title": "Read a café menu — Food, drinks and evidence",
+      "content": "src/content/lessons/n5/cafe-menu-reading.mdx",
+      "url": "/learn/n5/module-04/chapter-01/lesson-05/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
