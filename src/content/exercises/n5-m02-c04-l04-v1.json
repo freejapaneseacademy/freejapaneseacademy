@@ -59,22 +59,22 @@
       "choices": [
         {
           "id": "c1",
-          "text": "Under the desk",
-          "rationale": "下（した） means under or below."
-        },
-        {
-          "id": "c2",
           "text": "Beside the desk",
           "rationale": "This does not match the taught reading or the stated room guide: 下（した） means under or below."
         },
         {
-          "id": "c3",
+          "id": "c2",
           "text": "Behind the desk",
           "rationale": "This does not match the taught reading or the stated room guide: 下（した） means under or below."
+        },
+        {
+          "id": "c3",
+          "text": "Under the desk",
+          "rationale": "下（した） means under or below."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c3"
       },
       "explanation": "下（した） means under or below."
     },
@@ -97,22 +97,22 @@
       "choices": [
         {
           "id": "c1",
+          "text": "まえ",
+          "rationale": "This does not match the taught reading or the stated room guide: 後ろ is read うしろ, meaning behind."
+        },
+        {
+          "id": "c2",
           "text": "うしろ",
           "rationale": "後ろ is read うしろ, meaning behind."
         },
         {
-          "id": "c2",
-          "text": "あとろ",
-          "rationale": "This does not match the taught reading or the stated room guide: 後ろ is read うしろ, meaning behind."
-        },
-        {
           "id": "c3",
-          "text": "まえ",
+          "text": "あとろ",
           "rationale": "This does not match the taught reading or the stated room guide: 後ろ is read うしろ, meaning behind."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
       "explanation": "後ろ is read うしろ, meaning behind."
     },
@@ -173,22 +173,22 @@
       "choices": [
         {
           "id": "c1",
-          "text": "机の上",
-          "rationale": "The guide states 机の上に 本が あります."
-        },
-        {
-          "id": "c2",
           "text": "机の下",
           "rationale": "This does not match the taught reading or the stated room guide: The guide states 机の上に 本が あります."
         },
         {
-          "id": "c3",
+          "id": "c2",
           "text": "かばんの中",
           "rationale": "This does not match the taught reading or the stated room guide: The guide states 机の上に 本が あります."
+        },
+        {
+          "id": "c3",
+          "text": "机の上",
+          "rationale": "The guide states 机の上に 本が あります."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c3"
       },
       "explanation": "The guide states 机の上に 本が あります."
     },
@@ -211,22 +211,22 @@
       "choices": [
         {
           "id": "c1",
+          "text": "机の隣",
+          "rationale": "This does not match the taught reading or the stated room guide: The guide states 入口の前に 先生が います."
+        },
+        {
+          "id": "c2",
           "text": "入口の前",
           "rationale": "The guide states 入口の前に 先生が います."
         },
         {
-          "id": "c2",
-          "text": "いすの後ろ",
-          "rationale": "This does not match the taught reading or the stated room guide: The guide states 入口の前に 先生が います."
-        },
-        {
           "id": "c3",
-          "text": "机の隣",
+          "text": "いすの後ろ",
           "rationale": "This does not match the taught reading or the stated room guide: The guide states 入口の前に 先生が います."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
       "explanation": "The guide states 入口の前に 先生が います."
     },
@@ -287,22 +287,22 @@
       "choices": [
         {
           "id": "c1",
-          "text": "となり — beside",
-          "rationale": "隣 is read となり and means beside or next to."
-        },
-        {
-          "id": "c2",
           "text": "なか — inside",
           "rationale": "This does not match the taught reading or the stated room guide: 隣 is read となり and means beside or next to."
         },
         {
-          "id": "c3",
+          "id": "c2",
           "text": "した — under",
           "rationale": "This does not match the taught reading or the stated room guide: 隣 is read となり and means beside or next to."
+        },
+        {
+          "id": "c3",
+          "text": "となり — beside",
+          "rationale": "隣 is read となり and means beside or next to."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c3"
       },
       "explanation": "隣 is read となり and means beside or next to."
     }
