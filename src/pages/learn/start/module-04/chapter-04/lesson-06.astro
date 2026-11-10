@@ -1,0 +1,28 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import manifest from '../../../../../content/audio/l0-m04-c04-l06-v1.json';
+import exercise from '../../../../../content/exercises/l0-m04-c04-l06.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'l0/katakana-loanword-listening');
+if (!lesson || lesson.data.lessonId !== 'l0-m04-c04-l06') throw new Error('Missing canonical listening lesson l0-m04-c04-l06');
+const { Content } = await render(lesson);
+const tracks = manifest.assets.map((asset, i) => ({
+ id: (i === 0 ? 'a' : 'b') as 'a' | 'b',
+ assetId: asset.id,
+ label: i === 0 ? 'Track A — Station café announcement' : 'Track B — Station services announcement',
+ url: asset.mediaPath, durationSeconds: asset.durationSeconds,
+ transcript: asset.transcript, english: asset.english
+}));
+const questions = exercise.items.map(item => ({
+ id: item.id, trackId: item.trackId, prompt: item.prompt,
+ choices: item.choices, answerKey: item.answerKey,
+ explanation: item.explanation, evidence: item.evidence
+}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Katakana listening',href:'/learn/start/module-04/chapter-04/lesson-06/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 04 · Chapter 04 · Lesson 06</span></nav><span class="eyebrow">LEVEL 0 · MODULE 04 · CHAPTER 04 · LESSON 06</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Two original station announcements</span><span>Six scored listening questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original Japanese listening.</strong> Licensed synthetic voices; independent pronunciation and assessment reviews pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><ReusableListeningPractice client:load lessonId="l0-m04-c04-l06" level="l0" version={1} tracks={tracks} questions={questions}/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion and unaided listening attempts are stored separately on this device.</p><LessonActions client:load lessonId="l0-m04-c04-l06" level="l0"/></div><div class="lesson-next"><h3>Continue learning</h3><a class="btn btn-outline" href="/learn/start/module-04/chapter-04/lesson-05/">Previous: café menu reading</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Listen before reading</h3><p>Play both original announcements before revealing transcripts. Transcript-assisted practice never creates an unaided listening score.</p></aside></div></section>
+</Base>
