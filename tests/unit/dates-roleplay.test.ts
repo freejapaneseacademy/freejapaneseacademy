@@ -1,0 +1,6 @@
+import {describe,expect,it} from 'vitest';
+import {questions,scoreRoleplay,QUIZ_ID} from '../../src/components/interactive/DatesRoleplay';
+describe('N5-M03-C01-L08 roleplay',()=>{
+ it('has valid unique answer keys and feedback',()=>{expect(questions).toHaveLength(8);expect(new Set(questions.map(q=>q.id)).size).toBe(8);for(const q of questions){expect(q.id).toMatch(/^ex-n5-m03-c01-l08-q\d\d-v1$/);expect(q.choices).toHaveLength(3);expect(new Set(q.choices.map(c=>c.text)).size).toBe(3);expect(q.choices.some(c=>c.id===q.answerKey.choiceId)).toBe(true);expect(q.choices.every(c=>c.rationale.length>10)).toBe(true);expect(q.explanation.length).toBeGreaterThan(20);}});
+ it('scores blank, correct and wrong responses',()=>{expect(scoreRoleplay({})).toBe(0);expect(scoreRoleplay(Object.fromEntries(questions.map(q=>[q.id,q.answerKey.choiceId])))).toBe(8);expect(scoreRoleplay(Object.fromEntries(questions.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey.choiceId)!.id])))).toBe(0);expect(QUIZ_ID).toBe('n5-m03-c01-l08-roleplay-v1');});
+});
