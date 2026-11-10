@@ -1,0 +1,165 @@
+{
+  "lessonId": "n5-m04-c01-l06",
+  "chapterId": "n5-m04-c01",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m04-c01-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c01-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.34,
+      "transcript": "女性： いらっしゃいませ。ご注文は何ですか。\n男性： カレーをお願いします。飲み物はお茶をください。\n女性： はい。カレーとお茶ですね。サラダも食べますか。\n男性： いいえ、サラダは食べません。ありがとうございます。",
+      "english": "Woman: Welcome. What would you like to order?\nMan: Curry, please. For a drink, tea, please.\nWoman: Certainly. Curry and tea, right? Would you like salad too?\nMan: No, I won't have salad. Thank you.",
+      "scriptPurpose": "Ordering lunch at the café",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いらっしゃいませ。ご注文は何ですか。",
+          "english": "Welcome. What would you like to order?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.51
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "カレーをお願いします。飲み物はお茶をください。",
+          "english": "Curry, please. For a drink, tea, please.",
+          "startSeconds": 3.79,
+          "endSeconds": 7.44
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。カレーとお茶ですね。サラダも食べますか。",
+          "english": "Certainly. Curry and tea, right? Would you like salad too?",
+          "startSeconds": 7.72,
+          "endSeconds": 12.39
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいえ、サラダは食べません。ありがとうございます。",
+          "english": "No, I won't have salad. Thank you.",
+          "startSeconds": 12.67,
+          "endSeconds": 16.34
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author review of pinned ACML 1.0 terms and approved TTS generation policy; independent legal and pronunciation reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "629eaf9df78dd3cf751652e2961b38070fdeae015ba754d6ba23d1588281ccbd",
+        "bytes": 1441216,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m04-c01-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c01-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 14.5,
+      "transcript": "男性： この店のケーキが好きですか。\n女性： はい、好きです。でも、今日はアイスクリームを食べます。\n男性： ぼくはケーキを食べます。飲み物はコーヒーにします。\n女性： わたしは水を飲みます。",
+      "english": "Man: Do you like this shop's cake?\nWoman: Yes, I do. But today I'll eat ice cream.\nMan: I'll eat cake. I'll choose coffee for my drink.\nWoman: I'll drink water.",
+      "scriptPurpose": "Two friends choose a snack",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "この店のケーキが好きですか。",
+          "english": "Do you like this shop's cake?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.5
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい、好きです。でも、今日はアイスクリームを食べます。",
+          "english": "Yes, I do. But today I'll eat ice cream.",
+          "startSeconds": 2.78,
+          "endSeconds": 7.42
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ぼくはケーキを食べます。飲み物はコーヒーにします。",
+          "english": "I'll eat cake. I'll choose coffee for my drink.",
+          "startSeconds": 7.7,
+          "endSeconds": 11.99
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "わたしは水を飲みます。",
+          "english": "I'll drink water.",
+          "startSeconds": 12.27,
+          "endSeconds": 14.5
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author review of pinned ACML 1.0 terms and approved TTS generation policy; independent legal and pronunciation reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "2ba8601a254ba92df1931aa3055ac7e1bebc0f857762320314e7523e36eb9030",
+        "bytes": 1279144,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
