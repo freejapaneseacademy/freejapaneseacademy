@@ -1,0 +1,173 @@
+{
+  "lessonId": "n5-m04-c03-l06",
+  "chapterId": "n5-m04-c03",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m04-c03-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c03-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 14.24,
+      "transcript": "女性： このカフェは静かですね。\n男性： はい。でも、駅の前のカフェはにぎやかです。\n女性： ここのコーヒーはおいしいですか。\n男性： はい、おいしいです。でも、ケーキはあまりおいしくないです。",
+      "english": "Woman: This café is quiet, isn't it?\nMan: Yes. But the café in front of the station is lively.\nWoman: Is the coffee here tasty?\nMan: Yes, it is. But the cake isn't very tasty.",
+      "scriptPurpose": "Two cafés compared",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "このカフェは静かですね。",
+          "english": "This café is quiet, isn't it?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.51
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。でも、駅の前のカフェはにぎやかです。",
+          "english": "Yes. But the café in front of the station is lively.",
+          "startSeconds": 2.79,
+          "endSeconds": 6.43
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ここのコーヒーはおいしいですか。",
+          "english": "Is the coffee here tasty?",
+          "startSeconds": 6.71,
+          "endSeconds": 9.46
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい、おいしいです。でも、ケーキはあまりおいしくないです。",
+          "english": "Yes, it is. But the cake isn't very tasty.",
+          "startSeconds": 9.74,
+          "endSeconds": 14.24
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author review of project-approved ACML 1.0 terms; independent legal and pronunciation reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "298fb0f8df3e5e82b66f0fee0de8befa356e59397322c9662e980ec72915ce1e",
+        "bytes": 1255606,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m04-c03-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c03-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.29,
+      "transcript": "男性： この赤いかばんは大きいですね。\n女性： はい。でも、少し高いです。\n男性： あの青いかばんはどうですか。\n女性： 青いかばんは大きくないです。でも、安くて便利です。\n男性： じゃあ、青いかばんにします。",
+      "english": "Man: This red bag is big, isn't it?\nWoman: Yes. But it's a little expensive.\nMan: How about that blue bag?\nWoman: The blue bag isn't big. But it's inexpensive and convenient.\nMan: Then I'll take the blue bag.",
+      "scriptPurpose": "Choosing between two bags",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "この赤いかばんは大きいですね。",
+          "english": "This red bag is big, isn't it?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.71
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。でも、少し高いです。",
+          "english": "Yes. But it's a little expensive.",
+          "startSeconds": 2.99,
+          "endSeconds": 5.96
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "あの青いかばんはどうですか。",
+          "english": "How about that blue bag?",
+          "startSeconds": 6.24,
+          "endSeconds": 8.67
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "青いかばんは大きくないです。でも、安くて便利です。",
+          "english": "The blue bag isn't big. But it's inexpensive and convenient.",
+          "startSeconds": 8.95,
+          "endSeconds": 13.76
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "じゃあ、青いかばんにします。",
+          "english": "Then I'll take the blue bag.",
+          "startSeconds": 14.04,
+          "endSeconds": 16.29
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author review of project-approved ACML 1.0 terms; independent legal and pronunciation reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "b4b689e5c9c224137ee2aea76f63cf9473e0de9203b5de6c22738d9725fd2c43",
+        "bytes": 1436518,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
