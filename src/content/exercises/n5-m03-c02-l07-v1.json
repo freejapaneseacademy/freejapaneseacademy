@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m03-c02-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-l07-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'I get up at seven'?",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "七時に起きます。",
+          "rationale": "Correct: に follows the specific time and 起きます is affirmative."
+        },
+        {
+          "id": "c2",
+          "text": "七時を起きます。",
+          "rationale": "を marks direct objects, not a wake-up time."
+        },
+        {
+          "id": "c3",
+          "text": "七時に起きません。",
+          "rationale": "ません makes the action negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Correct: に follows the specific time and 起きます is affirmative."
+    },
+    {
+      "id": "ex-n5-m03-c02-l07-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'I drink water'?",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水に飲みます。",
+          "rationale": "に is not the direct-object particle here."
+        },
+        {
+          "id": "c2",
+          "text": "水を飲みます。",
+          "rationale": "Correct: water is the object marked by を; 飲みます means drink."
+        },
+        {
+          "id": "c3",
+          "text": "水を読みます。",
+          "rationale": "読みます means read, not drink."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Correct: water is the object marked by を; 飲みます means drink."
+    },
+    {
+      "id": "ex-n5-m03-c02-l07-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 本を読みません mean?",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "I read a book.",
+          "rationale": "読みます would be affirmative; ません changes polarity."
+        },
+        {
+          "id": "c2",
+          "text": "I do not read a book.",
+          "rationale": "Correct: 読みません is the polite negative of read."
+        },
+        {
+          "id": "c3",
+          "text": "I do not write a book.",
+          "rationale": "書きません means do not write; 読みません means do not read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Correct: 読みません is the polite negative of read."
+    },
+    {
+      "id": "ex-n5-m03-c02-l07-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means 'every morning'?",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "毎朝",
+          "rationale": "Correct: 毎朝（まいあさ） means every morning."
+        },
+        {
+          "id": "c2",
+          "text": "毎晩",
+          "rationale": "毎晩 means every evening."
+        },
+        {
+          "id": "c3",
+          "text": "昨日",
+          "rationale": "昨日 means yesterday, not a recurring morning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Correct: 毎朝（まいあさ） means every morning."
+    },
+    {
+      "id": "ex-n5-m03-c02-l07-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the correct polite negative of 食べます.",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べました",
+          "rationale": "ました is affirmative past tense."
+        },
+        {
+          "id": "c2",
+          "text": "食べません",
+          "rationale": "Correct: 食べません is polite nonpast negative."
+        },
+        {
+          "id": "c3",
+          "text": "食べます",
+          "rationale": "ます is affirmative nonpast."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Correct: 食べません is polite nonpast negative."
+    },
+    {
+      "id": "ex-n5-m03-c02-l07-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence means 'I go to school at nine'?",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "九時に学校へ行きます。",
+          "rationale": "Correct: に marks nine o'clock, へ the destination, and 行きます means go."
+        },
+        {
+          "id": "c2",
+          "text": "九時を学校へ行きます。",
+          "rationale": "を cannot mark the time in this construction."
+        },
+        {
+          "id": "c3",
+          "text": "九時に学校を読みます。",
+          "rationale": "読みます means read and does not express going to school."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Correct: に marks nine o'clock, へ the destination, and 行きます means go."
+    },
+    {
+      "id": "ex-n5-m03-c02-l07-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence naturally describes a repeated habit?",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日七時に起きました。",
+          "rationale": "昨日 and ました report a past event."
+        },
+        {
+          "id": "c2",
+          "text": "毎日七時に起きます。",
+          "rationale": "Correct: 毎日 plus polite nonpast describes a regular routine."
+        },
+        {
+          "id": "c3",
+          "text": "昨日七時に起きませんでした。",
+          "rationale": "昨日 and ませんでした report a past negative event."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Correct: 毎日 plus polite nonpast describes a regular routine."
+    },
+    {
+      "id": "ex-n5-m03-c02-l07-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'I do not watch television at night'?",
+      "objectiveIds": [
+        "n5-m03-c02-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l07-routine-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "夜はテレビを見ます。",
+          "rationale": "見ます is affirmative, so it says I watch TV."
+        },
+        {
+          "id": "c2",
+          "text": "夜はテレビを飲みません。",
+          "rationale": "飲みません means do not drink, not do not watch."
+        },
+        {
+          "id": "c3",
+          "text": "夜はテレビを見ません。",
+          "rationale": "Correct: 見ません is polite negative of 見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Correct: 見ません is polite negative of 見ます."
+    }
+  ]
+}
