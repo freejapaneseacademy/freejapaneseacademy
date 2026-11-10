@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m03-c02-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-1"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "In the note, 起きます means…",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "get up",
+          "rationale": "起きます（おきます） means to get up."
+        },
+        {
+          "id": "c2",
+          "text": "eat",
+          "rationale": "Not here: 起きます（おきます） means to get up."
+        },
+        {
+          "id": "c3",
+          "text": "write",
+          "rationale": "Not here: 起きます（おきます） means to get up."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "起きます（おきます） means to get up."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-2"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "Which reading matches 食べます?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "のみます",
+          "rationale": "Not here: 食べます is read たべます, to eat."
+        },
+        {
+          "id": "c2",
+          "text": "みます",
+          "rationale": "Not here: 食べます is read たべます, to eat."
+        },
+        {
+          "id": "c3",
+          "text": "たべます",
+          "rationale": "食べます is read たべます, to eat."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "食べます is read たべます, to eat."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-3"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "What does 飲みます describe?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "going",
+          "rationale": "Not here: 飲みます（のみます） means drink; 水を飲みます is drink water."
+        },
+        {
+          "id": "c2",
+          "text": "drinking",
+          "rationale": "飲みます（のみます） means drink; 水を飲みます is drink water."
+        },
+        {
+          "id": "c3",
+          "text": "reading",
+          "rationale": "Not here: 飲みます（のみます） means drink; 水を飲みます is drink water."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "飲みます（のみます） means drink; 水を飲みます is drink water."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-4"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "Which word means 'go'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "行きます",
+          "rationale": "行きます（いきます） means go."
+        },
+        {
+          "id": "c2",
+          "text": "起きます",
+          "rationale": "Not here: 行きます（いきます） means go."
+        },
+        {
+          "id": "c3",
+          "text": "書きます",
+          "rationale": "Not here: 行きます（いきます） means go."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "行きます（いきます） means go."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-5"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "How do you read 見ません?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "みます",
+          "rationale": "Not here: 見ません（みません） is the polite nonpast negative of 見ます."
+        },
+        {
+          "id": "c2",
+          "text": "よみません",
+          "rationale": "Not here: 見ません（みません） is the polite nonpast negative of 見ます."
+        },
+        {
+          "id": "c3",
+          "text": "みません",
+          "rationale": "見ません（みません） is the polite nonpast negative of 見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "見ません（みません） is the polite nonpast negative of 見ます."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-6"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "In 本を読みます, what action is named?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "watch",
+          "rationale": "Not here: 読みます（よみます） means read; 本 is the object."
+        },
+        {
+          "id": "c2",
+          "text": "read",
+          "rationale": "読みます（よみます） means read; 本 is the object."
+        },
+        {
+          "id": "c3",
+          "text": "write",
+          "rationale": "Not here: 読みます（よみます） means read; 本 is the object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "読みます（よみます） means read; 本 is the object."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-7"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "Which verb completes 日記を___ ('write a diary')?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書きます",
+          "rationale": "書きます（かきます） means write."
+        },
+        {
+          "id": "c2",
+          "text": "読みます",
+          "rationale": "Not here: 書きます（かきます） means write."
+        },
+        {
+          "id": "c3",
+          "text": "飲みます",
+          "rationale": "Not here: 書きます（かきます） means write."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "書きます（かきます） means write."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-8"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "What does 毎日 mean?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "yesterday",
+          "rationale": "Not here: 毎日（まいにち） indicates a repeated daily habit."
+        },
+        {
+          "id": "c2",
+          "text": "tomorrow",
+          "rationale": "Not here: 毎日（まいにち） indicates a repeated daily habit."
+        },
+        {
+          "id": "c3",
+          "text": "every day",
+          "rationale": "毎日（まいにち） indicates a repeated daily habit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "毎日（まいにち） indicates a repeated daily habit."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-9"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "Which sentence means 'I get up at six'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "6時に食べます。",
+          "rationale": "Not here: Use に after a specific time; 起きます means get up."
+        },
+        {
+          "id": "c2",
+          "text": "6時に起きます。",
+          "rationale": "Use に after a specific time; 起きます means get up."
+        },
+        {
+          "id": "c3",
+          "text": "6時を起きます。",
+          "rationale": "Not here: Use に after a specific time; 起きます means get up."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Use に after a specific time; 起きます means get up."
+    },
+    {
+      "id": "ex-n5-m03-c02-l04-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l04-recognize-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l04-word-10"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "prompt": "According to the note, what does Mina NOT do at night?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "watch television",
+          "rationale": "夜はテレビを見ません explicitly denies watching TV at night."
+        },
+        {
+          "id": "c2",
+          "text": "write a diary",
+          "rationale": "Not here: 夜はテレビを見ません explicitly denies watching TV at night."
+        },
+        {
+          "id": "c3",
+          "text": "drink water",
+          "rationale": "Not here: 夜はテレビを見ません explicitly denies watching TV at night."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "夜はテレビを見ません explicitly denies watching TV at night."
+    }
+  ]
+}
