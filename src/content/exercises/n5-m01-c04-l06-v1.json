@@ -1,0 +1,246 @@
+{
+  "lessonId": "n5-m01-c04-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m01-c04-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l06-concept-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "prompt": "How old is Aki?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eighteen",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        },
+        {
+          "id": "b",
+          "text": "Nineteen",
+          "rationale": "Nineteen (十九歳) is Aki's stated age."
+        },
+        {
+          "id": "c",
+          "text": "Twenty",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        }
+      ],
+      "correctIndex": 1,
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Nineteen (十九歳) is Aki's stated age.",
+      "evidence": "十九歳です。",
+      "trackId": "a"
+    },
+    {
+      "id": "ex-n5-m01-c04-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l06-concept-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "prompt": "Where is Aki from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kyoto",
+          "rationale": "Aki says her hometown is Kyoto; Osaka belongs to Ken."
+        },
+        {
+          "id": "b",
+          "text": "Osaka",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        },
+        {
+          "id": "c",
+          "text": "Tokyo",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Aki says her hometown is Kyoto; Osaka belongs to Ken.",
+      "evidence": "出身は京都です。",
+      "trackId": "a"
+    },
+    {
+      "id": "ex-n5-m01-c04-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l06-concept-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "prompt": "What do Aki and Ken both study as?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "High school students",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        },
+        {
+          "id": "b",
+          "text": "Company employees",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        },
+        {
+          "id": "c",
+          "text": "University students",
+          "rationale": "Ken uses も to say he is also a university student."
+        }
+      ],
+      "correctIndex": 2,
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Ken uses も to say he is also a university student.",
+      "evidence": "わたしも大学生です。",
+      "trackId": "a"
+    },
+    {
+      "id": "ex-n5-m01-c04-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l06-concept-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "prompt": "Is Sato a company employee?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        },
+        {
+          "id": "b",
+          "text": "No",
+          "rationale": "The negative explicitly rejects the proposed occupation."
+        },
+        {
+          "id": "c",
+          "text": "Not stated",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        }
+      ],
+      "correctIndex": 1,
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The negative explicitly rejects the proposed occupation.",
+      "evidence": "会社員じゃありません。",
+      "trackId": "b"
+    },
+    {
+      "id": "ex-n5-m01-c04-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l06-concept-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "prompt": "What does Sato do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "High school teacher",
+          "rationale": "高校の先生 identifies a high school teacher."
+        },
+        {
+          "id": "b",
+          "text": "University student",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        },
+        {
+          "id": "c",
+          "text": "Company employee",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "高校の先生 identifies a high school teacher.",
+      "evidence": "高校の先生です。",
+      "trackId": "b"
+    },
+    {
+      "id": "ex-n5-m01-c04-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l06-concept-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "prompt": "Where is Sato originally from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tokyo",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        },
+        {
+          "id": "b",
+          "text": "Nagoya",
+          "rationale": "出身 identifies Nagoya as origin; Tokyo is where Sato lives now."
+        },
+        {
+          "id": "c",
+          "text": "Kyoto",
+          "rationale": "This option is not supported by the spoken evidence; compare the relevant identity, age, origin or occupation phrase."
+        }
+      ],
+      "correctIndex": 1,
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "出身 identifies Nagoya as origin; Tokyo is where Sato lives now.",
+      "evidence": "出身は名古屋です。",
+      "trackId": "b"
+    }
+  ]
+}
