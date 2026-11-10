@@ -1,0 +1,266 @@
+{
+  "id": "l0-m05-c04-l06",
+  "lessonId": "l0-m05-c04-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original two-scene foundation listening review; auditory comprehension only",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c04-l06-a1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l06-audio-a"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l06-spoken-a"
+      ],
+      "trackId": "audio-l0-m05-c04-l06-a",
+      "prompt": "What will the learner practice today?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l06-a1-c1",
+          "text": "Hiragana",
+          "rationale": "The learner explicitly says they will practice hiragana."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-a1-c2",
+          "text": "Katakana",
+          "rationale": "Not stated in this conversation. The learner explicitly says they will practice hiragana."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-a1-c3",
+          "text": "Numbers",
+          "rationale": "Not stated in this conversation. The learner explicitly says they will practice hiragana."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l06-a1-c1"
+      },
+      "explanation": "The learner explicitly says they will practice hiragana.",
+      "feedback": "The learner explicitly says they will practice hiragana.",
+      "evidence": "ひらがなを れんしゅうします。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l06-a2",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l06-audio-a"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l06-spoken-a"
+      ],
+      "trackId": "audio-l0-m05-c04-l06-a",
+      "prompt": "What does the learner find difficult?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l06-a2-c1",
+          "text": "A long vowel",
+          "rationale": "Not stated in this conversation. The learner identifies the small tsu as difficult."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-a2-c2",
+          "text": "A small tsu",
+          "rationale": "The learner identifies the small tsu as difficult."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-a2-c3",
+          "text": "A greeting",
+          "rationale": "Not stated in this conversation. The learner identifies the small tsu as difficult."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l06-a2-c2"
+      },
+      "explanation": "The learner identifies the small tsu as difficult.",
+      "feedback": "The learner identifies the small tsu as difficult.",
+      "evidence": "ちいさい「つ」が むずかしいです。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l06-a3",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l06-audio-a"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l06-spoken-a"
+      ],
+      "trackId": "audio-l0-m05-c04-l06-a",
+      "prompt": "Does the learner have a notebook?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l06-a3-c1",
+          "text": "No",
+          "rationale": "Not stated in this conversation. The learner answers yes when asked about a notebook."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-a3-c2",
+          "text": "They do not say",
+          "rationale": "Not stated in this conversation. The learner answers yes when asked about a notebook."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-a3-c3",
+          "text": "Yes",
+          "rationale": "The learner answers yes when asked about a notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l06-a3-c3"
+      },
+      "explanation": "The learner answers yes when asked about a notebook.",
+      "feedback": "The learner answers yes when asked about a notebook.",
+      "evidence": "はい、あります。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l06-b1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l06-audio-b"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l06-spoken-b"
+      ],
+      "trackId": "audio-l0-m05-c04-l06-b",
+      "prompt": "What does the learner find difficult after class?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l06-b1-c1",
+          "text": "Long sounds",
+          "rationale": "The learner says long sounds are difficult."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-b1-c2",
+          "text": "Numbers",
+          "rationale": "Not stated in this conversation. The learner says long sounds are difficult."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-b1-c3",
+          "text": "Greetings",
+          "rationale": "Not stated in this conversation. The learner says long sounds are difficult."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l06-b1-c1"
+      },
+      "explanation": "The learner says long sounds are difficult.",
+      "feedback": "The learner says long sounds are difficult.",
+      "evidence": "ながい おとが むずかしいです。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l06-b2",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l06-audio-b"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l06-spoken-b"
+      ],
+      "trackId": "audio-l0-m05-c04-l06-b",
+      "prompt": "When will the learner practice again?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l06-b2-c1",
+          "text": "Next week",
+          "rationale": "Not stated in this conversation. The learner explicitly plans to practice tomorrow."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-b2-c2",
+          "text": "Tomorrow",
+          "rationale": "The learner explicitly plans to practice tomorrow."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-b2-c3",
+          "text": "Tonight",
+          "rationale": "Not stated in this conversation. The learner explicitly plans to practice tomorrow."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l06-b2-c2"
+      },
+      "explanation": "The learner explicitly plans to practice tomorrow.",
+      "feedback": "The learner explicitly plans to practice tomorrow.",
+      "evidence": "あした、ノートを みて、もういちど れんしゅうします。"
+    },
+    {
+      "id": "ex-l0-m05-c04-l06-b3",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l06-audio-b"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l06-spoken-b"
+      ],
+      "trackId": "audio-l0-m05-c04-l06-b",
+      "prompt": "What will the learner look at while reviewing?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l06-b3-c1",
+          "text": "A phone",
+          "rationale": "Not stated in this conversation. The learner plans to look at their notebook."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-b3-c2",
+          "text": "A sign",
+          "rationale": "Not stated in this conversation. The learner plans to look at their notebook."
+        },
+        {
+          "id": "ex-l0-m05-c04-l06-b3-c3",
+          "text": "A notebook",
+          "rationale": "The learner plans to look at their notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l06-b3-c3"
+      },
+      "explanation": "The learner plans to look at their notebook.",
+      "feedback": "The learner plans to look at their notebook.",
+      "evidence": "ノートを みて"
+    }
+  ]
+}
