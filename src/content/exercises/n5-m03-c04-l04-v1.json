@@ -1,0 +1,484 @@
+{
+  "id": "n5-m03-c04-l04",
+  "lessonId": "n5-m03-c04-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Hana habit journal in habit-journal-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-01"
+      ],
+      "prompt": "Which reading matches 毎日 in the journal?",
+      "options": [
+        "まいにち",
+        "まいしゅう",
+        "きょう"
+      ],
+      "correctIndex": 0,
+      "feedback": "毎日（まいにち） means every day; 毎週 is every week.",
+      "explanation": "毎日（まいにち） means every day; 毎週 is every week.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-01-c1",
+          "text": "まいにち",
+          "rationale": "毎日（まいにち） means every day; 毎週 is every week."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-01-c2",
+          "text": "まいしゅう",
+          "rationale": "This option does not match the reading or meaning in the journal. 毎日（まいにち） means every day; 毎週 is every week."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-01-c3",
+          "text": "きょう",
+          "rationale": "This option does not match the reading or meaning in the journal. 毎日（まいにち） means every day; 毎週 is every week."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-02"
+      ],
+      "prompt": "What does 毎朝 mean?",
+      "options": [
+        "every night",
+        "every morning",
+        "every week"
+      ],
+      "correctIndex": 1,
+      "feedback": "毎朝（まいあさ） combines 毎 (each) and 朝 (morning).",
+      "explanation": "毎朝（まいあさ） combines 毎 (each) and 朝 (morning).",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-02-c1",
+          "text": "every night",
+          "rationale": "This option does not match the reading or meaning in the journal. 毎朝（まいあさ） combines 毎 (each) and 朝 (morning)."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-02-c2",
+          "text": "every morning",
+          "rationale": "毎朝（まいあさ） combines 毎 (each) and 朝 (morning)."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-02-c3",
+          "text": "every week",
+          "rationale": "This option does not match the reading or meaning in the journal. 毎朝（まいあさ） combines 毎 (each) and 朝 (morning)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-03"
+      ],
+      "prompt": "Choose the correct reading of 本 in 本を読みます。",
+      "options": [
+        "もと",
+        "にち",
+        "ほん"
+      ],
+      "correctIndex": 2,
+      "feedback": "本（ほん） means book in this sentence; を marks what is read.",
+      "explanation": "本（ほん） means book in this sentence; を marks what is read.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-03-c1",
+          "text": "もと",
+          "rationale": "This option does not match the reading or meaning in the journal. 本（ほん） means book in this sentence; を marks what is read."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-03-c2",
+          "text": "にち",
+          "rationale": "This option does not match the reading or meaning in the journal. 本（ほん） means book in this sentence; を marks what is read."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-03-c3",
+          "text": "ほん",
+          "rationale": "本（ほん） means book in this sentence; を marks what is read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-04"
+      ],
+      "prompt": "Which verb means 'read' in 本を読みます?",
+      "options": [
+        "読みます",
+        "見ます",
+        "書きます"
+      ],
+      "correctIndex": 0,
+      "feedback": "読みます（よみます） means read; 見ます means look/watch.",
+      "explanation": "読みます（よみます） means read; 見ます means look/watch.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-04-c1",
+          "text": "読みます",
+          "rationale": "読みます（よみます） means read; 見ます means look/watch."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-04-c2",
+          "text": "見ます",
+          "rationale": "This option does not match the reading or meaning in the journal. 読みます（よみます） means read; 見ます means look/watch."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-04-c3",
+          "text": "書きます",
+          "rationale": "This option does not match the reading or meaning in the journal. 読みます（よみます） means read; 見ます means look/watch."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-05"
+      ],
+      "prompt": "Choose the reading of 勉強します。",
+      "options": [
+        "べんこうします",
+        "べんきょうします",
+        "べんきょうみます"
+      ],
+      "correctIndex": 1,
+      "feedback": "勉強（べんきょう） is study; 勉強します means study.",
+      "explanation": "勉強（べんきょう） is study; 勉強します means study.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-05-c1",
+          "text": "べんこうします",
+          "rationale": "This option does not match the reading or meaning in the journal. 勉強（べんきょう） is study; 勉強します means study."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-05-c2",
+          "text": "べんきょうします",
+          "rationale": "勉強（べんきょう） is study; 勉強します means study."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-05-c3",
+          "text": "べんきょうみます",
+          "rationale": "This option does not match the reading or meaning in the journal. 勉強（べんきょう） is study; 勉強します means study."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-06"
+      ],
+      "prompt": "What does 図書館 mean?",
+      "options": [
+        "classroom",
+        "bookstore",
+        "library"
+      ],
+      "correctIndex": 2,
+      "feedback": "図書館（としょかん） means library, where books can be read or borrowed.",
+      "explanation": "図書館（としょかん） means library, where books can be read or borrowed.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-06-c1",
+          "text": "classroom",
+          "rationale": "This option does not match the reading or meaning in the journal. 図書館（としょかん） means library, where books can be read or borrowed."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-06-c2",
+          "text": "bookstore",
+          "rationale": "This option does not match the reading or meaning in the journal. 図書館（としょかん） means library, where books can be read or borrowed."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-06-c3",
+          "text": "library",
+          "rationale": "図書館（としょかん） means library, where books can be read or borrowed."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-07"
+      ],
+      "prompt": "In 毎週土曜日, which part means 'Saturday'?",
+      "options": [
+        "土曜日",
+        "毎週",
+        "毎日"
+      ],
+      "correctIndex": 0,
+      "feedback": "土曜日（どようび） is Saturday; 毎週 means every week.",
+      "explanation": "土曜日（どようび） is Saturday; 毎週 means every week.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-07-c1",
+          "text": "土曜日",
+          "rationale": "土曜日（どようび） is Saturday; 毎週 means every week."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-07-c2",
+          "text": "毎週",
+          "rationale": "This option does not match the reading or meaning in the journal. 土曜日（どようび） is Saturday; 毎週 means every week."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-07-c3",
+          "text": "毎日",
+          "rationale": "This option does not match the reading or meaning in the journal. 土曜日（どようび） is Saturday; 毎週 means every week."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-08"
+      ],
+      "prompt": "Which sentence means 'I sometimes write a diary'?",
+      "options": [
+        "ときどき日記を読みます。",
+        "ときどき日記を書きます。",
+        "毎日日記を書きません。"
+      ],
+      "correctIndex": 1,
+      "feedback": "書きます（かきます） means write; 日記（にっき） means diary.",
+      "explanation": "書きます（かきます） means write; 日記（にっき） means diary.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-08-c1",
+          "text": "ときどき日記を読みます。",
+          "rationale": "This option does not match the reading or meaning in the journal. 書きます（かきます） means write; 日記（にっき） means diary."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-08-c2",
+          "text": "ときどき日記を書きます。",
+          "rationale": "書きます（かきます） means write; 日記（にっき） means diary."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-08-c3",
+          "text": "毎日日記を書きません。",
+          "rationale": "This option does not match the reading or meaning in the journal. 書きます（かきます） means write; 日記（にっき） means diary."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-09"
+      ],
+      "prompt": "Which written form means 'I do not read books very much'?",
+      "options": [
+        "本はよく読みます。",
+        "本はぜんぜん書きます。",
+        "本はあまり読みません。"
+      ],
+      "correctIndex": 2,
+      "feedback": "あまり pairs with a negative form here; 読みません is 'do not read'.",
+      "explanation": "あまり pairs with a negative form here; 読みません is 'do not read'.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-09-c1",
+          "text": "本はよく読みます。",
+          "rationale": "This option does not match the reading or meaning in the journal. あまり pairs with a negative form here; 読みません is 'do not read'."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-09-c2",
+          "text": "本はぜんぜん書きます。",
+          "rationale": "This option does not match the reading or meaning in the journal. あまり pairs with a negative form here; 読みません is 'do not read'."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-09-c3",
+          "text": "本はあまり読みません。",
+          "rationale": "あまり pairs with a negative form here; 読みません is 'do not read'."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l04-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l04-word-10"
+      ],
+      "prompt": "Which sentence accurately describes the journal's Sunday habit?",
+      "options": [
+        "日曜日はときどき日記を書きます。",
+        "日曜日はいつも図書館で勉強します。",
+        "日曜日はぜんぜん本を読みません。"
+      ],
+      "correctIndex": 0,
+      "feedback": "The original journal says 日曜日はときどき日記を書きます, not always studying or never reading.",
+      "explanation": "The original journal says 日曜日はときどき日記を書きます, not always studying or never reading.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l04-10-c1",
+          "text": "日曜日はときどき日記を書きます。",
+          "rationale": "The original journal says 日曜日はときどき日記を書きます, not always studying or never reading."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-10-c2",
+          "text": "日曜日はいつも図書館で勉強します。",
+          "rationale": "This option does not match the reading or meaning in the journal. The original journal says 日曜日はときどき日記を書きます, not always studying or never reading."
+        },
+        {
+          "id": "ex-n5-m03-c04-l04-10-c3",
+          "text": "日曜日はぜんぜん本を読みません。",
+          "rationale": "This option does not match the reading or meaning in the journal. The original journal says 日曜日はときどき日記を書きます, not always studying or never reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l04-10-c1"
+      }
+    }
+  ]
+}
