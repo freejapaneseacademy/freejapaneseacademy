@@ -25,6 +25,7 @@ test('Chapter 03 L02 works at narrow viewport with keyboard navigation and feedb
   await page.goto(route);
   const questions = page.locator('fieldset');
   await expect(questions).toHaveCount(8);
+  await expect(questions.first().locator('input[type="radio"]').first()).toBeEnabled();
   await questions.first().locator('input[type="radio"]').first().focus();
   await page.keyboard.press('ArrowDown');
   await expect(questions.first().locator('input[type="radio"]').nth(1)).toBeChecked();
