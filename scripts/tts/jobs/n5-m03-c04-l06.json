@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m03-c04-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 model-terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional habit survey; pinned model licenses and hashes require workflow verification. No audio or independent review claimed."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Library habit survey",
+      "scenarioType": "conversation",
+      "objectiveId": "n5-m03-c04-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "こんにちは。図書館のアンケートです。よく本を読みますか。",
+          "english": "Hello. This is a library survey. Do you often read books?"
+        },
+        {
+          "speaker": "male",
+          "text": "はい、いつも夜に本を読みます。",
+          "english": "Yes, I always read books at night."
+        },
+        {
+          "speaker": "female",
+          "text": "日本語も勉強しますか。",
+          "english": "Do you study Japanese too?"
+        },
+        {
+          "speaker": "male",
+          "text": "はい、ときどき図書館で勉強します。でも、朝はあまり勉強しません。",
+          "english": "Yes, I sometimes study at the library. But I don't study much in the morning."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What is the survey about?",
+        "When does he read books?",
+        "How often does he study at the library?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Exercise habit survey",
+      "scenarioType": "conversation",
+      "objectiveId": "n5-m03-c04-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "運動について聞きます。よく歩きますか。",
+          "english": "I'll ask about exercise. Do you walk often?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい、よく公園を歩きます。",
+          "english": "Yes, I often walk in the park."
+        },
+        {
+          "speaker": "male",
+          "text": "毎日走りますか。",
+          "english": "Do you run every day?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、ぜんぜん走りません。でも、ときどき家でヨガをします。",
+          "english": "No, I never run. But I sometimes do yoga at home."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where does she often walk?",
+        "Does she run?",
+        "What does she sometimes do at home?"
+      ]
+    }
+  ]
+}
