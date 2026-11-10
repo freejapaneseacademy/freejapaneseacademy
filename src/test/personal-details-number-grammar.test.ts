@@ -1,0 +1,6 @@
+import { describe, expect, it } from 'vitest';
+import bank from '../content/exercises/l0-m05-c02-l03-v1.json';
+describe('numbers and personal details grammar',()=>{
+ it('has twelve distinct schema-keyed questions',()=>{expect(bank.items).toHaveLength(12);expect(new Set(bank.items.map(q=>q.id)).size).toBe(12);for(const q of bank.items){expect(q.id).toMatch(/^ex-/);expect(q.status).toBe('drafted');expect(q.version).toBe(1);expect(q.choices[q.correctIndex].id).toBe(q.answerKey.choiceId);expect(new Set(q.choices.map(c=>c.id)).size).toBe(3);expect(q.explanation.length).toBeGreaterThan(20);expect(q.objectiveIds.length).toBeGreaterThan(0);expect(q.knowledgeItemIds.length).toBeGreaterThan(0);}});
+ it('distinguishes 14 from 40 and country from nationality',()=>{expect(bank.items[2].choices[bank.items[2].correctIndex].text).toBe('じゅうよん');expect(bank.items[3].choices[bank.items[3].correctIndex].text).toBe('よんじゅう');expect(bank.items[7].choices[bank.items[7].correctIndex].text).toBe('カナダじんです。');});
+});

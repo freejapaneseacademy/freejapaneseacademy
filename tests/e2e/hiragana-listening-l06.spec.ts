@@ -17,9 +17,9 @@ test('L06 has two real audio controls, six questions and assisted scoring at 320
 
 test('L06 keyboard controls and transcript reset', async ({ page }) => {
   await page.goto('/learn/start/module-02/chapter-01/lesson-06/');
-  const reveal = page.getByRole('button', { name: 'Reveal transcript (assisted practice)' }).first();
-  // The Astro island can render its button before React hydration finishes.
-  // Wait for the component's own ready state before testing keyboard activation.
+  const reveal = page.locator('.listening-track').first().getByRole('button', { name: /transcript/i });
+  // Keep the locator bound to the first track: its accessible name changes to
+  // 'Hide transcript' on activation. Enabled is the component's hydration signal.
   await expect(reveal).toBeEnabled();
   await reveal.focus();
   await expect(reveal).toBeFocused();
