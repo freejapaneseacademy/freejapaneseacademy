@@ -1,0 +1,484 @@
+{
+  "id": "n5-m03-c03-l01",
+  "lessonId": "n5-m03-c03-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional community-center schedule dialogue in yesterday-tomorrow-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "Who is discussing a schedule?",
+      "options": [
+        "Mika and Ren",
+        "Mika and a shop clerk",
+        "Ren and a doctor"
+      ],
+      "correctIndex": 0,
+      "feedback": "The dialogue names ミカ and レン as classmates.",
+      "explanation": "The dialogue names ミカ and レン as classmates.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-01-c1",
+          "text": "Mika and Ren",
+          "rationale": "The dialogue names ミカ and レン as classmates."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-01-c2",
+          "text": "Mika and a shop clerk",
+          "rationale": "Not supported: The dialogue names ミカ and レン as classmates."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-01-c3",
+          "text": "Ren and a doctor",
+          "rationale": "Not supported: The dialogue names ミカ and レン as classmates."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "What is the setting?",
+      "options": [
+        "A train ticket office",
+        "A community-center activity calendar",
+        "A restaurant menu"
+      ],
+      "correctIndex": 1,
+      "feedback": "They discuss a 図書室 and upcoming community-center activities.",
+      "explanation": "They discuss a 図書室 and upcoming community-center activities.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-02-c1",
+          "text": "A train ticket office",
+          "rationale": "Not supported: They discuss a 図書室 and upcoming community-center activities."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-02-c2",
+          "text": "A community-center activity calendar",
+          "rationale": "They discuss a 図書室 and upcoming community-center activities."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-02-c3",
+          "text": "A restaurant menu",
+          "rationale": "Not supported: They discuss a 図書室 and upcoming community-center activities."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "Did Ren go to the library room yesterday?",
+      "options": [
+        "No, he had a part-time job.",
+        "Yes, at 4 a.m.",
+        "Yes, at 3 p.m."
+      ],
+      "correctIndex": 2,
+      "feedback": "Ren says はい、行きました and 午後三時に行きました.",
+      "explanation": "Ren says はい、行きました and 午後三時に行きました.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-03-c1",
+          "text": "No, he had a part-time job.",
+          "rationale": "Not supported: Ren says はい、行きました and 午後三時に行きました."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-03-c2",
+          "text": "Yes, at 4 a.m.",
+          "rationale": "Not supported: Ren says はい、行きました and 午後三時に行きました."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-03-c3",
+          "text": "Yes, at 3 p.m.",
+          "rationale": "Ren says はい、行きました and 午後三時に行きました."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "Why did Mika not go yesterday?",
+      "options": [
+        "She had a part-time job.",
+        "She studied in the library.",
+        "She was traveling."
+      ],
+      "correctIndex": 0,
+      "feedback": "Mika says 行きませんでした and きのうはアルバイトでした.",
+      "explanation": "Mika says 行きませんでした and きのうはアルバイトでした.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-04-c1",
+          "text": "She had a part-time job.",
+          "rationale": "Mika says 行きませんでした and きのうはアルバイトでした."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-04-c2",
+          "text": "She studied in the library.",
+          "rationale": "Not supported: Mika says 行きませんでした and きのうはアルバイトでした."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-04-c3",
+          "text": "She was traveling.",
+          "rationale": "Not supported: Mika says 行きませんでした and きのうはアルバイトでした."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "Which expression means 'tomorrow'?",
+      "options": [
+        "午後",
+        "あした",
+        "きのう"
+      ],
+      "correctIndex": 1,
+      "feedback": "あした names tomorrow; きのう names yesterday.",
+      "explanation": "あした names tomorrow; きのう names yesterday.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-05-c1",
+          "text": "午後",
+          "rationale": "Not supported: あした names tomorrow; きのう names yesterday."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-05-c2",
+          "text": "あした",
+          "rationale": "あした names tomorrow; きのう names yesterday."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-05-c3",
+          "text": "きのう",
+          "rationale": "Not supported: あした names tomorrow; きのう names yesterday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "What will Mika do tomorrow morning?",
+      "options": [
+        "Read in the library room",
+        "Work a part-time shift",
+        "Study Japanese"
+      ],
+      "correctIndex": 2,
+      "feedback": "Mika says あしたの午前は日本語を勉強します.",
+      "explanation": "Mika says あしたの午前は日本語を勉強します.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-06-c1",
+          "text": "Read in the library room",
+          "rationale": "Not supported: Mika says あしたの午前は日本語を勉強します."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-06-c2",
+          "text": "Work a part-time shift",
+          "rationale": "Not supported: Mika says あしたの午前は日本語を勉強します."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-06-c3",
+          "text": "Study Japanese",
+          "rationale": "Mika says あしたの午前は日本語を勉強します."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "What does Ren plan to do tomorrow afternoon?",
+      "options": [
+        "Read a book in the library room",
+        "Go to work at 3 p.m.",
+        "Study Japanese in the morning"
+      ],
+      "correctIndex": 0,
+      "feedback": "Ren says あしたの午後、図書室で本を読みます.",
+      "explanation": "Ren says あしたの午後、図書室で本を読みます.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-07-c1",
+          "text": "Read a book in the library room",
+          "rationale": "Ren says あしたの午後、図書室で本を読みます."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-07-c2",
+          "text": "Go to work at 3 p.m.",
+          "rationale": "Not supported: Ren says あしたの午後、図書室で本を読みます."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-07-c3",
+          "text": "Study Japanese in the morning",
+          "rationale": "Not supported: Ren says あしたの午後、図書室で本を読みます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "When does Mika plan to go tomorrow afternoon?",
+      "options": [
+        "At 4 a.m.",
+        "At 4 p.m.",
+        "At 3 p.m."
+      ],
+      "correctIndex": 1,
+      "feedback": "Mika says 午後四時に行きます; 四時 is read よじ.",
+      "explanation": "Mika says 午後四時に行きます; 四時 is read よじ.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-08-c1",
+          "text": "At 4 a.m.",
+          "rationale": "Not supported: Mika says 午後四時に行きます; 四時 is read よじ."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-08-c2",
+          "text": "At 4 p.m.",
+          "rationale": "Mika says 午後四時に行きます; 四時 is read よじ."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-08-c3",
+          "text": "At 3 p.m.",
+          "rationale": "Not supported: Mika says 午後四時に行きます; 四時 is read よじ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "Which sentence states a past negative?",
+      "options": [
+        "あした、行きます。",
+        "あした、行きません。",
+        "きのう、行きませんでした。"
+      ],
+      "correctIndex": 2,
+      "feedback": "ませんでした marks polite past negative; ません is nonpast negative.",
+      "explanation": "ませんでした marks polite past negative; ません is nonpast negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-09-c1",
+          "text": "あした、行きます。",
+          "rationale": "Not supported: ませんでした marks polite past negative; ません is nonpast negative."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-09-c2",
+          "text": "あした、行きません。",
+          "rationale": "Not supported: ませんでした marks polite past negative; ません is nonpast negative."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-09-c3",
+          "text": "きのう、行きませんでした。",
+          "rationale": "ませんでした marks polite past negative; ません is nonpast negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l01-schedule-evidence"
+      ],
+      "prompt": "Why does あした、行きます refer to the future?",
+      "options": [
+        "あした sets a future time for a nonpast verb.",
+        "行きます is a dedicated future tense.",
+        "に always marks future time."
+      ],
+      "correctIndex": 0,
+      "feedback": "Japanese polite nonpast can express future plans when a time word such as あした provides the context.",
+      "explanation": "Japanese polite nonpast can express future plans when a time word such as あした provides the context.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-l01-10-c1",
+          "text": "あした sets a future time for a nonpast verb.",
+          "rationale": "Japanese polite nonpast can express future plans when a time word such as あした provides the context."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-10-c2",
+          "text": "行きます is a dedicated future tense.",
+          "rationale": "Not supported: Japanese polite nonpast can express future plans when a time word such as あした provides the context."
+        },
+        {
+          "id": "ex-n5-m03-c03-l01-10-c3",
+          "text": "に always marks future time.",
+          "rationale": "Not supported: Japanese polite nonpast can express future plans when a time word such as あした provides the context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-l01-10-c1"
+      }
+    }
+  ]
+}
