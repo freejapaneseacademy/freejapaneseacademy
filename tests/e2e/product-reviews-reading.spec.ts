@@ -1,0 +1,8 @@
+import {test,expect} from '@playwright/test';
+const url='/learn/n5/module-04/chapter-03/lesson-05/';
+test('keyboard, feedback and retry',async({page})=>{await page.goto(url);await expect(page.getByRole('heading',{name:'Read and support your answers'})).toBeVisible();
+ const questions=page.locator('[data-question-id]');await expect(questions).toHaveCount(10);
+ const keys=["a","b","c","a","b","c","a","b","c","a"];
+ for(let i=0;i<keys.length;i++){const radio=questions.nth(i).locator('input[value="'+keys[i]+'"]');await radio.focus();await page.keyboard.press('Space');await expect(radio).toBeChecked();}
+ await page.getByRole('button',{name:'Check answers and save attempt'}).click();await expect(page.getByRole('heading',{name:'10 / 10 correct'})).toBeVisible();await expect(page.locator('.foundation-feedback')).toHaveCount(10);await page.getByRole('button',{name:'Try again'}).click();await expect(page.getByText('0 of 10 answered')).toBeVisible();});
+test('320px dark mode, model and overflow',async({page})=>{await page.setViewportSize({width:320,height:700});await page.emulateMedia({colorScheme:'dark'});await page.goto(url);await expect(page.getByRole('heading',{name:'Read and support your answers'})).toBeVisible();await page.getByLabel('Write two or three Japanese sentences about one review.').fill('このカレーは からいです。');await page.getByRole('button',{name:'Compare with model'}).click();await expect(page.getByText('Self-check:',{exact:false})).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2)).toBe(true);});

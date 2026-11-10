@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m04-c03-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l05-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which review describes a sweet pudding?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Review A",
+          "rationale": "Correct. The exact evidence is 「このプリンは あまくて、おいしいです。」."
+        },
+        {
+          "id": "b",
+          "text": "Review B",
+          "rationale": "Not supported by this review. Check 「このプリンは あまくて、おいしいです。」 and avoid assuming details."
+        },
+        {
+          "id": "c",
+          "text": "Review D",
+          "rationale": "Not supported by this review. Check 「このプリンは あまくて、おいしいです。」 and avoid assuming details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「このプリンは あまくて、おいしいです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What criticism appears in A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not delicious",
+          "rationale": "Not supported by this review. Check 「少し 高いです。」 and avoid assuming details."
+        },
+        {
+          "id": "b",
+          "text": "A little expensive",
+          "rationale": "Correct. The exact evidence is 「少し 高いです。」."
+        },
+        {
+          "id": "c",
+          "text": "Too spicy",
+          "rationale": "Not supported by this review. Check 「少し 高いです。」 and avoid assuming details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Evidence: 「少し 高いです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-c"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Is the curry sweet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes",
+          "rationale": "Not supported by this review. Check 「あまくないです。」 and avoid assuming details."
+        },
+        {
+          "id": "b",
+          "text": "Not stated",
+          "rationale": "Not supported by this review. Check 「あまくないです。」 and avoid assuming details."
+        },
+        {
+          "id": "c",
+          "text": "No",
+          "rationale": "Correct. The exact evidence is 「あまくないです。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Evidence: 「あまくないです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-d"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which words say the curry is spicy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "からいです",
+          "rationale": "Correct. The exact evidence is 「このカレーは からいです。」."
+        },
+        {
+          "id": "b",
+          "text": "あまくないです",
+          "rationale": "Not supported by this review. Check 「このカレーは からいです。」 and avoid assuming details."
+        },
+        {
+          "id": "c",
+          "text": "おいしいです",
+          "rationale": "Not supported by this review. Check 「このカレーは からいです。」 and avoid assuming details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「このカレーは からいです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How big is the bag?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Large",
+          "rationale": "Not supported by this review. Check 「このかばんは 小さいです。」 and avoid assuming details."
+        },
+        {
+          "id": "b",
+          "text": "Small",
+          "rationale": "Correct. The exact evidence is 「このかばんは 小さいです。」."
+        },
+        {
+          "id": "c",
+          "text": "Not stated",
+          "rationale": "Not supported by this review. Check 「このかばんは 小さいです。」 and avoid assuming details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Evidence: 「このかばんは 小さいです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which review mentions blue?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Review A",
+          "rationale": "Not supported by this review. Check 「色（いろ）は 青（あお）いです。」 and avoid assuming details."
+        },
+        {
+          "id": "b",
+          "text": "Review D",
+          "rationale": "Not supported by this review. Check 「色（いろ）は 青（あお）いです。」 and avoid assuming details."
+        },
+        {
+          "id": "c",
+          "text": "Review C",
+          "rationale": "Correct. The exact evidence is 「色（いろ）は 青（あお）いです。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Evidence: 「色（いろ）は 青（あお）いです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-c"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How is the room described?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Clean and quiet",
+          "rationale": "Correct. The exact evidence is 「きれいで、しずかです。」."
+        },
+        {
+          "id": "b",
+          "text": "Spicy and sweet",
+          "rationale": "Not supported by this review. Check 「きれいで、しずかです。」 and avoid assuming details."
+        },
+        {
+          "id": "c",
+          "text": "Large and expensive",
+          "rationale": "Not supported by this review. Check 「きれいで、しずかです。」 and avoid assuming details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「きれいで、しずかです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-d"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Is the room large?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes",
+          "rationale": "Not supported by this review. Check 「大きくないです。」 and avoid assuming details."
+        },
+        {
+          "id": "b",
+          "text": "No",
+          "rationale": "Correct. The exact evidence is 「大きくないです。」."
+        },
+        {
+          "id": "c",
+          "text": "Not stated",
+          "rationale": "Not supported by this review. Check 「大きくないです。」 and avoid assuming details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Evidence: 「大きくないです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which review joins two な-adjectives?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Review A",
+          "rationale": "Not supported by this review. Check 「きれいで、しずかです。」 and avoid assuming details."
+        },
+        {
+          "id": "b",
+          "text": "Review B",
+          "rationale": "Not supported by this review. Check 「きれいで、しずかです。」 and avoid assuming details."
+        },
+        {
+          "id": "c",
+          "text": "Review D",
+          "rationale": "Correct. The exact evidence is 「きれいで、しずかです。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Evidence: 「きれいで、しずかです。」. This exact wording supports the answer."
+    },
+    {
+      "id": "ex-n5-m04-c03-l05-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l05-review-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What does 安いです say about the bag?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is inexpensive",
+          "rationale": "Correct. The exact evidence is 「でも、安いです。」."
+        },
+        {
+          "id": "b",
+          "text": "It is blue",
+          "rationale": "Not supported by this review. Check 「でも、安いです。」 and avoid assuming details."
+        },
+        {
+          "id": "c",
+          "text": "It is large",
+          "rationale": "Not supported by this review. Check 「でも、安いです。」 and avoid assuming details."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「でも、安いです。」. This exact wording supports the answer."
+    }
+  ]
+}

@@ -3793,6 +3793,23 @@
       "audio": "not required for written L07; L06 audio is separate",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m04-c03-l05",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c03",
+      "slot": "L05",
+      "title": "Read Product Reviews: Taste, Size and Quiet Places",
+      "content": "src/content/lessons/n5/product-reviews-reading.mdx",
+      "url": "/learn/n5/module-04/chapter-03/lesson-05/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
