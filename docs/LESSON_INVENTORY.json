@@ -3283,6 +3283,22 @@
       "assessmentReview": "pending - independent assessment review not claimed",
       "audio": "not required for written L03; no recorded listening assessment",
       "noindex": false
+    },
+    {
+      "id": "n5-m01-c02-l04",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c02",
+      "slot": "L04",
+      "title": "Who, what and where — Kanji on classroom role cards",
+      "content": "src/content/lessons/n5/classroom-question-kanji.mdx",
+      "url": "/learn/n5/module-01/chapter-02/lesson-04/",
+      "status": "published",
+      "humanJapaneseReview": "pending - independent qualified Japanese review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written L04",
+      "noindex": false,
+      "ownerApproval": "2026-11-09: author slot :15, task 6ae7c26574f08191a9e7de4d656b2f3b; publication only through trusted coordinator"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
