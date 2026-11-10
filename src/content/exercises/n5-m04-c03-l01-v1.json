@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c03-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who are Yui and Kenta in the story?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Two customers taking a break",
+          "rationale": "The introduction identifies both as classmates stopping at a café; neither works there."
+        },
+        {
+          "id": "c2",
+          "text": "The café owner and cashier",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "Two people at a train station",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The introduction identifies both as classmates stopping at a café; neither works there."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Why does Yui ask おいしいですか?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "To ask whether the cake tastes good",
+          "rationale": "The question このケーキは おいしいですか asks whether this cake is tasty."
+        },
+        {
+          "id": "c2",
+          "text": "To ask the cake's price",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "To ask whether the café is open",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The question このケーキは おいしいですか asks whether this cake is tasty."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Kenta say about the cake?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "It is very tasty",
+          "rationale": "とても おいしいです explicitly means 'It's very tasty'."
+        },
+        {
+          "id": "c2",
+          "text": "It is very expensive",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "It is not tasty",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "とても おいしいです explicitly means 'It's very tasty'."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which object is described as hot?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The coffee",
+          "rationale": "このコーヒーは あついです identifies the coffee."
+        },
+        {
+          "id": "c2",
+          "text": "The tea",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "The cake",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "このコーヒーは あついです identifies the coffee."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does あつくないです tell you about the tea?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "It is not hot",
+          "rationale": "あつくないです negates 'hot'; it does not specify coldness or sweetness."
+        },
+        {
+          "id": "c2",
+          "text": "It must be ice-cold",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "It is sweet",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "あつくないです negates 'hot'; it does not specify coldness or sweetness."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means 'a quiet café'?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "しずかな カフェ",
+          "rationale": "しずか is a な-adjective and takes な directly before a noun."
+        },
+        {
+          "id": "c2",
+          "text": "しずかい カフェ",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "しずか カフェ",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "しずか is a な-adjective and takes な directly before a noun."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means 'a tasty cake'?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "おいしい ケーキ",
+          "rationale": "おいしい modifies a noun directly; おいしくない means 'not tasty'."
+        },
+        {
+          "id": "c2",
+          "text": "おいしいな ケーキ",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "おいしくない ケーキ",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "おいしい modifies a noun directly; おいしくない means 'not tasty'."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which adjective is a な-adjective despite ending in an i sound?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "きれい",
+          "rationale": "きれい is a な-adjective: きれいな みせ."
+        },
+        {
+          "id": "c2",
+          "text": "おいしい",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "あつい",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "きれい is a な-adjective: きれいな みせ."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does このカフェは しずかですね describe?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The atmosphere of the café",
+          "rationale": "しずか describes the café's quiet atmosphere."
+        },
+        {
+          "id": "c2",
+          "text": "The cake's temperature",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "The coffee's price",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "しずか describes the café's quiet atmosphere."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a polite negative for 'This room is not quiet'?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このへやは しずかじゃありません。",
+          "rationale": "な-adjectives use a nominal negative such as じゃありません after the adjective."
+        },
+        {
+          "id": "c2",
+          "text": "このへやは しずかくないです。",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "このへやは しずかなです。",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "な-adjectives use a nominal negative such as じゃありません after the adjective."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which あつい spelling suits a hot cup of coffee?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "熱い",
+          "rationale": "熱い is used for hot objects and drinks; 暑い is for hot weather."
+        },
+        {
+          "id": "c2",
+          "text": "暑い",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "青い",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "熱い is used for hot objects and drinks; 暑い is for hot weather."
+    },
+    {
+      "id": "ex-n5-m04-c03-l01-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which statement is supported by the written conversation?",
+      "objectiveIds": [
+        "n5-m04-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l01-adjective-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The coffee is hot, but the tea is not hot",
+          "rationale": "The last two turns contrast あつい and あつくない; no dislike is expressed."
+        },
+        {
+          "id": "c2",
+          "text": "Both drinks are cold",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        },
+        {
+          "id": "c3",
+          "text": "Yui dislikes the cake",
+          "rationale": "This option does not match the specific meaning or grammar shown in the lesson; compare the cited model and try again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The last two turns contrast あつい and あつくない; no dislike is expressed."
+    }
+  ]
+}
