@@ -1,0 +1,616 @@
+{
+  "id": "n5-m03-c04-chk",
+  "lessonId": "n5-m03-c04-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Mika journal plus original N5-M03-C04-L06 habit survey; genuine audio required for listening scores",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-grammar-01"
+      ],
+      "prompt": "Which sentence correctly says 'I do not read books very often'?",
+      "evidence": "あまり本を読みません。",
+      "explanation": "あまり pairs with a negative verb in this beginner pattern.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-01-c1",
+          "text": "あまり本を読みます。",
+          "rationale": "Not correct. あまり pairs with a negative verb in this beginner pattern. Evidence: あまり本を読みません。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-01-c2",
+          "text": "あまり本を読みません。",
+          "rationale": "Correct. あまり pairs with a negative verb in this beginner pattern. Evidence: あまり本を読みません。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-01-c3",
+          "text": "いつも本を読みません。",
+          "rationale": "Not correct. あまり pairs with a negative verb in this beginner pattern. Evidence: あまり本を読みません。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-01-c4",
+          "text": "よく本を読みます。",
+          "rationale": "Not correct. あまり pairs with a negative verb in this beginner pattern. Evidence: あまり本を読みません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-grammar-02"
+      ],
+      "prompt": "Choose the natural beginner pattern for 'I do not run at all'.",
+      "evidence": "ぜんぜん走りません。",
+      "explanation": "ぜんぜん with ません expresses 'not at all'.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-02-c1",
+          "text": "ぜんぜん走ります。",
+          "rationale": "Not correct. ぜんぜん with ません expresses 'not at all'. Evidence: ぜんぜん走りません。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-02-c2",
+          "text": "ときどき走りません。",
+          "rationale": "Not correct. ぜんぜん with ません expresses 'not at all'. Evidence: ぜんぜん走りません。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-02-c3",
+          "text": "ぜんぜん走りません。",
+          "rationale": "Correct. ぜんぜん with ません expresses 'not at all'. Evidence: ぜんぜん走りません。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-02-c4",
+          "text": "いつも走ります。",
+          "rationale": "Not correct. ぜんぜん with ません expresses 'not at all'. Evidence: ぜんぜん走りません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-grammar-03"
+      ],
+      "prompt": "Which word means 'sometimes'?",
+      "evidence": "ときどき",
+      "explanation": "ときどき expresses occasional frequency.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-03-c1",
+          "text": "いつも",
+          "rationale": "Not correct. ときどき expresses occasional frequency. Evidence: ときどき"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-03-c2",
+          "text": "よく",
+          "rationale": "Not correct. ときどき expresses occasional frequency. Evidence: ときどき"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-03-c3",
+          "text": "ときどき",
+          "rationale": "Correct. ときどき expresses occasional frequency. Evidence: ときどき"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-03-c4",
+          "text": "ぜんぜん",
+          "rationale": "Not correct. ときどき expresses occasional frequency. Evidence: ときどき"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-grammar-04"
+      ],
+      "prompt": "Complete: 私は___夜に本を読みます。 (I always read at night.)",
+      "evidence": "いつも夜に本を読みます",
+      "explanation": "いつも expresses an always or regular habit; the verb is affirmative.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-04-c1",
+          "text": "あまり",
+          "rationale": "Not correct. いつも expresses an always or regular habit; the verb is affirmative. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-04-c2",
+          "text": "いつも",
+          "rationale": "Correct. いつも expresses an always or regular habit; the verb is affirmative. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-04-c3",
+          "text": "ぜんぜん",
+          "rationale": "Not correct. いつも expresses an always or regular habit; the verb is affirmative. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-04-c4",
+          "text": "ときどき",
+          "rationale": "Not correct. いつも expresses an always or regular habit; the verb is affirmative. Evidence: いつも夜に本を読みます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-grammar-05"
+      ],
+      "prompt": "Which is the correct sentence for 'I often study at the library'?",
+      "evidence": "よく図書館で勉強します。",
+      "explanation": "で marks the place where the studying takes place.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-05-c1",
+          "text": "よく図書館に勉強します。",
+          "rationale": "Not correct. で marks the place where the studying takes place. Evidence: よく図書館で勉強します。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-05-c2",
+          "text": "よく図書館で勉強します。",
+          "rationale": "Correct. で marks the place where the studying takes place. Evidence: よく図書館で勉強します。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-05-c3",
+          "text": "よく図書館を勉強します。",
+          "rationale": "Not correct. で marks the place where the studying takes place. Evidence: よく図書館で勉強します。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-05-c4",
+          "text": "よく図書館へ勉強します。",
+          "rationale": "Not correct. で marks the place where the studying takes place. Evidence: よく図書館で勉強します。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-grammar-06"
+      ],
+      "prompt": "Which sentence expresses an occasional positive habit?",
+      "evidence": "ときどき家でヨガをします。",
+      "explanation": "ときどき with します describes an occasional action.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-06-c1",
+          "text": "ぜんぜん家でヨガをします。",
+          "rationale": "Not correct. ときどき with します describes an occasional action. Evidence: ときどき家でヨガをします。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-06-c2",
+          "text": "あまり家でヨガをします。",
+          "rationale": "Not correct. ときどき with します describes an occasional action. Evidence: ときどき家でヨガをします。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-06-c3",
+          "text": "ときどき家でヨガをします。",
+          "rationale": "Correct. ときどき with します describes an occasional action. Evidence: ときどき家でヨガをします。"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-06-c4",
+          "text": "ときどき家でヨガをしません。",
+          "rationale": "Not correct. ときどき with します describes an occasional action. Evidence: ときどき家でヨガをします。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-reading-07"
+      ],
+      "prompt": "According to Mika's journal, what does she always do at night?",
+      "evidence": "いつも夜に本を読みます",
+      "explanation": "The journal explicitly states いつも夜に本を読みます.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-07-c1",
+          "text": "Read books",
+          "rationale": "Correct. The journal explicitly states いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-07-c2",
+          "text": "Run in the park",
+          "rationale": "Not correct. The journal explicitly states いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-07-c3",
+          "text": "Do yoga",
+          "rationale": "Not correct. The journal explicitly states いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-07-c4",
+          "text": "Watch TV",
+          "rationale": "Not correct. The journal explicitly states いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-reading-08"
+      ],
+      "prompt": "Where does Mika sometimes study?",
+      "evidence": "ときどき図書館で勉強します",
+      "explanation": "図書館で marks the library as the location of studying.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-08-c1",
+          "text": "At school",
+          "rationale": "Not correct. 図書館で marks the library as the location of studying. Evidence: ときどき図書館で勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-08-c2",
+          "text": "At the library",
+          "rationale": "Correct. 図書館で marks the library as the location of studying. Evidence: ときどき図書館で勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-08-c3",
+          "text": "At the park",
+          "rationale": "Not correct. 図書館で marks the library as the location of studying. Evidence: ときどき図書館で勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-08-c4",
+          "text": "At home",
+          "rationale": "Not correct. 図書館で marks the library as the location of studying. Evidence: ときどき図書館で勉強します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-reading-09"
+      ],
+      "prompt": "What does Mika rarely do in the morning?",
+      "evidence": "朝はあまりテレビを見ません",
+      "explanation": "あまりテレビを見ません states she does not watch much television.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-09-c1",
+          "text": "Read books",
+          "rationale": "Not correct. あまりテレビを見ません states she does not watch much television. Evidence: 朝はあまりテレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-09-c2",
+          "text": "Study Japanese",
+          "rationale": "Not correct. あまりテレビを見ません states she does not watch much television. Evidence: 朝はあまりテレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-09-c3",
+          "text": "Watch TV",
+          "rationale": "Correct. あまりテレビを見ません states she does not watch much television. Evidence: 朝はあまりテレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-09-c4",
+          "text": "Walk",
+          "rationale": "Not correct. あまりテレビを見ません states she does not watch much television. Evidence: 朝はあまりテレビを見ません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-reading-10"
+      ],
+      "prompt": "What does Mika never do?",
+      "evidence": "ぜんぜん走りません",
+      "explanation": "ぜんぜん走りません means she does not run at all.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-10-c1",
+          "text": "Walk",
+          "rationale": "Not correct. ぜんぜん走りません means she does not run at all. Evidence: ぜんぜん走りません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-10-c2",
+          "text": "Read",
+          "rationale": "Not correct. ぜんぜん走りません means she does not run at all. Evidence: ぜんぜん走りません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-10-c3",
+          "text": "Cook",
+          "rationale": "Not correct. ぜんぜん走りません means she does not run at all. Evidence: ぜんぜん走りません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-10-c4",
+          "text": "Run",
+          "rationale": "Correct. ぜんぜん走りません means she does not run at all. Evidence: ぜんぜん走りません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-10-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-listening-11"
+      ],
+      "prompt": "Track A: When does the respondent always read books?",
+      "evidence": "いつも夜に本を読みます",
+      "explanation": "The speaker says いつも夜に本を読みます.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-11-c1",
+          "text": "In the morning",
+          "rationale": "Not correct. The speaker says いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-11-c2",
+          "text": "At night",
+          "rationale": "Correct. The speaker says いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-11-c3",
+          "text": "At noon",
+          "rationale": "Not correct. The speaker says いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-11-c4",
+          "text": "Only on Sunday",
+          "rationale": "Not correct. The speaker says いつも夜に本を読みます. Evidence: いつも夜に本を読みます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-listening-12"
+      ],
+      "prompt": "Track A: How often does he study at the library?",
+      "evidence": "ときどき図書館で勉強します",
+      "explanation": "ときどき describes the library study frequency.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-12-c1",
+          "text": "Always",
+          "rationale": "Not correct. ときどき describes the library study frequency. Evidence: ときどき図書館で勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-12-c2",
+          "text": "Never",
+          "rationale": "Not correct. ときどき describes the library study frequency. Evidence: ときどき図書館で勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-12-c3",
+          "text": "Sometimes",
+          "rationale": "Correct. ときどき describes the library study frequency. Evidence: ときどき図書館で勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-12-c4",
+          "text": "Every morning",
+          "rationale": "Not correct. ときどき describes the library study frequency. Evidence: ときどき図書館で勉強します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-12-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-listening-13"
+      ],
+      "prompt": "Track B: Where does the respondent often walk?",
+      "evidence": "よく公園を歩きます",
+      "explanation": "よく公園を歩きます gives the place and frequency.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-13-c1",
+          "text": "At school",
+          "rationale": "Not correct. よく公園を歩きます gives the place and frequency. Evidence: よく公園を歩きます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-13-c2",
+          "text": "At home",
+          "rationale": "Not correct. よく公園を歩きます gives the place and frequency. Evidence: よく公園を歩きます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-13-c3",
+          "text": "At the station",
+          "rationale": "Not correct. よく公園を歩きます gives the place and frequency. Evidence: よく公園を歩きます"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-13-c4",
+          "text": "In the park",
+          "rationale": "Correct. よく公園を歩きます gives the place and frequency. Evidence: よく公園を歩きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-13-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-chk-listening-14"
+      ],
+      "prompt": "Track B: Which activity does she never do?",
+      "evidence": "ぜんぜん走りません",
+      "explanation": "ぜんぜん走りません states she never runs.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-chk-v1-14-c1",
+          "text": "Run",
+          "rationale": "Correct. ぜんぜん走りません states she never runs. Evidence: ぜんぜん走りません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-14-c2",
+          "text": "Walk",
+          "rationale": "Not correct. ぜんぜん走りません states she never runs. Evidence: ぜんぜん走りません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-14-c3",
+          "text": "Yoga",
+          "rationale": "Not correct. ぜんぜん走りません states she never runs. Evidence: ぜんぜん走りません"
+        },
+        {
+          "id": "ex-n5-m03-c04-chk-v1-14-c4",
+          "text": "Read",
+          "rationale": "Not correct. ぜんぜん走りません states she never runs. Evidence: ぜんぜん走りません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-chk-v1-14-c1"
+      }
+    }
+  ]
+}
