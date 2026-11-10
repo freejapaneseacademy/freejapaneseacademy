@@ -1,0 +1,33 @@
+import {test,expect} from '@playwright/test';
+const url='/learn/n5/module-04/chapter-03/lesson-07/';
+test('keyboard radio choices, saved feedback, writing rubric and retry',async({page})=>{
+ await page.goto(url);
+ await expect(page.getByRole('heading',{name:/Writing descriptions/i}).first()).toBeVisible();
+ const questions=page.locator('fieldset.foundation-question');
+ await expect(questions).toHaveCount(12);
+ await questions.first().locator('input[type=radio]').first().focus();
+ await page.keyboard.press('ArrowDown');
+ await expect(questions.first().locator('input[type=radio]:checked')).toHaveCount(1);
+ for(let i=0;i<12;i++)await questions.nth(i).locator('input[type=radio]').first().check();
+ await page.getByRole('button',{name:'Check answers and save score'}).click();
+ await expect(page.getByRole('button',{name:'Retry sentence check'})).toBeVisible();
+ await expect(page.locator('fieldset .foundation-feedback')).toHaveCount(12);
+ const draft=page.getByLabel(/Write 2–5 connected Japanese sentences/);
+ await draft.fill('このカフェはしずかです。ケーキはおいしいです。');
+ await page.getByRole('button',{name:'Show model and self-review'}).click();
+ await expect(page.getByText(/Different natural sentences are welcome/)).toBeVisible();
+ await page.getByLabel(/My draft has 2–5 connected/).check();
+ await expect(page.getByText('1 of 5 self-review criteria checked.')).toBeVisible();
+ await page.getByRole('button',{name:'Clear my draft'}).click();
+ await expect(draft).toHaveValue('');
+ await page.getByRole('button',{name:'Retry sentence check'}).click();
+ await expect(page.getByRole('button',{name:'Check answers and save score'})).toBeDisabled();
+});
+test('320px dark mode stays within viewport and draft is editable',async({page})=>{
+ await page.setViewportSize({width:320,height:700});
+ await page.emulateMedia({colorScheme:'dark'});
+ await page.goto(url);
+ await expect(page.locator('main').first()).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+ await expect(page.getByLabel(/Write 2–5 connected Japanese sentences/)).toBeVisible();
+});
