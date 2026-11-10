@@ -1,0 +1,506 @@
+{
+  "id": "l0-m05-c02-l02",
+  "lessonId": "l0-m05-c02-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original registration-card vocabulary assessment; no external test material",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c02-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-numbers"
+      ],
+      "prompt": "What does ゼロ mean on a registration number card?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-01-c1",
+          "text": "zero",
+          "rationale": "ゼロ is the loanword for zero; れい is another reading."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-01-c2",
+          "text": "six",
+          "rationale": "This option does not fit the number or field in the prompt. ゼロ is the loanword for zero; れい is another reading."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-01-c3",
+          "text": "ten",
+          "rationale": "This option does not fit the number or field in the prompt. ゼロ is the loanword for zero; れい is another reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-01-c1"
+      },
+      "explanation": "ゼロ is the loanword for zero; れい is another reading.",
+      "feedback": "ゼロ is the loanword for zero; れい is another reading."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-numbers"
+      ],
+      "prompt": "A learner points to しち. Which numeral is intended?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-02-c1",
+          "text": "4",
+          "rationale": "This option does not fit the number or field in the prompt. しち is seven; なな is an alternative reading for 7."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-02-c2",
+          "text": "7",
+          "rationale": "しち is seven; なな is an alternative reading for 7."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-02-c3",
+          "text": "9",
+          "rationale": "This option does not fit the number or field in the prompt. しち is seven; なな is an alternative reading for 7."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-02-c2"
+      },
+      "explanation": "しち is seven; なな is an alternative reading for 7.",
+      "feedback": "しち is seven; なな is an alternative reading for 7."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-numbers"
+      ],
+      "prompt": "Which Japanese number is 14?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-03-c1",
+          "text": "じゅうよん",
+          "rationale": "14 is ten plus four (じゅうよん); よんじゅう is forty."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-03-c2",
+          "text": "よんじゅう",
+          "rationale": "This option does not fit the number or field in the prompt. 14 is ten plus four (じゅうよん); よんじゅう is forty."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-03-c3",
+          "text": "じゅうに",
+          "rationale": "This option does not fit the number or field in the prompt. 14 is ten plus four (じゅうよん); よんじゅう is forty."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-03-c1"
+      },
+      "explanation": "14 is ten plus four (じゅうよん); よんじゅう is forty.",
+      "feedback": "14 is ten plus four (じゅうよん); よんじゅう is forty."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-numbers"
+      ],
+      "prompt": "Which number is にじゅうさん?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-04-c1",
+          "text": "32",
+          "rationale": "This option does not fit the number or field in the prompt. にじゅうさん is two tens plus three, or 23."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-04-c2",
+          "text": "23",
+          "rationale": "にじゅうさん is two tens plus three, or 23."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-04-c3",
+          "text": "13",
+          "rationale": "This option does not fit the number or field in the prompt. にじゅうさん is two tens plus three, or 23."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-04-c2"
+      },
+      "explanation": "にじゅうさん is two tens plus three, or 23.",
+      "feedback": "にじゅうさん is two tens plus three, or 23."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-numbers"
+      ],
+      "prompt": "How do you read 80 in ordinary counting?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-05-c1",
+          "text": "はちじゅう",
+          "rationale": "はちじゅう is eight tens, or 80."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-05-c2",
+          "text": "じゅうはち",
+          "rationale": "This option does not fit the number or field in the prompt. はちじゅう is eight tens, or 80."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-05-c3",
+          "text": "はち",
+          "rationale": "This option does not fit the number or field in the prompt. はちじゅう is eight tens, or 80."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-05-c1"
+      },
+      "explanation": "はちじゅう is eight tens, or 80.",
+      "feedback": "はちじゅう is eight tens, or 80."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-numbers"
+      ],
+      "prompt": "Which reading matches 100?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-06-c1",
+          "text": "ひゃく",
+          "rationale": "ひゃく means one hundred."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-06-c2",
+          "text": "じゅう",
+          "rationale": "This option does not fit the number or field in the prompt. ひゃく means one hundred."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-06-c3",
+          "text": "きゅうじゅう",
+          "rationale": "This option does not fit the number or field in the prompt. ひゃく means one hundred."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-06-c1"
+      },
+      "explanation": "ひゃく means one hundred.",
+      "feedback": "ひゃく means one hundred."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-identity"
+      ],
+      "prompt": "In a form, なまえ asks for which information?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-07-c1",
+          "text": "your country",
+          "rationale": "This option does not fit the number or field in the prompt. なまえ is a person's name; it is not a country or age field."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-07-c2",
+          "text": "your name",
+          "rationale": "なまえ is a person's name; it is not a country or age field."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-07-c3",
+          "text": "your age",
+          "rationale": "This option does not fit the number or field in the prompt. なまえ is a person's name; it is not a country or age field."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-07-c2"
+      },
+      "explanation": "なまえ is a person's name; it is not a country or age field.",
+      "feedback": "なまえ is a person's name; it is not a country or age field."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-identity"
+      ],
+      "prompt": "Which entry is a country name, not a nationality word?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-08-c1",
+          "text": "カナダ",
+          "rationale": "カナダ names Canada; カナダじん means a Canadian person."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-08-c2",
+          "text": "カナダじん",
+          "rationale": "This option does not fit the number or field in the prompt. カナダ names Canada; カナダじん means a Canadian person."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-08-c3",
+          "text": "じゅう",
+          "rationale": "This option does not fit the number or field in the prompt. カナダ names Canada; カナダじん means a Canadian person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-08-c1"
+      },
+      "explanation": "カナダ names Canada; カナダじん means a Canadian person.",
+      "feedback": "カナダ names Canada; カナダじん means a Canadian person."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-identity"
+      ],
+      "prompt": "What does にほんじん mean in a self-introduction?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-09-c1",
+          "text": "Japan (the place)",
+          "rationale": "This option does not fit the number or field in the prompt. The suffix じん marks a person of that nationality."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-09-c2",
+          "text": "Japanese person",
+          "rationale": "The suffix じん marks a person of that nationality."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-09-c3",
+          "text": "Japanese language",
+          "rationale": "This option does not fit the number or field in the prompt. The suffix じん marks a person of that nationality."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-09-c2"
+      },
+      "explanation": "The suffix じん marks a person of that nationality.",
+      "feedback": "The suffix じん marks a person of that nationality."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-identity"
+      ],
+      "prompt": "A registration slip reads ばんごう：42. What is stated?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-10-c1",
+          "text": "the person's age is 42",
+          "rationale": "This option does not fit the number or field in the prompt. ばんごう labels a number; the form does not say it is an age or headcount."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-10-c2",
+          "text": "there are 42 people",
+          "rationale": "This option does not fit the number or field in the prompt. ばんごう labels a number; the form does not say it is an age or headcount."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-10-c3",
+          "text": "the assigned number is 42",
+          "rationale": "ばんごう labels a number; the form does not say it is an age or headcount."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-10-c3"
+      },
+      "explanation": "ばんごう labels a number; the form does not say it is an age or headcount.",
+      "feedback": "ばんごう labels a number; the form does not say it is an age or headcount."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-starter-frame"
+      ],
+      "prompt": "Choose the natural starter frame for 'I am Emma.'",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-11-c1",
+          "text": "エマです。",
+          "rationale": "A name followed by です is a simple polite self-identification; か and を cannot replace it."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-11-c2",
+          "text": "エマか。",
+          "rationale": "This option does not fit the number or field in the prompt. A name followed by です is a simple polite self-identification; か and を cannot replace it."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-11-c3",
+          "text": "エマを。",
+          "rationale": "This option does not fit the number or field in the prompt. A name followed by です is a simple polite self-identification; か and を cannot replace it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-11-c1"
+      },
+      "explanation": "A name followed by です is a simple polite self-identification; か and を cannot replace it.",
+      "feedback": "A name followed by です is a simple polite self-identification; か and を cannot replace it."
+    },
+    {
+      "id": "ex-l0-m05-c02-l02-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c02-l02-numbers-and-details"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c02-l02-starter-frame"
+      ],
+      "prompt": "Which is きゅうじゅうきゅう?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c02-l02-12-c1",
+          "text": "19",
+          "rationale": "This option does not fit the number or field in the prompt. きゅうじゅう is ninety and きゅう adds nine: 99."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-12-c2",
+          "text": "90",
+          "rationale": "This option does not fit the number or field in the prompt. きゅうじゅう is ninety and きゅう adds nine: 99."
+        },
+        {
+          "id": "ex-l0-m05-c02-l02-12-c3",
+          "text": "99",
+          "rationale": "きゅうじゅう is ninety and きゅう adds nine: 99."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c02-l02-12-c3"
+      },
+      "explanation": "きゅうじゅう is ninety and きゅう adds nine: 99.",
+      "feedback": "きゅうじゅう is ninety and きゅう adds nine: 99."
+    }
+  ]
+}
