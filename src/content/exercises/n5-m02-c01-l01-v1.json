@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m02-c01-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c01-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who is helping at the lost-and-found desk?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Aki, the receptionist",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "Mina, the student looking for an umbrella",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c3",
+          "text": "Ren, another student",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Aki works at the desk; Mina is looking for her umbrella and Ren is another student."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is Mina trying to do?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Buy a new umbrella",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c2",
+          "text": "Find her own umbrella",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "Borrow Ren's book",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Mina is identifying her own umbrella, not buying or borrowing."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Mina's わたしの かさじゃありません tell us?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The shown umbrella is not hers",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "She has never owned an umbrella",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c3",
+          "text": "The desk has no umbrellas",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The negative rejects the particular umbrella Aki shows; it says nothing about whether Mina owns another."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means 'this umbrella'?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "これ かさ",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c2",
+          "text": "この かさ",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "あれ かさ",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "この must come immediately before the noun かさ."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly means 'This is an umbrella'?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このは かさです。",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c2",
+          "text": "これは かさです。",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "そのは かさです。",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "これ stands alone as a noun-like demonstrative; この needs a following noun."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Aki holds a bag. What can Aki call it?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "これ",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "それ",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c3",
+          "text": "あの",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A speaker can refer to an item near themselves as これ."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Mina points to the umbrella near Aki. What can Mina call it?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "この",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c2",
+          "text": "それ",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "あの です",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "それ can refer to an object near the listener, here Aki."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you ask 'Whose is it?' politely?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どこですか。",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c2",
+          "text": "だれですか。",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c3",
+          "text": "だれのですか。",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "だれのですか asks whose the understood object is."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does タナカさんの かさ mean here?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Tanaka's umbrella",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "Tanaka is an umbrella",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c3",
+          "text": "The umbrella is near Tanaka",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "の links Tanaka to the umbrella in this ownership context."
+    },
+    {
+      "id": "ex-n5-m02-c01-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which answer fits これは だれの ほんですか。?",
+      "objectiveIds": [
+        "n5-m02-c01-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-ownership-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ほんは どこですか。",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        },
+        {
+          "id": "c2",
+          "text": "レンさんのです。",
+          "rationale": "This matches the written scene or the form explained in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "あのは ほんです。",
+          "rationale": "This does not match the dialogue or the required pointing/ownership form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "レンさんのです means 'It's Ren's'; the item ほん is understood."
+    }
+  ]
+}
