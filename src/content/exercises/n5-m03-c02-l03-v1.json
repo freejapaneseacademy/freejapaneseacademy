@@ -1,0 +1,534 @@
+{
+  "lessonId": "n5-m03-c02-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Choose the polite nonpast negative of 食べます。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べました",
+          "rationale": "Review this choice. 食べません is the nonpast negative; the other endings change tense or make a question."
+        },
+        {
+          "id": "c2",
+          "text": "食べません",
+          "rationale": "Correct. 食べません is the nonpast negative; the other endings change tense or make a question."
+        },
+        {
+          "id": "c3",
+          "text": "食べますか",
+          "rationale": "Review this choice. 食べません is the nonpast negative; the other endings change tense or make a question."
+        },
+        {
+          "id": "c4",
+          "text": "食べませんでした",
+          "rationale": "Review this choice. 食べません is the nonpast negative; the other endings change tense or make a question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "食べません is the nonpast negative; the other endings change tense or make a question.",
+      "evidence": "食べません"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Complete: 水___ 飲みます。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Review this choice. 水 is the direct object of 飲みます, so を marks what is drunk."
+        },
+        {
+          "id": "c2",
+          "text": "で",
+          "rationale": "Review this choice. 水 is the direct object of 飲みます, so を marks what is drunk."
+        },
+        {
+          "id": "c3",
+          "text": "を",
+          "rationale": "Correct. 水 is the direct object of 飲みます, so を marks what is drunk."
+        },
+        {
+          "id": "c4",
+          "text": "が",
+          "rationale": "Review this choice. 水 is the direct object of 飲みます, so を marks what is drunk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "水 is the direct object of 飲みます, so を marks what is drunk.",
+      "evidence": "水を 飲みます。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Complete: 7時___ 起きます。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Correct. The specific clock time 7時 is marked with に."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Review this choice. The specific clock time 7時 is marked with に."
+        },
+        {
+          "id": "c3",
+          "text": "で",
+          "rationale": "Review this choice. The specific clock time 7時 is marked with に."
+        },
+        {
+          "id": "c4",
+          "text": "が",
+          "rationale": "Review this choice. The specific clock time 7時 is marked with に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The specific clock time 7時 is marked with に.",
+      "evidence": "7時に 起きます。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which expression normally needs no time に?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "8時",
+          "rationale": "Review this choice. 毎朝 is a recurring relative time expression normally used without に."
+        },
+        {
+          "id": "c2",
+          "text": "6時半",
+          "rationale": "Review this choice. 毎朝 is a recurring relative time expression normally used without に."
+        },
+        {
+          "id": "c3",
+          "text": "9時",
+          "rationale": "Review this choice. 毎朝 is a recurring relative time expression normally used without に."
+        },
+        {
+          "id": "c4",
+          "text": "毎朝",
+          "rationale": "Correct. 毎朝 is a recurring relative time expression normally used without に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "毎朝 is a recurring relative time expression normally used without に.",
+      "evidence": "毎朝 勉強します。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which means 'I do not read books' in polite nonpast Japanese?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本を 読みません。",
+          "rationale": "Correct. 読みません is polite nonpast negative and 本を marks the direct object."
+        },
+        {
+          "id": "c2",
+          "text": "本に 読みます。",
+          "rationale": "Review this choice. 読みません is polite nonpast negative and 本を marks the direct object."
+        },
+        {
+          "id": "c3",
+          "text": "本を 読みました。",
+          "rationale": "Review this choice. 読みません is polite nonpast negative and 本を marks the direct object."
+        },
+        {
+          "id": "c4",
+          "text": "本が 読みます。",
+          "rationale": "Review this choice. 読みません is polite nonpast negative and 本を marks the direct object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "読みません is polite nonpast negative and 本を marks the direct object.",
+      "evidence": "本を 読みません。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which sentence expresses going TO school?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校を 行きます。",
+          "rationale": "Review this choice. 行きます takes destination に in this basic pattern."
+        },
+        {
+          "id": "c2",
+          "text": "学校で 行きます。",
+          "rationale": "Review this choice. 行きます takes destination に in this basic pattern."
+        },
+        {
+          "id": "c3",
+          "text": "学校に 行きます。",
+          "rationale": "Correct. 行きます takes destination に in this basic pattern."
+        },
+        {
+          "id": "c4",
+          "text": "学校が 行きます。",
+          "rationale": "Review this choice. 行きます takes destination に in this basic pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "行きます takes destination に in this basic pattern.",
+      "evidence": "学校に 行きます。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-7"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "In Sakura's note, when does she get up?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "7時",
+          "rationale": "Review this choice. The first line states 6時半に 起きます."
+        },
+        {
+          "id": "c2",
+          "text": "6時半",
+          "rationale": "Correct. The first line states 6時半に 起きます."
+        },
+        {
+          "id": "c3",
+          "text": "8時",
+          "rationale": "Review this choice. The first line states 6時半に 起きます."
+        },
+        {
+          "id": "c4",
+          "text": "9時",
+          "rationale": "Review this choice. The first line states 6時半に 起きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The first line states 6時半に 起きます.",
+      "evidence": "6時半に 起きます。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-8"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Sakura eat at seven?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ごはん",
+          "rationale": "Review this choice. The note explicitly says 7時に パンを 食べます."
+        },
+        {
+          "id": "c2",
+          "text": "りんご",
+          "rationale": "Review this choice. The note explicitly says 7時に パンを 食べます."
+        },
+        {
+          "id": "c3",
+          "text": "パン",
+          "rationale": "Correct. The note explicitly says 7時に パンを 食べます."
+        },
+        {
+          "id": "c4",
+          "text": "さかな",
+          "rationale": "Review this choice. The note explicitly says 7時に パンを 食べます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The note explicitly says 7時に パンを 食べます.",
+      "evidence": "7時に パンを 食べます。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-9"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Where does Sakura go at eight?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校",
+          "rationale": "Review this choice. The note says 8時に 図書館に 行きます."
+        },
+        {
+          "id": "c2",
+          "text": "図書館",
+          "rationale": "Correct. The note says 8時に 図書館に 行きます."
+        },
+        {
+          "id": "c3",
+          "text": "店",
+          "rationale": "Review this choice. The note says 8時に 図書館に 行きます."
+        },
+        {
+          "id": "c4",
+          "text": "公園",
+          "rationale": "Review this choice. The note says 8時に 図書館に 行きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The note says 8時に 図書館に 行きます.",
+      "evidence": "8時に 図書館に 行きます。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-10"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Sakura study at the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "英語",
+          "rationale": "Review this choice. The note states 図書館で 日本語を 勉強します."
+        },
+        {
+          "id": "c2",
+          "text": "数学",
+          "rationale": "Review this choice. The note states 図書館で 日本語を 勉強します."
+        },
+        {
+          "id": "c3",
+          "text": "音楽",
+          "rationale": "Review this choice. The note states 図書館で 日本語を 勉強します."
+        },
+        {
+          "id": "c4",
+          "text": "日本語",
+          "rationale": "Correct. The note states 図書館で 日本語を 勉強します."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "The note states 図書館で 日本語を 勉強します.",
+      "evidence": "図書館で 日本語を 勉強します。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-11"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Does Sakura watch television at lunchtime?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, every day",
+          "rationale": "Review this choice. The lunchtime line contrasts reading with テレビは 見ません."
+        },
+        {
+          "id": "c2",
+          "text": "No, she does not",
+          "rationale": "Correct. The lunchtime line contrasts reading with テレビは 見ません."
+        },
+        {
+          "id": "c3",
+          "text": "Only at nine",
+          "rationale": "Review this choice. The lunchtime line contrasts reading with テレビは 見ません."
+        },
+        {
+          "id": "c4",
+          "text": "The note does not say",
+          "rationale": "Review this choice. The lunchtime line contrasts reading with テレビは 見ません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The lunchtime line contrasts reading with テレビは 見ません.",
+      "evidence": "昼は 本を 読みます。テレビは 見ません。"
+    },
+    {
+      "id": "ex-n5-m03-c02-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l03-pattern-12"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Sakura do at nine at night?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "音楽を 聞きます",
+          "rationale": "Correct. The final line states 夜 9時に 家で 音楽を 聞きます."
+        },
+        {
+          "id": "c2",
+          "text": "水を 飲みます",
+          "rationale": "Review this choice. The final line states 夜 9時に 家で 音楽を 聞きます."
+        },
+        {
+          "id": "c3",
+          "text": "本を 読みます",
+          "rationale": "Review this choice. The final line states 夜 9時に 家で 音楽を 聞きます."
+        },
+        {
+          "id": "c4",
+          "text": "日本語を 勉強します",
+          "rationale": "Review this choice. The final line states 夜 9時に 家で 音楽を 聞きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The final line states 夜 9時に 家で 音楽を 聞きます.",
+      "evidence": "夜 9時に 家で 音楽を 聞きます。"
+    }
+  ]
+}
