@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /dashboard/
-Disallow: /practice/demo/
-Sitemap: https://free-japanese-academy.pages.dev/sitemap-index.xml
