@@ -1,0 +1,30 @@
+import {test,expect} from '@playwright/test';
+const url='/learn/n5/module-04/chapter-01/lesson-07/';
+test('Japanese writing, self-review, keyboard quiz, retry',async({page})=>{
+ await page.goto(url);
+ await expect(page.getByRole('heading',{name:'Your café message'})).toBeVisible();
+ await page.getByLabel('Japanese message (use your Japanese keyboard or IME)').fill('パンが好きです。水を飲みます。友だちと食べます。');
+ await page.getByRole('button',{name:'Save draft locally'}).click();
+ await expect(page.getByRole('status').filter({hasText:'Draft saved in this browser.'})).toBeVisible();
+ await page.reload();
+ await expect(page.getByLabel('Japanese message (use your Japanese keyboard or IME)')).toHaveValue('パンが好きです。水を飲みます。友だちと食べます。');
+ await page.getByRole('button',{name:'Compare with sample'}).click();
+ await expect(page.getByText('Other correct messages are possible.')).toBeVisible();
+ const fields=page.locator('fieldset.foundation-question').filter({has:page.locator('input[type=radio]')});
+ await expect(fields).toHaveCount(10);
+ await fields.first().locator('input[type=radio]').first().focus();await page.keyboard.press('Space');
+ await expect(fields.first().locator('input[type=radio]').first()).toBeChecked();
+ for(let i=1;i<10;i++)await fields.nth(i).locator('input[type=radio]').first().check();
+ await page.getByRole('button',{name:'Check answers and save score'}).click();
+ await expect(page.getByRole('button',{name:'Try again'})).toBeVisible();
+ await page.getByRole('button',{name:'Try again'}).click();
+ await expect(page.getByRole('button',{name:'Check answers and save score'})).toBeDisabled();
+ await page.getByRole('button',{name:'Clear draft'}).click();
+ await expect(page.getByLabel('Japanese message (use your Japanese keyboard or IME)')).toHaveValue('');
+});
+test('320px dark mode has no horizontal overflow',async({page})=>{
+ await page.setViewportSize({width:320,height:720});await page.emulateMedia({colorScheme:'dark'});await page.goto(url);
+ await expect(page.getByRole('heading',{level:1})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+ await expect(page.locator('fieldset.foundation-question').filter({has:page.locator('input[type=radio]')})).toHaveCount(10);
+});
