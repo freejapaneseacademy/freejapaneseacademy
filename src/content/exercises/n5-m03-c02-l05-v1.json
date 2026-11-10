@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m03-c02-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does Mika get up?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "七時",
+          "rationale": "Supported by line A."
+        },
+        {
+          "id": "c2",
+          "text": "七時半",
+          "rationale": "Line A does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "八時",
+          "rationale": "Line A does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: line A. The Japanese text supports 七時."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Mika drink?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶",
+          "rationale": "Line B does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "コーヒー",
+          "rationale": "Line B does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "水",
+          "rationale": "Supported by line B."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: line B. The Japanese text supports 水."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How does Mika go to school?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "歩いて",
+          "rationale": "Line C does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "バスで",
+          "rationale": "Supported by line C."
+        },
+        {
+          "id": "c3",
+          "text": "電車で",
+          "rationale": "Line C does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: line C. The Japanese text supports バスで."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where does Mika study Japanese?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校で",
+          "rationale": "Supported by line D."
+        },
+        {
+          "id": "c2",
+          "text": "家で",
+          "rationale": "Line D does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "図書館で",
+          "rationale": "Line D does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: line D. The Japanese text supports 学校で."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who does Mika talk with at noon?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生",
+          "rationale": "Line D does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "家族",
+          "rationale": "Line D does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "友だち",
+          "rationale": "Supported by line D."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: line D. The Japanese text supports 友だち."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does Mika return home?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午前四時",
+          "rationale": "Line E does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "午後四時",
+          "rationale": "Supported by line E."
+        },
+        {
+          "id": "c3",
+          "text": "午後五時",
+          "rationale": "Line E does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: line E. The Japanese text supports 午後四時."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Mika NOT do at night?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "テレビを見ます",
+          "rationale": "Supported by line F."
+        },
+        {
+          "id": "c2",
+          "text": "本を読みます",
+          "rationale": "Line F does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "水を飲みます",
+          "rationale": "Line F does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: line F. The Japanese text supports テレビを見ます."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Mika do instead?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日本語を勉強します",
+          "rationale": "Line F does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "朝ごはんを食べます",
+          "rationale": "Line F does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "本を読みます",
+          "rationale": "Supported by line F."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: line F. The Japanese text supports 本を読みます."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does Mika go to bed?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "十二時",
+          "rationale": "Line G does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "十一時",
+          "rationale": "Supported by line G."
+        },
+        {
+          "id": "c3",
+          "text": "十時",
+          "rationale": "Line G does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: line G. The Japanese text supports 十一時."
+    },
+    {
+      "id": "ex-n5-m03-c02-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What detail is NOT stated?",
+      "objectiveIds": [
+        "n5-m03-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l05-routine-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校の名前",
+          "rationale": "Supported by line C and E."
+        },
+        {
+          "id": "c2",
+          "text": "学校へ行く時間",
+          "rationale": "Line C and E does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "家へ帰る時間",
+          "rationale": "Line C and E does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: line C and E. The school is never named."
+    }
+  ]
+}
