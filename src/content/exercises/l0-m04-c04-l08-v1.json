@@ -1,0 +1,296 @@
+{
+  "id": "l0-m04-c04-l08",
+  "lessonId": "l0-m04-c04-l08",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original L08 written knowledge checks anchored to authored L06 station announcements; optional speaking never graded",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c04-l08-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l08-model-rehearsal"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l08-long-vowel"
+      ],
+      "prompt": "Which spelling keeps the long vowel in 'coffee'? ",
+      "options": [
+        "コーヒー",
+        "コヒ",
+        "コーヒ"
+      ],
+      "correctIndex": 0,
+      "explanation": "コーヒー uses the long-vowel bar twice: after コ and ヒ. The other forms omit a required bar.",
+      "feedback": "コーヒー uses the long-vowel bar twice: after コ and ヒ. The other forms omit a required bar.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l08-01-c1",
+          "text": "コーヒー",
+          "rationale": "コーヒー uses the long-vowel bar twice: after コ and ヒ. The other forms omit a required bar."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-01-c2",
+          "text": "コヒ",
+          "rationale": "Not this choice. コーヒー uses the long-vowel bar twice: after コ and ヒ. The other forms omit a required bar."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-01-c3",
+          "text": "コーヒ",
+          "rationale": "Not this choice. コーヒー uses the long-vowel bar twice: after コ and ヒ. The other forms omit a required bar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l08-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l08-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l08-model-rehearsal"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l08-small-ti"
+      ],
+      "prompt": "Which written word in the café model uses a small ィ?",
+      "options": [
+        "ティー",
+        "テー",
+        "チー"
+      ],
+      "correctIndex": 0,
+      "explanation": "ティー combines テ and small ィ, then ー; neither テー nor チー represents the same written borrowed sound.",
+      "feedback": "ティー combines テ and small ィ, then ー; neither テー nor チー represents the same written borrowed sound.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l08-02-c1",
+          "text": "ティー",
+          "rationale": "ティー combines テ and small ィ, then ー; neither テー nor チー represents the same written borrowed sound."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-02-c2",
+          "text": "テー",
+          "rationale": "Not this choice. ティー combines テ and small ィ, then ー; neither テー nor チー represents the same written borrowed sound."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-02-c3",
+          "text": "チー",
+          "rationale": "Not this choice. ティー combines テ and small ィ, then ー; neither テー nor チー represents the same written borrowed sound."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l08-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l08-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l08-model-rehearsal"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l08-cafe-request"
+      ],
+      "prompt": "Which phrase politely tells listeners where to order tea?",
+      "options": [
+        "ティーはカウンターでご注文ください。",
+        "タクシーは駅の前にいます。",
+        "ケーキもあります。"
+      ],
+      "correctIndex": 0,
+      "explanation": "The announcement says ティーはカウンターでご注文ください: please order tea at the counter.",
+      "feedback": "The announcement says ティーはカウンターでご注文ください: please order tea at the counter.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l08-03-c1",
+          "text": "ティーはカウンターでご注文ください。",
+          "rationale": "The announcement says ティーはカウンターでご注文ください: please order tea at the counter."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-03-c2",
+          "text": "タクシーは駅の前にいます。",
+          "rationale": "Not this choice. The announcement says ティーはカウンターでご注文ください: please order tea at the counter."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-03-c3",
+          "text": "ケーキもあります。",
+          "rationale": "Not this choice. The announcement says ティーはカウンターでご注文ください: please order tea at the counter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l08-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l08-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l08-model-rehearsal"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l08-taxi"
+      ],
+      "prompt": "Which word in the station announcement names a taxi?",
+      "options": [
+        "チケット",
+        "タクシー",
+        "ファイル"
+      ],
+      "correctIndex": 1,
+      "explanation": "タクシー means taxi; チケット is ticket and ファイル is a file or folder.",
+      "feedback": "タクシー means taxi; チケット is ticket and ファイル is a file or folder.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l08-04-c1",
+          "text": "チケット",
+          "rationale": "Not this choice. タクシー means taxi; チケット is ticket and ファイル is a file or folder."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-04-c2",
+          "text": "タクシー",
+          "rationale": "タクシー means taxi; チケット is ticket and ファイル is a file or folder."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-04-c3",
+          "text": "ファイル",
+          "rationale": "Not this choice. タクシー means taxi; チケット is ticket and ファイル is a file or folder."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l08-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l08-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l08-model-rehearsal"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l08-small-fa"
+      ],
+      "prompt": "Which spelling preserves the borrowed /fa/ sound in 'file'?",
+      "options": [
+        "ハイル",
+        "フイル",
+        "ファイル"
+      ],
+      "correctIndex": 2,
+      "explanation": "ファイル uses フ plus small ァ. The alternatives use different kana and do not spell ファイル.",
+      "feedback": "ファイル uses フ plus small ァ. The alternatives use different kana and do not spell ファイル.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l08-05-c1",
+          "text": "ハイル",
+          "rationale": "Not this choice. ファイル uses フ plus small ァ. The alternatives use different kana and do not spell ファイル."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-05-c2",
+          "text": "フイル",
+          "rationale": "Not this choice. ファイル uses フ plus small ァ. The alternatives use different kana and do not spell ファイル."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-05-c3",
+          "text": "ファイル",
+          "rationale": "ファイル uses フ plus small ァ. The alternatives use different kana and do not spell ファイル."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l08-05-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l08-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l08-model-rehearsal"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l08-ask-staff"
+      ],
+      "prompt": "What does おたずねください ask the listener to do?",
+      "options": [
+        "Please ask or inquire.",
+        "Please buy cake.",
+        "Please wait for a train."
+      ],
+      "correctIndex": 0,
+      "explanation": "スタッフにおたずねください politely directs the listener to ask the staff about tickets.",
+      "feedback": "スタッフにおたずねください politely directs the listener to ask the staff about tickets.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l08-06-c1",
+          "text": "Please ask or inquire.",
+          "rationale": "スタッフにおたずねください politely directs the listener to ask the staff about tickets."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-06-c2",
+          "text": "Please buy cake.",
+          "rationale": "Not this choice. スタッフにおたずねください politely directs the listener to ask the staff about tickets."
+        },
+        {
+          "id": "ex-l0-m04-c04-l08-06-c3",
+          "text": "Please wait for a train.",
+          "rationale": "Not this choice. スタッフにおたずねください politely directs the listener to ask the staff about tickets."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l08-06-c1"
+      }
+    }
+  ]
+}
