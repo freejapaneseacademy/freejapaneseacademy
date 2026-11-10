@@ -1,0 +1,534 @@
+{
+  "lessonId": "n5-m03-c01-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "How is 4月4日 read?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "よんがつ よんにち",
+          "rationale": "Not this one. 4月 is しがつ and the fourth day is よっか."
+        },
+        {
+          "id": "c2",
+          "text": "しがつ よっか",
+          "rationale": "Correct. 4月 is しがつ and the fourth day is よっか."
+        },
+        {
+          "id": "c3",
+          "text": "しがつ ようか",
+          "rationale": "Not this one. 4月 is しがつ and the fourth day is よっか."
+        },
+        {
+          "id": "c4",
+          "text": "よがつ よっか",
+          "rationale": "Not this one. 4月 is しがつ and the fourth day is よっか."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "4月 is しがつ and the fourth day is よっか.",
+      "evidence": "4月4日"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "How is 4月7日 read?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "しがつ ななにち",
+          "rationale": "Not this one. The seventh day of a month is なのか; April is しがつ."
+        },
+        {
+          "id": "c2",
+          "text": "よんがつ なのか",
+          "rationale": "Not this one. The seventh day of a month is なのか; April is しがつ."
+        },
+        {
+          "id": "c3",
+          "text": "しがつ なのか",
+          "rationale": "Correct. The seventh day of a month is なのか; April is しがつ."
+        },
+        {
+          "id": "c4",
+          "text": "しがつ よっか",
+          "rationale": "Not this one. The seventh day of a month is なのか; April is しがつ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The seventh day of a month is なのか; April is しがつ.",
+      "evidence": "4月7日"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which is the usual reading of 4時?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "よじ",
+          "rationale": "Correct. The clock-time reading of 4時 is よじ."
+        },
+        {
+          "id": "c2",
+          "text": "よんじ",
+          "rationale": "Not this one. The clock-time reading of 4時 is よじ."
+        },
+        {
+          "id": "c3",
+          "text": "しじ",
+          "rationale": "Not this one. The clock-time reading of 4時 is よじ."
+        },
+        {
+          "id": "c4",
+          "text": "よんとき",
+          "rationale": "Not this one. The clock-time reading of 4時 is よじ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The clock-time reading of 4時 is よじ.",
+      "evidence": "4時"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "What time does 3時半 mean?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "3:15",
+          "rationale": "Not this one. 半 means half an hour after the stated hour."
+        },
+        {
+          "id": "c2",
+          "text": "3:00",
+          "rationale": "Not this one. 半 means half an hour after the stated hour."
+        },
+        {
+          "id": "c3",
+          "text": "half past four",
+          "rationale": "Not this one. 半 means half an hour after the stated hour."
+        },
+        {
+          "id": "c4",
+          "text": "3:30",
+          "rationale": "Correct. 半 means half an hour after the stated hour."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "半 means half an hour after the stated hour.",
+      "evidence": "3時半"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Complete: かみが 三___ あります。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "人",
+          "rationale": "Not this one. 枚 counts flat items such as sheets of paper."
+        },
+        {
+          "id": "c2",
+          "text": "枚",
+          "rationale": "Correct. 枚 counts flat items such as sheets of paper."
+        },
+        {
+          "id": "c3",
+          "text": "つ",
+          "rationale": "Not this one. 枚 counts flat items such as sheets of paper."
+        },
+        {
+          "id": "c4",
+          "text": "時",
+          "rationale": "Not this one. 枚 counts flat items such as sheets of paper."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "枚 counts flat items such as sheets of paper.",
+      "evidence": "かみが 三枚 あります。"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which counts two people?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "二枚（にまい）",
+          "rationale": "Not this one. 二人 is the people counter with the irregular reading ふたり."
+        },
+        {
+          "id": "c2",
+          "text": "二つ（ふたつ）",
+          "rationale": "Not this one. 二人 is the people counter with the irregular reading ふたり."
+        },
+        {
+          "id": "c3",
+          "text": "二人（ふたり）",
+          "rationale": "Correct. 二人 is the people counter with the irregular reading ふたり."
+        },
+        {
+          "id": "c4",
+          "text": "二人（ににん）",
+          "rationale": "Not this one. 二人 is the people counter with the irregular reading ふたり."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "二人 is the people counter with the irregular reading ふたり.",
+      "evidence": "せんせいが 二人 います。"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-7"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "In the timetable, when is the drawing class?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "4月7日",
+          "rationale": "Not this one. The drawing class is listed on April 4."
+        },
+        {
+          "id": "c2",
+          "text": "4月10日",
+          "rationale": "Not this one. The drawing class is listed on April 4."
+        },
+        {
+          "id": "c3",
+          "text": "4月8日",
+          "rationale": "Not this one. The drawing class is listed on April 4."
+        },
+        {
+          "id": "c4",
+          "text": "4月4日",
+          "rationale": "Correct. The drawing class is listed on April 4."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "The drawing class is listed on April 4.",
+      "evidence": "4月4日 | 9時 | えの じゅぎょう"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-8"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "At what time does the Japanese class start?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "2時10分",
+          "rationale": "Correct. The Japanese class starts at 2:10."
+        },
+        {
+          "id": "c2",
+          "text": "9時",
+          "rationale": "Not this one. The Japanese class starts at 2:10."
+        },
+        {
+          "id": "c3",
+          "text": "3時半",
+          "rationale": "Not this one. The Japanese class starts at 2:10."
+        },
+        {
+          "id": "c4",
+          "text": "10時",
+          "rationale": "Not this one. The Japanese class starts at 2:10."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The Japanese class starts at 2:10.",
+      "evidence": "4月7日 | 2時10分 | にほんごの じゅぎょう"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-9"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "How many teachers are at the drawing class?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一人",
+          "rationale": "Not this one. The drawing-class details explicitly state two teachers."
+        },
+        {
+          "id": "c2",
+          "text": "三人",
+          "rationale": "Not this one. The drawing-class details explicitly state two teachers."
+        },
+        {
+          "id": "c3",
+          "text": "二人",
+          "rationale": "Correct. The drawing-class details explicitly state two teachers."
+        },
+        {
+          "id": "c4",
+          "text": "二枚",
+          "rationale": "Not this one. The drawing-class details explicitly state two teachers."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The drawing-class details explicitly state two teachers.",
+      "evidence": "せんせいが 二人 います。"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-10"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "How many sheets of paper are at the drawing class?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "二枚",
+          "rationale": "Not this one. The paper is counted with 枚, and the row states three sheets."
+        },
+        {
+          "id": "c2",
+          "text": "三枚",
+          "rationale": "Correct. The paper is counted with 枚, and the row states three sheets."
+        },
+        {
+          "id": "c3",
+          "text": "三人",
+          "rationale": "Not this one. The paper is counted with 枚, and the row states three sheets."
+        },
+        {
+          "id": "c4",
+          "text": "一枚",
+          "rationale": "Not this one. The paper is counted with 枚, and the row states three sheets."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The paper is counted with 枚, and the row states three sheets.",
+      "evidence": "かみが 三枚 あります。"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-11"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What is available at snack time?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "かみが 三枚",
+          "rationale": "Not this one. The snack-time row lists two apples."
+        },
+        {
+          "id": "c2",
+          "text": "せんせいが 二人",
+          "rationale": "Not this one. The snack-time row lists two apples."
+        },
+        {
+          "id": "c3",
+          "text": "りんごが 三つ",
+          "rationale": "Not this one. The snack-time row lists two apples."
+        },
+        {
+          "id": "c4",
+          "text": "りんごが 二つ",
+          "rationale": "Correct. The snack-time row lists two apples."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "The snack-time row lists two apples.",
+      "evidence": "りんごが 二つ あります。"
+    },
+    {
+      "id": "ex-n5-m03-c01-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l03-pattern-12"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which sentence correctly says the snack time starts at 3:30?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "3時半に はじまります。",
+          "rationale": "Correct. に marks the specified time when an event starts."
+        },
+        {
+          "id": "c2",
+          "text": "3時半が はじまります。",
+          "rationale": "Not this one. に marks the specified time when an event starts."
+        },
+        {
+          "id": "c3",
+          "text": "3時半を はじまります。",
+          "rationale": "Not this one. に marks the specified time when an event starts."
+        },
+        {
+          "id": "c4",
+          "text": "3時半に います。",
+          "rationale": "Not this one. に marks the specified time when an event starts."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "に marks the specified time when an event starts.",
+      "evidence": "3時半に はじまります。"
+    }
+  ]
+}
