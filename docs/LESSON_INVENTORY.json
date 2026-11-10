@@ -3397,6 +3397,23 @@
       "noindex": false,
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m03-c03-l01",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c03",
+      "slot": "L01",
+      "title": "Yesterday and Tomorrow: A Community Center Schedule",
+      "content": "src/content/lessons/n5/yesterday-tomorrow-context.mdx",
+      "url": "/learn/n5/module-03/chapter-03/lesson-01/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written context L01; schedule listening belongs to L06",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
