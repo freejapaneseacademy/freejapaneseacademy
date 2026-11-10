@@ -1,0 +1,484 @@
+{
+  "id": "n5-m03-c02-l01",
+  "lessonId": "n5-m03-c02-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Aya–Ken daily routine dialogue in daily-routine-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "Who asks about the daily routine?",
+      "options": [
+        "あや",
+        "けん",
+        "The teacher"
+      ],
+      "correctIndex": 0,
+      "feedback": "あや asks まいにち何をしますか.",
+      "explanation": "あや asks まいにち何をしますか.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-01-c1",
+          "text": "あや",
+          "rationale": "あや asks まいにち何をしますか."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-01-c2",
+          "text": "けん",
+          "rationale": "けん is answering, not asking the first routine question."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-01-c3",
+          "text": "The teacher",
+          "rationale": "けん is answering, not asking the first routine question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "What is the main purpose of the conversation?",
+      "options": [
+        "Planning a holiday",
+        "Learning Ken's usual activities",
+        "Buying lunch"
+      ],
+      "correctIndex": 1,
+      "feedback": "まいにち何をしますか asks what Ken usually does.",
+      "explanation": "まいにち何をしますか asks what Ken usually does.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-02-c1",
+          "text": "Planning a holiday",
+          "rationale": "The dialogue describes habitual activities, not a purchase or trip."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-02-c2",
+          "text": "Learning Ken's usual activities",
+          "rationale": "まいにち何をしますか asks what Ken usually does."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-02-c3",
+          "text": "Buying lunch",
+          "rationale": "The dialogue describes habitual activities, not a purchase or trip."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "When does Ken get up?",
+      "options": [
+        "八時",
+        "九時",
+        "七時"
+      ],
+      "correctIndex": 2,
+      "feedback": "七時におきます explicitly says he gets up at seven.",
+      "explanation": "七時におきます explicitly says he gets up at seven.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-03-c1",
+          "text": "八時",
+          "rationale": "八時 is breakfast and 九時 is the school departure."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-03-c2",
+          "text": "九時",
+          "rationale": "八時 is breakfast and 九時 is the school departure."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-03-c3",
+          "text": "七時",
+          "rationale": "七時におきます explicitly says he gets up at seven."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "What does Ken eat at eight?",
+      "options": [
+        "パン",
+        "ごはん",
+        "りんご"
+      ],
+      "correctIndex": 0,
+      "feedback": "八時にパンを食べます means he eats bread at eight.",
+      "explanation": "八時にパンを食べます means he eats bread at eight.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-04-c1",
+          "text": "パン",
+          "rationale": "八時にパンを食べます means he eats bread at eight."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-04-c2",
+          "text": "ごはん",
+          "rationale": "Neither rice nor an apple appears in the dialogue."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-04-c3",
+          "text": "りんご",
+          "rationale": "Neither rice nor an apple appears in the dialogue."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "Where does Ken go at nine?",
+      "options": [
+        "うち",
+        "学校",
+        "えき"
+      ],
+      "correctIndex": 1,
+      "feedback": "九時に学校へ行きます states that he goes to school at nine.",
+      "explanation": "九時に学校へ行きます states that he goes to school at nine.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-05-c1",
+          "text": "うち",
+          "rationale": "The dialogue names school, not home or a station."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-05-c2",
+          "text": "学校",
+          "rationale": "九時に学校へ行きます states that he goes to school at nine."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-05-c3",
+          "text": "えき",
+          "rationale": "The dialogue names school, not home or a station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "What does Ken study at school?",
+      "options": [
+        "英語",
+        "数学",
+        "日本語"
+      ],
+      "correctIndex": 2,
+      "feedback": "学校で日本語を勉強します says he studies Japanese.",
+      "explanation": "学校で日本語を勉強します says he studies Japanese.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-06-c1",
+          "text": "英語",
+          "rationale": "Other subjects are not stated."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-06-c2",
+          "text": "数学",
+          "rationale": "Other subjects are not stated."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-06-c3",
+          "text": "日本語",
+          "rationale": "学校で日本語を勉強します says he studies Japanese."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "Which statement about Ken's evening is supported?",
+      "options": [
+        "He reads a book",
+        "He watches television",
+        "He goes to school at night"
+      ],
+      "correctIndex": 0,
+      "feedback": "テレビは見ません。本を読みます means he does not watch TV and reads a book.",
+      "explanation": "テレビは見ません。本を読みます means he does not watch TV and reads a book.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-07-c1",
+          "text": "He reads a book",
+          "rationale": "テレビは見ません。本を読みます means he does not watch TV and reads a book."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-07-c2",
+          "text": "He watches television",
+          "rationale": "The negative form 見ません rules out television viewing."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-07-c3",
+          "text": "He goes to school at night",
+          "rationale": "The negative form 見ません rules out television viewing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "What does 見ません signal?",
+      "options": [
+        "A completed past action",
+        "Polite negative nonpast",
+        "A question"
+      ],
+      "correctIndex": 1,
+      "feedback": "見ません is the polite negative nonpast form of 見ます.",
+      "explanation": "見ません is the polite negative nonpast form of 見ます.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-08-c1",
+          "text": "A completed past action",
+          "rationale": "It is not the past form or a question by itself."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-08-c2",
+          "text": "Polite negative nonpast",
+          "rationale": "見ません is the polite negative nonpast form of 見ます."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-08-c3",
+          "text": "A question",
+          "rationale": "It is not the past form or a question by itself."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "In 七時におきます, what does に mark?",
+      "options": [
+        "The person",
+        "The object",
+        "A specific time"
+      ],
+      "correctIndex": 2,
+      "feedback": "に follows 七時 to mark the clock time.",
+      "explanation": "に follows 七時 to mark the clock time.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-09-c1",
+          "text": "The person",
+          "rationale": "The sentence does not use に to mark an object."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-09-c2",
+          "text": "The object",
+          "rationale": "The sentence does not use に to mark an object."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-09-c3",
+          "text": "A specific time",
+          "rationale": "に follows 七時 to mark the clock time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l01-routine-cues"
+      ],
+      "prompt": "What does を mark in 本を読みます?",
+      "options": [
+        "The thing being read",
+        "The time of reading",
+        "The location"
+      ],
+      "correctIndex": 0,
+      "feedback": "を marks 本 as the direct object of 読みます.",
+      "explanation": "を marks 本 as the direct object of 読みます.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-l01-10-c1",
+          "text": "The thing being read",
+          "rationale": "を marks 本 as the direct object of 読みます."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-10-c2",
+          "text": "The time of reading",
+          "rationale": "Time and place are not marked by を here."
+        },
+        {
+          "id": "ex-n5-m03-c02-l01-10-c3",
+          "text": "The location",
+          "rationale": "Time and place are not marked by を here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-l01-10-c1"
+      }
+    }
+  ]
+}
