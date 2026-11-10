@@ -1,0 +1,270 @@
+{
+  "lessonId": "n5-m02-c04-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What is on the desk?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A book",
+          "rationale": "Correct. The guide locates a book on the desk."
+        },
+        {
+          "id": "c2",
+          "text": "A cup",
+          "rationale": "Not supported by the recording. Listen for the evidence: 机の上に本があります。"
+        },
+        {
+          "id": "c3",
+          "text": "A clock",
+          "rationale": "Not supported by the recording. Listen for the evidence: 机の上に本があります。"
+        },
+        {
+          "id": "c4",
+          "text": "A bag",
+          "rationale": "Not supported by the recording. Listen for the evidence: 机の上に本があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "机の上に本があります。",
+      "explanation": "The guide locates a book on the desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Where is the bag?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On the chair",
+          "rationale": "Not supported by the recording. Listen for the evidence: かばんは机の下にあります。"
+        },
+        {
+          "id": "c2",
+          "text": "Under the desk",
+          "rationale": "Correct. 下 means under; the bag is under the desk."
+        },
+        {
+          "id": "c3",
+          "text": "Behind the window",
+          "rationale": "Not supported by the recording. Listen for the evidence: かばんは机の下にあります。"
+        },
+        {
+          "id": "c4",
+          "text": "Inside the shelf",
+          "rationale": "Not supported by the recording. Listen for the evidence: かばんは机の下にあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "かばんは机の下にあります。",
+      "explanation": "下 means under; the bag is under the desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What is next to the window?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A chair",
+          "rationale": "Not supported by the recording. Listen for the evidence: 窓の隣に時計もありますね。"
+        },
+        {
+          "id": "c2",
+          "text": "A book",
+          "rationale": "Not supported by the recording. Listen for the evidence: 窓の隣に時計もありますね。"
+        },
+        {
+          "id": "c3",
+          "text": "A clock",
+          "rationale": "Correct. The visitor notices a clock beside the window."
+        },
+        {
+          "id": "c4",
+          "text": "A cat",
+          "rationale": "Not supported by the recording. Listen for the evidence: 窓の隣に時計もありますね。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "窓の隣に時計もありますね。",
+      "explanation": "The visitor notices a clock beside the window."
+    },
+    {
+      "id": "ex-n5-m02-c04-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What is inside the shelf?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A cup",
+          "rationale": "Correct. 中 locates a cup inside the shelf."
+        },
+        {
+          "id": "c2",
+          "text": "A cat",
+          "rationale": "Not supported by the recording. Listen for the evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "c3",
+          "text": "A bag",
+          "rationale": "Not supported by the recording. Listen for the evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "c4",
+          "text": "A bed",
+          "rationale": "Not supported by the recording. Listen for the evidence: 棚の中にコップがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "棚の中にコップがあります。",
+      "explanation": "中 locates a cup inside the shelf."
+    },
+    {
+      "id": "ex-n5-m02-c04-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where is the cat?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In front of the chair",
+          "rationale": "Not supported by the recording. Listen for the evidence: 猫はいすの後ろにいます。"
+        },
+        {
+          "id": "c2",
+          "text": "Under the bed",
+          "rationale": "Not supported by the recording. Listen for the evidence: 猫はいすの後ろにいます。"
+        },
+        {
+          "id": "c3",
+          "text": "Behind the chair",
+          "rationale": "Correct. 後ろ means behind, and います is used for the cat."
+        },
+        {
+          "id": "c4",
+          "text": "Next to the window",
+          "rationale": "Not supported by the recording. Listen for the evidence: 猫はいすの後ろにいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "猫はいすの後ろにいます。",
+      "explanation": "後ろ means behind, and います is used for the cat."
+    },
+    {
+      "id": "ex-n5-m02-c04-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where is the book?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On the bed",
+          "rationale": "Not supported by the recording. Listen for the evidence: 本は棚の上にあります。"
+        },
+        {
+          "id": "c2",
+          "text": "Under the shelf",
+          "rationale": "Not supported by the recording. Listen for the evidence: 本は棚の上にあります。"
+        },
+        {
+          "id": "c3",
+          "text": "In the bag",
+          "rationale": "Not supported by the recording. Listen for the evidence: 本は棚の上にあります。"
+        },
+        {
+          "id": "c4",
+          "text": "On the shelf",
+          "rationale": "Correct. The host corrects the bed suggestion and puts the book on the shelf."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "本は棚の上にあります。",
+      "explanation": "The host corrects the bed suggestion and puts the book on the shelf."
+    }
+  ]
+}
