@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m02-c04-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional study-room and guest-room tours; generation, waveform matching, rights and independent pronunciation checks pending."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "A guided tour of the study room",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m02-c04-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "こちらは勉強の部屋です。机の上に本があります。",
+          "english": "This is the study room. There is a book on the desk."
+        },
+        {
+          "speaker": "male",
+          "text": "いすはどこにありますか。",
+          "english": "Where is the chair?"
+        },
+        {
+          "speaker": "female",
+          "text": "いすは机の前にあります。かばんは机の下にあります。",
+          "english": "The chair is in front of the desk. The bag is under the desk."
+        },
+        {
+          "speaker": "male",
+          "text": "ありがとうございます。窓の隣に時計もありますね。",
+          "english": "Thank you. There is also a clock next to the window, isn't there?"
+        }
+      ],
+      "comprehensionPrompts": [
+        "What is on the desk?",
+        "Where is the bag?",
+        "What is next to the window?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Looking around the guest room",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m02-c04-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "こちらはお客さんの部屋です。棚の中にコップがあります。",
+          "english": "This is the guest room. There is a cup inside the shelf."
+        },
+        {
+          "speaker": "female",
+          "text": "猫はどこにいますか。",
+          "english": "Where is the cat?"
+        },
+        {
+          "speaker": "male",
+          "text": "猫はいすの後ろにいます。",
+          "english": "The cat is behind the chair."
+        },
+        {
+          "speaker": "female",
+          "text": "ベッドの上に本はありますか。",
+          "english": "Is there a book on the bed?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいえ、ベッドの上にはありません。本は棚の上にあります。",
+          "english": "No, it is not on the bed. The book is on top of the shelf."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What is inside the shelf?",
+        "Where is the cat?",
+        "Where is the book?"
+      ]
+    }
+  ]
+}
