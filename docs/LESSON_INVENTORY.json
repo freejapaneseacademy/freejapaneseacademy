@@ -3365,6 +3365,23 @@
       "noindex": false,
       "authorSlot": ":15",
       "automationId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m03-c02-l03",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c02",
+      "slot": "L03",
+      "title": "Daily routines — polite present verbs and particles",
+      "content": "src/content/lessons/n5/daily-routine-grammar.mdx",
+      "url": "/learn/n5/module-03/chapter-02/lesson-03/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L03",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
