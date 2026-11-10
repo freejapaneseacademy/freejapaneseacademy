@@ -1,0 +1,20 @@
+import {useState} from 'react';
+import bank from '../../content/exercises/n5-m04-c03-l01-v1.json';
+import {recordAttempt} from '../../lib/progress';
+export const QUIZ_ID='n5-m04-c03-l01-context-v1';
+export const questions=bank.items;
+export function scoreAdjectiveContext(answers:Record<string,string>){return questions.filter(q=>answers[q.id]===q.answerKey.choiceId).length;}
+export default function AdjectiveContextPractice(){
+ const [answers,setAnswers]=useState<Record<string,string>>({}),[submitted,setSubmitted]=useState(false),[saving,setSaving]=useState(false),[error,setError]=useState('');
+ const [draft,setDraft]=useState(''),[showModel,setShowModel]=useState(false);
+ const answered=questions.filter(q=>answers[q.id]).length;
+ async function submit(){if(submitted||saving||answered!==questions.length)return;setSaving(true);setError('');
+ try{await recordAttempt(QUIZ_ID,'n5',scoreAdjectiveContext(answers),questions.length);setSubmitted(true);}
+ catch(e){setError(e instanceof Error?e.message:'Local storage unavailable');}finally{setSaving(false);}}
+ return <section className="foundation-practice" aria-labelledby="adjective-context-heading">
+ <div className="foundation-practice__header"><span className="eyebrow">WRITTEN CONTEXT CHECK</span><h2 id="adjective-context-heading">Who describes what?</h2><p>Choose one answer per question. Use Tab to reach a group and arrow keys to change its radio selection.</p><p aria-live="polite">{answered} of {questions.length} answered</p><div className="foundation-progress" role="progressbar" aria-label="Questions answered" aria-valuemin={0} aria-valuemax={questions.length} aria-valuenow={answered}><span style={{width:(answered/questions.length*100)+'%'}}/></div></div>
+ {questions.map((q,i)=><fieldset className="foundation-question" key={q.id} disabled={submitted||saving}><legend><span className="foundation-question__number">{String(i+1).padStart(2,'0')}</span>{q.prompt}</legend><div className="foundation-options">{q.choices.map(c=><label className={'foundation-option '+(answers[q.id]===c.id?'foundation-option--selected':'')} key={c.id}><input type="radio" name={q.id} value={c.id} checked={answers[q.id]===c.id} onChange={()=>setAnswers(a=>({...a,[q.id]:c.id}))}/><span>{c.text}</span></label>)}</div>{submitted&&<div className="foundation-feedback" role="note"><strong>{answers[q.id]===q.answerKey.choiceId?'Correct':'Review this answer'}</strong><p>{q.explanation}</p><p>{q.choices.find(c=>c.id===answers[q.id])?.rationale}</p></div>}</fieldset>)}
+ {error&&<p role="alert" className="inline-error">{error}. Your answers are retained; retry saving.</p>}
+ {!submitted?<button type="button" className="btn btn-primary" disabled={saving||answered!==questions.length} onClick={submit}>{saving?'Saving…':'Check answers and save score'}</button>:<div className="foundation-result" role="status"><h3>{scoreAdjectiveContext(answers)} / {questions.length} correct</h3><p>Saved in local browser progress.</p><button type="button" className="btn btn-outline" onClick={()=>{setAnswers({});setSubmitted(false);setError('');}}>Retry questions</button></div>}
+ <div className="foundation-teachback"><h3>Optional writing (not graded)</h3><label htmlFor="adjective-context-draft">Describe a fictional café and snack in two or three Japanese sentences.</label><textarea id="adjective-context-draft" lang="ja" rows={4} value={draft} onChange={e=>setDraft(e.target.value)} placeholder="このパンは おいしいです。"/><button type="button" className="btn btn-outline" aria-expanded={showModel} onClick={()=>setShowModel(v=>!v)}>{showModel?'Hide example':'Compare with example'}</button>{showModel&&<div className="foundation-feedback"><p lang="ja">このカフェは しずかです。このパンは おいしいです。</p><p>Check whether your adjectives describe the right noun and whether な is present before a noun. Your writing is not automatically graded.</p></div>}</div><p className="foundation-storage-note">Quiz attempts are saved in this browser only. Your draft stays in page memory and is not uploaded; copy it before leaving.</p>
+ </section>;
