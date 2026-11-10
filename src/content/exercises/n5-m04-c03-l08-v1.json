@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m04-c03-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l08-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-1"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "Which is a polite way to ask 'How is this café?'",
+      "choices": [
+        {
+          "id": "a",
+          "text": "このカフェは どうですか。",
+          "rationale": "This is the correct Japanese form. どうですか asks for an evaluation; どこですか asks where something is."
+        },
+        {
+          "id": "b",
+          "text": "このカフェは どこですか。",
+          "rationale": "This form does not express the target meaning. どうですか asks for an evaluation; どこですか asks where something is."
+        },
+        {
+          "id": "c",
+          "text": "このカフェを どうですか。",
+          "rationale": "This is not the requested response. どうですか asks for an evaluation; どこですか asks where something is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "どうですか asks for an evaluation; どこですか asks where something is."
+    },
+    {
+      "id": "ex-n5-m04-c03-l08-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-2"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "How do you say 'The pudding is not sweet'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "このプリンは あまいくないです。",
+          "rationale": "This is not the requested response. For an い-adjective, replace the final い with くない."
+        },
+        {
+          "id": "b",
+          "text": "このプリンは あまくないです。",
+          "rationale": "This is the correct Japanese form. For an い-adjective, replace the final い with くない."
+        },
+        {
+          "id": "c",
+          "text": "このプリンは あまいじゃありません。",
+          "rationale": "This form does not express the target meaning. For an い-adjective, replace the final い with くない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "For an い-adjective, replace the final い with くない."
+    },
+    {
+      "id": "ex-n5-m04-c03-l08-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-3"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "Which correctly describes a quiet room?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "この部屋は しずかいです。",
+          "rationale": "This form does not express the target meaning. しずか is a な-adjective; before です, do not add な."
+        },
+        {
+          "id": "b",
+          "text": "この部屋は しずかなです。",
+          "rationale": "This is not the requested response. しずか is a な-adjective; before です, do not add な."
+        },
+        {
+          "id": "c",
+          "text": "この部屋は しずかです。",
+          "rationale": "This is the correct Japanese form. しずか is a な-adjective; before です, do not add な."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "しずか is a な-adjective; before です, do not add な."
+    },
+    {
+      "id": "ex-n5-m04-c03-l08-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-4"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "Which means 'The bag is not big'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "かばんは 大きくないです。",
+          "rationale": "This is the correct Japanese form. 大きい is an い-adjective; 大きくない is its negative."
+        },
+        {
+          "id": "b",
+          "text": "かばんは 大きいじゃありません。",
+          "rationale": "This form does not express the target meaning. 大きい is an い-adjective; 大きくない is its negative."
+        },
+        {
+          "id": "c",
+          "text": "かばんは 大きいくないです。",
+          "rationale": "This is not the requested response. 大きい is an い-adjective; 大きくない is its negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "大きい is an い-adjective; 大きくない is its negative."
+    },
+    {
+      "id": "ex-n5-m04-c03-l08-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-5"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "Which joins 'clean and quiet' correctly?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "きれいなで、しずかです。",
+          "rationale": "This is not the requested response. きれい is a な-adjective, so connect it with で."
+        },
+        {
+          "id": "b",
+          "text": "きれいで、しずかです。",
+          "rationale": "This is the correct Japanese form. きれい is a な-adjective, so connect it with で."
+        },
+        {
+          "id": "c",
+          "text": "きれいくて、しずかです。",
+          "rationale": "This form does not express the target meaning. きれい is a な-adjective, so connect it with で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "きれい is a な-adjective, so connect it with で."
+    },
+    {
+      "id": "ex-n5-m04-c03-l08-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-6"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "Which describes curry as 'spicy but tasty'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "からくないです。でも、おいしいです。",
+          "rationale": "This form does not express the target meaning. でも introduces contrast; からい means spicy and おいしい means tasty."
+        },
+        {
+          "id": "b",
+          "text": "からいです。でも、まずいです。",
+          "rationale": "This is not the requested response. でも introduces contrast; からい means spicy and おいしい means tasty."
+        },
+        {
+          "id": "c",
+          "text": "からいです。でも、おいしいです。",
+          "rationale": "This is the correct Japanese form. でも introduces contrast; からい means spicy and おいしい means tasty."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "でも introduces contrast; からい means spicy and おいしい means tasty."
+    },
+    {
+      "id": "ex-n5-m04-c03-l08-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-7"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "What does あまり しずかじゃありません mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It isn't very quiet.",
+          "rationale": "This is the correct Japanese form. あまり with the negative じゃありません expresses 'not very' here."
+        },
+        {
+          "id": "b",
+          "text": "It is always quiet.",
+          "rationale": "This form does not express the target meaning. あまり with the negative じゃありません expresses 'not very' here."
+        },
+        {
+          "id": "c",
+          "text": "It is not clean.",
+          "rationale": "This is not the requested response. あまり with the negative じゃありません expresses 'not very' here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あまり with the negative じゃありません expresses 'not very' here."
+    },
+    {
+      "id": "ex-n5-m04-c03-l08-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l08-conversation-forms"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l08-form-8"
+      ],
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "prompt": "Which is an appropriate polite response to ありがとうございます?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "からくないです。",
+          "rationale": "This is not the requested response. どういたしまして is a conventional response to thanks; the others ask price or describe taste."
+        },
+        {
+          "id": "b",
+          "text": "どういたしまして。",
+          "rationale": "This is the correct Japanese form. どういたしまして is a conventional response to thanks; the others ask price or describe taste."
+        },
+        {
+          "id": "c",
+          "text": "いくらですか。",
+          "rationale": "This form does not express the target meaning. どういたしまして is a conventional response to thanks; the others ask price or describe taste."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "どういたしまして is a conventional response to thanks; the others ask price or describe taste."
+    }
+  ]
+}
