@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m03-c01-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which event starts at 9 a.m. on November 12?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日本語の会話",
+          "rationale": "Supported by timetable row A."
+        },
+        {
+          "id": "c2",
+          "text": "折り紙",
+          "rationale": "Row A does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "書道",
+          "rationale": "Row A does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: row A: 11月12日（木） | 午前9時 | 日本語の会話 | 教室A | 12人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the origami session?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室A",
+          "rationale": "Row B does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "教室B",
+          "rationale": "Supported by timetable row B."
+        },
+        {
+          "id": "c3",
+          "text": "調理室",
+          "rationale": "Row B does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: row B: 11月12日（木） | 午後1時 | 折り紙 | 教室B | 8人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "On what date is calligraphy?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "11月12日",
+          "rationale": "Row C does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "11月14日",
+          "rationale": "Row C does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "11月13日",
+          "rationale": "Supported by timetable row C."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: row C: 11月13日（金） | 午前10時半 | 書道 | 教室A | 6人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What starts at 2 p.m.?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "料理",
+          "rationale": "Supported by timetable row D."
+        },
+        {
+          "id": "c2",
+          "text": "絵の会",
+          "rationale": "Row D does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "折り紙",
+          "rationale": "Row D does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: row D: 11月13日（金） | 午後2時 | 料理 | 調理室 | 10人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many people are listed for the cooking session?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "6人",
+          "rationale": "Row D does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "10人",
+          "rationale": "Supported by timetable row D."
+        },
+        {
+          "id": "c3",
+          "text": "8人",
+          "rationale": "Row D does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: row D: 11月13日（金） | 午後2時 | 料理 | 調理室 | 10人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the painting group?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "調理室",
+          "rationale": "Row E does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "教室A",
+          "rationale": "Row E does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "教室B",
+          "rationale": "Supported by timetable row E."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: row E: 11月14日（土） | 午前11時 | 絵の会 | 教室B | 5人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When is the second Japanese conversation session?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "11月14日 午後3時",
+          "rationale": "Supported by timetable row F."
+        },
+        {
+          "id": "c2",
+          "text": "11月12日 午前9時",
+          "rationale": "Row F does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "11月13日 午前10時半",
+          "rationale": "Row F does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: row F: 11月14日（土） | 午後3時 | 日本語の会話 | 教室A | 9人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which session starts at 10:30 a.m.?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "料理",
+          "rationale": "Row C does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "書道",
+          "rationale": "Supported by timetable row C."
+        },
+        {
+          "id": "c3",
+          "text": "日本語の会話",
+          "rationale": "Row C does not support this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: row C: 11月13日（金） | 午前10時半 | 書道 | 教室A | 6人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many people are listed for the Saturday painting group?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "9人",
+          "rationale": "Row E does not support this answer."
+        },
+        {
+          "id": "c2",
+          "text": "12人",
+          "rationale": "Row E does not support this answer."
+        },
+        {
+          "id": "c3",
+          "text": "5人",
+          "rationale": "Supported by timetable row E."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: row E: 11月14日（土） | 午前11時 | 絵の会 | 教室B | 5人."
+    },
+    {
+      "id": "ex-n5-m03-c01-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the price of the origami session?",
+      "objectiveIds": [
+        "n5-m03-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l05-timetable"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書いてありません",
+          "rationale": "Supported by timetable row B (no price column is provided)."
+        },
+        {
+          "id": "c2",
+          "text": "無料です",
+          "rationale": "Row B does not support this answer; no fees are stated."
+        },
+        {
+          "id": "c3",
+          "text": "500円です",
+          "rationale": "Row B does not support this answer; no fees are stated."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The timetable lists date, time, activity, room and number of people, but no prices. Missing information is not evidence that the event is free."
+    }
+  ]
+}
