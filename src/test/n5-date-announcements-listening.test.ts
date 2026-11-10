@@ -1,0 +1,6 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../content/exercises/n5-m03-c01-l06-v1.json';
+import {gradeDateAnnouncements} from '../components/interactive/DateAnnouncementListeningPractice';
+describe('n5-m03-c01-l06 listening integrity',()=>{
+it('has six distinct evidenced questions and two tracks',()=>{expect(bank.items).toHaveLength(6);expect(new Set(bank.items.map(q=>q.id)).size).toBe(6);for(const t of ['a','b'])expect(bank.items.filter(q=>q.trackId===t)).toHaveLength(3);for(const q of bank.items){expect(q.choices).toHaveLength(4);expect(new Set(q.choices.map(c=>c.text)).size).toBe(4);expect(q.choices.every(c=>c.rationale.length>10)).toBe(true);expect(q.choices.some(c=>c.id===q.answerKey.choiceId)).toBe(true);expect(q.evidence.length).toBeGreaterThan(5);}});
+it('grades perfect, empty and incorrect answers',()=>{expect(gradeDateAnnouncements(Object.fromEntries(bank.items.map(q=>[q.id,q.answerKey.choiceId])))).toBe(6);expect(gradeDateAnnouncements({})).toBe(0);expect(gradeDateAnnouncements(Object.fromEntries(bank.items.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey.choiceId)!.id])))).toBe(0);});});
