@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c02-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who is buying notebooks?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yui",
+          "rationale": "Correct. ゆい asks prices and requests two notebooks."
+        },
+        {
+          "id": "c2",
+          "text": "The clerk",
+          "rationale": "Not supported. ゆい asks prices and requests two notebooks."
+        },
+        {
+          "id": "c3",
+          "text": "A café server",
+          "rationale": "Not supported. ゆい asks prices and requests two notebooks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ゆい asks prices and requests two notebooks."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does このノートは いくらですか ask?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "How much this notebook costs",
+          "rationale": "Correct. いくらですか asks a price."
+        },
+        {
+          "id": "c2",
+          "text": "Whether the notebook is blue",
+          "rationale": "Not supported. いくらですか asks a price."
+        },
+        {
+          "id": "c3",
+          "text": "How many notebooks are in stock",
+          "rationale": "Not supported. いくらですか asks a price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いくらですか asks a price."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the first notebook's stated price?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "300円",
+          "rationale": "Correct. 店員 says 300円です immediately after the first price question."
+        },
+        {
+          "id": "c2",
+          "text": "200円",
+          "rationale": "Not supported. 店員 says 300円です immediately after the first price question."
+        },
+        {
+          "id": "c3",
+          "text": "400円",
+          "rationale": "Not supported. 店員 says 300円です immediately after the first price question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "店員 says 300円です immediately after the first price question."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How much does one blue notebook cost?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "400円",
+          "rationale": "Correct. 青いノートは 400円です is explicit."
+        },
+        {
+          "id": "c2",
+          "text": "300円",
+          "rationale": "Not supported. 青いノートは 400円です is explicit."
+        },
+        {
+          "id": "c3",
+          "text": "200円",
+          "rationale": "Not supported. 青いノートは 400円です is explicit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "青いノートは 400円です is explicit."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What property does 青い describe?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Color",
+          "rationale": "Correct. 青い means blue, a color."
+        },
+        {
+          "id": "c2",
+          "text": "Size",
+          "rationale": "Not supported. 青い means blue, a color."
+        },
+        {
+          "id": "c3",
+          "text": "Quantity",
+          "rationale": "Not supported. 青い means blue, a color."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "青い means blue, a color."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 小さい describe?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Size",
+          "rationale": "Correct. 小さい means small; the color of that notebook is not given."
+        },
+        {
+          "id": "c2",
+          "text": "Price",
+          "rationale": "Not supported. 小さい means small; the color of that notebook is not given."
+        },
+        {
+          "id": "c3",
+          "text": "Color",
+          "rationale": "Not supported. 小さい means small; the color of that notebook is not given."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "小さい means small; the color of that notebook is not given."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How much is one small notebook?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "200円",
+          "rationale": "Correct. 小さいノートは 200円です."
+        },
+        {
+          "id": "c2",
+          "text": "300円",
+          "rationale": "Not supported. 小さいノートは 200円です."
+        },
+        {
+          "id": "c3",
+          "text": "400円",
+          "rationale": "Not supported. 小さいノートは 200円です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "小さいノートは 200円です."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 二冊 mean in Yui's request?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Two notebooks",
+          "rationale": "Correct. 冊 is a counter for bound books; 二冊 means two."
+        },
+        {
+          "id": "c2",
+          "text": "Two yen",
+          "rationale": "Not supported. 冊 is a counter for bound books; 二冊 means two."
+        },
+        {
+          "id": "c3",
+          "text": "Two blue pens",
+          "rationale": "Not supported. 冊 is a counter for bound books; 二冊 means two."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "冊 is a counter for bound books; 二冊 means two."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Yui finally request?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Two small notebooks",
+          "rationale": "Correct. 小さいノートを 二冊ください is the purchase request."
+        },
+        {
+          "id": "c2",
+          "text": "One blue notebook",
+          "rationale": "Not supported. 小さいノートを 二冊ください is the purchase request."
+        },
+        {
+          "id": "c3",
+          "text": "Three notebooks",
+          "rationale": "Not supported. 小さいノートを 二冊ください is the purchase request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "小さいノートを 二冊ください is the purchase request."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Why is the final total 400円?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Two small notebooks at 200円 each",
+          "rationale": "Correct. The clerk states 200円 for each small notebook and 400円 for the two."
+        },
+        {
+          "id": "c2",
+          "text": "One blue notebook at 400円",
+          "rationale": "Not supported. The clerk states 200円 for each small notebook and 400円 for the two."
+        },
+        {
+          "id": "c3",
+          "text": "Two blue notebooks at 200円 each",
+          "rationale": "Not supported. The clerk states 200円 for each small notebook and 400円 for the two."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The clerk states 200円 for each small notebook and 400円 for the two."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a polite way to request this notebook?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このノートをお願いします。",
+          "rationale": "Correct. 〜をお願いします requests the named item; いくら asks its price."
+        },
+        {
+          "id": "c2",
+          "text": "このノートは いくらですか。",
+          "rationale": "Not supported. 〜をお願いします requests the named item; いくら asks its price."
+        },
+        {
+          "id": "c3",
+          "text": "青いノートは 400円です。",
+          "rationale": "Not supported. 〜をお願いします requests the named item; いくら asks its price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "〜をお願いします requests the named item; いくら asks its price."
+    },
+    {
+      "id": "ex-n5-m04-c02-l01-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which detail is NOT stated about the small notebook?",
+      "objectiveIds": [
+        "n5-m04-c02-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l01-shop-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Its color",
+          "rationale": "Correct. The dialogue states its size, 200円 price and two-unit purchase, but not its color."
+        },
+        {
+          "id": "c2",
+          "text": "Its unit price",
+          "rationale": "Not supported. The dialogue states its size, 200円 price and two-unit purchase, but not its color."
+        },
+        {
+          "id": "c3",
+          "text": "The quantity purchased",
+          "rationale": "Not supported. The dialogue states its size, 200円 price and two-unit purchase, but not its color."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The dialogue states its size, 200円 price and two-unit purchase, but not its color."
+    }
+  ]
+}
