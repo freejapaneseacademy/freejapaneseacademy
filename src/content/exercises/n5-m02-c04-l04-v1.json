@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m02-c04-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you read 上 in 机の上?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "うえ",
+          "rationale": "上（うえ） means on or above; 机の上 means on the desk."
+        },
+        {
+          "id": "c2",
+          "text": "した",
+          "rationale": "This does not match the taught reading or the stated room guide: 上（うえ） means on or above; 机の上 means on the desk."
+        },
+        {
+          "id": "c3",
+          "text": "なか",
+          "rationale": "This does not match the taught reading or the stated room guide: 上（うえ） means on or above; 机の上 means on the desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "上（うえ） means on or above; 机の上 means on the desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 机の下 mean?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Under the desk",
+          "rationale": "下（した） means under or below."
+        },
+        {
+          "id": "c2",
+          "text": "Beside the desk",
+          "rationale": "This does not match the taught reading or the stated room guide: 下（した） means under or below."
+        },
+        {
+          "id": "c3",
+          "text": "Behind the desk",
+          "rationale": "This does not match the taught reading or the stated room guide: 下（した） means under or below."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "下（した） means under or below."
+    },
+    {
+      "id": "ex-n5-m02-c04-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which reading matches 後ろ in いすの後ろ?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "うしろ",
+          "rationale": "後ろ is read うしろ, meaning behind."
+        },
+        {
+          "id": "c2",
+          "text": "あとろ",
+          "rationale": "This does not match the taught reading or the stated room guide: 後ろ is read うしろ, meaning behind."
+        },
+        {
+          "id": "c3",
+          "text": "まえ",
+          "rationale": "This does not match the taught reading or the stated room guide: 後ろ is read うしろ, meaning behind."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "後ろ is read うしろ, meaning behind."
+    },
+    {
+      "id": "ex-n5-m02-c04-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means inside the bag?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "かばんの中",
+          "rationale": "中（なか） means inside; 前 and 隣 indicate other positions."
+        },
+        {
+          "id": "c2",
+          "text": "かばんの前",
+          "rationale": "This does not match the taught reading or the stated room guide: 中（なか） means inside; 前 and 隣 indicate other positions."
+        },
+        {
+          "id": "c3",
+          "text": "かばんの隣",
+          "rationale": "This does not match the taught reading or the stated room guide: 中（なか） means inside; 前 and 隣 indicate other positions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "中（なか） means inside; 前 and 隣 indicate other positions."
+    },
+    {
+      "id": "ex-n5-m02-c04-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the book in the written room guide?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机の上",
+          "rationale": "The guide states 机の上に 本が あります."
+        },
+        {
+          "id": "c2",
+          "text": "机の下",
+          "rationale": "This does not match the taught reading or the stated room guide: The guide states 机の上に 本が あります."
+        },
+        {
+          "id": "c3",
+          "text": "かばんの中",
+          "rationale": "This does not match the taught reading or the stated room guide: The guide states 机の上に 本が あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The guide states 机の上に 本が あります."
+    },
+    {
+      "id": "ex-n5-m02-c04-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the teacher in the written room guide?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "入口の前",
+          "rationale": "The guide states 入口の前に 先生が います."
+        },
+        {
+          "id": "c2",
+          "text": "いすの後ろ",
+          "rationale": "This does not match the taught reading or the stated room guide: The guide states 入口の前に 先生が います."
+        },
+        {
+          "id": "c3",
+          "text": "机の隣",
+          "rationale": "This does not match the taught reading or the stated room guide: The guide states 入口の前に 先生が います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The guide states 入口の前に 先生が います."
+    },
+    {
+      "id": "ex-n5-m02-c04-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly places a cat behind a chair?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いすの後ろに ねこが います。",
+          "rationale": "Animals ordinarily use います; 後ろ means behind."
+        },
+        {
+          "id": "c2",
+          "text": "いすの後ろに ねこが あります。",
+          "rationale": "This does not match the taught reading or the stated room guide: Animals ordinarily use います; 後ろ means behind."
+        },
+        {
+          "id": "c3",
+          "text": "いすの中に ねこが います。",
+          "rationale": "This does not match the taught reading or the stated room guide: Animals ordinarily use います; 後ろ means behind."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Animals ordinarily use います; 後ろ means behind."
+    },
+    {
+      "id": "ex-n5-m02-c04-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which reading and meaning match 隣?",
+      "objectiveIds": [
+        "n5-m02-c04-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l04-room-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "となり — beside",
+          "rationale": "隣 is read となり and means beside or next to."
+        },
+        {
+          "id": "c2",
+          "text": "なか — inside",
+          "rationale": "This does not match the taught reading or the stated room guide: 隣 is read となり and means beside or next to."
+        },
+        {
+          "id": "c3",
+          "text": "した — under",
+          "rationale": "This does not match the taught reading or the stated room guide: 隣 is read となり and means beside or next to."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "隣 is read となり and means beside or next to."
+    }
+  ]
+}
