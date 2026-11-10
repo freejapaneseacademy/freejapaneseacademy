@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import FoundationStoryReadingPractice from '../../../../../components/interactive/FoundationStoryReadingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/foundation-story-reading');
+if(!lesson)throw new Error('Missing l0-m05-c04-l05');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Reading',href:'/learn/start/module-05/chapter-04/lesson-05/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">LEVEL 0 · MODULE 05 · CHAPTER 04 · LESSON 05</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Original kana story</span><span>Evidence-based practice</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+<div class="course-notice">Original FreeJapaneseAcademy reading. Independent Japanese and assessment reviews are pending; this is not official JLPT material.</div>
+<div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map(o=><li>{o}</li>)}</ul></div>
+<article class="lesson-article foundation-article"><Content /></article>
+<FoundationStoryReadingPractice client:load />
+<div class="foundation-completion"><h2>Finish the lesson</h2><p>Completion is separate from the locally saved reading score.</p><LessonActions client:load lessonId="l0-m05-c04-l05" level="l0" /></div>
+<div class="lesson-next"><a class="btn btn-outline" href="/learn/start/module-05/chapter-04/lesson-04/">Review lesson 04</a><a class="btn btn-primary" href="/learn/start/module-05/chapter-04/lesson-06/">Continue to listening review</a></div>
+</div><aside class="lesson-side foundation-side"><h3>Reading guide</h3><p>Read the story, find the phrase, and explain your evidence.</p><ol><li>Read once for the sequence.</li><li>Find the exact Japanese line.</li><li>Answer ten questions.</li><li>Correct one spelling mistake.</li></ol><p>No audio or automatic writing grade is used here.</p></aside></div></section>
+</Base>
