@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c01-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'water'?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水（みず）",
+          "rationale": "Correct. 水 is read みず and means water."
+        },
+        {
+          "id": "c2",
+          "text": "お茶（おちゃ）",
+          "rationale": "Not quite. 水 is read みず and means water."
+        },
+        {
+          "id": "c3",
+          "text": "ご飯（ごはん）",
+          "rationale": "Not quite. 水 is read みず and means water."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "水 is read みず and means water."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which reading matches 食べます?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "のみます",
+          "rationale": "Not quite. 食べます is read たべます and means eat / will eat."
+        },
+        {
+          "id": "c2",
+          "text": "たべます",
+          "rationale": "Correct. 食べます is read たべます and means eat / will eat."
+        },
+        {
+          "id": "c3",
+          "text": "すきです",
+          "rationale": "Not quite. 食べます is read たべます and means eat / will eat."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "食べます is read たべます and means eat / will eat."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'drink / will drink'?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べます",
+          "rationale": "Not quite. 飲みます（のみます） describes drinking."
+        },
+        {
+          "id": "c2",
+          "text": "好きです",
+          "rationale": "Not quite. 飲みます（のみます） describes drinking."
+        },
+        {
+          "id": "c3",
+          "text": "飲みます",
+          "rationale": "Correct. 飲みます（のみます） describes drinking."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "飲みます（のみます） describes drinking."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does お茶（おちゃ） mean?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "tea",
+          "rationale": "Correct. お茶 means tea; お is a polite prefix."
+        },
+        {
+          "id": "c2",
+          "text": "friend",
+          "rationale": "Not quite. お茶 means tea; お is a polite prefix."
+        },
+        {
+          "id": "c3",
+          "text": "lunch",
+          "rationale": "Not quite. お茶 means tea; お is a polite prefix."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "お茶 means tea; お is a polite prefix."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which reading belongs to 好き?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ひる",
+          "rationale": "Not quite. 好き is read すき, 'liked' or 'fond of'."
+        },
+        {
+          "id": "c2",
+          "text": "すき",
+          "rationale": "Correct. 好き is read すき, 'liked' or 'fond of'."
+        },
+        {
+          "id": "c3",
+          "text": "みず",
+          "rationale": "Not quite. 好き is read すき, 'liked' or 'fond of'."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "好き is read すき, 'liked' or 'fond of'."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word can mean 'cooked rice' or 'meal'?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だち",
+          "rationale": "Not quite. ご飯（ごはん） refers to cooked rice or a meal."
+        },
+        {
+          "id": "c2",
+          "text": "水",
+          "rationale": "Not quite. ご飯（ごはん） refers to cooked rice or a meal."
+        },
+        {
+          "id": "c3",
+          "text": "ご飯",
+          "rationale": "Correct. ご飯（ごはん） refers to cooked rice or a meal."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ご飯（ごはん） refers to cooked rice or a meal."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 昼 mean in 昼ご飯?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "daytime / noon",
+          "rationale": "Correct. 昼（ひる） means daytime/noon, so 昼ご飯 is lunch."
+        },
+        {
+          "id": "c2",
+          "text": "friend",
+          "rationale": "Not quite. 昼（ひる） means daytime/noon, so 昼ご飯 is lunch."
+        },
+        {
+          "id": "c3",
+          "text": "drink",
+          "rationale": "Not quite. 昼（ひる） means daytime/noon, so 昼ご飯 is lunch."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "昼（ひる） means daytime/noon, so 昼ご飯 is lunch."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'friend'?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶",
+          "rationale": "Not quite. 友だち（ともだち） means friend."
+        },
+        {
+          "id": "c2",
+          "text": "友だち",
+          "rationale": "Correct. 友だち（ともだち） means friend."
+        },
+        {
+          "id": "c3",
+          "text": "飲みます",
+          "rationale": "Not quite. 友だち（ともだち） means friend."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "友だち（ともだち） means friend."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence means 'I like tea'?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶を飲みます。",
+          "rationale": "Not quite. お茶が好きです describes liking tea; が marks the liked thing."
+        },
+        {
+          "id": "c2",
+          "text": "お茶を食べます。",
+          "rationale": "Not quite. お茶が好きです describes liking tea; が marks the liked thing."
+        },
+        {
+          "id": "c3",
+          "text": "お茶が好きです。",
+          "rationale": "Correct. お茶が好きです describes liking tea; が marks the liked thing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "お茶が好きです describes liking tea; が marks the liked thing."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly means 'I drink water'?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水を飲みます。",
+          "rationale": "Correct. 水を飲みます is an action: を marks the drink being consumed."
+        },
+        {
+          "id": "c2",
+          "text": "水が好きです。",
+          "rationale": "Not quite. 水を飲みます is an action: を marks the drink being consumed."
+        },
+        {
+          "id": "c3",
+          "text": "水を食べます。",
+          "rationale": "Not quite. 水を飲みます is an action: を marks the drink being consumed."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "水を飲みます is an action: を marks the drink being consumed."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the first café note, what does the writer drink?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶",
+          "rationale": "Not quite. The note explicitly says わたしは水を飲みます."
+        },
+        {
+          "id": "c2",
+          "text": "水",
+          "rationale": "Correct. The note explicitly says わたしは水を飲みます."
+        },
+        {
+          "id": "c3",
+          "text": "コーヒー",
+          "rationale": "Not quite. The note explicitly says わたしは水を飲みます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The note explicitly says わたしは水を飲みます."
+    },
+    {
+      "id": "ex-n5-m04-c01-l04-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which pair correctly matches the two actions?",
+      "objectiveIds": [
+        "n5-m04-c01-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l04-food-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べます = drink; 飲みます = eat",
+          "rationale": "Not quite. 食べます means eat and 飲みます means drink."
+        },
+        {
+          "id": "c2",
+          "text": "食べます = like; 飲みます = eat",
+          "rationale": "Not quite. 食べます means eat and 飲みます means drink."
+        },
+        {
+          "id": "c3",
+          "text": "食べます = eat; 飲みます = drink",
+          "rationale": "Correct. 食べます means eat and 飲みます means drink."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "食べます means eat and 飲みます means drink."
+    }
+  ]
+}
