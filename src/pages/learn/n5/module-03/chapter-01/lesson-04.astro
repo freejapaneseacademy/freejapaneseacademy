@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import CalendarKanjiPractice from '../../../../../components/interactive/CalendarKanjiPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/calendar-kanji-reading');
+if(!lesson||lesson.data.lessonId!=='n5-m03-c01-l04')throw new Error('Missing canonical lesson n5-m03-c01-l04');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Numbers, dates and counters',href:'/learn/n5/module-03/chapter-01/lesson-04/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 03 · Chapter 01 · Lesson 04</span></nav>
+<span class="eyebrow">N5 · MODULE 03 · CHAPTER 01 · LESSON 04</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Original written calendar</span><span>10 practice questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+<div class="course-notice"><strong>Original written lesson.</strong> No audio claimed. Independent Japanese and assessment reviews pending.</div>
+<div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+<article class="lesson-article foundation-article"><Content/></article><CalendarKanjiPractice client:load/>
+<div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion is separate from your practice score.</p><LessonActions client:load lessonId="n5-m03-c01-l04" level="n5"/></div>
+<div class="lesson-next"><h3>Continue learning</h3><p>Next: reading a complete timetable.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div>
+</div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Read the counter, not just the number</h3><p>月 and 日 mark a date; 時 marks an hour; 人 counts people; 枚 counts sheets. Every weekday includes 曜日.</p></aside></div></section>
+</Base>
