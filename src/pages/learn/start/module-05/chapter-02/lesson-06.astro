@@ -1,0 +1,27 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import manifest from '../../../../../content/audio/l0-m05-c02-l06-v1.json';
+import exercise from '../../../../../content/exercises/l0-m05-c02-l06.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'l0/numbers-personal-details-listening');
+if (!lesson || lesson.data.lessonId !== 'l0-m05-c02-l06') throw new Error('Missing canonical listening lesson');
+const { Content } = await render(lesson);
+const tracks = manifest.assets.map((asset, i) => ({
+ id: (i === 0 ? 'a' : 'b') as 'a' | 'b',
+ assetId: asset.id, label: i === 0 ? 'Track A — Registration desk' : 'Track B — New classmates',
+ url: asset.mediaPath, durationSeconds: asset.durationSeconds,
+ transcript: asset.transcript, english: asset.english
+}));
+const questions = exercise.items.map(item => ({
+ id: item.id, trackId: item.trackId, prompt: item.prompt,
+ choices: item.choices, answerKey: item.answerKey,
+ explanation: item.explanation, evidence: item.evidence
+}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'}]}>
+ <section class="page-hero"><div class="container"><p class="eyebrow">Level 0 · Module 05 · Chapter 02 · Lesson 06</p><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p></div></section>
+ <main class="container min-w-0 py-8"><article class="lesson-prose min-w-0"><Content /></article><div class="my-10 min-w-0"><ReusableListeningPractice client:load lessonId="l0-m05-c02-l06" level="l0" version={1} tracks={tracks} questions={questions} /></div><LessonActions client:load lessonId="l0-m05-c02-l06" level="l0" /></main>
+</Base>

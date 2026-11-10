@@ -1,0 +1,342 @@
+{
+  "id": "l0-m05-c01-l05",
+  "lessonId": "l0-m05-c01-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original four-card Japanese study-club reading, written by FreeJapaneseAcademy; no external assets",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c01-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "Which card greets the morning group politely?",
+      "explanation": "Card A explicitly says おはようございます under あさのクラスへようこそ.",
+      "feedback": "Card A explicitly says おはようございます under あさのクラスへようこそ.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-01-c1",
+          "text": "Card A",
+          "rationale": "Correct. Card A explicitly says おはようございます under あさのクラスへようこそ."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-01-c2",
+          "text": "Card B",
+          "rationale": "This is not the cited evidence. Card A explicitly says おはようございます under あさのクラスへようこそ."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-01-c3",
+          "text": "Card D",
+          "rationale": "This is not the cited evidence. Card A explicitly says おはようございます under あさのクラスへようこそ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "Which exact phrase addresses everyone in the daytime class?",
+      "explanation": "Card B begins ひるのクラスのみなさんへ, identifying its intended readers.",
+      "feedback": "Card B begins ひるのクラスのみなさんへ, identifying its intended readers.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-02-c1",
+          "text": "ひるのクラスのみなさんへ",
+          "rationale": "Correct. Card B begins ひるのクラスのみなさんへ, identifying its intended readers."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-02-c2",
+          "text": "あさのクラスへようこそ",
+          "rationale": "This is not the cited evidence. Card B begins ひるのクラスのみなさんへ, identifying its intended readers."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-02-c3",
+          "text": "せんせいからの おねがい",
+          "rationale": "This is not the cited evidence. Card B begins ひるのクラスのみなさんへ, identifying its intended readers."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "Which line directly asks the reader to read a card?",
+      "explanation": "Card C uses よんでください, the polite request to read.",
+      "feedback": "Card C uses よんでください, the polite request to read.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-03-c1",
+          "text": "このカードを よんでください",
+          "rationale": "Correct. Card C uses よんでください, the polite request to read."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-03-c2",
+          "text": "せんせいと いっしょに べんきょうしましょう",
+          "rationale": "This is not the cited evidence. Card C uses よんでください, the polite request to read."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-03-c3",
+          "text": "また あした",
+          "rationale": "This is not the cited evidence. Card C uses よんでください, the polite request to read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "What action comes after reading in Card C?",
+      "explanation": "Card C says つぎに、なまえを かいてください: next, write your name.",
+      "feedback": "Card C says つぎに、なまえを かいてください: next, write your name.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-04-c1",
+          "text": "Write your name",
+          "rationale": "Correct. Card C says つぎに、なまえを かいてください: next, write your name."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-04-c2",
+          "text": "Greet the morning class",
+          "rationale": "This is not the cited evidence. Card C says つぎに、なまえを かいてください: next, write your name."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-04-c3",
+          "text": "Thank the teacher",
+          "rationale": "This is not the cited evidence. Card C says つぎに、なまえを かいてください: next, write your name."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "Which card contains a thank-you after class?",
+      "explanation": "Card D begins きょうは ありがとうございました, thanking someone for today.",
+      "feedback": "Card D begins きょうは ありがとうございました, thanking someone for today.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-05-c1",
+          "text": "Card D",
+          "rationale": "Correct. Card D begins きょうは ありがとうございました, thanking someone for today."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-05-c2",
+          "text": "Card A",
+          "rationale": "This is not the cited evidence. Card D begins きょうは ありがとうございました, thanking someone for today."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-05-c3",
+          "text": "Card C",
+          "rationale": "This is not the cited evidence. Card D begins きょうは ありがとうございました, thanking someone for today."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "Which expression is the daytime greeting printed on Card B?",
+      "explanation": "Card B explicitly prints こんにちは. Standard spelling ends with は, pronounced wa.",
+      "feedback": "Card B explicitly prints こんにちは. Standard spelling ends with は, pronounced wa.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-06-c1",
+          "text": "こんにちは",
+          "rationale": "Correct. Card B explicitly prints こんにちは. Standard spelling ends with は, pronounced wa."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-06-c2",
+          "text": "おはようございます",
+          "rationale": "This is not the cited evidence. Card B explicitly prints こんにちは. Standard spelling ends with は, pronounced wa."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-06-c3",
+          "text": "また あした",
+          "rationale": "This is not the cited evidence. Card B explicitly prints こんにちは. Standard spelling ends with は, pronounced wa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "Which Japanese phrase supports 'see you tomorrow'?",
+      "explanation": "Card D prints また あした, literally again tomorrow, used as a farewell.",
+      "feedback": "Card D prints また あした, literally again tomorrow, used as a farewell.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-07-c1",
+          "text": "また あした",
+          "rationale": "Correct. Card D prints また あした, literally again tomorrow, used as a farewell."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-07-c2",
+          "text": "きょうも よろしくおねがいします",
+          "rationale": "This is not the cited evidence. Card D prints また あした, literally again tomorrow, used as a farewell."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-07-c3",
+          "text": "なまえを かいてください",
+          "rationale": "This is not the cited evidence. Card D prints また あした, literally again tomorrow, used as a farewell."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c01-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m05-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c01-l05-greeting-cards"
+      ],
+      "prompt": "Which card contains two ordered classroom requests?",
+      "explanation": "Card C says よんでください and then つぎに、なまえを かいてください.",
+      "feedback": "Card C says よんでください and then つぎに、なまえを かいてください.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c01-l05-08-c1",
+          "text": "Card C",
+          "rationale": "Correct. Card C says よんでください and then つぎに、なまえを かいてください."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-08-c2",
+          "text": "Card B",
+          "rationale": "This is not the cited evidence. Card C says よんでください and then つぎに、なまえを かいてください."
+        },
+        {
+          "id": "ex-l0-m05-c01-l05-08-c3",
+          "text": "Card D",
+          "rationale": "This is not the cited evidence. Card C says よんでください and then つぎに、なまえを かいてください."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c01-l05-08-c1"
+      }
+    }
+  ]
+}
