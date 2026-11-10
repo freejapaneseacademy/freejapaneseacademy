@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import FrequencyGrammarPractice from '../../../../../components/interactive/FrequencyGrammarPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'n5/frequency-habits-grammar');
+if (!lesson || lesson.data.lessonId !== 'n5-m03-c04-l03') throw new Error('Missing canonical lesson n5-m03-c04-l03');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Frequency and habits',href:'/learn/n5/module-03/chapter-04/lesson-03/'}]}>
+  <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 03 · CHAPTER 04 · LESSON 03</span><h1>Frequency and habits</h1><p>{lesson.data.description}</p><p>About {lesson.data.minutes} minutes · Written grammar and reading</p></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice">Original written lesson. Independent Japanese-language and assessment review pending; no audio or pronunciation grade is claimed.</div>
+    <div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map((objective:string)=><li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <FrequencyGrammarPractice client:load />
+    <div class="foundation-completion"><h2>Complete the lesson</h2><p>Completion and question accuracy are stored separately.</p><LessonActions client:load lessonId="n5-m03-c04-l03" level="n5" /></div>
+    <div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 course</a><a class="btn btn-outline" href="/dashboard/">Progress dashboard</a></div>
+  </div><aside class="lesson-side foundation-side"><h2>Study guide</h2><p>Learn five frequency expressions, correct negative patterns, read Sora's original journal and answer twelve questions.</p></aside></div></section>
+</Base>
