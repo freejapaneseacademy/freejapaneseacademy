@@ -1,0 +1,522 @@
+{
+  "lessonId": "n5-m04-c03-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l02-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-1"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which word means 'delicious' in 「このパンは___です」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "おいしい",
+          "rationale": "おいしい evaluates food as delicious."
+        },
+        {
+          "id": "c2",
+          "text": "からい",
+          "rationale": "Not in this context: からい. おいしい evaluates food as delicious."
+        },
+        {
+          "id": "c3",
+          "text": "しずか",
+          "rationale": "Not in this context: しずか. おいしい evaluates food as delicious."
+        },
+        {
+          "id": "c4",
+          "text": "安い",
+          "rationale": "Not in this context: 安い. おいしい evaluates food as delicious."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "おいしい evaluates food as delicious."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-2"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "A soup tastes bad. Which description fits?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "きれい",
+          "rationale": "Not in this context: きれい. まずい is a negative taste judgment; use tact in real conversations."
+        },
+        {
+          "id": "c2",
+          "text": "小さい",
+          "rationale": "Not in this context: 小さい. まずい is a negative taste judgment; use tact in real conversations."
+        },
+        {
+          "id": "c3",
+          "text": "いい",
+          "rationale": "Not in this context: いい. まずい is a negative taste judgment; use tact in real conversations."
+        },
+        {
+          "id": "c4",
+          "text": "まずい",
+          "rationale": "まずい is a negative taste judgment; use tact in real conversations."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "まずい is a negative taste judgment; use tact in real conversations."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-3"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "The cake is sweet. Choose the Japanese word.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "高い",
+          "rationale": "Not in this context: 高い. あまい describes sweetness."
+        },
+        {
+          "id": "c2",
+          "text": "しずか",
+          "rationale": "Not in this context: しずか. あまい describes sweetness."
+        },
+        {
+          "id": "c3",
+          "text": "あまい",
+          "rationale": "あまい describes sweetness."
+        },
+        {
+          "id": "c4",
+          "text": "しょっぱい",
+          "rationale": "Not in this context: しょっぱい. あまい describes sweetness."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "あまい describes sweetness."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-4"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "The curry is spicy, not necessarily hot in temperature. Which word?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "安い",
+          "rationale": "Not in this context: 安い. からい describes spiciness."
+        },
+        {
+          "id": "c2",
+          "text": "からい",
+          "rationale": "からい describes spiciness."
+        },
+        {
+          "id": "c3",
+          "text": "あまい",
+          "rationale": "Not in this context: あまい. からい describes spiciness."
+        },
+        {
+          "id": "c4",
+          "text": "大きい",
+          "rationale": "Not in this context: 大きい. からい describes spiciness."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "からい describes spiciness."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-5"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which word describes a salty soup?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "しょっぱい",
+          "rationale": "しょっぱい means salty."
+        },
+        {
+          "id": "c2",
+          "text": "おいしい",
+          "rationale": "Not in this context: おいしい. しょっぱい means salty."
+        },
+        {
+          "id": "c3",
+          "text": "小さい",
+          "rationale": "Not in this context: 小さい. しょっぱい means salty."
+        },
+        {
+          "id": "c4",
+          "text": "きれい",
+          "rationale": "Not in this context: きれい. しょっぱい means salty."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "しょっぱい means salty."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-6"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which word describes a large bag?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "小さい",
+          "rationale": "Not in this context: 小さい. 大きい (おおきい) describes large size."
+        },
+        {
+          "id": "c2",
+          "text": "まずい",
+          "rationale": "Not in this context: まずい. 大きい (おおきい) describes large size."
+        },
+        {
+          "id": "c3",
+          "text": "しずか",
+          "rationale": "Not in this context: しずか. 大きい (おおきい) describes large size."
+        },
+        {
+          "id": "c4",
+          "text": "大きい",
+          "rationale": "大きい (おおきい) describes large size."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "大きい (おおきい) describes large size."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-7"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which word describes a small bag?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "高い",
+          "rationale": "Not in this context: 高い. 小さい (ちいさい) describes small size."
+        },
+        {
+          "id": "c2",
+          "text": "からい",
+          "rationale": "Not in this context: からい. 小さい (ちいさい) describes small size."
+        },
+        {
+          "id": "c3",
+          "text": "小さい",
+          "rationale": "小さい (ちいさい) describes small size."
+        },
+        {
+          "id": "c4",
+          "text": "大きい",
+          "rationale": "Not in this context: 大きい. 小さい (ちいさい) describes small size."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "小さい (ちいさい) describes small size."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-8"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "At a shop, 「このとけいは高いです」 means the watch is...?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "small",
+          "rationale": "Not in this context: small. 高い (たかい) commonly means expensive in shopping contexts."
+        },
+        {
+          "id": "c2",
+          "text": "expensive",
+          "rationale": "高い (たかい) commonly means expensive in shopping contexts."
+        },
+        {
+          "id": "c3",
+          "text": "salty",
+          "rationale": "Not in this context: salty. 高い (たかい) commonly means expensive in shopping contexts."
+        },
+        {
+          "id": "c4",
+          "text": "quiet",
+          "rationale": "Not in this context: quiet. 高い (たかい) commonly means expensive in shopping contexts."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "高い (たかい) commonly means expensive in shopping contexts."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-9"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which Japanese adjective says a notebook is inexpensive?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "安い",
+          "rationale": "安い (やすい) describes a low price."
+        },
+        {
+          "id": "c2",
+          "text": "高い",
+          "rationale": "Not in this context: 高い. 安い (やすい) describes a low price."
+        },
+        {
+          "id": "c3",
+          "text": "まずい",
+          "rationale": "Not in this context: まずい. 安い (やすい) describes a low price."
+        },
+        {
+          "id": "c4",
+          "text": "あまい",
+          "rationale": "Not in this context: あまい. 安い (やすい) describes a low price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "安い (やすい) describes a low price."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-10"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which adjective means 'good' in 「この店は___です」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "まずい",
+          "rationale": "Not in this context: まずい. いい means good; its negative form is irregular."
+        },
+        {
+          "id": "c2",
+          "text": "からい",
+          "rationale": "Not in this context: からい. いい means good; its negative form is irregular."
+        },
+        {
+          "id": "c3",
+          "text": "小さい",
+          "rationale": "Not in this context: 小さい. いい means good; its negative form is irregular."
+        },
+        {
+          "id": "c4",
+          "text": "いい",
+          "rationale": "いい means good; its negative form is irregular."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "いい means good; its negative form is irregular."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-11"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which word means 'clean / beautiful' and is a な-adjective?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あまい",
+          "rationale": "Not in this context: あまい. きれい is a な-adjective despite ending in the sound い."
+        },
+        {
+          "id": "c2",
+          "text": "高い",
+          "rationale": "Not in this context: 高い. きれい is a な-adjective despite ending in the sound い."
+        },
+        {
+          "id": "c3",
+          "text": "きれい",
+          "rationale": "きれい is a な-adjective despite ending in the sound い."
+        },
+        {
+          "id": "c4",
+          "text": "大きい",
+          "rationale": "Not in this context: 大きい. きれい is a な-adjective despite ending in the sound い."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "きれい is a な-adjective despite ending in the sound い."
+    },
+    {
+      "id": "ex-n5-m04-c03-l02-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c03-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l02-word-12"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which word means 'quiet' in 「このカフェは___です」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "おいしい",
+          "rationale": "Not in this context: おいしい. しずか is a な-adjective describing quietness."
+        },
+        {
+          "id": "c2",
+          "text": "しずか",
+          "rationale": "しずか is a な-adjective describing quietness."
+        },
+        {
+          "id": "c3",
+          "text": "しょっぱい",
+          "rationale": "Not in this context: しょっぱい. しずか is a な-adjective describing quietness."
+        },
+        {
+          "id": "c4",
+          "text": "安い",
+          "rationale": "Not in this context: 安い. しずか is a な-adjective describing quietness."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "しずか is a な-adjective describing quietness."
+    }
+  ]
+}
