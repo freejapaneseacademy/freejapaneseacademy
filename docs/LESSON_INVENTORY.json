@@ -3380,6 +3380,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses predecessor N5-M01-C02-L06 recordings; authentic WAVs, rights and hashes require verification",
       "noindex": false
+    },
+    {
+      "id": "n5-m03-c02-l08",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c02",
+      "slot": "L08",
+      "title": "Talk through a school day — optional daily-routine roleplay",
+      "content": "src/content/lessons/n5/daily-routine-roleplay.mdx",
+      "url": "/learn/n5/module-03/chapter-02/lesson-08/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "no new audio; original written optional speaking model, verified L06 audio not claimed",
+      "noindex": true,
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
