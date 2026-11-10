@@ -1,0 +1,474 @@
+{
+  "lessonId": "n5-m01-c04-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m01-c04-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-1"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Which sentence means 'I am a student' politely?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "わたしは学生です。",
+          "rationale": "は marks the topic; 学生です states the identity."
+        },
+        {
+          "id": "b",
+          "text": "わたしの学生です。",
+          "rationale": "の would link nouns, not mark the topic."
+        },
+        {
+          "id": "c",
+          "text": "わたしは学生か。",
+          "rationale": "か alone is not the polite ですか question pattern."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "は marks the topic; 学生です states the identity.",
+      "evidence": "わたしは学生です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-2"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Which sentence asks politely whether Mori is a teacher?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "森さんは先生ですか。",
+          "rationale": "ですか forms a polite yes/no question."
+        },
+        {
+          "id": "b",
+          "text": "森さんの先生です。",
+          "rationale": "の indicates a noun relationship."
+        },
+        {
+          "id": "c",
+          "text": "森さんも先生か。",
+          "rationale": "も means also; this omits the polite predicate."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ですか forms a polite yes/no question.",
+      "evidence": "森さんは先生ですか。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-3"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Choose the polite negative: 'I am not a company employee.'",
+      "choices": [
+        {
+          "id": "a",
+          "text": "わたしは会社員じゃありません。",
+          "rationale": "じゃありません negates a noun predicate."
+        },
+        {
+          "id": "b",
+          "text": "わたしは会社員です。",
+          "rationale": "です is affirmative."
+        },
+        {
+          "id": "c",
+          "text": "わたしの会社員じゃありません。",
+          "rationale": "の cannot replace topic は here."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "じゃありません negates a noun predicate.",
+      "evidence": "わたしは会社員じゃありません。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-4"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Which says 'I am also a student' after someone says they are a student?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "わたしも学生です。",
+          "rationale": "も replaces は when adding 'also' to the topic."
+        },
+        {
+          "id": "b",
+          "text": "わたしの学生です。",
+          "rationale": "の means a noun relationship."
+        },
+        {
+          "id": "c",
+          "text": "わたしはも学生です。",
+          "rationale": "はも is not the intended particle sequence."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "も replaces は when adding 'also' to the topic.",
+      "evidence": "わたしも学生です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-5"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "How do you say 'My hometown is Kyoto' using a noun sentence?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "出身は京都です。",
+          "rationale": "出身は京都です identifies the place of origin."
+        },
+        {
+          "id": "b",
+          "text": "出身の京都です。",
+          "rationale": "の is not the topic marker."
+        },
+        {
+          "id": "c",
+          "text": "出身も京都か。",
+          "rationale": "This does not form the intended polite statement."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "出身は京都です identifies the place of origin.",
+      "evidence": "出身は京都です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-6"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Which phrase means 'Mori's school'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "森さんの学校",
+          "rationale": "の links Mori and the school."
+        },
+        {
+          "id": "b",
+          "text": "森さんは学校",
+          "rationale": "は would mark a topic, not link the two nouns."
+        },
+        {
+          "id": "c",
+          "text": "森さんも学校",
+          "rationale": "も adds 'also', not possession or association."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "の links Mori and the school.",
+      "evidence": "森さんの学校"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-7"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Profile: 『わたしは森です。大学生です。』 What is Mori's role?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "University student",
+          "rationale": "大学生 explicitly means university student."
+        },
+        {
+          "id": "b",
+          "text": "Teacher",
+          "rationale": "先生 would mean teacher."
+        },
+        {
+          "id": "c",
+          "text": "Company employee",
+          "rationale": "会社員 would mean company employee."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "大学生 explicitly means university student.",
+      "evidence": "大学生です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-8"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Profile: 『出身は大阪です。』 Where is the speaker from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Osaka",
+          "rationale": "大阪 is the stated hometown."
+        },
+        {
+          "id": "b",
+          "text": "Tokyo",
+          "rationale": "東京 is not named."
+        },
+        {
+          "id": "c",
+          "text": "Kyoto",
+          "rationale": "京都 is not named."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "大阪 is the stated hometown.",
+      "evidence": "出身は大阪です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-9"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "In 『わたしも学生です。』 what does も contribute?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Also",
+          "rationale": "も adds another person to the same category."
+        },
+        {
+          "id": "b",
+          "text": "Not",
+          "rationale": "Negation needs じゃありません or ではありません."
+        },
+        {
+          "id": "c",
+          "text": "Question",
+          "rationale": "A polite question uses ですか."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "も adds another person to the same category.",
+      "evidence": "わたしも学生です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-10"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "In 『森さんは二十歳です。』 what is stated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mori is twenty years old.",
+          "rationale": "二十歳（はたち） means twenty years old."
+        },
+        {
+          "id": "b",
+          "text": "Mori is twelve years old.",
+          "rationale": "十二歳 means twelve years old."
+        },
+        {
+          "id": "c",
+          "text": "Mori is a teacher.",
+          "rationale": "先生 means teacher."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "二十歳（はたち） means twenty years old.",
+      "evidence": "二十歳です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-11"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which answer appropriately replies to 『学生ですか。』 with 'No, I am a teacher'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "いいえ、先生です。",
+          "rationale": "いいえ rejects the student description and 先生です supplies the correction."
+        },
+        {
+          "id": "b",
+          "text": "はい、学生です。",
+          "rationale": "はい confirms student status."
+        },
+        {
+          "id": "c",
+          "text": "いいえ、学生です。",
+          "rationale": "いいえ conflicts with the repeated affirmative student predicate in this context."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "いいえ rejects the student description and 先生です supplies the correction.",
+      "evidence": "いいえ、先生です。"
+    },
+    {
+      "id": "ex-n5-m01-c04-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l03-nominal-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l03-concept-12"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Choose the correct reading of 『学校（がっこう）』.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "がっこう",
+          "rationale": "The small っ marks a consonant closure before こ."
+        },
+        {
+          "id": "b",
+          "text": "がこう",
+          "rationale": "Missing っ changes the word."
+        },
+        {
+          "id": "c",
+          "text": "がっこ",
+          "rationale": "The long おう ending is missing."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The small っ marks a consonant closure before こ.",
+      "evidence": "学校（がっこう）"
+    }
+  ]
+}

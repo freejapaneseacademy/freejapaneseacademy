@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import KanaFluencyLab from '../../../../../components/interactive/KanaFluencyLab';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/kana-fluency-lab');
+if(!lesson)throw new Error('Missing l0-m05-c04-l04');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={false} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Foundation review',href:'/learn/start/module-05/chapter-04/lesson-04/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">LEVEL 0 · MODULE 05 · CHAPTER 04 · LESSON 04</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice">Original academy lesson. Independent Japanese and assessment reviews pending.</div><div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content /></article><KanaFluencyLab client:load/><div class="foundation-completion"><h2>Finish the lesson</h2><LessonActions client:load lessonId="l0-m05-c04-l04" level="l0"/></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/start/module-05/chapter-04/lesson-03/">Previous lesson</a><a class="btn btn-primary" href="/learn/start/module-05/chapter-04/lesson-05/">Next lesson</a></div></div><aside class="lesson-side foundation-side"><h3>Study guide</h3><p>Compare the forms, type without the model, then revisit two weak forms.</p><p>No audio is required for this written script lesson.</p></aside></div></section>
+</Base>
