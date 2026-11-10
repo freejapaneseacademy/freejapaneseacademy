@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/HabitSurveyListening';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/habit-survey-listening');
+if(!lesson||lesson.data.lessonId!=='n5-m03-c04-l06')throw new Error('Missing canonical habit-survey lesson');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Habit surveys',href:'/learn/n5/module-03/chapter-04/lesson-06/'}]}>
+<section class="page-hero"><div class="container"><p class="eyebrow">N5 · MODULE 03 · CHAPTER 04 · LESSON 06</p><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Two audio conversations</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice">Original academy listening material. Audio and redistribution checks are required before publication; independent Japanese review is pending.</div><div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content /></article><Practice client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Mark completion on this device after practising and reviewing the transcripts.</p><LessonActions client:load lessonId="n5-m03-c04-l06" level="n5"/></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/module-03/chapter-04/lesson-05/">Previous lesson</a><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div></div><aside class="lesson-side foundation-side"><h3>Listening strategy</h3><ol><li>Play each survey without the transcript.</li><li>Catch the frequency expression and verb ending.</li><li>Answer all eight questions.</li><li>Reveal and replay the evidence.</li></ol></aside></div></section>
+</Base>
