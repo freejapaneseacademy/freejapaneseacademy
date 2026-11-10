@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 const url='/learn/n5/module-02/chapter-01/lesson-03/';
 test('keyboard selection, feedback, retry and progress',async({page})=>{
  await page.goto(url);
- await expect(page.getByRole('heading',{name:'Demonstratives and ownership'})).toBeVisible();
+ await expect(page.getByRole('heading',{level:1,name:'Demonstratives and ownership',exact:true})).toBeVisible();
  const groups=page.locator('fieldset');
  await expect(groups).toHaveCount(12);
  for(let i=0;i<12;i++){const radio=groups.nth(i).getByRole('radio').first();await radio.focus();await page.keyboard.press('Space');}
