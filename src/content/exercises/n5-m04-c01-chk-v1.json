@@ -1,0 +1,612 @@
+{
+  "lessonId": "n5-m04-c01-chk",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-chk-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which particle marks the liked food in 「魚___好きです」?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-grammar"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "が",
+          "rationale": "Correct. 好き is an adjective-like predicate; が marks what is liked. Evidence: 魚が好きです。"
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Not supported. 好き is an adjective-like predicate; が marks what is liked. Evidence: 魚が好きです。"
+        },
+        {
+          "id": "c3",
+          "text": "と",
+          "rationale": "Not supported. 好き is an adjective-like predicate; が marks what is liked. Evidence: 魚が好きです。"
+        },
+        {
+          "id": "c4",
+          "text": "で",
+          "rationale": "Not supported. 好き is an adjective-like predicate; が marks what is liked. Evidence: 魚が好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "魚が好きです。",
+      "explanation": "好き is an adjective-like predicate; が marks what is liked. Evidence: 魚が好きです。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which particle marks what is eaten in 「パン___食べます」?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-grammar"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "へ",
+          "rationale": "Not supported. を marks the direct object of 食べます. Evidence: パンを食べます。"
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Correct. を marks the direct object of 食べます. Evidence: パンを食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "が",
+          "rationale": "Not supported. を marks the direct object of 食べます. Evidence: パンを食べます。"
+        },
+        {
+          "id": "c4",
+          "text": "と",
+          "rationale": "Not supported. を marks the direct object of 食べます. Evidence: パンを食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "パンを食べます。",
+      "explanation": "を marks the direct object of 食べます. Evidence: パンを食べます。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Complete: 「パン___卵」 (bread and egg).",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-grammar"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "が",
+          "rationale": "Not supported. と links two nouns. Evidence: パンと卵"
+        },
+        {
+          "id": "c2",
+          "text": "に",
+          "rationale": "Not supported. と links two nouns. Evidence: パンと卵"
+        },
+        {
+          "id": "c3",
+          "text": "と",
+          "rationale": "Correct. と links two nouns. Evidence: パンと卵"
+        },
+        {
+          "id": "c4",
+          "text": "を",
+          "rationale": "Not supported. と links two nouns. Evidence: パンと卵"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "パンと卵",
+      "explanation": "と links two nouns. Evidence: パンと卵"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you say 'I dislike fish' politely?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-grammar"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "魚を嫌いです。",
+          "rationale": "Not supported. 嫌いです takes が for the disliked item. Evidence: 魚が嫌いです。"
+        },
+        {
+          "id": "c2",
+          "text": "魚と嫌いです。",
+          "rationale": "Not supported. 嫌いです takes が for the disliked item. Evidence: 魚が嫌いです。"
+        },
+        {
+          "id": "c3",
+          "text": "魚が食べます。",
+          "rationale": "Not supported. 嫌いです takes が for the disliked item. Evidence: 魚が嫌いです。"
+        },
+        {
+          "id": "c4",
+          "text": "魚が嫌いです。",
+          "rationale": "Correct. 嫌いです takes が for the disliked item. Evidence: 魚が嫌いです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "魚が嫌いです。",
+      "explanation": "嫌いです takes が for the disliked item. Evidence: 魚が嫌いです。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 「水を飲みます」 mean?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-grammar"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "I drink water.",
+          "rationale": "Correct. 飲みます means drink; を marks water as the object. Evidence: 水を飲みます。"
+        },
+        {
+          "id": "c2",
+          "text": "I like water.",
+          "rationale": "Not supported. 飲みます means drink; を marks water as the object. Evidence: 水を飲みます。"
+        },
+        {
+          "id": "c3",
+          "text": "Water and tea.",
+          "rationale": "Not supported. 飲みます means drink; を marks water as the object. Evidence: 水を飲みます。"
+        },
+        {
+          "id": "c4",
+          "text": "I dislike water.",
+          "rationale": "Not supported. 飲みます means drink; を marks water as the object. Evidence: 水を飲みます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "水を飲みます。",
+      "explanation": "飲みます means drink; を marks water as the object. Evidence: 水を飲みます。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'I like eggs'?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-grammar"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "卵が食べます。",
+          "rationale": "Not supported. Use が with 好きです, not を. Evidence: 卵が好きです。"
+        },
+        {
+          "id": "c2",
+          "text": "卵が好きです。",
+          "rationale": "Correct. Use が with 好きです, not を. Evidence: 卵が好きです。"
+        },
+        {
+          "id": "c3",
+          "text": "卵を好きです。",
+          "rationale": "Not supported. Use が with 好きです, not を. Evidence: 卵が好きです。"
+        },
+        {
+          "id": "c4",
+          "text": "卵と好きです。",
+          "rationale": "Not supported. Use が with 好きです, not を. Evidence: 卵が好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "卵が好きです。",
+      "explanation": "Use が with 好きです, not を. Evidence: 卵が好きです。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "According to the menu, what does パンセット contain?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Bread and fish",
+          "rationale": "Not supported. The menu lists bread and egg as its contents. Evidence: パンセット：パンと卵"
+        },
+        {
+          "id": "c2",
+          "text": "Egg and tea",
+          "rationale": "Not supported. The menu lists bread and egg as its contents. Evidence: パンセット：パンと卵"
+        },
+        {
+          "id": "c3",
+          "text": "Bread and egg",
+          "rationale": "Correct. The menu lists bread and egg as its contents. Evidence: パンセット：パンと卵"
+        },
+        {
+          "id": "c4",
+          "text": "Fish and rice",
+          "rationale": "Not supported. The menu lists bread and egg as its contents. Evidence: パンセット：パンと卵"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "パンセット：パンと卵",
+      "explanation": "The menu lists bread and egg as its contents. Evidence: パンセット：パンと卵"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How much is 魚セット?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "500円",
+          "rationale": "Not supported. Read the price beside the fish set. Evidence: 魚セット：600円"
+        },
+        {
+          "id": "c2",
+          "text": "200円",
+          "rationale": "Not supported. Read the price beside the fish set. Evidence: 魚セット：600円"
+        },
+        {
+          "id": "c3",
+          "text": "100円",
+          "rationale": "Not supported. Read the price beside the fish set. Evidence: 魚セット：600円"
+        },
+        {
+          "id": "c4",
+          "text": "600円",
+          "rationale": "Correct. Read the price beside the fish set. Evidence: 魚セット：600円"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "魚セット：600円",
+      "explanation": "Read the price beside the fish set. Evidence: 魚セット：600円"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which drink costs 200円?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶",
+          "rationale": "Correct. The menu prices tea at 200 yen. Evidence: お茶：200円"
+        },
+        {
+          "id": "c2",
+          "text": "水",
+          "rationale": "Not supported. The menu prices tea at 200 yen. Evidence: お茶：200円"
+        },
+        {
+          "id": "c3",
+          "text": "牛乳",
+          "rationale": "Not supported. The menu prices tea at 200 yen. Evidence: お茶：200円"
+        },
+        {
+          "id": "c4",
+          "text": "コーヒー",
+          "rationale": "Not supported. The menu prices tea at 200 yen. Evidence: お茶：200円"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "お茶：200円",
+      "explanation": "The menu prices tea at 200 yen. Evidence: お茶：200円"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the menu say about drinks included in sets?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "All drinks are free.",
+          "rationale": "Not supported. ついていません means not included. Evidence: セットに飲み物はついていません。"
+        },
+        {
+          "id": "c2",
+          "text": "They are not included.",
+          "rationale": "Correct. ついていません means not included. Evidence: セットに飲み物はついていません。"
+        },
+        {
+          "id": "c3",
+          "text": "Tea is included.",
+          "rationale": "Not supported. ついていません means not included. Evidence: セットに飲み物はついていません。"
+        },
+        {
+          "id": "c4",
+          "text": "Milk is included.",
+          "rationale": "Not supported. ついていません means not included. Evidence: セットに飲み物はついていません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "セットに飲み物はついていません。",
+      "explanation": "ついていません means not included. Evidence: セットに飲み物はついていません。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "prompt": "What does the customer order in dialogue A?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-listening"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Bread",
+          "rationale": "Not supported. The customer asks for curry. Evidence: カレーをお願いします。"
+        },
+        {
+          "id": "c2",
+          "text": "Cake",
+          "rationale": "Not supported. The customer asks for curry. Evidence: カレーをお願いします。"
+        },
+        {
+          "id": "c3",
+          "text": "Curry",
+          "rationale": "Correct. The customer asks for curry. Evidence: カレーをお願いします。"
+        },
+        {
+          "id": "c4",
+          "text": "Salad",
+          "rationale": "Not supported. The customer asks for curry. Evidence: カレーをお願いします。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "カレーをお願いします。",
+      "explanation": "The customer asks for curry. Evidence: カレーをお願いします。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "prompt": "Which drink is requested in dialogue A?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-listening"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Coffee",
+          "rationale": "Not supported. The request specifies tea. Evidence: 飲み物はお茶をください。"
+        },
+        {
+          "id": "c2",
+          "text": "Water",
+          "rationale": "Not supported. The request specifies tea. Evidence: 飲み物はお茶をください。"
+        },
+        {
+          "id": "c3",
+          "text": "Milk",
+          "rationale": "Not supported. The request specifies tea. Evidence: 飲み物はお茶をください。"
+        },
+        {
+          "id": "c4",
+          "text": "Tea",
+          "rationale": "Correct. The request specifies tea. Evidence: 飲み物はお茶をください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "飲み物はお茶をください。",
+      "explanation": "The request specifies tea. Evidence: 飲み物はお茶をください。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q13-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "prompt": "What does the woman eat in dialogue B?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-listening"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Ice cream",
+          "rationale": "Correct. She explicitly says ice cream. Evidence: 今日はアイスクリームを食べます。"
+        },
+        {
+          "id": "c2",
+          "text": "Cake",
+          "rationale": "Not supported. She explicitly says ice cream. Evidence: 今日はアイスクリームを食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "Curry",
+          "rationale": "Not supported. She explicitly says ice cream. Evidence: 今日はアイスクリームを食べます。"
+        },
+        {
+          "id": "c4",
+          "text": "Bread",
+          "rationale": "Not supported. She explicitly says ice cream. Evidence: 今日はアイスクリームを食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "今日はアイスクリームを食べます。",
+      "explanation": "She explicitly says ice cream. Evidence: 今日はアイスクリームを食べます。"
+    },
+    {
+      "id": "ex-n5-m04-c01-chk-q14-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "prompt": "What does the woman drink in dialogue B?",
+      "objectiveIds": [
+        "n5-m04-c01-chk-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-chk-listening"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Juice",
+          "rationale": "Not supported. She explicitly says water. Evidence: わたしは水を飲みます。"
+        },
+        {
+          "id": "c2",
+          "text": "Water",
+          "rationale": "Correct. She explicitly says water. Evidence: わたしは水を飲みます。"
+        },
+        {
+          "id": "c3",
+          "text": "Coffee",
+          "rationale": "Not supported. She explicitly says water. Evidence: わたしは水を飲みます。"
+        },
+        {
+          "id": "c4",
+          "text": "Tea",
+          "rationale": "Not supported. She explicitly says water. Evidence: わたしは水を飲みます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "わたしは水を飲みます。",
+      "explanation": "She explicitly says water. Evidence: わたしは水を飲みます。"
+    }
+  ]
+}
