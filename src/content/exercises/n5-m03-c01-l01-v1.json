@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m03-c01-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the purpose of the notice?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A calligraphy workshop schedule",
+          "rationale": "The heading and timetable describe a calligraphy workshop."
+        },
+        {
+          "id": "c2",
+          "text": "A train delay announcement",
+          "rationale": "This does not match the written notice or the counter explanation; The heading and timetable describe a calligraphy workshop."
+        },
+        {
+          "id": "c3",
+          "text": "A restaurant menu",
+          "rationale": "This does not match the written notice or the counter explanation; The heading and timetable describe a calligraphy workshop."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The heading and timetable describe a calligraphy workshop."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "On what date is the workshop?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "December 14",
+          "rationale": "This does not match the written notice or the counter explanation; 11月14日 is November 14."
+        },
+        {
+          "id": "c2",
+          "text": "November 14",
+          "rationale": "11月14日 is November 14."
+        },
+        {
+          "id": "c3",
+          "text": "November 4",
+          "rationale": "This does not match the written notice or the counter explanation; 11月14日 is November 14."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "11月14日 is November 14."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the stated start time?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "11 a.m.",
+          "rationale": "This does not match the written notice or the counter explanation; 午前10時から marks a 10 a.m. start."
+        },
+        {
+          "id": "c2",
+          "text": "10 p.m.",
+          "rationale": "This does not match the written notice or the counter explanation; 午前10時から marks a 10 a.m. start."
+        },
+        {
+          "id": "c3",
+          "text": "10 a.m.",
+          "rationale": "午前10時から marks a 10 a.m. start."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "午前10時から marks a 10 a.m. start."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does the workshop finish?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "11 a.m.",
+          "rationale": "The notice says 11時まで after a morning start."
+        },
+        {
+          "id": "c2",
+          "text": "10 a.m.",
+          "rationale": "This does not match the written notice or the counter explanation; The notice says 11時まで after a morning start."
+        },
+        {
+          "id": "c3",
+          "text": "No end time is stated",
+          "rationale": "This does not match the written notice or the counter explanation; The notice says 11時まで after a morning start."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The notice says 11時まで after a morning start."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many people are expected?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Two",
+          "rationale": "This does not match the written notice or the counter explanation; 参加：3人 states three participants."
+        },
+        {
+          "id": "c2",
+          "text": "Three",
+          "rationale": "参加：3人 states three participants."
+        },
+        {
+          "id": "c3",
+          "text": "Four",
+          "rationale": "This does not match the written notice or the counter explanation; 参加：3人 states three participants."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "参加：3人 states three participants."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many sheets does each participant receive?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "One sheet",
+          "rationale": "This does not match the written notice or the counter explanation; 1人に2枚 means two sheets for each person."
+        },
+        {
+          "id": "c2",
+          "text": "Three sheets",
+          "rationale": "This does not match the written notice or the counter explanation; 1人に2枚 means two sheets for each person."
+        },
+        {
+          "id": "c3",
+          "text": "Two sheets",
+          "rationale": "1人に2枚 means two sheets for each person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "1人に2枚 means two sheets for each person."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the reading of 14日 in this date?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "じゅうよっか",
+          "rationale": "The date reading is じゅうよっか."
+        },
+        {
+          "id": "c2",
+          "text": "じゅうよんにち",
+          "rationale": "This does not match the written notice or the counter explanation; The date reading is じゅうよっか."
+        },
+        {
+          "id": "c3",
+          "text": "じゅうしにち",
+          "rationale": "This does not match the written notice or the counter explanation; The date reading is じゅうよっか."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The date reading is じゅうよっか."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which counter belongs with a number of people?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "枚",
+          "rationale": "This does not match the written notice or the counter explanation; 人 counts people; 枚 counts sheets; 時 marks an hour."
+        },
+        {
+          "id": "c2",
+          "text": "人",
+          "rationale": "人 counts people; 枚 counts sheets; 時 marks an hour."
+        },
+        {
+          "id": "c3",
+          "text": "時",
+          "rationale": "This does not match the written notice or the counter explanation; 人 counts people; 枚 counts sheets; 時 marks an hour."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "人 counts people; 枚 counts sheets; 時 marks an hour."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does から mark in 午前10時から?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The number of people",
+          "rationale": "This does not match the written notice or the counter explanation; から introduces the starting point."
+        },
+        {
+          "id": "c2",
+          "text": "The final time",
+          "rationale": "This does not match the written notice or the counter explanation; から introduces the starting point."
+        },
+        {
+          "id": "c3",
+          "text": "The starting time",
+          "rationale": "から introduces the starting point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "から introduces the starting point."
+    },
+    {
+      "id": "ex-n5-m03-c01-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means two sheets?",
+      "objectiveIds": [
+        "n5-m03-c01-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l01-notice"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "2枚（にまい）",
+          "rationale": "枚 counts flat sheets such as paper."
+        },
+        {
+          "id": "c2",
+          "text": "2人（ふたり）",
+          "rationale": "This does not match the written notice or the counter explanation; 枚 counts flat sheets such as paper."
+        },
+        {
+          "id": "c3",
+          "text": "2時（にじ）",
+          "rationale": "This does not match the written notice or the counter explanation; 枚 counts flat sheets such as paper."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "枚 counts flat sheets such as paper."
+    }
+  ]
+}
