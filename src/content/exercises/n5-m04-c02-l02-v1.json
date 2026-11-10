@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c02-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 円 (えん) indicate after a number?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A color",
+          "rationale": "Not this one. 円 follows the price number to indicate yen."
+        },
+        {
+          "id": "c2",
+          "text": "Yen, the currency unit",
+          "rationale": "Correct. 円 follows the price number to indicate yen."
+        },
+        {
+          "id": "c3",
+          "text": "A book counter",
+          "rationale": "Not this one. 円 follows the price number to indicate yen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "円 follows the price number to indicate yen."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the reading of 値段?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ねだん",
+          "rationale": "Correct. 値段 (ねだん) means price; いくら asks how much."
+        },
+        {
+          "id": "c2",
+          "text": "いくら",
+          "rationale": "Not this one. 値段 (ねだん) means price; いくら asks how much."
+        },
+        {
+          "id": "c3",
+          "text": "えん",
+          "rationale": "Not this one. 値段 (ねだん) means price; いくら asks how much."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "値段 (ねだん) means price; いくら asks how much."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the natural beginner phrase for 'a red notebook'?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "赤ノート",
+          "rationale": "Not this one. 赤い is the common adjective before ノート."
+        },
+        {
+          "id": "c2",
+          "text": "赤のノート",
+          "rationale": "Not this one. 赤い is the common adjective before ノート."
+        },
+        {
+          "id": "c3",
+          "text": "赤いノート",
+          "rationale": "Correct. 赤い is the common adjective before ノート."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "赤い is the common adjective before ノート."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 小さい mean?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "expensive",
+          "rationale": "Not this one. 小さい (ちいさい) means small, in contrast to 大きい."
+        },
+        {
+          "id": "c2",
+          "text": "small",
+          "rationale": "Correct. 小さい (ちいさい) means small, in contrast to 大きい."
+        },
+        {
+          "id": "c3",
+          "text": "blue",
+          "rationale": "Not this one. 小さい (ちいさい) means small, in contrast to 大きい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "小さい (ちいさい) means small, in contrast to 大きい."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means 'two items' with the general counter?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "二つ",
+          "rationale": "Correct. 二つ (ふたつ) counts two items in the general counter series."
+        },
+        {
+          "id": "c2",
+          "text": "一つ",
+          "rationale": "Not this one. 二つ (ふたつ) counts two items in the general counter series."
+        },
+        {
+          "id": "c3",
+          "text": "一枚",
+          "rationale": "Not this one. 二つ (ふたつ) counts two items in the general counter series."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "二つ (ふたつ) counts two items in the general counter series."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which counter fits one bound notebook?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一枚",
+          "rationale": "Not this one. 一冊 (いっさつ) is the specific counter for a bound notebook."
+        },
+        {
+          "id": "c2",
+          "text": "一つ of paper",
+          "rationale": "Not this one. 一冊 (いっさつ) is the specific counter for a bound notebook."
+        },
+        {
+          "id": "c3",
+          "text": "一冊",
+          "rationale": "Correct. 一冊 (いっさつ) is the specific counter for a bound notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "一冊 (いっさつ) is the specific counter for a bound notebook."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which counter fits one loose sheet of paper?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一冊",
+          "rationale": "Not this one. 一枚 (いちまい) counts one flat sheet."
+        },
+        {
+          "id": "c2",
+          "text": "一枚",
+          "rationale": "Correct. 一枚 (いちまい) counts one flat sheet."
+        },
+        {
+          "id": "c3",
+          "text": "一円",
+          "rationale": "Not this one. 一枚 (いちまい) counts one flat sheet."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "一枚 (いちまい) counts one flat sheet."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which question asks the price of an item?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "これはいくらですか。",
+          "rationale": "Correct. いくら asks the price, whereas 何 asks what it is."
+        },
+        {
+          "id": "c2",
+          "text": "これは何ですか。",
+          "rationale": "Not this one. いくら asks the price, whereas 何 asks what it is."
+        },
+        {
+          "id": "c3",
+          "text": "これは青いですか。",
+          "rationale": "Not this one. いくら asks the price, whereas 何 asks what it is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いくら asks the price, whereas 何 asks what it is."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which tag shows a blue, large notebook?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Tag A",
+          "rationale": "Not this one. Tag B says 青いノート・大きい."
+        },
+        {
+          "id": "c2",
+          "text": "Tag C",
+          "rationale": "Not this one. Tag B says 青いノート・大きい."
+        },
+        {
+          "id": "c3",
+          "text": "Tag B",
+          "rationale": "Correct. Tag B says 青いノート・大きい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Tag B says 青いノート・大きい."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How much is the red, small notebook in the fictional tags?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "¥300",
+          "rationale": "Not this one. Tag A lists 赤いノート・小さい at 百円."
+        },
+        {
+          "id": "c2",
+          "text": "¥100",
+          "rationale": "Correct. Tag A lists 赤いノート・小さい at 百円."
+        },
+        {
+          "id": "c3",
+          "text": "¥10",
+          "rationale": "Not this one. Tag A lists 赤いノート・小さい at 百円."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Tag A lists 赤いノート・小さい at 百円."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the customer request in the shop exchange?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "One blue notebook",
+          "rationale": "Correct. 青いノートを一冊お願いします requests one blue notebook."
+        },
+        {
+          "id": "c2",
+          "text": "Two white sheets",
+          "rationale": "Not this one. 青いノートを一冊お願いします requests one blue notebook."
+        },
+        {
+          "id": "c3",
+          "text": "One eraser",
+          "rationale": "Not this one. 青いノートを一冊お願いします requests one blue notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "青いノートを一冊お願いします requests one blue notebook."
+    },
+    {
+      "id": "ex-n5-m04-c02-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which request correctly asks for one loose sheet of paper?",
+      "objectiveIds": [
+        "n5-m04-c02-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l02-shopping-words"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "紙を一冊ください。",
+          "rationale": "Not this one. 紙を一枚ください uses the flat-sheet counter 枚."
+        },
+        {
+          "id": "c2",
+          "text": "紙を一つ冊ください。",
+          "rationale": "Not this one. 紙を一枚ください uses the flat-sheet counter 枚."
+        },
+        {
+          "id": "c3",
+          "text": "紙を一枚ください。",
+          "rationale": "Correct. 紙を一枚ください uses the flat-sheet counter 枚."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "紙を一枚ください uses the flat-sheet counter 枚."
+    }
+  ]
+}
