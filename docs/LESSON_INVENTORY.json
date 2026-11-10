@@ -3448,6 +3448,21 @@
       "audio": "not required for written L04",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m01-c03-l05",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c03",
+      "slot": "L05",
+      "title": "Read two family charts — relationships and referents",
+      "content": "src/content/lessons/n5/family-chart-reading.mdx",
+      "url": "/learn/n5/module-01/chapter-03/lesson-05/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment editor review not claimed",
+      "audio": "not required for written L05",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
