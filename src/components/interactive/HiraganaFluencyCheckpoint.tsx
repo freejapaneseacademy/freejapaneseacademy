@@ -44,11 +44,11 @@ export default function HiraganaFluencyCheckpoint({ questions, tracks }: { quest
       <h3>{track.label}</h3>
       <audio controls preload="metadata" src={track.url} aria-label={track.label + ' Japanese recording'} onPlay={() => setPlayed(p => ({...p,[track.id]:true}))} onError={() => setAudioError(p => ({...p,[track.id]:true}))} onCanPlay={() => setAudioError(p => ({...p,[track.id]:false}))}>Audio playback is not supported.</audio>
       {audioError[track.id] && <p role="alert">Recording unavailable. You can use assisted transcript review, but not claim unaided listening.</p>}
-      <button type="button" className="btn btn-outline" aria-expanded={Boolean(revealed[track.id])} onClick={() => { setRevealed(p => ({...p,[track.id]:!p[track.id]})); if (!submitted) setAssisted(true); }}>{revealed[track.id] ? 'Hide' : 'Reveal'} {track.label} transcript (assisted)</button>
+      <button type="button" className="btn btn-outline" disabled={!ready} aria-expanded={Boolean(revealed[track.id])} onClick={() => { setRevealed(p => ({...p,[track.id]:!p[track.id]})); if (!submitted) setAssisted(true); }}>{revealed[track.id] ? 'Hide' : 'Reveal'} {track.label} transcript (assisted)</button>
       {revealed[track.id] && <div><p lang="ja" style={{whiteSpace:'pre-line'}}>{track.transcript}</p><p style={{whiteSpace:'pre-line'}}>{track.english}</p></div>}
     </section>)}
     <p aria-live="polite">{answered} of {questions.length} answered. {assisted ? 'Assisted transcript mode: score is not a blind listening result.' : 'Unaided listening mode.'}</p>
-    {questions.map((q, index) => <fieldset key={q.id} data-question-id={q.id} disabled={submitted} style={{marginBlock:'1.5rem',minWidth:0}}>
+    {questions.map((q, index) => <fieldset key={q.id} data-question-id={q.id} disabled={!ready||submitted} style={{marginBlock:'1.5rem',minWidth:0}}>
       <legend><strong>{index + 1}. {q.prompt}</strong> <span>({q.area})</span></legend>
       {q.choices.map(c => <label key={c.id} style={{display:'flex',alignItems:'flex-start',gap:'.75rem',padding:'.65rem 0',minHeight:44}}>
         <input type="radio" name={q.id} value={c.id} checked={answers[q.id] === c.id} onChange={() => setAnswers(p => ({...p,[q.id]:c.id}))}/>
