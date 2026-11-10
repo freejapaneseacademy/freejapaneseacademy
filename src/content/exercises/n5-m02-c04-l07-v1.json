@@ -1,0 +1,342 @@
+{
+  "id": "n5-m02-c04-l07",
+  "lessonId": "n5-m02-c04-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional study-room writing situations",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Choose the sentence saying there is a book on the desk.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-01-c1",
+          "text": "机の上に本があります。",
+          "rationale": "Correct. 机の上 is the location; a book takes あります."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-01-c2",
+          "text": "机の上に本がいます。",
+          "rationale": "Not this choice. 机の上 is the location; a book takes あります."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-01-c3",
+          "text": "机が上に本があります。",
+          "rationale": "Not this choice. 机の上 is the location; a book takes あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-01-c1"
+      },
+      "explanation": "机の上 is the location; a book takes あります.",
+      "feedback": "机の上 is the location; a book takes あります."
+    },
+    {
+      "id": "ex-n5-m02-c04-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Which phrase means 'under the desk'?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-02-c1",
+          "text": "机の中",
+          "rationale": "Not this choice. 下（した） means underneath; の links the desk and position."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-02-c2",
+          "text": "机の下",
+          "rationale": "Correct. 下（した） means underneath; の links the desk and position."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-02-c3",
+          "text": "机の前",
+          "rationale": "Not this choice. 下（した） means underneath; の links the desk and position."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-02-c2"
+      },
+      "explanation": "下（した） means underneath; の links the desk and position.",
+      "feedback": "下（した） means underneath; の links the desk and position."
+    },
+    {
+      "id": "ex-n5-m02-c04-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Which sentence puts a teacher beside the desk?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-03-c1",
+          "text": "机の隣に先生があります。",
+          "rationale": "Not this choice. 隣 means next to; a person takes います."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-03-c2",
+          "text": "机の下に先生がいます。",
+          "rationale": "Not this choice. 隣 means next to; a person takes います."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-03-c3",
+          "text": "机の隣に先生がいます。",
+          "rationale": "Correct. 隣 means next to; a person takes います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-03-c3"
+      },
+      "explanation": "隣 means next to; a person takes います.",
+      "feedback": "隣 means next to; a person takes います."
+    },
+    {
+      "id": "ex-n5-m02-c04-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Fill the blank: 机＿上に本があります。",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-04-c1",
+          "text": "の",
+          "rationale": "Correct. の links the reference noun 机 to 上."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-04-c2",
+          "text": "が",
+          "rationale": "Not this choice. の links the reference noun 机 to 上."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-04-c3",
+          "text": "を",
+          "rationale": "Not this choice. の links the reference noun 机 to 上."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-04-c1"
+      },
+      "explanation": "の links the reference noun 机 to 上.",
+      "feedback": "の links the reference noun 机 to 上."
+    },
+    {
+      "id": "ex-n5-m02-c04-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Fill the blank: 机の前＿学生がいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-05-c1",
+          "text": "が",
+          "rationale": "Not this choice. に marks the position where the student is."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-05-c2",
+          "text": "に",
+          "rationale": "Correct. に marks the position where the student is."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-05-c3",
+          "text": "を",
+          "rationale": "Not this choice. に marks the position where the student is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-05-c2"
+      },
+      "explanation": "に marks the position where the student is.",
+      "feedback": "に marks the position where the student is."
+    },
+    {
+      "id": "ex-n5-m02-c04-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Which sentence says there is a bag inside the room?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-06-c1",
+          "text": "部屋の中にかばんがいます。",
+          "rationale": "Not this choice. 中 means inside; かばん is an object and takes あります."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-06-c2",
+          "text": "部屋の前にかばんがあります。",
+          "rationale": "Not this choice. 中 means inside; かばん is an object and takes あります."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-06-c3",
+          "text": "部屋の中にかばんがあります。",
+          "rationale": "Correct. 中 means inside; かばん is an object and takes あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-06-c3"
+      },
+      "explanation": "中 means inside; かばん is an object and takes あります.",
+      "feedback": "中 means inside; かばん is an object and takes あります."
+    },
+    {
+      "id": "ex-n5-m02-c04-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Which description places a book behind the desk?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-07-c1",
+          "text": "机の後ろに本があります。",
+          "rationale": "Correct. 後ろ means behind; 本 takes あります."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-07-c2",
+          "text": "机の前に本があります。",
+          "rationale": "Not this choice. 後ろ means behind; 本 takes あります."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-07-c3",
+          "text": "机の後ろに本がいます。",
+          "rationale": "Not this choice. 後ろ means behind; 本 takes あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-07-c1"
+      },
+      "explanation": "後ろ means behind; 本 takes あります.",
+      "feedback": "後ろ means behind; 本 takes あります."
+    },
+    {
+      "id": "ex-n5-m02-c04-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l07-spatial"
+      ],
+      "prompt": "Which sentence best continues 部屋に机があります。 with a location of a student?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-l07-08-c1",
+          "text": "机の上に本があります。",
+          "rationale": "Not this choice. A student beside the introduced desk is a connected location sentence using います."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-08-c2",
+          "text": "机の隣に学生がいます。",
+          "rationale": "Correct. A student beside the introduced desk is a connected location sentence using います."
+        },
+        {
+          "id": "ex-n5-m02-c04-l07-08-c3",
+          "text": "机の隣に学生があります。",
+          "rationale": "Not this choice. A student beside the introduced desk is a connected location sentence using います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-l07-08-c2"
+      },
+      "explanation": "A student beside the introduced desk is a connected location sentence using います.",
+      "feedback": "A student beside the introduced desk is a connected location sentence using います."
+    }
+  ]
+}
