@@ -56,11 +56,6 @@
       ],
       "choices": [
         {
-          "id": "c1",
-          "text": "しょうさい",
-          "rationale": "Not this answer. 小さい is read ちいさい, despite other readings of 小."
-        },
-        {
           "id": "c2",
           "text": "おおきい",
           "rationale": "Not this answer. 小さい is read ちいさい, despite other readings of 小."
@@ -69,10 +64,15 @@
           "id": "c3",
           "text": "ちいさい",
           "rationale": "小さい is read ちいさい, despite other readings of 小."
+        },
+        {
+          "id": "c1",
+          "text": "しょうさい",
+          "rationale": "Not this answer. 小さい is read ちいさい, despite other readings of 小."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c3"
       },
       "explanation": "小さい is read ちいさい, despite other readings of 小."
     },
@@ -93,6 +93,11 @@
       ],
       "choices": [
         {
+          "id": "c3",
+          "text": "高い",
+          "rationale": "Not this answer. 安い (やすい) means inexpensive."
+        },
+        {
           "id": "c1",
           "text": "古い",
           "rationale": "Not this answer. 安い (やすい) means inexpensive."
@@ -101,15 +106,10 @@
           "id": "c2",
           "text": "安い",
           "rationale": "安い (やすい) means inexpensive."
-        },
-        {
-          "id": "c3",
-          "text": "高い",
-          "rationale": "Not this answer. 安い (やすい) means inexpensive."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
       "explanation": "安い (やすい) means inexpensive."
     },
@@ -167,11 +167,6 @@
       ],
       "choices": [
         {
-          "id": "c1",
-          "text": "こい",
-          "rationale": "Not this answer. 古い is read ふるい."
-        },
-        {
           "id": "c2",
           "text": "あたらしい",
           "rationale": "Not this answer. 古い is read ふるい."
@@ -180,10 +175,15 @@
           "id": "c3",
           "text": "ふるい",
           "rationale": "古い is read ふるい."
+        },
+        {
+          "id": "c1",
+          "text": "こい",
+          "rationale": "Not this answer. 古い is read ふるい."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c3"
       },
       "explanation": "古い is read ふるい."
     },
@@ -204,6 +204,11 @@
       ],
       "choices": [
         {
+          "id": "c3",
+          "text": "やすい",
+          "rationale": "Not this answer. 高い is read たかい."
+        },
+        {
           "id": "c1",
           "text": "こうい",
           "rationale": "Not this answer. 高い is read たかい."
@@ -212,15 +217,10 @@
           "id": "c2",
           "text": "たかい",
           "rationale": "高い is read たかい."
-        },
-        {
-          "id": "c3",
-          "text": "やすい",
-          "rationale": "Not this answer. 高い is read たかい."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
       "explanation": "高い is read たかい."
     },
@@ -278,11 +278,6 @@
       ],
       "choices": [
         {
-          "id": "c1",
-          "text": "A",
-          "rationale": "Not this answer. Card C states 新しいノート."
-        },
-        {
           "id": "c2",
           "text": "D",
           "rationale": "Not this answer. Card C states 新しいノート."
@@ -291,10 +286,15 @@
           "id": "c3",
           "text": "C",
           "rationale": "Card C states 新しいノート."
+        },
+        {
+          "id": "c1",
+          "text": "A",
+          "rationale": "Not this answer. Card C states 新しいノート."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c3"
       },
       "explanation": "Card C states 新しいノート."
     },
@@ -315,6 +315,11 @@
       ],
       "choices": [
         {
+          "id": "c3",
+          "text": "300円",
+          "rationale": "Not this answer. Card B reads 大きいケーキ 600円."
+        },
+        {
           "id": "c1",
           "text": "200円",
           "rationale": "Not this answer. Card B reads 大きいケーキ 600円."
@@ -323,15 +328,10 @@
           "id": "c2",
           "text": "600円",
           "rationale": "Card B reads 大きいケーキ 600円."
-        },
-        {
-          "id": "c3",
-          "text": "300円",
-          "rationale": "Not this answer. Card B reads 大きいケーキ 600円."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
       "explanation": "Card B reads 大きいケーキ 600円."
     },
@@ -389,11 +389,6 @@
       ],
       "choices": [
         {
-          "id": "c1",
-          "text": "新しいな店",
-          "rationale": "Not this answer. 新しい is an い-adjective and directly modifies 店."
-        },
-        {
           "id": "c2",
           "text": "新しく店",
           "rationale": "Not this answer. 新しい is an い-adjective and directly modifies 店."
@@ -402,10 +397,15 @@
           "id": "c3",
           "text": "新しい店",
           "rationale": "新しい is an い-adjective and directly modifies 店."
+        },
+        {
+          "id": "c1",
+          "text": "新しいな店",
+          "rationale": "Not this answer. 新しい is an い-adjective and directly modifies 店."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c3"
       },
       "explanation": "新しい is an い-adjective and directly modifies 店."
     },
@@ -426,6 +426,11 @@
       ],
       "choices": [
         {
+          "id": "c3",
+          "text": "新しいじゃないです",
+          "rationale": "Not this answer. Change the final い to くない before です."
+        },
+        {
           "id": "c1",
           "text": "新しいくないです",
           "rationale": "Not this answer. Change the final い to くない before です."
@@ -434,15 +439,10 @@
           "id": "c2",
           "text": "新しくないです",
           "rationale": "Change the final い to くない before です."
-        },
-        {
-          "id": "c3",
-          "text": "新しいじゃないです",
-          "rationale": "Not this answer. Change the final い to くない before です."
         }
       ],
       "answerKey": {
-        "choiceId": "c1"
+        "choiceId": "c2"
       },
       "explanation": "Change the final い to くない before です."
     }
