@@ -3331,6 +3331,21 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "AivisSpeech schema-v3 job committed; genuine WAVs, QA manifests, hashes, rights and playback pending",
       "noindex": false
+    },
+    {
+      "id": "n5-m03-c01-chk",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c01",
+      "slot": "CHK",
+      "title": "Numbers, dates and counters — chapter checkpoint",
+      "content": "src/content/lessons/n5/numbers-dates-counters-checkpoint.mdx",
+      "url": "/learn/n5/module-03/chapter-01/checkpoint/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses chapter L06 original AivisSpeech candidate recordings; WAV, hashes, rights, alignment and playback require verification",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

@@ -1,0 +1,620 @@
+{
+  "id": "n5-m03-c01-chk",
+  "lessonId": "n5-m03-c01-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional cooking/flower workshop notices; original N5-M03-C01-L06 AivisSpeech candidate announcement scripts, playback required",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-grammar-01"
+      ],
+      "prompt": "Which date is read じゅうよっか?",
+      "evidence": "十四日",
+      "explanation": "十四日 is じゅうよっか; 四日 is よっか.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-01-c1",
+          "text": "十四日",
+          "rationale": "Correct. 十四日 is じゅうよっか; 四日 is よっか. Evidence: 十四日"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-01-c2",
+          "text": "四日",
+          "rationale": "Not correct. 十四日 is じゅうよっか; 四日 is よっか. Evidence: 十四日"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-01-c3",
+          "text": "十日",
+          "rationale": "Not correct. 十四日 is じゅうよっか; 四日 is よっか. Evidence: 十四日"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-01-c4",
+          "text": "二十四日",
+          "rationale": "Not correct. 十四日 is じゅうよっか; 四日 is よっか. Evidence: 十四日"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-grammar-02"
+      ],
+      "prompt": "Which is the natural way to say November?",
+      "evidence": "十一月",
+      "explanation": "月 (がつ) names the month; 日 names a day.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-02-c1",
+          "text": "十一日",
+          "rationale": "Not correct. 月 (がつ) names the month; 日 names a day. Evidence: 十一月"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-02-c2",
+          "text": "十一月",
+          "rationale": "Correct. 月 (がつ) names the month; 日 names a day. Evidence: 十一月"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-02-c3",
+          "text": "一月",
+          "rationale": "Not correct. 月 (がつ) names the month; 日 names a day. Evidence: 十一月"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-02-c4",
+          "text": "十月",
+          "rationale": "Not correct. 月 (がつ) names the month; 日 names a day. Evidence: 十一月"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-grammar-03"
+      ],
+      "prompt": "Which means 'two sheets of paper'?",
+      "evidence": "紙を二枚",
+      "explanation": "枚 counts flat objects such as sheets.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-03-c1",
+          "text": "紙を二人",
+          "rationale": "Not correct. 枚 counts flat objects such as sheets. Evidence: 紙を二枚"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-03-c2",
+          "text": "紙を二つ",
+          "rationale": "Not correct. 枚 counts flat objects such as sheets. Evidence: 紙を二枚"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-03-c3",
+          "text": "紙を二枚",
+          "rationale": "Correct. 枚 counts flat objects such as sheets. Evidence: 紙を二枚"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-03-c4",
+          "text": "紙を二日",
+          "rationale": "Not correct. 枚 counts flat objects such as sheets. Evidence: 紙を二枚"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-grammar-04"
+      ],
+      "prompt": "Which means 'two people'?",
+      "evidence": "二人",
+      "explanation": "二人 is ふたり, an irregular people-counter reading.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-04-c1",
+          "text": "二枚",
+          "rationale": "Not correct. 二人 is ふたり, an irregular people-counter reading. Evidence: 二人"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-04-c2",
+          "text": "二人",
+          "rationale": "Correct. 二人 is ふたり, an irregular people-counter reading. Evidence: 二人"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-04-c3",
+          "text": "二つ",
+          "rationale": "Not correct. 二人 is ふたり, an irregular people-counter reading. Evidence: 二人"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-04-c4",
+          "text": "二日",
+          "rationale": "Not correct. 二人 is ふたり, an irregular people-counter reading. Evidence: 二人"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-grammar-05"
+      ],
+      "prompt": "Choose the correct expression for 'one small notebook' using the general counter.",
+      "evidence": "小さいノートを一つ",
+      "explanation": "一つ (ひとつ) is the general-item counter; 枚 would count flat sheets.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-05-c1",
+          "text": "小さいノートを一人",
+          "rationale": "Not correct. 一つ (ひとつ) is the general-item counter; 枚 would count flat sheets. Evidence: 小さいノートを一つ"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-05-c2",
+          "text": "小さいノートを一枚",
+          "rationale": "Not correct. 一つ (ひとつ) is the general-item counter; 枚 would count flat sheets. Evidence: 小さいノートを一つ"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-05-c3",
+          "text": "小さいノートを一日",
+          "rationale": "Not correct. 一つ (ひとつ) is the general-item counter; 枚 would count flat sheets. Evidence: 小さいノートを一つ"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-05-c4",
+          "text": "小さいノートを一つ",
+          "rationale": "Correct. 一つ (ひとつ) is the general-item counter; 枚 would count flat sheets. Evidence: 小さいノートを一つ"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-05-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-grammar-06"
+      ],
+      "prompt": "Which phrase means 'starting at 2 p.m.'?",
+      "evidence": "午後二時から",
+      "explanation": "午後 is p.m.; 二時 is two o'clock; から marks the start.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-06-c1",
+          "text": "午前二時から",
+          "rationale": "Not correct. 午後 is p.m.; 二時 is two o'clock; から marks the start. Evidence: 午後二時から"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-06-c2",
+          "text": "午後二時から",
+          "rationale": "Correct. 午後 is p.m.; 二時 is two o'clock; から marks the start. Evidence: 午後二時から"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-06-c3",
+          "text": "午後二日から",
+          "rationale": "Not correct. 午後 is p.m.; 二時 is two o'clock; から marks the start. Evidence: 午後二時から"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-06-c4",
+          "text": "午後二人から",
+          "rationale": "Not correct. 午後 is p.m.; 二時 is two o'clock; から marks the start. Evidence: 午後二時から"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-reading-07"
+      ],
+      "prompt": "What date is the cooking class?",
+      "evidence": "料理の会は十二月三日です。",
+      "explanation": "The notice explicitly states 十二月三日.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-07-c1",
+          "text": "十二月三日",
+          "rationale": "Correct. The notice explicitly states 十二月三日. Evidence: 料理の会は十二月三日です。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-07-c2",
+          "text": "十二月十三日",
+          "rationale": "Not correct. The notice explicitly states 十二月三日. Evidence: 料理の会は十二月三日です。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-07-c3",
+          "text": "十一月三日",
+          "rationale": "Not correct. The notice explicitly states 十二月三日. Evidence: 料理の会は十二月三日です。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-07-c4",
+          "text": "十二月二日",
+          "rationale": "Not correct. The notice explicitly states 十二月三日. Evidence: 料理の会は十二月三日です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-reading-08"
+      ],
+      "prompt": "When does the cooking class begin?",
+      "evidence": "午後一時からです。",
+      "explanation": "午後一時からです specifies 1 p.m.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-08-c1",
+          "text": "午前一時",
+          "rationale": "Not correct. 午後一時からです specifies 1 p.m. Evidence: 午後一時からです。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-08-c2",
+          "text": "午後二時",
+          "rationale": "Not correct. 午後一時からです specifies 1 p.m. Evidence: 午後一時からです。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-08-c3",
+          "text": "午後一時",
+          "rationale": "Correct. 午後一時からです specifies 1 p.m. Evidence: 午後一時からです。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-08-c4",
+          "text": "午前十時",
+          "rationale": "Not correct. 午後一時からです specifies 1 p.m. Evidence: 午後一時からです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-reading-09"
+      ],
+      "prompt": "How many plates should participants bring?",
+      "evidence": "お皿を二枚持ってきてください。",
+      "explanation": "お皿を二枚持ってきてください uses 枚 for plates.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-09-c1",
+          "text": "一枚",
+          "rationale": "Not correct. お皿を二枚持ってきてください uses 枚 for plates. Evidence: お皿を二枚持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-09-c2",
+          "text": "二枚",
+          "rationale": "Correct. お皿を二枚持ってきてください uses 枚 for plates. Evidence: お皿を二枚持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-09-c3",
+          "text": "二人",
+          "rationale": "Not correct. お皿を二枚持ってきてください uses 枚 for plates. Evidence: お皿を二枚持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-09-c4",
+          "text": "二つ",
+          "rationale": "Not correct. お皿を二枚持ってきてください uses 枚 for plates. Evidence: お皿を二枚持ってきてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-reading-10"
+      ],
+      "prompt": "How many people are coming to the flower workshop?",
+      "evidence": "先生が三人来ます。",
+      "explanation": "先生が三人来ます means three teachers are coming.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-10-c1",
+          "text": "二人",
+          "rationale": "Not correct. 先生が三人来ます means three teachers are coming. Evidence: 先生が三人来ます。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-10-c2",
+          "text": "三枚",
+          "rationale": "Not correct. 先生が三人来ます means three teachers are coming. Evidence: 先生が三人来ます。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-10-c3",
+          "text": "三人",
+          "rationale": "Correct. 先生が三人来ます means three teachers are coming. Evidence: 先生が三人来ます。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-10-c4",
+          "text": "三つ",
+          "rationale": "Not correct. 先生が三人来ます means three teachers are coming. Evidence: 先生が三人来ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-10-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-listening-11"
+      ],
+      "prompt": "Track A: on which date is the art class?",
+      "evidence": "お知らせです。絵の教室は十一月十四日、土曜日です。",
+      "explanation": "The art announcement says 十一月十四日.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-11-c1",
+          "text": "十一月十四日",
+          "rationale": "Correct. The art announcement says 十一月十四日. Evidence: お知らせです。絵の教室は十一月十四日、土曜日です。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-11-c2",
+          "text": "十一月二十一日",
+          "rationale": "Not correct. The art announcement says 十一月十四日. Evidence: お知らせです。絵の教室は十一月十四日、土曜日です。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-11-c3",
+          "text": "十二月十四日",
+          "rationale": "Not correct. The art announcement says 十一月十四日. Evidence: お知らせです。絵の教室は十一月十四日、土曜日です。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-11-c4",
+          "text": "十一月四日",
+          "rationale": "Not correct. The art announcement says 十一月十四日. Evidence: お知らせです。絵の教室は十一月十四日、土曜日です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-11-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-listening-12"
+      ],
+      "prompt": "Track A: when does the art class begin?",
+      "evidence": "午前十時からです。紙を二枚持ってきてください。",
+      "explanation": "午前十時からです means 10 a.m.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-12-c1",
+          "text": "午後十時",
+          "rationale": "Not correct. 午前十時からです means 10 a.m. Evidence: 午前十時からです。紙を二枚持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-12-c2",
+          "text": "午前十時",
+          "rationale": "Correct. 午前十時からです means 10 a.m. Evidence: 午前十時からです。紙を二枚持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-12-c3",
+          "text": "午後二時",
+          "rationale": "Not correct. 午前十時からです means 10 a.m. Evidence: 午前十時からです。紙を二枚持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-12-c4",
+          "text": "午前二時",
+          "rationale": "Not correct. 午前十時からです means 10 a.m. Evidence: 午前十時からです。紙を二枚持ってきてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-listening-13"
+      ],
+      "prompt": "Track B: how many teachers are coming?",
+      "evidence": "午後二時からです。先生が二人来ます。",
+      "explanation": "先生が二人来ます counts two people.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-13-c1",
+          "text": "一人",
+          "rationale": "Not correct. 先生が二人来ます counts two people. Evidence: 午後二時からです。先生が二人来ます。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-13-c2",
+          "text": "二枚",
+          "rationale": "Not correct. 先生が二人来ます counts two people. Evidence: 午後二時からです。先生が二人来ます。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-13-c3",
+          "text": "二人",
+          "rationale": "Correct. 先生が二人来ます counts two people. Evidence: 午後二時からです。先生が二人来ます。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-13-c4",
+          "text": "二つ",
+          "rationale": "Not correct. 先生が二人来ます counts two people. Evidence: 午後二時からです。先生が二人来ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-13-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c01-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-chk-listening-14"
+      ],
+      "prompt": "Track B: what should visitors bring?",
+      "evidence": "本は要りません。小さいノートを一つ持ってきてください。",
+      "explanation": "Books are unnecessary; one small notebook is requested.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c01-chk-v1-14-c1",
+          "text": "本を二冊",
+          "rationale": "Not correct. Books are unnecessary; one small notebook is requested. Evidence: 本は要りません。小さいノートを一つ持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-14-c2",
+          "text": "紙を二枚",
+          "rationale": "Not correct. Books are unnecessary; one small notebook is requested. Evidence: 本は要りません。小さいノートを一つ持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-14-c3",
+          "text": "小さいノートを一つ",
+          "rationale": "Correct. Books are unnecessary; one small notebook is requested. Evidence: 本は要りません。小さいノートを一つ持ってきてください。"
+        },
+        {
+          "id": "ex-n5-m03-c01-chk-v1-14-c4",
+          "text": "お皿を二枚",
+          "rationale": "Not correct. Books are unnecessary; one small notebook is requested. Evidence: 本は要りません。小さいノートを一つ持ってきてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c01-chk-v1-14-c3"
+      }
+    }
+  ]
+}
