@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m04-c02-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l07-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence politely asks the price of this blue pen?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-question"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "この青いペンはいくらですか。",
+          "rationale": "Correct. いくらですか asks the price; は marks the item as topic."
+        },
+        {
+          "id": "c2",
+          "text": "この青いペンをお願いします。",
+          "rationale": "Not quite. いくらですか asks the price; は marks the item as topic."
+        },
+        {
+          "id": "c3",
+          "text": "この青いペンはどこですか。",
+          "rationale": "Not quite. いくらですか asks the price; は marks the item as topic."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いくらですか asks the price; は marks the item as topic."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which request means 'The red pen, please'?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-request"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "赤いペンはいくらですか。",
+          "rationale": "Not quite. をお願いします is a polite request for the selected item."
+        },
+        {
+          "id": "c2",
+          "text": "赤いペンが好きです。",
+          "rationale": "Not quite. をお願いします is a polite request for the selected item."
+        },
+        {
+          "id": "c3",
+          "text": "赤いペンをお願いします。",
+          "rationale": "Correct. をお願いします is a polite request for the selected item."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "をお願いします is a polite request for the selected item."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "The shop sign says 青いペン 250円. What should the clerk answer?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-evidence"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "500円です。",
+          "rationale": "Not quite. The blue pen is ¥250 on the fictional sign."
+        },
+        {
+          "id": "c2",
+          "text": "250円です。",
+          "rationale": "Correct. The blue pen is ¥250 on the fictional sign."
+        },
+        {
+          "id": "c3",
+          "text": "200円です。",
+          "rationale": "Not quite. The blue pen is ¥250 on the fictional sign."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The blue pen is ¥250 on the fictional sign."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means 'a small white notebook'?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-description"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "小さい白いノート",
+          "rationale": "Correct. 小さい means small and 白い means white; both precede ノート."
+        },
+        {
+          "id": "c2",
+          "text": "大きい白いノート",
+          "rationale": "Not quite. 小さい means small and 白い means white; both precede ノート."
+        },
+        {
+          "id": "c3",
+          "text": "小さい青いペン",
+          "rationale": "Not quite. 小さい means small and 白い means white; both precede ノート."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "小さい means small and 白い means white; both precede ノート."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Complete: このノート＿＿いくらですか。",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-particle"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "を",
+          "rationale": "Not quite. は introduces the notebook as the topic of the price question."
+        },
+        {
+          "id": "c2",
+          "text": "が",
+          "rationale": "Not quite. は introduces the notebook as the topic of the price question."
+        },
+        {
+          "id": "c3",
+          "text": "は",
+          "rationale": "Correct. は introduces the notebook as the topic of the price question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "は introduces the notebook as the topic of the price question."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Complete: そのノート＿＿ください。",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-particle"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Not quite. を marks the requested notebook in 〜をください."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Correct. を marks the requested notebook in 〜をください."
+        },
+        {
+          "id": "c3",
+          "text": "は",
+          "rationale": "Not quite. を marks the requested notebook in 〜をください."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "を marks the requested notebook in 〜をください."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "The large white notebook costs ¥500. Which answer matches the sign?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-evidence"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "500円です。",
+          "rationale": "Correct. 大きい白いノート is the large white notebook and costs ¥500."
+        },
+        {
+          "id": "c2",
+          "text": "300円です。",
+          "rationale": "Not quite. 大きい白いノート is the large white notebook and costs ¥500."
+        },
+        {
+          "id": "c3",
+          "text": "250円です。",
+          "rationale": "Not quite. 大きい白いノート is the large white notebook and costs ¥500."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "大きい白いノート is the large white notebook and costs ¥500."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence is a natural polite request?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-request"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "その青いペンをいくらですか。",
+          "rationale": "Not quite. その青いペンをください requests the pen with を."
+        },
+        {
+          "id": "c2",
+          "text": "その青いペンはお願いします。",
+          "rationale": "Not quite. その青いペンをください requests the pen with を."
+        },
+        {
+          "id": "c3",
+          "text": "その青いペンをください。",
+          "rationale": "Correct. その青いペンをください requests the pen with を."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "その青いペンをください requests the pen with を."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which order correctly places the adjective before the noun?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-description"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "青いをペン",
+          "rationale": "Not quite. An い-adjective directly modifies the noun before it."
+        },
+        {
+          "id": "c2",
+          "text": "青いペン",
+          "rationale": "Correct. An い-adjective directly modifies the noun before it."
+        },
+        {
+          "id": "c3",
+          "text": "ペン青い",
+          "rationale": "Not quite. An い-adjective directly modifies the noun before it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "An い-adjective directly modifies the noun before it."
+    },
+    {
+      "id": "ex-n5-m04-c02-l07-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does では do in では、そのノートをお願いします。?",
+      "objectiveIds": [
+        "n5-m04-c02-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l07-discourse"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "It connects the request to the preceding exchange.",
+          "rationale": "Correct. では can mean 'well then' or 'in that case' in this exchange."
+        },
+        {
+          "id": "c2",
+          "text": "It changes the price to a question.",
+          "rationale": "Not quite. では can mean 'well then' or 'in that case' in this exchange."
+        },
+        {
+          "id": "c3",
+          "text": "It means the notebook is free.",
+          "rationale": "Not quite. では can mean 'well then' or 'in that case' in this exchange."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "では can mean 'well then' or 'in that case' in this exchange."
+    }
+  ]
+}
