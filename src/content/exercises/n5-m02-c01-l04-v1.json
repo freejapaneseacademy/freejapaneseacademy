@@ -37,7 +37,7 @@
         {
           "id": "c4",
           "text": "ひと",
-          "rationale": "ひと is 人."
+          "rationale": "ひと is the reading of 人 (person), not the reading of the kanji asked about."
         }
       ],
       "answerKey": {
@@ -166,7 +166,7 @@
         {
           "id": "c4",
           "text": "ひと",
-          "rationale": "ひと is 人."
+          "rationale": "ひと is the reading of 人 (person), not the reading of the kanji asked about."
         }
       ],
       "answerKey": {
