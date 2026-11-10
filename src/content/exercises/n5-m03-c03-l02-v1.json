@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m03-c03-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “yesterday”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日",
+          "rationale": "昨日 (きのう) means yesterday."
+        },
+        {
+          "id": "c2",
+          "text": "今日",
+          "rationale": "今日 (きょう) means today, not yesterday."
+        },
+        {
+          "id": "c3",
+          "text": "来週",
+          "rationale": "来週 (らいしゅう) means next week, not yesterday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "昨日 (きのう) means yesterday. 昨日、勉強しました。 — I studied yesterday."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “today”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "明日",
+          "rationale": "明日 (あした) means tomorrow, not today."
+        },
+        {
+          "id": "c3",
+          "text": "今朝",
+          "rationale": "今朝 (けさ) means this morning, not today."
+        },
+        {
+          "id": "c1",
+          "text": "今日",
+          "rationale": "今日 (きょう) means today."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "今日 (きょう) means today. 今日は学校に行きます。 — I am going to school today."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “tomorrow”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "今晩",
+          "rationale": "今晩 (こんばん) means this evening, not tomorrow."
+        },
+        {
+          "id": "c1",
+          "text": "明日",
+          "rationale": "明日 (あした) means tomorrow."
+        },
+        {
+          "id": "c2",
+          "text": "先週",
+          "rationale": "先週 (せんしゅう) means last week, not tomorrow."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "明日 (あした) means tomorrow. 明日、図書館に行きます。 — I will go to the library tomorrow."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “last week”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先週",
+          "rationale": "先週 (せんしゅう) means last week."
+        },
+        {
+          "id": "c2",
+          "text": "今週",
+          "rationale": "今週 (こんしゅう) means this week, not last week."
+        },
+        {
+          "id": "c3",
+          "text": "朝",
+          "rationale": "朝 (あさ) means morning, not last week."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "先週 (せんしゅう) means last week. 先週、本を読みました。 — I read a book last week."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “this week”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "来週",
+          "rationale": "来週 (らいしゅう) means next week, not this week."
+        },
+        {
+          "id": "c3",
+          "text": "昼",
+          "rationale": "昼 (ひる) means daytime / noon, not this week."
+        },
+        {
+          "id": "c1",
+          "text": "今週",
+          "rationale": "今週 (こんしゅう) means this week."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "今週 (こんしゅう) means this week. 今週、日本語を勉強します。 — I am studying Japanese this week."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “next week”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "夜",
+          "rationale": "夜 (よる) means night / evening, not next week."
+        },
+        {
+          "id": "c1",
+          "text": "来週",
+          "rationale": "来週 (らいしゅう) means next week."
+        },
+        {
+          "id": "c2",
+          "text": "今朝",
+          "rationale": "今朝 (けさ) means this morning, not next week."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "来週 (らいしゅう) means next week. 来週、友だちに会います。 — I will meet a friend next week."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “this morning”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "今朝",
+          "rationale": "今朝 (けさ) means this morning."
+        },
+        {
+          "id": "c2",
+          "text": "今晩",
+          "rationale": "今晩 (こんばん) means this evening, not this morning."
+        },
+        {
+          "id": "c3",
+          "text": "予定",
+          "rationale": "予定 (よてい) means plan / schedule, not this morning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "今朝 (けさ) means this morning. 今朝、六時に起きました。 — I got up at six this morning."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “this evening”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "朝",
+          "rationale": "朝 (あさ) means morning, not this evening."
+        },
+        {
+          "id": "c3",
+          "text": "昨日",
+          "rationale": "昨日 (きのう) means yesterday, not this evening."
+        },
+        {
+          "id": "c1",
+          "text": "今晩",
+          "rationale": "今晩 (こんばん) means this evening."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "今晩 (こんばん) means this evening. 今晩、家で勉強します。 — I will study at home this evening."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “morning”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "今日",
+          "rationale": "今日 (きょう) means today, not morning."
+        },
+        {
+          "id": "c1",
+          "text": "朝",
+          "rationale": "朝 (あさ) means morning."
+        },
+        {
+          "id": "c2",
+          "text": "昼",
+          "rationale": "昼 (ひる) means daytime / noon, not morning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "朝 (あさ) means morning. 朝、パンを食べます。 — I eat bread in the morning."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “daytime / noon”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昼",
+          "rationale": "昼 (ひる) means daytime / noon."
+        },
+        {
+          "id": "c2",
+          "text": "夜",
+          "rationale": "夜 (よる) means night / evening, not daytime / noon."
+        },
+        {
+          "id": "c3",
+          "text": "明日",
+          "rationale": "明日 (あした) means tomorrow, not daytime / noon."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "昼 (ひる) means daytime / noon. 昼にごはんを食べます。 — I eat a meal at noon."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “night / evening”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "予定",
+          "rationale": "予定 (よてい) means plan / schedule, not night / evening."
+        },
+        {
+          "id": "c3",
+          "text": "先週",
+          "rationale": "先週 (せんしゅう) means last week, not night / evening."
+        },
+        {
+          "id": "c1",
+          "text": "夜",
+          "rationale": "夜 (よる) means night / evening."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "夜 (よる) means night / evening. 夜、本を読みます。 — I read a book at night."
+    },
+    {
+      "id": "ex-n5-m03-c03-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese expression means “plan / schedule”?",
+      "objectiveIds": [
+        "n5-m03-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l02-time-words"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "今週",
+          "rationale": "今週 (こんしゅう) means this week, not plan / schedule."
+        },
+        {
+          "id": "c1",
+          "text": "予定",
+          "rationale": "予定 (よてい) means plan / schedule."
+        },
+        {
+          "id": "c2",
+          "text": "昨日",
+          "rationale": "昨日 (きのう) means yesterday, not plan / schedule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "予定 (よてい) means plan / schedule. 明日の予定は何ですか。 — What are your plans for tomorrow?"
+    }
+  ]
+}
