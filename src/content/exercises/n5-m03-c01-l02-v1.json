@@ -1,0 +1,538 @@
+{
+  "lessonId": "n5-m03-c01-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means first day of the month (read ついたち)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一日",
+          "rationale": "一日 is ついたち and means first day of the month."
+        },
+        {
+          "id": "c2",
+          "text": "二日",
+          "rationale": "二日 is a different expression. The requested answer is 一日 (ついたち)."
+        },
+        {
+          "id": "c3",
+          "text": "四日",
+          "rationale": "四日 is a different expression. The requested answer is 一日 (ついたち)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "一日 is read ついたち and means first day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means second day of the month (read ふつか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "三日",
+          "rationale": "三日 is a different expression. The requested answer is 二日 (ふつか)."
+        },
+        {
+          "id": "c2",
+          "text": "五日",
+          "rationale": "五日 is a different expression. The requested answer is 二日 (ふつか)."
+        },
+        {
+          "id": "c3",
+          "text": "二日",
+          "rationale": "二日 is ふつか and means second day of the month."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "二日 is read ふつか and means second day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means third day of the month (read みっか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "六日",
+          "rationale": "六日 is a different expression. The requested answer is 三日 (みっか)."
+        },
+        {
+          "id": "c2",
+          "text": "三日",
+          "rationale": "三日 is みっか and means third day of the month."
+        },
+        {
+          "id": "c3",
+          "text": "四日",
+          "rationale": "四日 is a different expression. The requested answer is 三日 (みっか)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "三日 is read みっか and means third day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means fourth day of the month (read よっか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "四日",
+          "rationale": "四日 is よっか and means fourth day of the month."
+        },
+        {
+          "id": "c2",
+          "text": "五日",
+          "rationale": "五日 is a different expression. The requested answer is 四日 (よっか)."
+        },
+        {
+          "id": "c3",
+          "text": "七日",
+          "rationale": "七日 is a different expression. The requested answer is 四日 (よっか)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "四日 is read よっか and means fourth day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means fifth day of the month (read いつか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "六日",
+          "rationale": "六日 is a different expression. The requested answer is 五日 (いつか)."
+        },
+        {
+          "id": "c2",
+          "text": "八日",
+          "rationale": "八日 is a different expression. The requested answer is 五日 (いつか)."
+        },
+        {
+          "id": "c3",
+          "text": "五日",
+          "rationale": "五日 is いつか and means fifth day of the month."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "五日 is read いつか and means fifth day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means sixth day of the month (read むいか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "九日",
+          "rationale": "九日 is a different expression. The requested answer is 六日 (むいか)."
+        },
+        {
+          "id": "c2",
+          "text": "六日",
+          "rationale": "六日 is むいか and means sixth day of the month."
+        },
+        {
+          "id": "c3",
+          "text": "七日",
+          "rationale": "七日 is a different expression. The requested answer is 六日 (むいか)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "六日 is read むいか and means sixth day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means seventh day of the month (read なのか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "七日",
+          "rationale": "七日 is なのか and means seventh day of the month."
+        },
+        {
+          "id": "c2",
+          "text": "八日",
+          "rationale": "八日 is a different expression. The requested answer is 七日 (なのか)."
+        },
+        {
+          "id": "c3",
+          "text": "十日",
+          "rationale": "十日 is a different expression. The requested answer is 七日 (なのか)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "七日 is read なのか and means seventh day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means eighth day of the month (read ようか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "九日",
+          "rationale": "九日 is a different expression. The requested answer is 八日 (ようか)."
+        },
+        {
+          "id": "c2",
+          "text": "一人",
+          "rationale": "一人 is a different expression. The requested answer is 八日 (ようか)."
+        },
+        {
+          "id": "c3",
+          "text": "八日",
+          "rationale": "八日 is ようか and means eighth day of the month."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "八日 is read ようか and means eighth day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means ninth day of the month (read ここのか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "二人",
+          "rationale": "二人 is a different expression. The requested answer is 九日 (ここのか)."
+        },
+        {
+          "id": "c2",
+          "text": "九日",
+          "rationale": "九日 is ここのか and means ninth day of the month."
+        },
+        {
+          "id": "c3",
+          "text": "十日",
+          "rationale": "十日 is a different expression. The requested answer is 九日 (ここのか)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "九日 is read ここのか and means ninth day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means tenth day of the month (read とおか)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-dates"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "十日",
+          "rationale": "十日 is とおか and means tenth day of the month."
+        },
+        {
+          "id": "c2",
+          "text": "一人",
+          "rationale": "一人 is a different expression. The requested answer is 十日 (とおか)."
+        },
+        {
+          "id": "c3",
+          "text": "一枚",
+          "rationale": "一枚 is a different expression. The requested answer is 十日 (とおか)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "十日 is read とおか and means tenth day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means one person (read ひとり)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-counters"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "二人",
+          "rationale": "二人 is a different expression. The requested answer is 一人 (ひとり)."
+        },
+        {
+          "id": "c2",
+          "text": "二つ",
+          "rationale": "二つ is a different expression. The requested answer is 一人 (ひとり)."
+        },
+        {
+          "id": "c3",
+          "text": "一人",
+          "rationale": "一人 is ひとり and means one person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "一人 is read ひとり and means one person."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means two people (read ふたり)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-counters"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一日",
+          "rationale": "一日 is a different expression. The requested answer is 二人 (ふたり)."
+        },
+        {
+          "id": "c2",
+          "text": "二人",
+          "rationale": "二人 is ふたり and means two people."
+        },
+        {
+          "id": "c3",
+          "text": "一枚",
+          "rationale": "一枚 is a different expression. The requested answer is 二人 (ふたり)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "二人 is read ふたり and means two people."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q13-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means one flat item (read いちまい)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-counters"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一枚",
+          "rationale": "一枚 is いちまい and means one flat item."
+        },
+        {
+          "id": "c2",
+          "text": "二つ",
+          "rationale": "二つ is a different expression. The requested answer is 一枚 (いちまい)."
+        },
+        {
+          "id": "c3",
+          "text": "二日",
+          "rationale": "二日 is a different expression. The requested answer is 一枚 (いちまい)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "一枚 is read いちまい and means one flat item."
+    },
+    {
+      "id": "ex-n5-m03-c01-l02-q14-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means two general items (read ふたつ)?",
+      "objectiveIds": [
+        "n5-m03-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l02-counters"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一日",
+          "rationale": "一日 is a different expression. The requested answer is 二つ (ふたつ)."
+        },
+        {
+          "id": "c2",
+          "text": "三日",
+          "rationale": "三日 is a different expression. The requested answer is 二つ (ふたつ)."
+        },
+        {
+          "id": "c3",
+          "text": "二つ",
+          "rationale": "二つ is ふたつ and means two general items."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "二つ is read ふたつ and means two general items."
+    }
+  ]
+}
