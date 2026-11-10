@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import AdjectiveContextPractice from '../../../../../components/interactive/AdjectiveContextPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/adjective-descriptions-context');
+if(!lesson||lesson.data.lessonId!=='n5-m04-c03-l01')throw new Error('Missing canonical lesson n5-m04-c03-l01');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Adjectives for descriptions',href:'/learn/n5/module-04/chapter-03/lesson-01/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 04 · Chapter 03 · Lesson 01</span></nav><span class="eyebrow">N5 · MODULE 04 · CHAPTER 03 · LESSON 01</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Written context</span><span>12 questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original written lesson.</strong> Independent Japanese and assessment reviews are pending. No audio or pronunciation grade is claimed.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><AdjectiveContextPractice client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion is separate from the quiz score.</p><LessonActions client:load lessonId="n5-m04-c03-l01" level="n5"/></div><div class="lesson-next"><h3>Continue learning</h3><p>Next: vocabulary for taste, size and evaluation.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Describe what you see</h3><p>Read the scene, find evidence for each adjective, compare い and な, then answer the written questions.</p></aside></div></section>
+</Base>
