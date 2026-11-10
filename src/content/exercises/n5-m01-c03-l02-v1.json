@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m01-c03-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m01-c03-l02-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-1"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "Which term conventionally introduces your own mother to an outsider?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "母（はは）",
+          "rationale": "母 is the conventional outward-facing term for one's own mother."
+        },
+        {
+          "id": "b",
+          "text": "お母さん（おかあさん）",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "お姉さん（おねえさん）",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "母 is the conventional outward-facing term for one's own mother."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-2"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "Which term politely refers to a classmate's father?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "お父さん（おとうさん）",
+          "rationale": "お父さん respectfully refers to another person's father."
+        },
+        {
+          "id": "b",
+          "text": "父（ちち）",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "弟（おとうと）",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "お父さん respectfully refers to another person's father."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-3"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "What does 兄（あに） mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "older brother",
+          "rationale": "兄 means older brother, not younger brother."
+        },
+        {
+          "id": "b",
+          "text": "younger brother",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "older sister",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "兄 means older brother, not younger brother."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-4"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "What does 妹（いもうと） mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "younger sister",
+          "rationale": "妹 identifies a younger sister."
+        },
+        {
+          "id": "b",
+          "text": "older sister",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "younger brother",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "妹 identifies a younger sister."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-5"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "Choose the polite term for Tanaka's older sister.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "田中さんのお姉さん",
+          "rationale": "お姉さん is the respectful term for someone else's older sister."
+        },
+        {
+          "id": "b",
+          "text": "田中さんの姉",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "田中さんの妹",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "お姉さん is the respectful term for someone else's older sister."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-6"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "What does わたしの父 mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "my father",
+          "rationale": "の links わたし (I) to 父 (father)."
+        },
+        {
+          "id": "b",
+          "text": "your father",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "my older brother",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "の links わたし (I) to 父 (father)."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-7"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "Choose the standard kana spelling for the respectful word 'mother'.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "おかあさん",
+          "rationale": "おかあさん contains a long あ vowel."
+        },
+        {
+          "id": "b",
+          "text": "おかさん",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "おかおさん",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "おかあさん contains a long あ vowel."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-8"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "Mika says こちらは、わたしの妹です。 Who is introduced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mika's younger sister",
+          "rationale": "妹 is younger sister and わたしの marks Mika's relation."
+        },
+        {
+          "id": "b",
+          "text": "Mika's older sister",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "Mika's mother",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "妹 is younger sister and わたしの marks Mika's relation."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-9"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "Ken asks ミカさんのお父さんですか。 Whose father is he asking about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mika's father",
+          "rationale": "ミカさんの marks Mika as the person whose father is discussed."
+        },
+        {
+          "id": "b",
+          "text": "Ken's father",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "Mika's younger brother",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ミカさんの marks Mika as the person whose father is discussed."
+    },
+    {
+      "id": "ex-n5-m01-c03-l02-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l02-family-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l02-word-10"
+      ],
+      "skills": [
+        "vocabulary"
+      ],
+      "prompt": "Which phrase means 'my younger brother'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "わたしの弟",
+          "rationale": "弟 means younger brother; の links it to the speaker."
+        },
+        {
+          "id": "b",
+          "text": "わたしの兄",
+          "rationale": "This is a different relationship or register in the stated context."
+        },
+        {
+          "id": "c",
+          "text": "わたしの姉",
+          "rationale": "This does not match the requested family relationship or spelling."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "弟 means younger brother; の links it to the speaker."
+    }
+  ]
+}

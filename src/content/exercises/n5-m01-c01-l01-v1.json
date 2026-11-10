@@ -1,0 +1,334 @@
+{
+  "id": "n5-m01-c01-l01",
+  "lessonId": "n5-m01-c01-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy first-meeting scenes",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c01-l01-q1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-1"
+      ],
+      "prompt": "Scene 1: At a class welcome desk, the helper asks おなまえは？ and Mina answers ミナです。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q1-c1",
+          "text": "They exchange a name",
+          "rationale": "This is the purpose supported by the spoken words."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q1-c2",
+          "text": "They discuss a fee",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q1-c3",
+          "text": "They request directions",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q1-c1"
+      },
+      "explanation": "The exchange establishes: they exchange a name.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    },
+    {
+      "id": "ex-n5-m01-c01-l01-q2",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-2"
+      ],
+      "prompt": "Scene 2: Before class, Yui says がくせいです and Leo says わたしも がくせいです。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q2-c2",
+          "text": "They order food",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q2-c3",
+          "text": "They discuss a train",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q2-c1",
+          "text": "They identify themselves as students",
+          "rationale": "This is the purpose supported by the spoken words."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q2-c1"
+      },
+      "explanation": "The exchange establishes: they identify themselves as students.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    },
+    {
+      "id": "ex-n5-m01-c01-l01-q3",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-3"
+      ],
+      "prompt": "Scene 3: At an orientation, Aki says カナダから きました。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q3-c3",
+          "text": "Aki states their job",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q3-c1",
+          "text": "Aki states where they came from",
+          "rationale": "This is the purpose supported by the spoken words."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q3-c2",
+          "text": "Aki gives their age",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q3-c1"
+      },
+      "explanation": "The exchange establishes: aki states where they came from.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    },
+    {
+      "id": "ex-n5-m01-c01-l01-q4",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-4"
+      ],
+      "prompt": "Scene 4: In an online class, a teacher asks おなまえは？ and the learner says レオです。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q4-c1",
+          "text": "They confirm the learner's name",
+          "rationale": "This is the purpose supported by the spoken words."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q4-c2",
+          "text": "They discuss homework grades",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q4-c3",
+          "text": "They buy a book",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q4-c1"
+      },
+      "explanation": "The exchange establishes: they confirm the learner's name.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    },
+    {
+      "id": "ex-n5-m01-c01-l01-q5",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-5"
+      ],
+      "prompt": "Scene 5: At a school club table, a visitor says はじめてです。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q5-c2",
+          "text": "The visitor asks about salary",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q5-c3",
+          "text": "The visitor gives an address",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q5-c1",
+          "text": "The visitor says it is their first time",
+          "rationale": "This is the purpose supported by the spoken words."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q5-c1"
+      },
+      "explanation": "The exchange establishes: the visitor says it is their first time.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    },
+    {
+      "id": "ex-n5-m01-c01-l01-q6",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-6"
+      ],
+      "prompt": "Scene 6: In a library study room, Haru says がくせいですか。 and Mina replies はい、そうです。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q6-c3",
+          "text": "Haru asks the time",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q6-c1",
+          "text": "Haru checks whether Mina is a student",
+          "rationale": "This is the purpose supported by the spoken words."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q6-c2",
+          "text": "Haru asks about nationality",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q6-c1"
+      },
+      "explanation": "The exchange establishes: haru checks whether mina is a student.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    },
+    {
+      "id": "ex-n5-m01-c01-l01-q7",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-7"
+      ],
+      "prompt": "Scene 7: At a workplace orientation, a colleague says かいしゃいんです。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q7-c1",
+          "text": "The colleague states their role",
+          "rationale": "This is the purpose supported by the spoken words."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q7-c2",
+          "text": "The colleague asks for a menu",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q7-c3",
+          "text": "The colleague states their age",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q7-c1"
+      },
+      "explanation": "The exchange establishes: the colleague states their role.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    },
+    {
+      "id": "ex-n5-m01-c01-l01-q8",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l01-scene-8"
+      ],
+      "prompt": "Scene 8: In a classroom, a learner says はじめまして and the teacher says よろしくおねがいします。 What is the main purpose?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l01-q8-c2",
+          "text": "They say goodbye after years",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q8-c3",
+          "text": "They argue about a price",
+          "rationale": "The dialogue does not provide evidence for this interpretation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l01-q8-c1",
+          "text": "They greet each other at a first meeting",
+          "rationale": "This is the purpose supported by the spoken words."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l01-q8-c1"
+      },
+      "explanation": "The exchange establishes: they greet each other at a first meeting.",
+      "feedback": "Use the explicitly stated information, not an assumption."
+    }
+  ]
+}

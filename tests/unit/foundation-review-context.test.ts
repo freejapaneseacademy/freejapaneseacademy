@@ -1,0 +1,4 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../../src/content/exercises/l0-m05-c04-l01-v1.json';
+import {scoreFoundationReview} from '../../src/components/interactive/FoundationReviewContextPractice';
+describe('foundation review',()=>{it('has ten valid keys',()=>{expect(bank.items.length).toBe(10);expect(new Set(bank.items.map(q=>q.id)).size).toBe(10);for(const q of bank.items){expect(q.choices.length).toBe(3);expect(q.choices.some(c=>c.id===q.answerKey.choiceId)).toBe(true);}});it('scores correct and blank',()=>{const answers=Object.fromEntries(bank.items.map(q=>[q.id,q.answerKey.choiceId]));expect(scoreFoundationReview(answers)).toBe(10);expect(scoreFoundationReview({})).toBe(0);});});
