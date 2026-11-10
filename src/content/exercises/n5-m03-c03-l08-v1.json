@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m03-c03-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which ending correctly reports that you did not watch a film yesterday?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "見ません",
+          "rationale": "This choice does not match the time, particle or meaning required. 昨日、映画を見ませんでした。 uses the polite past negative."
+        },
+        {
+          "id": "c2",
+          "text": "見ます",
+          "rationale": "This choice does not match the time, particle or meaning required. 昨日、映画を見ませんでした。 uses the polite past negative."
+        },
+        {
+          "id": "c3",
+          "text": "見ませんでした",
+          "rationale": "昨日、映画を見ませんでした。 uses the polite past negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "昨日、映画を見ませんでした。 uses the polite past negative."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which question asks about yesterday's completed action?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来週、どこに行きますか。",
+          "rationale": "This choice does not match the time, particle or meaning required. 昨日 and しましたか ask what happened yesterday."
+        },
+        {
+          "id": "c2",
+          "text": "昨日、何をしましたか。",
+          "rationale": "昨日 and しましたか ask what happened yesterday."
+        },
+        {
+          "id": "c3",
+          "text": "明日、何をしますか。",
+          "rationale": "This choice does not match the time, particle or meaning required. 昨日 and しましたか ask what happened yesterday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "昨日 and しましたか ask what happened yesterday."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 図書館で日本語を勉強しました, where did the studying happen?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館",
+          "rationale": "で marks the library as the location of studying."
+        },
+        {
+          "id": "c2",
+          "text": "日本語",
+          "rationale": "This choice does not match the time, particle or meaning required. で marks the library as the location of studying."
+        },
+        {
+          "id": "c3",
+          "text": "映画",
+          "rationale": "This choice does not match the time, particle or meaning required. で marks the library as the location of studying."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "で marks the library as the location of studying."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence describes tomorrow's plan?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日、家で本を読みました。",
+          "rationale": "This choice does not match the time, particle or meaning required. 明日 with 読みます expresses a plan to read tomorrow."
+        },
+        {
+          "id": "c2",
+          "text": "昨日、家で本を読みませんでした。",
+          "rationale": "This choice does not match the time, particle or meaning required. 明日 with 読みます expresses a plan to read tomorrow."
+        },
+        {
+          "id": "c3",
+          "text": "明日、家で本を読みます。",
+          "rationale": "明日 with 読みます expresses a plan to read tomorrow."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "明日 with 読みます expresses a plan to read tomorrow."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which particle marks the object in 本を読みます?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "This choice does not match the time, particle or meaning required. 本を: を marks what is read."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "本を: を marks what is read."
+        },
+        {
+          "id": "c3",
+          "text": "で",
+          "rationale": "This choice does not match the time, particle or meaning required. 本を: を marks what is read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "本を: を marks what is read."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you say you will read at three o'clock?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "三時に読みます。",
+          "rationale": "A specific clock time takes に: 三時に."
+        },
+        {
+          "id": "c2",
+          "text": "三時で読みます。",
+          "rationale": "This choice does not match the time, particle or meaning required. A specific clock time takes に: 三時に."
+        },
+        {
+          "id": "c3",
+          "text": "三時を読みます。",
+          "rationale": "This choice does not match the time, particle or meaning required. A specific clock time takes に: 三時に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A specific clock time takes に: 三時に."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which response is a natural negative answer to 昨日、映画を見ましたか?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "はい、見ませんでした。",
+          "rationale": "This choice does not match the time, particle or meaning required. いいえ with the past negative 見ませんでした answers the past question."
+        },
+        {
+          "id": "c2",
+          "text": "いいえ、見ます。",
+          "rationale": "This choice does not match the time, particle or meaning required. いいえ with the past negative 見ませんでした answers the past question."
+        },
+        {
+          "id": "c3",
+          "text": "いいえ、見ませんでした。",
+          "rationale": "いいえ with the past negative 見ませんでした answers the past question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "いいえ with the past negative 見ませんでした answers the past question."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 友だちと行きます, what does と indicate?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "the time of day",
+          "rationale": "This choice does not match the time, particle or meaning required. 友だちと means with a friend."
+        },
+        {
+          "id": "c2",
+          "text": "a companion",
+          "rationale": "友だちと means with a friend."
+        },
+        {
+          "id": "c3",
+          "text": "a destination",
+          "rationale": "This choice does not match the time, particle or meaning required. 友だちと means with a friend."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "友だちと means with a friend."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression naturally says you went to the library?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館に行きました。",
+          "rationale": "Destination of 行く is marked by に."
+        },
+        {
+          "id": "c2",
+          "text": "図書館で行きました。",
+          "rationale": "This choice does not match the time, particle or meaning required. Destination of 行く is marked by に."
+        },
+        {
+          "id": "c3",
+          "text": "図書館を勉強しました。",
+          "rationale": "This choice does not match the time, particle or meaning required. Destination of 行く is marked by に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Destination of 行く is marked by に."
+    },
+    {
+      "id": "ex-n5-m03-c03-l08-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence matches a future park visit next week?",
+      "objectiveIds": [
+        "n5-m03-c03-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l08-schedule-roleplay"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日、公園に行きます。",
+          "rationale": "This choice does not match the time, particle or meaning required. 来週 anchors a plan and 行きます is the polite nonpast."
+        },
+        {
+          "id": "c2",
+          "text": "来週、公園に行きました。",
+          "rationale": "This choice does not match the time, particle or meaning required. 来週 anchors a plan and 行きます is the polite nonpast."
+        },
+        {
+          "id": "c3",
+          "text": "来週、公園に行きます。",
+          "rationale": "来週 anchors a plan and 行きます is the polite nonpast."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "来週 anchors a plan and 行きます is the polite nonpast."
+    }
+  ]
+}
