@@ -1,0 +1,458 @@
+{
+  "id": "n5-m04-c02-chk",
+  "lessonId": "n5-m04-c02-chk",
+  "version": 1,
+  "status": "internally-checked",
+  "source": "Original academy stationery-shop labels and examples in this checkpoint; no scored audio",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-chk-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-grammar-1"
+      ],
+      "prompt": "At the stationery shop, how do you ask 'How much is this?'",
+      "explanation": "は introduces the item as topic; いくら asks its price.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-01-c1",
+          "text": "これはいくらですか。",
+          "rationale": "Correct. は introduces the item as topic; いくら asks its price."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-01-c2",
+          "text": "これをいくらですか。",
+          "rationale": "Not quite. は introduces the item as topic; いくら asks its price."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-01-c3",
+          "text": "これはいくつですか。",
+          "rationale": "Not quite. は introduces the item as topic; いくら asks its price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-grammar-2"
+      ],
+      "prompt": "You want one notebook. Which request is natural?",
+      "explanation": "を marks the requested item; 一冊 counts bound notebooks.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-02-c1",
+          "text": "ノートは一冊いくら。",
+          "rationale": "Not quite. を marks the requested item; 一冊 counts bound notebooks."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-02-c2",
+          "text": "ノートが一冊ですか。",
+          "rationale": "Not quite. を marks the requested item; 一冊 counts bound notebooks."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-02-c3",
+          "text": "ノートを一冊ください。",
+          "rationale": "Correct. を marks the requested item; 一冊 counts bound notebooks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-vocabulary-3"
+      ],
+      "prompt": "You want two pencils. Which counter is appropriate?",
+      "explanation": "Long thin objects such as pencils take 本; にほん means two.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-03-c1",
+          "text": "えんぴつを二枚ください。",
+          "rationale": "Not quite. Long thin objects such as pencils take 本; にほん means two."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-03-c2",
+          "text": "えんぴつを二本ください。",
+          "rationale": "Correct. Long thin objects such as pencils take 本; にほん means two."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-03-c3",
+          "text": "えんぴつを二冊ください。",
+          "rationale": "Not quite. Long thin objects such as pencils take 本; にほん means two."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-grammar-4"
+      ],
+      "prompt": "A customer asks for the red bag. Choose the polite request.",
+      "explanation": "赤い modifies the noun; をお願いします makes a polite request.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-04-c1",
+          "text": "赤いかばんをお願いします。",
+          "rationale": "Correct. 赤い modifies the noun; をお願いします makes a polite request."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-04-c2",
+          "text": "赤かばんがいくらお願いします。",
+          "rationale": "Not quite. 赤い modifies the noun; をお願いします makes a polite request."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-04-c3",
+          "text": "赤いかばんはお願いしますか。",
+          "rationale": "Not quite. 赤い modifies the noun; をお願いします makes a polite request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "numbers"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-numbers"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-numbers-5"
+      ],
+      "prompt": "A price tag says 850円. What is the price?",
+      "explanation": "八百五十 is 800 + 50, not 8,500 or 85.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-05-c1",
+          "text": "八千五百円",
+          "rationale": "Not quite. 八百五十 is 800 + 50, not 8,500 or 85."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-05-c2",
+          "text": "八十五円",
+          "rationale": "Not quite. 八百五十 is 800 + 50, not 8,500 or 85."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-05-c3",
+          "text": "八百五十円",
+          "rationale": "Correct. 八百五十 is 800 + 50, not 8,500 or 85."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-reading-6"
+      ],
+      "prompt": "Read: 青いノート　300円. Which statement is supported?",
+      "explanation": "青い identifies blue and 300円 states the price.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-06-c1",
+          "text": "The blue notebook costs ¥500.",
+          "rationale": "Not quite. 青い identifies blue and 300円 states the price."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-06-c2",
+          "text": "The blue notebook costs ¥300.",
+          "rationale": "Correct. 青い identifies blue and 300円 states the price."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-06-c3",
+          "text": "The red notebook costs ¥300.",
+          "rationale": "Not quite. 青い identifies blue and 300円 states the price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-reading-7"
+      ],
+      "prompt": "Read: 小さいかばん　900円／大きいかばん　1200円. Which is cheaper?",
+      "explanation": "小さいかばん costs ¥900, which is less than ¥1,200.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-07-c1",
+          "text": "The small bag.",
+          "rationale": "Correct. 小さいかばん costs ¥900, which is less than ¥1,200."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-07-c2",
+          "text": "The large bag.",
+          "rationale": "Not quite. 小さいかばん costs ¥900, which is less than ¥1,200."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-07-c3",
+          "text": "Both cost the same.",
+          "rationale": "Not quite. 小さいかばん costs ¥900, which is less than ¥1,200."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "numbers"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-numbers"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-numbers-8"
+      ],
+      "prompt": "Read: えんぴつ 一本100円. How much for three pencils?",
+      "explanation": "一本100円 means ¥100 per pencil; three cost ¥300.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-08-c1",
+          "text": "100円",
+          "rationale": "Not quite. 一本100円 means ¥100 per pencil; three cost ¥300."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-08-c2",
+          "text": "400円",
+          "rationale": "Not quite. 一本100円 means ¥100 per pencil; three cost ¥300."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-08-c3",
+          "text": "300円",
+          "rationale": "Correct. 一本100円 means ¥100 per pencil; three cost ¥300."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-reading-9"
+      ],
+      "prompt": "Read: 白い紙　十枚200円. What does 十枚 count?",
+      "explanation": "枚 counts flat sheets; 紙 means paper.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-09-c1",
+          "text": "Ten pencils.",
+          "rationale": "Not quite. 枚 counts flat sheets; 紙 means paper."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-09-c2",
+          "text": "Ten sheets of paper.",
+          "rationale": "Correct. 枚 counts flat sheets; 紙 means paper."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-09-c3",
+          "text": "Ten notebooks.",
+          "rationale": "Not quite. 枚 counts flat sheets; 紙 means paper."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-reading-10"
+      ],
+      "prompt": "A clerk asks: 大きいのですか、小さいのですか。 What is being clarified?",
+      "explanation": "大きい and 小さい contrast large and small; の substitutes for the item.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-10-c1",
+          "text": "The customer's size choice.",
+          "rationale": "Correct. 大きい and 小さい contrast large and small; の substitutes for the item."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-10-c2",
+          "text": "The payment method.",
+          "rationale": "Not quite. 大きい and 小さい contrast large and small; の substitutes for the item."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-10-c3",
+          "text": "The customer's name.",
+          "rationale": "Not quite. 大きい and 小さい contrast large and small; の substitutes for the item."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-reading-11"
+      ],
+      "prompt": "Read: 赤いペンは150円です。黒いペンは120円です。 Which pen is ¥120?",
+      "explanation": "黒いペン is explicitly followed by 120円.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-11-c1",
+          "text": "The red pen.",
+          "rationale": "Not quite. 黒いペン is explicitly followed by 120円."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-11-c2",
+          "text": "Neither pen.",
+          "rationale": "Not quite. 黒いペン is explicitly followed by 120円."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-11-c3",
+          "text": "The black pen.",
+          "rationale": "Correct. 黒いペン is explicitly followed by 120円."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c02-chk-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-chk-grammar-12"
+      ],
+      "prompt": "You choose the black one after comparing colors. Which reply fits?",
+      "explanation": "をお願いします confirms the choice; いくら asks the price instead.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c02-chk-12-c1",
+          "text": "黒いのはありません。",
+          "rationale": "Not quite. をお願いします confirms the choice; いくら asks the price instead."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-12-c2",
+          "text": "黒いのをお願いします。",
+          "rationale": "Correct. をお願いします confirms the choice; いくら asks the price instead."
+        },
+        {
+          "id": "ex-n5-m04-c02-chk-12-c3",
+          "text": "黒いのはいくらですか。",
+          "rationale": "Not quite. をお願いします confirms the choice; いくら asks the price instead."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c02-chk-12-c2"
+      }
+    }
+  ]
+}

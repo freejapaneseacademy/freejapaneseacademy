@@ -3744,6 +3744,23 @@
       "audio": "not required for written L04",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m04-c02-chk",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c02",
+      "slot": "CHK",
+      "title": "Shopping and prices — chapter checkpoint",
+      "content": "src/content/lessons/n5/shopping-prices-checkpoint.mdx",
+      "url": "/learn/n5/module-04/chapter-02/checkpoint/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "no new audio; genuine L06 checkout recordings must be verified separately before any scored listening",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
