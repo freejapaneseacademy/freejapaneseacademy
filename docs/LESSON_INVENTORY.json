@@ -3365,6 +3365,21 @@
       "noindex": false,
       "authorSlot": ":15",
       "automationId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m01-c02-chk",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c02",
+      "slot": "CHK",
+      "title": "Questions about people — chapter checkpoint",
+      "content": "src/content/lessons/n5/questions-about-people-checkpoint.mdx",
+      "url": "/learn/n5/module-01/chapter-02/checkpoint/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses predecessor N5-M01-C02-L06 recordings; authentic WAVs, rights and hashes require verification",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
