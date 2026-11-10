@@ -1,0 +1,270 @@
+{
+  "lessonId": "n5-m03-c02-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "When does the speaker get up?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At 7:00",
+          "rationale": "Incorrect. The recording states: 六時半に起きます。"
+        },
+        {
+          "id": "c2",
+          "text": "At 8:00",
+          "rationale": "Incorrect. The recording states: 六時半に起きます。"
+        },
+        {
+          "id": "c3",
+          "text": "At 6:30",
+          "rationale": "Correct. 六時半 means half past six."
+        },
+        {
+          "id": "c4",
+          "text": "At 5:30",
+          "rationale": "Incorrect. The recording states: 六時半に起きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "六時半に起きます。",
+      "explanation": "六時半 means half past six."
+    },
+    {
+      "id": "ex-n5-m03-c02-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What does he do at seven?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Watches television",
+          "rationale": "Incorrect. The recording states: 七時に朝ご飯を食べます。"
+        },
+        {
+          "id": "c2",
+          "text": "Goes to school",
+          "rationale": "Incorrect. The recording states: 七時に朝ご飯を食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "Eats breakfast",
+          "rationale": "Correct. 朝ご飯を食べます means eats breakfast."
+        },
+        {
+          "id": "c4",
+          "text": "Goes to bed",
+          "rationale": "Incorrect. The recording states: 七時に朝ご飯を食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "七時に朝ご飯を食べます。",
+      "explanation": "朝ご飯を食べます means eats breakfast."
+    },
+    {
+      "id": "ex-n5-m03-c02-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Does he watch television in the morning?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, every morning",
+          "rationale": "Incorrect. The recording states: いいえ、見ません。"
+        },
+        {
+          "id": "c2",
+          "text": "Only at eight",
+          "rationale": "Incorrect. The recording states: いいえ、見ません。"
+        },
+        {
+          "id": "c3",
+          "text": "No, he does not",
+          "rationale": "Correct. いいえ plus 見ません explicitly negates watching."
+        },
+        {
+          "id": "c4",
+          "text": "He says nothing about television",
+          "rationale": "Incorrect. The recording states: いいえ、見ません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "いいえ、見ません。",
+      "explanation": "いいえ plus 見ません explicitly negates watching."
+    },
+    {
+      "id": "ex-n5-m03-c02-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "When does she return home?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At 7:00",
+          "rationale": "Incorrect. The recording states: 六時に家に帰ります。"
+        },
+        {
+          "id": "c2",
+          "text": "At 8:00",
+          "rationale": "Incorrect. The recording states: 六時に家に帰ります。"
+        },
+        {
+          "id": "c3",
+          "text": "At 6:00",
+          "rationale": "Correct. 六時に marks six o'clock."
+        },
+        {
+          "id": "c4",
+          "text": "At 5:00",
+          "rationale": "Incorrect. The recording states: 六時に家に帰ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "六時に家に帰ります。",
+      "explanation": "六時に marks six o'clock."
+    },
+    {
+      "id": "ex-n5-m03-c02-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What does she do at seven?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Goes to work",
+          "rationale": "Incorrect. The recording states: 七時に晩ご飯を作ります。"
+        },
+        {
+          "id": "c2",
+          "text": "Listens to music",
+          "rationale": "Incorrect. The recording states: 七時に晩ご飯を作ります。"
+        },
+        {
+          "id": "c3",
+          "text": "Makes dinner",
+          "rationale": "Correct. 晩ご飯を作ります means makes dinner."
+        },
+        {
+          "id": "c4",
+          "text": "Drinks coffee",
+          "rationale": "Incorrect. The recording states: 七時に晩ご飯を作ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "七時に晩ご飯を作ります。",
+      "explanation": "晩ご飯を作ります means makes dinner."
+    },
+    {
+      "id": "ex-n5-m03-c02-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c02-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What does she not drink at night?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Water",
+          "rationale": "Incorrect. The recording states: 夜はコーヒーを飲みません。"
+        },
+        {
+          "id": "c2",
+          "text": "Tea",
+          "rationale": "Incorrect. The recording states: 夜はコーヒーを飲みません。"
+        },
+        {
+          "id": "c3",
+          "text": "Coffee",
+          "rationale": "Correct. 飲みません is the polite negative form."
+        },
+        {
+          "id": "c4",
+          "text": "Milk",
+          "rationale": "Incorrect. The recording states: 夜はコーヒーを飲みません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "夜はコーヒーを飲みません。",
+      "explanation": "飲みません is the polite negative form."
+    }
+  ]
+}
