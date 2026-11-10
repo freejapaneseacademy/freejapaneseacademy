@@ -3448,6 +3448,22 @@
       "audio": "not required for written L04",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m03-c04-l02",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c04",
+      "slot": "L02",
+      "title": "How often? Twelve words for everyday habits",
+      "content": "src/content/lessons/n5/frequency-habits-vocabulary.mdx",
+      "url": "/learn/n5/module-03/chapter-04/lesson-02/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L02; no audio generated",
+      "noindex": true,
+      "ownerApproval": "automatic publication preauthorized; subject to serial release gates"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

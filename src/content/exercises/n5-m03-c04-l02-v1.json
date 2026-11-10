@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m03-c04-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means “often”?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "よく",
+          "rationale": "Correct: よく means often; it does not give an exact weekly count."
+        },
+        {
+          "id": "c2",
+          "text": "ときどき",
+          "rationale": "Not this one. よく means often; it does not give an exact weekly count."
+        },
+        {
+          "id": "c3",
+          "text": "いつも",
+          "rationale": "Not this one. よく means often; it does not give an exact weekly count."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "よく means often; it does not give an exact weekly count."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means “sometimes”?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "毎日",
+          "rationale": "Not this one. ときどき means sometimes, unlike the every-day/every-morning expressions."
+        },
+        {
+          "id": "c2",
+          "text": "ときどき",
+          "rationale": "Correct: ときどき means sometimes, unlike the every-day/every-morning expressions."
+        },
+        {
+          "id": "c3",
+          "text": "毎朝",
+          "rationale": "Not this one. ときどき means sometimes, unlike the every-day/every-morning expressions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "ときどき means sometimes, unlike the every-day/every-morning expressions."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the beginner pattern for “I do not exercise much.”",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あまり運動します。",
+          "rationale": "Not this one. あまり〜ません expresses not very much; ぜんぜん〜ません is stronger."
+        },
+        {
+          "id": "c2",
+          "text": "ぜんぜん運動しません。",
+          "rationale": "Not this one. あまり〜ません expresses not very much; ぜんぜん〜ません is stronger."
+        },
+        {
+          "id": "c3",
+          "text": "あまり運動しません。",
+          "rationale": "Correct: あまり〜ません expresses not very much; ぜんぜん〜ません is stronger."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "あまり〜ません expresses not very much; ぜんぜん〜ません is stronger."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose “I do not drink coffee at all.”",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ぜんぜんコーヒーを飲みません。",
+          "rationale": "Correct: ぜんぜん〜ません conveys not at all in this beginner pattern."
+        },
+        {
+          "id": "c2",
+          "text": "あまりコーヒーを飲みません。",
+          "rationale": "Not this one. ぜんぜん〜ません conveys not at all in this beginner pattern."
+        },
+        {
+          "id": "c3",
+          "text": "よくコーヒーを飲みます。",
+          "rationale": "Not this one. ぜんぜん〜ません conveys not at all in this beginner pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ぜんぜん〜ません conveys not at all in this beginner pattern."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the reading of 毎日?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "まいばん",
+          "rationale": "Not this one. 毎日 is read まいにち and means every day."
+        },
+        {
+          "id": "c2",
+          "text": "まいにち",
+          "rationale": "Correct: 毎日 is read まいにち and means every day."
+        },
+        {
+          "id": "c3",
+          "text": "まいあさ",
+          "rationale": "Not this one. 毎日 is read まいにち and means every day."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "毎日 is read まいにち and means every day."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the reading of 毎晩?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "まいにち",
+          "rationale": "Not this one. 毎晩 (まいばん) means every evening/night."
+        },
+        {
+          "id": "c2",
+          "text": "しゅうまつ",
+          "rationale": "Not this one. 毎晩 (まいばん) means every evening/night."
+        },
+        {
+          "id": "c3",
+          "text": "まいばん",
+          "rationale": "Correct: 毎晩 (まいばん) means every evening/night."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "毎晩 (まいばん) means every evening/night."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means “weekend”?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "週末",
+          "rationale": "Correct: 週末 (しゅうまつ) means weekend, not next week."
+        },
+        {
+          "id": "c2",
+          "text": "来週",
+          "rationale": "Not this one. 週末 (しゅうまつ) means weekend, not next week."
+        },
+        {
+          "id": "c3",
+          "text": "習慣",
+          "rationale": "Not this one. 週末 (しゅうまつ) means weekend, not next week."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "週末 (しゅうまつ) means weekend, not next week."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means “habit”?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "運動",
+          "rationale": "Not this one. 習慣 (しゅうかん) is the noun habit."
+        },
+        {
+          "id": "c2",
+          "text": "散歩",
+          "rationale": "Not this one. 習慣 (しゅうかん) is the noun habit."
+        },
+        {
+          "id": "c3",
+          "text": "習慣",
+          "rationale": "Correct: 習慣 (しゅうかん) is the noun habit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "習慣 (しゅうかん) is the noun habit."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite verb means “take a walk”?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "運動します",
+          "rationale": "Not this one. 散歩します means take a walk; 運動します means exercise."
+        },
+        {
+          "id": "c2",
+          "text": "散歩します",
+          "rationale": "Correct: 散歩します means take a walk; 運動します means exercise."
+        },
+        {
+          "id": "c3",
+          "text": "勉強します",
+          "rationale": "Not this one. 散歩します means take a walk; 運動します means exercise."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "散歩します means take a walk; 運動します means exercise."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence means “I get up at seven every morning”?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "毎朝、七時に起きます。",
+          "rationale": "Correct: 毎朝 indicates every morning; 七時に marks the time."
+        },
+        {
+          "id": "c2",
+          "text": "今朝、七時に起きました。",
+          "rationale": "Not this one. 毎朝 indicates every morning; 七時に marks the time."
+        },
+        {
+          "id": "c3",
+          "text": "毎晩、七時に起きます。",
+          "rationale": "Not this one. 毎朝 indicates every morning; 七時に marks the time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "毎朝 indicates every morning; 七時に marks the time."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Rina says テレビはあまり見ません. What is supported?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Rina never watches television.",
+          "rationale": "Not this one. あまり見ません means not much; it does not necessarily mean never."
+        },
+        {
+          "id": "c2",
+          "text": "Rina watches television every day.",
+          "rationale": "Not this one. あまり見ません means not much; it does not necessarily mean never."
+        },
+        {
+          "id": "c3",
+          "text": "Rina does not watch much television.",
+          "rationale": "Correct: あまり見ません means not much; it does not necessarily mean never."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "あまり見ません means not much; it does not necessarily mean never."
+    },
+    {
+      "id": "ex-n5-m03-c04-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Rina says よく図書館で本を読みます. What is supported?",
+      "objectiveIds": [
+        "n5-m03-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l02-frequency-habits"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "She reads exactly five days a week.",
+          "rationale": "Not this one. よく supports often; the sentence gives no exact count."
+        },
+        {
+          "id": "c2",
+          "text": "She often reads books at the library.",
+          "rationale": "Correct: よく supports often; the sentence gives no exact count."
+        },
+        {
+          "id": "c3",
+          "text": "She never reads at the library.",
+          "rationale": "Not this one. よく supports often; the sentence gives no exact count."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "よく supports often; the sentence gives no exact count."
+    }
+  ]
+}
