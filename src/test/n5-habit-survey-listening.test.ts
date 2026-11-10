@@ -1,0 +1,4 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../content/exercises/n5-m03-c04-l06-v1.json';
+import {scoreHabitAnswers,validateHabitEvidence} from '../components/interactive/HabitSurveyListening';
+describe('N5 frequency listening',()=>{it('has two tracks with supported evidence',()=>{expect(validateHabitEvidence()).toBe(true);expect(bank.items.filter(q=>q.trackId==='a')).toHaveLength(4);expect(bank.items.filter(q=>q.trackId==='b')).toHaveLength(4);});it('scores exact IDs only',()=>{expect(scoreHabitAnswers(Object.fromEntries(bank.items.map(q=>[q.id,q.answerKey.choiceId])))).toBe(8);expect(scoreHabitAnswers({})).toBe(0);});it('has distinct choices and feedback',()=>{for(const q of bank.items){expect(new Set(q.choices.map(c=>c.text)).size).toBe(4);expect(q.choices.every(c=>!!c.rationale)).toBe(true);}});});
