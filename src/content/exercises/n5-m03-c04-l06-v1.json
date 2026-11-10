@@ -1,0 +1,358 @@
+{
+  "lessonId": "n5-m03-c04-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What is the first survey about?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Library use",
+          "rationale": "Correct. The interviewer introduces a library survey."
+        },
+        {
+          "id": "c2",
+          "text": "Buying food",
+          "rationale": "This does not match the spoken evidence: 図書館のアンケートです。"
+        },
+        {
+          "id": "c3",
+          "text": "Train tickets",
+          "rationale": "This does not match the spoken evidence: 図書館のアンケートです。"
+        },
+        {
+          "id": "c4",
+          "text": "Weather",
+          "rationale": "This does not match the spoken evidence: 図書館のアンケートです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "図書館のアンケートです。",
+      "explanation": "The interviewer introduces a library survey."
+    },
+    {
+      "id": "ex-n5-m03-c04-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "When does the man read books?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Every morning",
+          "rationale": "This does not match the spoken evidence: いつも夜に本を読みます。"
+        },
+        {
+          "id": "c2",
+          "text": "Always at night",
+          "rationale": "Correct. いつも means always; 夜 means night."
+        },
+        {
+          "id": "c3",
+          "text": "Only on Sundays",
+          "rationale": "This does not match the spoken evidence: いつも夜に本を読みます。"
+        },
+        {
+          "id": "c4",
+          "text": "Never",
+          "rationale": "This does not match the spoken evidence: いつも夜に本を読みます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "いつも夜に本を読みます。",
+      "explanation": "いつも means always; 夜 means night."
+    },
+    {
+      "id": "ex-n5-m03-c04-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "How often does the man study at the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Every day",
+          "rationale": "This does not match the spoken evidence: ときどき図書館で勉強します。"
+        },
+        {
+          "id": "c2",
+          "text": "Never",
+          "rationale": "This does not match the spoken evidence: ときどき図書館で勉強します。"
+        },
+        {
+          "id": "c3",
+          "text": "Sometimes",
+          "rationale": "Correct. ときどき means sometimes; 図書館で is at the library."
+        },
+        {
+          "id": "c4",
+          "text": "Only on weekends",
+          "rationale": "This does not match the spoken evidence: ときどき図書館で勉強します。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "ときどき図書館で勉強します。",
+      "explanation": "ときどき means sometimes; 図書館で is at the library."
+    },
+    {
+      "id": "ex-n5-m03-c04-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Does the man study much in the morning?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, always",
+          "rationale": "This does not match the spoken evidence: 朝はあまり勉強しません。"
+        },
+        {
+          "id": "c2",
+          "text": "Yes, often",
+          "rationale": "This does not match the spoken evidence: 朝はあまり勉強しません。"
+        },
+        {
+          "id": "c3",
+          "text": "He did not say",
+          "rationale": "This does not match the spoken evidence: 朝はあまり勉強しません。"
+        },
+        {
+          "id": "c4",
+          "text": "No, not much",
+          "rationale": "Correct. あまり with a negative verb means not very much/often."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "朝はあまり勉強しません。",
+      "explanation": "あまり with a negative verb means not very much/often."
+    },
+    {
+      "id": "ex-n5-m03-c04-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What is the second survey about?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Shopping",
+          "rationale": "This does not match the spoken evidence: 運動について聞きます。"
+        },
+        {
+          "id": "c2",
+          "text": "Exercise",
+          "rationale": "Correct. 運動 means exercise; について means about."
+        },
+        {
+          "id": "c3",
+          "text": "School exams",
+          "rationale": "This does not match the spoken evidence: 運動について聞きます。"
+        },
+        {
+          "id": "c4",
+          "text": "Music",
+          "rationale": "This does not match the spoken evidence: 運動について聞きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "運動について聞きます。",
+      "explanation": "運動 means exercise; について means about."
+    },
+    {
+      "id": "ex-n5-m03-c04-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where does the woman often walk?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At school",
+          "rationale": "This does not match the spoken evidence: よく公園を歩きます。"
+        },
+        {
+          "id": "c2",
+          "text": "At the station",
+          "rationale": "This does not match the spoken evidence: よく公園を歩きます。"
+        },
+        {
+          "id": "c3",
+          "text": "In the park",
+          "rationale": "Correct. よく means often; 公園を歩きます means walks through/in the park."
+        },
+        {
+          "id": "c4",
+          "text": "At the library",
+          "rationale": "This does not match the spoken evidence: よく公園を歩きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "よく公園を歩きます。",
+      "explanation": "よく means often; 公園を歩きます means walks through/in the park."
+    },
+    {
+      "id": "ex-n5-m03-c04-l06-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-7"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Does the woman run every day?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "No, she never runs",
+          "rationale": "Correct. ぜんぜん with the negative means not at all."
+        },
+        {
+          "id": "c2",
+          "text": "Yes, every day",
+          "rationale": "This does not match the spoken evidence: ぜんぜん走りません。"
+        },
+        {
+          "id": "c3",
+          "text": "Only on Mondays",
+          "rationale": "This does not match the spoken evidence: ぜんぜん走りません。"
+        },
+        {
+          "id": "c4",
+          "text": "She does not answer",
+          "rationale": "This does not match the spoken evidence: ぜんぜん走りません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "ぜんぜん走りません。",
+      "explanation": "ぜんぜん with the negative means not at all."
+    },
+    {
+      "id": "ex-n5-m03-c04-l06-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l06-listening-8"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What does the woman sometimes do at home?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Read newspapers",
+          "rationale": "This does not match the spoken evidence: ときどき家でヨガをします。"
+        },
+        {
+          "id": "c2",
+          "text": "Study kanji",
+          "rationale": "This does not match the spoken evidence: ときどき家でヨガをします。"
+        },
+        {
+          "id": "c3",
+          "text": "Cook rice",
+          "rationale": "This does not match the spoken evidence: ときどき家でヨガをします。"
+        },
+        {
+          "id": "c4",
+          "text": "Do yoga",
+          "rationale": "Correct. ときどき means sometimes; 家で is at home."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "ときどき家でヨガをします。",
+      "explanation": "ときどき means sometimes; 家で is at home."
+    }
+  ]
+}
