@@ -3268,6 +3268,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written L02; no listening score",
       "noindex": false
+    },
+    {
+      "id": "n5-m03-c01-l06",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c01",
+      "slot": "L06",
+      "title": "Dates and counters — listen to two community announcements",
+      "content": "src/content/lessons/n5/date-announcements-listening.mdx",
+      "url": "/learn/n5/module-03/chapter-01/lesson-06/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent Japanese and pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "schema-v3 candidate; authentic WAVs, hashes, rights and playback pending",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
