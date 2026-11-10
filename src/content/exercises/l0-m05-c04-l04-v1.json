@@ -1,0 +1,424 @@
+{
+  "id": "l0-m05-c04-l04",
+  "lessonId": "l0-m05-c04-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original foundation kana comparison and correction tasks; no audio or pronunciation scoring",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c04-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Which spelling contains the small っ?",
+      "explanation": "きって has a small っ before て, marking a held consonant.",
+      "feedback": "きって has a small っ before て, marking a held consonant.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-01-c1",
+          "text": "きって",
+          "rationale": "Correct. きって has a small っ before て, marking a held consonant."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-01-c2",
+          "text": "きて",
+          "rationale": "Not the target spelling or strategy. きって has a small っ before て, marking a held consonant."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-01-c3",
+          "text": "きいって",
+          "rationale": "Not the target spelling or strategy. きって has a small っ before て, marking a held consonant."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Choose the standard spelling of 'coffee'.",
+      "explanation": "コーヒー uses two long-vowel marks, after コ and ヒ.",
+      "feedback": "コーヒー uses two long-vowel marks, after コ and ヒ.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-02-c1",
+          "text": "コーヒー",
+          "rationale": "Correct. コーヒー uses two long-vowel marks, after コ and ヒ."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-02-c2",
+          "text": "コヒ",
+          "rationale": "Not the target spelling or strategy. コーヒー uses two long-vowel marks, after コ and ヒ."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-02-c3",
+          "text": "コヒー",
+          "rationale": "Not the target spelling or strategy. コーヒー uses two long-vowel marks, after コ and ヒ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Which pair contrasts a contracted sound with two full kana?",
+      "explanation": "Small ゃ combines with き in きゃ; full や creates two kana units in きや.",
+      "feedback": "Small ゃ combines with き in きゃ; full や creates two kana units in きや.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-03-c1",
+          "text": "きゃ / きや",
+          "rationale": "Correct. Small ゃ combines with き in きゃ; full や creates two kana units in きや."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-03-c2",
+          "text": "か / が",
+          "rationale": "Not the target spelling or strategy. Small ゃ combines with き in きゃ; full や creates two kana units in きや."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-03-c3",
+          "text": "こ / コ",
+          "rationale": "Not the target spelling or strategy. Small ゃ combines with き in きゃ; full や creates two kana units in きや."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Which is the correct hiragana for gakkou (school)?",
+      "explanation": "がっこう includes small っ before こ; がつこう uses full つ.",
+      "feedback": "がっこう includes small っ before こ; がつこう uses full つ.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-04-c1",
+          "text": "がっこう",
+          "rationale": "Correct. がっこう includes small っ before こ; がつこう uses full つ."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-04-c2",
+          "text": "がこう",
+          "rationale": "Not the target spelling or strategy. がっこう includes small っ before こ; がつこう uses full つ."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-04-c3",
+          "text": "がつこう",
+          "rationale": "Not the target spelling or strategy. がっこう includes small っ before こ; がつこう uses full つ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Which is the standard katakana for 'ticket'?",
+      "explanation": "チケット uses small ッ to mark the held consonant.",
+      "feedback": "チケット uses small ッ to mark the held consonant.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-05-c1",
+          "text": "チケット",
+          "rationale": "Correct. チケット uses small ッ to mark the held consonant."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-05-c2",
+          "text": "チケト",
+          "rationale": "Not the target spelling or strategy. チケット uses small ッ to mark the held consonant."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-05-c3",
+          "text": "チツケット",
+          "rationale": "Not the target spelling or strategy. チケット uses small ッ to mark the held consonant."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Which spelling correctly preserves the long vowel in 'grandmother'?",
+      "explanation": "おばあさん has the additional あ; おばさん is a different word.",
+      "feedback": "おばあさん has the additional あ; おばさん is a different word.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-06-c1",
+          "text": "おばあさん",
+          "rationale": "Correct. おばあさん has the additional あ; おばさん is a different word."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-06-c2",
+          "text": "おばさん",
+          "rationale": "Not the target spelling or strategy. おばあさん has the additional あ; おばさん is a different word."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-06-c3",
+          "text": "おばっさん",
+          "rationale": "Not the target spelling or strategy. おばあさん has the additional あ; おばさん is a different word."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Which pair has the same basic sound but different writing systems?",
+      "explanation": "さ is hiragana and サ is katakana; both represent sa.",
+      "feedback": "さ is hiragana and サ is katakana; both represent sa.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-07-c1",
+          "text": "さ / サ",
+          "rationale": "Correct. さ is hiragana and サ is katakana; both represent sa."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-07-c2",
+          "text": "さ / ち",
+          "rationale": "Not the target spelling or strategy. さ is hiragana and サ is katakana; both represent sa."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-07-c3",
+          "text": "サ / セ",
+          "rationale": "Not the target spelling or strategy. さ is hiragana and サ is katakana; both represent sa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "Which is the correct katakana for 'camera'?",
+      "explanation": "The conventional loanword spelling is カメラ; do not insert a long-vowel mark.",
+      "feedback": "The conventional loanword spelling is カメラ; do not insert a long-vowel mark.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-08-c1",
+          "text": "カメラ",
+          "rationale": "Correct. The conventional loanword spelling is カメラ; do not insert a long-vowel mark."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-08-c2",
+          "text": "カメーラ",
+          "rationale": "Not the target spelling or strategy. The conventional loanword spelling is カメラ; do not insert a long-vowel mark."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-08-c3",
+          "text": "カミラ",
+          "rationale": "Not the target spelling or strategy. The conventional loanword spelling is カメラ; do not insert a long-vowel mark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "A learner writes がこう for がっこう. What should they correct?",
+      "explanation": "The missed symbol is small っ, not a long-vowel mark or a script change.",
+      "feedback": "The missed symbol is small っ, not a long-vowel mark or a script change.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-09-c1",
+          "text": "Add small っ before こ",
+          "rationale": "Correct. The missed symbol is small っ, not a long-vowel mark or a script change."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-09-c2",
+          "text": "Add ー after が",
+          "rationale": "Not the target spelling or strategy. The missed symbol is small っ, not a long-vowel mark or a script change."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-09-c3",
+          "text": "Change こ to コ",
+          "rationale": "Not the target spelling or strategy. The missed symbol is small っ, not a long-vowel mark or a script change."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-09-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m05-c04-l04-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "script",
+      "level": "l0",
+      "skills": [
+        "written",
+        "kana-recognition"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l04-kana-recap"
+      ],
+      "prompt": "What is the best next step after missing two kana cards?",
+      "explanation": "Targeted retrieval and delayed rechecking provide evidence of recognition; translations alone do not.",
+      "feedback": "Targeted retrieval and delayed rechecking provide evidence of recognition; translations alone do not.",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c04-l04-10-c1",
+          "text": "Hide the model, retry the two weak cards, then revisit later",
+          "rationale": "Correct. Targeted retrieval and delayed rechecking provide evidence of recognition; translations alone do not."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-10-c2",
+          "text": "Only reread the English translations",
+          "rationale": "Not the target spelling or strategy. Targeted retrieval and delayed rechecking provide evidence of recognition; translations alone do not."
+        },
+        {
+          "id": "ex-l0-m05-c04-l04-10-c3",
+          "text": "Mark every card mastered immediately",
+          "rationale": "Not the target spelling or strategy. Targeted retrieval and delayed rechecking provide evidence of recognition; translations alone do not."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c04-l04-10-c1"
+      }
+    }
+  ]
+}
