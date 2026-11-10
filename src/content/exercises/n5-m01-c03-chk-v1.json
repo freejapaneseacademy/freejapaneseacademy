@@ -1,0 +1,546 @@
+{
+  "id": "n5-m01-c03-chk",
+  "lessonId": "n5-m01-c03-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional family cards and N5-M01-C03-L06 spoken dialogue evidence; licensed audio required for listening",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 14,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c03-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-grammar-1"
+      ],
+      "prompt": "Which phrase politely introduces a family member?",
+      "evidence": "こちらは、わたしの母です。",
+      "explanation": "こちら is appropriate when introducing a person; これ usually refers to an object, and その needs a noun.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-01-c1",
+          "text": "こちらは、わたしの母です。",
+          "rationale": "Correct: こちら is appropriate when introducing a person; これ usually refers to an object, and その needs a noun."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-01-c2",
+          "text": "これは、わたしの母です。",
+          "rationale": "Not supported by \"こちらは、わたしの母です。\". こちら is appropriate when introducing a person; これ usually refers to an object, and その needs a noun."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-01-c3",
+          "text": "そのは、わたしの母です。",
+          "rationale": "Not supported by \"こちらは、わたしの母です。\". こちら is appropriate when introducing a person; これ usually refers to an object, and その needs a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-grammar-2"
+      ],
+      "prompt": "Who is described by ミカさんの妹?",
+      "evidence": "ミカさんの妹",
+      "explanation": "妹 means younger sister; の attaches the relationship to Mika.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-02-c1",
+          "text": "Mika's older sister",
+          "rationale": "Not supported by \"ミカさんの妹\". 妹 means younger sister; の attaches the relationship to Mika."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-02-c2",
+          "text": "Mika's younger sister",
+          "rationale": "Correct: 妹 means younger sister; の attaches the relationship to Mika."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-02-c3",
+          "text": "Mika's mother",
+          "rationale": "Not supported by \"ミカさんの妹\". 妹 means younger sister; の attaches the relationship to Mika."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-grammar-3"
+      ],
+      "prompt": "Which is the conventional term for your own mother when speaking to an outsider?",
+      "evidence": "わたしの母（はは）",
+      "explanation": "母 is the conventional reference for one's own mother in this context.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-03-c1",
+          "text": "お母さん",
+          "rationale": "Not supported by \"わたしの母（はは）\". 母 is the conventional reference for one's own mother in this context."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-03-c2",
+          "text": "母（はは）",
+          "rationale": "Correct: 母 is the conventional reference for one's own mother in this context."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-03-c3",
+          "text": "お姉さん",
+          "rationale": "Not supported by \"わたしの母（はは）\". 母 is the conventional reference for one's own mother in this context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-grammar-4"
+      ],
+      "prompt": "Choose a natural reference to the person already identified in a photograph.",
+      "evidence": "その人は、わたしの兄です。",
+      "explanation": "その modifies 人; その alone cannot serve as the noun here.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-04-c1",
+          "text": "そのは、わたしの兄です。",
+          "rationale": "Not supported by \"その人は、わたしの兄です。\". その modifies 人; その alone cannot serve as the noun here."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-04-c2",
+          "text": "これ人は、わたしの兄です。",
+          "rationale": "Not supported by \"その人は、わたしの兄です。\". その modifies 人; その alone cannot serve as the noun here."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-04-c3",
+          "text": "その人は、わたしの兄です。",
+          "rationale": "Correct: その modifies 人; その alone cannot serve as the noun here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-04-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-grammar-5"
+      ],
+      "prompt": "Which phrase means 'Tanaka's father' respectfully?",
+      "evidence": "田中さんのお父さん",
+      "explanation": "田中さんの identifies whose father; お父さん is a respectful family term.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-05-c1",
+          "text": "田中さんのお父さん",
+          "rationale": "Correct: 田中さんの identifies whose father; お父さん is a respectful family term."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-05-c2",
+          "text": "お父さんの田中さん",
+          "rationale": "Not supported by \"田中さんのお父さん\". 田中さんの identifies whose father; お父さん is a respectful family term."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-05-c3",
+          "text": "田中さんの父ですか",
+          "rationale": "Not supported by \"田中さんのお父さん\". 田中さんの identifies whose father; お父さん is a respectful family term."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-grammar-6"
+      ],
+      "prompt": "Which sentence says that the person is NOT a teacher?",
+      "evidence": "先生じゃありません。",
+      "explanation": "じゃありません negates the nominal predicate.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-06-c1",
+          "text": "先生です。",
+          "rationale": "Not supported by \"先生じゃありません。\". じゃありません negates the nominal predicate."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-06-c2",
+          "text": "先生じゃありません。",
+          "rationale": "Correct: じゃありません negates the nominal predicate."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-06-c3",
+          "text": "先生もです。",
+          "rationale": "Not supported by \"先生じゃありません。\". じゃありません negates the nominal predicate."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-reading-7"
+      ],
+      "prompt": "Read card A. Who is Yui to Mika?",
+      "evidence": "カードA：ミカさんの妹は、ユイさんです。",
+      "explanation": "妹 means younger sister and the card names Yui.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-07-c1",
+          "text": "Mika's mother",
+          "rationale": "Not supported by \"カードA：ミカさんの妹は、ユイさんです。\". 妹 means younger sister and the card names Yui."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-07-c2",
+          "text": "Mika's younger sister",
+          "rationale": "Correct: 妹 means younger sister and the card names Yui."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-07-c3",
+          "text": "Mika's older brother",
+          "rationale": "Not supported by \"カードA：ミカさんの妹は、ユイさんです。\". 妹 means younger sister and the card names Yui."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-reading-8"
+      ],
+      "prompt": "Read card B. What is Mika's mother called in the card?",
+      "evidence": "カードB：こちらは、わたしの母、さちこです。",
+      "explanation": "母、さちこ directly identifies the mother as Sachiko.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-08-c1",
+          "text": "さちこ",
+          "rationale": "Correct: 母、さちこ directly identifies the mother as Sachiko."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-08-c2",
+          "text": "ユイ",
+          "rationale": "Not supported by \"カードB：こちらは、わたしの母、さちこです。\". 母、さちこ directly identifies the mother as Sachiko."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-08-c3",
+          "text": "ミカ",
+          "rationale": "Not supported by \"カードB：こちらは、わたしの母、さちこです。\". 母、さちこ directly identifies the mother as Sachiko."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-reading-9"
+      ],
+      "prompt": "Read card C. Who is the person in the photograph?",
+      "evidence": "カードC：その人は、ミカさんの兄、けんさんです。",
+      "explanation": "兄（あに） is older brother, and the name is Ken.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-09-c1",
+          "text": "Mika's younger brother",
+          "rationale": "Not supported by \"カードC：その人は、ミカさんの兄、けんさんです。\". 兄（あに） is older brother, and the name is Ken."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-09-c2",
+          "text": "Mika's older brother",
+          "rationale": "Correct: 兄（あに） is older brother, and the name is Ken."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-09-c3",
+          "text": "Mika's father",
+          "rationale": "Not supported by \"カードC：その人は、ミカさんの兄、けんさんです。\". 兄（あに） is older brother, and the name is Ken."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-reading-10"
+      ],
+      "prompt": "Read card D. Which statement about Ken is true?",
+      "evidence": "カードD：けんさんは、先生じゃありません。会社員です。",
+      "explanation": "The first sentence rejects teacher; 会社員 states his occupation.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-10-c1",
+          "text": "Ken is a teacher.",
+          "rationale": "Not supported by \"カードD：けんさんは、先生じゃありません。会社員です。\". The first sentence rejects teacher; 会社員 states his occupation."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-10-c2",
+          "text": "Ken is a high school student.",
+          "rationale": "Not supported by \"カードD：けんさんは、先生じゃありません。会社員です。\". The first sentence rejects teacher; 会社員 states his occupation."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-10-c3",
+          "text": "Ken is a company employee.",
+          "rationale": "Correct: The first sentence rejects teacher; 会社員 states his occupation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-10-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-listening-11"
+      ],
+      "prompt": "Track A: which family member is introduced?",
+      "evidence": "こちらは、わたしの妹です。",
+      "explanation": "The spoken phrase 妹 identifies the younger sister.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-11-c1",
+          "text": "Younger sister",
+          "rationale": "Correct: The spoken phrase 妹 identifies the younger sister."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-11-c2",
+          "text": "Older brother",
+          "rationale": "Not supported by \"こちらは、わたしの妹です。\". The spoken phrase 妹 identifies the younger sister."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-11-c3",
+          "text": "Father",
+          "rationale": "Not supported by \"こちらは、わたしの妹です。\". The spoken phrase 妹 identifies the younger sister."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-11-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-listening-12"
+      ],
+      "prompt": "Track A: what is Yui's school role?",
+      "evidence": "ユイは、高校生です。",
+      "explanation": "高校生 explicitly means high school student.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-12-c1",
+          "text": "Teacher",
+          "rationale": "Not supported by \"ユイは、高校生です。\". 高校生 explicitly means high school student."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-12-c2",
+          "text": "High school student",
+          "rationale": "Correct: 高校生 explicitly means high school student."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-12-c3",
+          "text": "Company employee",
+          "rationale": "Not supported by \"ユイは、高校生です。\". 高校生 explicitly means high school student."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-listening-13"
+      ],
+      "prompt": "Track B: whose older brother is in the photograph?",
+      "evidence": "その人は、わたしの兄です。",
+      "explanation": "わたしの兄 links the speaker to an older brother.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-13-c1",
+          "text": "The speaker's older brother",
+          "rationale": "Correct: わたしの兄 links the speaker to an older brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-13-c2",
+          "text": "The speaker's younger sister",
+          "rationale": "Not supported by \"その人は、わたしの兄です。\". わたしの兄 links the speaker to an older brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-13-c3",
+          "text": "The visitor's father",
+          "rationale": "Not supported by \"その人は、わたしの兄です。\". わたしの兄 links the speaker to an older brother."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-13-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-chk-listening-14"
+      ],
+      "prompt": "Track B: what occupation is stated after the correction?",
+      "evidence": "いいえ、先生じゃありません。会社員です。",
+      "explanation": "先生じゃありません rules out teacher, then 会社員です supplies the occupation.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-chk-14-c1",
+          "text": "Teacher",
+          "rationale": "Not supported by \"いいえ、先生じゃありません。会社員です。\". 先生じゃありません rules out teacher, then 会社員です supplies the occupation."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-14-c2",
+          "text": "Company employee",
+          "rationale": "Correct: 先生じゃありません rules out teacher, then 会社員です supplies the occupation."
+        },
+        {
+          "id": "ex-n5-m01-c03-chk-14-c3",
+          "text": "Doctor",
+          "rationale": "Not supported by \"いいえ、先生じゃありません。会社員です。\". 先生じゃありません rules out teacher, then 会社員です supplies the occupation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-chk-14-c2"
+      }
+    }
+  ]
+}

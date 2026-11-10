@@ -1,0 +1,165 @@
+{
+  "lessonId": "n5-m01-c01-l06",
+  "chapterId": "n5-m01-c01",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m01-c01-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m01-c01-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 12.69,
+      "transcript": "女性： こんにちは。わたしは、エマです。\n男性： こんにちは。わたしは、たなかです。\n女性： たなかさんは、せんせいですか。\n男性： はい。にほんごのせんせいです。",
+      "english": "Woman: Hello. I'm Emma.\nMan: Hello. I'm Tanaka.\nWoman: Tanaka, are you a teacher?\nMan: Yes. I'm a Japanese teacher.",
+      "scriptPurpose": "First meeting at the language exchange",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m01-c01-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "こんにちは。わたしは、エマです。",
+          "english": "Hello. I'm Emma.",
+          "startSeconds": 0.0,
+          "endSeconds": 3.24
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "こんにちは。わたしは、たなかです。",
+          "english": "Hello. I'm Tanaka.",
+          "startSeconds": 3.52,
+          "endSeconds": 6.54
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "たなかさんは、せんせいですか。",
+          "english": "Tanaka, are you a teacher?",
+          "startSeconds": 6.82,
+          "endSeconds": 9.76
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。にほんごのせんせいです。",
+          "english": "Yes. I'm a Japanese teacher.",
+          "startSeconds": 10.04,
+          "endSeconds": 12.69
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "7abb2cd2e7dd3c1ad29080256c392d61cfbb1e338700cc2e9c032e2a6aadf5e0",
+        "bytes": 1119424,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m01-c01-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m01-c01-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 11.56,
+      "transcript": "男性： すみません。おなまえは？\n女性： リーです。ちゅうごくじんです。\n男性： リーさんは、せんせいですか。\n女性： いいえ。せんせいじゃありません。がくせいです。",
+      "english": "Man: Excuse me. Your name?\nWoman: I'm Lee. I'm Chinese.\nMan: Lee, are you a teacher?\nWoman: No. I'm not a teacher. I'm a student.",
+      "scriptPurpose": "Registration desk: correct a mistaken occupation",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m01-c01-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "すみません。おなまえは？",
+          "english": "Excuse me. Your name?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.1
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "リーです。ちゅうごくじんです。",
+          "english": "I'm Lee. I'm Chinese.",
+          "startSeconds": 2.38,
+          "endSeconds": 4.95
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "リーさんは、せんせいですか。",
+          "english": "Lee, are you a teacher?",
+          "startSeconds": 5.23,
+          "endSeconds": 7.54
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ。せんせいじゃありません。がくせいです。",
+          "english": "No. I'm not a teacher. I'm a student.",
+          "startSeconds": 7.82,
+          "endSeconds": 11.56
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "d89edee414c28c9d6136ea2950ba0e57b50abbaddbf0998504403ad1a72569d9",
+        "bytes": 1019696,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
