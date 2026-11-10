@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m03-c02-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 model-terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional routine dialogues. Workflow must verify actual model hashes, WAVs, licensing and audio alignment before release."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Before school: morning routine",
+      "scenarioType": "conversation",
+      "objectiveId": "n5-m03-c02-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "毎朝、何時に起きますか。",
+          "english": "What time do you get up every morning?"
+        },
+        {
+          "speaker": "male",
+          "text": "六時半に起きます。七時に朝ご飯を食べます。",
+          "english": "I get up at 6:30. I eat breakfast at seven."
+        },
+        {
+          "speaker": "female",
+          "text": "朝、テレビを見ますか。",
+          "english": "Do you watch television in the morning?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいえ、見ません。八時に学校へ行きます。",
+          "english": "No, I don't. I go to school at eight."
+        }
+      ],
+      "comprehensionPrompts": [
+        "When does he get up?",
+        "What does he do at seven?",
+        "Does he watch television in the morning?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "After work: evening routine",
+      "scenarioType": "conversation",
+      "objectiveId": "n5-m03-c02-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "仕事のあと、何をしますか。",
+          "english": "What do you do after work?"
+        },
+        {
+          "speaker": "female",
+          "text": "六時に家に帰ります。七時に晩ご飯を作ります。",
+          "english": "I return home at six. I make dinner at seven."
+        },
+        {
+          "speaker": "male",
+          "text": "夜、音楽を聞きますか。",
+          "english": "Do you listen to music at night?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい、聞きます。でも、夜はコーヒーを飲みません。",
+          "english": "Yes, I do. But I don't drink coffee at night."
+        }
+      ],
+      "comprehensionPrompts": [
+        "When does she return home?",
+        "What does she do at seven?",
+        "What does she not drink at night?"
+      ]
+    }
+  ]
+}
