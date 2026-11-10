@@ -16,7 +16,7 @@ test('320px dark mode has no horizontal overflow',async({page})=>{
  await page.setViewportSize({width:320,height:720});
  await page.emulateMedia({colorScheme:'dark'});
  await page.goto(path);
- await expect(page.locator('h1')).toBeVisible();
+ await expect(page.getByRole('heading',{level:1,name:/Family words in context/})).toBeVisible();
  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth);
  expect(overflow).toBe(false);
 });
