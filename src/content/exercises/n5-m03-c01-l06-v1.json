@@ -1,0 +1,270 @@
+{
+  "lessonId": "n5-m03-c01-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "On what date is the art class?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "November 14",
+          "rationale": "Correct. The art class is November 14."
+        },
+        {
+          "id": "c2",
+          "text": "November 21",
+          "rationale": "Not supported by the recording. Listen for: 絵の教室は十一月十四日、土曜日です。"
+        },
+        {
+          "id": "c3",
+          "text": "October 14",
+          "rationale": "Not supported by the recording. Listen for: 絵の教室は十一月十四日、土曜日です。"
+        },
+        {
+          "id": "c4",
+          "text": "November 4",
+          "rationale": "Not supported by the recording. Listen for: 絵の教室は十一月十四日、土曜日です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "絵の教室は十一月十四日、土曜日です。",
+      "explanation": "The art class is November 14."
+    },
+    {
+      "id": "ex-n5-m03-c01-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "When does the art class start?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At 2 p.m.",
+          "rationale": "Not supported by the recording. Listen for: 午前十時からです。"
+        },
+        {
+          "id": "c2",
+          "text": "At 9 a.m.",
+          "rationale": "Not supported by the recording. Listen for: 午前十時からです。"
+        },
+        {
+          "id": "c3",
+          "text": "At 10 a.m.",
+          "rationale": "Correct. 午前十時 is 10 a.m."
+        },
+        {
+          "id": "c4",
+          "text": "At 11 a.m.",
+          "rationale": "Not supported by the recording. Listen for: 午前十時からです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "午前十時からです。",
+      "explanation": "午前十時 is 10 a.m."
+    },
+    {
+      "id": "ex-n5-m03-c01-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "How many sheets of paper are requested?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "One",
+          "rationale": "Not supported by the recording. Listen for: 紙を二枚持ってきてください。"
+        },
+        {
+          "id": "c2",
+          "text": "Two",
+          "rationale": "Correct. 二枚 means two flat sheets."
+        },
+        {
+          "id": "c3",
+          "text": "Three",
+          "rationale": "Not supported by the recording. Listen for: 紙を二枚持ってきてください。"
+        },
+        {
+          "id": "c4",
+          "text": "Four",
+          "rationale": "Not supported by the recording. Listen for: 紙を二枚持ってきてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "紙を二枚持ってきてください。",
+      "explanation": "二枚 means two flat sheets."
+    },
+    {
+      "id": "ex-n5-m03-c01-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "On what date is story time?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "November 12",
+          "rationale": "Not supported by the recording. Listen for: お話の会は十一月二十一日、土曜日です。"
+        },
+        {
+          "id": "c2",
+          "text": "November 14",
+          "rationale": "Not supported by the recording. Listen for: お話の会は十一月二十一日、土曜日です。"
+        },
+        {
+          "id": "c3",
+          "text": "November 20",
+          "rationale": "Not supported by the recording. Listen for: お話の会は十一月二十一日、土曜日です。"
+        },
+        {
+          "id": "c4",
+          "text": "November 21",
+          "rationale": "Correct. Story time is November 21."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "お話の会は十一月二十一日、土曜日です。",
+      "explanation": "Story time is November 21."
+    },
+    {
+      "id": "ex-n5-m03-c01-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "How many teachers are coming?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "One",
+          "rationale": "Not supported by the recording. Listen for: 先生が二人来ます。"
+        },
+        {
+          "id": "c2",
+          "text": "Two",
+          "rationale": "Correct. 二人 means two people."
+        },
+        {
+          "id": "c3",
+          "text": "Three",
+          "rationale": "Not supported by the recording. Listen for: 先生が二人来ます。"
+        },
+        {
+          "id": "c4",
+          "text": "Four",
+          "rationale": "Not supported by the recording. Listen for: 先生が二人来ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "先生が二人来ます。",
+      "explanation": "二人 means two people."
+    },
+    {
+      "id": "ex-n5-m03-c01-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c01-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What should participants bring?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Two books",
+          "rationale": "Not supported by the recording. Listen for: 小さいノートを一つ持ってきてください。"
+        },
+        {
+          "id": "c2",
+          "text": "One small notebook",
+          "rationale": "Correct. Bring one small notebook; books are not needed."
+        },
+        {
+          "id": "c3",
+          "text": "Three sheets of paper",
+          "rationale": "Not supported by the recording. Listen for: 小さいノートを一つ持ってきてください。"
+        },
+        {
+          "id": "c4",
+          "text": "Nothing",
+          "rationale": "Not supported by the recording. Listen for: 小さいノートを一つ持ってきてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "小さいノートを一つ持ってきてください。",
+      "explanation": "Bring one small notebook; books are not needed."
+    }
+  ]
+}
