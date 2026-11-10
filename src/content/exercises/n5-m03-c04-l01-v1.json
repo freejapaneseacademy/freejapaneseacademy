@@ -1,0 +1,484 @@
+{
+  "id": "n5-m03-c04-l01",
+  "lessonId": "n5-m03-c04-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Mio–Taku class survey dialogue in frequency-habits-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "Who is conducting the class survey?",
+      "options": [
+        "みお",
+        "たく",
+        "A librarian"
+      ],
+      "correctIndex": 0,
+      "feedback": "みお says クラスのアンケートです and asks the questions.",
+      "explanation": "みお says クラスのアンケートです and asks the questions.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-01-c1",
+          "text": "みお",
+          "rationale": "みお says クラスのアンケートです and asks the questions."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-01-c2",
+          "text": "たく",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-01-c3",
+          "text": "A librarian",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "Where does the conversation take place?",
+      "options": [
+        "At a restaurant",
+        "At a school library after class",
+        "At a train station"
+      ],
+      "correctIndex": 1,
+      "feedback": "The scenario places the classmates at their school library.",
+      "explanation": "The scenario places the classmates at their school library.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-02-c1",
+          "text": "At a restaurant",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-02-c2",
+          "text": "At a school library after class",
+          "rationale": "The scenario places the classmates at their school library."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-02-c3",
+          "text": "At a train station",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "What is Mio's purpose?",
+      "options": [
+        "To borrow money",
+        "To plan a trip",
+        "To ask about classmates' habits"
+      ],
+      "correctIndex": 2,
+      "feedback": "クラスのアンケートです identifies a class survey.",
+      "explanation": "クラスのアンケートです identifies a class survey.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-03-c1",
+          "text": "To borrow money",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-03-c2",
+          "text": "To plan a trip",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-03-c3",
+          "text": "To ask about classmates' habits",
+          "rationale": "クラスのアンケートです identifies a class survey."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "Does Taku always read books?",
+      "options": [
+        "No, he does not always read",
+        "Yes, he always reads",
+        "He never studies"
+      ],
+      "correctIndex": 0,
+      "feedback": "いつもは読みません means he does not always read; it does not mean never.",
+      "explanation": "いつもは読みません means he does not always read; it does not mean never.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-04-c1",
+          "text": "No, he does not always read",
+          "rationale": "いつもは読みません means he does not always read; it does not mean never."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-04-c2",
+          "text": "Yes, he always reads",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-04-c3",
+          "text": "He never studies",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "Where does Taku often study?",
+      "options": [
+        "At home",
+        "At the library",
+        "At a café"
+      ],
+      "correctIndex": 1,
+      "feedback": "よく図書館で勉強します explicitly gives the location.",
+      "explanation": "よく図書館で勉強します explicitly gives the location.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-05-c1",
+          "text": "At home",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-05-c2",
+          "text": "At the library",
+          "rationale": "よく図書館で勉強します explicitly gives the location."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-05-c3",
+          "text": "At a café",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "How often does Taku watch television?",
+      "options": [
+        "Never",
+        "Always",
+        "Sometimes"
+      ],
+      "correctIndex": 2,
+      "feedback": "ときどき見ます is 'sometimes watches'.",
+      "explanation": "ときどき見ます is 'sometimes watches'.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-06-c1",
+          "text": "Never",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-06-c2",
+          "text": "Always",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-06-c3",
+          "text": "Sometimes",
+          "rationale": "ときどき見ます is 'sometimes watches'."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "What does Taku say about watching videos?",
+      "options": [
+        "He does not watch them much",
+        "He always watches them",
+        "He watches them every morning"
+      ],
+      "correctIndex": 0,
+      "feedback": "動画はあまり見ません means he does not watch videos very much.",
+      "explanation": "動画はあまり見ません means he does not watch videos very much.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-07-c1",
+          "text": "He does not watch them much",
+          "rationale": "動画はあまり見ません means he does not watch videos very much."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-07-c2",
+          "text": "He always watches them",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-07-c3",
+          "text": "He watches them every morning",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "How often does Mio read books?",
+      "options": [
+        "Never",
+        "Often",
+        "Only on Sundays"
+      ],
+      "correctIndex": 1,
+      "feedback": "わたしはよく本を読みます says she often reads.",
+      "explanation": "わたしはよく本を読みます says she often reads.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-08-c1",
+          "text": "Never",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-08-c2",
+          "text": "Often",
+          "rationale": "わたしはよく本を読みます says she often reads."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-08-c3",
+          "text": "Only on Sundays",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "Which claim about Mio's TV habits is supported?",
+      "options": [
+        "She sometimes watches TV",
+        "She watches TV every day",
+        "She does not watch TV at all"
+      ],
+      "correctIndex": 2,
+      "feedback": "テレビはぜんぜん見ません is a strong negative.",
+      "explanation": "テレビはぜんぜん見ません is a strong negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-09-c1",
+          "text": "She sometimes watches TV",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-09-c2",
+          "text": "She watches TV every day",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-09-c3",
+          "text": "She does not watch TV at all",
+          "rationale": "テレビはぜんぜん見ません is a strong negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l01-frequency-evidence"
+      ],
+      "prompt": "Which sentence follows the beginner negative pattern?",
+      "options": [
+        "動画はあまり見ません。",
+        "動画はあまり見ます。",
+        "動画はぜんぜん見ます。"
+      ],
+      "correctIndex": 0,
+      "feedback": "あまり and ぜんぜん use negative verb forms in this lesson.",
+      "explanation": "あまり and ぜんぜん use negative verb forms in this lesson.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l01-10-c1",
+          "text": "動画はあまり見ません。",
+          "rationale": "あまり and ぜんぜん use negative verb forms in this lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-10-c2",
+          "text": "動画はあまり見ます。",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        },
+        {
+          "id": "ex-n5-m03-c04-l01-10-c3",
+          "text": "動画はぜんぜん見ます。",
+          "rationale": "This choice is not supported by the dialogue or the frequency grammar described in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l01-10-c1"
+      }
+    }
+  ]
+}
