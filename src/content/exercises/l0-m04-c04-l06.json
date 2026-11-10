@@ -1,0 +1,243 @@
+{
+  "id": "l0-m04-c04-l06",
+  "lessonId": "l0-m04-c04-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy-authored station announcements; genuine audio required before publication",
+  "items": [
+    {
+      "id": "ex-l0-m04-c04-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l06-cafe-1"
+      ],
+      "trackId": "audio-l0-m04-c04-l06-a",
+      "prompt": "Which two drinks does the café announce?",
+      "explanation": "The announcement explicitly lists coffee and tea, not juice or water.",
+      "evidence": "コーヒーとティーがあります。",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l06-01-c1",
+          "text": "Coffee and tea",
+          "rationale": "The announcement explicitly lists coffee and tea, not juice or water."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-01-c2",
+          "text": "Coffee and juice",
+          "rationale": "Not supported by the spoken announcement. The announcement explicitly lists coffee and tea, not juice or water."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-01-c3",
+          "text": "Tea and water",
+          "rationale": "Not supported by the spoken announcement. The announcement explicitly lists coffee and tea, not juice or water."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l06-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l06-cafe-2"
+      ],
+      "trackId": "audio-l0-m04-c04-l06-a",
+      "prompt": "What food does the café also have?",
+      "explanation": "The word ケーキ means cake, and も indicates it is also available.",
+      "evidence": "ケーキもあります。",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l06-02-c1",
+          "text": "Bread",
+          "rationale": "Not supported by the spoken announcement. The word ケーキ means cake, and も indicates it is also available."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-02-c2",
+          "text": "Rice",
+          "rationale": "Not supported by the spoken announcement. The word ケーキ means cake, and も indicates it is also available."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-02-c3",
+          "text": "Cake",
+          "rationale": "The word ケーキ means cake, and も indicates it is also available."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l06-02-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l06-cafe-3"
+      ],
+      "trackId": "audio-l0-m04-c04-l06-a",
+      "prompt": "Where should a customer order tea?",
+      "explanation": "カウンターで means at the counter; the speaker gives an ordering instruction.",
+      "evidence": "ティーはカウンターでご注文ください。",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l06-03-c1",
+          "text": "Outside the station",
+          "rationale": "Not supported by the spoken announcement. カウンターで means at the counter; the speaker gives an ordering instruction."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-03-c2",
+          "text": "At the counter",
+          "rationale": "カウンターで means at the counter; the speaker gives an ordering instruction."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-03-c3",
+          "text": "On the train",
+          "rationale": "Not supported by the spoken announcement. カウンターで means at the counter; the speaker gives an ordering instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l06-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l06-station-4"
+      ],
+      "trackId": "audio-l0-m04-c04-l06-b",
+      "prompt": "Where are the taxis?",
+      "explanation": "駅の前 means in front of the station.",
+      "evidence": "タクシーは駅の前にいます。",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l06-04-c1",
+          "text": "In front of the station",
+          "rationale": "駅の前 means in front of the station."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-04-c2",
+          "text": "Behind the café",
+          "rationale": "Not supported by the spoken announcement. 駅の前 means in front of the station."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-04-c3",
+          "text": "Inside the train",
+          "rationale": "Not supported by the spoken announcement. 駅の前 means in front of the station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l06-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l06-station-5"
+      ],
+      "trackId": "audio-l0-m04-c04-l06-b",
+      "prompt": "Who should you ask about tickets?",
+      "explanation": "スタッフ is staff; the announcement directs ticket questions to them.",
+      "evidence": "チケットについては、スタッフにおたずねください。",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l06-05-c1",
+          "text": "The taxi driver",
+          "rationale": "Not supported by the spoken announcement. スタッフ is staff; the announcement directs ticket questions to them."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-05-c2",
+          "text": "The café cashier",
+          "rationale": "Not supported by the spoken announcement. スタッフ is staff; the announcement directs ticket questions to them."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-05-c3",
+          "text": "Station staff",
+          "rationale": "スタッフ is staff; the announcement directs ticket questions to them."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l06-05-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c04-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m04-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c04-l06-station-6"
+      ],
+      "trackId": "audio-l0-m04-c04-l06-b",
+      "prompt": "Which lost item is announced?",
+      "explanation": "ファイル means file/folder; わすれもの means an item left behind.",
+      "evidence": "ファイルのわすれものがありました。",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c04-l06-06-c1",
+          "text": "A ticket",
+          "rationale": "Not supported by the spoken announcement. ファイル means file/folder; わすれもの means an item left behind."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-06-c2",
+          "text": "A file folder",
+          "rationale": "ファイル means file/folder; わすれもの means an item left behind."
+        },
+        {
+          "id": "ex-l0-m04-c04-l06-06-c3",
+          "text": "A cake",
+          "rationale": "Not supported by the spoken announcement. ファイル means file/folder; わすれもの means an item left behind."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c04-l06-06-c2"
+      }
+    }
+  ]
+}
