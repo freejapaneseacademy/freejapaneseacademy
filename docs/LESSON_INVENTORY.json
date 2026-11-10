@@ -3219,6 +3219,21 @@
       "audio": "L06 candidate WAVs; verification pending",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m03-c01-l03",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c01",
+      "slot": "L03",
+      "title": "Numbers, dates and counters — grammar for timetables",
+      "content": "src/content/lessons/n5/numbers-dates-counters-grammar.mdx",
+      "url": "/learn/n5/module-03/chapter-01/lesson-03/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L03; no recorded listening or pronunciation evaluation",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
