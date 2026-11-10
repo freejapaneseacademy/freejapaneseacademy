@@ -1,0 +1,25 @@
+/* Chapter 02 optional speaking: accessible reusable real-audio turn controls. */
+.vowel-speaking-models{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+.vowel-speaking-track{min-width:0}
+.vowel-speaking-track audio,.vowel-speaking-local-playback audio{display:block;width:100%;max-width:100%;margin:16px 0}
+.vowel-speaking-track>h3{margin:8px 0 14px}
+.vowel-speaking-rate{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.vowel-speaking-rate label{font-weight:650}
+.vowel-speaking-rate select{font:inherit;border:1px solid var(--border);border-radius:8px;background:var(--white);color:var(--ink);padding:9px 12px}
+.vowel-speaking-instruction{font-weight:650}
+.vowel-speaking-turns{display:grid;gap:13px;list-style:none;margin:16px 0 22px;padding:0}
+.vowel-speaking-turn{display:flex;justify-content:space-between;align-items:center;gap:16px;border:1px solid var(--border);border-radius:12px;padding:16px;background:var(--white);min-width:0}
+.vowel-speaking-turn>div{min-width:0;flex:1}
+.vowel-speaking-turn p{margin:6px 0 0;overflow-wrap:anywhere}
+.vowel-speaking-turn p[lang="ja"]{font-size:1.15rem;line-height:1.7}
+.vowel-speaking-turn button{flex:0 0 auto}
+.vowel-speaking-transcript{margin-top:14px;border-left:3px solid var(--red);padding:15px;background:var(--cream);border-radius:6px}
+.vowel-speaking-transcript h4{margin:8px 0}
+.vowel-speaking-transcript p{line-height:1.9;overflow-wrap:anywhere}
+.vowel-speaking-record,.vowel-speaking-self-review{margin-top:26px}
+.vowel-speaking-local-playback{margin-top:20px;max-width:560px}
+.vowel-speaking-local-playback label{font-weight:650}
+.vowel-speaking-questions{margin-top:30px}
+.vowel-speaking :focus-visible{outline:3px solid var(--red);outline-offset:2px}
+@media(max-width:700px){.vowel-speaking-turn{align-items:flex-start;flex-direction:column}.vowel-speaking-turn button{width:100%}.vowel-speaking-rate select{max-width:100%}}
+@media(max-width:375px){.vowel-speaking-turn{padding:12px}.vowel-speaking .writing-actions .btn{width:100%}}

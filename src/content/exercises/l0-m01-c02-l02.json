@@ -1,0 +1,510 @@
+{
+  "lessonId": "l0-m01-c02-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m01-c02-l02-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o1"
+      ],
+      "knowledgeItemIds": [
+        "vowel-a"
+      ],
+      "prompt": "Which kana is the Japanese vowel labeled a?",
+      "example": "あ　い　う　え　お",
+      "choices": [
+        {
+          "id": "a",
+          "text": "あ",
+          "rationale": "Correct: あ is /a/. The letter a is a label, not English 'ay'."
+        },
+        {
+          "id": "e",
+          "text": "え",
+          "rationale": "え is /e/, a different vowel."
+        },
+        {
+          "id": "o",
+          "text": "お",
+          "rationale": "お is /o/, not /a/."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あ represents the steady Japanese vowel /a/. English letter names are not reliable pronunciation models.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o1"
+      ],
+      "knowledgeItemIds": [
+        "syllable-ka"
+      ],
+      "prompt": "Which single kana represents the sound unit ka?",
+      "example": "か　き　く",
+      "choices": [
+        {
+          "id": "ka",
+          "text": "か",
+          "rationale": "Correct. か is k + a, one mora."
+        },
+        {
+          "id": "ki",
+          "text": "き",
+          "rationale": "き is ki, with vowel /i/."
+        },
+        {
+          "id": "ku",
+          "text": "く",
+          "rationale": "く is ku, with vowel /u/."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ka"
+      },
+      "explanation": "か represents ka as one mora; かさ is a two-mora word.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o1"
+      ],
+      "knowledgeItemIds": [
+        "syllable-shi"
+      ],
+      "prompt": "Which kana is conventionally written shi in beginner romaji?",
+      "example": "さ　し　す",
+      "choices": [
+        {
+          "id": "shi",
+          "text": "し",
+          "rationale": "Correct. し is written shi in the romanization used here."
+        },
+        {
+          "id": "sa",
+          "text": "さ",
+          "rationale": "さ is sa, not shi."
+        },
+        {
+          "id": "su",
+          "text": "す",
+          "rationale": "す is su, not shi."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "shi"
+      },
+      "explanation": "し is the second mora in すし. Romaji is a spelling aid, not a full phonetic description.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o1"
+      ],
+      "knowledgeItemIds": [
+        "syllable-ku"
+      ],
+      "prompt": "Which k-row kana contains the vowel う (/u/)?",
+      "example": "か　き　く　け　こ",
+      "choices": [
+        {
+          "id": "ku",
+          "text": "く",
+          "rationale": "Correct. く corresponds to ku."
+        },
+        {
+          "id": "ko",
+          "text": "こ",
+          "rationale": "こ is ko, with /o/."
+        },
+        {
+          "id": "ke",
+          "text": "け",
+          "rationale": "け is ke, with /e/."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ku"
+      },
+      "explanation": "The k-row follows a, i, u, e, o: か・き・く・け・こ.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-kao"
+      ],
+      "prompt": "Emi points to a face. Which written word labels the picture?",
+      "example": "かお　かさ　いす",
+      "choices": [
+        {
+          "id": "kao",
+          "text": "かお",
+          "rationale": "Correct. かお means face."
+        },
+        {
+          "id": "kasa",
+          "text": "かさ",
+          "rationale": "かさ means umbrella, not face."
+        },
+        {
+          "id": "isu",
+          "text": "いす",
+          "rationale": "いす means chair, not face."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "kao"
+      },
+      "explanation": "かお (kao) means face and has two morae: か・お.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-kasa"
+      ],
+      "prompt": "Which word means umbrella in the picture-card scene?",
+      "example": "かさ　かお　すし",
+      "choices": [
+        {
+          "id": "kasa",
+          "text": "かさ",
+          "rationale": "Correct. かさ means umbrella."
+        },
+        {
+          "id": "kao",
+          "text": "かお",
+          "rationale": "かお means face, not umbrella."
+        },
+        {
+          "id": "sushi",
+          "text": "すし",
+          "rationale": "すし means sushi, not umbrella."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "kasa"
+      },
+      "explanation": "かさ (kasa) is an umbrella. It is two morae: か・さ.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o4"
+      ],
+      "knowledgeItemIds": [
+        "word-ie-iie"
+      ],
+      "prompt": "Ren points to a house. Which response correctly names the object, rather than saying no?",
+      "example": "いえ　いいえ",
+      "choices": [
+        {
+          "id": "ie",
+          "text": "いえ",
+          "rationale": "Correct. いえ is house in this context."
+        },
+        {
+          "id": "iie",
+          "text": "いいえ",
+          "rationale": "いいえ means no, a response, not the object house."
+        },
+        {
+          "id": "isu",
+          "text": "いす",
+          "rationale": "いす means chair, not house."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ie"
+      },
+      "explanation": "いえ is house (い・え, two morae); いいえ is no (い・い・え, three morae).",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-aoi"
+      ],
+      "prompt": "Which phrase naturally describes a blue umbrella?",
+      "example": "あお　あおい　かさ",
+      "choices": [
+        {
+          "id": "aoi",
+          "text": "あおい かさ",
+          "rationale": "Correct. あおい is the adjective directly describing かさ."
+        },
+        {
+          "id": "ao",
+          "text": "あお かさ",
+          "rationale": "あお is the color noun; use あおい to modify かさ in this pattern."
+        },
+        {
+          "id": "kasa",
+          "text": "かさ あおい",
+          "rationale": "This is not the normal noun-modifying order for the simple phrase taught here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "aoi"
+      },
+      "explanation": "あおい かさ means a blue umbrella; あおい is a three-mora adjective.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-sushi"
+      ],
+      "prompt": "Which word names a food, rather than a color or a piece of furniture?",
+      "example": "すし　あお　いす",
+      "choices": [
+        {
+          "id": "sushi",
+          "text": "すし",
+          "rationale": "Correct. すし means sushi."
+        },
+        {
+          "id": "ao",
+          "text": "あお",
+          "rationale": "あお names the color blue; it is not a food."
+        },
+        {
+          "id": "isu",
+          "text": "いす",
+          "rationale": "いす means chair, not food."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "sushi"
+      },
+      "explanation": "すし is the word sushi, two written morae す・し. Its u may be weakened in natural speech.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o4"
+      ],
+      "knowledgeItemIds": [
+        "mora-aoi"
+      ],
+      "prompt": "How many written morae are in あおい?",
+      "example": "あおい",
+      "choices": [
+        {
+          "id": "three",
+          "text": "Three: あ・お・い",
+          "rationale": "Correct. Each of these vowel kana contributes a mora."
+        },
+        {
+          "id": "two",
+          "text": "Two: あお・い",
+          "rationale": "あ and お are separate vowel morae in this word."
+        },
+        {
+          "id": "one",
+          "text": "One",
+          "rationale": "The word is not a single mora."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "three"
+      },
+      "explanation": "あおい has three morae; compare the color noun あお, with two.",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary",
+        "written-mora-awareness"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-ie"
+      ],
+      "prompt": "Type the Japanese word for house (kana or lowercase romaji).",
+      "answerKey": {
+        "accepted": [
+          "いえ",
+          "ie"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "いえ (ie) means house. Do not confuse it with いいえ (iie), meaning no.",
+      "type": "short-input",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary-retrieval",
+        "kana-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-isu"
+      ],
+      "prompt": "Type the Japanese word for chair (kana or lowercase romaji).",
+      "answerKey": {
+        "accepted": [
+          "いす",
+          "isu"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "いす (isu) means chair, two morae: い・す.",
+      "type": "short-input",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary-retrieval",
+        "kana-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-013",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-kasa"
+      ],
+      "prompt": "Type the Japanese word for umbrella (kana or lowercase romaji).",
+      "answerKey": {
+        "accepted": [
+          "かさ",
+          "kasa"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "かさ (kasa) means umbrella, two morae: か・さ.",
+      "type": "short-input",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary-retrieval",
+        "kana-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l02-014",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l02-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-aoi"
+      ],
+      "prompt": "Type the adjective blue (kana or lowercase romaji), as in 'blue umbrella'.",
+      "answerKey": {
+        "accepted": [
+          "あおい",
+          "aoi"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "あおい (aoi) is the adjective. あお (ao) is the color noun and is not accepted for this prompt.",
+      "type": "short-input",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "vocabulary-retrieval",
+        "kana-typing"
+      ]
+    }
+  ]
+}

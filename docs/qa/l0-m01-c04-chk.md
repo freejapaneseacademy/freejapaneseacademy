@@ -1,0 +1,5 @@
+# L0-M01-C04-CHK — release QA
+Owner slot :00; task 6ae7c19d50c08191b18521bd6be98932.
+Blueprint: IME input, furigana, polite classroom requests, vocabulary, original keyboard guide, and spoken Japanese instructions.
+Twelve original written/reading single-choice items and four distinct spoken-meaning questions with stable IDs, answer rationales and explicit evidence. The listening component reuses two unchanged Chapter 04 L06 AivisSpeech WAVs, with existing SHA-256, rights and attribution in the source manifest. Audio is synthetic; independent pronunciation, waveform-to-transcript and assessment-editor reviews are pending and not claimed.
+Scores are separate for written, blind listening and transcript-assisted listening. Learner progress is local; no machine speech/writing grade or official JLPT score. Browser-based playback, accessibility, mobile and dark-mode behavior must be confirmed by exact-head CI before merging. Cloudflare production success at exact merge SHA is required before calling this published.

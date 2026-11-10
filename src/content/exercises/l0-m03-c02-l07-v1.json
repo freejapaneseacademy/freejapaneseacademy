@@ -1,0 +1,294 @@
+{
+  "id": "l0-m03-c02-l07",
+  "lessonId": "l0-m03-c02-l07",
+  "version": 1,
+  "status": "published",
+  "source": "Original reading-club small-kana writing",
+  "scoring": {
+    "mode": "exact-kana-typing",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c02-l07-01",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Type the contracted kana for kya.",
+      "answer": "きゃ",
+      "explanation": "Small ゃ combines with き; きや has a full-sized や.",
+      "feedback": "Small ゃ combines with き; きや has a full-sized や.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "きゃ"
+      },
+      "answerKey": {
+        "accepted": [
+          "きゃ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "きゃ"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c02-l07-02",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Type the contracted kana for shu.",
+      "answer": "しゅ",
+      "explanation": "Small ゅ follows し; しゆ has two full-sized kana.",
+      "feedback": "Small ゅ follows し; しゆ has two full-sized kana.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "しゅ"
+      },
+      "answerKey": {
+        "accepted": [
+          "しゅ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "しゅ"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c02-l07-03",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Type the contracted kana for cho.",
+      "answer": "ちょ",
+      "explanation": "Small ょ follows ち; ちよ is a different spelling.",
+      "feedback": "Small ょ follows ち; ちよ is a different spelling.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "ちょ"
+      },
+      "answerKey": {
+        "accepted": [
+          "ちょ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "ちょ"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c02-l07-04",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Write tea in hiragana.",
+      "answer": "おちゃ",
+      "explanation": "The word おちゃ uses small ゃ after ち.",
+      "feedback": "The word おちゃ uses small ゃ after ち.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "おちゃ"
+      },
+      "answerKey": {
+        "accepted": [
+          "おちゃ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "おちゃ"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c02-l07-05",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Write dictionary in hiragana.",
+      "answer": "じしょ",
+      "explanation": "The word じしょ ends with しょ, using small ょ.",
+      "feedback": "The word じしょ ends with しょ, using small ょ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "じしょ"
+      },
+      "answerKey": {
+        "accepted": [
+          "じしょ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "じしょ"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c02-l07-06",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Write photograph in hiragana.",
+      "answer": "しゃしん",
+      "explanation": "The word しゃしん begins with しゃ, using small ゃ.",
+      "feedback": "The word しゃしん begins with しゃ, using small ゃ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "しゃしん"
+      },
+      "answerKey": {
+        "accepted": [
+          "しゃしん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "しゃしん"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c02-l07-07",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Type the club label: There is tea. Include the model space and punctuation.",
+      "answer": "おちゃが あります。",
+      "explanation": "おちゃ has small ゃ; が marks the item that exists.",
+      "feedback": "おちゃ has small ゃ; が marks the item that exists.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "おちゃが あります。"
+      },
+      "answerKey": {
+        "accepted": [
+          "おちゃが あります。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "おちゃが あります。"
+      ]
+    },
+    {
+      "id": "ex-l0-m03-c02-l07-08",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l07-yoon"
+      ],
+      "prompt": "Type the invitation: Let's read together. Include the model space and punctuation.",
+      "answer": "いっしょに よみましょう。",
+      "explanation": "いっしょに means together; よみましょう invites the group to read.",
+      "feedback": "いっしょに means together; よみましょう invites the group to read.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-writing.mdx",
+        "phrase": "いっしょに よみましょう。"
+      },
+      "answerKey": {
+        "accepted": [
+          "いっしょに よみましょう。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "いっしょに よみましょう。"
+      ]
+    }
+  ]
+}

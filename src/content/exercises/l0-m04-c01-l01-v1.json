@@ -1,0 +1,390 @@
+{
+  "id": "l0-m04-c01-l01",
+  "lessonId": "l0-m04-c01-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original station kiosk sign in katakana-kst-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c01-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "Who is looking for a drink and a snack?",
+      "options": [
+        "Mika, the customer",
+        "Ren, the clerk",
+        "A train driver"
+      ],
+      "correctIndex": 0,
+      "feedback": "Mika is the customer; Ren works at the kiosk.",
+      "explanation": "Mika is the customer; Ren works at the kiosk.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-01-c1",
+          "text": "Mika, the customer",
+          "rationale": "Mika is the customer; Ren works at the kiosk."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-01-c2",
+          "text": "Ren, the clerk",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-01-c3",
+          "text": "A train driver",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "What is the kiosk sign mainly for?",
+      "options": [
+        "Showing train departures",
+        "Naming items on sale",
+        "Explaining ticket refunds"
+      ],
+      "correctIndex": 1,
+      "feedback": "The display identifies products such as cocoa and snacks.",
+      "explanation": "The display identifies products such as cocoa and snacks.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-02-c1",
+          "text": "Showing train departures",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-02-c2",
+          "text": "Naming items on sale",
+          "rationale": "The display identifies products such as cocoa and snacks."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-02-c3",
+          "text": "Explaining ticket refunds",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "Which printed label means cocoa?",
+      "options": [
+        "カカオ",
+        "ココア",
+        "テキスト"
+      ],
+      "correctIndex": 1,
+      "feedback": "ココア names cocoa; カカオ is cacao.",
+      "explanation": "ココア names cocoa; カカオ is cacao.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-03-c1",
+          "text": "カカオ",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-03-c2",
+          "text": "ココア",
+          "rationale": "ココア names cocoa; カカオ is cacao."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-03-c3",
+          "text": "テキスト",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "Which label is written in hiragana rather than katakana?",
+      "options": [
+        "アイス",
+        "テキスト",
+        "おかし"
+      ],
+      "correctIndex": 2,
+      "feedback": "おかし uses hiragana お・か・し.",
+      "explanation": "おかし uses hiragana お・か・し.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-04-c1",
+          "text": "アイス",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-04-c2",
+          "text": "テキスト",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-04-c3",
+          "text": "おかし",
+          "rationale": "おかし uses hiragana お・か・し."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-04-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "Which katakana symbol appears twice in ココア?",
+      "options": [
+        "コ",
+        "ア",
+        "カ"
+      ],
+      "correctIndex": 0,
+      "feedback": "The word is コ・コ・ア, so コ appears twice.",
+      "explanation": "The word is コ・コ・ア, so コ appears twice.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-05-c1",
+          "text": "コ",
+          "rationale": "The word is コ・コ・ア, so コ appears twice."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-05-c2",
+          "text": "ア",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-05-c3",
+          "text": "カ",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "Which label ends with the katakana ス?",
+      "options": [
+        "カカオ",
+        "アイス",
+        "ココア"
+      ],
+      "correctIndex": 1,
+      "feedback": "アイス is ア・イ・ス and ends in ス.",
+      "explanation": "アイス is ア・イ・ス and ends in ス.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-06-c1",
+          "text": "カカオ",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-06-c2",
+          "text": "アイス",
+          "rationale": "アイス is ア・イ・ス and ends in ス."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-06-c3",
+          "text": "ココア",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "Which symbol belongs to the T row and ends テキスト?",
+      "options": [
+        "ト",
+        "ソ",
+        "ス"
+      ],
+      "correctIndex": 0,
+      "feedback": "テキスト ends with ト (to), a T-row katakana.",
+      "explanation": "テキスト ends with ト (to), a T-row katakana.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-07-c1",
+          "text": "ト",
+          "rationale": "テキスト ends with ト (to), a T-row katakana."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-07-c2",
+          "text": "ソ",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-07-c3",
+          "text": "ス",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l01-katakana-kst"
+      ],
+      "prompt": "Which statement is supported by the sign?",
+      "options": [
+        "Every label is written in katakana",
+        "The kiosk sells only train tickets",
+        "Katakana and hiragana can appear on the same display"
+      ],
+      "correctIndex": 2,
+      "feedback": "The display includes katakana labels and the hiragana snack label おかし.",
+      "explanation": "The display includes katakana labels and the hiragana snack label おかし.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l01-08-c1",
+          "text": "Every label is written in katakana",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-08-c2",
+          "text": "The kiosk sells only train tickets",
+          "rationale": "This does not match the kiosk display or the lesson's stated roles."
+        },
+        {
+          "id": "ex-l0-m04-c01-l01-08-c3",
+          "text": "Katakana and hiragana can appear on the same display",
+          "rationale": "The display includes katakana labels and the hiragana snack label おかし."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l01-08-c3"
+      }
+    }
+  ]
+}

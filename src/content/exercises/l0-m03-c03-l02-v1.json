@@ -1,0 +1,524 @@
+{
+  "id": "l0-m03-c03-l02",
+  "lessonId": "l0-m03-c03-l02",
+  "version": 1,
+  "status": "published",
+  "source": "Original library vocabulary lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c03-l02-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word means postage stamp?",
+      "options": [
+        "きって",
+        "きっぷ",
+        "きて"
+      ],
+      "correctIndex": 0,
+      "feedback": "きって is the stamp label; きっぷ means ticket.",
+      "explanation": "きって is the stamp label; きっぷ means ticket.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "きって"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-01-c1",
+          "text": "きって",
+          "rationale": "きって is the stamp label; きっぷ means ticket."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-01-c2",
+          "text": "きっぷ",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-01-c3",
+          "text": "きて",
+          "rationale": "This option does not match the library word and its documented meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Ren needs a ticket for the reading event. Which word fits?",
+      "options": [
+        "ざっし",
+        "きっぷ",
+        "つき"
+      ],
+      "correctIndex": 1,
+      "feedback": "きっぷ means ticket in the event scene.",
+      "explanation": "きっぷ means ticket in the event scene.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "きっぷ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-02-c1",
+          "text": "ざっし",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-02-c2",
+          "text": "きっぷ",
+          "rationale": "きっぷ means ticket in the event scene."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-02-c3",
+          "text": "つき",
+          "rationale": "This option does not match the library word and its documented meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word names a magazine?",
+      "options": [
+        "せんせい",
+        "とけい",
+        "ざっし"
+      ],
+      "correctIndex": 2,
+      "feedback": "ざっし is a magazine on the reading shelf.",
+      "explanation": "ざっし is a magazine on the reading shelf.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "ざっし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-03-c1",
+          "text": "せんせい",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-03-c2",
+          "text": "とけい",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-03-c3",
+          "text": "ざっし",
+          "rationale": "ざっし is a magazine on the reading shelf."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word means school?",
+      "options": [
+        "がっこう",
+        "こうえん",
+        "おおきい"
+      ],
+      "correctIndex": 0,
+      "feedback": "がっこう is the school visiting the library.",
+      "explanation": "がっこう is the school visiting the library.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "がっこう"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-04-c1",
+          "text": "がっこう",
+          "rationale": "がっこう is the school visiting the library."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-04-c2",
+          "text": "こうえん",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-04-c3",
+          "text": "おおきい",
+          "rationale": "This option does not match the library word and its documented meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word means park?",
+      "options": [
+        "とけい",
+        "こうえん",
+        "きて"
+      ],
+      "correctIndex": 1,
+      "feedback": "こうえん is the park on the neighborhood map.",
+      "explanation": "こうえん is the park on the neighborhood map.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "こうえん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-05-c1",
+          "text": "とけい",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-05-c2",
+          "text": "こうえん",
+          "rationale": "こうえん is the park on the neighborhood map."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-05-c3",
+          "text": "きて",
+          "rationale": "This option does not match the library word and its documented meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word describes a big book?",
+      "options": [
+        "つき",
+        "せんせい",
+        "おおきい"
+      ],
+      "correctIndex": 2,
+      "feedback": "おおきい is the adjective big.",
+      "explanation": "おおきい is the adjective big.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "おおきい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-06-c1",
+          "text": "つき",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-06-c2",
+          "text": "せんせい",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-06-c3",
+          "text": "おおきい",
+          "rationale": "おおきい is the adjective big."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-06-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word identifies the teacher?",
+      "options": [
+        "せんせい",
+        "ざっし",
+        "きっぷ"
+      ],
+      "correctIndex": 0,
+      "feedback": "せんせい refers to the teacher bringing the class.",
+      "explanation": "せんせい refers to the teacher bringing the class.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "せんせい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-07-c1",
+          "text": "せんせい",
+          "rationale": "せんせい refers to the teacher bringing the class."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-07-c2",
+          "text": "ざっし",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-07-c3",
+          "text": "きっぷ",
+          "rationale": "This option does not match the library word and its documented meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word means clock or watch?",
+      "options": [
+        "がっこう",
+        "とけい",
+        "きって"
+      ],
+      "correctIndex": 1,
+      "feedback": "とけい is the clock above the checkout desk.",
+      "explanation": "とけい is the clock above the checkout desk.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "とけい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-08-c1",
+          "text": "がっこう",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-08-c2",
+          "text": "とけい",
+          "rationale": "とけい is the clock above the checkout desk."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-08-c3",
+          "text": "きって",
+          "rationale": "This option does not match the library word and its documented meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which word begins with full-sized つ?",
+      "options": [
+        "きっぷ",
+        "きって",
+        "つき"
+      ],
+      "correctIndex": 2,
+      "feedback": "つき starts with full-sized つ, unlike the small っ in きって.",
+      "explanation": "つき starts with full-sized つ, unlike the small っ in きって.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "つき"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-09-c1",
+          "text": "きっぷ",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-09-c2",
+          "text": "きって",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-09-c3",
+          "text": "つき",
+          "rationale": "つき starts with full-sized つ, unlike the small っ in きって."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-09-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c03-l02-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c03-l02-small-tsu-long-vowels"
+      ],
+      "prompt": "Which written form is the request 'come' rather than 'stamp'?",
+      "options": [
+        "きて",
+        "きって",
+        "きっぷ"
+      ],
+      "correctIndex": 0,
+      "feedback": "きて is a contextual request form of come; きって is a stamp.",
+      "explanation": "きて is a contextual request form of come; きって is a stamp.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-small-tsu-vocabulary.mdx",
+        "phrase": "きて"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c03-l02-10-c1",
+          "text": "きて",
+          "rationale": "きて is a contextual request form of come; きって is a stamp."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-10-c2",
+          "text": "きって",
+          "rationale": "This option does not match the library word and its documented meaning."
+        },
+        {
+          "id": "ex-l0-m03-c03-l02-10-c3",
+          "text": "きっぷ",
+          "rationale": "This option does not match the library word and its documented meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c03-l02-10-c1"
+      }
+    }
+  ]
+}

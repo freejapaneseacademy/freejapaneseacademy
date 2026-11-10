@@ -1,0 +1,729 @@
+{
+  "id": "l0-m02-c01-l04",
+  "lessonId": "l0-m02-c01-l04",
+  "version": 1,
+  "status": "published",
+  "source": "Original kana form grid, IME guided practice and first-word cards",
+  "scoring": {
+    "mode": "mixed-kana-input-and-single-choice",
+    "maxWrittenScore": 20,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c01-l04-01",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for a.",
+      "answer": "あ",
+      "explanation": "The a card is written あ. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "あ"
+      },
+      "answerKey": {
+        "accepted": [
+          "あ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-02",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for i.",
+      "answer": "い",
+      "explanation": "The i card is written い. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "い"
+      },
+      "answerKey": {
+        "accepted": [
+          "い"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-03",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for u.",
+      "answer": "う",
+      "explanation": "The u card is written う. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "う"
+      },
+      "answerKey": {
+        "accepted": [
+          "う"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-04",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for e.",
+      "answer": "え",
+      "explanation": "The e card is written え. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "え"
+      },
+      "answerKey": {
+        "accepted": [
+          "え"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-05",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for o.",
+      "answer": "お",
+      "explanation": "The o card is written お. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "お"
+      },
+      "answerKey": {
+        "accepted": [
+          "お"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-06",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for ka.",
+      "answer": "か",
+      "explanation": "The ka card is written か. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "か"
+      },
+      "answerKey": {
+        "accepted": [
+          "か"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-07",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for ki.",
+      "answer": "き",
+      "explanation": "The ki card is written き. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "き"
+      },
+      "answerKey": {
+        "accepted": [
+          "き"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-08",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for ku.",
+      "answer": "く",
+      "explanation": "The ku card is written く. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "く"
+      },
+      "answerKey": {
+        "accepted": [
+          "く"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-09",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for ke.",
+      "answer": "け",
+      "explanation": "The ke card is written け. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "け"
+      },
+      "answerKey": {
+        "accepted": [
+          "け"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-10",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for ko.",
+      "answer": "こ",
+      "explanation": "The ko card is written こ. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "こ"
+      },
+      "answerKey": {
+        "accepted": [
+          "こ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-11",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for sa.",
+      "answer": "さ",
+      "explanation": "The sa card is written さ. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "さ"
+      },
+      "answerKey": {
+        "accepted": [
+          "さ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-12",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for shi.",
+      "answer": "し",
+      "explanation": "The shi card is written し. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "し"
+      },
+      "answerKey": {
+        "accepted": [
+          "し"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-13",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for su.",
+      "answer": "す",
+      "explanation": "The su card is written す. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "す"
+      },
+      "answerKey": {
+        "accepted": [
+          "す"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-14",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for se.",
+      "answer": "せ",
+      "explanation": "The se card is written せ. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "せ"
+      },
+      "answerKey": {
+        "accepted": [
+          "せ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-15",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "script"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-typing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Type the hiragana for so.",
+      "answer": "そ",
+      "explanation": "The so card is written そ. Enter the Japanese kana, not Latin letters.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "そ"
+      },
+      "answerKey": {
+        "accepted": [
+          "そ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-16",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which character is o? ",
+      "options": [
+        "あ",
+        "お",
+        "う"
+      ],
+      "correctIndex": 1,
+      "explanation": "お represents o; あ represents a and う represents u.",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l04-16-c1",
+          "text": "あ",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-16-c2",
+          "text": "お",
+          "rationale": "お represents o; あ represents a and う represents u."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-16-c3",
+          "text": "う",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l04-16-c2"
+      },
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "お"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-17",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which character is ki?",
+      "options": [
+        "さ",
+        "き",
+        "か"
+      ],
+      "correctIndex": 1,
+      "explanation": "き is ki; さ is sa and か is ka.",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l04-17-c1",
+          "text": "さ",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-17-c2",
+          "text": "き",
+          "rationale": "き is ki; さ is sa and か is ka."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-17-c3",
+          "text": "か",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l04-17-c2"
+      },
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "き"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-18",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which character is shi?",
+      "options": [
+        "す",
+        "し",
+        "そ"
+      ],
+      "correctIndex": 1,
+      "explanation": "し represents shi; す is su and そ is so.",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l04-18-c1",
+          "text": "す",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-18-c2",
+          "text": "し",
+          "rationale": "し represents shi; す is su and そ is so."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-18-c3",
+          "text": "そ",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l04-18-c2"
+      },
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "し"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-19",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which character is se?",
+      "options": [
+        "せ",
+        "さ",
+        "そ"
+      ],
+      "correctIndex": 0,
+      "explanation": "せ represents se; さ is sa and そ is so.",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l04-19-c1",
+          "text": "せ",
+          "rationale": "せ represents se; さ is sa and そ is so."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-19-c2",
+          "text": "さ",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-19-c3",
+          "text": "そ",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l04-19-c1"
+      },
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "せ"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l04-20",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l04-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which word is kasa (umbrella)?",
+      "options": [
+        "かお",
+        "かさ",
+        "ここ"
+      ],
+      "correctIndex": 1,
+      "explanation": "かさ combines か (ka) and さ (sa), meaning umbrella.",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l04-20-c1",
+          "text": "かお",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-20-c2",
+          "text": "かさ",
+          "rationale": "かさ combines か (ka) and さ (sa), meaning umbrella."
+        },
+        {
+          "id": "ex-l0-m02-c01-l04-20-c3",
+          "text": "ここ",
+          "rationale": "Compare the full printed kana shape and its vowel sound with the lesson grid."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l04-20-c2"
+      },
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-script-practice.mdx",
+        "phrase": "かさ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/contact.css';
+---
+<Base title="Contact FreeJapaneseAcademy" description="Contact FreeJapaneseAcademy about Japanese lessons, corrections, accessibility, partnerships or other questions." breadcrumbs={[{ label: 'Contact', href: '/contact/' }]}>
+  <section class="page-hero contact-hero"><div class="container">
+    <span class="eyebrow">WE'RE HERE TO LISTEN</span>
+    <h1>Get in <span class="red-text">touch.</span></h1>
+    <p>Have a question, spotted a mistake, or want to help make Japanese learning better? Send a message to the FreeJapaneseAcademy team.</p>
+  </div></section>
+  <section class="contact-section"><div class="container contact-grid">
+    <div class="contact-card">
+      <span class="eyebrow">SEND A MESSAGE</span>
+      <h2>How can we help?</h2>
+      <p>Use the form below to contact us. We'll do our best to read your message and reply when we can.</p>
+      <form class="contact-form" action="https://formsubmit.co/free-japanese-academy@protonmail.com" method="POST" accept-charset="UTF-8">
+        <input type="hidden" name="_subject" value="FreeJapaneseAcademy website contact" />
+        <input type="hidden" name="_template" value="table" />
+        <div class="contact-honeypot" aria-hidden="true">
+          <label for="contact-bot-field">Leave this field empty</label>
+          <input id="contact-bot-field" type="text" name="_honey" tabindex="-1" autocomplete="off" />
+        </div>
+        <div class="contact-form-row">
+          <div class="contact-field">
+            <label for="contact-name">Your name *</label>
+            <input id="contact-name" type="text" name="name" autocomplete="name" maxlength="100" placeholder="How should we address you?" required />
+          </div>
+          <div class="contact-field">
+            <label for="contact-email">Your email *</label>
+            <input id="contact-email" type="email" name="email" autocomplete="email" maxlength="254" placeholder="you@example.com" required />
+          </div>
+        </div>
+        <div class="contact-field">
+          <label for="contact-topic">What is this about? *</label>
+          <select id="contact-topic" name="topic" required>
+            <option value="">Select a topic</option>
+            <option value="Lesson question">Lesson question</option>
+            <option value="Content correction">Content correction</option>
+            <option value="Website or accessibility issue">Website or accessibility issue</option>
+            <option value="Partnership or media">Partnership or media</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="contact-field">
+          <label for="contact-message">Your message *</label>
+          <textarea id="contact-message" name="message" rows="7" minlength="10" maxlength="4000" placeholder="Tell us what you would like to share." required></textarea>
+          <small>10–4,000 characters. Please don't include passwords or sensitive personal information.</small>
+        </div>
+        <label class="contact-consent">
+          <input type="checkbox" name="contact_data_notice" value="Acknowledged" required />
+          <span>I understand that FormSubmit, a third-party form delivery service, will process my message and forward it to the academy's email. Read our <a class="text-link" href="/privacy/">privacy information</a>.</span>
+        </label>
+        <div class="contact-form-actions">
+          <button class="btn btn-primary" type="submit">Send message <span aria-hidden="true">↗</span></button>
+          <span>All fields marked * are required. Spam verification may appear.</span>
+        </div>
+      </form>
+    </div>
+    <aside class="contact-aside" aria-label="More contact options">
+      <div class="contact-aside-card">
+        <span class="eyebrow">EMAIL US DIRECTLY</span>
+        <h2>Prefer email?</h2>
+        <p>If the form is not working, or you'd rather use your email client, write to:</p>
+        <a class="contact-email" href="mailto:free-japanese-academy@protonmail.com">free-japanese-academy@protonmail.com</a>
+        <p>We never require a student account just to ask a question.</p>
+      </div>
+      <div class="contact-aside-card">
+        <span class="eyebrow">QUICK HELP</span>
+        <h3>Looking for a fast answer?</h3>
+        <p>Our FAQ covers the course roadmap, local progress saving, and getting started.</p>
+        <a class="text-link" href="/faq/">Explore the FAQ ↗</a>
+      </div>
+    </aside>
+  </div></section>
+</Base>

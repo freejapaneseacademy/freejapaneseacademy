@@ -1,0 +1,33 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import WritingPractice from '../../../../../components/interactive/WritingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'l0/japanese-language-map-writing');
+if (!lesson) throw new Error('Missing blueprint lesson l0-m01-c01-l07');
+const { Content } = await render(lesson);
+const id = lesson.data.lessonId ?? 'l0-m01-c01-l07';
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Writing and typing',href:'/learn/start/module-01/chapter-01/lesson-07/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Lesson 07</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 01 · LESSON 07</span>
+    <h1>Write your first Japanese script labels.</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Lessons 01–06 recommended</span><span>Kana typing · Guided labels · Self-reviewed writing</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original FreeJapaneseAcademy writing lesson.</strong> Automated language screening is not independent Japanese or assessment review. The open writing rubric is for learner self-review, not a teacher-issued score. This is not official JLPT material.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR WRITING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <WritingPractice client:load />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>After typing the forms, making your two labels and comparing your writing with the rubric, you can mark the lesson complete. Completion and the constrained typing score are separate browser-local records; self-review is not automatically graded.</p><LessonActions client:load lessonId={id} level="l0" /></div>
+    <div class="lesson-next"><h3>Continue Japanese Foundations</h3><p>Next in the blueprint: Lesson 08 — optional speaking and shadowing, now available with the existing real model recordings.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-01/lesson-08/">Continue to lesson 08 →</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a></div>
+  </div><aside class="lesson-side foundation-side">
+    <span class="eyebrow">STUDY GUIDE</span><h3>Japanese language map</h3><p><strong>L0-M01-C01-L07</strong></p>
+    <p>Produce recognizable kana and two short Japanese labels, then explain the four writing systems.</p>
+    <div class="sample-rule"></div><h3>Study steps</h3><ol><li>Review the vowel pairs and familiar words.</li><li>Type eight kana/word responses.</li><li>Build labels for あ and ア.</li><li>Write your own labels and four-script explanation.</li><li>Compare with the model and revise.</li></ol>
+    <p>No automatic grading of free composition, kanji memorization or microphone recording is included.</p>
+  </aside></div></section>
+</Base>

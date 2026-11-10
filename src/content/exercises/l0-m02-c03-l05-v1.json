@@ -1,0 +1,698 @@
+{
+  "id": "l0-m02-c03-l05",
+  "lessonId": "l0-m02-c03-l05",
+  "version": 1,
+  "status": "published",
+  "source": "Original classroom picture-label board and two written notices",
+  "scoring": {
+    "mode": "reading-multiple-choice",
+    "maxScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c03-l05-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-1"
+      ],
+      "prompt": "Which label names the mountain?",
+      "options": [
+        "やま",
+        "ゆめ",
+        "もも",
+        "わに"
+      ],
+      "answer": "やま",
+      "correctIndex": 0,
+      "feedback": "Card A prints やま for mountain.",
+      "explanation": "Card A prints やま for mountain.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "やま"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-01-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-01-c1",
+          "text": "やま",
+          "rationale": "Card A prints やま for mountain."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-01-c2",
+          "text": "ゆめ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-01-c3",
+          "text": "もも",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-01-c4",
+          "text": "わに",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-2"
+      ],
+      "prompt": "Which label names a dream?",
+      "options": [
+        "よる",
+        "ゆめ",
+        "むら",
+        "もり"
+      ],
+      "answer": "ゆめ",
+      "correctIndex": 1,
+      "feedback": "Card B prints ゆめ for dream.",
+      "explanation": "Card B prints ゆめ for dream.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "ゆめ"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-02-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-02-c1",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-02-c2",
+          "text": "ゆめ",
+          "rationale": "Card B prints ゆめ for dream."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-02-c3",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-02-c4",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-3"
+      ],
+      "prompt": "What is printed on card C?",
+      "options": [
+        "もり",
+        "もも",
+        "みかん",
+        "やま"
+      ],
+      "answer": "もも",
+      "correctIndex": 1,
+      "feedback": "Card C prints もも for peach.",
+      "explanation": "Card C prints もも for peach.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "もも"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-03-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-03-c1",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-03-c2",
+          "text": "もも",
+          "rationale": "Card C prints もも for peach."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-03-c3",
+          "text": "みかん",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-03-c4",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-4"
+      ],
+      "prompt": "Which label identifies a crocodile?",
+      "options": [
+        "わに",
+        "くるま",
+        "むら",
+        "よる"
+      ],
+      "answer": "わに",
+      "correctIndex": 0,
+      "feedback": "Card D prints わに for crocodile.",
+      "explanation": "Card D prints わに for crocodile.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "わに"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-04-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-04-c1",
+          "text": "わに",
+          "rationale": "Card D prints わに for crocodile."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-04-c2",
+          "text": "くるま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-04-c3",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-04-c4",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-5"
+      ],
+      "prompt": "Which word is the book label?",
+      "options": [
+        "ほん",
+        "もも",
+        "よる",
+        "もり"
+      ],
+      "answer": "ほん",
+      "correctIndex": 0,
+      "feedback": "Card E prints ほん for book.",
+      "explanation": "Card E prints ほん for book.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "ほん"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-05-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-05-c1",
+          "text": "ほん",
+          "rationale": "Card E prints ほん for book."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-05-c2",
+          "text": "もも",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-05-c3",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-05-c4",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-6"
+      ],
+      "prompt": "Which card names a mandarin orange?",
+      "options": [
+        "B",
+        "D",
+        "F",
+        "I"
+      ],
+      "answer": "F",
+      "correctIndex": 2,
+      "feedback": "Card F prints みかん for mandarin orange.",
+      "explanation": "Card F prints みかん for mandarin orange.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "みかん"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-06-c3"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-06-c1",
+          "text": "B",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-06-c2",
+          "text": "D",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-06-c3",
+          "text": "F",
+          "rationale": "Card F prints みかん for mandarin orange."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-06-c4",
+          "text": "I",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-7"
+      ],
+      "prompt": "Which printed word means village?",
+      "options": [
+        "もり",
+        "むら",
+        "くるま",
+        "やま"
+      ],
+      "answer": "むら",
+      "correctIndex": 1,
+      "feedback": "Card G prints むら for village.",
+      "explanation": "Card G prints むら for village.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "むら"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-07-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-07-c1",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-07-c2",
+          "text": "むら",
+          "rationale": "Card G prints むら for village."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-07-c3",
+          "text": "くるま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-07-c4",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-8"
+      ],
+      "prompt": "Which printed label means car?",
+      "options": [
+        "くるま",
+        "むら",
+        "もり",
+        "わに"
+      ],
+      "answer": "くるま",
+      "correctIndex": 0,
+      "feedback": "Card H prints くるま for car.",
+      "explanation": "Card H prints くるま for car.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "くるま"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-08-c1"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-08-c1",
+          "text": "くるま",
+          "rationale": "Card H prints くるま for car."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-08-c2",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-08-c3",
+          "text": "もり",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-08-c4",
+          "text": "わに",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-9"
+      ],
+      "prompt": "What is the forest label?",
+      "options": [
+        "もも",
+        "よる",
+        "もり",
+        "やま"
+      ],
+      "answer": "もり",
+      "correctIndex": 2,
+      "feedback": "Card I prints もり for forest.",
+      "explanation": "Card I prints もり for forest.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "もり"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-09-c3"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-09-c1",
+          "text": "もも",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-09-c2",
+          "text": "よる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-09-c3",
+          "text": "もり",
+          "rationale": "Card I prints もり for forest."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-09-c4",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-10"
+      ],
+      "prompt": "Which word means night?",
+      "options": [
+        "ゆめ",
+        "よる",
+        "むら",
+        "ほん"
+      ],
+      "answer": "よる",
+      "correctIndex": 1,
+      "feedback": "Card J prints よる for night.",
+      "explanation": "Card J prints よる for night.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "よる"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-10-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-10-c1",
+          "text": "ゆめ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-10-c2",
+          "text": "よる",
+          "rationale": "Card J prints よる for night."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-10-c3",
+          "text": "むら",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-10-c4",
+          "text": "ほん",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-11",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-11"
+      ],
+      "prompt": "In ほんをよむ。, which word is the object?",
+      "options": [
+        "よむ",
+        "ほん",
+        "みる",
+        "みかん"
+      ],
+      "answer": "ほん",
+      "correctIndex": 1,
+      "feedback": "The notice ほんをよむ。 uses ほん (book) before object particle を.",
+      "explanation": "The notice ほんをよむ。 uses ほん (book) before object particle を.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "ほんをよむ。"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-11-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-11-c1",
+          "text": "よむ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-11-c2",
+          "text": "ほん",
+          "rationale": "The notice ほんをよむ。 uses ほん (book) before object particle を."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-11-c3",
+          "text": "みる",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-11-c4",
+          "text": "みかん",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l05-12",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "reading",
+      "skills": [
+        "reading"
+      ],
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m02-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l05-12"
+      ],
+      "prompt": "Which printed notice says to look at a mandarin orange?",
+      "options": [
+        "ほんをよむ。",
+        "みかんをみる。",
+        "やま",
+        "ゆめ"
+      ],
+      "answer": "みかんをみる。",
+      "correctIndex": 1,
+      "feedback": "The second notice explicitly prints みかんをみる。",
+      "explanation": "The second notice explicitly prints みかんをみる。",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-reading.mdx",
+        "phrase": "みかんをみる。"
+      },
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l05-12-c2"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l05-12-c1",
+          "text": "ほんをよむ。",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-12-c2",
+          "text": "みかんをみる。",
+          "rationale": "The second notice explicitly prints みかんをみる。"
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-12-c3",
+          "text": "やま",
+          "rationale": "This option does not match the printed Japanese evidence."
+        },
+        {
+          "id": "ex-l0-m02-c03-l05-12-c4",
+          "text": "ゆめ",
+          "rationale": "This option does not match the printed Japanese evidence."
+        }
+      ]
+    }
+  ]
+}

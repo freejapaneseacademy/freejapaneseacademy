@@ -1,0 +1,20 @@
+import { test, expect } from '@playwright/test';
+test('L07 hiragana writing supports keyboard, retry, self-review and mobile',async({page})=>{
+ await page.setViewportSize({width:320,height:700});
+ await page.goto('/learn/start/module-02/chapter-04/lesson-07/');
+ await expect(page.getByRole('heading',{name:'Write connected hiragana words and classroom requests'})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Check ten written answers'})).toBeDisabled();
+ const inputs=page.locator('input[type=text]');
+ await expect(inputs).toHaveCount(10);
+ for(const input of await inputs.all())await input.fill('ねこ');
+ await page.getByRole('button',{name:'Check ten written answers'}).click();
+ await expect(page.getByText(/Written score:/)).toBeVisible();
+ await expect(page.getByText(/Model:/).first()).toBeVisible();
+ await page.getByRole('button',{name:'Try the written answers again'}).click();
+ await expect(page.getByRole('button',{name:'Check ten written answers'})).toBeDisabled();
+ await page.getByLabel('Your two-line message').fill('ねこといぬ\nねこをみてください。');
+ await page.getByText('Kana are recognizable and in the right order.').click();
+ await expect(page.getByText('1/4 self-review criteria checked.')).toBeVisible();
+ await page.evaluate(()=>document.documentElement.classList.add('dark'));
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1)).toBeTruthy();
+});

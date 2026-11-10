@@ -1,0 +1,197 @@
+{
+  "id": "l0-m02-c01-chk-listening-v1",
+  "lessonId": "l0-m02-c01-chk",
+  "version": 1,
+  "status": "published",
+  "source": "Original questions keyed to unchanged rights-cleared Chapter 01 L06 AivisSpeech dialogues",
+  "audioManifest": "src/content/audio/l0-m02-c01-l06-v1.json",
+  "audioPaths": [
+    "/audio/fja-l0-m02-c01-l06-a-v1.wav",
+    "/audio/fja-l0-m02-c01-l06-b-v1.wav"
+  ],
+  "rights": "Original AivisSpeech ACML 1.0 WAVs; manifest checksums and attribution retained; independent pronunciation review pending",
+  "scoring": {
+    "mode": "single-choice",
+    "maxListeningScore": 4,
+    "blindAndAssistedSeparate": true,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c01-chk-a01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-chk-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m02-c01-l06-a",
+      "prompt": "What object is the woman asking about?",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-chk-a01-c1",
+          "text": "An umbrella",
+          "rationale": "She asks かさはありますか。 ('Do you have an umbrella?')"
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-a01-c2",
+          "text": "A stamp",
+          "rationale": "Not supported by the recorded turn."
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-a01-c3",
+          "text": "A book",
+          "rationale": "Not supported by the recorded turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-chk-a01-c1"
+      },
+      "explanation": "She asks かさはありますか。 ('Do you have an umbrella?')",
+      "evidence": {
+        "turn": "Woman's first turn, 0.00–2.75 s",
+        "source": "src/content/audio/l0-m02-c01-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m02-c01-chk-a02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-chk-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m02-c01-l06-a",
+      "prompt": "Where does the man say the object is?",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-chk-a02-c1",
+          "text": "At home",
+          "rationale": "Not supported by the recorded turn."
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-a02-c2",
+          "text": "Here",
+          "rationale": "He answers ここにあります。 ('There is one here.')"
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-a02-c3",
+          "text": "At school",
+          "rationale": "Not supported by the recorded turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-chk-a02-c2"
+      },
+      "explanation": "He answers ここにあります。 ('There is one here.')",
+      "evidence": {
+        "turn": "Man's second turn, 3.03–4.99 s",
+        "source": "src/content/audio/l0-m02-c01-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m02-c01-chk-b01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-chk-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m02-c01-l06-b",
+      "prompt": "What does the woman say she will eat?",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-chk-b01-c1",
+          "text": "Rice only",
+          "rationale": "Not supported by the recorded turn."
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-b01-c2",
+          "text": "Bread",
+          "rationale": "Not supported by the recorded turn."
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-b01-c3",
+          "text": "Sushi",
+          "rationale": "She answers すしをたべます。 ('I'll eat sushi.')"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-chk-b01-c3"
+      },
+      "explanation": "She answers すしをたべます。 ('I'll eat sushi.')",
+      "evidence": {
+        "turn": "Woman's second turn, 2.65–4.30 s",
+        "source": "src/content/audio/l0-m02-c01-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    },
+    {
+      "id": "ex-l0-m02-c01-chk-b02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-chk-spoken-meaning"
+      ],
+      "stimulusId": "audio-l0-m02-c01-l06-b",
+      "prompt": "Does the woman agree to drink tea?",
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-chk-b02-c1",
+          "text": "Yes",
+          "rationale": "She says はい。おちゃをのみます。 ('Yes. I'll drink tea.')"
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-b02-c2",
+          "text": "No",
+          "rationale": "Not supported by the recorded turn."
+        },
+        {
+          "id": "ex-l0-m02-c01-chk-b02-c3",
+          "text": "She does not answer",
+          "rationale": "Not supported by the recorded turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-chk-b02-c1"
+      },
+      "explanation": "She says はい。おちゃをのみます。 ('Yes. I'll drink tea.')",
+      "evidence": {
+        "turn": "Woman's final turn, 7.60–9.77 s",
+        "source": "src/content/audio/l0-m02-c01-l06-v1.json"
+      },
+      "transcriptPolicy": "hidden until submitted; reveal switches to assisted mode"
+    }
+  ]
+}

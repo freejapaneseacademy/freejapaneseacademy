@@ -1,0 +1,298 @@
+{
+  "id": "l0-m01-c02-l06-check-v1",
+  "lessonId": "l0-m01-c02-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m01-c02-l06-a",
+    "audio-l0-m01-c02-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c02-l06-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-ie"
+      ],
+      "trackId": "audio-l0-m01-c02-l06-a",
+      "prompt": "What did the man first think the place in the photo might be?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A shop",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "b",
+          "text": "A house",
+          "rationale": "This matches the words actually spoken in the track."
+        },
+        {
+          "id": "c",
+          "text": "A school",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The man asks 家の写真ですか (a photo of a house?). This question is a guess, not the final answer.",
+      "evidence": "これ、家の写真ですか。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l06-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-omise"
+      ],
+      "trackId": "audio-l0-m01-c02-l06-a",
+      "prompt": "What place does the woman say the photograph actually shows?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A shop",
+          "rationale": "This matches the words actually spoken in the track."
+        },
+        {
+          "id": "b",
+          "text": "A house",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "c",
+          "text": "A station",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman says これはお店の写真です (this is a shop photo), correcting the man's guess.",
+      "evidence": "これはお店の写真です。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l06-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-iie"
+      ],
+      "trackId": "audio-l0-m01-c02-l06-a",
+      "prompt": "Does the woman's first reply accept or reject the man's guess?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She thanks him",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "b",
+          "text": "She agrees",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "c",
+          "text": "She says no",
+          "rationale": "This matches the words actually spoken in the track."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "いいえ (no) rejects the guess. Notice the held i vowel: い・い・え has three morae, while 家 (いえ, house) has two.",
+      "evidence": "いいえ、これはお店の写真です。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l06-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-obasan"
+      ],
+      "trackId": "audio-l0-m01-c02-l06-b",
+      "prompt": "Which family relationship does the woman initially guess?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Aunt",
+          "rationale": "This matches the words actually spoken in the track."
+        },
+        {
+          "id": "b",
+          "text": "Grandmother",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "c",
+          "text": "Mother",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman asks おばさんですか (is she your aunt?). This is a guess, not the correction.",
+      "evidence": "あなたのおばさんですか。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l06-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-obaasan"
+      ],
+      "trackId": "audio-l0-m01-c02-l06-b",
+      "prompt": "Who does the man say the person actually is?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "His aunt",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "b",
+          "text": "His sister",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "c",
+          "text": "His grandmother",
+          "rationale": "This matches the words actually spoken in the track."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The man says 私のおばあさんです (she is my grandmother). The long a distinguishes おばあさん from おばさん.",
+      "evidence": "私のおばあさんです。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l06-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-genki"
+      ],
+      "trackId": "audio-l0-m01-c02-l06-b",
+      "prompt": "What does the man say about the person in the photo?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is tired",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "b",
+          "text": "She is very energetic",
+          "rationale": "This matches the words actually spoken in the track."
+        },
+        {
+          "id": "c",
+          "text": "She is busy",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The final line とても元気ですよ means she is very energetic or doing very well.",
+      "evidence": "とても元気ですよ。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l06-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "phoneme-long-a"
+      ],
+      "trackId": "audio-l0-m01-c02-l06-b",
+      "prompt": "Which vowel is held longer in the man's word for grandmother?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The a sound",
+          "rationale": "This matches the words actually spoken in the track."
+        },
+        {
+          "id": "b",
+          "text": "The i sound",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        },
+        {
+          "id": "c",
+          "text": "The o sound",
+          "rationale": "This is not what the speaker said; listen again to the relevant reply."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Listen to おばあさん: お・ば・あ・さ・ん has five morae. The extra あ holds the a vowel longer; おばさん has four morae.",
+      "evidence": "私のおばあさんです。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "mora-discrimination"
+      ]
+    }
+  ]
+}

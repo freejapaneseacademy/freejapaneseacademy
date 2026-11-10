@@ -1,0 +1,40 @@
+name: Autonomous Lesson Release
+# One trusted, serialized queue. Completed lessons can be authored concurrently.
+on:
+  pull_request_target:
+    types: [opened, synchronize, ready_for_review, reopened]
+  workflow_run:
+    workflows: ["Lesson Quality Gates"]
+    types: [completed]
+  push:
+    branches: [main]
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+  checks: read
+
+concurrency:
+  group: autonomous-foundations-release-queue
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout trusted default branch coordinator
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Reconcile next ready lesson and publish safely
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const {run} = require('./scripts/release_queue.cjs');
+            await run({github, core, context});

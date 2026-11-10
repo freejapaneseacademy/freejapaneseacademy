@@ -1,0 +1,422 @@
+{
+  "id": "l0-m03-c02-l03",
+  "lessonId": "l0-m03-c02-l03",
+  "version": 1,
+  "status": "published",
+  "source": "Original reading-club yoon blending lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c02-l03-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "Which written pair is ONE mora?",
+      "options": [
+        "きや",
+        "きゃ",
+        "き・や"
+      ],
+      "correctIndex": 1,
+      "feedback": "きゃ combines き with small ゃ into one mora; full-sized や would make a second mora.",
+      "explanation": "きゃ combines き with small ゃ into one mora; full-sized や would make a second mora.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "きゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-01-c1",
+          "text": "きや",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-01-c2",
+          "text": "きゃ",
+          "rationale": "きゃ combines き with small ゃ into one mora; full-sized や would make a second mora."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-01-c3",
+          "text": "き・や",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-01-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l03-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "What is the role of the small ゅ in しゅ?",
+      "options": [
+        "It creates a separate mora",
+        "It blends with し into one mora",
+        "It marks a long vowel"
+      ],
+      "correctIndex": 1,
+      "feedback": "Small ゅ blends with the preceding i-row kana し; the pair しゅ is one mora.",
+      "explanation": "Small ゅ blends with the preceding i-row kana し; the pair しゅ is one mora.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "しゅ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-02-c1",
+          "text": "It creates a separate mora",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-02-c2",
+          "text": "It blends with し into one mora",
+          "rationale": "Small ゅ blends with the preceding i-row kana し; the pair しゅ is one mora."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-02-c3",
+          "text": "It marks a long vowel",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l03-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "How many morae are in おちゃ?",
+      "options": [
+        "2",
+        "3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "feedback": "お is one mora and ちゃ is one contracted mora, so おちゃ has two.",
+      "explanation": "お is one mora and ちゃ is one contracted mora, so おちゃ has two.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "お・ちゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-03-c1",
+          "text": "2",
+          "rationale": "お is one mora and ちゃ is one contracted mora, so おちゃ has two."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-03-c2",
+          "text": "3",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-03-c3",
+          "text": "1",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l03-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "Which segmentation matches しゃしん?",
+      "options": [
+        "し・や・し・ん",
+        "しゃ・し・ん",
+        "しゃ・しん"
+      ],
+      "correctIndex": 1,
+      "feedback": "しゃ is one mora, followed by し and ん: three morae.",
+      "explanation": "しゃ is one mora, followed by し and ん: three morae.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "しゃ・し・ん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-04-c1",
+          "text": "し・や・し・ん",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-04-c2",
+          "text": "しゃ・し・ん",
+          "rationale": "しゃ is one mora, followed by し and ん: three morae."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-04-c3",
+          "text": "しゃ・しん",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l03-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "Which statement about きや is correct?",
+      "options": [
+        "It has two full-sized kana and two morae",
+        "It is the same one-mora sequence as きゃ",
+        "The や is small"
+      ],
+      "correctIndex": 0,
+      "feedback": "きや has full-sized や, so き and や are separate morae; this is a decoding contrast, not a vocabulary item.",
+      "explanation": "きや has full-sized や, so き and や are separate morae; this is a decoding contrast, not a vocabulary item.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "きや"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-05-c1",
+          "text": "It has two full-sized kana and two morae",
+          "rationale": "きや has full-sized や, so き and や are separate morae; this is a decoding contrast, not a vocabulary item."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-05-c2",
+          "text": "It is the same one-mora sequence as きゃ",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-05-c3",
+          "text": "The や is small",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l03-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "How many morae are in きょう?",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1,
+      "feedback": "きょ is one contracted mora and the following う contributes another mora.",
+      "explanation": "きょ is one contracted mora and the following う contributes another mora.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "きょ・う"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-06-c1",
+          "text": "1",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-06-c2",
+          "text": "2",
+          "rationale": "きょ is one contracted mora and the following う contributes another mora."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-06-c3",
+          "text": "3",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l03-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "Which word has TWO separate contracted pairs?",
+      "options": [
+        "じしょ",
+        "ぎゅうにゅう",
+        "きゃく"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぎゅうにゅう contains ぎゅ and にゅ, each a contracted pair; both う signs are additional morae.",
+      "explanation": "ぎゅうにゅう contains ぎゅ and にゅ, each a contracted pair; both う signs are additional morae.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "ぎゅ・う・にゅ・う"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-07-c1",
+          "text": "じしょ",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-07-c2",
+          "text": "ぎゅうにゅう",
+          "rationale": "ぎゅうにゅう contains ぎゅ and にゅ, each a contracted pair; both う signs are additional morae."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-07-c3",
+          "text": "きゃく",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l03-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l03-blending"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l03-mora"
+      ],
+      "prompt": "What is the common reading error in しゃ?",
+      "options": [
+        "Reading it as shi-ya in two beats",
+        "Reading しゃ as one mora",
+        "Recognizing a small ゃ"
+      ],
+      "correctIndex": 0,
+      "feedback": "しゃ is a single blended mora. Treating small ゃ like full-sized や incorrectly adds a beat.",
+      "explanation": "しゃ is a single blended mora. Treating small ゃ like full-sized や incorrectly adds a beat.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-blending.mdx",
+        "phrase": "しゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l03-08-c1",
+          "text": "Reading it as shi-ya in two beats",
+          "rationale": "しゃ is a single blended mora. Treating small ゃ like full-sized や incorrectly adds a beat."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-08-c2",
+          "text": "Reading しゃ as one mora",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        },
+        {
+          "id": "ex-l0-m03-c02-l03-08-c3",
+          "text": "Recognizing a small ゃ",
+          "rationale": "This choice does not follow the small-kana blending and mora-count rule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l03-08-c1"
+      }
+    }
+  ]
+}

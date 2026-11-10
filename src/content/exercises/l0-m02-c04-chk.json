@@ -1,0 +1,491 @@
+{
+  "id": "l0-m02-c04-chk-v1",
+  "lessonId": "l0-m02-c04-chk",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m02-c04-l06-a",
+    "audio-l0-m02-c04-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m02-c04-chk-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-1"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Which word means 'cat' on the classroom card board?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ねこ",
+          "rationale": "Correct. The classroom animal card says ねこ (cat); the initial kana is ね, not れ or ぬ."
+        },
+        {
+          "id": "b",
+          "text": "れこ",
+          "rationale": "Not supported. The classroom animal card says ねこ (cat); the initial kana is ね, not れ or ぬ."
+        },
+        {
+          "id": "c",
+          "text": "ぬこ",
+          "rationale": "Not supported. The classroom animal card says ねこ (cat); the initial kana is ね, not れ or ぬ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The classroom animal card says ねこ (cat); the initial kana is ね, not れ or ぬ.",
+      "evidence": "ねこ"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-2"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Which word means 'dog'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "いめ",
+          "rationale": "Not supported. The classroom card is いぬ (dog); distinguish ぬ from め and ね."
+        },
+        {
+          "id": "b",
+          "text": "いぬ",
+          "rationale": "Correct. The classroom card is いぬ (dog); distinguish ぬ from め and ね."
+        },
+        {
+          "id": "c",
+          "text": "いね",
+          "rationale": "Not supported. The classroom card is いぬ (dog); distinguish ぬ from め and ね."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The classroom card is いぬ (dog); distinguish ぬ from め and ね.",
+      "evidence": "いぬ"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-3"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Choose the correctly written word for 'mountain'.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "やま",
+          "rationale": "Correct. The library book is やまのほん (a mountain book)."
+        },
+        {
+          "id": "b",
+          "text": "かま",
+          "rationale": "Not supported. The library book is やまのほん (a mountain book)."
+        },
+        {
+          "id": "c",
+          "text": "やも",
+          "rationale": "Not supported. The library book is やまのほん (a mountain book)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The library book is やまのほん (a mountain book).",
+      "evidence": "やま"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-4"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "kana",
+      "prompt": "Which word means 'sky'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "そら",
+          "rationale": "Correct. The library speaker asks about そらのえ (sky pictures)."
+        },
+        {
+          "id": "b",
+          "text": "さら",
+          "rationale": "Not supported. The library speaker asks about そらのえ (sky pictures)."
+        },
+        {
+          "id": "c",
+          "text": "そろ",
+          "rationale": "Not supported. The library speaker asks about そらのえ (sky pictures)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The library speaker asks about そらのえ (sky pictures).",
+      "evidence": "そら"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-5"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Which classroom item does the woman choose first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "いぬのカード",
+          "rationale": "Not supported. The first choice is the cat card; the dog card is mentioned later."
+        },
+        {
+          "id": "b",
+          "text": "ねこのカード",
+          "rationale": "Correct. The first choice is the cat card; the dog card is mentioned later."
+        },
+        {
+          "id": "c",
+          "text": "やまのほん",
+          "rationale": "Not supported. The first choice is the cat card; the dog card is mentioned later."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The first choice is the cat card; the dog card is mentioned later.",
+      "evidence": "ねこのカードをみます。"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-6"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "In the library, which two kinds of pictures are in the book?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ねこといぬ",
+          "rationale": "Not supported. The reply explicitly says there are sky and river pictures."
+        },
+        {
+          "id": "b",
+          "text": "やまとほん",
+          "rationale": "Not supported. The reply explicitly says there are sky and river pictures."
+        },
+        {
+          "id": "c",
+          "text": "そらとかわ",
+          "rationale": "Correct. The reply explicitly says there are sky and river pictures."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The reply explicitly says there are sky and river pictures.",
+      "evidence": "そらとかわのえがあります。"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-7"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "segmentation",
+      "prompt": "In ねこのカード, which part names the animal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ねこ",
+          "rationale": "Correct. ねこ means cat; の links it to the card."
+        },
+        {
+          "id": "b",
+          "text": "の",
+          "rationale": "Not supported. ねこ means cat; の links it to the card."
+        },
+        {
+          "id": "c",
+          "text": "カード",
+          "rationale": "Not supported. ねこ means cat; の links it to the card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "ねこ means cat; の links it to the card.",
+      "evidence": "ねこのカード"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-8"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "segmentation",
+      "prompt": "What does も add in いぬのカードもありますよ。?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "also",
+          "rationale": "Correct. も means also: a dog card is available in addition to the cat card."
+        },
+        {
+          "id": "b",
+          "text": "not",
+          "rationale": "Not supported. も means also: a dog card is available in addition to the cat card."
+        },
+        {
+          "id": "c",
+          "text": "where",
+          "rationale": "Not supported. も means also: a dog card is available in addition to the cat card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "も means also: a dog card is available in addition to the cat card.",
+      "evidence": "いぬのカードもありますよ。"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-009",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-9"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "prompt": "In the classroom audio, which card is chosen first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cat",
+          "rationale": "Correct. The woman first chooses the cat card, then the dog card."
+        },
+        {
+          "id": "b",
+          "text": "Dog",
+          "rationale": "Not supported. The woman first chooses the cat card, then the dog card."
+        },
+        {
+          "id": "c",
+          "text": "Mountain",
+          "rationale": "Not supported. The woman first chooses the cat card, then the dog card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman first chooses the cat card, then the dog card.",
+      "evidence": "ねこのカードをみます。"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-010",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-10"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "prompt": "What additional card is mentioned in the classroom audio?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "River",
+          "rationale": "Not supported. The man says there is also a dog card."
+        },
+        {
+          "id": "b",
+          "text": "Dog",
+          "rationale": "Correct. The man says there is also a dog card."
+        },
+        {
+          "id": "c",
+          "text": "Sky",
+          "rationale": "Not supported. The man says there is also a dog card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The man says there is also a dog card.",
+      "evidence": "いぬのカードもありますよ。"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-011",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-11"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "prompt": "In the library audio, what is the book about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mountains",
+          "rationale": "Correct. The man describes a mountain book."
+        },
+        {
+          "id": "b",
+          "text": "Dogs",
+          "rationale": "Not supported. The man describes a mountain book."
+        },
+        {
+          "id": "c",
+          "text": "Peaches",
+          "rationale": "Not supported. The man describes a mountain book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The man describes a mountain book.",
+      "evidence": "このほんは、やまのほんです。"
+    },
+    {
+      "id": "ex-l0-m02-c04-chk-012",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c04-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-chk-item-12"
+      ],
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "area": "listening",
+      "prompt": "Where will the library visitor read?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At home",
+          "rationale": "Not supported. The woman says ここでよみます, meaning she will read here."
+        },
+        {
+          "id": "b",
+          "text": "At the shop",
+          "rationale": "Not supported. The woman says ここでよみます, meaning she will read here."
+        },
+        {
+          "id": "c",
+          "text": "Here",
+          "rationale": "Correct. The woman says ここでよみます, meaning she will read here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The woman says ここでよみます, meaning she will read here.",
+      "evidence": "ここでよみます。"
+    }
+  ]
+}

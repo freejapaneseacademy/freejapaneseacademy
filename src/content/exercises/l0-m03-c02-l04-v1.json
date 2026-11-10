@@ -1,0 +1,524 @@
+{
+  "id": "l0-m03-c02-l04",
+  "lessonId": "l0-m03-c02-l04",
+  "version": 1,
+  "status": "published",
+  "source": "Original reading-club contracted-kana label and IME practice",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c02-l04-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which printed pair uses a SMALL ゃ?",
+      "options": [
+        "きや",
+        "きゃ",
+        "きゆ"
+      ],
+      "correctIndex": 1,
+      "feedback": "きゃ contains small ゃ; きや uses full-sized や.",
+      "explanation": "きゃ contains small ゃ; きや uses full-sized や.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "きゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-01-c1",
+          "text": "きや",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-01-c2",
+          "text": "きゃ",
+          "rationale": "きゃ contains small ゃ; きや uses full-sized や."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-01-c3",
+          "text": "きゆ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-01-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which written form represents shu as one contracted mora?",
+      "options": [
+        "しゅ",
+        "しゆ",
+        "しゃ"
+      ],
+      "correctIndex": 0,
+      "feedback": "しゅ is し plus small ゅ.",
+      "explanation": "しゅ is し plus small ゅ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "しゅ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-02-c1",
+          "text": "しゅ",
+          "rationale": "しゅ is し plus small ゅ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-02-c2",
+          "text": "しゆ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-02-c3",
+          "text": "しゃ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which pair uses small ょ?",
+      "options": [
+        "ちよ",
+        "ちょ",
+        "ちや"
+      ],
+      "correctIndex": 1,
+      "feedback": "ちょ is ち plus small ょ.",
+      "explanation": "ちょ is ち plus small ょ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "ちょ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-03-c1",
+          "text": "ちよ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-03-c2",
+          "text": "ちょ",
+          "rationale": "ちょ is ち plus small ょ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-03-c3",
+          "text": "ちや",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which IME romaji sequence commonly produces きゃ?",
+      "options": [
+        "kiya",
+        "kya",
+        "kyo"
+      ],
+      "correctIndex": 1,
+      "feedback": "kya commonly converts to きゃ in romaji-to-hiragana mode.",
+      "explanation": "kya commonly converts to きゃ in romaji-to-hiragana mode.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "kya → きゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-04-c1",
+          "text": "kiya",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-04-c2",
+          "text": "kya",
+          "rationale": "kya commonly converts to きゃ in romaji-to-hiragana mode."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-04-c3",
+          "text": "kyo",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Choose the correctly written word for tea.",
+      "options": [
+        "おちや",
+        "おちゃ",
+        "おちゅ"
+      ],
+      "correctIndex": 1,
+      "feedback": "おちゃ contains ちゃ, not separate ち and や.",
+      "explanation": "おちゃ contains ちゃ, not separate ち and や.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "おちゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-05-c1",
+          "text": "おちや",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-05-c2",
+          "text": "おちゃ",
+          "rationale": "おちゃ contains ちゃ, not separate ち and や."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-05-c3",
+          "text": "おちゅ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which label means dictionary?",
+      "options": [
+        "じしょ",
+        "じしよ",
+        "しゃしん"
+      ],
+      "correctIndex": 0,
+      "feedback": "じしょ means dictionary and uses small ょ.",
+      "explanation": "じしょ means dictionary and uses small ょ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "じしょ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-06-c1",
+          "text": "じしょ",
+          "rationale": "じしょ means dictionary and uses small ょ."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-06-c2",
+          "text": "じしよ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-06-c3",
+          "text": "しゃしん",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which form has TWO morae rather than one?",
+      "options": [
+        "きゃ",
+        "しゅ",
+        "きや"
+      ],
+      "correctIndex": 2,
+      "feedback": "きや has two full-sized kana; it is a constructed decoding contrast.",
+      "explanation": "きや has two full-sized kana; it is a constructed decoding contrast.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "きや"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-07-c1",
+          "text": "きゃ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-07-c2",
+          "text": "しゅ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-07-c3",
+          "text": "きや",
+          "rationale": "きや has two full-sized kana; it is a constructed decoding contrast."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-07-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which IME sequence commonly produces りょ?",
+      "options": [
+        "ryo",
+        "riyo",
+        "ryu"
+      ],
+      "correctIndex": 0,
+      "feedback": "ryo commonly converts to りょ in romaji-to-hiragana mode.",
+      "explanation": "ryo commonly converts to りょ in romaji-to-hiragana mode.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "ryo → りょ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-08-c1",
+          "text": "ryo",
+          "rationale": "ryo commonly converts to りょ in romaji-to-hiragana mode."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-08-c2",
+          "text": "riyo",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-08-c3",
+          "text": "ryu",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which label has two contracted pairs?",
+      "options": [
+        "おちゃ",
+        "ぎゅうにゅう",
+        "きゃく"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぎゅうにゅう has both ぎゅ and にゅ; each following う is separate.",
+      "explanation": "ぎゅうにゅう has both ぎゅ and にゅ; each following う is separate.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "ぎゅうにゅう"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-09-c1",
+          "text": "おちゃ",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-09-c2",
+          "text": "ぎゅうにゅう",
+          "rationale": "ぎゅうにゅう has both ぎゅ and にゅ; each following う is separate."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-09-c3",
+          "text": "きゃく",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l04-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l04-script-recognition"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l04-small-kana"
+      ],
+      "prompt": "Which segmentation of しゃしん is correct?",
+      "options": [
+        "し・や・し・ん",
+        "しゃ・し・ん",
+        "しゃ・しん"
+      ],
+      "correctIndex": 1,
+      "feedback": "しゃ is one mora, followed by し and ん, for three morae.",
+      "explanation": "しゃ is one mora, followed by し and ん, for three morae.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-script-practice.mdx",
+        "phrase": "しゃ・し・ん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l04-10-c1",
+          "text": "し・や・し・ん",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-10-c2",
+          "text": "しゃ・し・ん",
+          "rationale": "しゃ is one mora, followed by し and ん, for three morae."
+        },
+        {
+          "id": "ex-l0-m03-c02-l04-10-c3",
+          "text": "しゃ・しん",
+          "rationale": "This does not match the taught small-kana spelling, mora count, or IME convention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l04-10-c2"
+      }
+    }
+  ]
+}

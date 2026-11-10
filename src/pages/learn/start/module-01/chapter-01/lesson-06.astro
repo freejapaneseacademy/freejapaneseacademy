@@ -1,0 +1,22 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ListeningPractice from '../../../../../components/interactive/ListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/japanese-language-map-listening');
+if(!lesson)throw new Error('Missing blueprint lesson l0-m01-c01-l06');
+const {Content}=await render(lesson);
+const id=lesson.data.lessonId??'l0-m01-c01-l06';
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Listening practice',href:'/learn/start/module-01/chapter-01/lesson-06/'}]}>
+  <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Lesson 06</span></nav><span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 01 · LESSON 06</span><h1>Hear a real Japanese conversation.</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Lessons 01–05 recommended</span><span>Two real Japanese audio tracks · Eight checks</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original academy lesson with synthesized Japanese narration.</strong> Automated content and audio-format checks are not independent native-speaker pronunciation review. This is not official JLPT material.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR LISTENING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <ListeningPractice client:load />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>After listening, checking your answers and reviewing the transcripts, mark this lesson complete. Completion does not imply mastery or an independent pronunciation assessment.</p><LessonActions client:load lessonId={id} level="l0" /></div>
+    <div class="lesson-next"><h3>Continue Japanese Foundations</h3><p>Next: Lesson 07 — produce kana, write two Japanese labels and revise your four-script explanation.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-01/lesson-05/">← Review lesson 05</a><a class="btn btn-primary" href="/learn/start/module-01/chapter-01/lesson-07/">Study lesson 07 ↗</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a></div>
+  </div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Listen before you read</h3><p><strong>L0-M01-C01-L06</strong></p><p>Two short conversations with alternating male and female speakers.</p><div class="sample-rule"></div><h3>Study steps</h3><ol><li>Play Track A without the transcript.</li><li>Listen for requests, questions and answers.</li><li>Play Track B and listen for the speakers' observations and plan.</li><li>Answer all eight questions.</li><li>Reveal transcripts to verify and replay.</li></ol><p>Showing a transcript early switches to assisted mode, which is not saved as a blind score.</p></aside></div></section>
+</Base>

@@ -1,0 +1,218 @@
+{
+  "id": "l0-m01-c01-l07-check-v1",
+  "lessonId": "l0-m01-c01-l07",
+  "version": 1,
+  "writingTaskId": "l0-m01-c01-l07-write-v1",
+  "items": [
+    {
+      "id": "ex-l0-m01-c01-l07-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-a"
+      ],
+      "prompt": "Enter the HIRAGANA vowel represented by romaji a. Do not enter Latin a.",
+      "type": "short-input",
+      "inputScript": "hiragana",
+      "answerKey": {
+        "accepted": [
+          "あ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "あ is the hiragana character for the vowel a. ア is katakana, while Latin a is romaji.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l07-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-kata-a"
+      ],
+      "prompt": "Enter the KATAKANA vowel represented by romaji a.",
+      "type": "short-input",
+      "inputScript": "katakana",
+      "answerKey": {
+        "accepted": [
+          "ア"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "ア is katakana a. Hiragana あ represents the same vowel but uses another written form.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l07-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-i"
+      ],
+      "prompt": "Enter the HIRAGANA vowel represented by romaji i.",
+      "type": "short-input",
+      "inputScript": "hiragana",
+      "answerKey": {
+        "accepted": [
+          "い"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "い is hiragana i. Katakana イ is a different script and cannot replace it here.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l07-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-kata-o"
+      ],
+      "prompt": "Enter the KATAKANA vowel represented by romaji o.",
+      "type": "short-input",
+      "inputScript": "katakana",
+      "answerKey": {
+        "accepted": [
+          "オ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "オ is katakana o; お is the hiragana equivalent. Check the shape before submitting.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l07-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-sakura",
+        "script-hiragana"
+      ],
+      "prompt": "Type the familiar HIRAGANA word for cherry blossom (romaji cue: sakura).",
+      "type": "short-input",
+      "inputScript": "hiragana",
+      "answerKey": {
+        "accepted": [
+          "さくら"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "さくら is written さ・く・ら. The Latin spelling sakura is a reading aid, not hiragana.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l07-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-koohii",
+        "katakana-long-vowel"
+      ],
+      "prompt": "Type the KATAKANA loanword for coffee (romaji cue: kōhī). Include both long-vowel marks.",
+      "type": "short-input",
+      "inputScript": "katakana",
+      "answerKey": {
+        "accepted": [
+          "コーヒー"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "コーヒー is コ・ー・ヒ・ー. Both ー marks lengthen the preceding vowels; do not omit them.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l07-007",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-hiragana"
+      ],
+      "prompt": "Type the name of the HIRAGANA script using hiragana (romaji cue: hiragana).",
+      "type": "short-input",
+      "inputScript": "hiragana",
+      "answerKey": {
+        "accepted": [
+          "ひらがな"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "ひらがな is the script name written in hiragana. It is not a Latin-letter spelling.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l07-008",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c01-l07-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-katakana"
+      ],
+      "prompt": "Type the name of the KATAKANA script using katakana (romaji cue: katakana).",
+      "type": "short-input",
+      "inputScript": "katakana",
+      "answerKey": {
+        "accepted": [
+          "カタカナ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "カタカナ is the script name written in katakana. The word's name and the writing system of its characters are separate facts.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "kana-production",
+        "writing-typing"
+      ]
+    }
+  ]
+}

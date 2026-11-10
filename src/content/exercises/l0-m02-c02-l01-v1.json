@@ -1,0 +1,422 @@
+{
+  "id": "l0-m02-c02-l01",
+  "lessonId": "l0-m02-c02-l01",
+  "version": 1,
+  "status": "published",
+  "source": "Original Aki/Ren T/N/H card-table scene and printed grid",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c02-l01-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "Who is learning at the second kana-card table?",
+      "options": [
+        "Aki",
+        "Ren",
+        "A shopkeeper"
+      ],
+      "correctIndex": 0,
+      "feedback": "Aki is the learner; Ren is the tutor.",
+      "explanation": "Aki is the learner; Ren is the tutor.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "learner **Aki**"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-01-c1",
+          "text": "Aki",
+          "rationale": "Aki is the learner; Ren is the tutor."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-01-c2",
+          "text": "Ren",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-01-c3",
+          "text": "A shopkeeper",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l01-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "What is Ren's role?",
+      "options": [
+        "Audio examiner",
+        "Tutor who confirms card choices",
+        "Dictionary publisher"
+      ],
+      "correctIndex": 1,
+      "feedback": "Ren guides Aki and confirms the sorting task.",
+      "explanation": "Ren guides Aki and confirms the sorting task.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "tutor **Ren**"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-02-c1",
+          "text": "Audio examiner",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-02-c2",
+          "text": "Tutor who confirms card choices",
+          "rationale": "Ren guides Aki and confirms the sorting task."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-02-c3",
+          "text": "Dictionary publisher",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l01-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "What is Aki trying to do first?",
+      "options": [
+        "Sort printed kana by row and column",
+        "Translate a full novel",
+        "Receive a pronunciation grade"
+      ],
+      "correctIndex": 0,
+      "feedback": "The first task is written recognition and sorting, not translation or pronunciation.",
+      "explanation": "The first task is written recognition and sorting, not translation or pronunciation.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "recognize and sort"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-03-c1",
+          "text": "Sort printed kana by row and column",
+          "rationale": "The first task is written recognition and sorting, not translation or pronunciation."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-03-c2",
+          "text": "Translate a full novel",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-03-c3",
+          "text": "Receive a pronunciation grade",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l01-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "Which kana is T row, i column?",
+      "options": [
+        "に",
+        "ち",
+        "ひ"
+      ],
+      "correctIndex": 1,
+      "feedback": "ち is the i-column card in the T row and is commonly romanized chi.",
+      "explanation": "ち is the i-column card in the T row and is commonly romanized chi.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "ち"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-04-c1",
+          "text": "に",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-04-c2",
+          "text": "ち",
+          "rationale": "ち is the i-column card in the T row and is commonly romanized chi."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-04-c3",
+          "text": "ひ",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l01-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "Which kana is N row, e column?",
+      "options": [
+        "ね",
+        "て",
+        "へ"
+      ],
+      "correctIndex": 0,
+      "feedback": "ね appears in the N row at the e column.",
+      "explanation": "ね appears in the N row at the e column.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "ね"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-05-c1",
+          "text": "ね",
+          "rationale": "ね appears in the N row at the e column."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-05-c2",
+          "text": "て",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-05-c3",
+          "text": "へ",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l01-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "Which kana is H row, u column?",
+      "options": [
+        "つ",
+        "ぬ",
+        "ふ"
+      ],
+      "correctIndex": 2,
+      "feedback": "ふ is the H-row u-column card, commonly romanized fu.",
+      "explanation": "ふ is the H-row u-column card, commonly romanized fu.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "ふ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-06-c1",
+          "text": "つ",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-06-c2",
+          "text": "ぬ",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-06-c3",
+          "text": "ふ",
+          "rationale": "ふ is the H-row u-column card, commonly romanized fu."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l01-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "Which reading cue does this lesson use for つ?",
+      "options": [
+        "tu",
+        "tsu",
+        "su"
+      ],
+      "correctIndex": 1,
+      "feedback": "The T-row u-column card つ is written tsu in the common English-oriented romanization used here.",
+      "explanation": "The T-row u-column card つ is written tsu in the common English-oriented romanization used here.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "tsu"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-07-c1",
+          "text": "tu",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-07-c2",
+          "text": "tsu",
+          "rationale": "The T-row u-column card つ is written tsu in the common English-oriented romanization used here."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-07-c3",
+          "text": "su",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-07-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c02-l01-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c02-l01-kana-grid"
+      ],
+      "prompt": "What can はな mean depending on context?",
+      "options": [
+        "Only a sound with no possible meaning",
+        "Flower or nose",
+        "A classroom timetable"
+      ],
+      "correctIndex": 1,
+      "feedback": "はな (hana) can mean flower or nose depending on context; the written kana alone do not decide.",
+      "explanation": "はな (hana) can mean flower or nose depending on context; the written kana alone do not decide.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-tnh-context.mdx",
+        "phrase": "flower"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c02-l01-08-c1",
+          "text": "Only a sound with no possible meaning",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-08-c2",
+          "text": "Flower or nose",
+          "rationale": "はな (hana) can mean flower or nose depending on context; the written kana alone do not decide."
+        },
+        {
+          "id": "ex-l0-m02-c02-l01-08-c3",
+          "text": "A classroom timetable",
+          "rationale": "Not supported by the classroom scenario or printed chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c02-l01-08-c2"
+      }
+    }
+  ]
+}

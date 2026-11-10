@@ -1,0 +1,23 @@
+{
+  "exampleOnly": true,
+  "schemaVersion": 2,
+  "warning": "Illustrative future v2 event format. Do not feed this JSON into the website v1 backup importer.",
+  "events": [
+    {
+      "id": "evt-review-20261101-001",
+      "type": "review",
+      "at": "2026-11-01T12:00:00Z",
+      "cardId": "card-vocab-taberu-verb-1-recognition",
+      "itemId": "vocab-taberu-verb-1",
+      "rating": "good",
+      "algorithmVersion": "fsrs-to-be-selected"
+    },
+    {
+      "id": "evt-lesson-20261101-002",
+      "type": "lesson-completed",
+      "at": "2026-11-01T12:06:00Z",
+      "lessonId": "n5-m01-c01-l02",
+      "contentRevision": 1
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "id": "l0-m02-c03-l02",
+  "lessonId": "l0-m02-c03-l02",
+  "version": 1,
+  "status": "published",
+  "source": "Original Mio/Yuri classroom picture-board word cards",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c03-l02-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "Which word labels Yuri's mountain picture?",
+      "options": [
+        "やま",
+        "ゆめ",
+        "もも"
+      ],
+      "correctIndex": 0,
+      "feedback": "やま (yama) is mountain on the picture board.",
+      "explanation": "やま (yama) is mountain on the picture board.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "やま"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-01-c1",
+          "text": "やま",
+          "rationale": "やま (yama) is mountain on the picture board."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-01-c2",
+          "text": "ゆめ",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-01-c3",
+          "text": "もも",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "What does ゆめ mean on the sleeping-child card?",
+      "options": [
+        "night",
+        "dream",
+        "spring"
+      ],
+      "correctIndex": 1,
+      "feedback": "ゆめ (yume) means dream; よる means night.",
+      "explanation": "ゆめ (yume) means dream; よる means night.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "ゆめ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-02-c1",
+          "text": "night",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-02-c2",
+          "text": "dream",
+          "rationale": "ゆめ (yume) means dream; よる means night."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-02-c3",
+          "text": "spring",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "Which written word labels a peach in the fruit bowl?",
+      "options": [
+        "まめ",
+        "みみ",
+        "もも"
+      ],
+      "correctIndex": 2,
+      "feedback": "The fruit picture supports もも (momo), peach.",
+      "explanation": "The fruit picture supports もも (momo), peach.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "もも"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-03-c1",
+          "text": "まめ",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-03-c2",
+          "text": "みみ",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-03-c3",
+          "text": "もも",
+          "rationale": "The fruit picture supports もも (momo), peach."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "What does みみ label in the face diagram?",
+      "options": [
+        "ears",
+        "beans",
+        "car"
+      ],
+      "correctIndex": 0,
+      "feedback": "みみ (mimi) means ear or ears.",
+      "explanation": "みみ (mimi) means ear or ears.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "みみ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-04-c1",
+          "text": "ears",
+          "rationale": "みみ (mimi) means ear or ears."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-04-c2",
+          "text": "beans",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-04-c3",
+          "text": "car",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "Which card shows an insect?",
+      "options": [
+        "むし",
+        "わに",
+        "ほん"
+      ],
+      "correctIndex": 0,
+      "feedback": "むし (mushi) means insect or bug.",
+      "explanation": "むし (mushi) means insect or bug.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "むし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-05-c1",
+          "text": "むし",
+          "rationale": "むし (mushi) means insect or bug."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-05-c2",
+          "text": "わに",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-05-c3",
+          "text": "ほん",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "Which label matches the dish of beans?",
+      "options": [
+        "やま",
+        "まめ",
+        "そら"
+      ],
+      "correctIndex": 1,
+      "feedback": "まめ (mame) means bean or beans.",
+      "explanation": "まめ (mame) means bean or beans.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "まめ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-06-c1",
+          "text": "やま",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-06-c2",
+          "text": "まめ",
+          "rationale": "まめ (mame) means bean or beans."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-06-c3",
+          "text": "そら",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "What does よる mean in the dark-sky picture?",
+      "options": [
+        "spring",
+        "sky",
+        "night"
+      ],
+      "correctIndex": 2,
+      "feedback": "よる (yoru) means night; はる is spring.",
+      "explanation": "よる (yoru) means night; はる is spring.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "よる"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-07-c1",
+          "text": "spring",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-07-c2",
+          "text": "sky",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-07-c3",
+          "text": "night",
+          "rationale": "よる (yoru) means night; はる is spring."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-07-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "Which word labels a crocodile?",
+      "options": [
+        "わに",
+        "くるま",
+        "はる"
+      ],
+      "correctIndex": 0,
+      "feedback": "わに (wani) means crocodile.",
+      "explanation": "わに (wani) means crocodile.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "わに"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-08-c1",
+          "text": "わに",
+          "rationale": "わに (wani) means crocodile."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-08-c2",
+          "text": "くるま",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-08-c3",
+          "text": "はる",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "Which written word ends in the separate nasal ん?",
+      "options": [
+        "もも",
+        "ほん",
+        "よる"
+      ],
+      "correctIndex": 1,
+      "feedback": "ほん (hon) means book and ends in ん.",
+      "explanation": "ほん (hon) means book and ends in ん.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "ほん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-09-c1",
+          "text": "もも",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-09-c2",
+          "text": "ほん",
+          "rationale": "ほん (hon) means book and ends in ん."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-09-c3",
+          "text": "よる",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c03-l02-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l02-words"
+      ],
+      "prompt": "In the beginner example ほん を よむ, what does を do?",
+      "options": [
+        "It means peach",
+        "It marks the object",
+        "It means book"
+      ],
+      "correctIndex": 1,
+      "feedback": "を is the object particle after ほん; it is not an ordinary noun.",
+      "explanation": "を is the object particle after ほん; it is not an ordinary noun.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-myrw-vocabulary.mdx",
+        "phrase": "ほん を よむ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c03-l02-10-c1",
+          "text": "It means peach",
+          "rationale": "This does not match the word card and its pictured context."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-10-c2",
+          "text": "It marks the object",
+          "rationale": "を is the object particle after ほん; it is not an ordinary noun."
+        },
+        {
+          "id": "ex-l0-m02-c03-l02-10-c3",
+          "text": "It means book",
+          "rationale": "This does not match the word card and its pictured context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c03-l02-10-c2"
+      }
+    }
+  ]
+}

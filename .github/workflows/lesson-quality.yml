@@ -1,0 +1,80 @@
+name: Lesson Quality Gates
+
+on:
+  push:
+    branches:
+      - main
+      - 'infra/**'
+      - 'lesson/**'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lesson-quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-build:
+    name: Validate, unit test, and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install packages
+        run: npm install --no-audit --no-fund
+      - name: Verify parallel lesson release queue safety rules
+        run: node --test tests/release_queue.test.cjs
+      - name: Validate all authoring sources
+        run: python3 scripts/validate_curriculum_sources.py
+      - name: Validate Foundations catalog structure, order and routes
+        run: python3 scripts/validate_foundations_catalog.py
+      - name: Validate all published exercise banks
+        run: |
+          for bank in src/content/exercises/*.json; do
+            python3 scripts/validate_exercises.py "$bank"
+          done
+      - name: Validate actual two-speaker audio, pinned WAV hashes and listening-only questions
+        run: python3 scripts/validate_real_listening.py
+      - name: Validate reusable Aivis audio job contract
+        run: python3 -m unittest discover -s tests -p 'test_listening_generator.py'
+      - name: Check all versioned lesson audio packages
+        run: python3 scripts/tts/validate_listening_package.py --all
+      - name: Astro and TypeScript diagnostics
+        run: npm run check
+      - name: Unit tests
+        run: npm run test
+      - name: Production build
+        run: npm run build
+
+  browser-e2e:
+    name: Browser E2E (Chromium)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    needs: [validate-build]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install packages
+        run: npm install --no-audit --no-fund
+      - name: Install Chromium and browser dependencies
+        run: npx playwright install --with-deps chromium
+      - name: Playwright E2E tests
+        run: npm run test:e2e
+      - name: Upload browser diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-diagnostics
+          path: |
+            test-results/
+            playwright-report/
+          if-no-files-found: ignore

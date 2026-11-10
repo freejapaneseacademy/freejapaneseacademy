@@ -1,0 +1,524 @@
+{
+  "id": "l0-m03-c01-l02",
+  "lessonId": "l0-m03-c01-l02",
+  "version": 1,
+  "status": "published",
+  "source": "Original Mika/Ren voiced-hiragana picture-card vocabulary lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c01-l02-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "Which card labels a door key?",
+      "options": [
+        "かぎ",
+        "かぜ",
+        "かき"
+      ],
+      "correctIndex": 0,
+      "feedback": "かぎ is a key; the picture clue is a door key.",
+      "explanation": "かぎ is a key; the picture clue is a door key.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "かぎ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-01-c1",
+          "text": "かぎ",
+          "rationale": "かぎ is a key; the picture clue is a door key."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-01-c2",
+          "text": "かぜ",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-01-c3",
+          "text": "かき",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "Which card labels water?",
+      "options": [
+        "みず",
+        "かぜ",
+        "ぶた"
+      ],
+      "correctIndex": 0,
+      "feedback": "みず means water; ず carries dakuten.",
+      "explanation": "みず means water; ず carries dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "みず"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-02-c1",
+          "text": "みず",
+          "rationale": "みず means water; ず carries dakuten."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-02-c2",
+          "text": "かぜ",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-02-c3",
+          "text": "ぶた",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "Which word means fruit?",
+      "options": [
+        "でんわ",
+        "くだもの",
+        "ぼうし"
+      ],
+      "correctIndex": 1,
+      "feedback": "くだもの means fruit, as on the bowl-of-fruit card.",
+      "explanation": "くだもの means fruit, as on the bowl-of-fruit card.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "くだもの"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-03-c1",
+          "text": "でんわ",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-03-c2",
+          "text": "くだもの",
+          "rationale": "くだもの means fruit, as on the bowl-of-fruit card."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-03-c3",
+          "text": "ぼうし",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "Which word labels a friend?",
+      "options": [
+        "ともだち",
+        "ぶた",
+        "かぎ"
+      ],
+      "correctIndex": 0,
+      "feedback": "ともだち means friend; it contains だ with dakuten.",
+      "explanation": "ともだち means friend; it contains だ with dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "ともだち"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-04-c1",
+          "text": "ともだち",
+          "rationale": "ともだち means friend; it contains だ with dakuten."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-04-c2",
+          "text": "ぶた",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-04-c3",
+          "text": "かぎ",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "Which word labels a telephone?",
+      "options": [
+        "でんわ",
+        "みず",
+        "かぜ"
+      ],
+      "correctIndex": 0,
+      "feedback": "でんわ means telephone; で has dakuten.",
+      "explanation": "でんわ means telephone; で has dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "でんわ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-05-c1",
+          "text": "でんわ",
+          "rationale": "でんわ means telephone; で has dakuten."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-05-c2",
+          "text": "みず",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-05-c3",
+          "text": "かぜ",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "Which practice card uses handakuten for bread?",
+      "options": [
+        "ばん",
+        "ぱん",
+        "はん"
+      ],
+      "correctIndex": 1,
+      "feedback": "ぱん is bread; ぱ has the small-circle handakuten.",
+      "explanation": "ぱん is bread; ぱ has the small-circle handakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "ぱん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-06-c1",
+          "text": "ばん",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-06-c2",
+          "text": "ぱん",
+          "rationale": "ぱん is bread; ぱ has the small-circle handakuten."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-06-c3",
+          "text": "はん",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "What is the usual everyday spelling of ぴあの?",
+      "options": [
+        "ピアノ",
+        "ぴあの only",
+        "ぴゃの"
+      ],
+      "correctIndex": 0,
+      "feedback": "ピアノ is the ordinary katakana spelling of the loanword piano.",
+      "explanation": "ピアノ is the ordinary katakana spelling of the loanword piano.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "ピアノ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-07-c1",
+          "text": "ピアノ",
+          "rationale": "ピアノ is the ordinary katakana spelling of the loanword piano."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-07-c2",
+          "text": "ぴあの only",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-07-c3",
+          "text": "ぴゃの",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "Which word labels a hat?",
+      "options": [
+        "ぼうし",
+        "ぶた",
+        "くだもの"
+      ],
+      "correctIndex": 0,
+      "feedback": "ぼうし means hat; ぼ has dakuten.",
+      "explanation": "ぼうし means hat; ぼ has dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "ぼうし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-08-c1",
+          "text": "ぼうし",
+          "rationale": "ぼうし means hat; ぼ has dakuten."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-08-c2",
+          "text": "ぶた",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-08-c3",
+          "text": "くだもの",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-08-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "What does かぎをみてください。 ask you to do?",
+      "options": [
+        "Look at the key",
+        "Find a telephone",
+        "Say the word for wind"
+      ],
+      "correctIndex": 0,
+      "feedback": "かぎをみてください。 means Please look at the key.",
+      "explanation": "かぎをみてください。 means Please look at the key.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "かぎをみてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-09-c1",
+          "text": "Look at the key",
+          "rationale": "かぎをみてください。 means Please look at the key."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-09-c2",
+          "text": "Find a telephone",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-09-c3",
+          "text": "Say the word for wind",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-09-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l02-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l02-words"
+      ],
+      "prompt": "What is the function of ぱん in ぱんはどれですか。?",
+      "options": [
+        "It names the item being asked about",
+        "It is the verb for looking",
+        "It means a friend"
+      ],
+      "correctIndex": 0,
+      "feedback": "ぱん names bread, the topic of the question Which one is the bread?",
+      "explanation": "ぱん names bread, the topic of the question Which one is the bread?",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-vocabulary.mdx",
+        "phrase": "ぱんはどれですか。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c01-l02-10-c1",
+          "text": "It names the item being asked about",
+          "rationale": "ぱん names bread, the topic of the question Which one is the bread?"
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-10-c2",
+          "text": "It is the verb for looking",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        },
+        {
+          "id": "ex-l0-m03-c01-l02-10-c3",
+          "text": "It means a friend",
+          "rationale": "This option does not match the word bank or the classroom sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c01-l02-10-c1"
+      }
+    }
+  ]
+}

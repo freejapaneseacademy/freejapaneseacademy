@@ -1,0 +1,31 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import SoundVocabularyPractice from '../../../../../components/interactive/SoundVocabularyPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+
+const lesson = await getEntry('lessons', 'l0/japanese-sound-system-vocabulary');
+if (!lesson || lesson.data.lessonId !== 'l0-m01-c02-l02') throw new Error('Missing canonical lesson l0-m01-c02-l02');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Japanese sound system',href:'/learn/start/module-01/chapter-02/lesson-02/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 02 · Lesson 02</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 02 · LESSON 02</span>
+    <h1>Small sounds.<br/>Useful Japanese words.</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Chapter 02 lesson 01 recommended</span><span>14 written practice questions</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original academy word study.</strong> This lesson teaches written vowel and word recognition. It does not claim verified listening or pronunciation. Independent Japanese and assessment-editor reviews remain pending.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective:string)=><li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <SoundVocabularyPractice client:load />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>Read the examples, practise the word cards, and try the written check. Completion and quiz accuracy are saved separately; neither is a pronunciation grade.</p><LessonActions client:load lessonId="l0-m01-c02-l02" level="l0" /></div>
+    <div class="lesson-next"><h3>Continue learning</h3><p>Next in blueprint order: L0-M01-C02-L03 — Grammar and sentence function: vowel length, mora timing and articulation. It is not yet published.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-02/lesson-01/">← Review vowel context</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a><a class="btn btn-outline" href="/dashboard/">My learning ↗</a></div>
+  </div><aside class="lesson-side foundation-side">
+    <span class="eyebrow">YOUR STUDY GUIDE</span><h3>Japanese sound system</h3><p><strong>L0-M01-C02-L02</strong></p><p>Emi and Ren's picture cards connect vowel symbols, sample syllables, real words, meaning and written mora counts.</p>
+    <div class="sample-rule"></div><h3>Suggested order</h3><ol><li>Review the five vowel labels.</li><li>Build sample consonant-vowel kana.</li><li>Learn six picture-card words.</li><li>Contrast あお / あおい and いえ / いいえ.</li><li>Use flashcards and submit the 14-item check.</li><li>Optionally compare your own explanation with the model.</li></ol><p>Audio discrimination is a later chapter step; this lesson does not request microphone access.</p>
+  </aside></div></section>
+</Base>

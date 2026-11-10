@@ -1,0 +1,13 @@
+export const rhythmSentenceQuizId = 'l0-m01-c03-l03-written-v1';
+export type RhythmQuestion = { id: string; prompt: string; example: string; choices: { id: string; text: string }[]; correct: string; explanation: string };
+export const rhythmSentenceQuestions: RhythmQuestion[] = [
+  {id:'family',prompt:'The label means “grandmother.” Which word fits?',example:'これは わたしの ___ です。',choices:[{id:'a',text:'おばさん'},{id:'b',text:'おばあさん'},{id:'c',text:'おじさん'}],correct:'b',explanation:'おばあさん has five morae (お・ば・あ・さ・ん) and means grandmother or an elderly woman. おばさん has four morae and means aunt or a middle-aged woman.'},
+  {id:'stamp',prompt:'Which word names a postage stamp?',example:'___ を かいます。',choices:[{id:'a',text:'きて'},{id:'b',text:'きって'},{id:'c',text:'きつて'}],correct:'b',explanation:'きって (き・っ・て) is stamp. Small っ is a separate mora representing a consonant hold; full-size つ is not interchangeable.'},
+  {id:'book',prompt:'How many morae are in ほん?',example:'ほん',choices:[{id:'a',text:'1'},{id:'b',text:'2'},{id:'c',text:'3'}],correct:'b',explanation:'ほ・ん counts as two morae. The nasal ん has its own timing unit.'},
+  {id:'negative',prompt:'Which reply means “no”?',example:'___、ちがいます。',choices:[{id:'a',text:'いえ'},{id:'b',text:'いいえ'},{id:'c',text:'いええ'}],correct:'b',explanation:'いいえ (い・い・え) is a negative reply. いえ (い・え) means house; the extra い matters.'},
+  {id:'wait',prompt:'Which is the polite request “Please wait”?',example:'ちょっと ___ ください。',choices:[{id:'a',text:'まて'},{id:'b',text:'まって'},{id:'c',text:'まつて'}],correct:'b',explanation:'まって is the て-form of まつ (“wait”). Small っ marks the consonant hold before て. まて is a direct command, not the requested て-form.'},
+  {id:'nasal',prompt:'Which explanation of ん is accurate?',example:'さんぽ / ほん',choices:[{id:'a',text:'ん is always omitted in mora counts'},{id:'b',text:'ん can vary in pronunciation with its neighbors but remains one mora'},{id:'c',text:'ん always means the next word is plural'}],correct:'b',explanation:'The nasal may be realized differently before different consonants; it remains one written mora, and it is not a plural marker.'},
+  {id:'writer',prompt:'Choose “writer” for the job caption.',example:'この ひとは ___ です。',choices:[{id:'a',text:'さか'},{id:'b',text:'さっか'},{id:'c',text:'さっかあ'}],correct:'b',explanation:'さっか (作家) is writer, with さ・っ・か (three morae). さか (坂) means slope.'},
+  {id:'mora',prompt:'How many morae are in おじいさん?',example:'おじいさん',choices:[{id:'a',text:'4'},{id:'b',text:'5'},{id:'c',text:'6'}],correct:'b',explanation:'お・じ・い・さ・ん = five. The extra い and the final ん each count as one mora.'}
+];
+export const scoreRhythmSentence = (answers: Record<string,string>) => rhythmSentenceQuestions.filter(q=>answers[q.id]===q.correct).length;

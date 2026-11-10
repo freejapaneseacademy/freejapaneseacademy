@@ -1,0 +1,422 @@
+{
+  "id": "l0-m02-c04-l01",
+  "lessonId": "l0-m02-c04-l01",
+  "version": 1,
+  "status": "published",
+  "source": "Original Hana/Sora classroom word board",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c04-l01-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "Who arranges the printed word cards?",
+      "options": [
+        "Hana",
+        "Sora",
+        "A shopkeeper"
+      ],
+      "correctIndex": 0,
+      "feedback": "Hana is the learner preparing the board.",
+      "explanation": "Hana is the learner preparing the board.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "learner **Hana**"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-01-c1",
+          "text": "Hana",
+          "rationale": "Hana is the learner preparing the board."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-01-c2",
+          "text": "Sora",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-01-c3",
+          "text": "A shopkeeper",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l01-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "What is the board used for?",
+      "options": [
+        "A listening exam",
+        "A beginner reading game",
+        "A shopping receipt"
+      ],
+      "correctIndex": 1,
+      "feedback": "The board is for a beginner reading game.",
+      "explanation": "The board is for a beginner reading game.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "beginner reading game"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-02-c1",
+          "text": "A listening exam",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-02-c2",
+          "text": "A beginner reading game",
+          "rationale": "The board is for a beginner reading game."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-02-c3",
+          "text": "A shopping receipt",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l01-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "Which card shows the word for fish?",
+      "options": [
+        "やま",
+        "さかな",
+        "くるま"
+      ],
+      "correctIndex": 1,
+      "feedback": "Card A is さかな, meaning fish.",
+      "explanation": "Card A is さかな, meaning fish.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "さかな"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-03-c1",
+          "text": "やま",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-03-c2",
+          "text": "さかな",
+          "rationale": "Card A is さかな, meaning fish."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-03-c3",
+          "text": "くるま",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l01-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "Which written word means mountain?",
+      "options": [
+        "くるま",
+        "たまご",
+        "やま"
+      ],
+      "correctIndex": 2,
+      "feedback": "やま means mountain and is card C.",
+      "explanation": "やま means mountain and is card C.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "やま"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-04-c1",
+          "text": "くるま",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-04-c2",
+          "text": "たまご",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-04-c3",
+          "text": "やま",
+          "rationale": "やま means mountain and is card C."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-04-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l01-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "How many basic hiragana symbols appear in くるま?",
+      "options": [
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctIndex": 1,
+      "feedback": "く・る・ま are three kana.",
+      "explanation": "く・る・ま are three kana.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "くるま"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-05-c1",
+          "text": "Two",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-05-c2",
+          "text": "Three",
+          "rationale": "く・る・ま are three kana."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-05-c3",
+          "text": "Four",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l01-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "Who checks the complete words and meanings?",
+      "options": [
+        "Hana",
+        "Visiting beginners",
+        "Sora"
+      ],
+      "correctIndex": 2,
+      "feedback": "Sora is the tutor checking the cards.",
+      "explanation": "Sora is the tutor checking the cards.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "Tutor **Sora**"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-06-c1",
+          "text": "Hana",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-06-c2",
+          "text": "Visiting beginners",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-06-c3",
+          "text": "Sora",
+          "rationale": "Sora is the tutor checking the cards."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l01-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "Which is the ordinary continuous spelling of 'This is a fish'?",
+      "options": [
+        "これはさかなです。",
+        "これ は さかな です。",
+        "これは さかな です。"
+      ],
+      "correctIndex": 0,
+      "feedback": "Ordinary Japanese normally writes これはさかなです。 without inserted word spaces.",
+      "explanation": "Ordinary Japanese normally writes これはさかなです。 without inserted word spaces.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "これはさかなです。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-07-c1",
+          "text": "これはさかなです。",
+          "rationale": "Ordinary Japanese normally writes これはさかなです。 without inserted word spaces."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-07-c2",
+          "text": "これ は さかな です。",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-07-c3",
+          "text": "これは さかな です。",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l01-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l01-word-board"
+      ],
+      "prompt": "Why are spaces shown in これ は さかな です。?",
+      "options": [
+        "They are mandatory Japanese punctuation",
+        "They help beginners see word boundaries",
+        "They indicate four different speakers"
+      ],
+      "correctIndex": 1,
+      "feedback": "The spaces are a beginner teaching aid, not standard word spacing.",
+      "explanation": "The spaces are a beginner teaching aid, not standard word spacing.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-context.mdx",
+        "phrase": "spaces in the first version are a teaching aid"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l01-08-c1",
+          "text": "They are mandatory Japanese punctuation",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-08-c2",
+          "text": "They help beginners see word boundaries",
+          "rationale": "The spaces are a beginner teaching aid, not standard word spacing."
+        },
+        {
+          "id": "ex-l0-m02-c04-l01-08-c3",
+          "text": "They indicate four different speakers",
+          "rationale": "This does not match the printed classroom board or its explanation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l01-08-c2"
+      }
+    }
+  ]
+}

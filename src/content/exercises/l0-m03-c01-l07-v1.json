@@ -1,0 +1,364 @@
+{
+  "id": "l0-m03-c01-l07",
+  "lessonId": "l0-m03-c01-l07",
+  "version": 1,
+  "status": "published",
+  "source": "Original voiced-kana classroom label writing prompts",
+  "scoring": {
+    "mode": "exact-kana-typing",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c01-l07-01",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-01"
+      ],
+      "prompt": "Type the hiragana word for key.",
+      "answer": "かぎ",
+      "acceptedAnswers": [
+        "かぎ"
+      ],
+      "feedback": "The key label is かぎ; the second kana ぎ carries dakuten.",
+      "explanation": "The key label is かぎ; the second kana ぎ carries dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "かぎ"
+      },
+      "answerKey": {
+        "accepted": [
+          "かぎ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-02",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-02"
+      ],
+      "prompt": "Type the hiragana word for water.",
+      "answer": "みず",
+      "acceptedAnswers": [
+        "みず"
+      ],
+      "feedback": "The standard spelling is みず with ず, not づ.",
+      "explanation": "The standard spelling is みず with ず, not づ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "みず"
+      },
+      "answerKey": {
+        "accepted": [
+          "みず"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-03",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-03"
+      ],
+      "prompt": "Type the hiragana word for pig.",
+      "answer": "ぶた",
+      "acceptedAnswers": [
+        "ぶた"
+      ],
+      "feedback": "The initial ぶ has dakuten; た is unmarked.",
+      "explanation": "The initial ぶ has dakuten; た is unmarked.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "ぶた"
+      },
+      "answerKey": {
+        "accepted": [
+          "ぶた"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-04",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-04"
+      ],
+      "prompt": "Type the hiragana word for friend.",
+      "answer": "ともだち",
+      "acceptedAnswers": [
+        "ともだち"
+      ],
+      "feedback": "The third kana だ has dakuten.",
+      "explanation": "The third kana だ has dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "ともだち"
+      },
+      "answerKey": {
+        "accepted": [
+          "ともだち"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-05",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-05"
+      ],
+      "prompt": "Type the hiragana word for bag.",
+      "answer": "かばん",
+      "acceptedAnswers": [
+        "かばん"
+      ],
+      "feedback": "The middle ば has dakuten, not a circle.",
+      "explanation": "The middle ば has dakuten, not a circle.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "かばん"
+      },
+      "answerKey": {
+        "accepted": [
+          "かばん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-06",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-06"
+      ],
+      "prompt": "Type the hiragana word for letter.",
+      "answer": "てがみ",
+      "acceptedAnswers": [
+        "てがみ"
+      ],
+      "feedback": "The middle が has dakuten.",
+      "explanation": "The middle が has dakuten.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "てがみ"
+      },
+      "answerKey": {
+        "accepted": [
+          "てがみ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-07",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-07"
+      ],
+      "prompt": "Type the practice hiragana label for bread.",
+      "answer": "ぱん",
+      "acceptedAnswers": [
+        "ぱん"
+      ],
+      "feedback": "The initial ぱ has a circle; everyday Japanese usually writes パン.",
+      "explanation": "The initial ぱ has a circle; everyday Japanese usually writes パン.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "ぱん"
+      },
+      "answerKey": {
+        "accepted": [
+          "ぱん"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-08",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-08"
+      ],
+      "prompt": "Type the hiragana word for pencil.",
+      "answer": "えんぴつ",
+      "acceptedAnswers": [
+        "えんぴつ"
+      ],
+      "feedback": "The ぴ has a handakuten circle.",
+      "explanation": "The ぴ has a handakuten circle.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "えんぴつ"
+      },
+      "answerKey": {
+        "accepted": [
+          "えんぴつ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-09",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-09"
+      ],
+      "prompt": "Type 'The key is number one' using the taught model, including the full stop.",
+      "answer": "かぎは １ばん。",
+      "acceptedAnswers": [
+        "かぎは １ばん。"
+      ],
+      "feedback": "The topic particle is は, followed by a space and １ばん。",
+      "explanation": "The topic particle is は, followed by a space and １ばん。",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "かぎは １ばん。"
+      },
+      "answerKey": {
+        "accepted": [
+          "かぎは １ばん。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c01-l07-10",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c01-l07-phrase-10"
+      ],
+      "prompt": "Type 'Please look at the pig' using the taught model, including the full stop.",
+      "answer": "ぶたをみてください。",
+      "acceptedAnswers": [
+        "ぶたをみてください。"
+      ],
+      "feedback": "The object particle is を and the polite request ends in みてください。",
+      "explanation": "The object particle is を and the polite request ends in みてください。",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-voiced-writing.mdx",
+        "phrase": "ぶたをみてください。"
+      },
+      "answerKey": {
+        "accepted": [
+          "ぶたをみてください。"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      }
+    }
+  ]
+}

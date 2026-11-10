@@ -1,0 +1,420 @@
+{
+  "lessonId": "l0-m01-c02-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m01-c02-l04-001",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-ka",
+        "vowel-a"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "A card shows か. Which consonant–vowel reading cue matches it?",
+      "example": "か",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ka",
+          "rationale": "Correct: か combines k with a."
+        },
+        {
+          "id": "i",
+          "text": "ki",
+          "rationale": "き, not か, represents ki."
+        },
+        {
+          "id": "o",
+          "text": "ko",
+          "rationale": "こ, not か, represents ko."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "か represents ka, a consonant plus the a vowel. The whole kana normally occupies one mora."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-002",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-shi"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "Which reading cue matches し in the beginner spelling used here?",
+      "example": "し",
+      "choices": [
+        {
+          "id": "shi",
+          "text": "shi",
+          "rationale": "Correct. し is commonly written shi in Hepburn romaji."
+        },
+        {
+          "id": "su",
+          "text": "su",
+          "rationale": "す represents su."
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "rationale": "さ represents sa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "shi"
+      },
+      "explanation": "し represents shi in the beginner romaji used here; it is one mora. Other romanization systems may write si."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-003",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-ke",
+        "vowel-e"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "Which hiragana character writes k followed by the e vowel?",
+      "choices": [
+        {
+          "id": "ki",
+          "text": "き",
+          "rationale": "き is ki, with the i vowel."
+        },
+        {
+          "id": "ke",
+          "text": "け",
+          "rationale": "Correct: け is ke."
+        },
+        {
+          "id": "ko",
+          "text": "こ",
+          "rationale": "こ is ko, with the o vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ke"
+      },
+      "explanation": "The k-row follows the vowel order a–i–u–e–o: か・き・く・け・こ."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-004",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-e",
+        "kana-kata-e"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "Which character is the katakana partner of the hiragana vowel え?",
+      "example": "え",
+      "choices": [
+        {
+          "id": "e-kata",
+          "text": "エ",
+          "rationale": "Correct. エ and え represent the same vowel in different scripts."
+        },
+        {
+          "id": "i-kata",
+          "text": "イ",
+          "rationale": "イ corresponds to い, the i vowel."
+        },
+        {
+          "id": "e-hira",
+          "text": "え",
+          "rationale": "え is hiragana, not katakana."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "e-kata"
+      },
+      "explanation": "え (hiragana) and エ (katakana) both represent e; changing script does not change the vowel."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-005",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-kasa",
+        "word-kao",
+        "word-isu"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "Emi points to an umbrella picture. Which written label is correct?",
+      "choices": [
+        {
+          "id": "umbrella",
+          "text": "かさ",
+          "rationale": "Correct. か・さ spells kasa, umbrella."
+        },
+        {
+          "id": "face",
+          "text": "かお",
+          "rationale": "かお means face."
+        },
+        {
+          "id": "chair",
+          "text": "いす",
+          "rationale": "いす means chair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "umbrella"
+      },
+      "explanation": "かさ means umbrella and contains the kana か (ka) and さ (sa). Both are ordinary one-mora units."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-006",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-iie",
+        "word-ie"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "Which written reply means 'no' and contains three morae?",
+      "choices": [
+        {
+          "id": "house",
+          "text": "いえ",
+          "rationale": "いえ means house and has two morae."
+        },
+        {
+          "id": "no",
+          "text": "いいえ",
+          "rationale": "Correct: い・い・え has three morae and means no."
+        },
+        {
+          "id": "blue",
+          "text": "あお",
+          "rationale": "あお names the color blue and has two morae."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "no"
+      },
+      "explanation": "いいえ means no; the extra い makes three morae. Do not confuse it with いえ, house."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-007",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-obaasan",
+        "word-obasan"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "On a fictional family chart, which label means grandmother rather than aunt?",
+      "choices": [
+        {
+          "id": "aunt",
+          "text": "おばさん",
+          "rationale": "This is aunt in the family chart; the a is short."
+        },
+        {
+          "id": "grandma",
+          "text": "おばあさん",
+          "rationale": "Correct. The extra あ marks the long a in grandmother."
+        },
+        {
+          "id": "grandpa",
+          "text": "おじいさん",
+          "rationale": "This is grandfather in the family chart, with a long i."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "grandma"
+      },
+      "explanation": "おばあさん has お・ば・あ・さ・ん, five morae. おばさん has four. These family terms can have wider uses in other contexts."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-008",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o3"
+      ],
+      "knowledgeItemIds": [
+        "kana-ka",
+        "mora-timing"
+      ],
+      "skills": [
+        "written-kana-recognition"
+      ],
+      "prompt": "Which statement about the written kana か is accurate?",
+      "example": "か",
+      "choices": [
+        {
+          "id": "two",
+          "text": "The k and a each occupy their own separate mora.",
+          "rationale": "An ordinary consonant–vowel kana such as か normally counts as one mora."
+        },
+        {
+          "id": "one-mora",
+          "text": "The single kana か normally occupies one mora and reads ka.",
+          "rationale": "Correct: one ordinary CV kana usually counts as one mora."
+        },
+        {
+          "id": "english",
+          "text": "The Latin letter k is the Japanese character for ka.",
+          "rationale": "The actual kana is か; Latin letters are reading/input cues."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "one-mora"
+      },
+      "explanation": "One ordinary kana such as か is usually one mora, even though its romaji cue contains two Latin letters."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-009",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o3"
+      ],
+      "knowledgeItemIds": [
+        "kana-ka"
+      ],
+      "skills": [
+        "kana-production"
+      ],
+      "prompt": "Type the hiragana for k + a (one character).",
+      "answerKey": {
+        "accepted": [
+          "か"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "か is the hiragana for ka. The Latin keys k and a may help an IME produce it, but 'ka' alone is not kana."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-010",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o3"
+      ],
+      "knowledgeItemIds": [
+        "kana-ki"
+      ],
+      "skills": [
+        "kana-production"
+      ],
+      "prompt": "Type the hiragana for k + i (one character).",
+      "answerKey": {
+        "accepted": [
+          "き"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "き is the hiragana for ki. Compare it with け (ke) and か (ka)."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-011",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o3"
+      ],
+      "knowledgeItemIds": [
+        "kana-su"
+      ],
+      "skills": [
+        "kana-production"
+      ],
+      "prompt": "Type the hiragana for s + u (one character).",
+      "answerKey": {
+        "accepted": [
+          "す"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "す is the hiragana for su, as in the beginning of すし (sushi)."
+    },
+    {
+      "id": "ex-l0-m01-c02-l04-012",
+      "version": 1,
+      "status": "published",
+      "type": "short-input",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c02-l04-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-kasa",
+        "kana-ka",
+        "kana-sa"
+      ],
+      "skills": [
+        "kana-production"
+      ],
+      "prompt": "Type the two-hiragana word meaning 'umbrella' on Emi's picture card.",
+      "answerKey": {
+        "accepted": [
+          "かさ"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "explanation": "かさ is umbrella: か (ka) followed by さ (sa), two morae."
+    }
+  ]
+}
