@@ -3,8 +3,8 @@ import bank from '../../content/exercises/n5-m02-c04-chk-v1.json';
 import {recordAttempt} from '../../lib/progress';
 
 const tracks=[
- {id:'a',title:'Track A — study room tour',url:'/audio/fja-n5-m02-c04-l06-a-v1.wav',turns:['こちらは勉強部屋です。机の上に本があります。','いすはどこにありますか。','いすは机の前にあります。かばんは机の下にあります。','窓の隣に時計もありますね。']},
- {id:'b',title:'Track B — guest room tour',url:'/audio/fja-n5-m02-c04-l06-b-v1.wav',turns:['こちらは客間です。棚の中にコップがあります。','猫はどこにいますか。','猫はいすの後ろにいます。','本はベッドの上にありますか。','いいえ、本はベッドの上にはありません。棚の上にあります。']}
+ {id:'a',title:'Track A — study room tour',url:'/audio/fja-n5-m02-c04-l06-a-v1.wav',turns:['こちらは勉強の部屋です。机の上に本があります。','いすはどこにありますか。','いすは机の前にあります。かばんは机の下にあります。','ありがとうございます。窓の隣に時計もありますね。']},
+ {id:'b',title:'Track B — guest room tour',url:'/audio/fja-n5-m02-c04-l06-b-v1.wav',turns:['こちらはお客さんの部屋です。棚の中にコップがあります。','猫はどこにいますか。','猫はいすの後ろにいます。','ベッドの上に本はありますか。','いいえ、ベッドの上にはありません。本は棚の上にあります。']}
 ];
 export function gradeRoomCheckpoint(answers:Record<string,string>,writtenOnly=false){
  const selected=bank.items.filter(q=>!writtenOnly||q.skills[0]!=='listening');
