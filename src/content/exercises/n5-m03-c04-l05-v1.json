@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m03-c04-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does Yui get up at seven?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "月曜日",
+          "rationale": "Supported by 「月曜日は、朝七時に起きます。」."
+        },
+        {
+          "id": "c2",
+          "text": "火曜日",
+          "rationale": "The journal says 「月曜日は、朝七時に起きます。」; 火曜日 is not supported."
+        },
+        {
+          "id": "c3",
+          "text": "日曜日",
+          "rationale": "The journal says 「月曜日は、朝七時に起きます。」; 日曜日 is not supported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 「月曜日は、朝七時に起きます。」. The supported answer is 月曜日."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Yui eat every morning?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ごはん",
+          "rationale": "The journal says 「毎朝、パンを食べます。」; ごはん is not supported."
+        },
+        {
+          "id": "c2",
+          "text": "りんご",
+          "rationale": "The journal says 「毎朝、パンを食べます。」; りんご is not supported."
+        },
+        {
+          "id": "c3",
+          "text": "パン",
+          "rationale": "Supported by 「毎朝、パンを食べます。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 「毎朝、パンを食べます。」. The supported answer is パン."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where does Yui often study Japanese?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園",
+          "rationale": "The journal says 「学校でよく日本語を勉強します。」; 公園 is not supported."
+        },
+        {
+          "id": "c2",
+          "text": "学校",
+          "rationale": "Supported by 「学校でよく日本語を勉強します。」."
+        },
+        {
+          "id": "c3",
+          "text": "家",
+          "rationale": "The journal says 「学校でよく日本語を勉強します。」; 家 is not supported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 「学校でよく日本語を勉強します。」. The supported answer is 学校."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How often does Yui read at the library on Tuesdays?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ときどき",
+          "rationale": "Supported by 「火曜日は、ときどき図書館で本を読みます。」."
+        },
+        {
+          "id": "c2",
+          "text": "いつも",
+          "rationale": "The journal says 「火曜日は、ときどき図書館で本を読みます。」; いつも is not supported."
+        },
+        {
+          "id": "c3",
+          "text": "ぜんぜん",
+          "rationale": "The journal says 「火曜日は、ときどき図書館で本を読みます。」; ぜんぜん is not supported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 「火曜日は、ときどき図書館で本を読みます。」. The supported answer is ときどき."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Yui not watch much on Wednesdays?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "映画",
+          "rationale": "The journal says 「水曜日は、あまりテレビを見ません。」; 映画 is not supported."
+        },
+        {
+          "id": "c2",
+          "text": "ニュース",
+          "rationale": "The journal says 「水曜日は、あまりテレビを見ません。」; ニュース is not supported."
+        },
+        {
+          "id": "c3",
+          "text": "テレビ",
+          "rationale": "Supported by 「水曜日は、あまりテレビを見ません。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 「水曜日は、あまりテレビを見ません。」. The supported answer is テレビ."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Yui never drink on Thursdays?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水",
+          "rationale": "The journal says 「木曜日は、ぜんぜんコーヒーを飲みません。」; 水 is not supported."
+        },
+        {
+          "id": "c2",
+          "text": "コーヒー",
+          "rationale": "Supported by 「木曜日は、ぜんぜんコーヒーを飲みません。」."
+        },
+        {
+          "id": "c3",
+          "text": "お茶",
+          "rationale": "The journal says 「木曜日は、ぜんぜんコーヒーを飲みません。」; お茶 is not supported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 「木曜日は、ぜんぜんコーヒーを飲みません。」. The supported answer is コーヒー."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where does Yui always walk on weekends?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園",
+          "rationale": "Supported by 「週末は、いつも公園を散歩します。」."
+        },
+        {
+          "id": "c2",
+          "text": "学校",
+          "rationale": "The journal says 「週末は、いつも公園を散歩します。」; 学校 is not supported."
+        },
+        {
+          "id": "c3",
+          "text": "駅",
+          "rationale": "The journal says 「週末は、いつも公園を散歩します。」; 駅 is not supported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 「週末は、いつも公園を散歩します。」. The supported answer is 公園."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who does Yui often talk with on Sundays?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生",
+          "rationale": "The journal says 「日曜日は、友だちとよく話します。」; 先生 is not supported."
+        },
+        {
+          "id": "c2",
+          "text": "家族",
+          "rationale": "The journal says 「日曜日は、友だちとよく話します。」; 家族 is not supported."
+        },
+        {
+          "id": "c3",
+          "text": "友だち",
+          "rationale": "Supported by 「日曜日は、友だちとよく話します。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 「日曜日は、友だちとよく話します。」. The supported answer is 友だち."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression accompanies a negative verb about coffee?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "よく",
+          "rationale": "The journal says 「木曜日は、ぜんぜんコーヒーを飲みません。」; よく is not supported."
+        },
+        {
+          "id": "c2",
+          "text": "ぜんぜん",
+          "rationale": "Supported by 「木曜日は、ぜんぜんコーヒーを飲みません。」."
+        },
+        {
+          "id": "c3",
+          "text": "いつも",
+          "rationale": "The journal says 「木曜日は、ぜんぜんコーヒーを飲みません。」; いつも is not supported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 「木曜日は、ぜんぜんコーヒーを飲みません。」. The supported answer is ぜんぜん."
+    },
+    {
+      "id": "ex-n5-m03-c04-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Is the exact time of the Sunday conversation stated?",
+      "objectiveIds": [
+        "n5-m03-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l05-journal-reading"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Not stated",
+          "rationale": "Supported by 「日曜日は、友だちとよく話します。」."
+        },
+        {
+          "id": "c2",
+          "text": "Seven in the morning",
+          "rationale": "The journal says 「日曜日は、友だちとよく話します。」; Seven in the morning is not supported."
+        },
+        {
+          "id": "c3",
+          "text": "Three in the afternoon",
+          "rationale": "The journal says 「日曜日は、友だちとよく話します。」; Three in the afternoon is not supported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 「日曜日は、友だちとよく話します。」. The supported answer is Not stated."
+    }
+  ]
+}
