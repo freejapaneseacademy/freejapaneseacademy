@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m01-c04-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m01-c04-l05-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How old is Mio?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "20",
+          "rationale": "Supported by the Japanese bio: 「二十歳（はたち）です」 gives Mio's age."
+        },
+        {
+          "id": "b",
+          "text": "25",
+          "rationale": "Not supported. 「二十歳（はたち）です」 gives Mio's age. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "c",
+          "text": "18",
+          "rationale": "Not supported. 「二十歳（はたち）です」 gives Mio's age. Re-read the relevant profile and distinguish stated facts from assumptions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "「二十歳（はたち）です」 gives Mio's age."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Where is Mio from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Osaka",
+          "rationale": "Not supported. 「京都出身です」 identifies Mio's place of origin. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "b",
+          "text": "Kyoto",
+          "rationale": "Supported by the Japanese bio: 「京都出身です」 identifies Mio's place of origin."
+        },
+        {
+          "id": "c",
+          "text": "Tokyo",
+          "rationale": "Not supported. 「京都出身です」 identifies Mio's place of origin. Re-read the relevant profile and distinguish stated facts from assumptions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "「京都出身です」 identifies Mio's place of origin."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Where does Mio live now?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kyoto",
+          "rationale": "Not supported. 「今は 大阪に 住んでいます」 states Mio's current city. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "b",
+          "text": "Fukuoka",
+          "rationale": "Not supported. 「今は 大阪に 住んでいます」 states Mio's current city. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "c",
+          "text": "Osaka",
+          "rationale": "Supported by the Japanese bio: 「今は 大阪に 住んでいます」 states Mio's current city."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "「今は 大阪に 住んでいます」 states Mio's current city."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What does Mio do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "University student",
+          "rationale": "Supported by the Japanese bio: 「大学生です」 identifies Mio as a university student."
+        },
+        {
+          "id": "b",
+          "text": "Company employee",
+          "rationale": "Not supported. 「大学生です」 identifies Mio as a university student. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "c",
+          "text": "High-school student",
+          "rationale": "Not supported. 「大学生です」 identifies Mio as a university student. Re-read the relevant profile and distinguish stated facts from assumptions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "「大学生です」 identifies Mio as a university student."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How old is Ken?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "20",
+          "rationale": "Not supported. 「二十五歳です」 gives Ken's age. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "b",
+          "text": "25",
+          "rationale": "Supported by the Japanese bio: 「二十五歳です」 gives Ken's age."
+        },
+        {
+          "id": "c",
+          "text": "18",
+          "rationale": "Not supported. 「二十五歳です」 gives Ken's age. Re-read the relevant profile and distinguish stated facts from assumptions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "「二十五歳です」 gives Ken's age."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Where is Ken from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tokyo",
+          "rationale": "Not supported. 「福岡出身です」 states Ken's hometown. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "b",
+          "text": "Sapporo",
+          "rationale": "Not supported. 「福岡出身です」 states Ken's hometown. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "c",
+          "text": "Fukuoka",
+          "rationale": "Supported by the Japanese bio: 「福岡出身です」 states Ken's hometown."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "「福岡出身です」 states Ken's hometown."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which city does Ken live in now?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tokyo",
+          "rationale": "Supported by the Japanese bio: 「今は 東京に 住んでいます」 states Ken's present residence."
+        },
+        {
+          "id": "b",
+          "text": "Kyoto",
+          "rationale": "Not supported. 「今は 東京に 住んでいます」 states Ken's present residence. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "c",
+          "text": "Fukuoka",
+          "rationale": "Not supported. 「今は 東京に 住んでいます」 states Ken's present residence. Re-read the relevant profile and distinguish stated facts from assumptions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "「今は 東京に 住んでいます」 states Ken's present residence."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-c"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What is Aya's role?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Company employee",
+          "rationale": "Not supported. 「高校生です」 identifies Aya as a high-school student. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "b",
+          "text": "High-school student",
+          "rationale": "Supported by the Japanese bio: 「高校生です」 identifies Aya as a high-school student."
+        },
+        {
+          "id": "c",
+          "text": "University student",
+          "rationale": "Not supported. 「高校生です」 identifies Aya as a high-school student. Re-read the relevant profile and distinguish stated facts from assumptions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "「高校生です」 identifies Aya as a high-school student."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-c"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What does 今も 札幌に 住んでいます tell us?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Aya is from Tokyo",
+          "rationale": "Not supported. 「今も 札幌に 住んでいます」 says Aya still lives in Sapporo. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "b",
+          "text": "Aya works in Sapporo",
+          "rationale": "Not supported. 「今も 札幌に 住んでいます」 says Aya still lives in Sapporo. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "c",
+          "text": "Aya still lives in Sapporo",
+          "rationale": "Supported by the Japanese bio: 「今も 札幌に 住んでいます」 says Aya still lives in Sapporo."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "「今も 札幌に 住んでいます」 says Aya still lives in Sapporo."
+    },
+    {
+      "id": "ex-n5-m01-c04-l05-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c04-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l05-bio-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What is the name of Ken's employer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not stated",
+          "rationale": "Supported by the Japanese bio: 「会社員です」 gives Ken's occupation, not an employer's name."
+        },
+        {
+          "id": "b",
+          "text": "Tokyo Company",
+          "rationale": "Not supported. 「会社員です」 gives Ken's occupation, not an employer's name. Re-read the relevant profile and distinguish stated facts from assumptions."
+        },
+        {
+          "id": "c",
+          "text": "Fukuoka University",
+          "rationale": "Not supported. 「会社員です」 gives Ken's occupation, not an employer's name. Re-read the relevant profile and distinguish stated facts from assumptions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "「会社員です」 gives Ken's occupation, not an employer's name."
+    }
+  ]
+}
