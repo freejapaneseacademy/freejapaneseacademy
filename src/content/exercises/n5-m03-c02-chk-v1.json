@@ -1,0 +1,616 @@
+{
+  "id": "n5-m03-c02-chk",
+  "lessonId": "n5-m03-c02-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Yui daily routine note; two original N5-M03-C02-L06 conversation scripts; audio playback required for listening scoring",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-grammar-01"
+      ],
+      "prompt": "Choose the polite nonpast negative of 読みます。",
+      "evidence": "読みません",
+      "explanation": "ません expresses the polite nonpast negative, not past tense.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-01-c1",
+          "text": "読みました",
+          "rationale": "Not correct. ません expresses the polite nonpast negative, not past tense. Evidence: 読みません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-01-c2",
+          "text": "読みません",
+          "rationale": "Correct. ません expresses the polite nonpast negative, not past tense. Evidence: 読みません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-01-c3",
+          "text": "読みますか",
+          "rationale": "Not correct. ません expresses the polite nonpast negative, not past tense. Evidence: 読みません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-01-c4",
+          "text": "読みませんでした",
+          "rationale": "Not correct. ません expresses the polite nonpast negative, not past tense. Evidence: 読みません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-grammar-02"
+      ],
+      "prompt": "Complete: 毎朝、パン___食べます。",
+      "evidence": "パンを食べます",
+      "explanation": "を marks the direct object of eating.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-02-c1",
+          "text": "に",
+          "rationale": "Not correct. を marks the direct object of eating. Evidence: パンを食べます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-02-c2",
+          "text": "で",
+          "rationale": "Not correct. を marks the direct object of eating. Evidence: パンを食べます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-02-c3",
+          "text": "を",
+          "rationale": "Correct. を marks the direct object of eating. Evidence: パンを食べます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-02-c4",
+          "text": "が",
+          "rationale": "Not correct. を marks the direct object of eating. Evidence: パンを食べます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-grammar-03"
+      ],
+      "prompt": "Complete: 七時___起きます。",
+      "evidence": "七時に起きます",
+      "explanation": "に marks a specific clock time.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-03-c1",
+          "text": "を",
+          "rationale": "Not correct. に marks a specific clock time. Evidence: 七時に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-03-c2",
+          "text": "に",
+          "rationale": "Correct. に marks a specific clock time. Evidence: 七時に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-03-c3",
+          "text": "で",
+          "rationale": "Not correct. に marks a specific clock time. Evidence: 七時に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-03-c4",
+          "text": "は",
+          "rationale": "Not correct. に marks a specific clock time. Evidence: 七時に起きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-grammar-04"
+      ],
+      "prompt": "Which sentence says 'I do not watch television'?",
+      "evidence": "テレビを見ません",
+      "explanation": "見ません is the polite nonpast negative of 見ます.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-04-c1",
+          "text": "テレビを見ます。",
+          "rationale": "Not correct. 見ません is the polite nonpast negative of 見ます. Evidence: テレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-04-c2",
+          "text": "テレビに見ません。",
+          "rationale": "Not correct. 見ません is the polite nonpast negative of 見ます. Evidence: テレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-04-c3",
+          "text": "テレビを見ません。",
+          "rationale": "Correct. 見ません is the polite nonpast negative of 見ます. Evidence: テレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-04-c4",
+          "text": "テレビで見ます。",
+          "rationale": "Not correct. 見ません is the polite nonpast negative of 見ます. Evidence: テレビを見ません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-04-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-grammar-05"
+      ],
+      "prompt": "Which time phrase normally appears without に?",
+      "evidence": "毎朝",
+      "explanation": "Recurring time 毎朝 normally takes no に.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-05-c1",
+          "text": "六時",
+          "rationale": "Not correct. Recurring time 毎朝 normally takes no に. Evidence: 毎朝"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-05-c2",
+          "text": "七時半",
+          "rationale": "Not correct. Recurring time 毎朝 normally takes no に. Evidence: 毎朝"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-05-c3",
+          "text": "九時",
+          "rationale": "Not correct. Recurring time 毎朝 normally takes no に. Evidence: 毎朝"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-05-c4",
+          "text": "毎朝",
+          "rationale": "Correct. Recurring time 毎朝 normally takes no に. Evidence: 毎朝"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-05-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-grammar-06"
+      ],
+      "prompt": "Which sentence uses the destination particle correctly?",
+      "evidence": "学校に行きます",
+      "explanation": "に marks the destination of 行きます; を marks direct objects.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-06-c1",
+          "text": "学校を行きます。",
+          "rationale": "Not correct. に marks the destination of 行きます; を marks direct objects. Evidence: 学校に行きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-06-c2",
+          "text": "学校に行きます。",
+          "rationale": "Correct. に marks the destination of 行きます; を marks direct objects. Evidence: 学校に行きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-06-c3",
+          "text": "学校で行きます。",
+          "rationale": "Not correct. に marks the destination of 行きます; を marks direct objects. Evidence: 学校に行きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-06-c4",
+          "text": "学校が行きます。",
+          "rationale": "Not correct. に marks the destination of 行きます; を marks direct objects. Evidence: 学校に行きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-reading-07"
+      ],
+      "prompt": "In the written routine note, when does Yui get up?",
+      "evidence": "六時半に起きます",
+      "explanation": "The note explicitly says Yui gets up at 6:30.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-07-c1",
+          "text": "六時",
+          "rationale": "Not correct. The note explicitly says Yui gets up at 6:30. Evidence: 六時半に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-07-c2",
+          "text": "六時半",
+          "rationale": "Correct. The note explicitly says Yui gets up at 6:30. Evidence: 六時半に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-07-c3",
+          "text": "七時",
+          "rationale": "Not correct. The note explicitly says Yui gets up at 6:30. Evidence: 六時半に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-07-c4",
+          "text": "八時",
+          "rationale": "Not correct. The note explicitly says Yui gets up at 6:30. Evidence: 六時半に起きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-reading-08"
+      ],
+      "prompt": "What does Yui drink at breakfast?",
+      "evidence": "水を飲みます",
+      "explanation": "The note states 水を飲みます, meaning she drinks water.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-08-c1",
+          "text": "コーヒー",
+          "rationale": "Not correct. The note states 水を飲みます, meaning she drinks water. Evidence: 水を飲みます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-08-c2",
+          "text": "お茶",
+          "rationale": "Not correct. The note states 水を飲みます, meaning she drinks water. Evidence: 水を飲みます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-08-c3",
+          "text": "水",
+          "rationale": "Correct. The note states 水を飲みます, meaning she drinks water. Evidence: 水を飲みます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-08-c4",
+          "text": "牛乳",
+          "rationale": "Not correct. The note states 水を飲みます, meaning she drinks water. Evidence: 水を飲みます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-reading-09"
+      ],
+      "prompt": "What does Yui do at the library?",
+      "evidence": "図書館で日本語を勉強します",
+      "explanation": "で marks where Yui studies Japanese.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-09-c1",
+          "text": "日本語を勉強します",
+          "rationale": "Correct. で marks where Yui studies Japanese. Evidence: 図書館で日本語を勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-09-c2",
+          "text": "テレビを見ます",
+          "rationale": "Not correct. で marks where Yui studies Japanese. Evidence: 図書館で日本語を勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-09-c3",
+          "text": "音楽を聞きます",
+          "rationale": "Not correct. で marks where Yui studies Japanese. Evidence: 図書館で日本語を勉強します"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-09-c4",
+          "text": "晩ご飯を作ります",
+          "rationale": "Not correct. で marks where Yui studies Japanese. Evidence: 図書館で日本語を勉強します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-09-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-reading-10"
+      ],
+      "prompt": "Which activity does Yui NOT do at night?",
+      "evidence": "夜はテレビを見ません",
+      "explanation": "The negative 見ません explicitly excludes watching television at night.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-10-c1",
+          "text": "本を読みます",
+          "rationale": "Not correct. The negative 見ません explicitly excludes watching television at night. Evidence: 夜はテレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-10-c2",
+          "text": "テレビを見ます",
+          "rationale": "Correct. The negative 見ません explicitly excludes watching television at night. Evidence: 夜はテレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-10-c3",
+          "text": "水を飲みます",
+          "rationale": "Not correct. The negative 見ません explicitly excludes watching television at night. Evidence: 夜はテレビを見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-10-c4",
+          "text": "学校に行きます",
+          "rationale": "Not correct. The negative 見ません explicitly excludes watching television at night. Evidence: 夜はテレビを見ません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-10-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-listening-11"
+      ],
+      "prompt": "Track A: When does the student get up?",
+      "evidence": "六時半に起きます",
+      "explanation": "The morning speaker explicitly says 6:30.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-11-c1",
+          "text": "六時",
+          "rationale": "Not correct. The morning speaker explicitly says 6:30. Evidence: 六時半に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-11-c2",
+          "text": "六時半",
+          "rationale": "Correct. The morning speaker explicitly says 6:30. Evidence: 六時半に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-11-c3",
+          "text": "七時",
+          "rationale": "Not correct. The morning speaker explicitly says 6:30. Evidence: 六時半に起きます"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-11-c4",
+          "text": "八時",
+          "rationale": "Not correct. The morning speaker explicitly says 6:30. Evidence: 六時半に起きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-listening-12"
+      ],
+      "prompt": "Track A: What does the student NOT do in the morning?",
+      "evidence": "いいえ、見ません",
+      "explanation": "The response to 朝、テレビを見ますか is いいえ、見ません.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-12-c1",
+          "text": "朝ご飯を食べます",
+          "rationale": "Not correct. The response to 朝、テレビを見ますか is いいえ、見ません. Evidence: いいえ、見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-12-c2",
+          "text": "学校へ行きます",
+          "rationale": "Not correct. The response to 朝、テレビを見ますか is いいえ、見ません. Evidence: いいえ、見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-12-c3",
+          "text": "テレビを見ます",
+          "rationale": "Correct. The response to 朝、テレビを見ますか is いいえ、見ません. Evidence: いいえ、見ません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-12-c4",
+          "text": "六時半に起きます",
+          "rationale": "Not correct. The response to 朝、テレビを見ますか is いいえ、見ません. Evidence: いいえ、見ません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-12-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-listening-13"
+      ],
+      "prompt": "Track B: When does the speaker return home?",
+      "evidence": "六時に家に帰ります",
+      "explanation": "The evening speaker says they return home at six.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-13-c1",
+          "text": "五時",
+          "rationale": "Not correct. The evening speaker says they return home at six. Evidence: 六時に家に帰ります"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-13-c2",
+          "text": "六時",
+          "rationale": "Correct. The evening speaker says they return home at six. Evidence: 六時に家に帰ります"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-13-c3",
+          "text": "七時",
+          "rationale": "Not correct. The evening speaker says they return home at six. Evidence: 六時に家に帰ります"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-13-c4",
+          "text": "八時",
+          "rationale": "Not correct. The evening speaker says they return home at six. Evidence: 六時に家に帰ります"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-13-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c02-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-chk-listening-14"
+      ],
+      "prompt": "Track B: What does the speaker avoid drinking at night?",
+      "evidence": "夜はコーヒーを飲みません",
+      "explanation": "The speaker says they do not drink coffee at night.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c02-chk-v1-14-c1",
+          "text": "水",
+          "rationale": "Not correct. The speaker says they do not drink coffee at night. Evidence: 夜はコーヒーを飲みません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-14-c2",
+          "text": "お茶",
+          "rationale": "Not correct. The speaker says they do not drink coffee at night. Evidence: 夜はコーヒーを飲みません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-14-c3",
+          "text": "牛乳",
+          "rationale": "Not correct. The speaker says they do not drink coffee at night. Evidence: 夜はコーヒーを飲みません"
+        },
+        {
+          "id": "ex-n5-m03-c02-chk-v1-14-c4",
+          "text": "コーヒー",
+          "rationale": "Correct. The speaker says they do not drink coffee at night. Evidence: 夜はコーヒーを飲みません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c02-chk-v1-14-c4"
+      }
+    }
+  ]
+}

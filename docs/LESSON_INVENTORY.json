@@ -3380,6 +3380,21 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses predecessor N5-M01-C02-L06 recordings; authentic WAVs, rights and hashes require verification",
       "noindex": false
+    },
+    {
+      "id": "n5-m03-c02-chk",
+      "level": "n5",
+      "moduleId": "n5-m03",
+      "chapterId": "n5-m03-c02",
+      "slot": "CHK",
+      "title": "Daily routines — chapter checkpoint",
+      "content": "src/content/lessons/n5/daily-routine-checkpoint.mdx",
+      "url": "/learn/n5/module-03/chapter-02/checkpoint/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses two N5-M03-C02-L06 candidate recordings; real WAV verification, rights and alignment pending",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
