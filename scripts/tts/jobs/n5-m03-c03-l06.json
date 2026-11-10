@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m03-c03-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 model-terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional yesterday/tomorrow schedule conversations. Pinned voice-model license and hashes must be checked by synthesis workflow; audio not yet generated or independently reviewed."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Yesterday at the community center",
+      "scenarioType": "conversation",
+      "objectiveId": "n5-m03-c03-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "昨日、何をしましたか。",
+          "english": "What did you do yesterday?"
+        },
+        {
+          "speaker": "male",
+          "text": "昨日の朝、図書館で日本語を勉強しました。",
+          "english": "Yesterday morning, I studied Japanese at the library."
+        },
+        {
+          "speaker": "female",
+          "text": "午後も勉強しましたか。",
+          "english": "Did you study in the afternoon too?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいえ、午後は勉強しませんでした。友達と映画を見ました。",
+          "english": "No, I didn't study in the afternoon. I watched a movie with a friend."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where did he study yesterday morning?",
+        "Did he study in the afternoon?",
+        "What did he do with his friend?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Tomorrow's plans",
+      "scenarioType": "conversation",
+      "objectiveId": "n5-m03-c03-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "明日は何をしますか。",
+          "english": "What will you do tomorrow?"
+        },
+        {
+          "speaker": "female",
+          "text": "明日の朝、九時に公園へ行きます。",
+          "english": "Tomorrow morning, I'll go to the park at nine."
+        },
+        {
+          "speaker": "male",
+          "text": "午後は買い物をしますか。",
+          "english": "Will you go shopping in the afternoon?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、買い物はしません。午後は家で本を読みます。",
+          "english": "No, I won't go shopping. I'll read a book at home in the afternoon."
+        }
+      ],
+      "comprehensionPrompts": [
+        "When will she go to the park?",
+        "Will she shop in the afternoon?",
+        "Where will she read in the afternoon?"
+      ]
+    }
+  ]
+}
