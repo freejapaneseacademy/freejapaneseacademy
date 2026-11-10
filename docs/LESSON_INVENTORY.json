@@ -3709,6 +3709,21 @@
       "audio": "not required for written L02 vocabulary recognition",
       "noindex": false,
       "ownerApproval": "automatic publication preauthorized; pending canonical-order QA and production verification"
+    },
+    {
+      "id": "n5-m04-c02-l03",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c02",
+      "slot": "L03",
+      "title": "Ask the price, choose the size: polite shopping requests",
+      "content": "src/content/lessons/n5/shopping-prices-grammar.mdx",
+      "url": "/learn/n5/module-04/chapter-02/lesson-03/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written L03; no recorded pronunciation claimed",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m04-c02-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l03-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence politely asks the price of this notebook?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-このノートはいくらですか asks how much the notebook costs; the other choices request it."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このノートはいくらですか。",
+          "rationale": "Correct. このノートはいくらですか asks how much the notebook costs; the other choices request it."
+        },
+        {
+          "id": "c2",
+          "text": "このノートを一冊ください。",
+          "rationale": "Review. このノートはいくらですか asks how much the notebook costs; the other choices request it."
+        },
+        {
+          "id": "c3",
+          "text": "このノートをお願いします。",
+          "rationale": "Review. このノートはいくらですか asks how much the notebook costs; the other choices request it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "このノートはいくらですか asks how much the notebook costs; the other choices request it."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the natural form for 'this notebook'.",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-この must directly precede a noun; これ is a stand-alone pronoun."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "これノート",
+          "rationale": "Review. この must directly precede a noun; これ is a stand-alone pronoun."
+        },
+        {
+          "id": "c2",
+          "text": "このノート",
+          "rationale": "Correct. この must directly precede a noun; これ is a stand-alone pronoun."
+        },
+        {
+          "id": "c3",
+          "text": "このはノート",
+          "rationale": "Review. この must directly precede a noun; これ is a stand-alone pronoun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "この must directly precede a noun; これ is a stand-alone pronoun."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the role of は in このペンはいくらですか。?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-は marks このペン as the topic of the price question; it is pronounced わ."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Marks the item being discussed",
+          "rationale": "Correct. は marks このペン as the topic of the price question; it is pronounced わ."
+        },
+        {
+          "id": "c2",
+          "text": "Counts the pens",
+          "rationale": "Review. は marks このペン as the topic of the price question; it is pronounced わ."
+        },
+        {
+          "id": "c3",
+          "text": "Means 'please'",
+          "rationale": "Review. は marks このペン as the topic of the price question; it is pronounced わ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "は marks このペン as the topic of the price question; it is pronounced わ."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which question asks about money rather than the number of notebooks?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-いくら asks price; 何冊 asks the number of bound books and 何色 asks color."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "何冊ですか。",
+          "rationale": "Review. いくら asks price; 何冊 asks the number of bound books and 何色 asks color."
+        },
+        {
+          "id": "c2",
+          "text": "何色ですか。",
+          "rationale": "Review. いくら asks price; 何冊 asks the number of bound books and 何色 asks color."
+        },
+        {
+          "id": "c3",
+          "text": "いくらですか。",
+          "rationale": "Correct. いくら asks price; 何冊 asks the number of bound books and 何色 asks color."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "いくら asks price; 何冊 asks the number of bound books and 何色 asks color."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a polite request for one bound notebook?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-一冊 counts a bound notebook; 一枚 is for flat sheets, and いくら asks price."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ノートを一枚ください。",
+          "rationale": "Review. 一冊 counts a bound notebook; 一枚 is for flat sheets, and いくら asks price."
+        },
+        {
+          "id": "c2",
+          "text": "ノートを一冊ください。",
+          "rationale": "Correct. 一冊 counts a bound notebook; 一枚 is for flat sheets, and いくら asks price."
+        },
+        {
+          "id": "c3",
+          "text": "ノートはいくらですか。",
+          "rationale": "Review. 一冊 counts a bound notebook; 一枚 is for flat sheets, and いくら asks price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "一冊 counts a bound notebook; 一枚 is for flat sheets, and いくら asks price."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the request for two loose sheets of paper.",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-枚 counts flat sheets, so 二枚 (にまい) fits two sheets."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "紙を二枚ください。",
+          "rationale": "Correct. 枚 counts flat sheets, so 二枚 (にまい) fits two sheets."
+        },
+        {
+          "id": "c2",
+          "text": "紙を二冊ください。",
+          "rationale": "Review. 枚 counts flat sheets, so 二枚 (にまい) fits two sheets."
+        },
+        {
+          "id": "c3",
+          "text": "紙を二本ください。",
+          "rationale": "Review. 枚 counts flat sheets, so 二枚 (にまい) fits two sheets."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "枚 counts flat sheets, so 二枚 (にまい) fits two sheets."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence uses お願いします as a shop request?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-このペンを一本お願いします requests one pen; 一本 is the long-object counter."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このペンはいくらお願いします。",
+          "rationale": "Review. このペンを一本お願いします requests one pen; 一本 is the long-object counter."
+        },
+        {
+          "id": "c2",
+          "text": "このペンは何冊お願いします。",
+          "rationale": "Review. このペンを一本お願いします requests one pen; 一本 is the long-object counter."
+        },
+        {
+          "id": "c3",
+          "text": "このペンを一本お願いします。",
+          "rationale": "Correct. このペンを一本お願いします requests one pen; 一本 is the long-object counter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "このペンを一本お願いします requests one pen; 一本 is the long-object counter."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 小さいノートを一冊お願いします, what is being requested?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-小さい means small; ノートを一冊 means one bound notebook."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "One small notebook",
+          "rationale": "Correct. 小さい means small; ノートを一冊 means one bound notebook."
+        },
+        {
+          "id": "c2",
+          "text": "One large notebook",
+          "rationale": "Review. 小さい means small; ノートを一冊 means one bound notebook."
+        },
+        {
+          "id": "c3",
+          "text": "One sheet of paper",
+          "rationale": "Review. 小さい means small; ノートを一冊 means one bound notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "小さい means small; ノートを一冊 means one bound notebook."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the model dialogue, what does the customer finally buy?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-The final order is 小さいノートを一冊お願いします after the clerk says 百円."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The blue notebook for 300 yen",
+          "rationale": "Review. The final order is 小さいノートを一冊お願いします after the clerk says 百円."
+        },
+        {
+          "id": "c2",
+          "text": "One small notebook for 100 yen",
+          "rationale": "Correct. The final order is 小さいノートを一冊お願いします after the clerk says 百円."
+        },
+        {
+          "id": "c3",
+          "text": "Two pens",
+          "rationale": "Review. The final order is 小さいノートを一冊お願いします after the clerk says 百円."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The final order is 小さいノートを一冊お願いします after the clerk says 百円."
+    },
+    {
+      "id": "ex-n5-m04-c02-l03-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly separates a price question from an order?",
+      "objectiveIds": [
+        "n5-m04-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l03-いくらですか asks price; を一冊ください makes a separate polite order."
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このノートはいくらください。",
+          "rationale": "Review. いくらですか asks price; を一冊ください makes a separate polite order."
+        },
+        {
+          "id": "c2",
+          "text": "このノートをいくらお願いします。",
+          "rationale": "Review. いくらですか asks price; を一冊ください makes a separate polite order."
+        },
+        {
+          "id": "c3",
+          "text": "このノートはいくらですか。ノートを一冊ください。",
+          "rationale": "Correct. いくらですか asks price; を一冊ください makes a separate polite order."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "いくらですか asks price; を一冊ください makes a separate polite order."
+    }
+  ]
+}
