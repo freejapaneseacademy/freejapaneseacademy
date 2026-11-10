@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m02-c04-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-01"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "The guest wants to locate a bag. Which question is suitable?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Which line asks where the bag is?",
+          "rationale": "かばんが だれですか。"
+        },
+        {
+          "id": "c2",
+          "text": "かばんは どこに ありますか。",
+          "rationale": "A bag is inanimate, so a location question uses あります."
+        },
+        {
+          "id": "c3",
+          "text": "かばんは どこに いますか。",
+          "rationale": "います ordinarily describes living beings, not bags."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "かばんが だれですか。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-02"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Where is the bag according to Scene A?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机の 上",
+          "rationale": "上 means on top, not under."
+        },
+        {
+          "id": "c2",
+          "text": "In Scene A, where is the bag?",
+          "rationale": "本棚の 中"
+        },
+        {
+          "id": "c3",
+          "text": "机の 下",
+          "rationale": "The host says 机の 下に あります: under the desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "本棚の 中"
+    },
+    {
+      "id": "ex-n5-m02-c04-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-03"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Where is the bookshelf in Scene A?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "窓の 隣",
+          "rationale": "窓の 隣に あります means beside the window."
+        },
+        {
+          "id": "c2",
+          "text": "窓の 中",
+          "rationale": "中 means inside, which the host did not say."
+        },
+        {
+          "id": "c3",
+          "text": "Where is the bookshelf in Scene A?",
+          "rationale": "机の 後ろ"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "机の 後ろ"
+    },
+    {
+      "id": "ex-n5-m02-c04-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-04"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which verb correctly completes the existence statement about a cat?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Which verb fits 猫が ___ in Scene B?",
+          "rationale": "ですか"
+        },
+        {
+          "id": "c2",
+          "text": "います",
+          "rationale": "A living cat ordinarily takes います."
+        },
+        {
+          "id": "c3",
+          "text": "あります",
+          "rationale": "あります is used for inanimate objects, not a living cat."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ですか"
+    },
+    {
+      "id": "ex-n5-m02-c04-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-05"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence matches the book's location in Scene B?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机の 下に 本が います。",
+          "rationale": "下 means under and います is wrong for a book."
+        },
+        {
+          "id": "c2",
+          "text": "Which line says a book is on the desk?",
+          "rationale": "机が 本の 上に あります。"
+        },
+        {
+          "id": "c3",
+          "text": "机の 上に 本が あります。",
+          "rationale": "机の 上に marks on the desk; 本が is the object present."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "机が 本の 上に あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-06"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What does 椅子の 前に mean?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In front of the chair",
+          "rationale": "前 is in front of; に marks the location."
+        },
+        {
+          "id": "c2",
+          "text": "Behind the chair",
+          "rationale": "後ろ means behind, not 前."
+        },
+        {
+          "id": "c3",
+          "text": "What does 椅子の 前に mean?",
+          "rationale": "Inside the chair"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Inside the chair"
+    },
+    {
+      "id": "ex-n5-m02-c04-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-07"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which phrase says 'behind the chair'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Which location phrase means behind the chair?",
+          "rationale": "椅子の 上に"
+        },
+        {
+          "id": "c2",
+          "text": "椅子の 後ろに",
+          "rationale": "後ろ means behind and follows the reference noun plus の."
+        },
+        {
+          "id": "c3",
+          "text": "椅子の 隣に",
+          "rationale": "隣 means next to."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "椅子の 上に"
+    },
+    {
+      "id": "ex-n5-m02-c04-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l08-location-08"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What does Scene A tell us about the bag's owner?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The guest owns it.",
+          "rationale": "The guest asks where it is; asking does not establish ownership."
+        },
+        {
+          "id": "c2",
+          "text": "What is known about the bag's owner in Scene A?",
+          "rationale": "The host owns it."
+        },
+        {
+          "id": "c3",
+          "text": "The owner is not identified.",
+          "rationale": "The dialogue gives the bag's location but no ownership information."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The host owns it."
+    }
+  ]
+}
