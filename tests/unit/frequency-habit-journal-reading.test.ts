@@ -1,0 +1,7 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../../src/content/exercises/n5-m03-c04-l05-v1.json';
+import {questions,scoreJournalReading,QUIZ_ID} from '../../src/components/interactive/JournalReadingPractice';
+describe('n5-m03-c04-l05 habit journal reading',()=>{
+ it('has ten unique, evidence-supported questions with feedback',()=>{expect(bank.lessonId).toBe('n5-m03-c04-l05');expect(questions).toHaveLength(10);expect(new Set(questions.map(q=>q.id)).size).toBe(10);for(const q of questions){expect(q.status).toBe('internally-checked');expect(q.choices).toHaveLength(3);expect(new Set(q.choices.map(c=>c.text)).size).toBe(3);expect(q.choices.find(c=>c.id===q.answerKey.choiceId)).toBeTruthy();expect(q.choices.every(c=>c.rationale.length>0)).toBe(true);expect(q.explanation).toContain('Evidence:');}});
+ it('scores correct, unanswered and wrong answers',()=>{expect(scoreJournalReading(Object.fromEntries(questions.map(q=>[q.id,q.answerKey.choiceId])))).toBe(10);expect(scoreJournalReading({})).toBe(0);expect(scoreJournalReading(Object.fromEntries(questions.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey.choiceId)!.id])))).toBe(0);expect(QUIZ_ID).toContain('n5-m03-c04-l05');});
+});
