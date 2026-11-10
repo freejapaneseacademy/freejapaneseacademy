@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import FoodChapterCheckpoint from '../../../../../components/interactive/FoodChapterCheckpoint';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/food-drinks-checkpoint');
+if(!lesson||lesson.data.lessonId!=='n5-m04-c01-chk')throw new Error('Missing canonical checkpoint');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Food and drinks',href:'/learn/n5/module-04/chapter-01/checkpoint/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 04 · Chapter 01 · Checkpoint</span></nav><span class="eyebrow">N5 · MODULE 04 · CHAPTER 01 · CHECKPOINT</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>10 scored questions</span><span>4 audio-gated questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Draft for release review.</strong> Listening is not graded until genuine chapter recordings pass rights, integrity and playback QA. Independent Japanese and assessment reviews pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><FoodChapterCheckpoint client:load/><div class="foundation-completion"><h2>Finish this checkpoint</h2><p>Completion is separate from the saved practice score.</p><LessonActions client:load lessonId="n5-m04-c01-chk" level="n5"/></div><div class="lesson-next"><h3>Keep learning</h3><p>Next chapter: shopping and prices.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">REVIEW GUIDE</span><h3>Find the evidence</h3><p>For each answer, identify the exact Japanese phrase that proves it. Retry missed questions.</p></aside></div></section>
+</Base>

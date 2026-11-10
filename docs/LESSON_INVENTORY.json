@@ -3709,6 +3709,23 @@
       "audio": "not required for written L02 vocabulary recognition",
       "noindex": false,
       "ownerApproval": "automatic publication preauthorized; pending canonical-order QA and production verification"
+    },
+    {
+      "id": "n5-m04-c01-chk",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c01",
+      "slot": "CHK",
+      "title": "Food and drinks — Chapter checkpoint",
+      "content": "src/content/lessons/n5/food-drinks-checkpoint.mdx",
+      "url": "/learn/n5/module-04/chapter-01/checkpoint/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "L06 dialogue audio pending rights, hashes, quality and playback; listening questions unscored",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
