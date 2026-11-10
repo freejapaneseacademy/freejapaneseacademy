@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c03-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l07-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'It is a delicious cake'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "おいしいケーキです。",
+          "rationale": "い-adjective おいしい directly modifies ケーキ."
+        },
+        {
+          "id": "c2",
+          "text": "おいしいケーキなです。",
+          "rationale": "Not this form. い-adjective おいしい directly modifies ケーキ."
+        },
+        {
+          "id": "c3",
+          "text": "おいしいケーキにです。",
+          "rationale": "Not this form. い-adjective おいしい directly modifies ケーキ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "い-adjective おいしい directly modifies ケーキ."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'It is a quiet café'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "しずかいカフェです。",
+          "rationale": "Not this form. しずか is a な-adjective; add な before カフェ."
+        },
+        {
+          "id": "c3",
+          "text": "しずかカフェです。",
+          "rationale": "Not this form. しずか is a な-adjective; add な before カフェ."
+        },
+        {
+          "id": "c1",
+          "text": "しずかなカフェです。",
+          "rationale": "しずか is a な-adjective; add な before カフェ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "しずか is a な-adjective; add な before カフェ."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the polite negative 'This cake is not delicious'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "このケーキはおいしいないです。",
+          "rationale": "Not this form. The い-adjective negative is おいしくないです."
+        },
+        {
+          "id": "c1",
+          "text": "このケーキはおいしくないです。",
+          "rationale": "The い-adjective negative is おいしくないです."
+        },
+        {
+          "id": "c2",
+          "text": "このケーキはおいしいじゃないです。",
+          "rationale": "Not this form. The い-adjective negative is おいしくないです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The い-adjective negative is おいしくないです."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is 'This shop is not quiet'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "この店はしずかじゃないです。",
+          "rationale": "The な-adjective predicate negative is しずかじゃないです."
+        },
+        {
+          "id": "c2",
+          "text": "この店はしずかくないです。",
+          "rationale": "Not this form. The な-adjective predicate negative is しずかじゃないです."
+        },
+        {
+          "id": "c3",
+          "text": "この店はしずかなじゃないです。",
+          "rationale": "Not this form. The な-adjective predicate negative is しずかじゃないです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The な-adjective predicate negative is しずかじゃないです."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the natural phrase 'a new bag'.",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "新しいなかばんです。",
+          "rationale": "Not this form. 新しい is an い-adjective, so no な is needed."
+        },
+        {
+          "id": "c3",
+          "text": "新しいのかばんです。",
+          "rationale": "Not this form. 新しい is an い-adjective, so no な is needed."
+        },
+        {
+          "id": "c1",
+          "text": "新しいかばんです。",
+          "rationale": "新しい is an い-adjective, so no な is needed."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "新しい is an い-adjective, so no な is needed."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the natural phrase 'a clean/beautiful shop'.",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "きれい店です。",
+          "rationale": "Not this form. きれい is a な-adjective despite its final い sound."
+        },
+        {
+          "id": "c1",
+          "text": "きれいな店です。",
+          "rationale": "きれい is a な-adjective despite its final い sound."
+        },
+        {
+          "id": "c2",
+          "text": "きれいい店です。",
+          "rationale": "Not this form. きれい is a な-adjective despite its final い sound."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "きれい is a な-adjective despite its final い sound."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "The soup is hot (temperature). Choose the correct Japanese.",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このスープは熱いです。",
+          "rationale": "熱い is used for hot objects and food; 暑い for hot weather."
+        },
+        {
+          "id": "c2",
+          "text": "このスープは暑いです。",
+          "rationale": "Not this form. 熱い is used for hot objects and food; 暑い for hot weather."
+        },
+        {
+          "id": "c3",
+          "text": "このスープは寒いです。",
+          "rationale": "Not this form. 熱い is used for hot objects and food; 暑い for hot weather."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "熱い is used for hot objects and food; 暑い for hot weather."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence means 'This bag is expensive'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "このかばんは安いです。",
+          "rationale": "Not this form. 高い can mean expensive when discussing an item's price."
+        },
+        {
+          "id": "c3",
+          "text": "このかばんは小さいです。",
+          "rationale": "Not this form. 高い can mean expensive when discussing an item's price."
+        },
+        {
+          "id": "c1",
+          "text": "このかばんは高いです。",
+          "rationale": "高い can mean expensive when discussing an item's price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "高い can mean expensive when discussing an item's price."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is 'This cake is not small'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "このケーキは小さいないです。",
+          "rationale": "Not this form. 小さい changes to 小さくない before です."
+        },
+        {
+          "id": "c1",
+          "text": "このケーキは小さくないです。",
+          "rationale": "小さい changes to 小さくない before です."
+        },
+        {
+          "id": "c2",
+          "text": "このケーキは小さいじゃないです。",
+          "rationale": "Not this form. 小さい changes to 小さくない before です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "小さい changes to 小さくない before です."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a complete positive predicate 'This café is lively'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このカフェはにぎやかです。",
+          "rationale": "A な-adjective before です does not take な."
+        },
+        {
+          "id": "c2",
+          "text": "このカフェはにぎやかなです。",
+          "rationale": "Not this form. A な-adjective before です does not take な."
+        },
+        {
+          "id": "c3",
+          "text": "このカフェはにぎやかいです。",
+          "rationale": "Not this form. A な-adjective before です does not take な."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A な-adjective before です does not take な."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'That notebook is not old'?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "そのノートは古いじゃないです。",
+          "rationale": "Not this form. 古い changes to 古くない in the negative."
+        },
+        {
+          "id": "c3",
+          "text": "そのノートは古いないです。",
+          "rationale": "Not this form. 古い changes to 古くない in the negative."
+        },
+        {
+          "id": "c1",
+          "text": "そのノートは古くないです。",
+          "rationale": "古い changes to 古くない in the negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "古い changes to 古くない in the negative."
+    },
+    {
+      "id": "ex-n5-m04-c03-l07-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is 'This shop is clean' as a complete sentence?",
+      "objectiveIds": [
+        "n5-m04-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l07-adjective-writing"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "この店はきれいいです。",
+          "rationale": "Not this form. きれいです is a complete predicate; な appears before a noun."
+        },
+        {
+          "id": "c1",
+          "text": "この店はきれいです。",
+          "rationale": "きれいです is a complete predicate; な appears before a noun."
+        },
+        {
+          "id": "c2",
+          "text": "この店はきれいなです。",
+          "rationale": "Not this form. きれいです is a complete predicate; な appears before a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "きれいです is a complete predicate; な appears before a noun."
+    }
+  ]
+}
