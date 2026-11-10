@@ -1,0 +1,450 @@
+{
+  "lessonId": "n5-m04-c03-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you read 大きい?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "おおきい",
+          "rationale": "The whole word 大きい is read おおきい."
+        },
+        {
+          "id": "c2",
+          "text": "ちいさい",
+          "rationale": "Not this answer. The whole word 大きい is read おおきい."
+        },
+        {
+          "id": "c3",
+          "text": "だいきい",
+          "rationale": "Not this answer. The whole word 大きい is read おおきい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The whole word 大きい is read おおきい."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you read 小さい?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "おおきい",
+          "rationale": "Not this answer. 小さい is read ちいさい, despite other readings of 小."
+        },
+        {
+          "id": "c3",
+          "text": "ちいさい",
+          "rationale": "小さい is read ちいさい, despite other readings of 小."
+        },
+        {
+          "id": "c1",
+          "text": "しょうさい",
+          "rationale": "Not this answer. 小さい is read ちいさい, despite other readings of 小."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "小さい is read ちいさい, despite other readings of 小."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means inexpensive?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "高い",
+          "rationale": "Not this answer. 安い (やすい) means inexpensive."
+        },
+        {
+          "id": "c1",
+          "text": "古い",
+          "rationale": "Not this answer. 安い (やすい) means inexpensive."
+        },
+        {
+          "id": "c2",
+          "text": "安い",
+          "rationale": "安い (やすい) means inexpensive."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "安い (やすい) means inexpensive."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means new?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "新しい",
+          "rationale": "新しい (あたらしい) means new."
+        },
+        {
+          "id": "c2",
+          "text": "古い",
+          "rationale": "Not this answer. 新しい (あたらしい) means new."
+        },
+        {
+          "id": "c3",
+          "text": "小さい",
+          "rationale": "Not this answer. 新しい (あたらしい) means new."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "新しい (あたらしい) means new."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you read 古い?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "あたらしい",
+          "rationale": "Not this answer. 古い is read ふるい."
+        },
+        {
+          "id": "c3",
+          "text": "ふるい",
+          "rationale": "古い is read ふるい."
+        },
+        {
+          "id": "c1",
+          "text": "こい",
+          "rationale": "Not this answer. 古い is read ふるい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "古い is read ふるい."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you read 高い?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "やすい",
+          "rationale": "Not this answer. 高い is read たかい."
+        },
+        {
+          "id": "c1",
+          "text": "こうい",
+          "rationale": "Not this answer. 高い is read たかい."
+        },
+        {
+          "id": "c2",
+          "text": "たかい",
+          "rationale": "高い is read たかい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "高い is read たかい."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "On card A, what is small?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ケーキ",
+          "rationale": "Card A states 小さいケーキ."
+        },
+        {
+          "id": "c2",
+          "text": "ノート",
+          "rationale": "Not this answer. Card A states 小さいケーキ."
+        },
+        {
+          "id": "c3",
+          "text": "本",
+          "rationale": "Not this answer. Card A states 小さいケーキ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Card A states 小さいケーキ."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which card has the new notebook?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "D",
+          "rationale": "Not this answer. Card C states 新しいノート."
+        },
+        {
+          "id": "c3",
+          "text": "C",
+          "rationale": "Card C states 新しいノート."
+        },
+        {
+          "id": "c1",
+          "text": "A",
+          "rationale": "Not this answer. Card C states 新しいノート."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Card C states 新しいノート."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What price is shown for 大きいケーキ?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "300円",
+          "rationale": "Not this answer. Card B reads 大きいケーキ 600円."
+        },
+        {
+          "id": "c1",
+          "text": "200円",
+          "rationale": "Not this answer. Card B reads 大きいケーキ 600円."
+        },
+        {
+          "id": "c2",
+          "text": "600円",
+          "rationale": "Card B reads 大きいケーキ 600円."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Card B reads 大きいケーキ 600円."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sign describes an old book?",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "古い本",
+          "rationale": "Card D states 古い本."
+        },
+        {
+          "id": "c2",
+          "text": "新しいノート",
+          "rationale": "Not this answer. Card D states 古い本."
+        },
+        {
+          "id": "c3",
+          "text": "小さいケーキ",
+          "rationale": "Not this answer. Card D states 古い本."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Card D states 古い本."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the correct phrase for 'a new shop'.",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "新しく店",
+          "rationale": "Not this answer. 新しい is an い-adjective and directly modifies 店."
+        },
+        {
+          "id": "c3",
+          "text": "新しい店",
+          "rationale": "新しい is an い-adjective and directly modifies 店."
+        },
+        {
+          "id": "c1",
+          "text": "新しいな店",
+          "rationale": "Not this answer. 新しい is an い-adjective and directly modifies 店."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "新しい is an い-adjective and directly modifies 店."
+    },
+    {
+      "id": "ex-n5-m04-c03-l04-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the ordinary polite negative of 新しいです.",
+      "objectiveIds": [
+        "n5-m04-c03-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l04-kanji-context"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "新しいじゃないです",
+          "rationale": "Not this answer. Change the final い to くない before です."
+        },
+        {
+          "id": "c1",
+          "text": "新しいくないです",
+          "rationale": "Not this answer. Change the final い to くない before です."
+        },
+        {
+          "id": "c2",
+          "text": "新しくないです",
+          "rationale": "Change the final い to くない before です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Change the final い to くない before です."
+    }
+  ]
+}
