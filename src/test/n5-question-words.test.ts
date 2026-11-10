@@ -1,0 +1,4 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../content/exercises/n5-m01-c02-l03-v1.json';
+import {gradeQuestionWords} from '../components/interactive/N5QuestionWordsPractice';
+describe('n5-m01-c02-l03',()=>{it('validates twelve distinct questions and feedback',()=>{expect(bank.items).toHaveLength(12);expect(new Set(bank.items.map(q=>q.id)).size).toBe(12);for(const q of bank.items){expect(q.choices).toHaveLength(3);expect(new Set(q.choices.map(c=>c.text)).size).toBe(3);expect(q.choices.filter(c=>c.id===q.answerKey.choiceId)).toHaveLength(1);expect(q.choices.every(c=>c.rationale.length>10)).toBe(true);expect(q.evidence.length).toBeGreaterThan(1)}});it('grades perfect and zero sets',()=>{const yes=Object.fromEntries(bank.items.map(q=>[q.id,q.answerKey.choiceId]));const no=Object.fromEntries(bank.items.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey.choiceId)!.id]));expect(gradeQuestionWords(yes)).toBe(12);expect(gradeQuestionWords(no)).toBe(0)})});

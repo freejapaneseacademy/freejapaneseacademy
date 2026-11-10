@@ -1,0 +1,341 @@
+{
+  "id": "n5-m01-c04-l07",
+  "lessonId": "n5-m01-c04-l07",
+  "version": 1,
+  "status": "drafted",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c04-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "Which sentence correctly says 'My name is Mio Yamamoto'?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-01-c1",
+          "text": "わたしの名前は山本みおです。",
+          "rationale": "の links わたし to 名前, and は marks the name as topic."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-01-c2",
+          "text": "わたしの山本みおです。",
+          "rationale": "This does not express the requested fact. の links わたし to 名前, and は marks the name as topic."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-01-c3",
+          "text": "わたしは名前の山本みおです。",
+          "rationale": "This does not express the requested fact. の links わたし to 名前, and は marks the name as topic."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-01-c1"
+      },
+      "explanation": "の links わたし to 名前, and は marks the name as topic.",
+      "feedback": "の links わたし to 名前, and は marks the name as topic."
+    },
+    {
+      "id": "ex-n5-m01-c04-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "Which sentence says 'I am twenty'?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-02-c1",
+          "text": "二十歳です。",
+          "rationale": "歳 counts age; 二十歳 is read はたち."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-02-c2",
+          "text": "二十人です。",
+          "rationale": "This does not express the requested fact. 歳 counts age; 二十歳 is read はたち."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-02-c3",
+          "text": "二十出身です。",
+          "rationale": "This does not express the requested fact. 歳 counts age; 二十歳 is read はたち."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-02-c1"
+      },
+      "explanation": "歳 counts age; 二十歳 is read はたち.",
+      "feedback": "歳 counts age; 二十歳 is read はたち."
+    },
+    {
+      "id": "ex-n5-m01-c04-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "Which sentence says 'I am from Nara'?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-03-c1",
+          "text": "奈良出身です。",
+          "rationale": "出身 describes origin."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-03-c2",
+          "text": "奈良会社員です。",
+          "rationale": "This does not express the requested fact. 出身 describes origin."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-03-c3",
+          "text": "奈良二十一歳です。",
+          "rationale": "This does not express the requested fact. 出身 describes origin."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-03-c1"
+      },
+      "explanation": "出身 describes origin.",
+      "feedback": "出身 describes origin."
+    },
+    {
+      "id": "ex-n5-m01-c04-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "Which sentence identifies a university student?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-04-c1",
+          "text": "大学生です。",
+          "rationale": "大学生 means university student."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-04-c2",
+          "text": "大学出身です。",
+          "rationale": "This does not express the requested fact. 大学生 means university student."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-04-c3",
+          "text": "大学歳です。",
+          "rationale": "This does not express the requested fact. 大学生 means university student."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-04-c1"
+      },
+      "explanation": "大学生 means university student.",
+      "feedback": "大学生 means university student."
+    },
+    {
+      "id": "ex-n5-m01-c04-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "Which sentence correctly writes the topic particle?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-05-c1",
+          "text": "わたしはあきです。",
+          "rationale": "The topic particle is written は, pronounced wa."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-05-c2",
+          "text": "わたしわあきです。",
+          "rationale": "This does not express the requested fact. The topic particle is written は, pronounced wa."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-05-c3",
+          "text": "わたしのあきです。",
+          "rationale": "This does not express the requested fact. The topic particle is written は, pronounced wa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-05-c1"
+      },
+      "explanation": "The topic particle is written は, pronounced wa.",
+      "feedback": "The topic particle is written は, pronounced wa."
+    },
+    {
+      "id": "ex-n5-m01-c04-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "Which sentence identifies a company employee?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-06-c1",
+          "text": "会社員です。",
+          "rationale": "会社員 means company employee."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-06-c2",
+          "text": "会社出身です。",
+          "rationale": "This does not express the requested fact. 会社員 means company employee."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-06-c3",
+          "text": "会社歳です。",
+          "rationale": "This does not express the requested fact. 会社員 means company employee."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-06-c1"
+      },
+      "explanation": "会社員 means company employee.",
+      "feedback": "会社員 means company employee."
+    },
+    {
+      "id": "ex-n5-m01-c04-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "Which expression means 'my name'?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-07-c1",
+          "text": "わたしの名前",
+          "rationale": "の connects わたし and 名前."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-07-c2",
+          "text": "わたしは名前",
+          "rationale": "This does not express the requested fact. の connects わたし and 名前."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-07-c3",
+          "text": "わたしです名前",
+          "rationale": "This does not express the requested fact. の connects わたし and 名前."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-07-c1"
+      },
+      "explanation": "の connects わたし and 名前.",
+      "feedback": "の connects わたし and 名前."
+    },
+    {
+      "id": "ex-n5-m01-c04-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m01-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c04-l07-profile"
+      ],
+      "prompt": "What does 京都出身です establish?",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c04-l07-08-c1",
+          "text": "The person is from Kyoto.",
+          "rationale": "出身 describes origin, not residence or workplace."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-08-c2",
+          "text": "The person lives in Kyoto now.",
+          "rationale": "This does not express the requested fact. 出身 describes origin, not residence or workplace."
+        },
+        {
+          "id": "ex-n5-m01-c04-l07-08-c3",
+          "text": "The person works in Kyoto.",
+          "rationale": "This does not express the requested fact. 出身 describes origin, not residence or workplace."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c04-l07-08-c1"
+      },
+      "explanation": "出身 describes origin, not residence or workplace.",
+      "feedback": "出身 describes origin, not residence or workplace."
+    }
+  ]
+}

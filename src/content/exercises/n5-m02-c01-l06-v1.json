@@ -1,0 +1,270 @@
+{
+  "lessonId": "n5-m02-c01-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c01-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Who owns the blue umbrella?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Tanaka",
+          "rationale": "The male speaker says the blue umbrella belongs to Tanaka."
+        },
+        {
+          "id": "c2",
+          "text": "Yamamoto",
+          "rationale": "The dialogue does not identify yamamoto as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c3",
+          "text": "The receptionist",
+          "rationale": "The dialogue does not identify the receptionist as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c4",
+          "text": "Sato",
+          "rationale": "The dialogue does not identify sato as the answer to this question; listen for the explicit owner or location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The male speaker says the blue umbrella belongs to Tanaka.",
+      "evidence": "それは田中さんのです。"
+    },
+    {
+      "id": "ex-n5-m02-c01-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Where is Tanaka now?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At home",
+          "rationale": "The dialogue does not identify at home as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c2",
+          "text": "In the classroom",
+          "rationale": "教室 means classroom; the speaker says Tanaka is there now."
+        },
+        {
+          "id": "c3",
+          "text": "At the station",
+          "rationale": "The dialogue does not identify at the station as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c4",
+          "text": "In the library",
+          "rationale": "The dialogue does not identify in the library as the answer to this question; listen for the explicit owner or location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "教室 means classroom; the speaker says Tanaka is there now.",
+      "evidence": "田中さんは今、教室にいます。"
+    },
+    {
+      "id": "ex-n5-m02-c01-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Who owns the red umbrella?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Tanaka",
+          "rationale": "The dialogue does not identify tanaka as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c2",
+          "text": "The female speaker",
+          "rationale": "The dialogue does not identify the female speaker as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c3",
+          "text": "Yamamoto",
+          "rationale": "The male speaker corrects the suggestion that the red umbrella is Tanaka's."
+        },
+        {
+          "id": "c4",
+          "text": "No one knows",
+          "rationale": "The dialogue does not identify no one knows as the answer to this question; listen for the explicit owner or location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The male speaker corrects the suggestion that the red umbrella is Tanaka's.",
+      "evidence": "それは山本さんのです。"
+    },
+    {
+      "id": "ex-n5-m02-c01-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Who owns the distant bag?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Sato",
+          "rationale": "The distant bag belongs to Sato."
+        },
+        {
+          "id": "c2",
+          "text": "The male speaker",
+          "rationale": "The dialogue does not identify the male speaker as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c3",
+          "text": "Tanaka",
+          "rationale": "The dialogue does not identify tanaka as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c4",
+          "text": "Yamamoto",
+          "rationale": "The dialogue does not identify yamamoto as the answer to this question; listen for the explicit owner or location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The distant bag belongs to Sato.",
+      "evidence": "あれは佐藤さんのです。"
+    },
+    {
+      "id": "ex-n5-m02-c01-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Who owns the notebook the man is holding near himself?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Sato",
+          "rationale": "The dialogue does not identify sato as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c2",
+          "text": "The female speaker",
+          "rationale": "The woman says the notebook the man indicates is hers."
+        },
+        {
+          "id": "c3",
+          "text": "Yamamoto",
+          "rationale": "The dialogue does not identify yamamoto as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c4",
+          "text": "Tanaka",
+          "rationale": "The dialogue does not identify tanaka as the answer to this question; listen for the explicit owner or location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The woman says the notebook the man indicates is hers.",
+      "evidence": "そのノートはわたしのです。"
+    },
+    {
+      "id": "ex-n5-m02-c01-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where is Sato's notebook?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Inside the bag",
+          "rationale": "The dialogue does not identify inside the bag as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c2",
+          "text": "At reception",
+          "rationale": "The dialogue does not identify at reception as the answer to this question; listen for the explicit owner or location."
+        },
+        {
+          "id": "c3",
+          "text": "On the desk",
+          "rationale": "机の上 means on the desk."
+        },
+        {
+          "id": "c4",
+          "text": "In the classroom",
+          "rationale": "The dialogue does not identify in the classroom as the answer to this question; listen for the explicit owner or location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "机の上 means on the desk.",
+      "evidence": "佐藤さんのノートは机の上です。"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import FirstMeetingListeningPractice from '../../../../../components/interactive/FirstMeetingListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/first-meeting-listening');
+if(!lesson||lesson.data.lessonId!=='n5-m01-c01-l06')throw new Error('Missing canonical lesson n5-m01-c01-l06');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 01 · Chapter 01 · Lesson 06</span></nav><span class="eyebrow">N5 · MODULE 01 · CHAPTER 01 · LESSON 06</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Two original dialogues</span><span>Six listening questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Listening practice:</strong> Authentic recordings, checksum manifests and redistribution rights must be verified before publication. Independent pronunciation review is pending.</div><div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content /></article><FirstMeetingListeningPractice client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Lesson completion and assisted/unaided listening attempts are stored separately on this device.</p><LessonActions client:load lessonId="n5-m01-c01-l06" level="n5"/></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><h3>Listen for the correction</h3><p>A question is not a fact. Hear the reply before choosing an answer.</p></aside></div></section>
+</Base>
