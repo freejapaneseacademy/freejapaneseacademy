@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import HabitCheckpoint from '../../../../../components/interactive/HabitCheckpoint';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/frequency-habits-checkpoint');
+if(!lesson||lesson.data.lessonId!=='n5-m03-c04-chk')throw new Error('Missing canonical checkpoint');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Frequency and habits',href:'/learn/n5/module-03/chapter-04/checkpoint/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 03 · CHAPTER 04 · CHECKPOINT</span><h1>Frequency and habits — chapter checkpoint</h1><p>{lesson.data.description}</p><p>About {lesson.data.minutes} minutes · Written and audio-gated practice</p></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice">Original practice. Independent Japanese and assessment reviews pending. Listening scores require playable chapter WAVs.</div><div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map((objective:string)=><li>{objective}</li>)}</ul></div><article class="lesson-article foundation-article"><Content /></article><HabitCheckpoint client:load /><div class="foundation-completion"><h2>Complete the checkpoint</h2><p>Completion and assessment attempts are tracked separately.</p><LessonActions client:load lessonId="n5-m03-c04-chk" level="n5" /></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 course</a><a class="btn btn-outline" href="/dashboard/">Progress dashboard</a></div></div><aside class="lesson-side foundation-side"><h2>Study guide</h2><p>Compare positive and negative frequency expressions; cite evidence from Mika's journal and the chapter surveys.</p></aside></div></section>
+</Base>
