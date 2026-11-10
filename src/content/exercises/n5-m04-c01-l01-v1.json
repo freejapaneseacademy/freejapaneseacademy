@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m04-c01-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who welcomes the customers at the start?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The café staff member",
+          "rationale": "Correct. 店員 says いらっしゃいませ, a service welcome."
+        },
+        {
+          "id": "c2",
+          "text": "Aki",
+          "rationale": "Not supported. 店員 says いらっしゃいませ, a service welcome."
+        },
+        {
+          "id": "c3",
+          "text": "Ren",
+          "rationale": "Not supported. 店員 says いらっしゃいませ, a service welcome."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "店員 says いらっしゃいませ, a service welcome."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Why does Aki ask メニューをお願いします?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "To pay the bill",
+          "rationale": "Not supported. メニューをお願いします is Aki's polite request for a menu."
+        },
+        {
+          "id": "c2",
+          "text": "To ask for water",
+          "rationale": "Not supported. メニューをお願いします is Aki's polite request for a menu."
+        },
+        {
+          "id": "c3",
+          "text": "To request the menu",
+          "rationale": "Correct. メニューをお願いします is Aki's polite request for a menu."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "メニューをお願いします is Aki's polite request for a menu."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who asks パンが好きですか?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The server",
+          "rationale": "Not supported. れん asks Aki whether she likes bread."
+        },
+        {
+          "id": "c2",
+          "text": "Ren",
+          "rationale": "Correct. れん asks Aki whether she likes bread."
+        },
+        {
+          "id": "c3",
+          "text": "Aki",
+          "rationale": "Not supported. れん asks Aki whether she likes bread."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "れん asks Aki whether she likes bread."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Aki say she likes?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Bread",
+          "rationale": "Correct. Aki says パンが好きです, even though she chooses rice today."
+        },
+        {
+          "id": "c2",
+          "text": "Coffee",
+          "rationale": "Not supported. Aki says パンが好きです, even though she chooses rice today."
+        },
+        {
+          "id": "c3",
+          "text": "Rice",
+          "rationale": "Not supported. Aki says パンが好きです, even though she chooses rice today."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Aki says パンが好きです, even though she chooses rice today."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What will Aki eat today?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Bread",
+          "rationale": "Not supported. Aki explicitly says 今日はごはんを食べます."
+        },
+        {
+          "id": "c2",
+          "text": "Cake",
+          "rationale": "Not supported. Aki explicitly says 今日はごはんを食べます."
+        },
+        {
+          "id": "c3",
+          "text": "Rice or a rice dish",
+          "rationale": "Correct. Aki explicitly says 今日はごはんを食べます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Aki explicitly says 今日はごはんを食べます."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What will Ren eat?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Noodles",
+          "rationale": "Not supported. Ren says わたしはパンを食べます."
+        },
+        {
+          "id": "c2",
+          "text": "Bread",
+          "rationale": "Correct. Ren says わたしはパンを食べます."
+        },
+        {
+          "id": "c3",
+          "text": "Rice",
+          "rationale": "Not supported. Ren says わたしはパンを食べます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Ren says わたしはパンを食べます."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which drink does Aki request?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Tea",
+          "rationale": "Correct. Aki's order is お茶をお願いします."
+        },
+        {
+          "id": "c2",
+          "text": "Coffee",
+          "rationale": "Not supported. Aki's order is お茶をお願いします."
+        },
+        {
+          "id": "c3",
+          "text": "Milk",
+          "rationale": "Not supported. Aki's order is お茶をお願いします."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Aki's order is お茶をお願いします."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which drinks does Ren request?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Tea and water",
+          "rationale": "Not supported. Ren says コーヒーと水をお願いします; と connects both drinks."
+        },
+        {
+          "id": "c2",
+          "text": "Only coffee",
+          "rationale": "Not supported. Ren says コーヒーと水をお願いします; と connects both drinks."
+        },
+        {
+          "id": "c3",
+          "text": "Coffee and water",
+          "rationale": "Correct. Ren says コーヒーと水をお願いします; と connects both drinks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Ren says コーヒーと水をお願いします; と connects both drinks."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence expresses a preference, not an eating action?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ごはんを食べます。",
+          "rationale": "Not supported. 好きです expresses liking; 食べます expresses eating."
+        },
+        {
+          "id": "c2",
+          "text": "パンが好きです。",
+          "rationale": "Correct. 好きです expresses liking; 食べます expresses eating."
+        },
+        {
+          "id": "c3",
+          "text": "パンを食べます。",
+          "rationale": "Not supported. 好きです expresses liking; 食べます expresses eating."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "好きです expresses liking; 食べます expresses eating."
+    },
+    {
+      "id": "ex-n5-m04-c01-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is NOT established by the dialogue?",
+      "objectiveIds": [
+        "n5-m04-c01-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l01-cafe-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Ren likes coffee",
+          "rationale": "Correct. An order does not prove a lasting preference; Ren never says コーヒーが好きです."
+        },
+        {
+          "id": "c2",
+          "text": "Ren orders coffee and water",
+          "rationale": "Not supported. An order does not prove a lasting preference; Ren never says コーヒーが好きです."
+        },
+        {
+          "id": "c3",
+          "text": "Aki likes bread",
+          "rationale": "Not supported. An order does not prove a lasting preference; Ren never says コーヒーが好きです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "An order does not prove a lasting preference; Ren never says コーヒーが好きです."
+    }
+  ]
+}
