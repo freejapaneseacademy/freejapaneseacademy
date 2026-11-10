@@ -1,0 +1,270 @@
+{
+  "lessonId": "n5-m03-c03-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Where did the speaker study yesterday morning?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At the library",
+          "rationale": "Correct. 図書館で means at the library, the place of studying."
+        },
+        {
+          "id": "c2",
+          "text": "At school",
+          "rationale": "Not supported by this speaker's answer. Listen for: 図書館で日本語を勉強しました。"
+        },
+        {
+          "id": "c3",
+          "text": "At the park",
+          "rationale": "Not supported by this speaker's answer. Listen for: 図書館で日本語を勉強しました。"
+        },
+        {
+          "id": "c4",
+          "text": "At home",
+          "rationale": "Not supported by this speaker's answer. Listen for: 図書館で日本語を勉強しました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "図書館で日本語を勉強しました。",
+      "explanation": "図書館で means at the library, the place of studying."
+    },
+    {
+      "id": "ex-n5-m03-c03-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Did the speaker study yesterday afternoon?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, at the library",
+          "rationale": "Not supported by this speaker's answer. Listen for: 午後は勉強しませんでした。"
+        },
+        {
+          "id": "c2",
+          "text": "No, he did not",
+          "rationale": "Correct. ませんでした is the polite past negative: did not study."
+        },
+        {
+          "id": "c3",
+          "text": "Yes, at home",
+          "rationale": "Not supported by this speaker's answer. Listen for: 午後は勉強しませんでした。"
+        },
+        {
+          "id": "c4",
+          "text": "He does not say",
+          "rationale": "Not supported by this speaker's answer. Listen for: 午後は勉強しませんでした。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "午後は勉強しませんでした。",
+      "explanation": "ませんでした is the polite past negative: did not study."
+    },
+    {
+      "id": "ex-n5-m03-c03-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What did the speaker do with a friend?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Went shopping",
+          "rationale": "Not supported by this speaker's answer. Listen for: 友達と映画を見ました。"
+        },
+        {
+          "id": "c2",
+          "text": "Read a book",
+          "rationale": "Not supported by this speaker's answer. Listen for: 友達と映画を見ました。"
+        },
+        {
+          "id": "c3",
+          "text": "Watched a movie",
+          "rationale": "Correct. 友達と means with a friend; 映画を見ました means watched a movie."
+        },
+        {
+          "id": "c4",
+          "text": "Studied Japanese",
+          "rationale": "Not supported by this speaker's answer. Listen for: 友達と映画を見ました。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "友達と映画を見ました。",
+      "explanation": "友達と means with a friend; 映画を見ました means watched a movie."
+    },
+    {
+      "id": "ex-n5-m03-c03-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "When will the speaker go to the park?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yesterday evening",
+          "rationale": "Not supported by this speaker's answer. Listen for: 明日の朝、九時に公園へ行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "Tomorrow at noon",
+          "rationale": "Not supported by this speaker's answer. Listen for: 明日の朝、九時に公園へ行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "Tomorrow morning at nine",
+          "rationale": "Correct. 明日の朝 is tomorrow morning, and 九時に means at nine."
+        },
+        {
+          "id": "c4",
+          "text": "Next week at nine",
+          "rationale": "Not supported by this speaker's answer. Listen for: 明日の朝、九時に公園へ行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "明日の朝、九時に公園へ行きます。",
+      "explanation": "明日の朝 is tomorrow morning, and 九時に means at nine."
+    },
+    {
+      "id": "ex-n5-m03-c03-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Will the speaker go shopping in the afternoon?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, at nine",
+          "rationale": "Not supported by this speaker's answer. Listen for: 買い物はしません。"
+        },
+        {
+          "id": "c2",
+          "text": "No, she will not",
+          "rationale": "Correct. しません is a polite nonpast negative; here it refers to tomorrow's plan."
+        },
+        {
+          "id": "c3",
+          "text": "Yes, after reading",
+          "rationale": "Not supported by this speaker's answer. Listen for: 買い物はしません。"
+        },
+        {
+          "id": "c4",
+          "text": "The question is not answered",
+          "rationale": "Not supported by this speaker's answer. Listen for: 買い物はしません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "買い物はしません。",
+      "explanation": "しません is a polite nonpast negative; here it refers to tomorrow's plan."
+    },
+    {
+      "id": "ex-n5-m03-c03-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where will the speaker read in the afternoon?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At the park",
+          "rationale": "Not supported by this speaker's answer. Listen for: 午後は家で本を読みます。"
+        },
+        {
+          "id": "c2",
+          "text": "At the library",
+          "rationale": "Not supported by this speaker's answer. Listen for: 午後は家で本を読みます。"
+        },
+        {
+          "id": "c3",
+          "text": "At school",
+          "rationale": "Not supported by this speaker's answer. Listen for: 午後は家で本を読みます。"
+        },
+        {
+          "id": "c4",
+          "text": "At home",
+          "rationale": "Correct. 家で marks home as the place of reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "午後は家で本を読みます。",
+      "explanation": "家で marks home as the place of reading."
+    }
+  ]
+}
