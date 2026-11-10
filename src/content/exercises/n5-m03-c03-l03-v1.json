@@ -1,0 +1,534 @@
+{
+  "lessonId": "n5-m03-c03-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which ending means polite past affirmative?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ます",
+          "rationale": "Review this choice. The completed affirmative ending is ました. Evidence: 勉強しました"
+        },
+        {
+          "id": "c2",
+          "text": "ません",
+          "rationale": "Review this choice. The completed affirmative ending is ました. Evidence: 勉強しました"
+        },
+        {
+          "id": "c3",
+          "text": "ました",
+          "rationale": "Correct. The completed affirmative ending is ました. Evidence: 勉強しました"
+        },
+        {
+          "id": "c4",
+          "text": "ませんでした",
+          "rationale": "Review this choice. The completed affirmative ending is ました. Evidence: 勉強しました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The completed affirmative ending is ました.",
+      "evidence": "勉強しました"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which form means 'did not drink'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飲みます",
+          "rationale": "Review this choice. 飲みませんでした is polite past negative. Evidence: 飲みませんでした"
+        },
+        {
+          "id": "c2",
+          "text": "飲みません",
+          "rationale": "Review this choice. 飲みませんでした is polite past negative. Evidence: 飲みませんでした"
+        },
+        {
+          "id": "c3",
+          "text": "飲みました",
+          "rationale": "Review this choice. 飲みませんでした is polite past negative. Evidence: 飲みませんでした"
+        },
+        {
+          "id": "c4",
+          "text": "飲みませんでした",
+          "rationale": "Correct. 飲みませんでした is polite past negative. Evidence: 飲みませんでした"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "飲みませんでした is polite past negative.",
+      "evidence": "飲みませんでした"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Complete a report of yesterday: 昨日、本を___。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "読みます",
+          "rationale": "Review this choice. Yesterday's completed reading takes 読みました. Evidence: 昨日、本を読みました"
+        },
+        {
+          "id": "c2",
+          "text": "読みません",
+          "rationale": "Review this choice. Yesterday's completed reading takes 読みました. Evidence: 昨日、本を読みました"
+        },
+        {
+          "id": "c3",
+          "text": "読みました",
+          "rationale": "Correct. Yesterday's completed reading takes 読みました. Evidence: 昨日、本を読みました"
+        },
+        {
+          "id": "c4",
+          "text": "読みませんでした",
+          "rationale": "Review this choice. Yesterday's completed reading takes 読みました. Evidence: 昨日、本を読みました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Yesterday's completed reading takes 読みました.",
+      "evidence": "昨日、本を読みました"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which sentence is a tomorrow plan?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日、公園に行きました。",
+          "rationale": "Review this choice. 明日 with nonpast 行きます expresses a future plan. Evidence: 明日、公園に行きます"
+        },
+        {
+          "id": "c2",
+          "text": "明日、公園に行きます。",
+          "rationale": "Correct. 明日 with nonpast 行きます expresses a future plan. Evidence: 明日、公園に行きます"
+        },
+        {
+          "id": "c3",
+          "text": "明日、公園に行きました。",
+          "rationale": "Review this choice. 明日 with nonpast 行きます expresses a future plan. Evidence: 明日、公園に行きます"
+        },
+        {
+          "id": "c4",
+          "text": "昨日、公園に行きませんでした。",
+          "rationale": "Review this choice. 明日 with nonpast 行きます expresses a future plan. Evidence: 明日、公園に行きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "明日 with nonpast 行きます expresses a future plan.",
+      "evidence": "明日、公園に行きます"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which expression ordinarily appears without time に?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "七時",
+          "rationale": "Review this choice. Relative time 先週 normally takes no time に. Evidence: 先週、勉強しました"
+        },
+        {
+          "id": "c2",
+          "text": "八時半",
+          "rationale": "Review this choice. Relative time 先週 normally takes no time に. Evidence: 先週、勉強しました"
+        },
+        {
+          "id": "c3",
+          "text": "先週",
+          "rationale": "Correct. Relative time 先週 normally takes no time に. Evidence: 先週、勉強しました"
+        },
+        {
+          "id": "c4",
+          "text": "九時",
+          "rationale": "Review this choice. Relative time 先週 normally takes no time に. Evidence: 先週、勉強しました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Relative time 先週 normally takes no time に.",
+      "evidence": "先週、勉強しました"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which is the correct clock-time particle?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "七時を起きました。",
+          "rationale": "Review this choice. Specific clock time 七時 takes に. Evidence: 七時に起きました"
+        },
+        {
+          "id": "c2",
+          "text": "七時で起きました。",
+          "rationale": "Review this choice. Specific clock time 七時 takes に. Evidence: 七時に起きました"
+        },
+        {
+          "id": "c3",
+          "text": "七時に起きました。",
+          "rationale": "Correct. Specific clock time 七時 takes に. Evidence: 七時に起きました"
+        },
+        {
+          "id": "c4",
+          "text": "七時が起きました。",
+          "rationale": "Review this choice. Specific clock time 七時 takes に. Evidence: 七時に起きました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Specific clock time 七時 takes に.",
+      "evidence": "七時に起きました"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-7"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "When did Emi get up on Monday?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "六時",
+          "rationale": "Review this choice. The Monday note states 朝、七時に起きました. Evidence: 朝、七時に起きました"
+        },
+        {
+          "id": "c2",
+          "text": "七時",
+          "rationale": "Correct. The Monday note states 朝、七時に起きました. Evidence: 朝、七時に起きました"
+        },
+        {
+          "id": "c3",
+          "text": "八時",
+          "rationale": "Review this choice. The Monday note states 朝、七時に起きました. Evidence: 朝、七時に起きました"
+        },
+        {
+          "id": "c4",
+          "text": "九時",
+          "rationale": "Review this choice. The Monday note states 朝、七時に起きました. Evidence: 朝、七時に起きました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The Monday note states 朝、七時に起きました.",
+      "evidence": "朝、七時に起きました"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-8"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Where did Emi go on Monday?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園",
+          "rationale": "Review this choice. The Monday note says 八時に学校に行きました. Evidence: 八時に学校に行きました"
+        },
+        {
+          "id": "c2",
+          "text": "図書館",
+          "rationale": "Review this choice. The Monday note says 八時に学校に行きました. Evidence: 八時に学校に行きました"
+        },
+        {
+          "id": "c3",
+          "text": "学校",
+          "rationale": "Correct. The Monday note says 八時に学校に行きました. Evidence: 八時に学校に行きました"
+        },
+        {
+          "id": "c4",
+          "text": "家",
+          "rationale": "Review this choice. The Monday note says 八時に学校に行きました. Evidence: 八時に学校に行きました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The Monday note says 八時に学校に行きました.",
+      "evidence": "八時に学校に行きました"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-9"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What did Emi NOT do Monday night?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日本語を勉強する",
+          "rationale": "Review this choice. The note explicitly says テレビは見ませんでした. Evidence: テレビは見ませんでした"
+        },
+        {
+          "id": "c2",
+          "text": "テレビを見る",
+          "rationale": "Correct. The note explicitly says テレビは見ませんでした. Evidence: テレビは見ませんでした"
+        },
+        {
+          "id": "c3",
+          "text": "本を読む",
+          "rationale": "Review this choice. The note explicitly says テレビは見ませんでした. Evidence: テレビは見ませんでした"
+        },
+        {
+          "id": "c4",
+          "text": "料理をする",
+          "rationale": "Review this choice. The note explicitly says テレビは見ませんでした. Evidence: テレビは見ませんでした"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The note explicitly says テレビは見ませんでした.",
+      "evidence": "テレビは見ませんでした"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-10"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What will Emi do Tuesday afternoon?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園に行く",
+          "rationale": "Review this choice. Tuesday afternoon says 図書館で本を読みます. Evidence: 午後、図書館で本を読みます"
+        },
+        {
+          "id": "c2",
+          "text": "映画を見る",
+          "rationale": "Review this choice. Tuesday afternoon says 図書館で本を読みます. Evidence: 午後、図書館で本を読みます"
+        },
+        {
+          "id": "c3",
+          "text": "学校に行く",
+          "rationale": "Review this choice. Tuesday afternoon says 図書館で本を読みます. Evidence: 午後、図書館で本を読みます"
+        },
+        {
+          "id": "c4",
+          "text": "図書館で本を読む",
+          "rationale": "Correct. Tuesday afternoon says 図書館で本を読みます. Evidence: 午後、図書館で本を読みます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "Tuesday afternoon says 図書館で本を読みます.",
+      "evidence": "午後、図書館で本を読みます"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-11"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Where does Emi plan to go Wednesday morning?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校",
+          "rationale": "Review this choice. Wednesday morning includes 友だちと公園に行きます. Evidence: 朝、友だちと公園に行きます"
+        },
+        {
+          "id": "c2",
+          "text": "公園",
+          "rationale": "Correct. Wednesday morning includes 友だちと公園に行きます. Evidence: 朝、友だちと公園に行きます"
+        },
+        {
+          "id": "c3",
+          "text": "図書館",
+          "rationale": "Review this choice. Wednesday morning includes 友だちと公園に行きます. Evidence: 朝、友だちと公園に行きます"
+        },
+        {
+          "id": "c4",
+          "text": "店",
+          "rationale": "Review this choice. Wednesday morning includes 友だちと公園に行きます. Evidence: 朝、友だちと公園に行きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Wednesday morning includes 友だちと公園に行きます.",
+      "evidence": "朝、友だちと公園に行きます"
+    },
+    {
+      "id": "ex-n5-m03-c03-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l03-pattern-12"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Emi plan NOT to watch Wednesday night?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "テレビ",
+          "rationale": "Review this choice. The Wednesday note ends 映画は見ません. Evidence: 映画は見ません"
+        },
+        {
+          "id": "c2",
+          "text": "ニュース",
+          "rationale": "Review this choice. The Wednesday note ends 映画は見ません. Evidence: 映画は見ません"
+        },
+        {
+          "id": "c3",
+          "text": "映画",
+          "rationale": "Correct. The Wednesday note ends 映画は見ません. Evidence: 映画は見ません"
+        },
+        {
+          "id": "c4",
+          "text": "アニメ",
+          "rationale": "Review this choice. The Wednesday note ends 映画は見ません. Evidence: 映画は見ません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The Wednesday note ends 映画は見ません.",
+      "evidence": "映画は見ません"
+    }
+  ]
+}
