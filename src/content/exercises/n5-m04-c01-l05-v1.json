@@ -1,0 +1,510 @@
+{
+  "lessonId": "n5-m04-c01-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is in the bread set?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "パンと卵",
+          "rationale": "Correct. Evidence: パンと卵"
+        },
+        {
+          "id": "c2",
+          "text": "パンと魚",
+          "rationale": "Not correct. Evidence: パンと卵"
+        },
+        {
+          "id": "c3",
+          "text": "パンとお茶",
+          "rationale": "Not correct. Evidence: パンと卵"
+        },
+        {
+          "id": "c4",
+          "text": "魚とごはん",
+          "rationale": "Not correct. Evidence: パンと卵"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: パンと卵"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How much is the fish set?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "500円",
+          "rationale": "Not correct. Evidence: 魚セット 600円"
+        },
+        {
+          "id": "c2",
+          "text": "300円",
+          "rationale": "Not correct. Evidence: 魚セット 600円"
+        },
+        {
+          "id": "c3",
+          "text": "200円",
+          "rationale": "Not correct. Evidence: 魚セット 600円"
+        },
+        {
+          "id": "c4",
+          "text": "600円",
+          "rationale": "Correct. Evidence: 魚セット 600円"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "Evidence: 魚セット 600円"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which item costs 200円?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "牛乳",
+          "rationale": "Not correct. Evidence: お茶 200円"
+        },
+        {
+          "id": "c2",
+          "text": "魚セット",
+          "rationale": "Not correct. Evidence: お茶 200円"
+        },
+        {
+          "id": "c3",
+          "text": "お茶",
+          "rationale": "Correct. Evidence: お茶 200円"
+        },
+        {
+          "id": "c4",
+          "text": "水",
+          "rationale": "Not correct. Evidence: お茶 200円"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: お茶 200円"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which item costs 100円?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "パンセット",
+          "rationale": "Not correct. Evidence: 水 100円"
+        },
+        {
+          "id": "c2",
+          "text": "水",
+          "rationale": "Correct. Evidence: 水 100円"
+        },
+        {
+          "id": "c3",
+          "text": "お茶",
+          "rationale": "Not correct. Evidence: 水 100円"
+        },
+        {
+          "id": "c4",
+          "text": "牛乳",
+          "rationale": "Not correct. Evidence: 水 100円"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 水 100円"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which set contains rice?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "魚セット",
+          "rationale": "Correct. Evidence: 魚とごはん"
+        },
+        {
+          "id": "c2",
+          "text": "パンセット",
+          "rationale": "Not correct. Evidence: 魚とごはん"
+        },
+        {
+          "id": "c3",
+          "text": "お茶",
+          "rationale": "Not correct. Evidence: 魚とごはん"
+        },
+        {
+          "id": "c4",
+          "text": "牛乳",
+          "rationale": "Not correct. Evidence: 魚とごはん"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 魚とごはん"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which food accompanies the egg?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "魚",
+          "rationale": "Not correct. Evidence: パンと卵"
+        },
+        {
+          "id": "c2",
+          "text": "水",
+          "rationale": "Not correct. Evidence: パンと卵"
+        },
+        {
+          "id": "c3",
+          "text": "牛乳",
+          "rationale": "Not correct. Evidence: パンと卵"
+        },
+        {
+          "id": "c4",
+          "text": "パン",
+          "rationale": "Correct. Evidence: パンと卵"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "Evidence: パンと卵"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is not included with a set?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ごはん",
+          "rationale": "Not correct. Evidence: セットに飲み物はついていません"
+        },
+        {
+          "id": "c2",
+          "text": "魚",
+          "rationale": "Not correct. Evidence: セットに飲み物はついていません"
+        },
+        {
+          "id": "c3",
+          "text": "飲み物",
+          "rationale": "Correct. Evidence: セットに飲み物はついていません"
+        },
+        {
+          "id": "c4",
+          "text": "卵",
+          "rationale": "Not correct. Evidence: セットに飲み物はついていません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: セットに飲み物はついていません"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which drink is unavailable today?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "牛乳",
+          "rationale": "Not correct. Evidence: 今日はコーヒーがありません"
+        },
+        {
+          "id": "c2",
+          "text": "コーヒー",
+          "rationale": "Correct. Evidence: 今日はコーヒーがありません"
+        },
+        {
+          "id": "c3",
+          "text": "お茶",
+          "rationale": "Not correct. Evidence: 今日はコーヒーがありません"
+        },
+        {
+          "id": "c4",
+          "text": "水",
+          "rationale": "Not correct. Evidence: 今日はコーヒーがありません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 今日はコーヒーがありません"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What will Yui eat today?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "パンセット",
+          "rationale": "Correct. Evidence: 今日はパンセットを食べます"
+        },
+        {
+          "id": "c2",
+          "text": "魚セット",
+          "rationale": "Not correct. Evidence: 今日はパンセットを食べます"
+        },
+        {
+          "id": "c3",
+          "text": "牛乳",
+          "rationale": "Not correct. Evidence: 今日はパンセットを食べます"
+        },
+        {
+          "id": "c4",
+          "text": "お茶",
+          "rationale": "Not correct. Evidence: 今日はパンセットを食べます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 今日はパンセットを食べます"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What drink does Yui choose?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水",
+          "rationale": "Not correct. Evidence: 飲み物はお茶にします"
+        },
+        {
+          "id": "c2",
+          "text": "牛乳",
+          "rationale": "Not correct. Evidence: 飲み物はお茶にします"
+        },
+        {
+          "id": "c3",
+          "text": "コーヒー",
+          "rationale": "Not correct. Evidence: 飲み物はお茶にします"
+        },
+        {
+          "id": "c4",
+          "text": "お茶",
+          "rationale": "Correct. Evidence: 飲み物はお茶にします"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "Evidence: 飲み物はお茶にします"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Does Yui like fish?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "She eats the fish set today.",
+          "rationale": "Not correct. Evidence: 魚も好きですが、今日は魚セットを食べません"
+        },
+        {
+          "id": "c2",
+          "text": "Fish is not mentioned.",
+          "rationale": "Not correct. Evidence: 魚も好きですが、今日は魚セットを食べません"
+        },
+        {
+          "id": "c3",
+          "text": "Yes, but she is not eating the fish set today.",
+          "rationale": "Correct. Evidence: 魚も好きですが、今日は魚セットを食べません"
+        },
+        {
+          "id": "c4",
+          "text": "No, she dislikes fish.",
+          "rationale": "Not correct. Evidence: 魚も好きですが、今日は魚セットを食べません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 魚も好きですが、今日は魚セットを食べません"
+    },
+    {
+      "id": "ex-n5-m04-c01-l05-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How much for a bread set plus separate tea?",
+      "objectiveIds": [
+        "n5-m04-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l05-menu"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "800円",
+          "rationale": "Not correct. Evidence: パンセット 500円 / お茶 200円 / セットに飲み物はついていません"
+        },
+        {
+          "id": "c2",
+          "text": "700円",
+          "rationale": "Correct. Evidence: パンセット 500円 / お茶 200円 / セットに飲み物はついていません"
+        },
+        {
+          "id": "c3",
+          "text": "500円",
+          "rationale": "Not correct. Evidence: パンセット 500円 / お茶 200円 / セットに飲み物はついていません"
+        },
+        {
+          "id": "c4",
+          "text": "600円",
+          "rationale": "Not correct. Evidence: パンセット 500円 / お茶 200円 / セットに飲み物はついていません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: パンセット 500円 / お茶 200円 / セットに飲み物はついていません"
+    }
+  ]
+}
