@@ -3068,6 +3068,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses original L06 AivisSpeech recordings; WAV, rights and playback verification required before release",
       "noindex": false
+    },
+    {
+      "id": "l0-m05-c04-chk",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c04",
+      "slot": "CHK",
+      "title": "Foundation checkpoint: read, correct and plan",
+      "content": "src/content/lessons/l0/foundation-chapter-checkpoint.mdx",
+      "url": "/learn/start/module-05/chapter-04/checkpoint/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "no new audio; L06 listening prerequisite must pass authentic audio checks",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
