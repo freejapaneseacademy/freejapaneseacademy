@@ -1,0 +1,458 @@
+{
+  "id": "n5-m04-c03-chk",
+  "lessonId": "n5-m04-c03-chk",
+  "version": 1,
+  "status": "internally-checked",
+  "source": "Original academy fictional product reviews and adjective examples; written checkpoint only; audio not scored",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-chk-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-grammar-01"
+      ],
+      "prompt": "Which is the polite negative of おいしいです?",
+      "explanation": "The final い changes to く before ない; おいしい → おいしくない.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-01-c1",
+          "text": "おいしくないです。",
+          "rationale": "Correct. The final い changes to く before ない; おいしい → おいしくない."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-01-c2",
+          "text": "おいしいじゃありません。",
+          "rationale": "Review the form or quoted evidence. The final い changes to く before ない; おいしい → おいしくない."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-01-c3",
+          "text": "おいしいくないです。",
+          "rationale": "Review the form or quoted evidence. The final い changes to く before ない; おいしい → おいしくない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-grammar-02"
+      ],
+      "prompt": "Which is the polite negative of 静かです?",
+      "explanation": "な-adjectives take じゃありません in the polite negative predicate; do not attach くない.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-02-c1",
+          "text": "静かくないです。",
+          "rationale": "Review the form or quoted evidence. な-adjectives take じゃありません in the polite negative predicate; do not attach くない."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-02-c2",
+          "text": "静かなじゃありません。",
+          "rationale": "Review the form or quoted evidence. な-adjectives take じゃありません in the polite negative predicate; do not attach くない."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-02-c3",
+          "text": "静かじゃありません。",
+          "rationale": "Correct. な-adjectives take じゃありません in the polite negative predicate; do not attach くない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-grammar-03"
+      ],
+      "prompt": "Which noun phrase means 'a quiet café'?",
+      "explanation": "A な-adjective needs な immediately before a noun.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-03-c1",
+          "text": "静かですカフェ",
+          "rationale": "Review the form or quoted evidence. A な-adjective needs な immediately before a noun."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-03-c2",
+          "text": "静かなカフェ",
+          "rationale": "Correct. A な-adjective needs な immediately before a noun."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-03-c3",
+          "text": "静かいカフェ",
+          "rationale": "Review the form or quoted evidence. A な-adjective needs な immediately before a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-grammar-04"
+      ],
+      "prompt": "Which noun phrase means 'a delicious cake'?",
+      "explanation": "い-adjectives modify nouns directly without な.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-04-c1",
+          "text": "おいしいケーキ",
+          "rationale": "Correct. い-adjectives modify nouns directly without な."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-04-c2",
+          "text": "おいしいなケーキ",
+          "rationale": "Review the form or quoted evidence. い-adjectives modify nouns directly without な."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-04-c3",
+          "text": "おいしくケーキ",
+          "rationale": "Review the form or quoted evidence. い-adjectives modify nouns directly without な."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-grammar-05"
+      ],
+      "prompt": "Choose the natural polite negative of いいです.",
+      "explanation": "いい has the irregular negative よくない.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-05-c1",
+          "text": "いいくないです。",
+          "rationale": "Review the form or quoted evidence. いい has the irregular negative よくない."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-05-c2",
+          "text": "いいじゃありません。",
+          "rationale": "Review the form or quoted evidence. いい has the irregular negative よくない."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-05-c3",
+          "text": "よくないです。",
+          "rationale": "Correct. いい has the irregular negative よくない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-vocabulary-06"
+      ],
+      "prompt": "Which word means 'clean/beautiful' and belongs to the な-adjective group?",
+      "explanation": "Despite ending in the kana い, きれい is a な-adjective.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-06-c1",
+          "text": "新しい",
+          "rationale": "Review the form or quoted evidence. Despite ending in the kana い, きれい is a な-adjective."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-06-c2",
+          "text": "きれい",
+          "rationale": "Correct. Despite ending in the kana い, きれい is a な-adjective."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-06-c3",
+          "text": "おいしい",
+          "rationale": "Review the form or quoted evidence. Despite ending in the kana い, きれい is a な-adjective."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-reading-07"
+      ],
+      "prompt": "Read the review: このケーキは甘いです。でも、高くないです。 Which is supported?",
+      "explanation": "甘いです means sweet; 高くないです means not expensive.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-07-c1",
+          "text": "The cake is sweet and not expensive.",
+          "rationale": "Correct. 甘いです means sweet; 高くないです means not expensive."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-07-c2",
+          "text": "The cake is not sweet and expensive.",
+          "rationale": "Review the form or quoted evidence. 甘いです means sweet; 高くないです means not expensive."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-07-c3",
+          "text": "The cake is sweet and expensive.",
+          "rationale": "Review the form or quoted evidence. 甘いです means sweet; 高くないです means not expensive."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-reading-08"
+      ],
+      "prompt": "Read: この店は静かです。駅の近くです。 What is stated?",
+      "explanation": "静かです identifies quiet; 駅の近く identifies near the station.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-08-c1",
+          "text": "The shop is noisy and far from the station.",
+          "rationale": "Review the form or quoted evidence. 静かです identifies quiet; 駅の近く identifies near the station."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-08-c2",
+          "text": "The shop is new and near the station.",
+          "rationale": "Review the form or quoted evidence. 静かです identifies quiet; 駅の近く identifies near the station."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-08-c3",
+          "text": "The shop is quiet and near the station.",
+          "rationale": "Correct. 静かです identifies quiet; 駅の近く identifies near the station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-reading-09"
+      ],
+      "prompt": "Read: 赤いかばんは大きいです。青いかばんは小さいです。 Which bag is small?",
+      "explanation": "青いかばんは小さいです explicitly describes the blue bag as small.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-09-c1",
+          "text": "Both bags.",
+          "rationale": "Review the form or quoted evidence. 青いかばんは小さいです explicitly describes the blue bag as small."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-09-c2",
+          "text": "The blue bag.",
+          "rationale": "Correct. 青いかばんは小さいです explicitly describes the blue bag as small."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-09-c3",
+          "text": "The red bag.",
+          "rationale": "Review the form or quoted evidence. 青いかばんは小さいです explicitly describes the blue bag as small."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-reading-10"
+      ],
+      "prompt": "Read: このノートは安いです。でも、古いです。 What is the drawback?",
+      "explanation": "古いです states old; 安いです states inexpensive.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-10-c1",
+          "text": "It is old.",
+          "rationale": "Correct. 古いです states old; 安いです states inexpensive."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-10-c2",
+          "text": "It is expensive.",
+          "rationale": "Review the form or quoted evidence. 古いです states old; 安いです states inexpensive."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-10-c3",
+          "text": "It is large.",
+          "rationale": "Review the form or quoted evidence. 古いです states old; 安いです states inexpensive."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-grammar-11"
+      ],
+      "prompt": "Which sentence correctly says 'This café is not lively'?",
+      "explanation": "にぎやか is a な-adjective; the negative predicate is にぎやかじゃありません.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-11-c1",
+          "text": "このカフェはにぎやかくないです。",
+          "rationale": "Review the form or quoted evidence. にぎやか is a な-adjective; the negative predicate is にぎやかじゃありません."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-11-c2",
+          "text": "このカフェはにぎやかなじゃありません。",
+          "rationale": "Review the form or quoted evidence. にぎやか is a な-adjective; the negative predicate is にぎやかじゃありません."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-11-c3",
+          "text": "このカフェはにぎやかじゃありません。",
+          "rationale": "Correct. にぎやか is a な-adjective; the negative predicate is にぎやかじゃありません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-chk-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-chk-reading-12"
+      ],
+      "prompt": "A friend says: このパンはおいしいです。でも、少し高いです。 What is the balanced evaluation?",
+      "explanation": "でも signals contrast: おいしい is tasty, 少し高い is a little expensive.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-chk-12-c1",
+          "text": "Not tasty, but inexpensive.",
+          "rationale": "Review the form or quoted evidence. でも signals contrast: おいしい is tasty, 少し高い is a little expensive."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-12-c2",
+          "text": "Tasty, but a little expensive.",
+          "rationale": "Correct. でも signals contrast: おいしい is tasty, 少し高い is a little expensive."
+        },
+        {
+          "id": "ex-n5-m04-c03-chk-12-c3",
+          "text": "Tasty and inexpensive.",
+          "rationale": "Review the form or quoted evidence. でも signals contrast: おいしい is tasty, 少し高い is a little expensive."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-chk-12-c2"
+      }
+    }
+  ]
+}
