@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m04-c02-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l08-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "Which is a polite question about the price of this blue notebook?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "この青いノートは、いくらですか。",
+          "rationale": "Correct. The notebook is the topic marked by は, followed by いくらですか."
+        },
+        {
+          "id": "b",
+          "text": "この青いノートを、いくらですか。",
+          "rationale": "This choice does not fit the meaning or form required. The notebook is the topic marked by は, followed by いくらですか."
+        },
+        {
+          "id": "c",
+          "text": "この青いノートが、ください。",
+          "rationale": "This choice does not fit the meaning or form required. The notebook is the topic marked by は, followed by いくらですか."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The notebook is the topic marked by は, followed by いくらですか."
+    },
+    {
+      "id": "ex-n5-m04-c02-l08-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "How do you ask for one notebook?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ノートが一冊ください。",
+          "rationale": "This choice does not fit the meaning or form required. を marks the requested notebook, and 冊 counts bound notebooks."
+        },
+        {
+          "id": "b",
+          "text": "ノートを一冊ください。",
+          "rationale": "Correct. を marks the requested notebook, and 冊 counts bound notebooks."
+        },
+        {
+          "id": "c",
+          "text": "ノートを一枚ください。",
+          "rationale": "This choice does not fit the meaning or form required. を marks the requested notebook, and 冊 counts bound notebooks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "を marks the requested notebook, and 冊 counts bound notebooks."
+    },
+    {
+      "id": "ex-n5-m04-c02-l08-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "Which counter fits five sheets of paper?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "五冊（ごさつ）",
+          "rationale": "This choice does not fit the meaning or form required. 枚 counts thin flat sheets of paper."
+        },
+        {
+          "id": "b",
+          "text": "五本（ごほん）",
+          "rationale": "This choice does not fit the meaning or form required. 枚 counts thin flat sheets of paper."
+        },
+        {
+          "id": "c",
+          "text": "五枚（ごまい）",
+          "rationale": "Correct. 枚 counts thin flat sheets of paper."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "枚 counts thin flat sheets of paper."
+    },
+    {
+      "id": "ex-n5-m04-c02-l08-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "Which phrase means 'The small bag, please'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "小さいかばんをお願いします。",
+          "rationale": "Correct. 小さい describes the small bag; をお願いします requests it."
+        },
+        {
+          "id": "b",
+          "text": "小さいかばんはいくらですか。",
+          "rationale": "This choice does not fit the meaning or form required. 小さい describes the small bag; をお願いします requests it."
+        },
+        {
+          "id": "c",
+          "text": "大きいかばんをお願いします。",
+          "rationale": "This choice does not fit the meaning or form required. 小さい describes the small bag; をお願いします requests it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "小さい describes the small bag; をお願いします requests it."
+    },
+    {
+      "id": "ex-n5-m04-c02-l08-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "What does 一冊150円です mean in the model?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two notebooks cost ¥150.",
+          "rationale": "This choice does not fit the meaning or form required. 一冊 is one bound notebook; 150円です states the unit price."
+        },
+        {
+          "id": "b",
+          "text": "One notebook costs ¥150.",
+          "rationale": "Correct. 一冊 is one bound notebook; 150円です states the unit price."
+        },
+        {
+          "id": "c",
+          "text": "One sheet costs ¥150.",
+          "rationale": "This choice does not fit the meaning or form required. 一冊 is one bound notebook; 150円です states the unit price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "一冊 is one bound notebook; 150円です states the unit price."
+    },
+    {
+      "id": "ex-n5-m04-c02-l08-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "What is the correct reading of 三本 for three pencils?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "さんほん",
+          "rationale": "This choice does not fit the meaning or form required. The 本 counter changes to ぼん after 三: さんぼん."
+        },
+        {
+          "id": "b",
+          "text": "みほん",
+          "rationale": "This choice does not fit the meaning or form required. The 本 counter changes to ぼん after 三: さんぼん."
+        },
+        {
+          "id": "c",
+          "text": "さんぼん",
+          "rationale": "Correct. The 本 counter changes to ぼん after 三: さんぼん."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The 本 counter changes to ぼん after 三: さんぼん."
+    },
+    {
+      "id": "ex-n5-m04-c02-l08-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "Which is a polite request for three pencils?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "えんぴつを三本ください。",
+          "rationale": "Correct. えんぴつ takes 本 and をください requests the item."
+        },
+        {
+          "id": "b",
+          "text": "えんぴつを三枚ください。",
+          "rationale": "This choice does not fit the meaning or form required. えんぴつ takes 本 and をください requests the item."
+        },
+        {
+          "id": "c",
+          "text": "えんぴつは三本いくらですか。",
+          "rationale": "This choice does not fit the meaning or form required. えんぴつ takes 本 and をください requests the item."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "えんぴつ takes 本 and をください requests the item."
+    },
+    {
+      "id": "ex-n5-m04-c02-l08-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l08-speaking-preparation"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l08-shopping-request"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "prompt": "Which reply naturally answers 「赤いノートは、いくらですか。」?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "赤いノートを一冊ください。",
+          "rationale": "This choice does not fit the meaning or form required. A price question expects a price such as 一冊180円です."
+        },
+        {
+          "id": "b",
+          "text": "一冊180円です。",
+          "rationale": "Correct. A price question expects a price such as 一冊180円です."
+        },
+        {
+          "id": "c",
+          "text": "赤いノートが好きです。",
+          "rationale": "This choice does not fit the meaning or form required. A price question expects a price such as 一冊180円です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "A price question expects a price such as 一冊180円です."
+    }
+  ]
+}
