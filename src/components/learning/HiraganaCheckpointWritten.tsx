@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { recordAttempt } from '../../lib/progress';
 import bank from '../../content/exercises/l0-m02-c01-chk-written-v1.json';
 
@@ -9,6 +9,8 @@ import bank from '../../content/exercises/l0-m02-c01-chk-written-v1.json';
  */
 export default function HiraganaCheckpointWritten() {
   const questions = bank.items;
+  const [ready, setReady] = useState(false);
+  useEffect(() => setReady(true), []);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
   const [saving, setSaving] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
@@ -16,7 +18,7 @@ export default function HiraganaCheckpointWritten() {
   const complete = questions.every((q) => answers[q.id] !== undefined);
 
   async function submit() {
-    if (!complete || submitted) return;
+    if (!ready || !complete || submitted) return;
     setSubmitted(true);
     setSaving('saving');
     try {
@@ -38,7 +40,7 @@ export default function HiraganaCheckpointWritten() {
       <h2 id="hiragana-checkpoint-written-title" className="text-2xl font-semibold">Kana recognition and reading checkpoint</h2>
       <p>Answer all {questions.length} original questions. This section assesses written recognition, meaning and kana recognition only; it does not measure listening or pronunciation.</p>
       {questions.map((question, index) => (
-        <fieldset key={question.id} disabled={submitted} className="rounded-xl border border-current/20 p-4">
+        <fieldset key={question.id} disabled={!ready || submitted} className="rounded-xl border border-current/20 p-4">
           <legend className="px-1 font-semibold">{index + 1}. {question.prompt}</legend>
           <div className="mt-3 space-y-2">
             {question.options.map((option, optionIndex) => (
@@ -63,7 +65,7 @@ export default function HiraganaCheckpointWritten() {
         </fieldset>
       ))}
       {!submitted ? (
-        <button type="button" disabled={!complete} onClick={submit} className="rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50">
+        <button type="button" disabled={!ready || !complete} onClick={submit} className="rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50">
           Check all written answers
         </button>
       ) : (
