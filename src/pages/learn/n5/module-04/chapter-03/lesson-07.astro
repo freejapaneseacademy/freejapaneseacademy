@@ -1,0 +1,22 @@
+---
+import Base from '../../../../../layouts/Base.astro';
+import {getEntry,render} from 'astro:content';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import AdjectiveWritingPractice from '../../../../../components/interactive/AdjectiveWritingPractice';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/adjective-description-writing');
+if(!lesson||lesson.data.lessonId!=='n5-m04-c03-l07')throw new Error('Missing canonical n5-m04-c03-l07 content');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={true}>
+ <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 04 · CHAPTER 03 · LESSON 07</span>
+ <h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="hero-meta"><span>28 minutes</span><span>Writing and typing</span></div></div></section>
+ <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+ <div class="course-notice"><strong>Original Japanese writing lesson.</strong> Fictional café and shop details. Independent Japanese and assessment reviews pending. Free composition is self-reviewed, not automatically graded.</div>
+ <div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+ <article class="lesson-article foundation-article"><Content/></article>
+ <AdjectiveWritingPractice client:load/>
+ <div class="foundation-completion"><h2>Finish this lesson</h2><p>Lesson completion is separate from your quiz score and self-reviewed writing.</p><LessonActions client:load lessonId="n5-m04-c03-l07" level="n5"/></div>
+ <div class="lesson-next"><h3>Keep learning</h3><p>Next: optional speaking and shadowing with descriptions.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div>
+ </div><aside class="lesson-side foundation-side"><span class="eyebrow">WRITING GUIDE</span><h3>Describe food, places and objects</h3><p>い-adjectives: おいしい → おいしくない. な-adjectives: しずかなカフェ / しずかです / しずかじゃないです.</p></aside></div></section>
+</Base>
