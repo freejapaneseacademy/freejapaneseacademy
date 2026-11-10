@@ -1,0 +1,302 @@
+{
+  "lessonId": "n5-m03-c02-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c02-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the morning dialogue, when does B get up?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "七時",
+          "rationale": "Supported by 「七時に起きます。」."
+        },
+        {
+          "id": "c2",
+          "text": "八時",
+          "rationale": "Not supported by 「七時に起きます。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c3",
+          "text": "十一時",
+          "rationale": "Not supported by 「七時に起きます。」. Check the time, action, particle or polarity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 「七時に起きます。」. 七時 is the supported answer."
+    },
+    {
+      "id": "ex-n5-m03-c02-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Does B eat breakfast?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いいえ、食べません。",
+          "rationale": "Not supported by 「はい、食べます。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c2",
+          "text": "はい、飲みます。",
+          "rationale": "Not supported by 「はい、食べます。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c3",
+          "text": "はい、食べます。",
+          "rationale": "Supported by 「はい、食べます。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 「はい、食べます。」. はい、食べます。 is the supported answer."
+    },
+    {
+      "id": "ex-n5-m03-c02-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is B going at eight?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "家",
+          "rationale": "Not supported by 「はい、八時に行きます。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c2",
+          "text": "学校",
+          "rationale": "Supported by 「はい、八時に行きます。」."
+        },
+        {
+          "id": "c3",
+          "text": "図書館",
+          "rationale": "Not supported by 「はい、八時に行きます。」. Check the time, action, particle or polarity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 「はい、八時に行きます。」. 学校 is the supported answer."
+    },
+    {
+      "id": "ex-n5-m03-c02-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does B study at school?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日本語",
+          "rationale": "Supported by 「学校で日本語を勉強しますか。はい、勉強します。」."
+        },
+        {
+          "id": "c2",
+          "text": "英語",
+          "rationale": "Not supported by 「学校で日本語を勉強しますか。はい、勉強します。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c3",
+          "text": "数学",
+          "rationale": "Not supported by 「学校で日本語を勉強しますか。はい、勉強します。」. Check the time, action, particle or polarity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 「学校で日本語を勉強しますか。はい、勉強します。」. 日本語 is the supported answer."
+    },
+    {
+      "id": "ex-n5-m03-c02-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Does B watch TV at night?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "はい、見ます。",
+          "rationale": "Not supported by 「いいえ、見ません。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c2",
+          "text": "いいえ、行きません。",
+          "rationale": "Not supported by 「いいえ、見ません。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c3",
+          "text": "いいえ、見ません。",
+          "rationale": "Supported by 「いいえ、見ません。」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 「いいえ、見ません。」. いいえ、見ません。 is the supported answer."
+    },
+    {
+      "id": "ex-n5-m03-c02-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does B go to bed?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "九時",
+          "rationale": "Not supported by 「十一時に寝ます。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c2",
+          "text": "十一時",
+          "rationale": "Supported by 「十一時に寝ます。」."
+        },
+        {
+          "id": "c3",
+          "text": "七時",
+          "rationale": "Not supported by 「十一時に寝ます。」. Check the time, action, particle or polarity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 「十一時に寝ます。」. 十一時 is the supported answer."
+    },
+    {
+      "id": "ex-n5-m03-c02-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which particle marks the time in 七時に起きます?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Supported by 「七時に起きます。」."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Not supported by 「七時に起きます。」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c3",
+          "text": "で",
+          "rationale": "Not supported by 「七時に起きます。」. Check the time, action, particle or polarity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 「七時に起きます。」. に is the supported answer."
+    },
+    {
+      "id": "ex-n5-m03-c02-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence politely says 'I don't drink coffee'?",
+      "objectiveIds": [
+        "n5-m03-c02-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c02-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "コーヒーに飲みます。",
+          "rationale": "Not supported by 「飲みません is the polite nonpast negative; を marks the object.」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c2",
+          "text": "コーヒーを飲みます。",
+          "rationale": "Not supported by 「飲みません is the polite nonpast negative; を marks the object.」. Check the time, action, particle or polarity."
+        },
+        {
+          "id": "c3",
+          "text": "コーヒーを飲みません。",
+          "rationale": "Supported by 「飲みません is the polite nonpast negative; を marks the object.」."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 「飲みません is the polite nonpast negative; を marks the object.」. コーヒーを飲みません。 is the supported answer."
+    }
+  ]
+}
