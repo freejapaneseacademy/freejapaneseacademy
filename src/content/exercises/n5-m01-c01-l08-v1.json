@@ -1,0 +1,390 @@
+{
+  "id": "n5-m01-c01-l08",
+  "lessonId": "n5-m01-c01-l08",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original N5 first-meeting speaking lesson and two existing L06 dialogue scripts; written recognition only",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c01-l08-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "Which line politely asks if Tanaka is a teacher?",
+      "options": [
+        "田中さんは先生です。",
+        "田中さんは先生ですか。",
+        "田中さんは先生じゃありません。"
+      ],
+      "correctIndex": 1,
+      "explanation": "The final か makes 田中さんは先生ですか。 a question.",
+      "feedback": "The final か makes 田中さんは先生ですか。 a question.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-01-c1",
+          "text": "田中さんは先生です。",
+          "rationale": "Not this choice. The final か makes 田中さんは先生ですか。 a question."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-01-c2",
+          "text": "田中さんは先生ですか。",
+          "rationale": "The final か makes 田中さんは先生ですか。 a question."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-01-c3",
+          "text": "田中さんは先生じゃありません。",
+          "rationale": "Not this choice. The final か makes 田中さんは先生ですか。 a question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c01-l08-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "In scene A, what does Tanaka confirm?",
+      "options": [
+        "He is a Japanese-language teacher.",
+        "He is a student.",
+        "He is not a teacher."
+      ],
+      "correctIndex": 0,
+      "explanation": "はい。にほんごのせんせいです confirms his occupation.",
+      "feedback": "はい。にほんごのせんせいです confirms his occupation.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-02-c1",
+          "text": "He is a Japanese-language teacher.",
+          "rationale": "はい。にほんごのせんせいです confirms his occupation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-02-c2",
+          "text": "He is a student.",
+          "rationale": "Not this choice. はい。にほんごのせんせいです confirms his occupation."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-02-c3",
+          "text": "He is not a teacher.",
+          "rationale": "Not this choice. はい。にほんごのせんせいです confirms his occupation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-02-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c01-l08-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "Which phrase politely corrects the guess 'teacher'?",
+      "options": [
+        "先生です。",
+        "先生ですか。",
+        "先生じゃありません。"
+      ],
+      "correctIndex": 2,
+      "explanation": "じゃありません makes the noun predicate negative.",
+      "feedback": "じゃありません makes the noun predicate negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-03-c1",
+          "text": "先生です。",
+          "rationale": "Not this choice. じゃありません makes the noun predicate negative."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-03-c2",
+          "text": "先生ですか。",
+          "rationale": "Not this choice. じゃありません makes the noun predicate negative."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-03-c3",
+          "text": "先生じゃありません。",
+          "rationale": "じゃありません makes the noun predicate negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c01-l08-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "What is Lee's occupation in scene B?",
+      "options": [
+        "Teacher",
+        "Student",
+        "Company employee"
+      ],
+      "correctIndex": 1,
+      "explanation": "The reply ends がくせいです after denying せんせい.",
+      "feedback": "The reply ends がくせいです after denying せんせい.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-04-c1",
+          "text": "Teacher",
+          "rationale": "Not this choice. The reply ends がくせいです after denying せんせい."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-04-c2",
+          "text": "Student",
+          "rationale": "The reply ends がくせいです after denying せんせい."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-04-c3",
+          "text": "Company employee",
+          "rationale": "Not this choice. The reply ends がくせいです after denying せんせい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c01-l08-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "Which line is a natural short name question at a registration desk?",
+      "options": [
+        "お名前は？",
+        "学生は？",
+        "日本語の先生です。"
+      ],
+      "correctIndex": 0,
+      "explanation": "お名前は？ is an elliptical request for someone's name.",
+      "feedback": "お名前は？ is an elliptical request for someone's name.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-05-c1",
+          "text": "お名前は？",
+          "rationale": "お名前は？ is an elliptical request for someone's name."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-05-c2",
+          "text": "学生は？",
+          "rationale": "Not this choice. お名前は？ is an elliptical request for someone's name."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-05-c3",
+          "text": "日本語の先生です。",
+          "rationale": "Not this choice. お名前は？ is an elliptical request for someone's name."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c01-l08-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "What does 日本語の先生 mean?",
+      "options": [
+        "A teacher who is Japanese by nationality",
+        "A teacher of Japanese language",
+        "A student from Japan"
+      ],
+      "correctIndex": 1,
+      "explanation": "日本語の先生 identifies the subject taught, not nationality.",
+      "feedback": "日本語の先生 identifies the subject taught, not nationality.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-06-c1",
+          "text": "A teacher who is Japanese by nationality",
+          "rationale": "Not this choice. 日本語の先生 identifies the subject taught, not nationality."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-06-c2",
+          "text": "A teacher of Japanese language",
+          "rationale": "日本語の先生 identifies the subject taught, not nationality."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-06-c3",
+          "text": "A student from Japan",
+          "rationale": "Not this choice. 日本語の先生 identifies the subject taught, not nationality."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c01-l08-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "Which reply answers 学生ですか。 with a clear negative and correction?",
+      "options": [
+        "はい。学生です。",
+        "いいえ。学生です。",
+        "いいえ。学生じゃありません。会社員です。"
+      ],
+      "correctIndex": 2,
+      "explanation": "いいえ plus じゃありません denies student status, then 会社員です gives the replacement.",
+      "feedback": "いいえ plus じゃありません denies student status, then 会社員です gives the replacement.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-07-c1",
+          "text": "はい。学生です。",
+          "rationale": "Not this choice. いいえ plus じゃありません denies student status, then 会社員です gives the replacement."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-07-c2",
+          "text": "いいえ。学生です。",
+          "rationale": "Not this choice. いいえ plus じゃありません denies student status, then 会社員です gives the replacement."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-07-c3",
+          "text": "いいえ。学生じゃありません。会社員です。",
+          "rationale": "いいえ plus じゃありません denies student status, then 会社員です gives the replacement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c01-l08-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "speaking",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c01-l08-interaction"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l08-first-meeting"
+      ],
+      "prompt": "Which line is a suitable polite first-meeting closing?",
+      "options": [
+        "よろしくおねがいします。",
+        "いいえ。",
+        "学生ですか。"
+      ],
+      "correctIndex": 0,
+      "explanation": "よろしくおねがいします is conventional after introductions.",
+      "feedback": "よろしくおねがいします is conventional after introductions.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c01-l08-08-c1",
+          "text": "よろしくおねがいします。",
+          "rationale": "よろしくおねがいします is conventional after introductions."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-08-c2",
+          "text": "いいえ。",
+          "rationale": "Not this choice. よろしくおねがいします is conventional after introductions."
+        },
+        {
+          "id": "ex-n5-m01-c01-l08-08-c3",
+          "text": "学生ですか。",
+          "rationale": "Not this choice. よろしくおねがいします is conventional after introductions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c01-l08-08-c1"
+      }
+    }
+  ]
+}

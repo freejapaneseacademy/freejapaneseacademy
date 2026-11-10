@@ -1,0 +1,424 @@
+{
+  "id": "l0-m05-c03-l02",
+  "lessonId": "l0-m05-c03-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original FreeJapaneseAcademy classroom role and object vocabulary; fictional examples",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c03-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-people"
+      ],
+      "prompt": "In a class introduction, せんせい most naturally refers to…",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-01-c1",
+          "text": "a teacher",
+          "rationale": "せんせい means teacher; it is also a respectful form of address."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-01-c2",
+          "text": "a student",
+          "rationale": "Not in this context. せんせい means teacher; it is also a respectful form of address."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-01-c3",
+          "text": "a notebook",
+          "rationale": "Not in this context. せんせい means teacher; it is also a respectful form of address."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-01-c1"
+      },
+      "explanation": "せんせい means teacher; it is also a respectful form of address.",
+      "feedback": "せんせい means teacher; it is also a respectful form of address."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-people"
+      ],
+      "prompt": "Which Japanese word identifies a student or learner?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-02-c1",
+          "text": "ほん",
+          "rationale": "Not in this context. がくせい means student, especially in an educational setting."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-02-c2",
+          "text": "がくせい",
+          "rationale": "がくせい means student, especially in an educational setting."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-02-c3",
+          "text": "つくえ",
+          "rationale": "Not in this context. がくせい means student, especially in an educational setting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-02-c2"
+      },
+      "explanation": "がくせい means student, especially in an educational setting.",
+      "feedback": "がくせい means student, especially in an educational setting."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-objects"
+      ],
+      "prompt": "Which word refers to a book rather than a desk?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-03-c1",
+          "text": "つくえ",
+          "rationale": "Not in this context. ほん is a book; つくえ is a desk and いす a chair."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-03-c2",
+          "text": "いす",
+          "rationale": "Not in this context. ほん is a book; つくえ is a desk and いす a chair."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-03-c3",
+          "text": "ほん",
+          "rationale": "ほん is a book; つくえ is a desk and いす a chair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-03-c3"
+      },
+      "explanation": "ほん is a book; つくえ is a desk and いす a chair.",
+      "feedback": "ほん is a book; つくえ is a desk and いす a chair."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-objects"
+      ],
+      "prompt": "On a classroom label, つくえ means…",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-04-c1",
+          "text": "desk",
+          "rationale": "つくえ names a desk or table used for work."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-04-c2",
+          "text": "bag",
+          "rationale": "Not in this context. つくえ names a desk or table used for work."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-04-c3",
+          "text": "teacher",
+          "rationale": "Not in this context. つくえ names a desk or table used for work."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-04-c1"
+      },
+      "explanation": "つくえ names a desk or table used for work.",
+      "feedback": "つくえ names a desk or table used for work."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-objects"
+      ],
+      "prompt": "What does かばん identify?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-05-c1",
+          "text": "a chair",
+          "rationale": "Not in this context. かばん is a bag; it does not name a chair or pencil."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-05-c2",
+          "text": "a bag",
+          "rationale": "かばん is a bag; it does not name a chair or pencil."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-05-c3",
+          "text": "a pencil",
+          "rationale": "Not in this context. かばん is a bag; it does not name a chair or pencil."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-05-c2"
+      },
+      "explanation": "かばん is a bag; it does not name a chair or pencil.",
+      "feedback": "かばん is a bag; it does not name a chair or pencil."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-usage"
+      ],
+      "prompt": "Which phrase means 'This is a book' in the model classroom scene?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-06-c1",
+          "text": "これは いすです。",
+          "rationale": "Not in this context. これは ほんです identifies a book. The topic is the object indicated by これ."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-06-c2",
+          "text": "これは せんせいです。",
+          "rationale": "Not in this context. これは ほんです identifies a book. The topic is the object indicated by これ."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-06-c3",
+          "text": "これは ほんです。",
+          "rationale": "これは ほんです identifies a book. The topic is the object indicated by これ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-06-c3"
+      },
+      "explanation": "これは ほんです identifies a book. The topic is the object indicated by これ.",
+      "feedback": "これは ほんです identifies a book. The topic is the object indicated by これ."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-usage"
+      ],
+      "prompt": "A learner says わたしは がくせいです。 Which role do they state?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-07-c1",
+          "text": "student",
+          "rationale": "がくせい describes the speaker's role as a student."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-07-c2",
+          "text": "teacher",
+          "rationale": "Not in this context. がくせい describes the speaker's role as a student."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-07-c3",
+          "text": "book",
+          "rationale": "Not in this context. がくせい describes the speaker's role as a student."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-07-c1"
+      },
+      "explanation": "がくせい describes the speaker's role as a student.",
+      "feedback": "がくせい describes the speaker's role as a student."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-usage"
+      ],
+      "prompt": "Which word means 'this (thing near the speaker)'?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-08-c1",
+          "text": "それ",
+          "rationale": "Not in this context. これ refers to a thing near the speaker; それ and あれ indicate other distances."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-08-c2",
+          "text": "これ",
+          "rationale": "これ refers to a thing near the speaker; それ and あれ indicate other distances."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-08-c3",
+          "text": "あれ",
+          "rationale": "Not in this context. これ refers to a thing near the speaker; それ and あれ indicate other distances."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-08-c2"
+      },
+      "explanation": "これ refers to a thing near the speaker; それ and あれ indicate other distances.",
+      "feedback": "これ refers to a thing near the speaker; それ and あれ indicate other distances."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-usage"
+      ],
+      "prompt": "In これは ペンです, ペン names…",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-09-c1",
+          "text": "a bag",
+          "rationale": "Not in this context. ペン is the katakana loanword for pen."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-09-c2",
+          "text": "a chair",
+          "rationale": "Not in this context. ペン is the katakana loanword for pen."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-09-c3",
+          "text": "a pen",
+          "rationale": "ペン is the katakana loanword for pen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-09-c3"
+      },
+      "explanation": "ペン is the katakana loanword for pen.",
+      "feedback": "ペン is the katakana loanword for pen."
+    },
+    {
+      "id": "ex-l0-m05-c03-l02-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c03-l02-usage"
+      ],
+      "prompt": "Which Japanese word means chair?",
+      "choices": [
+        {
+          "id": "ex-l0-m05-c03-l02-10-c1",
+          "text": "いす",
+          "rationale": "いす means chair; ほん is book and なまえ is name."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-10-c2",
+          "text": "ほん",
+          "rationale": "Not in this context. いす means chair; ほん is book and なまえ is name."
+        },
+        {
+          "id": "ex-l0-m05-c03-l02-10-c3",
+          "text": "なまえ",
+          "rationale": "Not in this context. いす means chair; ほん is book and なまえ is name."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m05-c03-l02-10-c1"
+      },
+      "explanation": "いす means chair; ほん is book and なまえ is name.",
+      "feedback": "いす means chair; ほん is book and なまえ is name."
+    }
+  ]
+}
