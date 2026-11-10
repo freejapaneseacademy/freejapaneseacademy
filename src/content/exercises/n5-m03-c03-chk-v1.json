@@ -1,0 +1,620 @@
+{
+  "id": "n5-m03-c03-chk",
+  "lessonId": "n5-m03-c03-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original Haru calendar note and original N5-M03-C03-L06 schedule conversations; audio required for listening scoring",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-grammar-01"
+      ],
+      "prompt": "Which is the polite past negative of 読みます?",
+      "evidence": "読みませんでした",
+      "explanation": "ませんでした marks an action that did not happen in the past.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-01-c1",
+          "text": "読みませんでした",
+          "rationale": "Correct. ませんでした marks an action that did not happen in the past. Evidence: 読みませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-01-c2",
+          "text": "読みました",
+          "rationale": "Not correct. ませんでした marks an action that did not happen in the past. Evidence: 読みませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-01-c3",
+          "text": "読みません",
+          "rationale": "Not correct. ませんでした marks an action that did not happen in the past. Evidence: 読みませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-01-c4",
+          "text": "読みます",
+          "rationale": "Not correct. ませんでした marks an action that did not happen in the past. Evidence: 読みませんでした"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-grammar-02"
+      ],
+      "prompt": "Complete: 昨日、日本語を勉強____。 (I studied Japanese yesterday.)",
+      "evidence": "昨日、日本語を勉強しました",
+      "explanation": "ました marks an affirmative past action.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-02-c1",
+          "text": "しません",
+          "rationale": "Not correct. ました marks an affirmative past action. Evidence: 昨日、日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-02-c2",
+          "text": "します",
+          "rationale": "Not correct. ました marks an affirmative past action. Evidence: 昨日、日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-02-c3",
+          "text": "しました",
+          "rationale": "Correct. ました marks an affirmative past action. Evidence: 昨日、日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-02-c4",
+          "text": "しませんでした",
+          "rationale": "Not correct. ました marks an affirmative past action. Evidence: 昨日、日本語を勉強しました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-grammar-03"
+      ],
+      "prompt": "Which sentence correctly describes tomorrow's plan?",
+      "evidence": "明日、公園へ行きます",
+      "explanation": "明日 frames nonpast 行きます as a future plan.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-03-c1",
+          "text": "明日、公園へ行きました。",
+          "rationale": "Not correct. 明日 frames nonpast 行きます as a future plan. Evidence: 明日、公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-03-c2",
+          "text": "明日、公園へ行きます。",
+          "rationale": "Correct. 明日 frames nonpast 行きます as a future plan. Evidence: 明日、公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-03-c3",
+          "text": "昨日、公園へ行きます。",
+          "rationale": "Not correct. 明日 frames nonpast 行きます as a future plan. Evidence: 明日、公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-03-c4",
+          "text": "明日、公園へ行きませんでした。",
+          "rationale": "Not correct. 明日 frames nonpast 行きます as a future plan. Evidence: 明日、公園へ行きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-grammar-04"
+      ],
+      "prompt": "Choose the particle for the action location: 図書館___勉強しました。",
+      "evidence": "図書館で勉強しました",
+      "explanation": "で identifies where studying happened.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-04-c1",
+          "text": "へ",
+          "rationale": "Not correct. で identifies where studying happened. Evidence: 図書館で勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-04-c2",
+          "text": "を",
+          "rationale": "Not correct. で identifies where studying happened. Evidence: 図書館で勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-04-c3",
+          "text": "に",
+          "rationale": "Not correct. で identifies where studying happened. Evidence: 図書館で勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-04-c4",
+          "text": "で",
+          "rationale": "Correct. で identifies where studying happened. Evidence: 図書館で勉強しました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-04-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-grammar-05"
+      ],
+      "prompt": "Which expression means yesterday morning?",
+      "evidence": "昨日の朝",
+      "explanation": "昨日 means yesterday; 朝 means morning.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-05-c1",
+          "text": "明日の朝",
+          "rationale": "Not correct. 昨日 means yesterday; 朝 means morning. Evidence: 昨日の朝"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-05-c2",
+          "text": "昨日の朝",
+          "rationale": "Correct. 昨日 means yesterday; 朝 means morning. Evidence: 昨日の朝"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-05-c3",
+          "text": "今日の夜",
+          "rationale": "Not correct. 昨日 means yesterday; 朝 means morning. Evidence: 昨日の朝"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-05-c4",
+          "text": "来週",
+          "rationale": "Not correct. 昨日 means yesterday; 朝 means morning. Evidence: 昨日の朝"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-grammar-06"
+      ],
+      "prompt": "Complete: 昨日、映画を見____。 (I did not watch a movie.)",
+      "evidence": "昨日、映画を見ませんでした",
+      "explanation": "見ませんでした is the polite past negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-06-c1",
+          "text": "ます",
+          "rationale": "Not correct. 見ませんでした is the polite past negative. Evidence: 昨日、映画を見ませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-06-c2",
+          "text": "ました",
+          "rationale": "Not correct. 見ませんでした is the polite past negative. Evidence: 昨日、映画を見ませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-06-c3",
+          "text": "ませんでした",
+          "rationale": "Correct. 見ませんでした is the polite past negative. Evidence: 昨日、映画を見ませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-06-c4",
+          "text": "ません",
+          "rationale": "Not correct. 見ませんでした is the polite past negative. Evidence: 昨日、映画を見ませんでした"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-reading-07"
+      ],
+      "prompt": "Where did Haru go yesterday morning?",
+      "evidence": "朝九時に図書館へ行きました",
+      "explanation": "The note places Haru at the library yesterday morning.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-07-c1",
+          "text": "公園",
+          "rationale": "Not correct. The note places Haru at the library yesterday morning. Evidence: 朝九時に図書館へ行きました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-07-c2",
+          "text": "学校",
+          "rationale": "Not correct. The note places Haru at the library yesterday morning. Evidence: 朝九時に図書館へ行きました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-07-c3",
+          "text": "図書館",
+          "rationale": "Correct. The note places Haru at the library yesterday morning. Evidence: 朝九時に図書館へ行きました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-07-c4",
+          "text": "店",
+          "rationale": "Not correct. The note places Haru at the library yesterday morning. Evidence: 朝九時に図書館へ行きました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-reading-08"
+      ],
+      "prompt": "What did Haru study at the library?",
+      "evidence": "図書館で日本語を勉強しました",
+      "explanation": "The direct object 日本語 identifies the subject studied.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-08-c1",
+          "text": "日本語",
+          "rationale": "Correct. The direct object 日本語 identifies the subject studied. Evidence: 図書館で日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-08-c2",
+          "text": "英語",
+          "rationale": "Not correct. The direct object 日本語 identifies the subject studied. Evidence: 図書館で日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-08-c3",
+          "text": "数学",
+          "rationale": "Not correct. The direct object 日本語 identifies the subject studied. Evidence: 図書館で日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-08-c4",
+          "text": "音楽",
+          "rationale": "Not correct. The direct object 日本語 identifies the subject studied. Evidence: 図書館で日本語を勉強しました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-reading-09"
+      ],
+      "prompt": "What did Haru NOT do yesterday afternoon?",
+      "evidence": "午後は映画を見ませんでした",
+      "explanation": "The negative past ending rules out watching a movie.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-09-c1",
+          "text": "本を読みました",
+          "rationale": "Not correct. The negative past ending rules out watching a movie. Evidence: 午後は映画を見ませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-09-c2",
+          "text": "映画を見ませんでした",
+          "rationale": "Correct. The negative past ending rules out watching a movie. Evidence: 午後は映画を見ませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-09-c3",
+          "text": "公園へ行きます",
+          "rationale": "Not correct. The negative past ending rules out watching a movie. Evidence: 午後は映画を見ませんでした"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-09-c4",
+          "text": "友達と話します",
+          "rationale": "Not correct. The negative past ending rules out watching a movie. Evidence: 午後は映画を見ませんでした"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-reading-10"
+      ],
+      "prompt": "What is Haru's plan for tomorrow morning?",
+      "evidence": "明日は十時に公園へ行きます",
+      "explanation": "Tomorrow's stated destination is the park at ten.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-10-c1",
+          "text": "図書館へ行きます",
+          "rationale": "Not correct. Tomorrow's stated destination is the park at ten. Evidence: 明日は十時に公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-10-c2",
+          "text": "十時に公園へ行きます",
+          "rationale": "Correct. Tomorrow's stated destination is the park at ten. Evidence: 明日は十時に公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-10-c3",
+          "text": "映画を見ます",
+          "rationale": "Not correct. Tomorrow's stated destination is the park at ten. Evidence: 明日は十時に公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-10-c4",
+          "text": "買い物をします",
+          "rationale": "Not correct. Tomorrow's stated destination is the park at ten. Evidence: 明日は十時に公園へ行きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-10-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-listening-11"
+      ],
+      "prompt": "Track A: where did the speaker study yesterday morning?",
+      "evidence": "昨日の朝、図書館で日本語を勉強しました",
+      "explanation": "The recording states that the speaker studied at the library.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-11-c1",
+          "text": "学校",
+          "rationale": "Not correct. The recording states that the speaker studied at the library. Evidence: 昨日の朝、図書館で日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-11-c2",
+          "text": "公園",
+          "rationale": "Not correct. The recording states that the speaker studied at the library. Evidence: 昨日の朝、図書館で日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-11-c3",
+          "text": "図書館",
+          "rationale": "Correct. The recording states that the speaker studied at the library. Evidence: 昨日の朝、図書館で日本語を勉強しました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-11-c4",
+          "text": "家",
+          "rationale": "Not correct. The recording states that the speaker studied at the library. Evidence: 昨日の朝、図書館で日本語を勉強しました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-listening-12"
+      ],
+      "prompt": "Track A: what did the speaker do with a friend?",
+      "evidence": "友達と映画を見ました",
+      "explanation": "The affirmative past sentence identifies watching a movie.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-12-c1",
+          "text": "映画を見ました",
+          "rationale": "Correct. The affirmative past sentence identifies watching a movie. Evidence: 友達と映画を見ました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-12-c2",
+          "text": "買い物をしました",
+          "rationale": "Not correct. The affirmative past sentence identifies watching a movie. Evidence: 友達と映画を見ました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-12-c3",
+          "text": "公園へ行きました",
+          "rationale": "Not correct. The affirmative past sentence identifies watching a movie. Evidence: 友達と映画を見ました"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-12-c4",
+          "text": "勉強しました",
+          "rationale": "Not correct. The affirmative past sentence identifies watching a movie. Evidence: 友達と映画を見ました"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-12-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-listening-13"
+      ],
+      "prompt": "Track B: what time is the park visit?",
+      "evidence": "明日の朝、九時に公園へ行きます",
+      "explanation": "九時に gives the stated time.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-13-c1",
+          "text": "八時",
+          "rationale": "Not correct. 九時に gives the stated time. Evidence: 明日の朝、九時に公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-13-c2",
+          "text": "九時",
+          "rationale": "Correct. 九時に gives the stated time. Evidence: 明日の朝、九時に公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-13-c3",
+          "text": "十時",
+          "rationale": "Not correct. 九時に gives the stated time. Evidence: 明日の朝、九時に公園へ行きます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-13-c4",
+          "text": "午後三時",
+          "rationale": "Not correct. 九時に gives the stated time. Evidence: 明日の朝、九時に公園へ行きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-13-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c03-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m03-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-chk-listening-14"
+      ],
+      "prompt": "Track B: what will the speaker do in the afternoon?",
+      "evidence": "午後は家で本を読みます",
+      "explanation": "The reply rejects shopping and names reading at home.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c03-chk-v1-14-c1",
+          "text": "買い物をします",
+          "rationale": "Not correct. The reply rejects shopping and names reading at home. Evidence: 午後は家で本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-14-c2",
+          "text": "映画を見ます",
+          "rationale": "Not correct. The reply rejects shopping and names reading at home. Evidence: 午後は家で本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-14-c3",
+          "text": "図書館で勉強します",
+          "rationale": "Not correct. The reply rejects shopping and names reading at home. Evidence: 午後は家で本を読みます"
+        },
+        {
+          "id": "ex-n5-m03-c03-chk-v1-14-c4",
+          "text": "家で本を読みます",
+          "rationale": "Correct. The reply rejects shopping and names reading at home. Evidence: 午後は家で本を読みます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c03-chk-v1-14-c4"
+      }
+    }
+  ]
+}
