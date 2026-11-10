@@ -1,0 +1,458 @@
+{
+  "id": "n5-m04-c03-l03",
+  "lessonId": "n5-m04-c03-l03",
+  "version": 1,
+  "status": "internally-checked",
+  "source": "Original academy examples in the adjective grammar lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l03-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-1"
+      ],
+      "prompt": "A friend says the cake is not delicious. Which polite sentence is correct?",
+      "explanation": "おいしい is an い-adjective: remove final い and add くないです.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-01-c1",
+          "text": "このケーキはおいしくないです。",
+          "rationale": "Correct. おいしい is an い-adjective: remove final い and add くないです."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-01-c2",
+          "text": "このケーキはおいしいじゃありません。",
+          "rationale": "Review the adjective family. おいしい is an い-adjective: remove final い and add くないです."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-01-c3",
+          "text": "このケーキはおいしいなです。",
+          "rationale": "Review the adjective family. おいしい is an い-adjective: remove final い and add くないです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-2"
+      ],
+      "prompt": "Choose the natural phrase meaning 'a quiet café'.",
+      "explanation": "静か is a な-adjective, so it needs な before a noun.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-02-c1",
+          "text": "静かカフェ",
+          "rationale": "Review the adjective family. 静か is a な-adjective, so it needs な before a noun."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-02-c2",
+          "text": "静かなカフェ",
+          "rationale": "Correct. 静か is a な-adjective, so it needs な before a noun."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-02-c3",
+          "text": "静かいカフェ",
+          "rationale": "Review the adjective family. 静か is a な-adjective, so it needs な before a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-3"
+      ],
+      "prompt": "Which sentence says 'This bag is not expensive'?",
+      "explanation": "高い → 高くないです is the standard polite negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-03-c1",
+          "text": "このかばんは高いじゃありません。",
+          "rationale": "Review the adjective family. 高い → 高くないです is the standard polite negative."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-03-c2",
+          "text": "このかばんは高くないです。",
+          "rationale": "Correct. 高い → 高くないです is the standard polite negative."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-03-c3",
+          "text": "このかばんは高くです。",
+          "rationale": "Review the adjective family. 高い → 高くないです is the standard polite negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-4"
+      ],
+      "prompt": "Which phrase means 'a clean shop'?",
+      "explanation": "きれい is a な-adjective even though its last kana is い.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-04-c1",
+          "text": "きれいな店",
+          "rationale": "Correct. きれい is a な-adjective even though its last kana is い."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-04-c2",
+          "text": "きれいい店",
+          "rationale": "Review the adjective family. きれい is a な-adjective even though its last kana is い."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-04-c3",
+          "text": "きれい店",
+          "rationale": "Review the adjective family. きれい is a な-adjective even though its last kana is い."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-5"
+      ],
+      "prompt": "A restaurant is not quiet. Choose the polite description.",
+      "explanation": "静か is a な-adjective, so use じゃありません.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-05-c1",
+          "text": "このレストランは静かくないです。",
+          "rationale": "Review the adjective family. 静か is a な-adjective, so use じゃありません."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-05-c2",
+          "text": "このレストランは静かないです。",
+          "rationale": "Review the adjective family. 静か is a な-adjective, so use じゃありません."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-05-c3",
+          "text": "このレストランは静かじゃありません。",
+          "rationale": "Correct. 静か is a な-adjective, so use じゃありません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-6"
+      ],
+      "prompt": "Which phrase means 'delicious bread'?",
+      "explanation": "い-adjectives directly modify nouns without な.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-06-c1",
+          "text": "おいしいなパン",
+          "rationale": "Review the adjective family. い-adjectives directly modify nouns without な."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-06-c2",
+          "text": "おいしいパン",
+          "rationale": "Correct. い-adjectives directly modify nouns without な."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-06-c3",
+          "text": "おいしなパン",
+          "rationale": "Review the adjective family. い-adjectives directly modify nouns without な."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-7"
+      ],
+      "prompt": "A shop is convenient. Which sentence expresses that?",
+      "explanation": "便利です is the polite predicate; な is only needed before a noun.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-07-c1",
+          "text": "この店は便利です。",
+          "rationale": "Correct. 便利です is the polite predicate; な is only needed before a noun."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-07-c2",
+          "text": "この店は便利いです。",
+          "rationale": "Review the adjective family. 便利です is the polite predicate; な is only needed before a noun."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-07-c3",
+          "text": "この店は便利なです。",
+          "rationale": "Review the adjective family. 便利です is the polite predicate; な is only needed before a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-8"
+      ],
+      "prompt": "Which is the polite negative of いいです ('good')?",
+      "explanation": "いい uses the よい stem in its negative: よくないです.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-08-c1",
+          "text": "いくないです",
+          "rationale": "Review the adjective family. いい uses the よい stem in its negative: よくないです."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-08-c2",
+          "text": "いいじゃありません",
+          "rationale": "Review the adjective family. いい uses the よい stem in its negative: よくないです."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-08-c3",
+          "text": "よくないです",
+          "rationale": "Correct. いい uses the よい stem in its negative: よくないです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-9"
+      ],
+      "prompt": "Which description says 'The café is not lively'?",
+      "explanation": "にぎやか is a な-adjective, so use じゃありません.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-09-c1",
+          "text": "カフェはにぎやかじゃありません。",
+          "rationale": "Correct. にぎやか is a な-adjective, so use じゃありません."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-09-c2",
+          "text": "カフェはにぎやかくないです。",
+          "rationale": "Review the adjective family. にぎやか is a な-adjective, so use じゃありません."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-09-c3",
+          "text": "カフェはにぎやかないです。",
+          "rationale": "Review the adjective family. にぎやか is a な-adjective, so use じゃありません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-09-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-10"
+      ],
+      "prompt": "Which Japanese sentence says 'This soup is hot'?",
+      "explanation": "熱いです is affirmative; 熱くないです would mean not hot.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-10-c1",
+          "text": "このスープは熱いなです。",
+          "rationale": "Review the adjective family. 熱いです is affirmative; 熱くないです would mean not hot."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-10-c2",
+          "text": "このスープは熱いです。",
+          "rationale": "Correct. 熱いです is affirmative; 熱くないです would mean not hot."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-10-c3",
+          "text": "このスープは熱くないです。",
+          "rationale": "Review the adjective family. 熱いです is affirmative; 熱くないです would mean not hot."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-10-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-11"
+      ],
+      "prompt": "A customer says このかばんは大きくないです。 What do they mean?",
+      "explanation": "大きい becomes 大きくないです in the negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-11-c1",
+          "text": "This bag is not big.",
+          "rationale": "Correct. 大きい becomes 大きくないです in the negative."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-11-c2",
+          "text": "This bag is big.",
+          "rationale": "Review the adjective family. 大きい becomes 大きくないです in the negative."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-11-c3",
+          "text": "This bag is convenient.",
+          "rationale": "Review the adjective family. 大きい becomes 大きくないです in the negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-11-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c03-l03-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c03-l03-adjective-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l03-adjective-12"
+      ],
+      "prompt": "Choose the phrase 'a convenient shop'.",
+      "explanation": "便利 is a な-adjective: 便利な店.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c03-l03-12-c1",
+          "text": "便利い店",
+          "rationale": "Review the adjective family. 便利 is a な-adjective: 便利な店."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-12-c2",
+          "text": "便利店",
+          "rationale": "Review the adjective family. 便利 is a な-adjective: 便利な店."
+        },
+        {
+          "id": "ex-n5-m04-c03-l03-12-c3",
+          "text": "便利な店",
+          "rationale": "Correct. 便利 is a な-adjective: 便利な店."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c03-l03-12-c3"
+      }
+    }
+  ]
+}
