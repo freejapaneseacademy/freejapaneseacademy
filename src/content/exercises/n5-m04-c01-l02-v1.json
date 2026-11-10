@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c01-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 飲み物 (のみもの) mean?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "food",
+          "rationale": "Not this one. 飲み物 names a beverage; 食べ物 means food."
+        },
+        {
+          "id": "c2",
+          "text": "drink / beverage",
+          "rationale": "Correct. 飲み物 names a beverage; 食べ物 means food."
+        },
+        {
+          "id": "c3",
+          "text": "breakfast",
+          "rationale": "Not this one. 飲み物 names a beverage; 食べ物 means food."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "飲み物 names a beverage; 食べ物 means food."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the reading of 卵.",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "たまご",
+          "rationale": "Correct. 卵 is read たまご and means egg."
+        },
+        {
+          "id": "c2",
+          "text": "さかな",
+          "rationale": "Not this one. 卵 is read たまご and means egg."
+        },
+        {
+          "id": "c3",
+          "text": "みず",
+          "rationale": "Not this one. 卵 is read たまご and means egg."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "卵 is read たまご and means egg."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means lunch?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "朝ごはん",
+          "rationale": "Not this one. 昼ごはん (ひるごはん) means lunch."
+        },
+        {
+          "id": "c2",
+          "text": "晩ごはん",
+          "rationale": "Not this one. 昼ごはん (ひるごはん) means lunch."
+        },
+        {
+          "id": "c3",
+          "text": "昼ごはん",
+          "rationale": "Correct. 昼ごはん (ひるごはん) means lunch."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "昼ごはん (ひるごはん) means lunch."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 魚 (さかな) mean?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "bread",
+          "rationale": "Not this one. 魚 is fish; 牛乳 is milk."
+        },
+        {
+          "id": "c2",
+          "text": "fish",
+          "rationale": "Correct. 魚 is fish; 牛乳 is milk."
+        },
+        {
+          "id": "c3",
+          "text": "milk",
+          "rationale": "Not this one. 魚 is fish; 牛乳 is milk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "魚 is fish; 牛乳 is milk."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the reading of 牛乳.",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ぎゅうにゅう",
+          "rationale": "Correct. 牛乳 (ぎゅうにゅう) means milk."
+        },
+        {
+          "id": "c2",
+          "text": "ごはん",
+          "rationale": "Not this one. 牛乳 (ぎゅうにゅう) means milk."
+        },
+        {
+          "id": "c3",
+          "text": "のみもの",
+          "rationale": "Not this one. 牛乳 (ぎゅうにゅう) means milk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "牛乳 (ぎゅうにゅう) means milk."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression means breakfast?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昼ごはん",
+          "rationale": "Not this one. 朝ごはん (あさごはん) is breakfast."
+        },
+        {
+          "id": "c2",
+          "text": "朝ごはん",
+          "rationale": "Correct. 朝ごはん (あさごはん) is breakfast."
+        },
+        {
+          "id": "c3",
+          "text": "晩ごはん",
+          "rationale": "Not this one. 朝ごはん (あさごはん) is breakfast."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "朝ごはん (あさごはん) is breakfast."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the standard sentence for “I like bread.”",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "パンを好きです。",
+          "rationale": "Not this one. The object of preference takes が with 好きです."
+        },
+        {
+          "id": "c2",
+          "text": "パンで好きです。",
+          "rationale": "Not this one. The object of preference takes が with 好きです."
+        },
+        {
+          "id": "c3",
+          "text": "パンが好きです。",
+          "rationale": "Correct. The object of preference takes が with 好きです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The object of preference takes が with 好きです."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says “I drink water”?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水を飲みます。",
+          "rationale": "Correct. 水を飲みます describes drinking water; liking it is different."
+        },
+        {
+          "id": "c2",
+          "text": "水を食べます。",
+          "rationale": "Not this one. 水を飲みます describes drinking water; liking it is different."
+        },
+        {
+          "id": "c3",
+          "text": "水が好きです。",
+          "rationale": "Not this one. 水を飲みます describes drinking water; liking it is different."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "水を飲みます describes drinking water; liking it is different."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does パンと卵 mean?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "bread or egg",
+          "rationale": "Not this one. と joins the nouns パン and 卵: bread and egg."
+        },
+        {
+          "id": "c2",
+          "text": "bread and egg",
+          "rationale": "Correct. と joins the nouns パン and 卵: bread and egg."
+        },
+        {
+          "id": "c3",
+          "text": "bread without egg",
+          "rationale": "Not this one. と joins the nouns パン and 卵: bread and egg."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "と joins the nouns パン and 卵: bread and egg."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In Mio's note, what does she eat for lunch?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "魚",
+          "rationale": "Not this one. The note says 昼ごはんにパンと卵を食べます。"
+        },
+        {
+          "id": "c2",
+          "text": "ごはんと魚",
+          "rationale": "Not this one. The note says 昼ごはんにパンと卵を食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "パンと卵",
+          "rationale": "Correct. The note says 昼ごはんにパンと卵を食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The note says 昼ごはんにパンと卵を食べます。"
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Does Mio eat fish today?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "No; 今日は魚を食べません。",
+          "rationale": "Correct. Mio likes fish but explicitly says she does not eat it today."
+        },
+        {
+          "id": "c2",
+          "text": "Yes; 魚が好きです。",
+          "rationale": "Not this one. Mio likes fish but explicitly says she does not eat it today."
+        },
+        {
+          "id": "c3",
+          "text": "Yes; 水も飲みます。",
+          "rationale": "Not this one. Mio likes fish but explicitly says she does not eat it today."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Mio likes fish but explicitly says she does not eat it today."
+    },
+    {
+      "id": "ex-n5-m04-c01-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which two drinks does Mio say she drinks?",
+      "objectiveIds": [
+        "n5-m04-c01-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l02-food-drinks"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "牛乳と魚",
+          "rationale": "Not this one. 飲み物はお茶です and 水も飲みます identify tea and water."
+        },
+        {
+          "id": "c2",
+          "text": "お茶と水",
+          "rationale": "Correct. 飲み物はお茶です and 水も飲みます identify tea and water."
+        },
+        {
+          "id": "c3",
+          "text": "パンと卵",
+          "rationale": "Not this one. 飲み物はお茶です and 水も飲みます identify tea and water."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "飲み物はお茶です and 水も飲みます identify tea and water."
+    }
+  ]
+}
