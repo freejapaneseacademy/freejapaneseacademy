@@ -1,0 +1,7 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../../src/content/exercises/n5-m04-c01-l07-v1.json';
+import {questions,scoreFoodWriting,QUIZ_ID} from '../../src/components/interactive/FoodWritingPractice';
+describe('n5-m04-c01-l07 café writing',()=>{
+ it('has ten distinct questions with valid keys and rationale',()=>{expect(bank.lessonId).toBe('n5-m04-c01-l07');expect(questions).toHaveLength(10);expect(new Set(questions.map(q=>q.id)).size).toBe(10);for(const q of questions){expect(q.status).toBe('internally-checked');expect(q.choices).toHaveLength(3);expect(new Set(q.choices.map(c=>c.text)).size).toBe(3);expect(q.choices.some(c=>c.id===q.answerKey.choiceId)).toBe(true);expect(q.choices.every(c=>c.rationale.length>15)).toBe(true);expect(q.explanation.length).toBeGreaterThan(15);}});
+ it('scores exact answer keys and does not score free writing',()=>{expect(scoreFoodWriting(Object.fromEntries(questions.map(q=>[q.id,q.answerKey.choiceId])))).toBe(10);expect(scoreFoodWriting({})).toBe(0);expect(scoreFoodWriting(Object.fromEntries(questions.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey.choiceId)!.id])))).toBe(0);expect(QUIZ_ID).toBe('n5-m04-c01-l07-writing-check-v1');});
+});
