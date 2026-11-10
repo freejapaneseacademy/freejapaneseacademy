@@ -3693,6 +3693,22 @@
       "noindex": false,
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m04-c01-l07",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c01",
+      "slot": "L07",
+      "title": "Write about food you like — A short café message",
+      "content": "src/content/lessons/n5/food-drinks-writing.mdx",
+      "url": "/learn/n5/module-04/chapter-01/lesson-07/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese writing review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L07; no pronunciation assessment",
+      "noindex": true,
+      "ownerApproval": "2026-11-08: automated publication preauthorized subject to serial exact-head CI and Cloudflare verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
