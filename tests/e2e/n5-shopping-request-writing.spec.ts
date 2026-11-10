@@ -1,0 +1,30 @@
+import {test,expect} from '@playwright/test';
+const url='/learn/n5/module-04/chapter-02/lesson-07/';
+test('keyboard choices, controlled feedback, draft rubric and retry',async({page})=>{
+ await page.goto(url);
+ await expect(page.getByRole('heading',{name:/Shopping writing/i}).first()).toBeVisible();
+ const questions=page.locator('fieldset.foundation-question');
+ await expect(questions).toHaveCount(10);
+ await questions.first().locator('input[type=radio]').first().focus();
+ await page.keyboard.press('ArrowDown');
+ await expect(questions.first().locator('input[type=radio]:checked')).toHaveCount(1);
+ for(let i=0;i<10;i++)await questions.nth(i).locator('input[type=radio]').first().check();
+ await page.getByRole('button',{name:'Check answers and save score'}).click();
+ await expect(page.getByRole('button',{name:'Retry sentence frames'})).toBeVisible();
+ await expect(page.locator('.foundation-feedback')).toHaveCount(10);
+ await page.getByLabel(/Write 2–5 connected Japanese sentences/).fill('客：この青いペンはいくらですか。');
+ await page.getByRole('button',{name:'Show model and self-review rubric'}).click();
+ await expect(page.getByText(/Different correct items and wordings/)).toBeVisible();
+ await page.getByRole('button',{name:'Clear my draft'}).click();
+ await expect(page.getByLabel(/Write 2–5 connected Japanese sentences/)).toHaveValue('');
+ await page.getByRole('button',{name:'Retry sentence frames'}).click();
+ await expect(page.getByRole('button',{name:'Check answers and save score'})).toBeDisabled();
+});
+test('320px dark mode writing interface avoids horizontal overflow',async({page})=>{
+ await page.setViewportSize({width:320,height:700});
+ await page.emulateMedia({colorScheme:'dark'});
+ await page.goto(url);
+ await expect(page.locator('main').first()).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+ await expect(page.getByLabel(/Write 2–5 connected Japanese sentences/)).toBeVisible();
+});
