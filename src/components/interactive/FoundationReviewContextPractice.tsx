@@ -1,0 +1,12 @@
+import {useState} from 'react';
+import {recordAttempt} from '../../lib/progress';
+import bank from '../../content/exercises/l0-m05-c04-l01-v1.json';
+export const scoreFoundationReview=(a:Record<string,string>)=>bank.items.filter(q=>a[q.id]===q.answerKey.choiceId).length;
+export default function FoundationReviewContextPractice(){
+const [a,setA]=useState<Record<string,string>>({});const [done,setDone]=useState(false);const [message,setMessage]=useState('');const [note,setNote]=useState('');
+async function submit(){if(done||!bank.items.every(q=>a[q.id]))return;setDone(true);try{await recordAttempt('l0-m05-c04-l01-written-v1','l0',scoreFoundationReview(a),bank.items.length);setMessage('Attempt saved locally.');}catch{setMessage('Storage unavailable; feedback remains visible.');}}
+return <section className="min-w-0 space-y-6" aria-labelledby="review-title"><h2 id="review-title" className="text-2xl font-semibold">Context and meaning check</h2><p>Choose one answer for each question. Written understanding only.</p>
+{bank.items.map((q,i)=><fieldset key={q.id} disabled={done} className="min-w-0 rounded-xl border border-current/25 p-4"><legend className="font-semibold">{i+1}. {q.prompt}</legend>{q.choices.map(c=><label key={c.id} className="flex min-h-11 items-center gap-3 rounded p-2 focus-within:outline focus-within:outline-2"><input type="radio" name={q.id} checked={a[q.id]===c.id} onChange={()=>setA(v=>({...v,[q.id]:c.id}))}/><span className="break-words">{c.text}</span></label>)}{done&&<p role="status"><strong>{a[q.id]===q.answerKey.choiceId?'Correct.':'Review.'}</strong> {q.explanation}</p>}</fieldset>)}
+{!done?<button type="button" className="btn btn-primary" disabled={!bank.items.every(q=>a[q.id])} onClick={()=>void submit()}>Check answers</button>:<><p role="status">{scoreFoundationReview(a)} of {bank.items.length} correct. {message}</p><button type="button" className="btn btn-outline" onClick={()=>{setA({});setDone(false);setMessage('');}}>Try again</button></>}
+<div className="rounded-xl border border-current/25 p-4"><label htmlFor="review-note" className="block font-semibold">Private study note (ungraded)</label><textarea id="review-note" rows={3} maxLength={300} className="w-full min-w-0 rounded border border-current/30 bg-transparent p-3" value={note} onChange={e=>setNote(e.target.value)}/><p>This note is not uploaded or saved. Copy it elsewhere if you want to keep it.</p></div></section>;
+}
