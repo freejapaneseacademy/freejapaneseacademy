@@ -3380,6 +3380,23 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "reuses predecessor N5-M01-C02-L06 recordings; authentic WAVs, rights and hashes require verification",
       "noindex": false
+    },
+    {
+      "id": "n5-m01-c03-l01",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c03",
+      "slot": "L01",
+      "title": "Whose Family Photo? — People and Relationships in Context",
+      "content": "src/content/lessons/n5/family-photo-context.mdx",
+      "url": "/learn/n5/module-01/chapter-03/lesson-01/",
+      "status": "published",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for context L01; family-talk listening belongs to L06",
+      "noindex": false,
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
