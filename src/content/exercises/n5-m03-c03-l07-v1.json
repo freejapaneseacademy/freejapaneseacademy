@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m03-c03-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c03-l07-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence says 'Yesterday I read a book'?",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日、本を読みました。",
+          "rationale": "ました marks completed past reading."
+        },
+        {
+          "id": "c2",
+          "text": "昨日、本を読みます。",
+          "rationale": "ます is nonpast, not a completed yesterday action."
+        },
+        {
+          "id": "c3",
+          "text": "明日、本を読みました。",
+          "rationale": "明日 conflicts with the past report."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ました marks completed past reading."
+    },
+    {
+      "id": "ex-n5-m03-c03-l07-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the polite past negative of 勉強します.",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "勉強しました。",
+          "rationale": "しました is past affirmative."
+        },
+        {
+          "id": "c2",
+          "text": "勉強しません。",
+          "rationale": "しません is nonpast negative."
+        },
+        {
+          "id": "c3",
+          "text": "勉強しませんでした。",
+          "rationale": "しませんでした is the polite past negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "しませんでした is the polite past negative."
+    },
+    {
+      "id": "ex-n5-m03-c03-l07-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence expresses a plan to go tomorrow?",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日、図書室へ行きました。",
+          "rationale": "昨日 and 行きました report a past event."
+        },
+        {
+          "id": "c2",
+          "text": "明日、図書室へ行きます。",
+          "rationale": "明日 plus 行きます expresses a future plan."
+        },
+        {
+          "id": "c3",
+          "text": "明日、図書室へ行きませんでした。",
+          "rationale": "ませんでした is past negative and conflicts with the intended plan."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "明日 plus 行きます expresses a future plan."
+    },
+    {
+      "id": "ex-n5-m03-c03-l07-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 昨日の午後 mean?",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yesterday afternoon",
+          "rationale": "昨日 is yesterday and 午後 is afternoon."
+        },
+        {
+          "id": "c2",
+          "text": "Tomorrow afternoon",
+          "rationale": "明日 is tomorrow, not 昨日."
+        },
+        {
+          "id": "c3",
+          "text": "Yesterday morning",
+          "rationale": "朝 is morning, not 午後."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "昨日 is yesterday and 午後 is afternoon."
+    },
+    {
+      "id": "ex-n5-m03-c03-l07-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence means 'Tomorrow I will not study'?",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "明日、勉強しませんでした。",
+          "rationale": "ませんでした is past negative."
+        },
+        {
+          "id": "c2",
+          "text": "昨日、勉強しません。",
+          "rationale": "昨日 means yesterday and does not express tomorrow."
+        },
+        {
+          "id": "c3",
+          "text": "明日、勉強しません。",
+          "rationale": "ません is nonpast negative and 明日 sets the future."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ません is nonpast negative and 明日 sets the future."
+    },
+    {
+      "id": "ex-n5-m03-c03-l07-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly marks 10 a.m. as a specific time?",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午前十時を図書室へ行きます。",
+          "rationale": "を is not the time particle here."
+        },
+        {
+          "id": "c2",
+          "text": "午前十時に図書室へ行きます。",
+          "rationale": "に marks the specific clock time; へ marks destination."
+        },
+        {
+          "id": "c3",
+          "text": "午前十時へ図書室に行きます。",
+          "rationale": "へ cannot mark the clock time in this construction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "に marks the specific clock time; へ marks destination."
+    },
+    {
+      "id": "ex-n5-m03-c03-l07-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 昨日、本を読みませんでした mean?",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yesterday I read a book.",
+          "rationale": "読みました is past affirmative."
+        },
+        {
+          "id": "c2",
+          "text": "Tomorrow I will not read a book.",
+          "rationale": "明日 and 読みません would express the future negative."
+        },
+        {
+          "id": "c3",
+          "text": "Yesterday I did not read a book.",
+          "rationale": "読みませんでした is polite past negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "読みませんでした is polite past negative."
+    },
+    {
+      "id": "ex-n5-m03-c03-l07-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which pair correctly contrasts yesterday's completed visit and tomorrow's planned visit?",
+      "objectiveIds": [
+        "n5-m03-c03-l07-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c03-l07-two-day-writing"
+      ],
+      "skills": [
+        "reading",
+        "writing"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日、行きました。明日、行きます。",
+          "rationale": "Past ました matches yesterday and nonpast ます matches tomorrow."
+        },
+        {
+          "id": "c2",
+          "text": "昨日、行きます。明日、行きました。",
+          "rationale": "The verb endings are reversed for the intended timeline."
+        },
+        {
+          "id": "c3",
+          "text": "昨日、行きません。明日、行きませんでした。",
+          "rationale": "These are negatives with time-ending mismatch."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Past ました matches yesterday and nonpast ます matches tomorrow."
+    }
+  ]
+}
