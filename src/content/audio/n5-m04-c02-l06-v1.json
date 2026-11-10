@@ -1,0 +1,181 @@
+{
+  "lessonId": "n5-m04-c02-l06",
+  "chapterId": "n5-m04-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m04-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 12.53,
+      "transcript": "女性： いらっしゃいませ。\n男性： この青いノートはいくらですか。\n女性： 一冊三百円です。\n男性： 青いノートを二冊ください。\n女性： はい。全部で六百円です。",
+      "english": "Woman: Welcome.\nMan: How much is this blue notebook?\nWoman: It's 300 yen per notebook.\nMan: Two blue notebooks, please.\nWoman: Certainly. The total is 600 yen.",
+      "scriptPurpose": "Buying two notebooks",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いらっしゃいませ。",
+          "english": "Welcome.",
+          "startSeconds": 0.0,
+          "endSeconds": 1.63
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "この青いノートはいくらですか。",
+          "english": "How much is this blue notebook?",
+          "startSeconds": 1.91,
+          "endSeconds": 4.41
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "一冊三百円です。",
+          "english": "It's 300 yen per notebook.",
+          "startSeconds": 4.69,
+          "endSeconds": 6.86
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "青いノートを二冊ください。",
+          "english": "Two blue notebooks, please.",
+          "startSeconds": 7.14,
+          "endSeconds": 9.39
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。全部で六百円です。",
+          "english": "Certainly. The total is 600 yen.",
+          "startSeconds": 9.67,
+          "endSeconds": 12.53
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author review of approved ACML 1.0 model terms and project audio policy; independent legal and pronunciation reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "5ab486858754748b7db25441985fd8abf0aff6d575e48eb7604824cff6fc2e50",
+        "bytes": 1105604,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m04-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 18.53,
+      "transcript": "男性： いらっしゃいませ。何をお探しですか。\n女性： 小さいかばんを探しています。赤いかばんはいくらですか。\n男性： 千二百円です。黒いかばんは千円です。\n女性： じゃあ、小さい黒いかばんをお願いします。\n男性： ありがとうございます。千円です。",
+      "english": "Man: Welcome. What are you looking for?\nWoman: I'm looking for a small bag. How much is the red bag?\nMan: It's 1,200 yen. The black bag is 1,000 yen.\nWoman: Then I'd like the small black bag, please.\nMan: Thank you. That's 1,000 yen.",
+      "scriptPurpose": "Choosing a small bag",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いらっしゃいませ。何をお探しですか。",
+          "english": "Welcome. What are you looking for?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.07
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "小さいかばんを探しています。赤いかばんはいくらですか。",
+          "english": "I'm looking for a small bag. How much is the red bag?",
+          "startSeconds": 3.35,
+          "endSeconds": 8.09
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "千二百円です。黒いかばんは千円です。",
+          "english": "It's 1,200 yen. The black bag is 1,000 yen.",
+          "startSeconds": 8.37,
+          "endSeconds": 12.03
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "じゃあ、小さい黒いかばんをお願いします。",
+          "english": "Then I'd like the small black bag, please.",
+          "startSeconds": 12.31,
+          "endSeconds": 15.69
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ありがとうございます。千円です。",
+          "english": "Thank you. That's 1,000 yen.",
+          "startSeconds": 15.97,
+          "endSeconds": 18.53
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author review of approved ACML 1.0 model terms and project audio policy; independent legal and pronunciation reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "fb537c0c0d556ab6015a58ccd8ef2903edbd6d268920b24fa0f2c2b829fb26ad",
+        "bytes": 1634698,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "lessonId": "n5-m04-c02-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l06-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "a",
+      "prompt": "What color notebooks does the customer request?",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l06-checkout-a"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Blue",
+          "rationale": "Correct. The customer asks for blue notebooks."
+        },
+        {
+          "id": "c2",
+          "text": "Red",
+          "rationale": "Review the spoken evidence. The customer asks for blue notebooks."
+        },
+        {
+          "id": "c3",
+          "text": "Black",
+          "rationale": "Review the spoken evidence. The customer asks for blue notebooks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The customer asks for blue notebooks.",
+      "evidence": "青いノートを二冊ください。"
+    },
+    {
+      "id": "ex-n5-m04-c02-l06-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "a",
+      "prompt": "How many notebooks does the customer buy?",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l06-checkout-a"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "One",
+          "rationale": "Review the spoken evidence. 二冊 means two bound notebooks."
+        },
+        {
+          "id": "c2",
+          "text": "Two",
+          "rationale": "Correct. 二冊 means two bound notebooks."
+        },
+        {
+          "id": "c3",
+          "text": "Three",
+          "rationale": "Review the spoken evidence. 二冊 means two bound notebooks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "二冊 means two bound notebooks.",
+      "evidence": "青いノートを二冊ください。"
+    },
+    {
+      "id": "ex-n5-m04-c02-l06-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "a",
+      "prompt": "What is the total at checkout?",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l06-checkout-a"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "300 yen",
+          "rationale": "Review the spoken evidence. The clerk states the total is 600 yen, not the 300-yen unit price."
+        },
+        {
+          "id": "c2",
+          "text": "600 yen",
+          "rationale": "Correct. The clerk states the total is 600 yen, not the 300-yen unit price."
+        },
+        {
+          "id": "c3",
+          "text": "900 yen",
+          "rationale": "Review the spoken evidence. The clerk states the total is 600 yen, not the 300-yen unit price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The clerk states the total is 600 yen, not the 300-yen unit price.",
+      "evidence": "全部で六百円です。"
+    },
+    {
+      "id": "ex-n5-m04-c02-l06-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "b",
+      "prompt": "What color bag does the customer finally choose?",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l06-checkout-b"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Red",
+          "rationale": "Review the spoken evidence. The final request specifies a small black bag."
+        },
+        {
+          "id": "c2",
+          "text": "Blue",
+          "rationale": "Review the spoken evidence. The final request specifies a small black bag."
+        },
+        {
+          "id": "c3",
+          "text": "Black",
+          "rationale": "Correct. The final request specifies a small black bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The final request specifies a small black bag.",
+      "evidence": "小さい黒いかばんをお願いします。"
+    },
+    {
+      "id": "ex-n5-m04-c02-l06-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "b",
+      "prompt": "How much does the red bag cost?",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l06-checkout-b"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "1,000 yen",
+          "rationale": "Review the spoken evidence. The red bag is 1,200 yen; the black bag is 1,000 yen."
+        },
+        {
+          "id": "c2",
+          "text": "1,200 yen",
+          "rationale": "Correct. The red bag is 1,200 yen; the black bag is 1,000 yen."
+        },
+        {
+          "id": "c3",
+          "text": "2,000 yen",
+          "rationale": "Review the spoken evidence. The red bag is 1,200 yen; the black bag is 1,000 yen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The red bag is 1,200 yen; the black bag is 1,000 yen.",
+      "evidence": "千二百円です。黒いかばんは千円です。"
+    },
+    {
+      "id": "ex-n5-m04-c02-l06-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "b",
+      "prompt": "How much will the customer pay?",
+      "objectiveIds": [
+        "n5-m04-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l06-checkout-b"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "1,000 yen",
+          "rationale": "Correct. The clerk confirms 1,000 yen for the selected black bag."
+        },
+        {
+          "id": "c2",
+          "text": "1,200 yen",
+          "rationale": "Review the spoken evidence. The clerk confirms 1,000 yen for the selected black bag."
+        },
+        {
+          "id": "c3",
+          "text": "600 yen",
+          "rationale": "Review the spoken evidence. The clerk confirms 1,000 yen for the selected black bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The clerk confirms 1,000 yen for the selected black bag.",
+      "evidence": "ありがとうございます。千円です。"
+    }
+  ]
+}
