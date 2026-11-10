@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m04-c02-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l05-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How much is one blue notebook?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "¥150",
+          "rationale": "Correct: 「青い ノート　一冊150円」 directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "¥180",
+          "rationale": "Not supported by this sign. Re-read 「青い ノート　一冊150円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "c",
+          "text": "¥900",
+          "rationale": "Not supported by this sign. Re-read 「青い ノート　一冊150円」; distinguish the stated item, quantity and price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「青い ノート　一冊150円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which notebook costs ¥180 each?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blue notebook",
+          "rationale": "Not supported by this sign. Re-read 「赤い ノート　一冊180円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "b",
+          "text": "Red notebook",
+          "rationale": "Correct: 「赤い ノート　一冊180円」 directly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "White notebook",
+          "rationale": "Not supported by this sign. Re-read 「赤い ノート　一冊180円」; distinguish the stated item, quantity and price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Evidence: 「赤い ノート　一冊180円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How much is the small bag?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "¥1,400",
+          "rationale": "Not supported by this sign. Re-read 「小さい かばん　900円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "b",
+          "text": "¥150",
+          "rationale": "Not supported by this sign. Re-read 「小さい かばん　900円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "c",
+          "text": "¥900",
+          "rationale": "Correct: 「小さい かばん　900円」 directly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Evidence: 「小さい かばん　900円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What is the price of the large bag?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "¥1,400",
+          "rationale": "Correct: 「大きい かばん　1,400円」 directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "¥900",
+          "rationale": "Not supported by this sign. Re-read 「大きい かばん　1,400円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "c",
+          "text": "¥240",
+          "rationale": "Not supported by this sign. Re-read 「大きい かばん　1,400円」; distinguish the stated item, quantity and price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「大きい かばん　1,400円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-c"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What does 一枚20円 price?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One notebook",
+          "rationale": "Not supported by this sign. Re-read 「白い かみ　一枚20円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "b",
+          "text": "One sheet of white paper",
+          "rationale": "Correct: 「白い かみ　一枚20円」 directly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "Five sheets of paper",
+          "rationale": "Not supported by this sign. Re-read 「白い かみ　一枚20円」; distinguish the stated item, quantity and price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Evidence: 「白い かみ　一枚20円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-c"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How much do five sheets of white paper cost?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "¥20",
+          "rationale": "Not supported by this sign. Re-read 「五枚で100円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "b",
+          "text": "¥240",
+          "rationale": "Not supported by this sign. Re-read 「五枚で100円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "c",
+          "text": "¥100",
+          "rationale": "Correct: 「五枚で100円」 directly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Evidence: 「五枚で100円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-d"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "How much is one pencil?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "¥80",
+          "rationale": "Correct: 「えんぴつ　一本80円」 directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "¥240",
+          "rationale": "Not supported by this sign. Re-read 「えんぴつ　一本80円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "c",
+          "text": "¥100",
+          "rationale": "Not supported by this sign. Re-read 「えんぴつ　一本80円」; distinguish the stated item, quantity and price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「えんぴつ　一本80円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-d"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which phrase gives the price for three pencils?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "一本80円",
+          "rationale": "Not supported by this sign. Re-read 「三本で240円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "b",
+          "text": "三本で240円",
+          "rationale": "Correct: 「三本で240円」 directly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "五枚で100円",
+          "rationale": "Not supported by this sign. Re-read 「三本で240円」; distinguish the stated item, quantity and price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Evidence: 「三本で240円」. This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What color is the small bag?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blue",
+          "rationale": "Not supported by this sign. Re-read 「小さい かばん　900円」 (no color is given); distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "b",
+          "text": "Red",
+          "rationale": "Not supported by this sign. Re-read 「小さい かばん　900円」 (no color is given); distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "c",
+          "text": "Not stated",
+          "rationale": "Correct: 「小さい かばん　900円」 (no color is given) directly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Evidence: 「小さい かばん　900円」 (no color is given). This is the phrase that supports the keyed answer."
+    },
+    {
+      "id": "ex-n5-m04-c02-l05-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l05-sign-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which counter is used for notebooks on Sign A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "冊（さつ）",
+          "rationale": "Correct: 「一冊150円」「一冊180円」 directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "枚（まい）",
+          "rationale": "Not supported by this sign. Re-read 「一冊150円」「一冊180円」; distinguish the stated item, quantity and price."
+        },
+        {
+          "id": "c",
+          "text": "本（ほん）",
+          "rationale": "Not supported by this sign. Re-read 「一冊150円」「一冊180円」; distinguish the stated item, quantity and price."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「一冊150円」「一冊180円」. This is the phrase that supports the keyed answer."
+    }
+  ]
+}
