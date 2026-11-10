@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c02-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c02-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the reading of 円 in 500円?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ねん",
+          "rationale": "Not quite. 円 is read えん as the yen unit on price tags."
+        },
+        {
+          "id": "c2",
+          "text": "えん",
+          "rationale": "Correct. 円 is read えん as the yen unit on price tags."
+        },
+        {
+          "id": "c3",
+          "text": "ほん",
+          "rationale": "Not quite. 円 is read えん as the yen unit on price tags."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "円 is read えん as the yen unit on price tags."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which kanji writes 'hundred' in 百円?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "百",
+          "rationale": "Correct. 百 (ひゃく) means one hundred; 百円 is one hundred yen."
+        },
+        {
+          "id": "c2",
+          "text": "千",
+          "rationale": "Not quite. 百 (ひゃく) means one hundred; 百円 is one hundred yen."
+        },
+        {
+          "id": "c3",
+          "text": "十",
+          "rationale": "Not quite. 百 (ひゃく) means one hundred; 百円 is one hundred yen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "百 (ひゃく) means one hundred; 百円 is one hundred yen."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Read 千円.",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ひゃくえん",
+          "rationale": "Not quite. 千円 is read せんえん, one thousand yen."
+        },
+        {
+          "id": "c2",
+          "text": "じゅうえん",
+          "rationale": "Not quite. 千円 is read せんえん, one thousand yen."
+        },
+        {
+          "id": "c3",
+          "text": "せんえん",
+          "rationale": "Correct. 千円 is read せんえん, one thousand yen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "千円 is read せんえん, one thousand yen."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'white' in 白いかばん?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "赤い",
+          "rationale": "Not quite. 白い (しろい) describes a white bag."
+        },
+        {
+          "id": "c2",
+          "text": "白い",
+          "rationale": "Correct. 白い (しろい) describes a white bag."
+        },
+        {
+          "id": "c3",
+          "text": "青い",
+          "rationale": "Not quite. 白い (しろい) describes a white bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "白い (しろい) describes a white bag."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the reading of 赤い.",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あかい",
+          "rationale": "Correct. 赤い is read あかい and means red."
+        },
+        {
+          "id": "c2",
+          "text": "あおい",
+          "rationale": "Not quite. 赤い is read あかい and means red."
+        },
+        {
+          "id": "c3",
+          "text": "しろい",
+          "rationale": "Not quite. 赤い is read あかい and means red."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "赤い is read あかい and means red."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the reading of 青い.",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あかい",
+          "rationale": "Not quite. 青い is read あおい and means blue."
+        },
+        {
+          "id": "c2",
+          "text": "おおい",
+          "rationale": "Not quite. 青い is read あおい and means blue."
+        },
+        {
+          "id": "c3",
+          "text": "あおい",
+          "rationale": "Correct. 青い is read あおい and means blue."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "青い is read あおい and means blue."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the reading of 大きい?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ちいさい",
+          "rationale": "Not quite. 大きい (おおきい) means big or large."
+        },
+        {
+          "id": "c2",
+          "text": "おおきい",
+          "rationale": "Correct. 大きい (おおきい) means big or large."
+        },
+        {
+          "id": "c3",
+          "text": "たかい",
+          "rationale": "Not quite. 大きい (おおきい) means big or large."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "大きい (おおきい) means big or large."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the reading of 小さい?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ちいさい",
+          "rationale": "Correct. 小さい (ちいさい) means small."
+        },
+        {
+          "id": "c2",
+          "text": "おおきい",
+          "rationale": "Not quite. 小さい (ちいさい) means small."
+        },
+        {
+          "id": "c3",
+          "text": "すくない",
+          "rationale": "Not quite. 小さい (ちいさい) means small."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "小さい (ちいさい) means small."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A tag says 赤いペン 200円. What color is the pen?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "blue",
+          "rationale": "Not quite. 赤い (あかい) means red; the tag describes a red pen."
+        },
+        {
+          "id": "c2",
+          "text": "white",
+          "rationale": "Not quite. 赤い (あかい) means red; the tag describes a red pen."
+        },
+        {
+          "id": "c3",
+          "text": "red",
+          "rationale": "Correct. 赤い (あかい) means red; the tag describes a red pen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "赤い (あかい) means red; the tag describes a red pen."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A tag says 白いノート 300円. What is its price?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "200 yen",
+          "rationale": "Not quite. 300円 is three hundred yen; 白い describes the notebook."
+        },
+        {
+          "id": "c2",
+          "text": "300 yen",
+          "rationale": "Correct. 300円 is three hundred yen; 白い describes the notebook."
+        },
+        {
+          "id": "c3",
+          "text": "1,000 yen",
+          "rationale": "Not quite. 300円 is three hundred yen; 白い describes the notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "300円 is three hundred yen; 白い describes the notebook."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which price label means 1,000 yen?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "千円",
+          "rationale": "Correct. 千 (せん) means thousand, so 千円 is one thousand yen."
+        },
+        {
+          "id": "c2",
+          "text": "百円",
+          "rationale": "Not quite. 千 (せん) means thousand, so 千円 is one thousand yen."
+        },
+        {
+          "id": "c3",
+          "text": "十円",
+          "rationale": "Not quite. 千 (せん) means thousand, so 千円 is one thousand yen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "千 (せん) means thousand, so 千円 is one thousand yen."
+    },
+    {
+      "id": "ex-n5-m04-c02-l04-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase describes a small blue bag?",
+      "objectiveIds": [
+        "n5-m04-c02-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c02-l04-shopping-kanji"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "大きい赤いかばん",
+          "rationale": "Not quite. 小さい (small) and 青い (blue) both modify かばん (bag)."
+        },
+        {
+          "id": "c2",
+          "text": "白い大きいかばん",
+          "rationale": "Not quite. 小さい (small) and 青い (blue) both modify かばん (bag)."
+        },
+        {
+          "id": "c3",
+          "text": "小さい青いかばん",
+          "rationale": "Correct. 小さい (small) and 青い (blue) both modify かばん (bag)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "小さい (small) and 青い (blue) both modify かばん (bag)."
+    }
+  ]
+}
