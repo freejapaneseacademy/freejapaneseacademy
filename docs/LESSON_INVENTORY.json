@@ -3529,6 +3529,21 @@
       "assessmentReview": "pending - independent assessment review not claimed",
       "audio": "references predecessor n5-m01-c03-l06 recordings; WAV integrity, rights and playback pending",
       "noindex": false
+    },
+    {
+      "id": "n5-m01-c04-l01",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c04",
+      "slot": "L01",
+      "title": "At the Orientation Desk — Reading a Short Self-Introduction",
+      "content": "src/content/lessons/n5/orientation-profiles-context.mdx",
+      "url": "/learn/n5/module-01/chapter-04/lesson-01/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written context L01",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
