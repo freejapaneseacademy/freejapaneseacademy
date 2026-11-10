@@ -1,0 +1,302 @@
+{
+  "lessonId": "n5-m03-c01-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When is the club meeting? In the model exchange: 「クラブの集まりはいつですか。」「11月18日です。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "11月18日",
+          "rationale": "The response 「11月18日です。」 means November 18."
+        },
+        {
+          "id": "c2",
+          "text": "11月19日",
+          "rationale": "This does not match 「11月18日です。」; check the date, time or counter."
+        },
+        {
+          "id": "c3",
+          "text": "12月18日",
+          "rationale": "This does not match 「11月18日です。」; check the date, time or counter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The model answer 「11月18日です。」 communicates November 18. Match both the number and the counter."
+    },
+    {
+      "id": "ex-n5-m03-c01-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "At what time does it start? In the model exchange: 「何時からですか。」「午後3時からです。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午前3時",
+          "rationale": "This does not match 「午後3時からです。」; check the date, time or counter."
+        },
+        {
+          "id": "c2",
+          "text": "午後4時",
+          "rationale": "This does not match 「午後3時からです。」; check the date, time or counter."
+        },
+        {
+          "id": "c3",
+          "text": "午後3時",
+          "rationale": "The response 「午後3時からです。」 means 3 p.m.."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The model answer 「午後3時からです。」 communicates 3 p.m.. Match both the number and the counter."
+    },
+    {
+      "id": "ex-n5-m03-c01-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many people will come? In the model exchange: 「何人来ますか。」「四人来ます。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "五人",
+          "rationale": "This does not match 「四人来ます。」; check the date, time or counter."
+        },
+        {
+          "id": "c2",
+          "text": "四人",
+          "rationale": "The response 「四人来ます。」 means four people."
+        },
+        {
+          "id": "c3",
+          "text": "二人",
+          "rationale": "This does not match 「四人来ます。」; check the date, time or counter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The model answer 「四人来ます。」 communicates four people. Match both the number and the counter."
+    },
+    {
+      "id": "ex-n5-m03-c01-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many sheets do we need? In the model exchange: 「紙は何枚いりますか。」「三枚いります。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "三枚",
+          "rationale": "The response 「三枚いります。」 means three sheets."
+        },
+        {
+          "id": "c2",
+          "text": "三人",
+          "rationale": "This does not match 「三枚いります。」; check the date, time or counter."
+        },
+        {
+          "id": "c3",
+          "text": "三つ",
+          "rationale": "This does not match 「三枚いります。」; check the date, time or counter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The model answer 「三枚いります。」 communicates three sheets. Match both the number and the counter."
+    },
+    {
+      "id": "ex-n5-m03-c01-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many apples are there? In the model exchange: 「りんごはいくつありますか。」「二つあります。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "二人",
+          "rationale": "This does not match 「二つあります。」; check the date, time or counter."
+        },
+        {
+          "id": "c2",
+          "text": "二枚",
+          "rationale": "This does not match 「二つあります。」; check the date, time or counter."
+        },
+        {
+          "id": "c3",
+          "text": "二つ",
+          "rationale": "The response 「二つあります。」 means two apples."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The model answer 「二つあります。」 communicates two apples. Match both the number and the counter."
+    },
+    {
+      "id": "ex-n5-m03-c01-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What day is the rehearsal? In the model exchange: 「練習は何日ですか。」「11月20日です。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "11月2日",
+          "rationale": "This does not match 「11月20日です。」; check the date, time or counter."
+        },
+        {
+          "id": "c2",
+          "text": "11月20日",
+          "rationale": "The response 「11月20日です。」 means November 20."
+        },
+        {
+          "id": "c3",
+          "text": "11月10日",
+          "rationale": "This does not match 「11月20日です。」; check the date, time or counter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The model answer 「11月20日です。」 communicates November 20. Match both the number and the counter."
+    },
+    {
+      "id": "ex-n5-m03-c01-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Is the meeting in the morning? In the model exchange: 「集まりは午前ですか。」「いいえ、午後です。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午後",
+          "rationale": "The response 「いいえ、午後です。」 means afternoon."
+        },
+        {
+          "id": "c2",
+          "text": "午前",
+          "rationale": "This does not match 「いいえ、午後です。」; check the date, time or counter."
+        },
+        {
+          "id": "c3",
+          "text": "夜中",
+          "rationale": "This does not match 「いいえ、午後です。」; check the date, time or counter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The model answer 「いいえ、午後です。」 communicates afternoon. Match both the number and the counter."
+    },
+    {
+      "id": "ex-n5-m03-c01-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How many people are in the room? In the model exchange: 「部屋に何人いますか。」「一人います。」",
+      "objectiveIds": [
+        "n5-m03-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l08-dialogues"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一枚",
+          "rationale": "This does not match 「一人います。」; check the date, time or counter."
+        },
+        {
+          "id": "c2",
+          "text": "一つ",
+          "rationale": "This does not match 「一人います。」; check the date, time or counter."
+        },
+        {
+          "id": "c3",
+          "text": "一人",
+          "rationale": "The response 「一人います。」 means one person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The model answer 「一人います。」 communicates one person. Match both the number and the counter."
+    }
+  ]
+}
