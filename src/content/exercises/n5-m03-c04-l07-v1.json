@@ -1,0 +1,390 @@
+{
+  "id": "n5-m03-c04-l07",
+  "lessonId": "n5-m03-c04-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Yui habit journal in frequency-habit-writing.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-01"
+      ],
+      "prompt": "Which sentence means 'I often study Japanese'? ",
+      "options": [
+        "よく日本語を勉強します。",
+        "ぜんぜん日本語を勉強しません。",
+        "ときどき本を読みます。"
+      ],
+      "correctIndex": 0,
+      "feedback": "よく describes a frequent habit, and 勉強します is affirmative.",
+      "explanation": "よく describes a frequent habit, and 勉強します is affirmative.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-01-c1",
+          "text": "よく日本語を勉強します。",
+          "rationale": "よく describes a frequent habit, and 勉強します is affirmative."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-01-c2",
+          "text": "ぜんぜん日本語を勉強しません。",
+          "rationale": "Not the intended answer. よく describes a frequent habit, and 勉強します is affirmative."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-01-c3",
+          "text": "ときどき本を読みます。",
+          "rationale": "Not the intended answer. よく describes a frequent habit, and 勉強します is affirmative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-02"
+      ],
+      "prompt": "Complete: テレビはあまり＿＿。",
+      "options": [
+        "見ます",
+        "見ません",
+        "行きます"
+      ],
+      "correctIndex": 1,
+      "feedback": "あまり takes a negative verb in this beginner pattern: 見ません.",
+      "explanation": "あまり takes a negative verb in this beginner pattern: 見ません.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-02-c1",
+          "text": "見ます",
+          "rationale": "Not the intended answer. あまり takes a negative verb in this beginner pattern: 見ません."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-02-c2",
+          "text": "見ません",
+          "rationale": "あまり takes a negative verb in this beginner pattern: 見ません."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-02-c3",
+          "text": "行きます",
+          "rationale": "Not the intended answer. あまり takes a negative verb in this beginner pattern: 見ません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-03"
+      ],
+      "prompt": "Which expression means 'sometimes'? ",
+      "options": [
+        "いつも",
+        "毎日",
+        "ときどき"
+      ],
+      "correctIndex": 2,
+      "feedback": "ときどき expresses sometimes; 毎日 specifies every day.",
+      "explanation": "ときどき expresses sometimes; 毎日 specifies every day.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-03-c1",
+          "text": "いつも",
+          "rationale": "Not the intended answer. ときどき expresses sometimes; 毎日 specifies every day."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-03-c2",
+          "text": "毎日",
+          "rationale": "Not the intended answer. ときどき expresses sometimes; 毎日 specifies every day."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-03-c3",
+          "text": "ときどき",
+          "rationale": "ときどき expresses sometimes; 毎日 specifies every day."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-04"
+      ],
+      "prompt": "Which sentence means 'I do not play games at all'? ",
+      "options": [
+        "ゲームをぜんぜんしません。",
+        "ゲームをよくします。",
+        "ゲームをときどきします。"
+      ],
+      "correctIndex": 0,
+      "feedback": "ぜんぜんしません expresses not doing an activity at all.",
+      "explanation": "ぜんぜんしません expresses not doing an activity at all.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-04-c1",
+          "text": "ゲームをぜんぜんしません。",
+          "rationale": "ぜんぜんしません expresses not doing an activity at all."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-04-c2",
+          "text": "ゲームをよくします。",
+          "rationale": "Not the intended answer. ぜんぜんしません expresses not doing an activity at all."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-04-c3",
+          "text": "ゲームをときどきします。",
+          "rationale": "Not the intended answer. ぜんぜんしません expresses not doing an activity at all."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-05"
+      ],
+      "prompt": "Which particle marks the object in 本＿＿読みます? ",
+      "options": [
+        "で",
+        "を",
+        "へ"
+      ],
+      "correctIndex": 1,
+      "feedback": "本を読みます uses を to mark what is read.",
+      "explanation": "本を読みます uses を to mark what is read.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-05-c1",
+          "text": "で",
+          "rationale": "Not the intended answer. 本を読みます uses を to mark what is read."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-05-c2",
+          "text": "を",
+          "rationale": "本を読みます uses を to mark what is read."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-05-c3",
+          "text": "へ",
+          "rationale": "Not the intended answer. 本を読みます uses を to mark what is read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-06"
+      ],
+      "prompt": "Which sentence places studying at school? ",
+      "options": [
+        "学校へ勉強します。",
+        "学校を勉強します。",
+        "学校で勉強します。"
+      ],
+      "correctIndex": 2,
+      "feedback": "で marks the location where studying takes place.",
+      "explanation": "で marks the location where studying takes place.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-06-c1",
+          "text": "学校へ勉強します。",
+          "rationale": "Not the intended answer. で marks the location where studying takes place."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-06-c2",
+          "text": "学校を勉強します。",
+          "rationale": "Not the intended answer. で marks the location where studying takes place."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-06-c3",
+          "text": "学校で勉強します。",
+          "rationale": "で marks the location where studying takes place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-07"
+      ],
+      "prompt": "Choose the best sentence for 'On Saturdays, I sometimes go to the library.'",
+      "options": [
+        "土曜日は、ときどき図書館へ行きます。",
+        "毎朝、図書館で読みません。",
+        "土曜日は、ぜんぜん図書館へ行きます。"
+      ],
+      "correctIndex": 0,
+      "feedback": "土曜日は sets the time/topic, ときどき means sometimes, and へ marks direction.",
+      "explanation": "土曜日は sets the time/topic, ときどき means sometimes, and へ marks direction.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-07-c1",
+          "text": "土曜日は、ときどき図書館へ行きます。",
+          "rationale": "土曜日は sets the time/topic, ときどき means sometimes, and へ marks direction."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-07-c2",
+          "text": "毎朝、図書館で読みません。",
+          "rationale": "Not the intended answer. 土曜日は sets the time/topic, ときどき means sometimes, and へ marks direction."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-07-c3",
+          "text": "土曜日は、ぜんぜん図書館へ行きます。",
+          "rationale": "Not the intended answer. 土曜日は sets the time/topic, ときどき means sometimes, and へ marks direction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m03-c04-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m03-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l07-pattern-08"
+      ],
+      "prompt": "Which self-review question checks negative frequency agreement?",
+      "options": [
+        "Did I use exactly five kanji?",
+        "Did I pair あまり or ぜんぜん with a negative verb?",
+        "Did I write every sentence in romaji?"
+      ],
+      "correctIndex": 1,
+      "feedback": "The writing rubric checks verb polarity, not arbitrary kanji counts or romaji.",
+      "explanation": "The writing rubric checks verb polarity, not arbitrary kanji counts or romaji.",
+      "choices": [
+        {
+          "id": "ex-n5-m03-c04-l07-08-c1",
+          "text": "Did I use exactly five kanji?",
+          "rationale": "Not the intended answer. The writing rubric checks verb polarity, not arbitrary kanji counts or romaji."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-08-c2",
+          "text": "Did I pair あまり or ぜんぜん with a negative verb?",
+          "rationale": "The writing rubric checks verb polarity, not arbitrary kanji counts or romaji."
+        },
+        {
+          "id": "ex-n5-m03-c04-l07-08-c3",
+          "text": "Did I write every sentence in romaji?",
+          "rationale": "Not the intended answer. The writing rubric checks verb polarity, not arbitrary kanji counts or romaji."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m03-c04-l07-08-c2"
+      }
+    }
+  ]
+}
