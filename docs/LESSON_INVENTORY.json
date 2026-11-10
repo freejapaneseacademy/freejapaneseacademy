@@ -3085,6 +3085,23 @@
       "audio": "no new audio; L06 listening prerequisite must pass authentic audio checks",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m01-c01-l01",
+      "level": "n5",
+      "moduleId": "n5-m01",
+      "chapterId": "n5-m01-c01",
+      "slot": "L01",
+      "title": "First meetings: people, places and purpose",
+      "content": "src/content/lessons/n5/first-meeting-context.mdx",
+      "url": "/learn/n5/module-01/chapter-01/lesson-01/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for N5 context L01",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
