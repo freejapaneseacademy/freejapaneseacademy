@@ -1,0 +1,278 @@
+{
+  "id": "n5-m04-c01-l06",
+  "lessonId": "n5-m04-c01-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original two-scene café AivisSpeech v3 job; audio synthesis and listening QA pending",
+  "scoring": {
+    "mode": "single-choice",
+    "maxListeningScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-l06-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l06-listening-01"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What food does the customer order?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Curry",
+          "rationale": "Correct: The customer explicitly asks for curry."
+        },
+        {
+          "id": "c2",
+          "text": "Salad",
+          "rationale": "This option is not supported by the spoken evidence: カレーをお願いします。"
+        },
+        {
+          "id": "c3",
+          "text": "Cake",
+          "rationale": "This option is not supported by the spoken evidence: カレーをお願いします。"
+        },
+        {
+          "id": "c4",
+          "text": "Bread",
+          "rationale": "This option is not supported by the spoken evidence: カレーをお願いします。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "カレーをお願いします。",
+      "explanation": "The customer explicitly asks for curry."
+    },
+    {
+      "id": "ex-n5-m04-c01-l06-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l06-listening-02"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Which drink does the customer ask for?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Coffee",
+          "rationale": "This option is not supported by the spoken evidence: 飲み物はお茶をください。"
+        },
+        {
+          "id": "c2",
+          "text": "Water",
+          "rationale": "This option is not supported by the spoken evidence: 飲み物はお茶をください。"
+        },
+        {
+          "id": "c3",
+          "text": "Tea",
+          "rationale": "Correct: お茶 is tea; it is his requested drink."
+        },
+        {
+          "id": "c4",
+          "text": "Juice",
+          "rationale": "This option is not supported by the spoken evidence: 飲み物はお茶をください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "飲み物はお茶をください。",
+      "explanation": "お茶 is tea; it is his requested drink."
+    },
+    {
+      "id": "ex-n5-m04-c01-l06-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l06-listening-03"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Does the customer want salad?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, two salads",
+          "rationale": "This option is not supported by the spoken evidence: いいえ、サラダは食べません。"
+        },
+        {
+          "id": "c2",
+          "text": "No",
+          "rationale": "Correct: いいえ and 食べません show that he declines salad."
+        },
+        {
+          "id": "c3",
+          "text": "He asks to take it home",
+          "rationale": "This option is not supported by the spoken evidence: いいえ、サラダは食べません。"
+        },
+        {
+          "id": "c4",
+          "text": "He orders salad only",
+          "rationale": "This option is not supported by the spoken evidence: いいえ、サラダは食べません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "いいえ、サラダは食べません。",
+      "explanation": "いいえ and 食べません show that he declines salad."
+    },
+    {
+      "id": "ex-n5-m04-c01-l06-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l06-listening-04"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What will the woman eat today?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Cake",
+          "rationale": "This option is not supported by the spoken evidence: 今日はアイスクリームを食べます。"
+        },
+        {
+          "id": "c2",
+          "text": "Curry",
+          "rationale": "This option is not supported by the spoken evidence: 今日はアイスクリームを食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "Bread",
+          "rationale": "This option is not supported by the spoken evidence: 今日はアイスクリームを食べます。"
+        },
+        {
+          "id": "c4",
+          "text": "Ice cream",
+          "rationale": "Correct: The woman says she will eat ice cream today."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "今日はアイスクリームを食べます。",
+      "explanation": "The woman says she will eat ice cream today."
+    },
+    {
+      "id": "ex-n5-m04-c01-l06-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l06-listening-05"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What drink does the man choose?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Coffee",
+          "rationale": "Correct: The man selects coffee."
+        },
+        {
+          "id": "c2",
+          "text": "Tea",
+          "rationale": "This option is not supported by the spoken evidence: 飲み物はコーヒーにします。"
+        },
+        {
+          "id": "c3",
+          "text": "Water",
+          "rationale": "This option is not supported by the spoken evidence: 飲み物はコーヒーにします。"
+        },
+        {
+          "id": "c4",
+          "text": "Milk",
+          "rationale": "This option is not supported by the spoken evidence: 飲み物はコーヒーにします。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "飲み物はコーヒーにします。",
+      "explanation": "The man selects coffee."
+    },
+    {
+      "id": "ex-n5-m04-c01-l06-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l06-listening-06"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "What will the woman drink?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Coffee",
+          "rationale": "This option is not supported by the spoken evidence: わたしは水を飲みます。"
+        },
+        {
+          "id": "c2",
+          "text": "Juice",
+          "rationale": "This option is not supported by the spoken evidence: わたしは水を飲みます。"
+        },
+        {
+          "id": "c3",
+          "text": "Water",
+          "rationale": "Correct: The woman says she will drink water."
+        },
+        {
+          "id": "c4",
+          "text": "Tea",
+          "rationale": "This option is not supported by the spoken evidence: わたしは水を飲みます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "わたしは水を飲みます。",
+      "explanation": "The woman says she will drink water."
+    }
+  ]
+}
