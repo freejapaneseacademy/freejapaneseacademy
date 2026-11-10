@@ -3036,6 +3036,23 @@
       "audio": "schema-v3 AivisSpeech candidate job committed; actual WAVs and manifest require verification before release",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "l0-m05-c04-l07",
+      "level": "l0",
+      "moduleId": "l0-m05",
+      "chapterId": "l0-m05-c04",
+      "slot": "L07",
+      "title": "Foundation writing studio — kana corrections and a realistic review plan",
+      "content": "src/content/lessons/l0/foundation-writing-studio.mdx",
+      "url": "/learn/start/module-05/chapter-04/lesson-07/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — no independent qualified review claimed",
+      "assessmentReview": "pending — no independent review claimed",
+      "audio": "not required for written L07; listening belongs to L06",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
