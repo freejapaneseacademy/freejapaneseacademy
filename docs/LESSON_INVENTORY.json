@@ -3693,6 +3693,22 @@
       "noindex": false,
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m02-c01-l02",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c01",
+      "slot": "L02",
+      "title": "Lost-and-found vocabulary: School supplies and useful object words",
+      "content": "src/content/lessons/n5/objects-ownership-vocabulary.mdx",
+      "url": "/learn/n5/module-02/chapter-01/lesson-02/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L02 vocabulary recognition",
+      "noindex": false,
+      "ownerApproval": "automatic publication preauthorized; pending canonical-order QA and production verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
