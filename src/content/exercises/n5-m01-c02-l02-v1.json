@@ -1,0 +1,434 @@
+{
+  "id": "n5-m01-c02-l02",
+  "lessonId": "n5-m01-c02-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional school reception and classroom vocabulary scenarios; written-only assessment",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c02-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "A visitor asks 「あの人はだれですか。」 What is requested?",
+      "explanation": "だれ asks who; あの人 means that person over there.",
+      "feedback": "だれ asks who; あの人 means that person over there.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-01-c1",
+          "text": "The identity of that person",
+          "rationale": "Correct. だれ asks who; あの人 means that person over there."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-01-c2",
+          "text": "The location of the classroom",
+          "rationale": "Not this answer. だれ asks who; あの人 means that person over there."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-01-c3",
+          "text": "The name of an object",
+          "rationale": "Not this answer. だれ asks who; あの人 means that person over there."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "Which word means 'teacher' as a classroom role?",
+      "explanation": "せんせい identifies a teacher; がくせい is a student and きょうしつ is a classroom.",
+      "feedback": "せんせい identifies a teacher; がくせい is a student and きょうしつ is a classroom.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-02-c1",
+          "text": "せんせい",
+          "rationale": "Correct. せんせい identifies a teacher; がくせい is a student and きょうしつ is a classroom."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-02-c2",
+          "text": "がくせい",
+          "rationale": "Not this answer. せんせい identifies a teacher; がくせい is a student and きょうしつ is a classroom."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-02-c3",
+          "text": "きょうしつ",
+          "rationale": "Not this answer. せんせい identifies a teacher; がくせい is a student and きょうしつ is a classroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-02-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "A badge says 「がくせい」. Which role does it identify?",
+      "explanation": "がくせい means student, not a teacher or a place.",
+      "feedback": "がくせい means student, not a teacher or a place.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-03-c1",
+          "text": "Student",
+          "rationale": "Correct. がくせい means student, not a teacher or a place."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-03-c2",
+          "text": "Teacher",
+          "rationale": "Not this answer. がくせい means student, not a teacher or a place."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-03-c3",
+          "text": "Reception desk",
+          "rationale": "Not this answer. がくせい means student, not a teacher or a place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "What does 「きょうしつ」 identify?",
+      "explanation": "きょうしつ means classroom, a place rather than a person.",
+      "feedback": "きょうしつ means classroom, a place rather than a person.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-04-c1",
+          "text": "Classroom",
+          "rationale": "Correct. きょうしつ means classroom, a place rather than a person."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-04-c2",
+          "text": "Classmate",
+          "rationale": "Not this answer. きょうしつ means classroom, a place rather than a person."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-04-c3",
+          "text": "Textbook",
+          "rationale": "Not this answer. きょうしつ means classroom, a place rather than a person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "In 「たなかさんはせんせいです。」 what is Tanaka's role?",
+      "explanation": "せんせい is the explicitly stated role.",
+      "feedback": "せんせい is the explicitly stated role.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-05-c1",
+          "text": "Teacher",
+          "rationale": "Correct. せんせい is the explicitly stated role."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-05-c2",
+          "text": "Student",
+          "rationale": "Not this answer. せんせい is the explicitly stated role."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-05-c3",
+          "text": "Visitor",
+          "rationale": "Not this answer. せんせい is the explicitly stated role."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "Which word is appropriate for a fellow student in your class?",
+      "explanation": "クラスメート is a classmate; じむしつ is an office.",
+      "feedback": "クラスメート is a classmate; じむしつ is an office.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-06-c1",
+          "text": "クラスメート",
+          "rationale": "Correct. クラスメート is a classmate; じむしつ is an office."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-06-c2",
+          "text": "せんせい",
+          "rationale": "Not this answer. クラスメート is a classmate; じむしつ is an office."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-06-c3",
+          "text": "じむしつ",
+          "rationale": "Not this answer. クラスメート is a classmate; じむしつ is an office."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "Which question asks where the teacher is?",
+      "explanation": "どこ asks where; だれ asks who and なん asks what.",
+      "feedback": "どこ asks where; だれ asks who and なん asks what.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-07-c1",
+          "text": "せんせいはどこですか。",
+          "rationale": "Correct. どこ asks where; だれ asks who and なん asks what."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-07-c2",
+          "text": "せんせいはだれですか。",
+          "rationale": "Not this answer. どこ asks where; だれ asks who and なん asks what."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-07-c3",
+          "text": "これはなんですか。",
+          "rationale": "Not this answer. どこ asks where; だれ asks who and なん asks what."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "A visitor says 「うけつけはどこですか。」 What are they looking for?",
+      "explanation": "うけつけ is reception, often the place to ask for help.",
+      "feedback": "うけつけ is reception, often the place to ask for help.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-08-c1",
+          "text": "Reception desk",
+          "rationale": "Correct. うけつけ is reception, often the place to ask for help."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-08-c2",
+          "text": "Teacher's name",
+          "rationale": "Not this answer. うけつけ is reception, often the place to ask for help."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-08-c3",
+          "text": "Student's nationality",
+          "rationale": "Not this answer. うけつけ is reception, often the place to ask for help."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "Which phrase asks 'Which one?' among several visible items?",
+      "explanation": "どれ asks which one; だれ asks who; どこ asks where.",
+      "feedback": "どれ asks which one; だれ asks who; どこ asks where.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-09-c1",
+          "text": "どれですか。",
+          "rationale": "Correct. どれ asks which one; だれ asks who; どこ asks where."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-09-c2",
+          "text": "だれですか。",
+          "rationale": "Not this answer. どれ asks which one; だれ asks who; どこ asks where."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-09-c3",
+          "text": "どこですか。",
+          "rationale": "Not this answer. どれ asks which one; だれ asks who; どこ asks where."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-09-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l02-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l02-people-classroom-roles"
+      ],
+      "prompt": "In 「わたしもがくせいです。」 what does も add?",
+      "explanation": "も means also/too here, linking the speaker to an earlier student statement.",
+      "feedback": "も means also/too here, linking the speaker to an earlier student statement.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l02-10-c1",
+          "text": "I am a student too.",
+          "rationale": "Correct. も means also/too here, linking the speaker to an earlier student statement."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-10-c2",
+          "text": "I am not a student.",
+          "rationale": "Not this answer. も means also/too here, linking the speaker to an earlier student statement."
+        },
+        {
+          "id": "ex-n5-m01-c02-l02-10-c3",
+          "text": "Where is the student?",
+          "rationale": "Not this answer. も means also/too here, linking the speaker to an earlier student statement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l02-10-c1"
+      }
+    }
+  ]
+}
