@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m03-c01-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c01-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means Thursday?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "木曜日",
+          "rationale": "木曜日（もくようび） uses 木, the wood/tree character."
+        },
+        {
+          "id": "c2",
+          "text": "火曜日",
+          "rationale": "Not this form. 木曜日（もくようび） uses 木, the wood/tree character."
+        },
+        {
+          "id": "c3",
+          "text": "土曜日",
+          "rationale": "Not this form. 木曜日（もくようび） uses 木, the wood/tree character."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "木曜日（もくようび） uses 木, the wood/tree character."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How is 火曜日 read?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "きんようび",
+          "rationale": "Not this form. 火曜日 is かようび, Tuesday."
+        },
+        {
+          "id": "c2",
+          "text": "かようび",
+          "rationale": "火曜日 is かようび, Tuesday."
+        },
+        {
+          "id": "c3",
+          "text": "もくようび",
+          "rationale": "Not this form. 火曜日 is かようび, Tuesday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "火曜日 is かようび, Tuesday."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which character is shared by all seven weekday names?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "時",
+          "rationale": "Not this form. 曜（よう） is part of every weekday name."
+        },
+        {
+          "id": "c2",
+          "text": "枚",
+          "rationale": "Not this form. 曜（よう） is part of every weekday name."
+        },
+        {
+          "id": "c3",
+          "text": "曜",
+          "rationale": "曜（よう） is part of every weekday name."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "曜（よう） is part of every weekday name."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which printed expression means November?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "11月",
+          "rationale": "月 marks the month; 時 marks an hour; 人 counts people."
+        },
+        {
+          "id": "c2",
+          "text": "11時",
+          "rationale": "Not this form. 月 marks the month; 時 marks an hour; 人 counts people."
+        },
+        {
+          "id": "c3",
+          "text": "11人",
+          "rationale": "Not this form. 月 marks the month; 時 marks an hour; 人 counts people."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "月 marks the month; 時 marks an hour; 人 counts people."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How is 14日 read as a date?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "じゅうしじ",
+          "rationale": "Not this form. 14日 is じゅうよっか as a day of the month."
+        },
+        {
+          "id": "c2",
+          "text": "じゅうよっか",
+          "rationale": "14日 is じゅうよっか as a day of the month."
+        },
+        {
+          "id": "c3",
+          "text": "じゅうよんにち",
+          "rationale": "Not this form. 14日 is じゅうよっか as a day of the month."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "14日 is じゅうよっか as a day of the month."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 午前9時 indicate?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "9 p.m.",
+          "rationale": "Not this form. 午前 is a.m.; 9時 is read くじ."
+        },
+        {
+          "id": "c2",
+          "text": "nine people",
+          "rationale": "Not this form. 午前 is a.m.; 9時 is read くじ."
+        },
+        {
+          "id": "c3",
+          "text": "9 a.m.",
+          "rationale": "午前 is a.m.; 9時 is read くじ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "午前 is a.m.; 9時 is read くじ."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means four people?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "4人",
+          "rationale": "人 counts people; 4人 is read よにん."
+        },
+        {
+          "id": "c2",
+          "text": "4枚",
+          "rationale": "Not this form. 人 counts people; 4人 is read よにん."
+        },
+        {
+          "id": "c3",
+          "text": "4時",
+          "rationale": "Not this form. 人 counts people; 4人 is read よにん."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "人 counts people; 4人 is read よにん."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you write three sheets of paper?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "紙3時",
+          "rationale": "Not this form. 枚 counts flat sheets, so 紙3枚 is correct."
+        },
+        {
+          "id": "c2",
+          "text": "紙3枚",
+          "rationale": "枚 counts flat sheets, so 紙3枚 is correct."
+        },
+        {
+          "id": "c3",
+          "text": "紙3人",
+          "rationale": "Not this form. 枚 counts flat sheets, so 紙3枚 is correct."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "枚 counts flat sheets, so 紙3枚 is correct."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the notice, which day is Japanese class?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "木曜日",
+          "rationale": "Not this form. The notice places 日本語クラス on 火曜日."
+        },
+        {
+          "id": "c2",
+          "text": "土曜日",
+          "rationale": "Not this form. The notice places 日本語クラス on 火曜日."
+        },
+        {
+          "id": "c3",
+          "text": "火曜日",
+          "rationale": "The notice places 日本語クラス on 火曜日."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The notice places 日本語クラス on 火曜日."
+    },
+    {
+      "id": "ex-n5-m03-c01-l04-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression asks 'what time'?",
+      "objectiveIds": [
+        "n5-m03-c01-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c01-l04-calendar-kanji"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "何時",
+          "rationale": "何時（なんじ） asks for clock time."
+        },
+        {
+          "id": "c2",
+          "text": "何人",
+          "rationale": "Not this form. 何時（なんじ） asks for clock time."
+        },
+        {
+          "id": "c3",
+          "text": "何曜日",
+          "rationale": "Not this form. 何時（なんじ） asks for clock time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "何時（なんじ） asks for clock time."
+    }
+  ]
+}
