@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m03-c01-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 model-terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional community-center date announcements; waveform, model hashes, rights and pronunciation require workflow verification."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Saturday art workshop announcement",
+      "scenarioType": "announcement",
+      "objectiveId": "n5-m03-c01-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "お知らせです。絵の教室は十一月十四日、土曜日です。",
+          "english": "An announcement. The art class is on Saturday, November 14."
+        },
+        {
+          "speaker": "male",
+          "text": "何時からですか。",
+          "english": "What time does it start?"
+        },
+        {
+          "speaker": "female",
+          "text": "午前十時からです。紙を二枚持ってきてください。",
+          "english": "It starts at 10 a.m. Please bring two sheets of paper."
+        },
+        {
+          "speaker": "male",
+          "text": "わかりました。紙を二枚ですね。",
+          "english": "Understood. Two sheets of paper, right?"
+        }
+      ],
+      "comprehensionPrompts": [
+        "On what date is the art class?",
+        "What time does it start?",
+        "How many sheets of paper should participants bring?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Library story-time announcement",
+      "scenarioType": "announcement",
+      "objectiveId": "n5-m03-c01-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "図書館からのお知らせです。お話の会は十一月二十一日、土曜日です。",
+          "english": "An announcement from the library. Story time is on Saturday, November 21."
+        },
+        {
+          "speaker": "female",
+          "text": "午後何時からですか。",
+          "english": "At what time in the afternoon?"
+        },
+        {
+          "speaker": "male",
+          "text": "午後二時からです。先生が二人来ます。",
+          "english": "It starts at 2 p.m. Two teachers are coming."
+        },
+        {
+          "speaker": "female",
+          "text": "本は何冊持っていきますか。",
+          "english": "How many books should I bring?"
+        },
+        {
+          "speaker": "male",
+          "text": "本は要りません。小さいノートを一つ持ってきてください。",
+          "english": "You don't need books. Please bring one small notebook."
+        }
+      ],
+      "comprehensionPrompts": [
+        "On what date is story time?",
+        "How many teachers are coming?",
+        "What should attendees bring?"
+      ]
+    }
+  ]
+}
