@@ -1,0 +1,494 @@
+{
+  "id": "n5-m04-c01-l03",
+  "lessonId": "n5-m04-c01-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original Aya and Ken lunch-counter dialogue and examples in food-preferences-grammar.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c01-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Complete: カレー___好きです。",
+      "options": [
+        "が",
+        "を",
+        "と"
+      ],
+      "correctIndex": 0,
+      "feedback": "好きです takes が for the liked thing.",
+      "explanation": "好きです takes が for the liked thing.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-01-c1",
+          "text": "が",
+          "rationale": "好きです takes が for the liked thing."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-01-c2",
+          "text": "を",
+          "rationale": "を marks the object of an action, not the target of 好き."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-01-c3",
+          "text": "と",
+          "rationale": "と joins nouns or marks a companion; it does not mark the liked item here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Complete: カレー___食べます。",
+      "options": [
+        "と",
+        "を",
+        "が"
+      ],
+      "correctIndex": 1,
+      "feedback": "食べます is an action; curry is its direct object marked by を.",
+      "explanation": "食べます is an action; curry is its direct object marked by を.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-02-c1",
+          "text": "と",
+          "rationale": "と would join curry to another noun or mark a companion."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-02-c2",
+          "text": "を",
+          "rationale": "食べます is an action; curry is its direct object marked by を."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-02-c3",
+          "text": "が",
+          "rationale": "が好きです would express liking, not eating."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Which means 'I like bread and salad'?",
+      "options": [
+        "パンをサラダが好きです。",
+        "パンがサラダを好きです。",
+        "パンとサラダが好きです。"
+      ],
+      "correctIndex": 2,
+      "feedback": "と joins the two foods, and が marks the liked group.",
+      "explanation": "と joins the two foods, and が marks the liked group.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-03-c1",
+          "text": "パンをサラダが好きです。",
+          "rationale": "を cannot join two foods in this pattern."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-03-c2",
+          "text": "パンがサラダを好きです。",
+          "rationale": "This switches the grammatical roles and does not express the intended meaning."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-03-c3",
+          "text": "パンとサラダが好きです。",
+          "rationale": "と joins the two foods, and が marks the liked group."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "What does 友だちと食べます mean?",
+      "options": [
+        "I eat with a friend.",
+        "I eat a friend.",
+        "I dislike my friend."
+      ],
+      "correctIndex": 0,
+      "feedback": "と after 友だち identifies the companion in the eating action.",
+      "explanation": "と after 友だち identifies the companion in the eating action.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-04-c1",
+          "text": "I eat with a friend.",
+          "rationale": "と after 友だち identifies the companion in the eating action."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-04-c2",
+          "text": "I eat a friend.",
+          "rationale": "Eating a direct object would require を; this is not that meaning."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-04-c3",
+          "text": "I dislike my friend.",
+          "rationale": "Disliking would require a preference expression such as 好きではありません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Which is the natural polite beginner pattern for 'I dislike fish'?",
+      "options": [
+        "魚と嫌いです。",
+        "魚が嫌いです。",
+        "魚を嫌いです。"
+      ],
+      "correctIndex": 1,
+      "feedback": "嫌い is an adjectival noun and が marks the disliked item.",
+      "explanation": "嫌い is an adjectival noun and が marks the disliked item.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-05-c1",
+          "text": "魚と嫌いです。",
+          "rationale": "と would not mark the disliked item."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-05-c2",
+          "text": "魚が嫌いです。",
+          "rationale": "嫌い is an adjectival noun and が marks the disliked item."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-05-c3",
+          "text": "魚を嫌いです。",
+          "rationale": "を is used for objects of actions like 食べます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Which is 'I do not like coffee' in a polite contrast?",
+      "options": [
+        "コーヒーを好きます。",
+        "コーヒーと飲みます。",
+        "コーヒーは好きではありません。"
+      ],
+      "correctIndex": 2,
+      "feedback": "好きではありません negates the preference; は can contrast coffee with other drinks.",
+      "explanation": "好きではありません negates the preference; は can contrast coffee with other drinks.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-06-c1",
+          "text": "コーヒーを好きます。",
+          "rationale": "好きます is not a valid conjugation of 好き."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-06-c2",
+          "text": "コーヒーと飲みます。",
+          "rationale": "と飲みます suggests a companion or coordination, not a negative preference."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-06-c3",
+          "text": "コーヒーは好きではありません。",
+          "rationale": "好きではありません negates the preference; は can contrast coffee with other drinks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "In わたしはりんごが好きです, what does は mark?",
+      "options": [
+        "The person as topic",
+        "The apple as direct object",
+        "A companion"
+      ],
+      "correctIndex": 0,
+      "feedback": "わたしは introduces the person being discussed.",
+      "explanation": "わたしは introduces the person being discussed.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-07-c1",
+          "text": "The person as topic",
+          "rationale": "わたしは introduces the person being discussed."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-07-c2",
+          "text": "The apple as direct object",
+          "rationale": "りんごが is the liked item, not a direct object."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-07-c3",
+          "text": "A companion",
+          "rationale": "A companion would be marked by と."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Complete: 水___飲みます。",
+      "options": [
+        "と",
+        "を",
+        "が"
+      ],
+      "correctIndex": 1,
+      "feedback": "水 is the direct object of 飲みます and takes を.",
+      "explanation": "水 is the direct object of 飲みます and takes を.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-08-c1",
+          "text": "と",
+          "rationale": "と would imply coordination or a companion, not the water drunk."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-08-c2",
+          "text": "を",
+          "rationale": "水 is the direct object of 飲みます and takes を."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-08-c3",
+          "text": "が",
+          "rationale": "が is not the basic object marker for this action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Which sentence answers だれと食べますか?",
+      "options": [
+        "パンを食べます。",
+        "カレーが好きです。",
+        "母と食べます。"
+      ],
+      "correctIndex": 2,
+      "feedback": "だれと asks with whom; 母と gives a companion.",
+      "explanation": "だれと asks with whom; 母と gives a companion.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-09-c1",
+          "text": "パンを食べます。",
+          "rationale": "パンを食べます answers what is eaten, not with whom."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-09-c2",
+          "text": "カレーが好きです。",
+          "rationale": "カレーが好きです answers a preference question."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-09-c3",
+          "text": "母と食べます。",
+          "rationale": "だれと asks with whom; 母と gives a companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c01-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m04-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c01-l03-particles"
+      ],
+      "prompt": "Which interpretation of パンとサラダ is correct?",
+      "options": [
+        "Bread and salad (both named)",
+        "Bread instead of salad",
+        "Bread with a friend"
+      ],
+      "correctIndex": 0,
+      "feedback": "と explicitly joins the two named foods.",
+      "explanation": "と explicitly joins the two named foods.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c01-l03-10-c1",
+          "text": "Bread and salad (both named)",
+          "rationale": "と explicitly joins the two named foods."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-10-c2",
+          "text": "Bread instead of salad",
+          "rationale": "と does not mean 'instead of'."
+        },
+        {
+          "id": "ex-n5-m04-c01-l03-10-c3",
+          "text": "Bread with a friend",
+          "rationale": "Neither food denotes a companion here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c01-l03-10-c1"
+      }
+    }
+  ]
+}
