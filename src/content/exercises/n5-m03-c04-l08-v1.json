@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m03-c04-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which reply means 'I always study Japanese'?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いつも日本語を勉強します。",
+          "rationale": "いつも marks a consistent habit, with affirmative 勉強します."
+        },
+        {
+          "id": "c2",
+          "text": "あまり日本語を勉強しません。",
+          "rationale": "This option does not express the requested meaning. いつも marks a consistent habit, with affirmative 勉強します."
+        },
+        {
+          "id": "c3",
+          "text": "ときどき日本語を勉強します。",
+          "rationale": "This option does not express the requested meaning. いつも marks a consistent habit, with affirmative 勉強します."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いつも marks a consistent habit, with affirmative 勉強します."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which question asks about weekend habits?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "毎朝、何をしますか。",
+          "rationale": "This option does not express the requested meaning. 週末 means weekends; よく何をしますか asks what one often does."
+        },
+        {
+          "id": "c2",
+          "text": "何時に寝ますか。",
+          "rationale": "This option does not express the requested meaning. 週末 means weekends; よく何をしますか asks what one often does."
+        },
+        {
+          "id": "c3",
+          "text": "週末は、よく何をしますか。",
+          "rationale": "週末 means weekends; よく何をしますか asks what one often does."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "週末 means weekends; よく何をしますか asks what one often does."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which answer means 'I sometimes watch it'?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いつも見ます。",
+          "rationale": "This option does not express the requested meaning. ときどき indicates sometimes, and 見ます is affirmative."
+        },
+        {
+          "id": "c2",
+          "text": "ときどき見ます。",
+          "rationale": "ときどき indicates sometimes, and 見ます is affirmative."
+        },
+        {
+          "id": "c3",
+          "text": "ぜんぜん見ません。",
+          "rationale": "This option does not express the requested meaning. ときどき indicates sometimes, and 見ます is affirmative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "ときどき indicates sometimes, and 見ます is affirmative."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose a natural beginner reply meaning 'I don't drink coffee much.'",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あまり飲みません。",
+          "rationale": "あまり is paired with the negative 飲みません in this pattern."
+        },
+        {
+          "id": "c2",
+          "text": "あまり飲みます。",
+          "rationale": "This option does not express the requested meaning. あまり is paired with the negative 飲みません in this pattern."
+        },
+        {
+          "id": "c3",
+          "text": "よく飲みます。",
+          "rationale": "This option does not express the requested meaning. あまり is paired with the negative 飲みません in this pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "あまり is paired with the negative 飲みません in this pattern."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which answer means 'I don't play games at all'?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "よくします。",
+          "rationale": "This option does not express the requested meaning. ぜんぜん with しません means not at all in this beginner pattern."
+        },
+        {
+          "id": "c2",
+          "text": "ときどきします。",
+          "rationale": "This option does not express the requested meaning. ぜんぜん with しません means not at all in this beginner pattern."
+        },
+        {
+          "id": "c3",
+          "text": "ぜんぜんしません。",
+          "rationale": "ぜんぜん with しません means not at all in this beginner pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ぜんぜん with しません means not at all in this beginner pattern."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the best short answer to 日曜日は、友だちと話しますか。 if you often do?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あまり話しません。",
+          "rationale": "This option does not express the requested meaning. はい confirms the question, and よく話します says often."
+        },
+        {
+          "id": "c2",
+          "text": "はい、よく話します。",
+          "rationale": "はい confirms the question, and よく話します says often."
+        },
+        {
+          "id": "c3",
+          "text": "いいえ、ぜんぜん話しません。",
+          "rationale": "This option does not express the requested meaning. はい confirms the question, and よく話します says often."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "はい confirms the question, and よく話します says often."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which pair correctly contrasts often and not very often?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "よく行きます。／あまり行きません。",
+          "rationale": "よく is affirmative here; あまり is followed by the negative."
+        },
+        {
+          "id": "c2",
+          "text": "よく行きません。／あまり行きます。",
+          "rationale": "This option does not express the requested meaning. よく is affirmative here; あまり is followed by the negative."
+        },
+        {
+          "id": "c3",
+          "text": "いつも行きません。／よく行きません。",
+          "rationale": "This option does not express the requested meaning. よく is affirmative here; あまり is followed by the negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "よく is affirmative here; あまり is followed by the negative."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How do you ask what someone does every morning?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "毎晩、何をしますか。",
+          "rationale": "This option does not express the requested meaning. 毎朝 means every morning, not every night or yesterday."
+        },
+        {
+          "id": "c2",
+          "text": "昨日、何をしましたか。",
+          "rationale": "This option does not express the requested meaning. 毎朝 means every morning, not every night or yesterday."
+        },
+        {
+          "id": "c3",
+          "text": "毎朝、何をしますか。",
+          "rationale": "毎朝 means every morning, not every night or yesterday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "毎朝 means every morning, not every night or yesterday."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which particle marks the companion in 友だちと話します?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "を",
+          "rationale": "This option does not express the requested meaning. と marks the person you speak with in this example."
+        },
+        {
+          "id": "c2",
+          "text": "と",
+          "rationale": "と marks the person you speak with in this example."
+        },
+        {
+          "id": "c3",
+          "text": "で",
+          "rationale": "This option does not express the requested meaning. と marks the person you speak with in this example."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "と marks the person you speak with in this example."
+    },
+    {
+      "id": "ex-n5-m03-c04-l08-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence describes a habitual action rather than a completed past event?",
+      "objectiveIds": [
+        "n5-m03-c04-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l08-habit-roleplay"
+      ],
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "毎日、本を読みます。",
+          "rationale": "毎日 and the nonpast 読みます describe a recurring action."
+        },
+        {
+          "id": "c2",
+          "text": "昨日、本を読みました。",
+          "rationale": "This option does not express the requested meaning. 毎日 and the nonpast 読みます describe a recurring action."
+        },
+        {
+          "id": "c3",
+          "text": "昨日、本を読みませんでした。",
+          "rationale": "This option does not express the requested meaning. 毎日 and the nonpast 読みます describe a recurring action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "毎日 and the nonpast 読みます describe a recurring action."
+    }
+  ]
+}
