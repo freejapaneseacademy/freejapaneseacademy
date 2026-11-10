@@ -1,0 +1,620 @@
+{
+  "id": "n5-m02-c04-chk",
+  "lessonId": "n5-m02-c04-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original checkpoint reading notice; chapter L06 original guided-tour audio (requires playable verified WAVs)",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-grammar-01"
+      ],
+      "prompt": "Which sentence correctly says the book is under the desk?",
+      "evidence": "机の下に本があります。",
+      "explanation": "下 means under; 本 is inanimate and takes あります.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-01-c1",
+          "text": "机の下に本があります。",
+          "rationale": "Correct. 下 means under; 本 is inanimate and takes あります. Evidence: 机の下に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-01-c2",
+          "text": "机の上に本があります。",
+          "rationale": "Not supported. 下 means under; 本 is inanimate and takes あります. Evidence: 机の下に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-01-c3",
+          "text": "机の下に本がいます。",
+          "rationale": "Not supported. 下 means under; 本 is inanimate and takes あります. Evidence: 机の下に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-01-c4",
+          "text": "机を下に本があります。",
+          "rationale": "Not supported. 下 means under; 本 is inanimate and takes あります. Evidence: 机の下に本があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-grammar-02"
+      ],
+      "prompt": "Complete: いすの ___ にかばんがあります。 (behind)",
+      "evidence": "いすの後ろにかばんがあります。",
+      "explanation": "後ろ is behind; 前 is in front.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-02-c1",
+          "text": "前",
+          "rationale": "Not supported. 後ろ is behind; 前 is in front. Evidence: いすの後ろにかばんがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-02-c2",
+          "text": "中",
+          "rationale": "Not supported. 後ろ is behind; 前 is in front. Evidence: いすの後ろにかばんがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-02-c3",
+          "text": "後ろ",
+          "rationale": "Correct. 後ろ is behind; 前 is in front. Evidence: いすの後ろにかばんがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-02-c4",
+          "text": "隣",
+          "rationale": "Not supported. 後ろ is behind; 前 is in front. Evidence: いすの後ろにかばんがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-grammar-03"
+      ],
+      "prompt": "Which particle completes 棚の中__コップがあります?",
+      "evidence": "棚の中にコップがあります。",
+      "explanation": "に marks the location inside the shelf.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-03-c1",
+          "text": "を",
+          "rationale": "Not supported. に marks the location inside the shelf. Evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-03-c2",
+          "text": "に",
+          "rationale": "Correct. に marks the location inside the shelf. Evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-03-c3",
+          "text": "が",
+          "rationale": "Not supported. に marks the location inside the shelf. Evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-03-c4",
+          "text": "で",
+          "rationale": "Not supported. に marks the location inside the shelf. Evidence: 棚の中にコップがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-grammar-04"
+      ],
+      "prompt": "Which sentence places a cat next to the chair?",
+      "evidence": "いすの隣に猫がいます。",
+      "explanation": "Cats take います; 隣 means beside.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-04-c1",
+          "text": "いすの隣に猫があります。",
+          "rationale": "Not supported. Cats take います; 隣 means beside. Evidence: いすの隣に猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-04-c2",
+          "text": "いすの下に猫がいます。",
+          "rationale": "Not supported. Cats take います; 隣 means beside. Evidence: いすの隣に猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-04-c3",
+          "text": "いすの隣を猫がいます。",
+          "rationale": "Not supported. Cats take います; 隣 means beside. Evidence: いすの隣に猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-04-c4",
+          "text": "いすの隣に猫がいます。",
+          "rationale": "Correct. Cats take います; 隣 means beside. Evidence: いすの隣に猫がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-04-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-grammar-05"
+      ],
+      "prompt": "What does 机の前 mean?",
+      "evidence": "机の前にいすがあります。",
+      "explanation": "前 is the front side of a reference object.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-05-c1",
+          "text": "Behind the desk",
+          "rationale": "Not supported. 前 is the front side of a reference object. Evidence: 机の前にいすがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-05-c2",
+          "text": "In front of the desk",
+          "rationale": "Correct. 前 is the front side of a reference object. Evidence: 机の前にいすがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-05-c3",
+          "text": "Inside the desk",
+          "rationale": "Not supported. 前 is the front side of a reference object. Evidence: 机の前にいすがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-05-c4",
+          "text": "Under the desk",
+          "rationale": "Not supported. 前 is the front side of a reference object. Evidence: 机の前にいすがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-grammar-06"
+      ],
+      "prompt": "Choose the natural sentence introducing a clock on a shelf.",
+      "evidence": "棚の上に時計があります。",
+      "explanation": "の links shelf and upper surface; に marks place; が marks clock.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-06-c1",
+          "text": "棚の上が時計にあります。",
+          "rationale": "Not supported. の links shelf and upper surface; に marks place; が marks clock. Evidence: 棚の上に時計があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-06-c2",
+          "text": "棚の上に時計がいます。",
+          "rationale": "Not supported. の links shelf and upper surface; に marks place; が marks clock. Evidence: 棚の上に時計があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-06-c3",
+          "text": "棚の上に時計があります。",
+          "rationale": "Correct. の links shelf and upper surface; に marks place; が marks clock. Evidence: 棚の上に時計があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-06-c4",
+          "text": "棚の上を時計があります。",
+          "rationale": "Not supported. の links shelf and upper surface; に marks place; が marks clock. Evidence: 棚の上に時計があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-reading-07"
+      ],
+      "prompt": "According to notice A, where is the lamp?",
+      "evidence": "A: 机の上にランプがあります。",
+      "explanation": "The lamp is on the desk: 上.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-07-c1",
+          "text": "On the desk",
+          "rationale": "Correct. The lamp is on the desk: 上. Evidence: A: 机の上にランプがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-07-c2",
+          "text": "Under the desk",
+          "rationale": "Not supported. The lamp is on the desk: 上. Evidence: A: 机の上にランプがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-07-c3",
+          "text": "Inside the drawer",
+          "rationale": "Not supported. The lamp is on the desk: 上. Evidence: A: 机の上にランプがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-07-c4",
+          "text": "Behind the chair",
+          "rationale": "Not supported. The lamp is on the desk: 上. Evidence: A: 机の上にランプがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-reading-08"
+      ],
+      "prompt": "According to notice B, what is under the chair?",
+      "evidence": "B: いすの下にかばんがあります。",
+      "explanation": "かばん is the bag under the chair.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-08-c1",
+          "text": "A cat",
+          "rationale": "Not supported. かばん is the bag under the chair. Evidence: B: いすの下にかばんがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-08-c2",
+          "text": "A book",
+          "rationale": "Not supported. かばん is the bag under the chair. Evidence: B: いすの下にかばんがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-08-c3",
+          "text": "A bag",
+          "rationale": "Correct. かばん is the bag under the chair. Evidence: B: いすの下にかばんがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-08-c4",
+          "text": "A cup",
+          "rationale": "Not supported. かばん is the bag under the chair. Evidence: B: いすの下にかばんがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-reading-09"
+      ],
+      "prompt": "According to notice C, where is the bookshelf?",
+      "evidence": "C: 窓の隣に本棚があります。",
+      "explanation": "隣 locates the bookshelf next to the window.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-09-c1",
+          "text": "In front of the door",
+          "rationale": "Not supported. 隣 locates the bookshelf next to the window. Evidence: C: 窓の隣に本棚があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-09-c2",
+          "text": "Beside the window",
+          "rationale": "Correct. 隣 locates the bookshelf next to the window. Evidence: C: 窓の隣に本棚があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-09-c3",
+          "text": "Behind the desk",
+          "rationale": "Not supported. 隣 locates the bookshelf next to the window. Evidence: C: 窓の隣に本棚があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-09-c4",
+          "text": "Under the table",
+          "rationale": "Not supported. 隣 locates the bookshelf next to the window. Evidence: C: 窓の隣に本棚があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-reading-10"
+      ],
+      "prompt": "According to notice D, what is behind the sofa?",
+      "evidence": "D: ソファの後ろに猫がいます。",
+      "explanation": "猫がいます identifies the cat behind the sofa.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-10-c1",
+          "text": "A clock",
+          "rationale": "Not supported. 猫がいます identifies the cat behind the sofa. Evidence: D: ソファの後ろに猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-10-c2",
+          "text": "A lamp",
+          "rationale": "Not supported. 猫がいます identifies the cat behind the sofa. Evidence: D: ソファの後ろに猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-10-c3",
+          "text": "A bag",
+          "rationale": "Not supported. 猫がいます identifies the cat behind the sofa. Evidence: D: ソファの後ろに猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-10-c4",
+          "text": "A cat",
+          "rationale": "Correct. 猫がいます identifies the cat behind the sofa. Evidence: D: ソファの後ろに猫がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-10-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-listening-11"
+      ],
+      "prompt": "Track A: what is on the desk?",
+      "evidence": "机の上に本があります。",
+      "explanation": "The guide locates a book on the desk.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-11-c1",
+          "text": "A book",
+          "rationale": "Correct. The guide locates a book on the desk. Evidence: 机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-11-c2",
+          "text": "A cup",
+          "rationale": "Not supported. The guide locates a book on the desk. Evidence: 机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-11-c3",
+          "text": "A clock",
+          "rationale": "Not supported. The guide locates a book on the desk. Evidence: 机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-11-c4",
+          "text": "A bag",
+          "rationale": "Not supported. The guide locates a book on the desk. Evidence: 机の上に本があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-11-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-listening-12"
+      ],
+      "prompt": "Track A: where is the bag?",
+      "evidence": "かばんは机の下にあります。",
+      "explanation": "The bag is under the desk.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-12-c1",
+          "text": "On the chair",
+          "rationale": "Not supported. The bag is under the desk. Evidence: かばんは机の下にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-12-c2",
+          "text": "Under the desk",
+          "rationale": "Correct. The bag is under the desk. Evidence: かばんは机の下にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-12-c3",
+          "text": "Inside the shelf",
+          "rationale": "Not supported. The bag is under the desk. Evidence: かばんは机の下にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-12-c4",
+          "text": "Behind the window",
+          "rationale": "Not supported. The bag is under the desk. Evidence: かばんは机の下にあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-listening-13"
+      ],
+      "prompt": "Track B: what is inside the shelf?",
+      "evidence": "棚の中にコップがあります。",
+      "explanation": "The cup is inside the shelf.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-13-c1",
+          "text": "A book",
+          "rationale": "Not supported. The cup is inside the shelf. Evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-13-c2",
+          "text": "A cat",
+          "rationale": "Not supported. The cup is inside the shelf. Evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-13-c3",
+          "text": "A cup",
+          "rationale": "Correct. The cup is inside the shelf. Evidence: 棚の中にコップがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-13-c4",
+          "text": "A clock",
+          "rationale": "Not supported. The cup is inside the shelf. Evidence: 棚の中にコップがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-13-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c04-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c04-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-chk-listening-14"
+      ],
+      "prompt": "Track B: where is the cat?",
+      "evidence": "猫はいすの後ろにいます。",
+      "explanation": "The cat is behind the chair.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c04-chk-v1-14-c1",
+          "text": "Under the bed",
+          "rationale": "Not supported. The cat is behind the chair. Evidence: 猫はいすの後ろにいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-14-c2",
+          "text": "Beside the window",
+          "rationale": "Not supported. The cat is behind the chair. Evidence: 猫はいすの後ろにいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-14-c3",
+          "text": "In front of the chair",
+          "rationale": "Not supported. The cat is behind the chair. Evidence: 猫はいすの後ろにいます。"
+        },
+        {
+          "id": "ex-n5-m02-c04-chk-v1-14-c4",
+          "text": "Behind the chair",
+          "rationale": "Correct. The cat is behind the chair. Evidence: 猫はいすの後ろにいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c04-chk-v1-14-c4"
+      }
+    }
+  ]
+}
