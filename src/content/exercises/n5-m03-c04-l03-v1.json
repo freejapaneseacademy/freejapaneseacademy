@@ -1,0 +1,534 @@
+{
+  "lessonId": "n5-m03-c04-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m03-c04-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which expression normally means 'often'? ",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いつも",
+          "rationale": "Review this choice. よく indicates often, without an exact numeric frequency. Evidence: よく図書館で勉強します"
+        },
+        {
+          "id": "c2",
+          "text": "よく",
+          "rationale": "Correct. よく indicates often, without an exact numeric frequency. Evidence: よく図書館で勉強します"
+        },
+        {
+          "id": "c3",
+          "text": "ときどき",
+          "rationale": "Review this choice. よく indicates often, without an exact numeric frequency. Evidence: よく図書館で勉強します"
+        },
+        {
+          "id": "c4",
+          "text": "ぜんぜん",
+          "rationale": "Review this choice. よく indicates often, without an exact numeric frequency. Evidence: よく図書館で勉強します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "よく indicates often, without an exact numeric frequency.",
+      "evidence": "よく図書館で勉強します"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Choose the standard beginner sentence for 'I don't watch much TV.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あまりテレビを見ます。",
+          "rationale": "Review this choice. あまり combines with a negative verb to express 'not very often'. Evidence: あまりテレビを見ません"
+        },
+        {
+          "id": "c2",
+          "text": "あまりテレビを見ません。",
+          "rationale": "Correct. あまり combines with a negative verb to express 'not very often'. Evidence: あまりテレビを見ません"
+        },
+        {
+          "id": "c3",
+          "text": "いつもテレビを見ません。",
+          "rationale": "Review this choice. あまり combines with a negative verb to express 'not very often'. Evidence: あまりテレビを見ません"
+        },
+        {
+          "id": "c4",
+          "text": "よくテレビを見ます。",
+          "rationale": "Review this choice. あまり combines with a negative verb to express 'not very often'. Evidence: あまりテレビを見ません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "あまり combines with a negative verb to express 'not very often'.",
+      "evidence": "あまりテレビを見ません"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Choose the standard beginner sentence for 'I never drink coffee.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ぜんぜんコーヒーを飲みます。",
+          "rationale": "Review this choice. ぜんぜん plus a negative verb expresses 'not at all' in this pattern. Evidence: コーヒーはぜんぜん飲みません"
+        },
+        {
+          "id": "c2",
+          "text": "ときどきコーヒーを飲みます。",
+          "rationale": "Review this choice. ぜんぜん plus a negative verb expresses 'not at all' in this pattern. Evidence: コーヒーはぜんぜん飲みません"
+        },
+        {
+          "id": "c3",
+          "text": "ぜんぜんコーヒーを飲みません。",
+          "rationale": "Correct. ぜんぜん plus a negative verb expresses 'not at all' in this pattern. Evidence: コーヒーはぜんぜん飲みません"
+        },
+        {
+          "id": "c4",
+          "text": "よくコーヒーを飲みます。",
+          "rationale": "Review this choice. ぜんぜん plus a negative verb expresses 'not at all' in this pattern. Evidence: コーヒーはぜんぜん飲みません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ぜんぜん plus a negative verb expresses 'not at all' in this pattern.",
+      "evidence": "コーヒーはぜんぜん飲みません"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which expression means 'sometimes'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いつも",
+          "rationale": "Review this choice. ときどき indicates an occasional action. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c2",
+          "text": "あまり",
+          "rationale": "Review this choice. ときどき indicates an occasional action. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c3",
+          "text": "ときどき",
+          "rationale": "Correct. ときどき indicates an occasional action. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c4",
+          "text": "よく",
+          "rationale": "Review this choice. ときどき indicates an occasional action. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ときどき indicates an occasional action.",
+      "evidence": "学校ではときどき友だちと日本語を勉強します"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which particle marks the place where one studies?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "で",
+          "rationale": "Correct. で marks the location of an activity such as studying. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Review this choice. で marks the location of an activity such as studying. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c3",
+          "text": "に",
+          "rationale": "Review this choice. で marks the location of an activity such as studying. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c4",
+          "text": "が",
+          "rationale": "Review this choice. で marks the location of an activity such as studying. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "で marks the location of an activity such as studying.",
+      "evidence": "学校ではときどき友だちと日本語を勉強します"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "area": "grammar",
+      "prompt": "Which is the correct clock-time phrase?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "七時で起きます",
+          "rationale": "Review this choice. に marks a specific clock time such as 七時. Evidence: 私はいつも七時に起きます"
+        },
+        {
+          "id": "c2",
+          "text": "七時を起きます",
+          "rationale": "Review this choice. に marks a specific clock time such as 七時. Evidence: 私はいつも七時に起きます"
+        },
+        {
+          "id": "c3",
+          "text": "七時が起きます",
+          "rationale": "Review this choice. に marks a specific clock time such as 七時. Evidence: 私はいつも七時に起きます"
+        },
+        {
+          "id": "c4",
+          "text": "七時に起きます",
+          "rationale": "Correct. に marks a specific clock time such as 七時. Evidence: 私はいつも七時に起きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "に marks a specific clock time such as 七時.",
+      "evidence": "私はいつも七時に起きます"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-7"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "At what time does Sora usually get up?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "六時",
+          "rationale": "Review this choice. The journal says Sora always gets up at seven. Evidence: 私はいつも七時に起きます"
+        },
+        {
+          "id": "c2",
+          "text": "七時",
+          "rationale": "Correct. The journal says Sora always gets up at seven. Evidence: 私はいつも七時に起きます"
+        },
+        {
+          "id": "c3",
+          "text": "八時",
+          "rationale": "Review this choice. The journal says Sora always gets up at seven. Evidence: 私はいつも七時に起きます"
+        },
+        {
+          "id": "c4",
+          "text": "九時",
+          "rationale": "Review this choice. The journal says Sora always gets up at seven. Evidence: 私はいつも七時に起きます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The journal says Sora always gets up at seven.",
+      "evidence": "私はいつも七時に起きます"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-8"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Sora often eat in the morning?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ごはん",
+          "rationale": "Review this choice. The journal explicitly says パンを食べます. Evidence: 朝はよくパンを食べます"
+        },
+        {
+          "id": "c2",
+          "text": "パン",
+          "rationale": "Correct. The journal explicitly says パンを食べます. Evidence: 朝はよくパンを食べます"
+        },
+        {
+          "id": "c3",
+          "text": "魚",
+          "rationale": "Review this choice. The journal explicitly says パンを食べます. Evidence: 朝はよくパンを食べます"
+        },
+        {
+          "id": "c4",
+          "text": "りんご",
+          "rationale": "Review this choice. The journal explicitly says パンを食べます. Evidence: 朝はよくパンを食べます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The journal explicitly says パンを食べます.",
+      "evidence": "朝はよくパンを食べます"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-9"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Where does Sora sometimes study Japanese?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園",
+          "rationale": "Review this choice. The phrase 学校では locates the studying at school. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c2",
+          "text": "家",
+          "rationale": "Review this choice. The phrase 学校では locates the studying at school. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c3",
+          "text": "学校",
+          "rationale": "Correct. The phrase 学校では locates the studying at school. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        },
+        {
+          "id": "c4",
+          "text": "図書館",
+          "rationale": "Review this choice. The phrase 学校では locates the studying at school. Evidence: 学校ではときどき友だちと日本語を勉強します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The phrase 学校では locates the studying at school.",
+      "evidence": "学校ではときどき友だちと日本語を勉強します"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-10"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Sora not watch much at night?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "映画",
+          "rationale": "Review this choice. The journal says Sora does not watch much television at night. Evidence: 夜はあまりテレビを見ません"
+        },
+        {
+          "id": "c2",
+          "text": "テレビ",
+          "rationale": "Correct. The journal says Sora does not watch much television at night. Evidence: 夜はあまりテレビを見ません"
+        },
+        {
+          "id": "c3",
+          "text": "ニュース",
+          "rationale": "Review this choice. The journal says Sora does not watch much television at night. Evidence: 夜はあまりテレビを見ません"
+        },
+        {
+          "id": "c4",
+          "text": "スポーツ",
+          "rationale": "Review this choice. The journal says Sora does not watch much television at night. Evidence: 夜はあまりテレビを見ません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The journal says Sora does not watch much television at night.",
+      "evidence": "夜はあまりテレビを見ません"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-11"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Sora never drink?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶",
+          "rationale": "Review this choice. The negative ぜんぜん飲みません refers to coffee. Evidence: コーヒーはぜんぜん飲みません"
+        },
+        {
+          "id": "c2",
+          "text": "水",
+          "rationale": "Review this choice. The negative ぜんぜん飲みません refers to coffee. Evidence: コーヒーはぜんぜん飲みません"
+        },
+        {
+          "id": "c3",
+          "text": "牛乳",
+          "rationale": "Review this choice. The negative ぜんぜん飲みません refers to coffee. Evidence: コーヒーはぜんぜん飲みません"
+        },
+        {
+          "id": "c4",
+          "text": "コーヒー",
+          "rationale": "Correct. The negative ぜんぜん飲みません refers to coffee. Evidence: コーヒーはぜんぜん飲みません"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "The negative ぜんぜん飲みません refers to coffee.",
+      "evidence": "コーヒーはぜんぜん飲みません"
+    },
+    {
+      "id": "ex-n5-m03-c04-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m03-c04-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m03-c04-l03-pattern-12"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "What does Sora often do on Sundays?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "料理をします",
+          "rationale": "Review this choice. The journal states Sora often walks in the park on Sundays. Evidence: 日曜日はよく公園を散歩します"
+        },
+        {
+          "id": "c2",
+          "text": "公園を散歩します",
+          "rationale": "Correct. The journal states Sora often walks in the park on Sundays. Evidence: 日曜日はよく公園を散歩します"
+        },
+        {
+          "id": "c3",
+          "text": "映画を見ます",
+          "rationale": "Review this choice. The journal states Sora often walks in the park on Sundays. Evidence: 日曜日はよく公園を散歩します"
+        },
+        {
+          "id": "c4",
+          "text": "買い物をします",
+          "rationale": "Review this choice. The journal states Sora often walks in the park on Sundays. Evidence: 日曜日はよく公園を散歩します"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The journal states Sora often walks in the park on Sundays.",
+      "evidence": "日曜日はよく公園を散歩します"
+    }
+  ]
+}
