@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/CafeSpeakingRehearsal';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/food-preference-speaking');
+if (!lesson || lesson.data.lessonId !== 'n5-m04-c01-l08') throw new Error('Missing canonical café speaking lesson');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Food and drinks',href:'/learn/n5/module-04/chapter-01/lesson-08/'}]}>
+<section class="page-hero"><div class="container"><p class="eyebrow">N5 · MODULE 04 · CHAPTER 01 · LESSON 08 · OPTIONAL</p><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Optional speaking / shadowing</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice">Original academy material. Optional rehearsal; no speech recording or verified pronunciation scoring. Independent Japanese and assessment reviews pending.</div><div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content /></article><Practice client:load/><div class="foundation-completion"><h2>Finish the optional lesson</h2><p>Optional completion and written recognition attempts are separate. This chapter does not require speaking or recording.</p><LessonActions client:load lessonId="n5-m04-c01-l08" level="n5"/></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div></div><aside class="lesson-side foundation-side"><h3>Rehearsal guide</h3><p>Say what you like with が好きです; say what you eat with を食べます; use と to join named foods or identify a companion.</p><p>Listen to real café dialogue in <a href="/learn/n5/module-04/chapter-01/lesson-06/">Lesson 06</a>. The written speaking model here has no matching recorded track.</p></aside></div></section>
+</Base>
