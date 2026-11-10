@@ -3793,6 +3793,23 @@
       "audio": "not required for written L07; L06 audio is separate",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m04-c03-l06",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c03",
+      "slot": "L06",
+      "title": "Listen and Compare: Two Cafés and Two Bags",
+      "content": "src/content/lessons/n5/adjective-comparisons-listening.mdx",
+      "url": "/learn/n5/module-04/chapter-03/lesson-06/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese and pronunciation review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "schema-v3 AivisSpeech candidate committed; actual WAVs, manifests, hashes, playback and rights verification pending",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

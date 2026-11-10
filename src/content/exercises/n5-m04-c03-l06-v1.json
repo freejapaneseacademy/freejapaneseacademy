@@ -1,0 +1,246 @@
+{
+  "lessonId": "n5-m04-c03-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c03-l06-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "a",
+      "prompt": "Which café is described as quiet?",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l06-comparison-a"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The café they are in",
+          "rationale": "Correct. この means this café, where the speakers are; the station café is lively."
+        },
+        {
+          "id": "c2",
+          "text": "The café in front of the station",
+          "rationale": "Review the spoken evidence. この means this café, where the speakers are; the station café is lively."
+        },
+        {
+          "id": "c3",
+          "text": "Both cafés",
+          "rationale": "Review the spoken evidence. この means this café, where the speakers are; the station café is lively."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "この means this café, where the speakers are; the station café is lively.",
+      "evidence": "このカフェは静かですね。"
+    },
+    {
+      "id": "ex-n5-m04-c03-l06-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "a",
+      "prompt": "How is the café in front of the station described?",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l06-comparison-a"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Quiet",
+          "rationale": "Review the spoken evidence. にぎやか means lively; the station café is contrasted with the quiet café."
+        },
+        {
+          "id": "c2",
+          "text": "Lively",
+          "rationale": "Correct. にぎやか means lively; the station café is contrasted with the quiet café."
+        },
+        {
+          "id": "c3",
+          "text": "Not convenient",
+          "rationale": "Review the spoken evidence. にぎやか means lively; the station café is contrasted with the quiet café."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "にぎやか means lively; the station café is contrasted with the quiet café.",
+      "evidence": "駅の前のカフェはにぎやかです。"
+    },
+    {
+      "id": "ex-n5-m04-c03-l06-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "a",
+      "prompt": "What does the speaker say about the cake?",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l06-comparison-a"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "It is not very tasty",
+          "rationale": "Correct. あまり plus a negative means not very; the coffee, not the cake, is described as tasty."
+        },
+        {
+          "id": "c2",
+          "text": "It is very tasty",
+          "rationale": "Review the spoken evidence. あまり plus a negative means not very; the coffee, not the cake, is described as tasty."
+        },
+        {
+          "id": "c3",
+          "text": "It is expensive",
+          "rationale": "Review the spoken evidence. あまり plus a negative means not very; the coffee, not the cake, is described as tasty."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "あまり plus a negative means not very; the coffee, not the cake, is described as tasty.",
+      "evidence": "ケーキはあまりおいしくないです。"
+    },
+    {
+      "id": "ex-n5-m04-c03-l06-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "b",
+      "prompt": "Which bag is described as big?",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l06-comparison-b"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The blue bag",
+          "rationale": "Review the spoken evidence. The red bag is big; the blue bag is explicitly not big."
+        },
+        {
+          "id": "c2",
+          "text": "The red bag",
+          "rationale": "Correct. The red bag is big; the blue bag is explicitly not big."
+        },
+        {
+          "id": "c3",
+          "text": "Both bags",
+          "rationale": "Review the spoken evidence. The red bag is big; the blue bag is explicitly not big."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The red bag is big; the blue bag is explicitly not big.",
+      "evidence": "この赤いかばんは大きいですね。"
+    },
+    {
+      "id": "ex-n5-m04-c03-l06-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "b",
+      "prompt": "Which description fits the blue bag?",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l06-comparison-b"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Big and expensive",
+          "rationale": "Review the spoken evidence. 安くて便利 means inexpensive and convenient; 大きくない means not big."
+        },
+        {
+          "id": "c2",
+          "text": "Inexpensive and convenient",
+          "rationale": "Correct. 安くて便利 means inexpensive and convenient; 大きくない means not big."
+        },
+        {
+          "id": "c3",
+          "text": "Quiet and tasty",
+          "rationale": "Review the spoken evidence. 安くて便利 means inexpensive and convenient; 大きくない means not big."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "安くて便利 means inexpensive and convenient; 大きくない means not big.",
+      "evidence": "青いかばんは大きくないです。でも、安くて便利です。"
+    },
+    {
+      "id": "ex-n5-m04-c03-l06-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "trackId": "b",
+      "prompt": "Which bag does the shopper finally choose?",
+      "objectiveIds": [
+        "n5-m04-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c03-l06-comparison-b"
+      ],
+      "skills": [
+        "listening",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The red bag",
+          "rationale": "Review the spoken evidence. にします marks the final choice: the blue bag."
+        },
+        {
+          "id": "c2",
+          "text": "Neither bag",
+          "rationale": "Review the spoken evidence. にします marks the final choice: the blue bag."
+        },
+        {
+          "id": "c3",
+          "text": "The blue bag",
+          "rationale": "Correct. にします marks the final choice: the blue bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "にします marks the final choice: the blue bag.",
+      "evidence": "じゃあ、青いかばんにします。"
+    }
+  ]
+}
