@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/VerbBoardPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/verb-board-context');
+if(!lesson) throw new Error('Missing n5-m06-c01-l01');
+const { Content }=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Verb groups and dictionary form',href:'/learn/n5/module-06/chapter-01/lesson-01/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 06 · CHAPTER 01 · LESSON 01</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Context and meaning</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice">Original FreeJapaneseAcademy material. Independent Japanese-language and assessment reviews pending; not official JLPT material.</div><div class="lesson-intro"><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective:string)=><li>{objective}</li>)}</ul></div><article class="lesson-article foundation-article"><Content /></article><Practice client:load /><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion and practice scores are recorded separately.</p><LessonActions client:load lessonId="n5-m06-c01-l01" level="n5" /></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div></div><aside class="lesson-side foundation-side"><h3>Study guide</h3><p>First read for activity meaning. Then notice the dictionary-form and ます-form pairs.</p><p>Written context lesson: no new audio is required.</p></aside></div></section>
+</Base>
