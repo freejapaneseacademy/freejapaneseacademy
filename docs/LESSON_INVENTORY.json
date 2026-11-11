@@ -3966,6 +3966,23 @@
       "assessmentReview": "pending — independent assessment editor review not claimed",
       "audio": "reuses two original N5-M02-C02-L06 recordings; playable WAVs, integrity, rights and pronunciation review pending",
       "noindex": false
+    },
+    {
+      "id": "n5-m02-c03-l01",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c03",
+      "slot": "L01",
+      "title": "Where are the notebook and teacher? Existence in a classroom",
+      "content": "src/content/lessons/n5/room-existence-context.mdx",
+      "url": "/learn/n5/module-02/chapter-03/lesson-01/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L01; authentic locating-belongings audio belongs to L06",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
