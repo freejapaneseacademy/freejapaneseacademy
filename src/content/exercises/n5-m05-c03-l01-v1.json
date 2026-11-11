@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c03-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who asks for directions?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ミカ",
+          "rationale": "Mika is the visitor who asks where the library is."
+        },
+        {
+          "id": "c2",
+          "text": "佐藤さん",
+          "rationale": "Not supported by the dialogue: 佐藤さん. Mika is the visitor who asks where the library is."
+        },
+        {
+          "id": "c3",
+          "text": "公園",
+          "rationale": "Not supported by the dialogue: 公園. Mika is the visitor who asks where the library is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Mika is the visitor who asks where the library is."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place does Mika want to find?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館",
+          "rationale": "図書館はどこですか identifies the library as her destination."
+        },
+        {
+          "id": "c2",
+          "text": "駅",
+          "rationale": "Not supported by the dialogue: 駅. 図書館はどこですか identifies the library as her destination."
+        },
+        {
+          "id": "c3",
+          "text": "公園",
+          "rationale": "Not supported by the dialogue: 公園. 図書館はどこですか identifies the library as her destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "図書館はどこですか identifies the library as her destination."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression begins Mika's polite request?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "すみません",
+          "rationale": "すみません politely gets Sato's attention."
+        },
+        {
+          "id": "c2",
+          "text": "どういたしまして",
+          "rationale": "Not supported by the dialogue: どういたしまして. すみません politely gets Sato's attention."
+        },
+        {
+          "id": "c3",
+          "text": "まっすぐ",
+          "rationale": "Not supported by the dialogue: まっすぐ. すみません politely gets Sato's attention."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "すみません politely gets Sato's attention."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase tells Mika to go straight?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "まっすぐ行ってください",
+          "rationale": "まっすぐ行ってください is the straight-ahead instruction."
+        },
+        {
+          "id": "c2",
+          "text": "右に曲がってください",
+          "rationale": "Not supported by the dialogue: 右に曲がってください. まっすぐ行ってください is the straight-ahead instruction."
+        },
+        {
+          "id": "c3",
+          "text": "どこですか",
+          "rationale": "Not supported by the dialogue: どこですか. まっすぐ行ってください is the straight-ahead instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "まっすぐ行ってください is the straight-ahead instruction."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "At which landmark should Mika turn?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "信号",
+          "rationale": "信号で右に曲がってください specifies the traffic light."
+        },
+        {
+          "id": "c2",
+          "text": "図書館",
+          "rationale": "Not supported by the dialogue: 図書館. 信号で右に曲がってください specifies the traffic light."
+        },
+        {
+          "id": "c3",
+          "text": "駅",
+          "rationale": "Not supported by the dialogue: 駅. 信号で右に曲がってください specifies the traffic light."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "信号で右に曲がってください specifies the traffic light."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which direction is the turn at the traffic light?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右",
+          "rationale": "右に曲がってください means turn right."
+        },
+        {
+          "id": "c2",
+          "text": "左",
+          "rationale": "Not supported by the dialogue: 左. 右に曲がってください means turn right."
+        },
+        {
+          "id": "c3",
+          "text": "まっすぐ",
+          "rationale": "Not supported by the dialogue: まっすぐ. 右に曲がってください means turn right."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "右に曲がってください means turn right."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means park?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園",
+          "rationale": "公園 is the park used as a landmark."
+        },
+        {
+          "id": "c2",
+          "text": "図書館",
+          "rationale": "Not supported by the dialogue: 図書館. 公園 is the park used as a landmark."
+        },
+        {
+          "id": "c3",
+          "text": "信号",
+          "rationale": "Not supported by the dialogue: 信号. 公園 is the park used as a landmark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "公園 is the park used as a landmark."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the library relative to the park?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園の左",
+          "rationale": "図書館は公園の左にあります places it to the park's left."
+        },
+        {
+          "id": "c2",
+          "text": "公園の右",
+          "rationale": "Not supported by the dialogue: 公園の右. 図書館は公園の左にあります places it to the park's left."
+        },
+        {
+          "id": "c3",
+          "text": "駅の左",
+          "rationale": "Not supported by the dialogue: 駅の左. 図書館は公園の左にあります places it to the park's left."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "図書館は公園の左にあります places it to the park's left."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence is a location question?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館はどこですか。",
+          "rationale": "どこですか asks where the library is."
+        },
+        {
+          "id": "c2",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Not supported by the dialogue: まっすぐ行ってください。. どこですか asks where the library is."
+        },
+        {
+          "id": "c3",
+          "text": "ありがとうございます。",
+          "rationale": "Not supported by the dialogue: ありがとうございます。. どこですか asks where the library is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "どこですか asks where the library is."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence states the library's location?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館は公園の左にあります。",
+          "rationale": "〜にあります states a location, not a turn instruction."
+        },
+        {
+          "id": "c2",
+          "text": "信号で右に曲がってください。",
+          "rationale": "Not supported by the dialogue: 信号で右に曲がってください。. 〜にあります states a location, not a turn instruction."
+        },
+        {
+          "id": "c3",
+          "text": "すみません。",
+          "rationale": "Not supported by the dialogue: すみません。. 〜にあります states a location, not a turn instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "〜にあります states a location, not a turn instruction."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is explicitly stated about the route?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "信号で右に曲がります",
+          "rationale": "Only a right turn at a traffic light is stated; no second light or duration is given."
+        },
+        {
+          "id": "c2",
+          "text": "二つ目の信号で左に曲がります",
+          "rationale": "Not supported by the dialogue: 二つ目の信号で左に曲がります. Only a right turn at a traffic light is stated; no second light or duration is given."
+        },
+        {
+          "id": "c3",
+          "text": "五分歩きます",
+          "rationale": "Not supported by the dialogue: 五分歩きます. Only a right turn at a traffic light is stated; no second light or duration is given."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Only a right turn at a traffic light is stated; no second light or duration is given."
+    },
+    {
+      "id": "ex-n5-m05-c03-l01-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which reply thanks Sato for the directions?",
+      "objectiveIds": [
+        "n5-m05-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l01-directions-context"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ありがとうございます。",
+          "rationale": "Mika says ありがとうございます after receiving directions."
+        },
+        {
+          "id": "c2",
+          "text": "どこですか。",
+          "rationale": "Not supported by the dialogue: どこですか。. Mika says ありがとうございます after receiving directions."
+        },
+        {
+          "id": "c3",
+          "text": "右に曲がってください。",
+          "rationale": "Not supported by the dialogue: 右に曲がってください。. Mika says ありがとうございます after receiving directions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Mika says ありがとうございます after receiving directions."
+    }
+  ]
+}
