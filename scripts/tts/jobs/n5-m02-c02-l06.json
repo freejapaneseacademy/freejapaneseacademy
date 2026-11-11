@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m02-c02-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional wayfinding dialogues; pinned model terms and credits. Real WAVs, model hash confirmation, waveform-to-transcript QA and independent pronunciation review pending."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Finding the library and cafeteria",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m02-c02-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "すみません。図書館はどこですか。",
+          "english": "Excuse me. Where is the library?"
+        },
+        {
+          "speaker": "male",
+          "text": "図書館は二階にあります。",
+          "english": "The library is on the second floor."
+        },
+        {
+          "speaker": "female",
+          "text": "食堂も二階ですか。",
+          "english": "Is the cafeteria also on the second floor?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいえ、食堂は一階です。入口の近くです。",
+          "english": "No, the cafeteria is on the first floor, near the entrance."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where is the library?",
+        "Which floor is the cafeteria on?",
+        "What is the cafeteria near?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Finding the restroom and reception",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m02-c02-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "すみません。トイレはどこですか。",
+          "english": "Excuse me. Where is the restroom?"
+        },
+        {
+          "speaker": "female",
+          "text": "トイレはあそこです。階段の右です。",
+          "english": "The restroom is over there, to the right of the stairs."
+        },
+        {
+          "speaker": "male",
+          "text": "ありがとうございます。受付はどこですか。",
+          "english": "Thank you. Where is reception?"
+        },
+        {
+          "speaker": "female",
+          "text": "受付はここです。",
+          "english": "Reception is here."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where is the restroom relative to the stairs?",
+        "What does the visitor ask about second?",
+        "Where is reception?"
+      ]
+    }
+  ]
+}

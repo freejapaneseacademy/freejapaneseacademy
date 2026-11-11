@@ -1,0 +1,4 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../content/exercises/n5-m01-c03-l06-v1.json';
+import {gradeFamilyListening} from '../components/interactive/N5FamilyListeningPractice';
+describe('n5-m01-c03-l06 listening',()=>{it('has six unique evidence-supported questions',()=>{expect(bank.items).toHaveLength(6);expect(new Set(bank.items.map(q=>q.id)).size).toBe(6);for(const q of bank.items){expect(q.choices).toHaveLength(3);expect(new Set(q.choices.map(c=>c.text)).size).toBe(3);expect(q.choices[q.correctIndex].id).toBe(q.answerKey.choiceId);expect(q.evidence.length).toBeGreaterThan(4);expect(['a','b']).toContain(q.trackId)}});it('scores right and wrong answers',()=>{const yes=Object.fromEntries(bank.items.map(q=>[q.id,q.answerKey.choiceId]));const no=Object.fromEntries(bank.items.map(q=>[q.id,'a']));expect(gradeFamilyListening(yes)).toBe(6);expect(gradeFamilyListening(no)).toBe(0)})});

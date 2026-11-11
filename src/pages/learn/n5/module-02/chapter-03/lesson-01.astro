@@ -1,0 +1,26 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import RoomContextPractice from '../../../../../components/interactive/RoomContextPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/room-existence-context');
+if(!lesson || lesson.data.lessonId!=='n5-m02-c03-l01')throw new Error('Missing canonical lesson n5-m02-c03-l01');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Existence and location',href:'/learn/n5/module-02/chapter-03/lesson-01/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 02 · Chapter 03 · Lesson 01</span></nav>
+    <span class="eyebrow">N5 · MODULE 02 · CHAPTER 03 · LESSON 01</span>
+    <h1>Where are the notebook and teacher?</h1><p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Written classroom context</span><span>10 practice questions</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Original written lesson.</strong> Fictional characters and classroom details. Independent Japanese and assessment reviews are pending; no audio is claimed.</div>
+    <div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content/></article>
+    <RoomContextPractice client:load/>
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion is separate from your practice score.</p><LessonActions client:load lessonId="n5-m02-c03-l01" level="n5"/></div>
+    <div class="lesson-next"><h3>Continue learning</h3><p>Next: people, things and place vocabulary.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div>
+  </div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Look for the place</h3><p>Locate the notebook, book and teacher in the written scene. Use あります for objects and います for people.</p></aside></div></section>
+</Base>
