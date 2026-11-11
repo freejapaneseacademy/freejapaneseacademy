@@ -1,0 +1,326 @@
+{
+  "id": "n5-m06-c03-l07",
+  "lessonId": "n5-m06-c03-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original model notice and guided writing in requests-permission-writing.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-01"
+      ],
+      "prompt": "Which ending politely asks someone to close a door?",
+      "evidence": "ドアを閉めてください。",
+      "explanation": "〜てください asks another person to perform an action. Evidence: ドアを閉めてください。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-01-c1",
+          "text": "ドアを閉めてください。",
+          "rationale": "Correct. 〜てください asks another person to perform an action."
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-01-c2",
+          "text": "ドアを閉めてもいいですか。",
+          "rationale": "Review the model: ドアを閉めてください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-01-c3",
+          "text": "ドアを閉めてはいけません。",
+          "rationale": "Review the model: ドアを閉めてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-02"
+      ],
+      "prompt": "Which sentence asks permission to drink water?",
+      "evidence": "水を飲んでもいいですか。",
+      "explanation": "〜てもいいですか asks whether an action is allowed. Evidence: 水を飲んでもいいですか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-02-c1",
+          "text": "水を飲んではいけません。",
+          "rationale": "Review the model: 水を飲んでもいいですか。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-02-c2",
+          "text": "水を飲んでもいいですか。",
+          "rationale": "Correct. 〜てもいいですか asks whether an action is allowed."
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-02-c3",
+          "text": "水を飲んでください。",
+          "rationale": "Review the model: 水を飲んでもいいですか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-03"
+      ],
+      "prompt": "Which notice prohibits running here?",
+      "evidence": "ここで走ってはいけません。",
+      "explanation": "〜てはいけません marks a prohibition. Evidence: ここで走ってはいけません。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-03-c1",
+          "text": "ここで走ってください。",
+          "rationale": "Review the model: ここで走ってはいけません。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-03-c2",
+          "text": "ここで走ってもいいです。",
+          "rationale": "Review the model: ここで走ってはいけません。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-03-c3",
+          "text": "ここで走ってはいけません。",
+          "rationale": "Correct. 〜てはいけません marks a prohibition."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-04"
+      ],
+      "prompt": "Which form correctly completes 水を___もいいですか?",
+      "evidence": "水を飲んでもいいですか。",
+      "explanation": "飲む becomes 飲んで before もいいですか. Evidence: 水を飲んでもいいですか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-04-c1",
+          "text": "飲んで",
+          "rationale": "Correct. 飲む becomes 飲んで before もいいですか."
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-04-c2",
+          "text": "飲みて",
+          "rationale": "Review the model: 水を飲んでもいいですか。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-04-c3",
+          "text": "飲むて",
+          "rationale": "Review the model: 水を飲んでもいいですか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-05"
+      ],
+      "prompt": "Which sentence states that water is allowed?",
+      "evidence": "水を飲んでもいいです。",
+      "explanation": "Without か, 〜てもいいです grants permission rather than asking. Evidence: 水を飲んでもいいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-05-c1",
+          "text": "水を飲んでもいいです。",
+          "rationale": "Correct. Without か, 〜てもいいです grants permission rather than asking."
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-05-c2",
+          "text": "水を飲んでもいいですか。",
+          "rationale": "Review the model: 水を飲んでもいいです。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-05-c3",
+          "text": "水を飲んではいけません。",
+          "rationale": "Review the model: 水を飲んでもいいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-06"
+      ],
+      "prompt": "Which particle marks where an action occurs?",
+      "evidence": "教室で本を読んでください。",
+      "explanation": "で marks the location of the reading action: 教室で. Evidence: 教室で本を読んでください。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-06-c1",
+          "text": "を",
+          "rationale": "Review the model: 教室で本を読んでください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-06-c2",
+          "text": "で",
+          "rationale": "Correct. で marks the location of the reading action: 教室で."
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-06-c3",
+          "text": "に",
+          "rationale": "Review the model: 教室で本を読んでください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-07"
+      ],
+      "prompt": "A student wants to ask the teacher to open the window. Which is a request?",
+      "evidence": "窓を開けてください。",
+      "explanation": "〜てください is the polite request to the teacher. Evidence: 窓を開けてください。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-07-c1",
+          "text": "窓を開けてはいけません。",
+          "rationale": "Review the model: 窓を開けてください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-07-c2",
+          "text": "窓を開けてもいいですか。",
+          "rationale": "Review the model: 窓を開けてください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-07-c3",
+          "text": "窓を開けてください。",
+          "rationale": "Correct. 〜てください is the polite request to the teacher."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l07-function-08"
+      ],
+      "prompt": "Which sentence correctly prohibits using a phone?",
+      "evidence": "ここで電話を使ってはいけません。",
+      "explanation": "〜てはいけません prohibits the action; the others allow or request it. Evidence: ここで電話を使ってはいけません。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l07-08-c1",
+          "text": "ここで電話を使ってもいいです。",
+          "rationale": "Review the model: ここで電話を使ってはいけません。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-08-c2",
+          "text": "ここで電話を使ってはいけません。",
+          "rationale": "Correct. 〜てはいけません prohibits the action; the others allow or request it."
+        },
+        {
+          "id": "ex-n5-m06-c03-l07-08-c3",
+          "text": "ここで電話を使ってください。",
+          "rationale": "Review the model: ここで電話を使ってはいけません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l07-08-c2"
+      }
+    }
+  ]
+}
