@@ -3888,6 +3888,22 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written L04",
       "noindex": false
+    },
+    {
+      "id": "n5-m02-c02-l05",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c02",
+      "slot": "L05",
+      "title": "Reading a school building map: find rooms and evidence",
+      "content": "src/content/lessons/n5/school-building-map-reading.mdx",
+      "url": "/learn/n5/module-02/chapter-02/lesson-05/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05",
+      "noindex": false,
+      "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
