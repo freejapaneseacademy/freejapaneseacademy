@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m04-c04-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who first proposes lunch?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Mina",
+          "rationale": "The speaker of the first invitation is Mina."
+        },
+        {
+          "id": "c2",
+          "text": "Haru",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c3",
+          "text": "Sora",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Mina's first line ends with 食べませんか, inviting the others to lunch."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where are the classmates coming from?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A train ride",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c2",
+          "text": "Japanese class",
+          "rationale": "The introduction explicitly names Japanese class."
+        },
+        {
+          "id": "c3",
+          "text": "A restaurant job",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The story places them just after Japanese class."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does いっしょに mean in Mina's invitation?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Tomorrow",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c2",
+          "text": "Together",
+          "rationale": "It describes eating together, not the time."
+        },
+        {
+          "id": "c3",
+          "text": "Alone",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "いっしょに means together; Mina is inviting company."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is Haru's response?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "He accepts the invitation",
+          "rationale": "Haru agrees to eat together."
+        },
+        {
+          "id": "c2",
+          "text": "He says he cannot come",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c3",
+          "text": "He asks to postpone",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いいですね。食べましょう expresses agreement and a shared plan."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Sora's また こんど indicate here?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At twelve today",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c2",
+          "text": "Another time",
+          "rationale": "It is a polite decline for today."
+        },
+        {
+          "id": "c3",
+          "text": "At the station now",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "After an apology and きょうは ちょっと, また こんど defers the invitation."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence is an invitation question?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昼ごはんを 食べませんか。",
+          "rationale": "The final か makes this an invitation question in context."
+        },
+        {
+          "id": "c2",
+          "text": "昼ごはんを 食べません。",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c3",
+          "text": "そのカフェに します。",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "食べませんか asks whether someone would like to eat together."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase proposes a shared action?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べましょう。",
+          "rationale": "ましょう suggests or agrees to doing something together."
+        },
+        {
+          "id": "c2",
+          "text": "食べません。",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c3",
+          "text": "カフェに します。",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "食べましょう means 'Let's eat'."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is chosen with そのカフェに します?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A meeting time",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c2",
+          "text": "A drink temperature",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c3",
+          "text": "A café",
+          "rationale": "にします expresses a choice, here the café."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Mina chooses the café Haru suggested."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place does Haru suggest?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A café near the station",
+          "rationale": "ちかく means nearby; the café is near the station."
+        },
+        {
+          "id": "c2",
+          "text": "A school library",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c3",
+          "text": "A shop inside the station",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "えきの ちかくの カフェ specifies a café near the station."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When will Mina and Haru meet?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At eleven",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c2",
+          "text": "At twelve",
+          "rationale": "十二時 is 12 o'clock."
+        },
+        {
+          "id": "c3",
+          "text": "At one",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "十二時に カフェで 会いましょう states twelve o'clock."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Does the passage establish that Sora will attend today's lunch?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, Sora chooses the café",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c2",
+          "text": "No, Sora declines for today",
+          "rationale": "Sora defers to another occasion."
+        },
+        {
+          "id": "c3",
+          "text": "Yes, Sora says 食べましょう",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Sora says きょうは ちょっと……。また こんど, so attendance today is not agreed."
+    },
+    {
+      "id": "ex-n5-m04-c04-l01-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the most accurate meaning of そのカフェに します?",
+      "objectiveIds": [
+        "n5-m04-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l01-invitation-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "I will choose that café",
+          "rationale": "The choice is the café, not a statement of current location."
+        },
+        {
+          "id": "c2",
+          "text": "I am already inside that café",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        },
+        {
+          "id": "c3",
+          "text": "I do not like that café",
+          "rationale": "This does not match the dialogue or the function of the Japanese expression. Re-read the relevant line and compare the speaker, time, or purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "にします expresses a decision; it is not the movement verb 行きます."
+    }
+  ]
+}
