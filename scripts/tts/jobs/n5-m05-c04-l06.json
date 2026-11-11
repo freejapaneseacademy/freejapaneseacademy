@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m05-c04-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "ACML 1.0 approved voices, attribution included. Audio workflow must independently verify exact model hashes, generated WAV rights, quality and manifest; no endorsement or native review claimed."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Meeting for the museum visit",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m05-c04-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "土曜日に博物館へ行きませんか。",
+          "english": "Would you like to go to the museum on Saturday?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいですね。何時に会いますか。",
+          "english": "Sounds good. What time shall we meet?"
+        },
+        {
+          "speaker": "female",
+          "text": "午前九時に駅で会いましょう。",
+          "english": "Let's meet at the station at nine in the morning."
+        },
+        {
+          "speaker": "male",
+          "text": "博物館へは何で行きますか。",
+          "english": "How will we get to the museum?"
+        },
+        {
+          "speaker": "female",
+          "text": "駅から電車で行きます。",
+          "english": "We'll go by train from the station."
+        },
+        {
+          "speaker": "male",
+          "text": "わかりました。土曜日の午前九時ですね。",
+          "english": "Understood. Nine on Saturday morning, then."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where are the two people planning to go?",
+        "What time will they meet?",
+        "How will they travel from the station?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Sunday bus trip to the aquarium",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m05-c04-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "日曜日の水族館へのバスは何時ですか。",
+          "english": "What time is the bus to the aquarium on Sunday?"
+        },
+        {
+          "speaker": "female",
+          "text": "午前十時に駅の前から出ます。",
+          "english": "It leaves from in front of the station at ten in the morning."
+        },
+        {
+          "speaker": "male",
+          "text": "切符はいくらですか。",
+          "english": "How much is a ticket?"
+        },
+        {
+          "speaker": "female",
+          "text": "片道三百円です。",
+          "english": "It's three hundred yen one way."
+        },
+        {
+          "speaker": "male",
+          "text": "友達と行きます。二人分をお願いします。",
+          "english": "I'm going with a friend. Two tickets, please."
+        },
+        {
+          "speaker": "female",
+          "text": "はい。二枚で六百円です。",
+          "english": "Certainly. Two tickets are six hundred yen."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What is the destination of the Sunday bus?",
+        "When does the bus depart?",
+        "How much is one one-way ticket?"
+      ]
+    }
+  ]
+}
