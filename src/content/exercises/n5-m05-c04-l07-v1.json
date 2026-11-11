@@ -1,0 +1,342 @@
+{
+  "id": "n5-m05-c04-l07",
+  "lessonId": "n5-m05-c04-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Japanese outing plans by FreeJapaneseAcademy",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Which sentence says 'We meet in front of the station at nine'?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-01-c1",
+          "text": "九時に駅の前で集合します。",
+          "rationale": "Correct. Specific time uses に and the meeting location uses で."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-01-c2",
+          "text": "九時で駅の前に集合します。",
+          "rationale": "Not quite. Specific time uses に and the meeting location uses で."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-01-c3",
+          "text": "九時に駅の前を集合します。",
+          "rationale": "Not quite. Specific time uses に and the meeting location uses で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-01-c1"
+      },
+      "explanation": "Specific time uses に and the meeting location uses で.",
+      "feedback": "Specific time uses に and the meeting location uses で."
+    },
+    {
+      "id": "ex-n5-m05-c04-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Choose 'We go to the park by bus.'",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-02-c1",
+          "text": "バスに公園で行きます。",
+          "rationale": "Not quite. Transport takes で; the destination takes に."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-02-c2",
+          "text": "バスで公園に行きます。",
+          "rationale": "Correct. Transport takes で; the destination takes に."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-02-c3",
+          "text": "バスが公園を行きます。",
+          "rationale": "Not quite. Transport takes で; the destination takes に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-02-c2"
+      },
+      "explanation": "Transport takes で; the destination takes に.",
+      "feedback": "Transport takes で; the destination takes に."
+    },
+    {
+      "id": "ex-n5-m05-c04-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Complete 午前十時＿出発します。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-03-c1",
+          "text": "を",
+          "rationale": "Not quite. A specific clock time is marked with に."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-03-c2",
+          "text": "で",
+          "rationale": "Not quite. A specific clock time is marked with に."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-03-c3",
+          "text": "に",
+          "rationale": "Correct. A specific clock time is marked with に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-03-c3"
+      },
+      "explanation": "A specific clock time is marked with に.",
+      "feedback": "A specific clock time is marked with に."
+    },
+    {
+      "id": "ex-n5-m05-c04-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Which sentence describes arrival at the museum?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-04-c1",
+          "text": "博物館に着きます。",
+          "rationale": "Correct. 着きます marks arrival, and に marks the arrival point."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-04-c2",
+          "text": "博物館で行きます。",
+          "rationale": "Not quite. 着きます marks arrival, and に marks the arrival point."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-04-c3",
+          "text": "博物館を集合します。",
+          "rationale": "Not quite. 着きます marks arrival, and に marks the arrival point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-04-c1"
+      },
+      "explanation": "着きます marks arrival, and に marks the arrival point.",
+      "feedback": "着きます marks arrival, and に marks the arrival point."
+    },
+    {
+      "id": "ex-n5-m05-c04-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Which is a logical timeline?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-05-c1",
+          "text": "九時に到着、十時に出発",
+          "rationale": "Not quite. Meet at nine, depart at nine-thirty, then arrive at ten."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-05-c2",
+          "text": "九時に集合、九時半に出発、十時に到着",
+          "rationale": "Correct. Meet at nine, depart at nine-thirty, then arrive at ten."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-05-c3",
+          "text": "十時に出発、九時に集合",
+          "rationale": "Not quite. Meet at nine, depart at nine-thirty, then arrive at ten."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-05-c2"
+      },
+      "explanation": "Meet at nine, depart at nine-thirty, then arrive at ten.",
+      "feedback": "Meet at nine, depart at nine-thirty, then arrive at ten."
+    },
+    {
+      "id": "ex-n5-m05-c04-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Which phrase means 'one-way fare'?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-06-c1",
+          "text": "往復の切符",
+          "rationale": "Not quite. 片道 means one way and 運賃 means fare."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-06-c2",
+          "text": "午前の集合",
+          "rationale": "Not quite. 片道 means one way and 運賃 means fare."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-06-c3",
+          "text": "片道の運賃",
+          "rationale": "Correct. 片道 means one way and 運賃 means fare."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-06-c3"
+      },
+      "explanation": "片道 means one way and 運賃 means fare.",
+      "feedback": "片道 means one way and 運賃 means fare."
+    },
+    {
+      "id": "ex-n5-m05-c04-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Which sentence means 'We meet at the library'?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-07-c1",
+          "text": "図書館で集合します。",
+          "rationale": "Correct. で marks the place where the action 集合します happens."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-07-c2",
+          "text": "図書館に行きます。",
+          "rationale": "Not quite. で marks the place where the action 集合します happens."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-07-c3",
+          "text": "図書館で着きます。",
+          "rationale": "Not quite. で marks the place where the action 集合します happens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-07-c1"
+      },
+      "explanation": "で marks the place where the action 集合します happens.",
+      "feedback": "で marks the place where the action 集合します happens."
+    },
+    {
+      "id": "ex-n5-m05-c04-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l07-itinerary"
+      ],
+      "prompt": "Choose the natural sentence for 'Tomorrow we go by train.'",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l07-08-c1",
+          "text": "明日に電車に行きます。",
+          "rationale": "Not quite. 明日 usually needs no に, while 電車で marks the means of travel."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-08-c2",
+          "text": "明日、電車で行きます。",
+          "rationale": "Correct. 明日 usually needs no に, while 電車で marks the means of travel."
+        },
+        {
+          "id": "ex-n5-m05-c04-l07-08-c3",
+          "text": "明日で電車を行きます。",
+          "rationale": "Not quite. 明日 usually needs no に, while 電車で marks the means of travel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l07-08-c2"
+      },
+      "explanation": "明日 usually needs no に, while 電車で marks the means of travel.",
+      "feedback": "明日 usually needs no に, while 電車で marks the means of travel."
+    }
+  ]
+}
