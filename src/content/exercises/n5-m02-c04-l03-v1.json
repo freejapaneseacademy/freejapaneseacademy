@@ -1,0 +1,522 @@
+{
+  "lessonId": "n5-m02-c04-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-1"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose the sentence meaning “There is a book on the desk.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "つくえの 上に ほんが あります。",
+          "rationale": "つくえの 上に ほんが あります。 uses の for the reference, に for the location, が for the book and あります for an object."
+        },
+        {
+          "id": "c2",
+          "text": "つくえの 下に ほんが あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. つくえの 上に ほんが あります。 uses の for the reference, に for the location, が for the book and あります for an object."
+        },
+        {
+          "id": "c3",
+          "text": "つくえの 上に ほんが います。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. つくえの 上に ほんが あります。 uses の for the reference, に for the location, が for the book and あります for an object."
+        },
+        {
+          "id": "c4",
+          "text": "つくえの 上が ほんに あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. つくえの 上に ほんが あります。 uses の for the reference, に for the location, が for the book and あります for an object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "つくえの 上に ほんが あります。 uses の for the reference, に for the location, が for the book and あります for an object."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-2"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Which phrase means “under the chair”?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いすの 前",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 下（した） means below or under; いすの 下 is under the chair."
+        },
+        {
+          "id": "c2",
+          "text": "いすの 下",
+          "rationale": "下（した） means below or under; いすの 下 is under the chair."
+        },
+        {
+          "id": "c3",
+          "text": "いすの 中",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 下（した） means below or under; いすの 下 is under the chair."
+        },
+        {
+          "id": "c4",
+          "text": "いすの 上",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 下（した） means below or under; いすの 下 is under the chair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "下（した） means below or under; いすの 下 is under the chair."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-3"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A teacher is in front of the door. Choose the correct sentence.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ドアの 前に せんせいが あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. ドアの 前に marks the location and せんせいが います uses the person existence verb."
+        },
+        {
+          "id": "c2",
+          "text": "ドアの 後ろに せんせいが います。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. ドアの 前に marks the location and せんせいが います uses the person existence verb."
+        },
+        {
+          "id": "c3",
+          "text": "ドアの 前に せんせいが います。",
+          "rationale": "ドアの 前に marks the location and せんせいが います uses the person existence verb."
+        },
+        {
+          "id": "c4",
+          "text": "ドアの 前が せんせいに います。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. ドアの 前に marks the location and せんせいが います uses the person existence verb."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ドアの 前に marks the location and せんせいが います uses the person existence verb."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-4"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose “There is a key inside the bag.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "かばんの 隣に かぎが あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 中（なか） means inside, and a key takes あります."
+        },
+        {
+          "id": "c2",
+          "text": "かばんの 中に かぎが います。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 中（なか） means inside, and a key takes あります."
+        },
+        {
+          "id": "c3",
+          "text": "かばんの 下に かぎが あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 中（なか） means inside, and a key takes あります."
+        },
+        {
+          "id": "c4",
+          "text": "かばんの 中に かぎが あります。",
+          "rationale": "中（なか） means inside, and a key takes あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "中（なか） means inside, and a key takes あります."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-5"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Which sentence means “There is a chair next to the shelf”?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "たなの 隣に いすが あります。",
+          "rationale": "隣（となり） is next to; furniture takes あります."
+        },
+        {
+          "id": "c2",
+          "text": "たなの 後ろに いすが あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 隣（となり） is next to; furniture takes あります."
+        },
+        {
+          "id": "c3",
+          "text": "たなの 隣に いすが います。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 隣（となり） is next to; furniture takes あります."
+        },
+        {
+          "id": "c4",
+          "text": "たなの 隣が いすに あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 隣（となり） is next to; furniture takes あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "隣（となり） is next to; furniture takes あります."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-6"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Which sentence correctly places a cat behind the chair?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いすの 後ろに ねこが あります。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 後ろ（うしろ） is behind; a cat takes います."
+        },
+        {
+          "id": "c2",
+          "text": "いすの 後ろに ねこが います。",
+          "rationale": "後ろ（うしろ） is behind; a cat takes います."
+        },
+        {
+          "id": "c3",
+          "text": "いすの 前に ねこが います。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 後ろ（うしろ） is behind; a cat takes います."
+        },
+        {
+          "id": "c4",
+          "text": "いすの 後ろが ねこに います。",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. 後ろ（うしろ） is behind; a cat takes います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "後ろ（うしろ） is behind; a cat takes います."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-7"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: つくえの 上に あおい ほんが あります。 What is on the desk?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A black bag",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. あおい ほん is a blue book; 上に places it on the desk."
+        },
+        {
+          "id": "c2",
+          "text": "A key",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. あおい ほん is a blue book; 上に places it on the desk."
+        },
+        {
+          "id": "c3",
+          "text": "A blue book",
+          "rationale": "あおい ほん is a blue book; 上に places it on the desk."
+        },
+        {
+          "id": "c4",
+          "text": "A chair",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. あおい ほん is a blue book; 上に places it on the desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "あおい ほん is a blue book; 上に places it on the desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-8"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: つくえの 下に くろい かばんが あります。 Where is the bag?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On the desk",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. つくえの 下に means under the desk."
+        },
+        {
+          "id": "c2",
+          "text": "Inside the shelf",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. つくえの 下に means under the desk."
+        },
+        {
+          "id": "c3",
+          "text": "Behind the chair",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. つくえの 下に means under the desk."
+        },
+        {
+          "id": "c4",
+          "text": "Under the desk",
+          "rationale": "つくえの 下に means under the desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "つくえの 下に means under the desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-9"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: かばんの 中に かぎが あります。 Where is the key?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Inside the bag",
+          "rationale": "かばんの 中に explicitly locates the key inside the bag."
+        },
+        {
+          "id": "c2",
+          "text": "Beside the shelf",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. かばんの 中に explicitly locates the key inside the bag."
+        },
+        {
+          "id": "c3",
+          "text": "Under the desk",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. かばんの 中に explicitly locates the key inside the bag."
+        },
+        {
+          "id": "c4",
+          "text": "In front of the door",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. かばんの 中に explicitly locates the key inside the bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "かばんの 中に explicitly locates the key inside the bag."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-10"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: ドアの 前に せんせいが います。 Who is in front of the door?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A cat",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. せんせい is teacher and ドアの 前に means in front of the door."
+        },
+        {
+          "id": "c2",
+          "text": "A teacher",
+          "rationale": "せんせい is teacher and ドアの 前に means in front of the door."
+        },
+        {
+          "id": "c3",
+          "text": "A student",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. せんせい is teacher and ドアの 前に means in front of the door."
+        },
+        {
+          "id": "c4",
+          "text": "A friend",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. せんせい is teacher and ドアの 前に means in front of the door."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "せんせい is teacher and ドアの 前に means in front of the door."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-11"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: たなの 隣に いすが あります。 Which item is next to the shelf?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A book",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. いす means chair; たなの 隣に is next to the shelf."
+        },
+        {
+          "id": "c2",
+          "text": "A bag",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. いす means chair; たなの 隣に is next to the shelf."
+        },
+        {
+          "id": "c3",
+          "text": "A chair",
+          "rationale": "いす means chair; たなの 隣に is next to the shelf."
+        },
+        {
+          "id": "c4",
+          "text": "A key",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. いす means chair; たなの 隣に is next to the shelf."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "いす means chair; たなの 隣に is next to the shelf."
+    },
+    {
+      "id": "ex-n5-m02-c04-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c04-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l03-spatial-12"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: いすの 後ろに ねこが います。 Where is the cat?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Inside the bag",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. いすの 後ろに states behind the chair, and ねこ is the cat."
+        },
+        {
+          "id": "c2",
+          "text": "On the desk",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. いすの 後ろに states behind the chair, and ねこ is the cat."
+        },
+        {
+          "id": "c3",
+          "text": "In front of the door",
+          "rationale": "This answer does not match the specified spatial relationship, subject or existence verb. いすの 後ろに states behind the chair, and ねこ is the cat."
+        },
+        {
+          "id": "c4",
+          "text": "Behind the chair",
+          "rationale": "いすの 後ろに states behind the chair, and ねこ is the cat."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "いすの 後ろに states behind the chair, and ねこ is the cat."
+    }
+  ]
+}
