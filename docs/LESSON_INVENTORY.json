@@ -3904,6 +3904,22 @@
       "audio": "not required for written L05",
       "noindex": false,
       "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "n5-m05-c01-l01",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c01",
+      "slot": "L01",
+      "title": "Where Are We Going? A Journey from Campus to the Station",
+      "content": "src/content/lessons/n5/movement-going-coming-context.mdx",
+      "url": "/learn/n5/module-05/chapter-01/lesson-01/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L01; no recorded audio or pronunciation assessment",
+      "noindex": true,
+      "ownerApproval": "2026-11-08: automatic publication authorized after exact-head checks and Cloudflare verification"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

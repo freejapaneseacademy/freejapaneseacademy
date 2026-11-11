@@ -1,0 +1,436 @@
+{
+  "lessonId": "n5-m05-c01-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l01-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-1"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Who asks where Ken is going?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Ken",
+          "rationale": "Not quite. Aki opens with けんさん、今日、どこへ行きますか。"
+        },
+        {
+          "id": "c2",
+          "text": "Aki",
+          "rationale": "Correct. Aki opens with けんさん、今日、どこへ行きますか。"
+        },
+        {
+          "id": "c3",
+          "text": "Aki's friend",
+          "rationale": "Not quite. Aki opens with けんさん、今日、どこへ行きますか。"
+        },
+        {
+          "id": "c4",
+          "text": "A teacher",
+          "rationale": "Not quite. Aki opens with けんさん、今日、どこへ行きますか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Aki opens with けんさん、今日、どこへ行きますか。"
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-2"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Where does Ken say he is going first?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The library",
+          "rationale": "Not quite. 駅へ行きます identifies the station as Ken's destination."
+        },
+        {
+          "id": "c2",
+          "text": "A park",
+          "rationale": "Not quite. 駅へ行きます identifies the station as Ken's destination."
+        },
+        {
+          "id": "c3",
+          "text": "The station",
+          "rationale": "Correct. 駅へ行きます identifies the station as Ken's destination."
+        },
+        {
+          "id": "c4",
+          "text": "A café",
+          "rationale": "Not quite. 駅へ行きます identifies the station as Ken's destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "駅へ行きます identifies the station as Ken's destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-3"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "How does Ken say he will return home?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "By bicycle",
+          "rationale": "Not quite. 電車で家に帰ります uses 電車で for travel by train."
+        },
+        {
+          "id": "c2",
+          "text": "By train",
+          "rationale": "Correct. 電車で家に帰ります uses 電車で for travel by train."
+        },
+        {
+          "id": "c3",
+          "text": "On foot",
+          "rationale": "Not quite. 電車で家に帰ります uses 電車で for travel by train."
+        },
+        {
+          "id": "c4",
+          "text": "By taxi",
+          "rationale": "Not quite. 電車で家に帰ります uses 電車で for travel by train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "電車で家に帰ります uses 電車で for travel by train."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-4"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Where is Aki going?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The station",
+          "rationale": "Not quite. 図書館に行きます states Aki's destination."
+        },
+        {
+          "id": "c2",
+          "text": "Home",
+          "rationale": "Not quite. 図書館に行きます states Aki's destination."
+        },
+        {
+          "id": "c3",
+          "text": "The library",
+          "rationale": "Correct. 図書館に行きます states Aki's destination."
+        },
+        {
+          "id": "c4",
+          "text": "The cinema",
+          "rationale": "Not quite. 図書館に行きます states Aki's destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "図書館に行きます states Aki's destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-5"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Who is coming to the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Ken",
+          "rationale": "Not quite. 友だちが図書館に来ます means a friend will come to the library."
+        },
+        {
+          "id": "c2",
+          "text": "Aki's friend",
+          "rationale": "Correct. 友だちが図書館に来ます means a friend will come to the library."
+        },
+        {
+          "id": "c3",
+          "text": "Aki's teacher",
+          "rationale": "Not quite. 友だちが図書館に来ます means a friend will come to the library."
+        },
+        {
+          "id": "c4",
+          "text": "Ken's parent",
+          "rationale": "Not quite. 友だちが図書館に来ます means a friend will come to the library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "友だちが図書館に来ます means a friend will come to the library."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-6"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Which verb best expresses 'return home'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "行きます",
+          "rationale": "Not quite. 帰ります expresses returning, often going home."
+        },
+        {
+          "id": "c2",
+          "text": "来ます",
+          "rationale": "Not quite. 帰ります expresses returning, often going home."
+        },
+        {
+          "id": "c3",
+          "text": "帰ります",
+          "rationale": "Correct. 帰ります expresses returning, often going home."
+        },
+        {
+          "id": "c4",
+          "text": "食べます",
+          "rationale": "Not quite. 帰ります expresses returning, often going home."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "帰ります expresses returning, often going home."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-7"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Which verb is used in 駅へ行きます?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来ます",
+          "rationale": "Not quite. 行きます means go; the station is the destination."
+        },
+        {
+          "id": "c2",
+          "text": "帰ります",
+          "rationale": "Not quite. 行きます means go; the station is the destination."
+        },
+        {
+          "id": "c3",
+          "text": "行きます",
+          "rationale": "Correct. 行きます means go; the station is the destination."
+        },
+        {
+          "id": "c4",
+          "text": "見ます",
+          "rationale": "Not quite. 行きます means go; the station is the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "行きます means go; the station is the destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-8"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "In 電車で家に帰ります, what does 電車で express?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The departure time",
+          "rationale": "Not quite. The particle で after 電車 marks the means: by train."
+        },
+        {
+          "id": "c2",
+          "text": "The person accompanying Ken",
+          "rationale": "Not quite. The particle で after 電車 marks the means: by train."
+        },
+        {
+          "id": "c3",
+          "text": "Means of transport",
+          "rationale": "Correct. The particle で after 電車 marks the means: by train."
+        },
+        {
+          "id": "c4",
+          "text": "The final destination",
+          "rationale": "Not quite. The particle で after 電車 marks the means: by train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The particle で after 電車 marks the means: by train."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-9"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "What is the particle へ pronounced as in 駅へ行きます?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "へ",
+          "rationale": "Not quite. The directional particle へ is pronounced え."
+        },
+        {
+          "id": "c2",
+          "text": "え",
+          "rationale": "Correct. The directional particle へ is pronounced え."
+        },
+        {
+          "id": "c3",
+          "text": "は",
+          "rationale": "Not quite. The directional particle へ is pronounced え."
+        },
+        {
+          "id": "c4",
+          "text": "に",
+          "rationale": "Not quite. The directional particle へ is pronounced え."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The directional particle へ is pronounced え."
+    },
+    {
+      "id": "ex-n5-m05-c01-l01-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l01-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l01-context-10"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "What is NOT stated in the dialogue?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Aki is going to the library",
+          "rationale": "Not quite. The friend's transport is never specified; do not infer it."
+        },
+        {
+          "id": "c2",
+          "text": "Ken will return home by train",
+          "rationale": "Not quite. The friend's transport is never specified; do not infer it."
+        },
+        {
+          "id": "c3",
+          "text": "How Aki's friend travels",
+          "rationale": "Correct. The friend's transport is never specified; do not infer it."
+        },
+        {
+          "id": "c4",
+          "text": "Ken is going to the station",
+          "rationale": "Not quite. The friend's transport is never specified; do not infer it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The friend's transport is never specified; do not infer it."
+    }
+  ]
+}
