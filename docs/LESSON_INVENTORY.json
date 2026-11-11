@@ -3873,6 +3873,21 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written L03",
       "noindex": false
+    },
+    {
+      "id": "n5-m04-c04-l03",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c04",
+      "slot": "L03",
+      "title": "Invite, accept and decide: ませんか・ましょう・にします",
+      "content": "src/content/lessons/n5/invitations-decisions-grammar.mdx",
+      "url": "/learn/n5/module-04/chapter-04/lesson-03/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for L03 written grammar; no listening score",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
