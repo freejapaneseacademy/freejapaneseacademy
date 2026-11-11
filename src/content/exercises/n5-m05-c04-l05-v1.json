@@ -1,0 +1,450 @@
+{
+  "lessonId": "n5-m05-c04-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does the group meet?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "8:40 a.m.",
+          "rationale": "Correct. 集合：午前八時四十分 gives the meeting time."
+        },
+        {
+          "id": "c2",
+          "text": "9:00 a.m.",
+          "rationale": "Not quite. 集合：午前八時四十分 gives the meeting time."
+        },
+        {
+          "id": "c3",
+          "text": "9:30 a.m.",
+          "rationale": "Not quite. 集合：午前八時四十分 gives the meeting time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "集合：午前八時四十分 gives the meeting time."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where do travelers meet?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Umi Station",
+          "rationale": "Not quite. 集合：午前八時四十分、青駅の南口 gives the meeting place."
+        },
+        {
+          "id": "c2",
+          "text": "Sea Museum",
+          "rationale": "Not quite. 集合：午前八時四十分、青駅の南口 gives the meeting place."
+        },
+        {
+          "id": "c3",
+          "text": "Ao Station's south exit",
+          "rationale": "Correct. 集合：午前八時四十分、青駅の南口 gives the meeting place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "集合：午前八時四十分、青駅の南口 gives the meeting place."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What time is departure?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "3:00 p.m.",
+          "rationale": "Not quite. 出発：午前九時 gives the departure time."
+        },
+        {
+          "id": "c2",
+          "text": "9:00 a.m.",
+          "rationale": "Correct. 出発：午前九時 gives the departure time."
+        },
+        {
+          "id": "c3",
+          "text": "8:40 a.m.",
+          "rationale": "Not quite. 出発：午前九時 gives the departure time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "出発：午前九時 gives the departure time."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the destination?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Sea Museum",
+          "rationale": "Correct. 行き先：海の博物館 names the destination."
+        },
+        {
+          "id": "c2",
+          "text": "Ao Station",
+          "rationale": "Not quite. 行き先：海の博物館 names the destination."
+        },
+        {
+          "id": "c3",
+          "text": "Umi Station",
+          "rationale": "Not quite. 行き先：海の博物館 names the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "行き先：海の博物館 names the destination."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which means of travel is stated?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Bus",
+          "rationale": "Not quite. 交通：電車 states train."
+        },
+        {
+          "id": "c2",
+          "text": "Bicycle",
+          "rationale": "Not quite. 交通：電車 states train."
+        },
+        {
+          "id": "c3",
+          "text": "Train",
+          "rationale": "Correct. 交通：電車 states train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "交通：電車 states train."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When is arrival at Umi Station?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "8:40 a.m.",
+          "rationale": "Not quite. 到着：午前九時三十分、海駅 states the arrival."
+        },
+        {
+          "id": "c2",
+          "text": "9:30 a.m.",
+          "rationale": "Correct. 到着：午前九時三十分、海駅 states the arrival."
+        },
+        {
+          "id": "c3",
+          "text": "9:00 a.m.",
+          "rationale": "Not quite. 到着：午前九時三十分、海駅 states the arrival."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "到着：午前九時三十分、海駅 states the arrival."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the one-way fare?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "400 yen",
+          "rationale": "Correct. 運賃：片道四百円 specifies 400 yen one way."
+        },
+        {
+          "id": "c2",
+          "text": "300 yen",
+          "rationale": "Not quite. 運賃：片道四百円 specifies 400 yen one way."
+        },
+        {
+          "id": "c3",
+          "text": "800 yen",
+          "rationale": "Not quite. 運賃：片道四百円 specifies 400 yen one way."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "運賃：片道四百円 specifies 400 yen one way."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When is the return?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "3:00 a.m.",
+          "rationale": "Not quite. 帰り：午後三時 specifies 3 p.m."
+        },
+        {
+          "id": "c2",
+          "text": "9:30 a.m.",
+          "rationale": "Not quite. 帰り：午後三時 specifies 3 p.m."
+        },
+        {
+          "id": "c3",
+          "text": "3:00 p.m.",
+          "rationale": "Correct. 帰り：午後三時 specifies 3 p.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "帰り：午後三時 specifies 3 p.m."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where does the return begin?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Sea Museum",
+          "rationale": "Not quite. 海駅から電車で帰ります marks the starting point."
+        },
+        {
+          "id": "c2",
+          "text": "Umi Station",
+          "rationale": "Correct. 海駅から電車で帰ります marks the starting point."
+        },
+        {
+          "id": "c3",
+          "text": "Ao Station",
+          "rationale": "Not quite. 海駅から電車で帰ります marks the starting point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "海駅から電車で帰ります marks the starting point."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where are tickets bought?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At the station",
+          "rationale": "Correct. 切符は駅で買います gives the purchase location."
+        },
+        {
+          "id": "c2",
+          "text": "At the museum",
+          "rationale": "Not quite. 切符は駅で買います gives the purchase location."
+        },
+        {
+          "id": "c3",
+          "text": "On the bus",
+          "rationale": "Not quite. 切符は駅で買います gives the purchase location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "切符は駅で買います gives the purchase location."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 友だちと indicate?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "By train",
+          "rationale": "Not quite. 友だちと会います identifies the person met."
+        },
+        {
+          "id": "c2",
+          "text": "At 8:40",
+          "rationale": "Not quite. 友だちと会います identifies the person met."
+        },
+        {
+          "id": "c3",
+          "text": "With a friend",
+          "rationale": "Correct. 友だちと会います identifies the person met."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "友だちと会います identifies the person met."
+    },
+    {
+      "id": "ex-n5-m05-c04-l05-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which fact is NOT stated?",
+      "objectiveIds": [
+        "n5-m05-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l05-notice"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Arrival at Umi Station is 9:30 a.m.",
+          "rationale": "Not quite. The notice names the museum and arrival station but gives no museum entrance arrival."
+        },
+        {
+          "id": "c2",
+          "text": "The train reaches the museum entrance",
+          "rationale": "Correct. The notice names the museum and arrival station but gives no museum entrance arrival."
+        },
+        {
+          "id": "c3",
+          "text": "The one-way fare is 400 yen",
+          "rationale": "Not quite. The notice names the museum and arrival station but gives no museum entrance arrival."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The notice names the museum and arrival station but gives no museum entrance arrival."
+    }
+  ]
+}
