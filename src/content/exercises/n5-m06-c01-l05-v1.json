@@ -1,0 +1,450 @@
+{
+  "lessonId": "n5-m06-c01-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "At what time does the helper list say to read a book?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午前九時",
+          "rationale": "Correct. The reading explicitly states: 午前九時：本を 読む."
+        },
+        {
+          "id": "c2",
+          "text": "午前十時",
+          "rationale": "午前十時 does not match this question. Check the exact time, action, and object in: 午前九時：本を 読む."
+        },
+        {
+          "id": "c3",
+          "text": "午後二時",
+          "rationale": "午後二時 does not match this question. Check the exact time, action, and object in: 午前九時：本を 読む."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前九時：本を 読む. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the helper list schedule for 10 a.m.?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "絵を 見る",
+          "rationale": "Correct. The reading explicitly states: 午前十時：絵を 見る."
+        },
+        {
+          "id": "c2",
+          "text": "本を 読む",
+          "rationale": "本を 読む does not match this question. Check the exact time, action, and object in: 午前十時：絵を 見る."
+        },
+        {
+          "id": "c3",
+          "text": "名前を 書く",
+          "rationale": "名前を 書く does not match this question. Check the exact time, action, and object in: 午前十時：絵を 見る."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前十時：絵を 見る. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the helper list schedule for 1 p.m.?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "名前を 書く",
+          "rationale": "Correct. The reading explicitly states: 午後一時：名前を 書く."
+        },
+        {
+          "id": "c2",
+          "text": "お茶を 飲む",
+          "rationale": "お茶を 飲む does not match this question. Check the exact time, action, and object in: 午後一時：名前を 書く."
+        },
+        {
+          "id": "c3",
+          "text": "絵を 見る",
+          "rationale": "絵を 見る does not match this question. Check the exact time, action, and object in: 午後一時：名前を 書く."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後一時：名前を 書く. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which activity is at 2 p.m.?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶を 飲む",
+          "rationale": "Correct. The reading explicitly states: 午後二時：お茶を 飲む."
+        },
+        {
+          "id": "c2",
+          "text": "本を 読む",
+          "rationale": "本を 読む does not match this question. Check the exact time, action, and object in: 午後二時：お茶を 飲む."
+        },
+        {
+          "id": "c3",
+          "text": "絵を 見る",
+          "rationale": "絵を 見る does not match this question. Check the exact time, action, and object in: 午後二時：お茶を 飲む."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後二時：お茶を 飲む. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form in the notice corresponds to 読む?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "読みます",
+          "rationale": "Correct. The reading explicitly states: 午前九時に 本を 読みます."
+        },
+        {
+          "id": "c2",
+          "text": "読ます",
+          "rationale": "読ます does not match this question. Check the exact time, action, and object in: 午前九時に 本を 読みます."
+        },
+        {
+          "id": "c3",
+          "text": "読めます",
+          "rationale": "読めます does not match this question. Check the exact time, action, and object in: 午前九時に 本を 読みます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前九時に 本を 読みます. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary form matches 見ます in the notice?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "見る",
+          "rationale": "Correct. The reading explicitly states: 午前十時に 絵を 見ます."
+        },
+        {
+          "id": "c2",
+          "text": "見む",
+          "rationale": "見む does not match this question. Check the exact time, action, and object in: 午前十時に 絵を 見ます."
+        },
+        {
+          "id": "c3",
+          "text": "見く",
+          "rationale": "見く does not match this question. Check the exact time, action, and object in: 午前十時に 絵を 見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前十時に 絵を 見ます. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form corresponds to 書く?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書きます",
+          "rationale": "Correct. The reading explicitly states: 午後一時に 名前を 書きます."
+        },
+        {
+          "id": "c2",
+          "text": "書くます",
+          "rationale": "書くます does not match this question. Check the exact time, action, and object in: 午後一時に 名前を 書きます."
+        },
+        {
+          "id": "c3",
+          "text": "書けます",
+          "rationale": "書けます does not match this question. Check the exact time, action, and object in: 午後一時に 名前を 書きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後一時に 名前を 書きます. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary form matches 飲みます?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飲む",
+          "rationale": "Correct. The reading explicitly states: 午後二時に お茶を 飲みます."
+        },
+        {
+          "id": "c2",
+          "text": "読む",
+          "rationale": "読む does not match this question. Check the exact time, action, and object in: 午後二時に お茶を 飲みます."
+        },
+        {
+          "id": "c3",
+          "text": "飲める",
+          "rationale": "飲める does not match this question. Check the exact time, action, and object in: 午後二時に お茶を 飲みます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後二時に お茶を 飲みます. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which object is associated with 読む?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本",
+          "rationale": "Correct. The reading explicitly states: 午前九時：本を 読む."
+        },
+        {
+          "id": "c2",
+          "text": "絵",
+          "rationale": "絵 does not match this question. Check the exact time, action, and object in: 午前九時：本を 読む."
+        },
+        {
+          "id": "c3",
+          "text": "お茶",
+          "rationale": "お茶 does not match this question. Check the exact time, action, and object in: 午前九時：本を 読む."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前九時：本を 読む. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which object is associated with 書く?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "名前",
+          "rationale": "Correct. The reading explicitly states: 午後一時：名前を 書く."
+        },
+        {
+          "id": "c2",
+          "text": "お茶",
+          "rationale": "お茶 does not match this question. Check the exact time, action, and object in: 午後一時：名前を 書く."
+        },
+        {
+          "id": "c3",
+          "text": "本",
+          "rationale": "本 does not match this question. Check the exact time, action, and object in: 午後一時：名前を 書く."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後一時：名前を 書く. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which scheduled activity takes place in the afternoon?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "名前を 書く",
+          "rationale": "Correct. The reading explicitly states: 午後一時：名前を 書く."
+        },
+        {
+          "id": "c2",
+          "text": "絵を 見る",
+          "rationale": "絵を 見る does not match this question. Check the exact time, action, and object in: 午後一時：名前を 書く."
+        },
+        {
+          "id": "c3",
+          "text": "本を 読む",
+          "rationale": "本を 読む does not match this question. Check the exact time, action, and object in: 午後一時：名前を 書く."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後一時：名前を 書く. Read the full phrase rather than guessing from a familiar word."
+    },
+    {
+      "id": "ex-n5-m06-c01-l05-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase explicitly shows the picture activity is in the morning?",
+      "objectiveIds": [
+        "n5-m06-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l05-reading-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午前十時",
+          "rationale": "Correct. The reading explicitly states: 午前十時：絵を 見る."
+        },
+        {
+          "id": "c2",
+          "text": "午後一時",
+          "rationale": "午後一時 does not match this question. Check the exact time, action, and object in: 午前十時：絵を 見る."
+        },
+        {
+          "id": "c3",
+          "text": "午後二時",
+          "rationale": "午後二時 does not match this question. Check the exact time, action, and object in: 午前十時：絵を 見る."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前十時：絵を 見る. Read the full phrase rather than guessing from a familiar word."
+    }
+  ]
+}
