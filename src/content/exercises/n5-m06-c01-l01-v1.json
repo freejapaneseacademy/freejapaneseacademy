@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c01-l01",
+  "lessonId": "n5-m06-c01-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Saturday activity board and conversation",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "What is scheduled for 9 a.m. on the board?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-01-c1",
+          "text": "本を読む",
+          "rationale": "Correct. The first board row, 午前九時, pairs with 本を読む."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-01-c2",
+          "text": "映画を見る",
+          "rationale": "Not this choice. The first board row, 午前九時, pairs with 本を読む."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-01-c3",
+          "text": "お茶を飲む",
+          "rationale": "Not this choice. The first board row, 午前九時, pairs with 本を読む."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-01-c1"
+      },
+      "explanation": "The first board row, 午前九時, pairs with 本を読む.",
+      "feedback": "The first board row, 午前九時, pairs with 本を読む."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "What activity is at 10 a.m.?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-02-c1",
+          "text": "お茶を飲む",
+          "rationale": "Not this choice. 午前十時 is paired with 日本語を書く."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-02-c2",
+          "text": "日本語を書く",
+          "rationale": "Correct. 午前十時 is paired with 日本語を書く."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-02-c3",
+          "text": "映画を見る",
+          "rationale": "Not this choice. 午前十時 is paired with 日本語を書く."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-02-c2"
+      },
+      "explanation": "午前十時 is paired with 日本語を書く.",
+      "feedback": "午前十時 is paired with 日本語を書く."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which activity follows writing in Aki's reply?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-03-c1",
+          "text": "本を読む",
+          "rationale": "Not this choice. それから、お茶を飲みます follows 日本語を書きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-03-c2",
+          "text": "映画を見る",
+          "rationale": "Not this choice. それから、お茶を飲みます follows 日本語を書きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-03-c3",
+          "text": "お茶を飲む",
+          "rationale": "Correct. それから、お茶を飲みます follows 日本語を書きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-03-c3"
+      },
+      "explanation": "それから、お茶を飲みます follows 日本語を書きます.",
+      "feedback": "それから、お茶を飲みます follows 日本語を書きます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "At what time does Aki watch a film?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-04-c1",
+          "text": "午後一時",
+          "rationale": "Correct. Aki says はい、午後一時に見ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-04-c2",
+          "text": "午前九時",
+          "rationale": "Not this choice. Aki says はい、午後一時に見ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-04-c3",
+          "text": "午前十時",
+          "rationale": "Not this choice. Aki says はい、午後一時に見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-04-c1"
+      },
+      "explanation": "Aki says はい、午後一時に見ます.",
+      "feedback": "Aki says はい、午後一時に見ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which is the dictionary form of 読みます?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-05-c1",
+          "text": "飲む",
+          "rationale": "Not this choice. 読みます corresponds to 読む (よむ), to read."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-05-c2",
+          "text": "読む",
+          "rationale": "Correct. 読みます corresponds to 読む (よむ), to read."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-05-c3",
+          "text": "書く",
+          "rationale": "Not this choice. 読みます corresponds to 読む (よむ), to read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-05-c2"
+      },
+      "explanation": "読みます corresponds to 読む (よむ), to read.",
+      "feedback": "読みます corresponds to 読む (よむ), to read."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which is the polite nonpast form of 書く?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-06-c1",
+          "text": "書きました",
+          "rationale": "Not this choice. 書く is Group 1: く changes to き before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-06-c2",
+          "text": "書くます",
+          "rationale": "Not this choice. 書く is Group 1: く changes to き before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-06-c3",
+          "text": "書きます",
+          "rationale": "Correct. 書く is Group 1: く changes to き before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-06-c3"
+      },
+      "explanation": "書く is Group 1: く changes to き before ます.",
+      "feedback": "書く is Group 1: く changes to き before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which is the polite nonpast form of 飲む?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-07-c1",
+          "text": "飲みます",
+          "rationale": "Correct. 飲む becomes 飲みます, with む changing to み."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-07-c2",
+          "text": "読みます",
+          "rationale": "Not this choice. 飲む becomes 飲みます, with む changing to み."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-07-c3",
+          "text": "飲むます",
+          "rationale": "Not this choice. 飲む becomes 飲みます, with む changing to み."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-07-c1"
+      },
+      "explanation": "飲む becomes 飲みます, with む changing to み.",
+      "feedback": "飲む becomes 飲みます, with む changing to み."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which is the dictionary form of 見ます?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-08-c1",
+          "text": "見ました",
+          "rationale": "Not this choice. Group 2 見る loses る before ます: 見ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-08-c2",
+          "text": "見る",
+          "rationale": "Correct. Group 2 見る loses る before ます: 見ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-08-c3",
+          "text": "見む",
+          "rationale": "Not this choice. Group 2 見る loses る before ます: 見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-08-c2"
+      },
+      "explanation": "Group 2 見る loses る before ます: 見ます.",
+      "feedback": "Group 2 見る loses る before ます: 見ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which is the polite form of 来る（くる）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-09-c1",
+          "text": "来くます",
+          "rationale": "Not this choice. Irregular 来る（くる） becomes 来ます（きます）."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-09-c2",
+          "text": "来るます",
+          "rationale": "Not this choice. Irregular 来る（くる） becomes 来ます（きます）."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-09-c3",
+          "text": "来ます（きます）",
+          "rationale": "Correct. Irregular 来る（くる） becomes 来ます（きます）."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-09-c3"
+      },
+      "explanation": "Irregular 来る（くる） becomes 来ます（きます）.",
+      "feedback": "Irregular 来る（くる） becomes 来ます（きます）."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which verb is a Group 1 exception to the 'drop る' shortcut?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-10-c1",
+          "text": "帰る → 帰ります",
+          "rationale": "Correct. 帰る is Group 1 despite ending in る: 帰ります."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-10-c2",
+          "text": "見る → 見ます",
+          "rationale": "Not this choice. 帰る is Group 1 despite ending in る: 帰ります."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-10-c3",
+          "text": "食べる → 食べます",
+          "rationale": "Not this choice. 帰る is Group 1 despite ending in る: 帰ります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-10-c1"
+      },
+      "explanation": "帰る is Group 1 despite ending in る: 帰ります.",
+      "feedback": "帰る is Group 1 despite ending in る: 帰ります."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "Which phrase is polite past, not polite nonpast?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-11-c1",
+          "text": "映画を見ます",
+          "rationale": "Not this choice. 見ました uses ました, the polite past ending."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-11-c2",
+          "text": "映画を見ました",
+          "rationale": "Correct. 見ました uses ました, the polite past ending."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-11-c3",
+          "text": "映画を見る",
+          "rationale": "Not this choice. 見ました uses ました, the polite past ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-11-c2"
+      },
+      "explanation": "見ました uses ました, the polite past ending.",
+      "feedback": "見ました uses ました, the polite past ending."
+    },
+    {
+      "id": "ex-n5-m06-c01-l01-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l01-verbs"
+      ],
+      "prompt": "What does 何をしますか ask in the Saturday exchange?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l01-12-c1",
+          "text": "Where is the station?",
+          "rationale": "Not this choice. 何をしますか asks what someone will do in this context; します is from する."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-12-c2",
+          "text": "What time is it now?",
+          "rationale": "Not this choice. 何をしますか asks what someone will do in this context; します is from する."
+        },
+        {
+          "id": "ex-n5-m06-c01-l01-12-c3",
+          "text": "What will you do?",
+          "rationale": "Correct. 何をしますか asks what someone will do in this context; します is from する."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l01-12-c3"
+      },
+      "explanation": "何をしますか asks what someone will do in this context; します is from する.",
+      "feedback": "何をしますか asks what someone will do in this context; します is from する."
+    }
+  ]
+}
