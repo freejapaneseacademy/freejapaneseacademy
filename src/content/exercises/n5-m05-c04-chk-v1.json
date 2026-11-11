@@ -1,0 +1,622 @@
+{
+  "id": "n5-m05-c04-chk",
+  "lessonId": "n5-m05-c04-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional museum travel notice in checkpoint MDX; written-only review, no audio scoring.",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 16,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-grammar-1"
+      ],
+      "prompt": "Choose the sentence: I go to the museum by bus at nine.",
+      "evidence": "午前九時にバスで博物館に行きます。",
+      "explanation": "に marks time and destination; で marks transport.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-01-c1",
+          "text": "午前九時でバスに博物館で行きます。",
+          "rationale": "Not quite. に marks time and destination; で marks transport."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-01-c2",
+          "text": "午前九時にバスで博物館に行きます。",
+          "rationale": "Correct. に marks time and destination; で marks transport."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-01-c3",
+          "text": "午前九時とバスを博物館に行きます。",
+          "rationale": "Not quite. に marks time and destination; で marks transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-grammar-2"
+      ],
+      "prompt": "Which particle marks transport in バスで行きます?",
+      "evidence": "バスで行きます。",
+      "explanation": "で marks the means of travel.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-02-c1",
+          "text": "に",
+          "rationale": "Not quite. で marks the means of travel."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-02-c2",
+          "text": "で",
+          "rationale": "Correct. で marks the means of travel."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-02-c3",
+          "text": "と",
+          "rationale": "Not quite. で marks the means of travel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-grammar-3"
+      ],
+      "prompt": "How do you say at 10 a.m.?",
+      "evidence": "午前十時に出発します。",
+      "explanation": "午前 means a.m. and に marks a specific time.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-03-c1",
+          "text": "午後十時に",
+          "rationale": "Not quite. 午前 means a.m. and に marks a specific time."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-03-c2",
+          "text": "午前十時で",
+          "rationale": "Not quite. 午前 means a.m. and に marks a specific time."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-03-c3",
+          "text": "午前十時に",
+          "rationale": "Correct. 午前 means a.m. and に marks a specific time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-grammar-4"
+      ],
+      "prompt": "Choose: I return home at 4 p.m.",
+      "evidence": "午後四時に家に帰ります。",
+      "explanation": "午後四時 is 4 p.m.; に marks the time and destination.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-04-c1",
+          "text": "午後四時に家に帰ります。",
+          "rationale": "Correct. 午後四時 is 4 p.m.; に marks the time and destination."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-04-c2",
+          "text": "午後四時で家を帰ります。",
+          "rationale": "Not quite. 午後四時 is 4 p.m.; に marks the time and destination."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-04-c3",
+          "text": "午後四時と家で帰ります。",
+          "rationale": "Not quite. 午後四時 is 4 p.m.; に marks the time and destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-vocabulary-5"
+      ],
+      "prompt": "What is 片道?",
+      "evidence": "片道（かたみち）三百円",
+      "explanation": "片道 means one way.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-05-c1",
+          "text": "round trip",
+          "rationale": "Not quite. 片道 means one way."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-05-c2",
+          "text": "one way",
+          "rationale": "Correct. 片道 means one way."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-05-c3",
+          "text": "arrival",
+          "rationale": "Not quite. 片道 means one way."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-vocabulary-6"
+      ],
+      "prompt": "What is 往復?",
+      "evidence": "往復（おうふく）五百円",
+      "explanation": "往復 means round trip.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-06-c1",
+          "text": "round trip",
+          "rationale": "Correct. 往復 means round trip."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-06-c2",
+          "text": "platform",
+          "rationale": "Not quite. 往復 means round trip."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-06-c3",
+          "text": "departure",
+          "rationale": "Not quite. 往復 means round trip."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-script-7"
+      ],
+      "prompt": "How do you read 運賃?",
+      "evidence": "運賃（うんちん）",
+      "explanation": "運賃 is うんちん, transport fare.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-07-c1",
+          "text": "うんてん",
+          "rationale": "Not quite. 運賃 is うんちん, transport fare."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-07-c2",
+          "text": "うんちん",
+          "rationale": "Correct. 運賃 is うんちん, transport fare."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-07-c3",
+          "text": "うんじん",
+          "rationale": "Not quite. 運賃 is うんちん, transport fare."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-script-8"
+      ],
+      "prompt": "How do you read 到着?",
+      "evidence": "到着（とうちゃく）",
+      "explanation": "到着 is とうちゃく, arrival.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-08-c1",
+          "text": "とうちゃく",
+          "rationale": "Correct. 到着 is とうちゃく, arrival."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-08-c2",
+          "text": "どうじゃく",
+          "rationale": "Not quite. 到着 is とうちゃく, arrival."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-08-c3",
+          "text": "とうじゃく",
+          "rationale": "Not quite. 到着 is とうちゃく, arrival."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-9"
+      ],
+      "prompt": "What day is the museum outing?",
+      "evidence": "土曜日に博物館へ行きます。",
+      "explanation": "土曜日 means Saturday.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-09-c1",
+          "text": "Sunday",
+          "rationale": "Not quite. 土曜日 means Saturday."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-09-c2",
+          "text": "Friday",
+          "rationale": "Not quite. 土曜日 means Saturday."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-09-c3",
+          "text": "Saturday",
+          "rationale": "Correct. 土曜日 means Saturday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-10"
+      ],
+      "prompt": "When does the bus depart?",
+      "evidence": "午前九時に駅前を出発します。",
+      "explanation": "午前九時に出発 gives 9 a.m.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-10-c1",
+          "text": "9 a.m.",
+          "rationale": "Correct. 午前九時に出発 gives 9 a.m."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-10-c2",
+          "text": "9:30 a.m.",
+          "rationale": "Not quite. 午前九時に出発 gives 9 a.m."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-10-c3",
+          "text": "10 a.m.",
+          "rationale": "Not quite. 午前九時に出発 gives 9 a.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-11"
+      ],
+      "prompt": "When does the bus arrive?",
+      "evidence": "午前九時半に博物館に到着します。",
+      "explanation": "九時半 is 9:30.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-11-c1",
+          "text": "9 a.m.",
+          "rationale": "Not quite. 九時半 is 9:30."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-11-c2",
+          "text": "9:30 a.m.",
+          "rationale": "Correct. 九時半 is 9:30."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-11-c3",
+          "text": "10:30 a.m.",
+          "rationale": "Not quite. 九時半 is 9:30."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-12"
+      ],
+      "prompt": "What is the one-way fare?",
+      "evidence": "片道三百円、往復五百円です。",
+      "explanation": "片道三百円 means 300 yen one way.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-12-c1",
+          "text": "500 yen",
+          "rationale": "Not quite. 片道三百円 means 300 yen one way."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-12-c2",
+          "text": "300 yen",
+          "rationale": "Correct. 片道三百円 means 300 yen one way."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-12-c3",
+          "text": "800 yen",
+          "rationale": "Not quite. 片道三百円 means 300 yen one way."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-13"
+      ],
+      "prompt": "What is the round-trip fare?",
+      "evidence": "片道三百円、往復五百円です。",
+      "explanation": "往復五百円 means 500 yen round trip.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-13-c1",
+          "text": "300 yen",
+          "rationale": "Not quite. 往復五百円 means 500 yen round trip."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-13-c2",
+          "text": "600 yen",
+          "rationale": "Not quite. 往復五百円 means 500 yen round trip."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-13-c3",
+          "text": "500 yen",
+          "rationale": "Correct. 往復五百円 means 500 yen round trip."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-13-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-14"
+      ],
+      "prompt": "Who accompanies Yui?",
+      "evidence": "ゆいは友だちとバスで行きます。",
+      "explanation": "友だちと identifies a friend as companion.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-14-c1",
+          "text": "A friend",
+          "rationale": "Correct. 友だちと identifies a friend as companion."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-14-c2",
+          "text": "Her brother",
+          "rationale": "Not quite. 友だちと identifies a friend as companion."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-14-c3",
+          "text": "Nobody",
+          "rationale": "Not quite. 友だちと identifies a friend as companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-14-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-15",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-15"
+      ],
+      "prompt": "Where does the group meet?",
+      "evidence": "午前八時四十五分に駅前で会います。",
+      "explanation": "駅前で会います means meet in front of station.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-15-c1",
+          "text": "Museum",
+          "rationale": "Not quite. 駅前で会います means meet in front of station."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-15-c2",
+          "text": "In front of station",
+          "rationale": "Correct. 駅前で会います means meet in front of station."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-15-c3",
+          "text": "Library",
+          "rationale": "Not quite. 駅前で会います means meet in front of station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-15-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c04-chk-16",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-chk-reading-16"
+      ],
+      "prompt": "When do they return home?",
+      "evidence": "午後四時に家に帰ります。",
+      "explanation": "午後四時 is 4 p.m.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-chk-16-c1",
+          "text": "4 p.m.",
+          "rationale": "Correct. 午後四時 is 4 p.m."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-16-c2",
+          "text": "4 a.m.",
+          "rationale": "Not quite. 午後四時 is 4 p.m."
+        },
+        {
+          "id": "ex-n5-m05-c04-chk-16-c3",
+          "text": "5 p.m.",
+          "rationale": "Not quite. 午後四時 is 4 p.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-chk-16-c1"
+      }
+    }
+  ]
+}
