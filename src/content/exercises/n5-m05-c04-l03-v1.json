@@ -1,0 +1,506 @@
+{
+  "id": "n5-m05-c04-l03",
+  "lessonId": "n5-m05-c04-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional travel plan and grammar contrasts",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Choose the particle for a specific meeting time: 午前九時__会います。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-01-c1",
+          "text": "に",
+          "rationale": "午前九時に会います marks the specific clock time with に."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-01-c2",
+          "text": "で",
+          "rationale": "Not quite. 午前九時に会います marks the specific clock time with に."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-01-c3",
+          "text": "へ",
+          "rationale": "Not quite. 午前九時に会います marks the specific clock time with に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-01-c1"
+      },
+      "explanation": "午前九時に会います marks the specific clock time with に.",
+      "feedback": "午前九時に会います marks the specific clock time with に."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Choose the meeting location: 駅__会います。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-02-c1",
+          "text": "へ",
+          "rationale": "Not quite. 駅で会います uses で for the location of the meeting action."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-02-c2",
+          "text": "で",
+          "rationale": "駅で会います uses で for the location of the meeting action."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-02-c3",
+          "text": "から",
+          "rationale": "Not quite. 駅で会います uses で for the location of the meeting action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-02-c2"
+      },
+      "explanation": "駅で会います uses で for the location of the meeting action.",
+      "feedback": "駅で会います uses で for the location of the meeting action."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Choose the destination: 博物館__行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-03-c1",
+          "text": "で",
+          "rationale": "Not quite. 博物館へ行きます identifies the museum as the destination."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-03-c2",
+          "text": "から",
+          "rationale": "Not quite. 博物館へ行きます identifies the museum as the destination."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-03-c3",
+          "text": "へ",
+          "rationale": "博物館へ行きます identifies the museum as the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-03-c3"
+      },
+      "explanation": "博物館へ行きます identifies the museum as the destination.",
+      "feedback": "博物館へ行きます identifies the museum as the destination."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Choose the transport method: 電車__行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-04-c1",
+          "text": "で",
+          "rationale": "電車で行きます means travel by train."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-04-c2",
+          "text": "に",
+          "rationale": "Not quite. 電車で行きます means travel by train."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-04-c3",
+          "text": "と",
+          "rationale": "Not quite. 電車で行きます means travel by train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-04-c1"
+      },
+      "explanation": "電車で行きます means travel by train.",
+      "feedback": "電車で行きます means travel by train."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Choose the starting point: 駅__電車で行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-05-c1",
+          "text": "と",
+          "rationale": "Not quite. 駅から means from the station."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-05-c2",
+          "text": "から",
+          "rationale": "駅から means from the station."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-05-c3",
+          "text": "へ",
+          "rationale": "Not quite. 駅から means from the station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-05-c2"
+      },
+      "explanation": "駅から means from the station.",
+      "feedback": "駅から means from the station."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Choose the companion: 友達__公園へ行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-06-c1",
+          "text": "に",
+          "rationale": "Not quite. 友達と means with a friend."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-06-c2",
+          "text": "で",
+          "rationale": "Not quite. 友達と means with a friend."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-06-c3",
+          "text": "と",
+          "rationale": "友達と means with a friend."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-06-c3"
+      },
+      "explanation": "友達と means with a friend.",
+      "feedback": "友達と means with a friend."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Which phrase means 'meet at the school'?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-07-c1",
+          "text": "学校へ会います",
+          "rationale": "Not quite. 学校で会います uses で to identify the meeting location."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-07-c2",
+          "text": "学校で会います",
+          "rationale": "学校で会います uses で to identify the meeting location."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-07-c3",
+          "text": "学校から会います",
+          "rationale": "Not quite. 学校で会います uses で to identify the meeting location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-07-c2"
+      },
+      "explanation": "学校で会います uses で to identify the meeting location.",
+      "feedback": "学校で会います uses で to identify the meeting location."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Which phrase means 'go by bus'?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-08-c1",
+          "text": "バスで行きます",
+          "rationale": "バスで行きます expresses means of transport."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-08-c2",
+          "text": "バスへ行きます",
+          "rationale": "Not quite. バスで行きます expresses means of transport."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-08-c3",
+          "text": "バスと行きます",
+          "rationale": "Not quite. バスで行きます expresses means of transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-08-c1"
+      },
+      "explanation": "バスで行きます expresses means of transport.",
+      "feedback": "バスで行きます expresses means of transport."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Which phrase means 'go to the station'?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-09-c1",
+          "text": "駅で行きます",
+          "rationale": "Not quite. 駅へ行きます expresses the destination, not departure point."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-09-c2",
+          "text": "駅から行きます",
+          "rationale": "Not quite. 駅へ行きます expresses the destination, not departure point."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-09-c3",
+          "text": "駅へ行きます",
+          "rationale": "駅へ行きます expresses the destination, not departure point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-09-c3"
+      },
+      "explanation": "駅へ行きます expresses the destination, not departure point.",
+      "feedback": "駅へ行きます expresses the destination, not departure point."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "What does 午前十時に学校で会います mean?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-10-c1",
+          "text": "Meet at school at 10 a.m.",
+          "rationale": "午前十時に marks 10 a.m.; 学校で marks where the meeting happens."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-10-c2",
+          "text": "Go to school by 10 a.m.",
+          "rationale": "Not quite. 午前十時に marks 10 a.m.; 学校で marks where the meeting happens."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-10-c3",
+          "text": "Leave school at 10 p.m.",
+          "rationale": "Not quite. 午前十時に marks 10 a.m.; 学校で marks where the meeting happens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-10-c1"
+      },
+      "explanation": "午前十時に marks 10 a.m.; 学校で marks where the meeting happens.",
+      "feedback": "午前十時に marks 10 a.m.; 学校で marks where the meeting happens."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "What does 学校からバスで行きます mean?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-11-c1",
+          "text": "Go to school by bus.",
+          "rationale": "Not quite. 学校から is the origin; バスで is the means."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-11-c2",
+          "text": "Go by bus from school.",
+          "rationale": "学校から is the origin; バスで is the means."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-11-c3",
+          "text": "Meet at school on a bus.",
+          "rationale": "Not quite. 学校から is the origin; バスで is the means."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-11-c2"
+      },
+      "explanation": "学校から is the origin; バスで is the means.",
+      "feedback": "学校から is the origin; バスで is the means."
+    },
+    {
+      "id": "ex-n5-m05-c04-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l03-particles"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l03-travel-plan"
+      ],
+      "prompt": "Which complete plan correctly expresses 'Meet at the station at nine, then go to the park by train'?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l03-12-c1",
+          "text": "九時で駅に会います。公園で電車へ行きます。",
+          "rationale": "Not quite. 九時に gives the time, 駅で the meeting place, 公園へ the destination and 電車で the means."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-12-c2",
+          "text": "九時へ駅から会います。公園と電車に行きます。",
+          "rationale": "Not quite. 九時に gives the time, 駅で the meeting place, 公園へ the destination and 電車で the means."
+        },
+        {
+          "id": "ex-n5-m05-c04-l03-12-c3",
+          "text": "九時に駅で会います。公園へ電車で行きます。",
+          "rationale": "九時に gives the time, 駅で the meeting place, 公園へ the destination and 電車で the means."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l03-12-c3"
+      },
+      "explanation": "九時に gives the time, 駅で the meeting place, 公園へ the destination and 電車で the means.",
+      "feedback": "九時に gives the time, 駅で the meeting place, 公園へ the destination and 電車で the means."
+    }
+  ]
+}
