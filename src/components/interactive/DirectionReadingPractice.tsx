@@ -1,0 +1,21 @@
+import React,{useState} from 'react';
+import bank from '../../content/exercises/n5-m05-c03-l05-v1.json';
+import {recordAttempt} from '../../lib/progress';
+export const directionReadingItems=bank.items;
+export function scoreDirectionReading(answers:Record<string,string>){return directionReadingItems.reduce((n,q)=>n+(answers[q.id]===q.answerKey.choiceId?1:0),0);}
+export default function DirectionReadingPractice(){
+ const [answers,setAnswers]=useState<Record<string,string>>({});
+ const [submitted,setSubmitted]=useState(false);
+ const [saved,setSaved]=useState('');
+ const [draft,setDraft]=useState('');
+ const [model,setModel]=useState(false);
+ const [checks,setChecks]=useState<boolean[]>(Array(5).fill(false));
+ const score=scoreDirectionReading(answers);
+ async function submit(){setSubmitted(true);try{await recordAttempt('n5-m05-c03-l05-v1','n5',score,directionReadingItems.length);setSaved('Attempt saved on this device.');}catch{setSaved('Score shown; browser storage unavailable.');}}
+ return <section aria-label="Directions reading practice" className="my-8 min-w-0 rounded-xl border border-slate-300 dark:border-slate-600 p-4">
+ <h2 className="text-2xl font-semibold">Reading check — eight questions</h2><p>Use the Japanese passage above. Tab to a radio choice and use arrow keys to select. Review the evidence after submitting.</p>
+ {directionReadingItems.map((q,i)=><fieldset key={q.id} disabled={submitted} className="my-6 min-w-0 border-t border-slate-300 dark:border-slate-600 pt-4"><legend className="pt-2 font-semibold">{i+1}. {q.prompt}</legend><div className="mt-3 grid gap-2">{q.choices.map(c=><label key={c.id} className="flex min-h-11 cursor-pointer items-start gap-3 break-words rounded-lg border border-slate-300 p-3 dark:border-slate-600"><input type="radio" name={q.id} value={c.id} checked={answers[q.id]===c.id} onChange={()=>setAnswers(a=>({...a,[q.id]:c.id}))} className="mt-1"/><span lang={/[ぁ-んァ-ン一-龯]/.test(c.text)?'ja':undefined}>{c.text}</span></label>)}</div>{submitted&&<div role="status" className="mt-3"><p>{answers[q.id]===q.answerKey.choiceId?'Correct.':'Review this detail.'} {q.explanation}</p><p>{q.choices.find(c=>c.id===answers[q.id])?.rationale??'No choice selected.'}</p><p>Japanese evidence: <span lang="ja">{q.evidence}</span></p></div>}</fieldset>)}
+ {!submitted?<button type="button" className="btn btn-primary" disabled={Object.keys(answers).length!==directionReadingItems.length} onClick={submit}>Check my reading</button>:<div aria-live="polite"><p className="font-semibold">Reading score: {score} / {directionReadingItems.length}</p><p>{saved}</p><button type="button" className="btn btn-outline" onClick={()=>{setAnswers({});setSubmitted(false);setSaved('');}}>Retry reading</button></div>}
+ <div className="mt-8 border-t border-slate-300 pt-4 dark:border-slate-600"><h3 className="font-semibold">Independent directions — self-review</h3><label htmlFor="direction-reading-draft">Write two or three Japanese sentences giving the route</label><textarea id="direction-reading-draft" rows={4} value={draft} onChange={e=>setDraft(e.target.value)} className="mt-2 w-full max-w-full rounded-lg border border-slate-400 bg-white p-3 text-slate-950 dark:bg-slate-900 dark:text-white"/><button type="button" className="btn btn-outline mt-2" onClick={()=>setModel(v=>!v)}>{model?'Hide model':'Compare with model'}</button>{model&&<p lang="ja" className="mt-3">駅の前からまっすぐ行ってください。信号で右に曲がってください。郵便局は銀行の隣にあります。</p>}<fieldset className="mt-4"><legend className="font-semibold">Self-check (not graded)</legend>{['Clear starting point','Correct right-turn instruction','Accurate landmark relation','Correct に and あります','Two or three connected sentences'].map((t,i)=><label key={t} className="my-2 flex items-center gap-2"><input type="checkbox" checked={checks[i]} onChange={e=>setChecks(a=>a.map((v,j)=>i===j?e.target.checked:v))}/>{t}</label>)}</fieldset><p>Your draft remains in this page session and is not uploaded or automatically graded.</p></div>
+ </section>;
+}

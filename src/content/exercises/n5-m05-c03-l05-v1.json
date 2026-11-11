@@ -1,0 +1,318 @@
+{
+  "id": "n5-m05-c03-l05",
+  "lessonId": "n5-m05-c03-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional six-line station-to-post-office route in directions-map-reading.mdx; written evidence only.",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-reading-01"
+      ],
+      "prompt": "Where does the route start?",
+      "evidence": "駅の前から",
+      "explanation": "駅の前から identifies the starting point.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-01-c1",
+          "text": "In front of the station",
+          "rationale": "Correct. 駅の前から identifies the starting point."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-01-c2",
+          "text": "At the bank",
+          "rationale": "Not quite. 駅の前から identifies the starting point."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-01-c3",
+          "text": "In the park",
+          "rationale": "Not quite. 駅の前から identifies the starting point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-reading-02"
+      ],
+      "prompt": "What should the visitor do first?",
+      "evidence": "まっすぐ行ってください",
+      "explanation": "まっすぐ行ってください gives the first movement.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-02-c1",
+          "text": "Go straight",
+          "rationale": "Correct. まっすぐ行ってください gives the first movement."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-02-c2",
+          "text": "Turn left",
+          "rationale": "Not quite. まっすぐ行ってください gives the first movement."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-02-c3",
+          "text": "Go back to the station",
+          "rationale": "Not quite. まっすぐ行ってください gives the first movement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-02-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-reading-03"
+      ],
+      "prompt": "At which intersection is the signal?",
+      "evidence": "一つ目の交差点に信号があります",
+      "explanation": "一つ目 means the first one.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-03-c1",
+          "text": "The first intersection",
+          "rationale": "Correct. 一つ目 means the first one."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-03-c2",
+          "text": "The second intersection",
+          "rationale": "Not quite. 一つ目 means the first one."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-03-c3",
+          "text": "The intersection after the bank",
+          "rationale": "Not quite. 一つ目 means the first one."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-reading-04"
+      ],
+      "prompt": "Which way does the visitor turn at the signal?",
+      "evidence": "その信号で右に曲がってください",
+      "explanation": "右に曲がってください means turn right.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-04-c1",
+          "text": "Left",
+          "rationale": "Not quite. 右に曲がってください means turn right."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-04-c2",
+          "text": "Right",
+          "rationale": "Correct. 右に曲がってください means turn right."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-04-c3",
+          "text": "Do not turn",
+          "rationale": "Not quite. 右に曲がってください means turn right."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-reading-05"
+      ],
+      "prompt": "On which side is the bank after walking a little?",
+      "evidence": "左側に銀行があります",
+      "explanation": "左側 is the left side; it is a landmark, not a turn.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-05-c1",
+          "text": "On the right",
+          "rationale": "Not quite. 左側 is the left side; it is a landmark, not a turn."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-05-c2",
+          "text": "On the left",
+          "rationale": "Correct. 左側 is the left side; it is a landmark, not a turn."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-05-c3",
+          "text": "Behind the station",
+          "rationale": "Not quite. 左側 is the left side; it is a landmark, not a turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-reading-06"
+      ],
+      "prompt": "Where is the post office?",
+      "evidence": "郵便局は銀行の隣にあります",
+      "explanation": "銀行の隣 identifies the bank as the neighboring landmark.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-06-c1",
+          "text": "Next to the bank",
+          "rationale": "Correct. 銀行の隣 identifies the bank as the neighboring landmark."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-06-c2",
+          "text": "Inside the station",
+          "rationale": "Not quite. 銀行の隣 identifies the bank as the neighboring landmark."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-06-c3",
+          "text": "Across from the park",
+          "rationale": "Not quite. 銀行の隣 identifies the bank as the neighboring landmark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-reading-07"
+      ],
+      "prompt": "What is in front of the post office?",
+      "evidence": "郵便局の前に小さい公園があります",
+      "explanation": "郵便局の前に小さい公園があります explicitly locates the park.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-07-c1",
+          "text": "A traffic signal",
+          "rationale": "Not quite. 郵便局の前に小さい公園があります explicitly locates the park."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-07-c2",
+          "text": "A small park",
+          "rationale": "Correct. 郵便局の前に小さい公園があります explicitly locates the park."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-07-c3",
+          "text": "The station",
+          "rationale": "Not quite. 郵便局の前に小さい公園があります explicitly locates the park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l05-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l05-grammar-08"
+      ],
+      "prompt": "Which sentence gives a location rather than an instruction to move?",
+      "evidence": "郵便局は銀行の隣にあります",
+      "explanation": "あります describes the post office's location, not a movement command.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l05-08-c1",
+          "text": "右に曲がってください。",
+          "rationale": "Not quite. あります describes the post office's location, not a movement command."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-08-c2",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Not quite. あります describes the post office's location, not a movement command."
+        },
+        {
+          "id": "ex-n5-m05-c03-l05-08-c3",
+          "text": "郵便局は銀行の隣にあります。",
+          "rationale": "Correct. あります describes the post office's location, not a movement command."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l05-08-c3"
+      }
+    }
+  ]
+}
