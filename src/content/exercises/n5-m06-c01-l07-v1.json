@@ -1,0 +1,342 @@
+{
+  "id": "n5-m06-c01-l07",
+  "lessonId": "n5-m06-c01-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional action-plan writing practice",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "Which polite form matches 読む?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-01-c1",
+          "text": "読みます",
+          "rationale": "Correct. Group 1 読む changes む to み before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-01-c2",
+          "text": "読むます",
+          "rationale": "Not quite. Group 1 読む changes む to み before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-01-c3",
+          "text": "読めます",
+          "rationale": "Not quite. Group 1 読む changes む to み before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-01-c1"
+      },
+      "explanation": "Group 1 読む changes む to み before ます.",
+      "feedback": "Group 1 読む changes む to み before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "Which dictionary form corresponds to 食べます?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-02-c1",
+          "text": "食べります",
+          "rationale": "Not quite. Group 2 食べる loses る before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-02-c2",
+          "text": "食べむ",
+          "rationale": "Not quite. Group 2 食べる loses る before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-02-c3",
+          "text": "食べる",
+          "rationale": "Correct. Group 2 食べる loses る before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-02-c3"
+      },
+      "explanation": "Group 2 食べる loses る before ます.",
+      "feedback": "Group 2 食べる loses る before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "Which pair is irregular?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-03-c1",
+          "text": "見る → 見ます",
+          "rationale": "Not quite. 来る (くる) becomes 来ます (きます), an irregular change."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-03-c2",
+          "text": "来る → 来ます",
+          "rationale": "Correct. 来る (くる) becomes 来ます (きます), an irregular change."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-03-c3",
+          "text": "読む → 読みます",
+          "rationale": "Not quite. 来る (くる) becomes 来ます (きます), an irregular change."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-03-c2"
+      },
+      "explanation": "来る (くる) becomes 来ます (きます), an irregular change.",
+      "feedback": "来る (くる) becomes 来ます (きます), an irregular change."
+    },
+    {
+      "id": "ex-n5-m06-c01-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "Which sentence says 'I write kanji in a notebook'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-04-c1",
+          "text": "ノートに漢字を書きます。",
+          "rationale": "Correct. ノートに identifies the writing surface; 漢字を is the object of 書きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-04-c2",
+          "text": "ノートを漢字に書きます。",
+          "rationale": "Not quite. ノートに identifies the writing surface; 漢字を is the object of 書きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-04-c3",
+          "text": "ノートで漢字を飲みます。",
+          "rationale": "Not quite. ノートに identifies the writing surface; 漢字を is the object of 書きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-04-c1"
+      },
+      "explanation": "ノートに identifies the writing surface; 漢字を is the object of 書きます.",
+      "feedback": "ノートに identifies the writing surface; 漢字を is the object of 書きます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "In the study gathering, what happens at 十一時?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-05-c1",
+          "text": "おにぎりを食べます。",
+          "rationale": "Not quite. The source says 十一時に友だちと話します."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-05-c2",
+          "text": "漢字を書きます。",
+          "rationale": "Not quite. The source says 十一時に友だちと話します."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-05-c3",
+          "text": "友だちと話します。",
+          "rationale": "Correct. The source says 十一時に友だちと話します."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-05-c3"
+      },
+      "explanation": "The source says 十一時に友だちと話します.",
+      "feedback": "The source says 十一時に友だちと話します."
+    },
+    {
+      "id": "ex-n5-m06-c01-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "Which is the correct Group 1 polite form of 帰る?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-06-c1",
+          "text": "帰るます",
+          "rationale": "Not quite. 帰る is Group 1, so 帰ります is correct."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-06-c2",
+          "text": "帰ります",
+          "rationale": "Correct. 帰る is Group 1, so 帰ります is correct."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-06-c3",
+          "text": "帰ます",
+          "rationale": "Not quite. 帰る is Group 1, so 帰ります is correct."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-06-c2"
+      },
+      "explanation": "帰る is Group 1, so 帰ります is correct.",
+      "feedback": "帰る is Group 1, so 帰ります is correct."
+    },
+    {
+      "id": "ex-n5-m06-c01-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "Which sentence means 'I read a book at the library'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-07-c1",
+          "text": "図書館で本を読みます。",
+          "rationale": "Correct. で marks the activity location and を marks the object of 読みます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-07-c2",
+          "text": "図書館を本で読みます。",
+          "rationale": "Not quite. で marks the activity location and を marks the object of 読みます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-07-c3",
+          "text": "図書館に本が読みます。",
+          "rationale": "Not quite. で marks the activity location and を marks the object of 読みます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-07-c1"
+      },
+      "explanation": "で marks the activity location and を marks the object of 読みます.",
+      "feedback": "で marks the activity location and を marks the object of 読みます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l07-verb-forms"
+      ],
+      "prompt": "Which sentence keeps a consistent polite style?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l07-08-c1",
+          "text": "本を読む。水を飲みます。",
+          "rationale": "Not quite. Both 読みます and 飲みます are polite nonpast forms."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-08-c2",
+          "text": "本を読むます。水を飲むます。",
+          "rationale": "Not quite. Both 読みます and 飲みます are polite nonpast forms."
+        },
+        {
+          "id": "ex-n5-m06-c01-l07-08-c3",
+          "text": "本を読みます。水を飲みます。",
+          "rationale": "Correct. Both 読みます and 飲みます are polite nonpast forms."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l07-08-c3"
+      },
+      "explanation": "Both 読みます and 飲みます are polite nonpast forms.",
+      "feedback": "Both 読みます and 飲みます are polite nonpast forms."
+    }
+  ]
+}
