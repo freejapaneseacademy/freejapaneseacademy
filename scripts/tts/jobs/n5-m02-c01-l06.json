@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m02-c01-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional lost-and-found dialogues; approved pinned model terms and required credits. Audio hashes and listening review pending."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "An umbrella at the lost-and-found desk",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m02-c01-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "すみません。この青いかさはだれのですか。",
+          "english": "Excuse me, whose blue umbrella is this?"
+        },
+        {
+          "speaker": "male",
+          "text": "それは田中さんのです。田中さんは今、教室にいます。",
+          "english": "That is Tanaka's. Tanaka is in the classroom now."
+        },
+        {
+          "speaker": "female",
+          "text": "じゃあ、この赤いかさは田中さんのですか。",
+          "english": "Then is this red umbrella Tanaka's?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいえ、それは山本さんのです。",
+          "english": "No, that is Yamamoto's."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Who owns the blue umbrella?",
+        "Where is Tanaka now?",
+        "Who owns the red umbrella?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "A notebook and bag after class",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m02-c01-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "あのかばんはだれのですか。",
+          "english": "Whose bag is that over there?"
+        },
+        {
+          "speaker": "female",
+          "text": "あれは佐藤さんのです。",
+          "english": "That is Sato's."
+        },
+        {
+          "speaker": "male",
+          "text": "このノートも佐藤さんのですか。",
+          "english": "Is this notebook Sato's too?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、そのノートはわたしのです。佐藤さんのノートは机の上です。",
+          "english": "No, that notebook is mine. Sato's notebook is on the desk."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Who owns the distant bag?",
+        "Who owns the notebook near the questioner?",
+        "Where is Sato's notebook?"
+      ]
+    }
+  ]
+}

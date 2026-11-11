@@ -1,0 +1,474 @@
+{
+  "lessonId": "n5-m01-c03-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m01-c03-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-1"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Mika's younger sister is being introduced. Which noun phrase is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ミカさんの妹",
+          "rationale": "の links Mika to her younger sister; the relationship follows の."
+        },
+        {
+          "id": "b",
+          "text": "妹のミカさん",
+          "rationale": "The relationship is reversed."
+        },
+        {
+          "id": "c",
+          "text": "ミカさんは妹",
+          "rationale": "は marks a topic, not a possessive noun link."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "の links Mika to her younger sister; the relationship follows の.",
+      "evidence": "ミカさんの妹"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-2"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "What does わたしの父 mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "my father",
+          "rationale": "父 means one's own father in outward-facing reference."
+        },
+        {
+          "id": "b",
+          "text": "my mother",
+          "rationale": "母 means mother, not father."
+        },
+        {
+          "id": "c",
+          "text": "someone else's father",
+          "rationale": "わたしの means my, not someone else's."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "父 means one's own father in outward-facing reference.",
+      "evidence": "わたしの父"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-3"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Which sentence politely introduces your own older sister?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "こちらは わたしの姉です。",
+          "rationale": "こちら appropriately presents a person."
+        },
+        {
+          "id": "b",
+          "text": "これは わたしの姉です。",
+          "rationale": "これ is object-oriented and less appropriate for presenting a person."
+        },
+        {
+          "id": "c",
+          "text": "そのは わたしの姉です。",
+          "rationale": "その requires a noun after it."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "こちら appropriately presents a person.",
+      "evidence": "こちらは わたしの姉です"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-4"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "In a photo, which question asks who that person is?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "その人は だれですか。",
+          "rationale": "その modifies 人; は marks the topic."
+        },
+        {
+          "id": "b",
+          "text": "そのは だれですか。",
+          "rationale": "その cannot stand alone before は."
+        },
+        {
+          "id": "c",
+          "text": "その人の だれですか。",
+          "rationale": "の does not mark the topic here."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "その modifies 人; は marks the topic.",
+      "evidence": "その人は だれですか"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-5"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Which word is the respectful reference to a classmate's mother?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "お母さん",
+          "rationale": "お母さん is appropriate for another person's mother."
+        },
+        {
+          "id": "b",
+          "text": "母",
+          "rationale": "母 is the conventional term for one's own mother to outsiders."
+        },
+        {
+          "id": "c",
+          "text": "妹",
+          "rationale": "妹 means younger sister."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "お母さん is appropriate for another person's mother.",
+      "evidence": "お母さん"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-6"
+      ],
+      "skills": [
+        "grammar"
+      ],
+      "prompt": "Which statement correctly describes の in アキさんの兄?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It links Aki to Aki's older brother.",
+          "rationale": "の relates two nouns."
+        },
+        {
+          "id": "b",
+          "text": "It turns the phrase into a yes/no question.",
+          "rationale": "Questions typically use か at the end."
+        },
+        {
+          "id": "c",
+          "text": "It marks Aki as the topic of a sentence.",
+          "rationale": "は is the topic marker."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "の relates two nouns.",
+      "evidence": "アキさんの兄"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-7"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Mika says こちらは わたしの妹、ユイです。 Who is Yui?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mika's younger sister",
+          "rationale": "妹 explicitly means younger sister."
+        },
+        {
+          "id": "b",
+          "text": "Mika's older sister",
+          "rationale": "姉 is older sister."
+        },
+        {
+          "id": "c",
+          "text": "Mika's mother",
+          "rationale": "母 is mother."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "妹 explicitly means younger sister.",
+      "evidence": "わたしの妹、ユイ"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-8"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "In the dialogue, who is in the photograph?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mika's older brother",
+          "rationale": "Mika answers わたしの兄."
+        },
+        {
+          "id": "b",
+          "text": "Mika's younger brother",
+          "rationale": "弟 would mean younger brother."
+        },
+        {
+          "id": "c",
+          "text": "Mika's father",
+          "rationale": "父 would mean father."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Mika answers わたしの兄.",
+      "evidence": "その人は わたしの兄です"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-9"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "The visitor says はじめまして、ユイさん。 What is happening?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A first meeting greeting",
+          "rationale": "はじめまして is a greeting when meeting someone."
+        },
+        {
+          "id": "b",
+          "text": "A question about a location",
+          "rationale": "There is no どこ question."
+        },
+        {
+          "id": "c",
+          "text": "A statement about an occupation",
+          "rationale": "No job is mentioned."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "はじめまして is a greeting when meeting someone.",
+      "evidence": "はじめまして、ユイさん"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-10"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which sentence matches the dialogue's introduction of Mika's mother?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "こちらは わたしの母です。",
+          "rationale": "Mika uses こちら and 母 for her own mother."
+        },
+        {
+          "id": "b",
+          "text": "その人は わたしの妹です。",
+          "rationale": "妹 refers to the younger sister."
+        },
+        {
+          "id": "c",
+          "text": "こちらは わたしの父です。",
+          "rationale": "父 refers to father."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Mika uses こちら and 母 for her own mother.",
+      "evidence": "こちらは わたしの母です"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-11"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Aki's father is the subject of a photograph. Choose the respectful identification.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "その人は アキさんのお父さんです。",
+          "rationale": "お父さん is the respectful term for Aki's father."
+        },
+        {
+          "id": "b",
+          "text": "その人は アキさんの母です。",
+          "rationale": "母 is mother."
+        },
+        {
+          "id": "c",
+          "text": "その人は アキさんの弟です。",
+          "rationale": "弟 is younger brother."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "お父さん is the respectful term for Aki's father.",
+      "evidence": "その人は アキさんのお父さんです"
+    },
+    {
+      "id": "ex-n5-m01-c03-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c03-l03-family-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l03-concept-12"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Choose the sentence that links a younger brother to the speaker.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "こちらは わたしの弟です。",
+          "rationale": "弟 means younger brother."
+        },
+        {
+          "id": "b",
+          "text": "こちらは わたしの兄です。",
+          "rationale": "兄 means older brother."
+        },
+        {
+          "id": "c",
+          "text": "こちらは わたしの姉です。",
+          "rationale": "姉 means older sister."
+        }
+      ],
+      "correctIndex": 0,
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "弟 means younger brother.",
+      "evidence": "わたしの弟です"
+    }
+  ]
+}

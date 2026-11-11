@@ -5,6 +5,7 @@ test('listening lesson has two keyboard accessible audio controls and transcript
  await expect(page.getByRole('heading',{name:/Listen to two station announcements/i})).toBeVisible();
  await expect(page.locator('audio[controls]')).toHaveCount(2);
  await expect(page.getByRole('button',{name:/Reveal transcript/})).toHaveCount(2);
+ await expect(page.getByRole('button',{name:/Reveal transcript/}).first()).toBeEnabled();
  await page.getByRole('button',{name:/Reveal transcript/}).first().focus();
  await page.keyboard.press('Enter');
  await expect(page.getByText(/Assisted practice: you revealed written support/)).toBeVisible();
