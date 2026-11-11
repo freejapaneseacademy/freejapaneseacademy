@@ -1,0 +1,506 @@
+{
+  "id": "n5-m05-c03-l07",
+  "lessonId": "n5-m05-c03-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original FreeJapaneseAcademy fictional directions writing scenarios",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Choose the polite instruction to go straight.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-01-c1",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Correct. 行ってください requests movement; まっすぐ describes straight ahead."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-01-c2",
+          "text": "まっすぐあります。",
+          "rationale": "Not quite. 行ってください requests movement; まっすぐ describes straight ahead."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-01-c3",
+          "text": "まっすぐ曲がってください。",
+          "rationale": "Not quite. 行ってください requests movement; まっすぐ describes straight ahead."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-01-c1"
+      },
+      "explanation": "行ってください requests movement; まっすぐ describes straight ahead.",
+      "feedback": "行ってください requests movement; まっすぐ describes straight ahead."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Ask someone to turn right at the traffic light.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-02-c1",
+          "text": "信号を左に曲がってください。",
+          "rationale": "Not quite. 右に曲がってください asks for a right turn; the traffic light is the landmark."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-02-c2",
+          "text": "信号は右にあります。",
+          "rationale": "Not quite. 右に曲がってください asks for a right turn; the traffic light is the landmark."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-02-c3",
+          "text": "信号を右に曲がってください。",
+          "rationale": "Correct. 右に曲がってください asks for a right turn; the traffic light is the landmark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-02-c3"
+      },
+      "explanation": "右に曲がってください asks for a right turn; the traffic light is the landmark.",
+      "feedback": "右に曲がってください asks for a right turn; the traffic light is the landmark."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "State that the library is on the left.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-03-c1",
+          "text": "図書館は右にあります。",
+          "rationale": "Not quite. 左にあります states the location rather than a movement instruction."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-03-c2",
+          "text": "図書館は左にあります。",
+          "rationale": "Correct. 左にあります states the location rather than a movement instruction."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-03-c3",
+          "text": "図書館を左に曲がってください。",
+          "rationale": "Not quite. 左にあります states the location rather than a movement instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-03-c2"
+      },
+      "explanation": "左にあります states the location rather than a movement instruction.",
+      "feedback": "左にあります states the location rather than a movement instruction."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Complete 駅＿、まっすぐ行ってください。 to mean 'from the station'.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-04-c1",
+          "text": "から",
+          "rationale": "Correct. から marks the starting point of the route."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-04-c2",
+          "text": "まで",
+          "rationale": "Not quite. から marks the starting point of the route."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-04-c3",
+          "text": "が",
+          "rationale": "Not quite. から marks the starting point of the route."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-04-c1"
+      },
+      "explanation": "から marks the starting point of the route.",
+      "feedback": "から marks the starting point of the route."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Choose the request to turn left.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-05-c1",
+          "text": "左にあります。",
+          "rationale": "Not quite. 曲がってください is an instruction; 左に means leftward."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-05-c2",
+          "text": "右に曲がってください。",
+          "rationale": "Not quite. 曲がってください is an instruction; 左に means leftward."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-05-c3",
+          "text": "左に曲がってください。",
+          "rationale": "Correct. 曲がってください is an instruction; 左に means leftward."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-05-c3"
+      },
+      "explanation": "曲がってください is an instruction; 左に means leftward.",
+      "feedback": "曲がってください is an instruction; 左に means leftward."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Which sentence says the park is beside the library?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-06-c1",
+          "text": "公園は図書館から行ってください。",
+          "rationale": "Not quite. のとなりにあります describes the park's location beside the library."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-06-c2",
+          "text": "公園は図書館のとなりにあります。",
+          "rationale": "Correct. のとなりにあります describes the park's location beside the library."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-06-c3",
+          "text": "公園は図書館を曲がってください。",
+          "rationale": "Not quite. のとなりにあります describes the park's location beside the library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-06-c2"
+      },
+      "explanation": "のとなりにあります describes the park's location beside the library.",
+      "feedback": "のとなりにあります describes the park's location beside the library."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Which line tells the visitor to do something rather than describes a location?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-07-c1",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Correct. The てください form requests an action; あります describes a location."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-07-c2",
+          "text": "図書館は左にあります。",
+          "rationale": "Not quite. The てください form requests an action; あります describes a location."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-07-c3",
+          "text": "公園は駅のとなりにあります。",
+          "rationale": "Not quite. The てください form requests an action; あります describes a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-07-c1"
+      },
+      "explanation": "The てください form requests an action; あります describes a location.",
+      "feedback": "The てください form requests an action; あります describes a location."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Choose the correct location particle: 図書館は右＿あります。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-08-c1",
+          "text": "を",
+          "rationale": "Not quite. に marks the relative location with あります."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-08-c2",
+          "text": "で",
+          "rationale": "Not quite. に marks the relative location with あります."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-08-c3",
+          "text": "に",
+          "rationale": "Correct. に marks the relative location with あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-08-c3"
+      },
+      "explanation": "に marks the relative location with あります.",
+      "feedback": "に marks the relative location with あります."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "A route says turn right at the light. Which sentence preserves that fact?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-09-c1",
+          "text": "信号は左にあります。",
+          "rationale": "Not quite. 右に曲がってください preserves the specified right turn."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-09-c2",
+          "text": "信号を右に曲がってください。",
+          "rationale": "Correct. 右に曲がってください preserves the specified right turn."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-09-c3",
+          "text": "信号を左に曲がってください。",
+          "rationale": "Not quite. 右に曲がってください preserves the specified right turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-09-c2"
+      },
+      "explanation": "右に曲がってください preserves the specified right turn.",
+      "feedback": "右に曲がってください preserves the specified right turn."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Which instruction uses a traffic light as a turn landmark?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-10-c1",
+          "text": "信号を左に曲がってください。",
+          "rationale": "Correct. 信号を identifies the turn landmark in this beginner route expression."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-10-c2",
+          "text": "駅からまっすぐあります。",
+          "rationale": "Not quite. 信号を identifies the turn landmark in this beginner route expression."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-10-c3",
+          "text": "図書館は信号に曲がります。",
+          "rationale": "Not quite. 信号を identifies the turn landmark in this beginner route expression."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-10-c1"
+      },
+      "explanation": "信号を identifies the turn landmark in this beginner route expression.",
+      "feedback": "信号を identifies the turn landmark in this beginner route expression."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Choose a coherent pair: go straight, then locate the library on the right.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-11-c1",
+          "text": "まっすぐあります。図書館は右を曲がってください。",
+          "rationale": "Not quite. A movement request followed by a location statement is coherent."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-11-c2",
+          "text": "右にあります。まっすぐ曲がってください。",
+          "rationale": "Not quite. A movement request followed by a location statement is coherent."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-11-c3",
+          "text": "まっすぐ行ってください。図書館は右にあります。",
+          "rationale": "Correct. A movement request followed by a location statement is coherent."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-11-c3"
+      },
+      "explanation": "A movement request followed by a location statement is coherent.",
+      "feedback": "A movement request followed by a location statement is coherent."
+    },
+    {
+      "id": "ex-n5-m05-c03-l07-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l07-directions"
+      ],
+      "prompt": "Which sentence politely directs a visitor from the station?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-l07-12-c1",
+          "text": "駅を、まっすぐあります。",
+          "rationale": "Not quite. 駅から sets the start; 行ってください politely asks the visitor to go."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-12-c2",
+          "text": "駅から、まっすぐ行ってください。",
+          "rationale": "Correct. 駅から sets the start; 行ってください politely asks the visitor to go."
+        },
+        {
+          "id": "ex-n5-m05-c03-l07-12-c3",
+          "text": "駅が、まっすぐあります。",
+          "rationale": "Not quite. 駅から sets the start; 行ってください politely asks the visitor to go."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-l07-12-c2"
+      },
+      "explanation": "駅から sets the start; 行ってください politely asks the visitor to go.",
+      "feedback": "駅から sets the start; 行ってください politely asks the visitor to go."
+    }
+  ]
+}
