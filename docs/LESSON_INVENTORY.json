@@ -3934,6 +3934,21 @@
       "assessmentReview": "pending — independent assessment review not claimed",
       "audio": "not required for written L07",
       "noindex": false
+    },
+    {
+      "id": "n5-m05-c02-l05",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c02",
+      "slot": "L05",
+      "title": "Read a weekend trip itinerary: transport and companions",
+      "content": "src/content/lessons/n5/travel-companions-itinerary-reading.mdx",
+      "url": "/learn/n5/module-05/chapter-02/lesson-05/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
