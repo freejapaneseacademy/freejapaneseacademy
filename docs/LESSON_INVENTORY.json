@@ -3919,6 +3919,21 @@
       "assessmentReview": "pending - independent assessment review not claimed",
       "audio": "candidate schema-v3 TTS job committed; authentic WAV, manifest, rights and pronunciation verification pending",
       "noindex": false
+    },
+    {
+      "id": "n5-m02-c02-l07",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c02",
+      "slot": "L07",
+      "title": "Write campus locations: where rooms and objects are",
+      "content": "src/content/lessons/n5/campus-location-writing.mdx",
+      "url": "/learn/n5/module-02/chapter-02/lesson-07/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese writing review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L07",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
