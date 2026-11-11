@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c03-l03",
+  "lessonId": "n5-m06-c03-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional classroom and public-space grammar situations; no third-party material",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "A teacher wants learners to read the sign. Which request is correct?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-01-c1",
+          "text": "看板を読んでください。",
+          "rationale": "Correct. 読んでください requests that the listener read the sign."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-01-c2",
+          "text": "看板を読んでもいいですか。",
+          "rationale": "Review. The permission question asks about the speaker's action; the prohibition bans reading. 読んでください requests that the listener read the sign."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-01-c3",
+          "text": "看板を読んではいけません。",
+          "rationale": "Review. The permission question asks about the speaker's action; the prohibition bans reading. 読んでください requests that the listener read the sign."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-01-c1"
+      },
+      "explanation": "読んでください requests that the listener read the sign.",
+      "feedback": "読んでください requests that the listener read the sign."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "You want to use the classroom dictionary. What do you ask?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-02-c1",
+          "text": "辞書を使ってください。",
+          "rationale": "Review. ください requests someone else to use it; はいけません forbids it. 使ってもいいですか asks whether the speaker may use the dictionary."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-02-c2",
+          "text": "辞書を使ってもいいですか。",
+          "rationale": "Correct. 使ってもいいですか asks whether the speaker may use the dictionary."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-02-c3",
+          "text": "辞書を使ってはいけません。",
+          "rationale": "Review. ください requests someone else to use it; はいけません forbids it. 使ってもいいですか asks whether the speaker may use the dictionary."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-02-c2"
+      },
+      "explanation": "使ってもいいですか asks whether the speaker may use the dictionary.",
+      "feedback": "使ってもいいですか asks whether the speaker may use the dictionary."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "A sign bans photographs. Which sentence states the rule?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-03-c1",
+          "text": "写真を撮ってください。",
+          "rationale": "Review. ください is a request; もいいですか asks permission. 撮ってはいけません prohibits taking photographs."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-03-c2",
+          "text": "写真を撮ってもいいですか。",
+          "rationale": "Review. ください is a request; もいいですか asks permission. 撮ってはいけません prohibits taking photographs."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-03-c3",
+          "text": "写真を撮ってはいけません。",
+          "rationale": "Correct. 撮ってはいけません prohibits taking photographs."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-03-c3"
+      },
+      "explanation": "撮ってはいけません prohibits taking photographs.",
+      "feedback": "撮ってはいけません prohibits taking photographs."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "Which is the て-form of 書く used in a polite request?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-04-c1",
+          "text": "書いて",
+          "rationale": "Correct. 書く becomes 書いて before ください."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-04-c2",
+          "text": "書って",
+          "rationale": "Review. 書って and 書きて are not the correct て-form of 書く. 書く becomes 書いて before ください."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-04-c3",
+          "text": "書きて",
+          "rationale": "Review. 書って and 書きて are not the correct て-form of 書く. 書く becomes 書いて before ください."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-04-c1"
+      },
+      "explanation": "書く becomes 書いて before ください.",
+      "feedback": "書く becomes 書いて before ください."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "Complete: ここに座っ＿＿いいですか。 (May I sit here?)",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-05-c1",
+          "text": "ては",
+          "rationale": "Review. ては needs a prohibition ending; て alone does not form this permission question. 座ってもいいですか asks permission to sit."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-05-c2",
+          "text": "ても",
+          "rationale": "Correct. 座ってもいいですか asks permission to sit."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-05-c3",
+          "text": "て",
+          "rationale": "Review. ては needs a prohibition ending; て alone does not form this permission question. 座ってもいいですか asks permission to sit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-05-c2"
+      },
+      "explanation": "座ってもいいですか asks permission to sit.",
+      "feedback": "座ってもいいですか asks permission to sit."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "Which Japanese sentence means 'Please wait here'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-06-c1",
+          "text": "ここで待ってはいけません。",
+          "rationale": "Review. The other choices prohibit waiting or ask permission to wait. 待ってください asks the listener to wait."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-06-c2",
+          "text": "ここで待ってもいいですか。",
+          "rationale": "Review. The other choices prohibit waiting or ask permission to wait. 待ってください asks the listener to wait."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-06-c3",
+          "text": "ここで待ってください。",
+          "rationale": "Correct. 待ってください asks the listener to wait."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-06-c3"
+      },
+      "explanation": "待ってください asks the listener to wait.",
+      "feedback": "待ってください asks the listener to wait."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "Which is a polite affirmative reply to 入ってもいいですか。?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-07-c1",
+          "text": "はい、いいですよ。",
+          "rationale": "Correct. はい、いいですよ grants permission in this friendly context."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-07-c2",
+          "text": "いいえ、入ってください。",
+          "rationale": "Review. The other replies do not simply affirm permission. はい、いいですよ grants permission in this friendly context."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-07-c3",
+          "text": "入ってはいけませんか。",
+          "rationale": "Review. The other replies do not simply affirm permission. はい、いいですよ grants permission in this friendly context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-07-c1"
+      },
+      "explanation": "はい、いいですよ grants permission in this friendly context.",
+      "feedback": "はい、いいですよ grants permission in this friendly context."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "Which sentence prohibits eating in this room?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-08-c1",
+          "text": "この部屋で食べてください。",
+          "rationale": "Review. ください requests eating; もいいですか asks permission. 食べてはいけません is a prohibition; で marks the place of eating."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-08-c2",
+          "text": "この部屋で食べてはいけません。",
+          "rationale": "Correct. 食べてはいけません is a prohibition; で marks the place of eating."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-08-c3",
+          "text": "この部屋で食べてもいいですか。",
+          "rationale": "Review. ください requests eating; もいいですか asks permission. 食べてはいけません is a prohibition; で marks the place of eating."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-08-c2"
+      },
+      "explanation": "食べてはいけません is a prohibition; で marks the place of eating.",
+      "feedback": "食べてはいけません is a prohibition; で marks the place of eating."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "You need a classmate to show you the page. Choose the request.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-09-c1",
+          "text": "ページを見てもいいですか。",
+          "rationale": "Review. 見る means to look; 見せる means to show, so the other forms miss the intended action. 見せてください means 'Please show me' (from 見せる)."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-09-c2",
+          "text": "ページを見てはいけません。",
+          "rationale": "Review. 見る means to look; 見せる means to show, so the other forms miss the intended action. 見せてください means 'Please show me' (from 見せる)."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-09-c3",
+          "text": "ページを見せてください。",
+          "rationale": "Correct. 見せてください means 'Please show me' (from 見せる)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-09-c3"
+      },
+      "explanation": "見せてください means 'Please show me' (from 見せる).",
+      "feedback": "見せてください means 'Please show me' (from 見せる)."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "Which verb form correctly starts 'Please drink water'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-10-c1",
+          "text": "水を飲んで",
+          "rationale": "Correct. 飲む becomes 飲んで, giving 水を飲んでください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-10-c2",
+          "text": "水を飲みて",
+          "rationale": "Review. 飲みて and 飲って are not standard て-forms. 飲む becomes 飲んで, giving 水を飲んでください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-10-c3",
+          "text": "水を飲って",
+          "rationale": "Review. 飲みて and 飲って are not standard て-forms. 飲む becomes 飲んで, giving 水を飲んでください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-10-c1"
+      },
+      "explanation": "飲む becomes 飲んで, giving 水を飲んでください。",
+      "feedback": "飲む becomes 飲んで, giving 水を飲んでください。"
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "Which pair has the same verb but changes request into permission question?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-11-c1",
+          "text": "書いてください／読んでもいいですか",
+          "rationale": "Review. The first changes verbs; the third changes the request to a prohibition. Both use 書いて; ください requests writing, while もいいですか asks permission to write."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-11-c2",
+          "text": "書いてください／書いてもいいですか",
+          "rationale": "Correct. Both use 書いて; ください requests writing, while もいいですか asks permission to write."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-11-c3",
+          "text": "書いてください／書いてはいけません",
+          "rationale": "Review. The first changes verbs; the third changes the request to a prohibition. Both use 書いて; ください requests writing, while もいいですか asks permission to write."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-11-c2"
+      },
+      "explanation": "Both use 書いて; ください requests writing, while もいいですか asks permission to write.",
+      "feedback": "Both use 書いて; ください requests writing, while もいいですか asks permission to write."
+    },
+    {
+      "id": "ex-n5-m06-c03-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l03-request-permission-prohibition"
+      ],
+      "prompt": "A library sign says ここで話してはいけません. What does it mean?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l03-12-c1",
+          "text": "Please talk here.",
+          "rationale": "Review. The request and permission readings require different endings. 話してはいけません says talking here is prohibited."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-12-c2",
+          "text": "May I talk here?",
+          "rationale": "Review. The request and permission readings require different endings. 話してはいけません says talking here is prohibited."
+        },
+        {
+          "id": "ex-n5-m06-c03-l03-12-c3",
+          "text": "You must not talk here.",
+          "rationale": "Correct. 話してはいけません says talking here is prohibited."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l03-12-c3"
+      },
+      "explanation": "話してはいけません says talking here is prohibited.",
+      "feedback": "話してはいけません says talking here is prohibited."
+    }
+  ]
+}
