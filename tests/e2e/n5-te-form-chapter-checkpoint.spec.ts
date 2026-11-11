@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 const route = '/learn/n5/module-06/chapter-02/checkpoint/';
 test('keyboard-accessible written checkpoint and retry', async ({ page }) => {
  await page.goto(route);
- await expect(page.getByRole('heading',{name:/te-form in action/i})).toBeVisible();
+ await expect(page.getByRole('heading',{name:/て-form in action/i})).toBeVisible();
  const groups = page.locator('fieldset[data-question-id]');
  await expect(groups).toHaveCount(16);
  await page.keyboard.press('Tab');
