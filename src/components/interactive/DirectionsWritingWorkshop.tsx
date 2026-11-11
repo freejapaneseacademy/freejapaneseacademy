@@ -1,0 +1,26 @@
+import { useEffect, useState } from 'react';
+import bank from '../../content/exercises/n5-m05-c03-l07-v1.json';
+import { recordAttempt } from '../../lib/progress';
+const storageKey='n5-m05-c03-l07-draft-v1';
+const criteria=['Starting point and destination are clear.','Directions follow a coherent route order.','Action requests use 〜てください; locations use 〜にあります.','Right/left particles, spelling and punctuation are accurate.'];
+export function gradeDirectionsWriting(a:Record<string,string>){return bank.items.filter(q=>a[q.id]===q.answerKey.choiceId).length}
+export default function DirectionsWritingWorkshop(){
+ const [ready,setReady]=useState(false);useEffect(()=>setReady(true),[]);
+ const [draft,setDraft]=useState('');const [model,setModel]=useState(false);const [checks,setChecks]=useState<boolean[]>([false,false,false,false]);
+ const [answers,setAnswers]=useState<Record<string,string>>({});const [submitted,setSubmitted]=useState(false);const [notice,setNotice]=useState('');
+ function save(){try{localStorage.setItem(storageKey,draft);setNotice('Draft saved on this device.')}catch{setNotice('Local storage unavailable; copy your text elsewhere.')}}
+ function load(){try{setDraft(localStorage.getItem(storageKey)||'');setNotice('Draft loaded.')}catch{setNotice('Local storage unavailable.')}}
+ function clear(){try{localStorage.removeItem(storageKey)}catch{}setDraft('');setChecks([false,false,false,false]);setNotice('Draft cleared.')}
+ async function submit(){if(!ready||submitted||!bank.items.every(q=>answers[q.id]))return;setSubmitted(true);try{await recordAttempt('n5-m05-c03-l07-written-v1','n5',gradeDirectionsWriting(answers),bank.items.length);setNotice('Recognition attempt saved on this device.')}catch{setNotice('Progress storage unavailable; your result is visible.')}}
+ return <section className="min-w-0 space-y-6" aria-label="Directions writing workshop">
+ <div className="space-y-3"><h2 className="text-2xl font-semibold">Write directions for a visitor</h2><p>Write two to five connected Japanese sentences. Your composition is self-reviewed, not automatically graded.</p>
+ <label htmlFor="directions-draft" className="block font-semibold">Your Japanese directions draft</label>
+ <textarea id="directions-draft" disabled={!ready} lang="ja" rows={5} value={draft} onChange={e=>setDraft(e.target.value)} className="w-full min-w-0 rounded-lg border border-current/30 bg-transparent p-3" placeholder="駅から、まっすぐ行ってください。"/>
+ <div className="flex flex-wrap gap-2">{[['Save draft',save],['Load draft',load],['Clear draft',clear]].map(([label,fn])=><button key={label as string} type="button" disabled={!ready} onClick={fn as ()=>void} className="rounded-lg border border-current px-3 py-2">{label as string}</button>)}<button type="button" disabled={!ready} aria-expanded={model} onClick={()=>setModel(v=>!v)} className="rounded-lg border border-current px-3 py-2">{model?'Hide model':'Compare model'}</button></div>
+ {model&&<div className="rounded-lg border border-current/20 p-3"><p>Model directions:</p><p lang="ja">駅から、まっすぐ行ってください。<br/>信号を右に曲がってください。<br/>図書館は左にあります。</p><p>Please go straight from the station, turn right at the traffic light, and find the library on the left. Other consistent routes are possible.</p></div>}
+ <fieldset className="rounded-lg border border-current/20 p-3"><legend className="font-semibold">Four-part writing self-review (ungraded)</legend>{criteria.map((c,i)=><label key={c} className="flex items-start gap-3 py-2"><input type="checkbox" disabled={!ready} checked={checks[i]} onChange={e=>setChecks(v=>v.map((x,j)=>j===i?e.target.checked:x))}/><span>{c}</span></label>)}<p role="status">{checks.filter(Boolean).length}/4 criteria checked by you.</p></fieldset></div>
+ <div className="space-y-4"><h2 className="text-2xl font-semibold">Written recognition check</h2><p>Use Tab, arrow keys and Space to choose one answer for each question.</p>
+ {bank.items.map((q,i)=><fieldset key={q.id} data-question-id={q.id} disabled={!ready||submitted} className="min-w-0 rounded-xl border border-current/20 p-4"><legend className="font-semibold">{i+1}. {q.prompt}</legend>{q.choices.map(c=><label key={c.id} className="flex min-h-11 items-start gap-3 rounded-lg p-2 focus-within:outline focus-within:outline-2"><input type="radio" name={q.id} checked={answers[q.id]===c.id} onChange={()=>setAnswers(a=>({...a,[q.id]:c.id}))}/><span lang="ja" className="break-words">{c.text}</span></label>)}{submitted&&<p role="status"><strong>{answers[q.id]===q.answerKey.choiceId?'Correct. ':'Review. '}</strong>{q.explanation}</p>}</fieldset>)}
+ {!submitted?<button type="button" disabled={!ready||!bank.items.every(q=>answers[q.id])} onClick={submit} className="rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white disabled:opacity-50">Check 12 answers</button>:<div role="status"><p>Written recognition score: {gradeDirectionsWriting(answers)}/12. Not an official JLPT score.</p><button type="button" onClick={()=>{setSubmitted(false);setAnswers({})}} className="rounded-lg border border-current px-4 py-2">Retry questions</button></div>}
+ <p role="status" aria-live="polite">{notice}</p></div></section>;
+}
