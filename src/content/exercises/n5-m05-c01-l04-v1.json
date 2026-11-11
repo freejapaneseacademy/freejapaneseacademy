@@ -1,0 +1,436 @@
+{
+  "lessonId": "n5-m05-c01-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l04-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-1"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 駅.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "えき",
+          "rationale": "駅 is the station in the route note."
+        },
+        {
+          "id": "c2",
+          "text": "いえ",
+          "rationale": "Not here. 駅 is the station in the route note."
+        },
+        {
+          "id": "c3",
+          "text": "くるま",
+          "rationale": "Not here. 駅 is the station in the route note."
+        },
+        {
+          "id": "c4",
+          "text": "でんしゃ",
+          "rationale": "Not here. 駅 is the station in the route note."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "駅 is the station in the route note."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-2"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Which written word means train?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "車",
+          "rationale": "Not here. 電車（でんしゃ） is train; 車 alone is car here."
+        },
+        {
+          "id": "c2",
+          "text": "駅",
+          "rationale": "Not here. 電車（でんしゃ） is train; 車 alone is car here."
+        },
+        {
+          "id": "c3",
+          "text": "家",
+          "rationale": "Not here. 電車（でんしゃ） is train; 車 alone is car here."
+        },
+        {
+          "id": "c4",
+          "text": "電車",
+          "rationale": "電車（でんしゃ） is train; 車 alone is car here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "電車（でんしゃ） is train; 車 alone is car here."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-3"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 車 when it stands alone for car.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "えき",
+          "rationale": "Not here. 車 alone is くるま in this context; in 電車 the reading changes."
+        },
+        {
+          "id": "c2",
+          "text": "でん",
+          "rationale": "Not here. 車 alone is くるま in this context; in 電車 the reading changes."
+        },
+        {
+          "id": "c3",
+          "text": "くるま",
+          "rationale": "車 alone is くるま in this context; in 電車 the reading changes."
+        },
+        {
+          "id": "c4",
+          "text": "しゃ",
+          "rationale": "Not here. 車 alone is くるま in this context; in 電車 the reading changes."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "車 alone is くるま in this context; in 電車 the reading changes."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-4"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Which word means university?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅",
+          "rationale": "Not here. 大学（だいがく） means university, not school in general."
+        },
+        {
+          "id": "c2",
+          "text": "大学",
+          "rationale": "大学（だいがく） means university, not school in general."
+        },
+        {
+          "id": "c3",
+          "text": "学校",
+          "rationale": "Not here. 大学（だいがく） means university, not school in general."
+        },
+        {
+          "id": "c4",
+          "text": "家",
+          "rationale": "Not here. 大学（だいがく） means university, not school in general."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "大学（だいがく） means university, not school in general."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-5"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 学校.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "がっこう",
+          "rationale": "学校 is がっこう with a small っ."
+        },
+        {
+          "id": "c2",
+          "text": "がくこう",
+          "rationale": "Not here. 学校 is がっこう with a small っ."
+        },
+        {
+          "id": "c3",
+          "text": "だいがく",
+          "rationale": "Not here. 学校 is がっこう with a small っ."
+        },
+        {
+          "id": "c4",
+          "text": "がっこ",
+          "rationale": "Not here. 学校 is がっこう with a small っ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "学校 is がっこう with a small っ."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-6"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Which word in the note means home?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅",
+          "rationale": "Not here. 家（いえ） is the home to which the student returns."
+        },
+        {
+          "id": "c2",
+          "text": "学校",
+          "rationale": "Not here. 家（いえ） is the home to which the student returns."
+        },
+        {
+          "id": "c3",
+          "text": "電車",
+          "rationale": "Not here. 家（いえ） is the home to which the student returns."
+        },
+        {
+          "id": "c4",
+          "text": "家",
+          "rationale": "家（いえ） is the home to which the student returns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "家（いえ） is the home to which the student returns."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-7"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 行きます.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "かえります",
+          "rationale": "Not here. 行きます（いきます） means go, in the polite nonpast form."
+        },
+        {
+          "id": "c2",
+          "text": "いきました",
+          "rationale": "Not here. 行きます（いきます） means go, in the polite nonpast form."
+        },
+        {
+          "id": "c3",
+          "text": "いきます",
+          "rationale": "行きます（いきます） means go, in the polite nonpast form."
+        },
+        {
+          "id": "c4",
+          "text": "きます",
+          "rationale": "Not here. 行きます（いきます） means go, in the polite nonpast form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "行きます（いきます） means go, in the polite nonpast form."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-8"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Which verb means comes?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "行きました",
+          "rationale": "Not here. 来ます（きます） is come; the friend comes to university."
+        },
+        {
+          "id": "c2",
+          "text": "来ます",
+          "rationale": "来ます（きます） is come; the friend comes to university."
+        },
+        {
+          "id": "c3",
+          "text": "行きます",
+          "rationale": "Not here. 来ます（きます） is come; the friend comes to university."
+        },
+        {
+          "id": "c4",
+          "text": "帰ります",
+          "rationale": "Not here. 来ます（きます） is come; the friend comes to university."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "来ます（きます） is come; the friend comes to university."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-9"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 帰ります.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "かえります",
+          "rationale": "帰ります（かえります） expresses returning home."
+        },
+        {
+          "id": "c2",
+          "text": "いきます",
+          "rationale": "Not here. 帰ります（かえります） expresses returning home."
+        },
+        {
+          "id": "c3",
+          "text": "きます",
+          "rationale": "Not here. 帰ります（かえります） expresses returning home."
+        },
+        {
+          "id": "c4",
+          "text": "かえました",
+          "rationale": "Not here. 帰ります（かえります） expresses returning home."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "帰ります（かえります） expresses returning home."
+    },
+    {
+      "id": "ex-n5-m05-c01-l04-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l04-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l04-kanji-10"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Which written phrase in the note proves the student travels by train?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "車へ",
+          "rationale": "Not here. 電車で explicitly marks train as the means of transport."
+        },
+        {
+          "id": "c2",
+          "text": "駅に",
+          "rationale": "Not here. 電車で explicitly marks train as the means of transport."
+        },
+        {
+          "id": "c3",
+          "text": "家から",
+          "rationale": "Not here. 電車で explicitly marks train as the means of transport."
+        },
+        {
+          "id": "c4",
+          "text": "電車で",
+          "rationale": "電車で explicitly marks train as the means of transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "電車で explicitly marks train as the means of transport."
+    }
+  ]
+}
