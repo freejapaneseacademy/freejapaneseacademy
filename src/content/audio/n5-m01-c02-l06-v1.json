@@ -1,0 +1,165 @@
+{
+  "lessonId": "n5-m01-c02-l06",
+  "chapterId": "n5-m01-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m01-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m01-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 13.44,
+      "transcript": "女性： すみません。あの人は、だれですか。\n男性： やまださんです。にほんごのせんせいです。\n女性： やまださんは、どこですか。\n男性： きょうしつです。たなかさんも、きょうしつです。",
+      "english": "Woman: Excuse me. Who is that person?\nMan: That's Yamada. She's a Japanese teacher.\nWoman: Where is Yamada?\nMan: She's in the classroom. Tanaka is also in the classroom.",
+      "scriptPurpose": "School welcome interview",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m01-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。あの人は、だれですか。",
+          "english": "Excuse me. Who is that person?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.44
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "やまださんです。にほんごのせんせいです。",
+          "english": "That's Yamada. She's a Japanese teacher.",
+          "startSeconds": 3.72,
+          "endSeconds": 6.88
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "やまださんは、どこですか。",
+          "english": "Where is Yamada?",
+          "startSeconds": 7.16,
+          "endSeconds": 9.75
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "きょうしつです。たなかさんも、きょうしつです。",
+          "english": "She's in the classroom. Tanaka is also in the classroom.",
+          "startSeconds": 10.03,
+          "endSeconds": 13.44
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "ba13e20535191702a22184fad534bf05e5a8a712d96b5a8ecc343eb180b88736",
+        "bytes": 1185760,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m01-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m01-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 12.36,
+      "transcript": "男性： これは、何ですか。\n女性： それは、じしょです。\n男性： あなたのノートは、どれですか。\n女性： あのあおいノートです。あかいノートは、わたしのじゃありません。",
+      "english": "Man: What is this?\nWoman: That's a dictionary.\nMan: Which one is your notebook?\nWoman: That blue notebook. The red notebook isn't mine.",
+      "scriptPurpose": "Classroom supplies interview",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m01-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "これは、何ですか。",
+          "english": "What is this?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.02
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "それは、じしょです。",
+          "english": "That's a dictionary.",
+          "startSeconds": 2.3,
+          "endSeconds": 4.32
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "あなたのノートは、どれですか。",
+          "english": "Which one is your notebook?",
+          "startSeconds": 4.6,
+          "endSeconds": 7.16
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "あのあおいノートです。あかいノートは、わたしのじゃありません。",
+          "english": "That blue notebook. The red notebook isn't mine.",
+          "startSeconds": 7.44,
+          "endSeconds": 12.36
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "cbf9035556d0e07b287b18401523f5f5e0176bea50b87d8d25ad3b81daf21ac2",
+        "bytes": 1090122,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
