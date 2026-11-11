@@ -4134,6 +4134,23 @@
       "audio": "not required for written L01; no audio or pronunciation evaluation claimed",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m05-c04-l08",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c04",
+      "slot": "L08",
+      "title": "Invite a Friend: Optional Outing-Plan Role Play",
+      "content": "src/content/lessons/n5/travel-outing-roleplay.mdx",
+      "url": "/learn/n5/module-05/chapter-04/lesson-08/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "printed rehearsal models only; authentic listening audio belongs to L06",
+      "noindex": true,
+      "authorSlot": ":15",
+      "automationId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

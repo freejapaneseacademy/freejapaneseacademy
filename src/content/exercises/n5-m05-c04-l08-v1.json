@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m05-c04-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l08-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k01"
+      ],
+      "prompt": "Which sentence invites a friend to go to the museum together on Saturday?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-01-c1",
+          "text": "土曜日に、いっしょに博物館に行きませんか。",
+          "rationale": "Correct. 行きませんか is a polite invitation; いっしょに means together."
+        },
+        {
+          "id": "n5-m05-c04-l08-01-c2",
+          "text": "土曜日に博物館にいます。",
+          "rationale": "Review the distinction. 行きませんか is a polite invitation; いっしょに means together."
+        },
+        {
+          "id": "n5-m05-c04-l08-01-c3",
+          "text": "土曜日は博物館です。",
+          "rationale": "Review the distinction. 行きませんか is a polite invitation; いっしょに means together."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-01-c1"
+      },
+      "explanation": "行きませんか is a polite invitation; いっしょに means together."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k02"
+      ],
+      "prompt": "Which phrase means 'Sounds good' as a reply to an invitation?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-02-c1",
+          "text": "いいですね。",
+          "rationale": "Correct. いいですね is an affirmative response to a suggestion."
+        },
+        {
+          "id": "n5-m05-c04-l08-02-c2",
+          "text": "何時ですか。",
+          "rationale": "Review the distinction. いいですね is an affirmative response to a suggestion."
+        },
+        {
+          "id": "n5-m05-c04-l08-02-c3",
+          "text": "すみません。",
+          "rationale": "Review the distinction. いいですね is an affirmative response to a suggestion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-02-c1"
+      },
+      "explanation": "いいですね is an affirmative response to a suggestion."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k03"
+      ],
+      "prompt": "Choose the correct meeting-time and meeting-place particles: 九時半＿駅＿会いましょう。",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-03-c1",
+          "text": "に・で",
+          "rationale": "Correct. A specific meeting time takes に; the location of 会う takes で."
+        },
+        {
+          "id": "n5-m05-c04-l08-03-c2",
+          "text": "で・に",
+          "rationale": "Review the distinction. A specific meeting time takes に; the location of 会う takes で."
+        },
+        {
+          "id": "n5-m05-c04-l08-03-c3",
+          "text": "へ・を",
+          "rationale": "Review the distinction. A specific meeting time takes に; the location of 会う takes で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-03-c1"
+      },
+      "explanation": "A specific meeting time takes に; the location of 会う takes で."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k04"
+      ],
+      "prompt": "Which phrase says the museum is the destination?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-04-c1",
+          "text": "博物館に行きます。",
+          "rationale": "Correct. 行きます with に identifies the destination."
+        },
+        {
+          "id": "n5-m05-c04-l08-04-c2",
+          "text": "博物館で会います。",
+          "rationale": "Review the distinction. 行きます with に identifies the destination."
+        },
+        {
+          "id": "n5-m05-c04-l08-04-c3",
+          "text": "博物館があります。",
+          "rationale": "Review the distinction. 行きます with に identifies the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-04-c1"
+      },
+      "explanation": "行きます with に identifies the destination."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k05"
+      ],
+      "prompt": "Which sentence says the travellers will go by train?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-05-c1",
+          "text": "電車で行きます。",
+          "rationale": "Correct. The means of transport takes で."
+        },
+        {
+          "id": "n5-m05-c04-l08-05-c2",
+          "text": "電車に会います。",
+          "rationale": "Review the distinction. The means of transport takes で."
+        },
+        {
+          "id": "n5-m05-c04-l08-05-c3",
+          "text": "電車をあります。",
+          "rationale": "Review the distinction. The means of transport takes で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-05-c1"
+      },
+      "explanation": "The means of transport takes で."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k06"
+      ],
+      "prompt": "What does 片道は三百円です tell us?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-06-c1",
+          "text": "The one-way fare is 300 yen.",
+          "rationale": "Correct. 片道 means one way; no round-trip price is stated."
+        },
+        {
+          "id": "n5-m05-c04-l08-06-c2",
+          "text": "The return fare is 300 yen.",
+          "rationale": "Review the distinction. 片道 means one way; no round-trip price is stated."
+        },
+        {
+          "id": "n5-m05-c04-l08-06-c3",
+          "text": "The train leaves at 3:00.",
+          "rationale": "Review the distinction. 片道 means one way; no round-trip price is stated."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-06-c1"
+      },
+      "explanation": "片道 means one way; no round-trip price is stated."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k07"
+      ],
+      "prompt": "In Model A, what does 九時半 describe?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-07-c1",
+          "text": "The agreed meeting time.",
+          "rationale": "Correct. 九時半に駅で会いましょう specifies when to meet, not when the train leaves."
+        },
+        {
+          "id": "n5-m05-c04-l08-07-c2",
+          "text": "The train departure time.",
+          "rationale": "Review the distinction. 九時半に駅で会いましょう specifies when to meet, not when the train leaves."
+        },
+        {
+          "id": "n5-m05-c04-l08-07-c3",
+          "text": "The museum closing time.",
+          "rationale": "Review the distinction. 九時半に駅で会いましょう specifies when to meet, not when the train leaves."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-07-c1"
+      },
+      "explanation": "九時半に駅で会いましょう specifies when to meet, not when the train leaves."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k08"
+      ],
+      "prompt": "In Model B, which meeting time is finally agreed?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-08-c1",
+          "text": "十時",
+          "rationale": "Correct. The change request 十時でもいいですか is accepted with 十時に駅で会いましょう."
+        },
+        {
+          "id": "n5-m05-c04-l08-08-c2",
+          "text": "九時",
+          "rationale": "Review the distinction. The change request 十時でもいいですか is accepted with 十時に駅で会いましょう."
+        },
+        {
+          "id": "n5-m05-c04-l08-08-c3",
+          "text": "十一時",
+          "rationale": "Review the distinction. The change request 十時でもいいですか is accepted with 十時に駅で会いましょう."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-08-c1"
+      },
+      "explanation": "The change request 十時でもいいですか is accepted with 十時に駅で会いましょう."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k09"
+      ],
+      "prompt": "Which question asks how the group will travel?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-09-c1",
+          "text": "どうやって行きますか。",
+          "rationale": "Correct. どうやって asks about the method of travel."
+        },
+        {
+          "id": "n5-m05-c04-l08-09-c2",
+          "text": "何時に会いますか。",
+          "rationale": "Review the distinction. どうやって asks about the method of travel."
+        },
+        {
+          "id": "n5-m05-c04-l08-09-c3",
+          "text": "どこにありますか。",
+          "rationale": "Review the distinction. どうやって asks about the method of travel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-09-c1"
+      },
+      "explanation": "どうやって asks about the method of travel."
+    },
+    {
+      "id": "ex-n5-m05-c04-l08-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l08-k10"
+      ],
+      "prompt": "Which reply politely proposes changing the time to eleven?",
+      "choices": [
+        {
+          "id": "n5-m05-c04-l08-10-c1",
+          "text": "すみません、十一時でもいいですか。",
+          "rationale": "Correct. 〜でもいいですか checks whether the alternative is acceptable."
+        },
+        {
+          "id": "n5-m05-c04-l08-10-c2",
+          "text": "十一時にあります。",
+          "rationale": "Review the distinction. 〜でもいいですか checks whether the alternative is acceptable."
+        },
+        {
+          "id": "n5-m05-c04-l08-10-c3",
+          "text": "十一時で行きます。",
+          "rationale": "Review the distinction. 〜でもいいですか checks whether the alternative is acceptable."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c04-l08-10-c1"
+      },
+      "explanation": "〜でもいいですか checks whether the alternative is acceptable."
+    }
+  ]
+}
