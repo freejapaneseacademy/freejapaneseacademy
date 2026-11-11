@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m06-c01-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary-form verb means 'to eat'? ",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べる",
+          "rationale": "Correct: 食べる matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c2",
+          "text": "飲む",
+          "rationale": "飲む does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "読む",
+          "rationale": "読む does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The correct answer is 食べる. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form matches 見る (みる)?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "見ります",
+          "rationale": "見ります does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "見ます",
+          "rationale": "Correct: 見ます matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c3",
+          "text": "見きます",
+          "rationale": "見きます does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The correct answer is 見ます. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary form matches 行きます?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "行きる",
+          "rationale": "行きる does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "行く",
+          "rationale": "Correct: 行く matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c3",
+          "text": "行きまする",
+          "rationale": "行きまする does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The correct answer is 行く. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which verb means 'to write'?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書く",
+          "rationale": "Correct: 書く matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c2",
+          "text": "話す",
+          "rationale": "話す does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "買う",
+          "rationale": "買う does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The correct answer is 書く. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form matches 読む (よむ)?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "読めます",
+          "rationale": "読めます does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "読みます",
+          "rationale": "Correct: 読みます matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c3",
+          "text": "読ます",
+          "rationale": "読ます does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The correct answer is 読みます. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which verb means 'to speak'?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飲む",
+          "rationale": "飲む does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "話す",
+          "rationale": "Correct: 話す matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c3",
+          "text": "見る",
+          "rationale": "見る does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The correct answer is 話す. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form matches 飲む (のむ)?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飲みます",
+          "rationale": "Correct: 飲みます matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c2",
+          "text": "飲ます",
+          "rationale": "飲ます does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "飲めます",
+          "rationale": "飲めます does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The correct answer is 飲みます. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is a Group 1 verb despite ending in -える?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べる",
+          "rationale": "食べる does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "帰る",
+          "rationale": "Correct: 帰る matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c3",
+          "text": "起きる",
+          "rationale": "起きる does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The correct answer is 帰る. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary form matches します?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "する",
+          "rationale": "Correct: する matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c2",
+          "text": "来る",
+          "rationale": "来る does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "話す",
+          "rationale": "話す does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The correct answer is する. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form matches 来る (くる)?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来ります（くります）",
+          "rationale": "来ります（くります） does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "来ます（きます）",
+          "rationale": "Correct: 来ます（きます） matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c3",
+          "text": "来るます",
+          "rationale": "来るます does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The correct answer is 来ます（きます）. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary form means 'to buy'?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書く",
+          "rationale": "書く does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "帰る",
+          "rationale": "帰る does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c3",
+          "text": "買う",
+          "rationale": "Correct: 買う matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The correct answer is 買う. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    },
+    {
+      "id": "ex-n5-m06-c01-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which verb is Group 2?",
+      "objectiveIds": [
+        "n5-m06-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l02-verb-forms"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "行く",
+          "rationale": "行く does not fit this prompt; compare the verb pair and group notes in the lesson."
+        },
+        {
+          "id": "c2",
+          "text": "起きる",
+          "rationale": "Correct: 起きる matches the dictionary form, meaning, or verb-group distinction in the prompt."
+        },
+        {
+          "id": "c3",
+          "text": "読む",
+          "rationale": "読む does not fit this prompt; compare the verb pair and group notes in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The correct answer is 起きる. Check its dictionary form, kana reading, polite counterpart and group in the vocabulary table."
+    }
+  ]
+}
