@@ -1,0 +1,390 @@
+{
+  "id": "l0-m04-c01-l05",
+  "lessonId": "l0-m04-c01-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional kiosk card in katakana-kst-label-reading.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m04-c01-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "Which label identifies cocoa?",
+      "options": [
+        "ココア",
+        "カカオ",
+        "アイス"
+      ],
+      "correctIndex": 0,
+      "feedback": "The drink list explicitly prints ココア; カカオ is cacao.",
+      "explanation": "The drink list explicitly prints ココア; カカオ is cacao.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-01-c1",
+          "text": "ココア",
+          "rationale": "The drink list explicitly prints ココア; カカオ is cacao."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-01-c2",
+          "text": "カカオ",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-01-c3",
+          "text": "アイス",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "Which label identifies ice cream?",
+      "options": [
+        "アイス",
+        "テキスト",
+        "ココア"
+      ],
+      "correctIndex": 0,
+      "feedback": "The cold-treat heading is followed by アイス.",
+      "explanation": "The cold-treat heading is followed by アイス.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-02-c1",
+          "text": "アイス",
+          "rationale": "The cold-treat heading is followed by アイス."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-02-c2",
+          "text": "テキスト",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-02-c3",
+          "text": "ココア",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-02-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "Which item is under the reading supplies heading?",
+      "options": [
+        "テキスト",
+        "ココア",
+        "カカオ"
+      ],
+      "correctIndex": 0,
+      "feedback": "The study supplies section prints テキスト.",
+      "explanation": "The study supplies section prints テキスト.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-03-c1",
+          "text": "テキスト",
+          "rationale": "The study supplies section prints テキスト."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-03-c2",
+          "text": "ココア",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-03-c3",
+          "text": "カカオ",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "What does the heading のみもの tell you?",
+      "options": [
+        "Drinks",
+        "Study supplies",
+        "Cold treats"
+      ],
+      "correctIndex": 0,
+      "feedback": "のみもの is the hiragana heading for drinks; it groups ココア.",
+      "explanation": "のみもの is the hiragana heading for drinks; it groups ココア.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-04-c1",
+          "text": "Drinks",
+          "rationale": "のみもの is the hiragana heading for drinks; it groups ココア."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-04-c2",
+          "text": "Study supplies",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-04-c3",
+          "text": "Cold treats",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "Which label has the repeated character コ?",
+      "options": [
+        "ココア",
+        "カカオ",
+        "アイス"
+      ],
+      "correctIndex": 0,
+      "feedback": "ココア is written コ・コ・ア: the first two symbols match.",
+      "explanation": "ココア is written コ・コ・ア: the first two symbols match.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-05-c1",
+          "text": "ココア",
+          "rationale": "ココア is written コ・コ・ア: the first two symbols match."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-05-c2",
+          "text": "カカオ",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-05-c3",
+          "text": "アイス",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "Which label ends in ス?",
+      "options": [
+        "アイス",
+        "ココア",
+        "カカオ"
+      ],
+      "correctIndex": 0,
+      "feedback": "アイス is written ア・イ・ス, ending with ス.",
+      "explanation": "アイス is written ア・イ・ス, ending with ス.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-06-c1",
+          "text": "アイス",
+          "rationale": "アイス is written ア・イ・ス, ending with ス."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-06-c2",
+          "text": "ココア",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-06-c3",
+          "text": "カカオ",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "Which evidence supports the claim that cacao is a separate listing from cocoa?",
+      "options": [
+        "Both カカオ and ココア appear on different lines",
+        "Only ココア appears",
+        "カカオ is the heading"
+      ],
+      "correctIndex": 0,
+      "feedback": "The drink section lists ココア and カカオ on separate lines.",
+      "explanation": "The drink section lists ココア and カカオ on separate lines.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-07-c1",
+          "text": "Both カカオ and ココア appear on different lines",
+          "rationale": "The drink section lists ココア and カカオ on separate lines."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-07-c2",
+          "text": "Only ココア appears",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-07-c3",
+          "text": "カカオ is the heading",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m04-c01-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "l0",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m04-c01-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "l0-m04-c01-l05-labels"
+      ],
+      "prompt": "Which conclusion is NOT supported by the card?",
+      "options": [
+        "All items cost the same",
+        "There is a drinks section",
+        "テキスト appears under study supplies"
+      ],
+      "correctIndex": 0,
+      "feedback": "No prices are printed, so equal pricing cannot be inferred.",
+      "explanation": "No prices are printed, so equal pricing cannot be inferred.",
+      "choices": [
+        {
+          "id": "ex-l0-m04-c01-l05-08-c1",
+          "text": "All items cost the same",
+          "rationale": "No prices are printed, so equal pricing cannot be inferred."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-08-c2",
+          "text": "There is a drinks section",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        },
+        {
+          "id": "ex-l0-m04-c01-l05-08-c3",
+          "text": "テキスト appears under study supplies",
+          "rationale": "This choice is not supported by the displayed label and its heading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m04-c01-l05-08-c1"
+      }
+    }
+  ]
+}

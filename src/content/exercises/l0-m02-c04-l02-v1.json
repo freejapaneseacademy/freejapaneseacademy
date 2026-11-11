@@ -1,0 +1,524 @@
+{
+  "id": "l0-m02-c04-l02",
+  "lessonId": "l0-m02-c04-l02",
+  "version": 1,
+  "status": "published",
+  "source": "Original classroom word-card game and written instructions",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c04-l02-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "Which printed word means cat?",
+      "options": [
+        "ねこ",
+        "いぬ",
+        "やま"
+      ],
+      "correctIndex": 0,
+      "feedback": "ねこ means cat; いぬ means dog and やま means mountain.",
+      "explanation": "ねこ means cat; いぬ means dog and やま means mountain.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "ねこ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-01-c1",
+          "text": "ねこ",
+          "rationale": "ねこ means cat; いぬ means dog and やま means mountain."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-01-c2",
+          "text": "いぬ",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-01-c3",
+          "text": "やま",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "Which word matches a picture of a car?",
+      "options": [
+        "そら",
+        "くるま",
+        "ほん"
+      ],
+      "correctIndex": 1,
+      "feedback": "くるま is a car; そら is sky and ほん is a book.",
+      "explanation": "くるま is a car; そら is sky and ほん is a book.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "くるま"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-02-c1",
+          "text": "そら",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-02-c2",
+          "text": "くるま",
+          "rationale": "くるま is a car; そら is sky and ほん is a book."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-02-c3",
+          "text": "ほん",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "What does いぬ mean?",
+      "options": [
+        "Fish",
+        "Dog",
+        "Cat"
+      ],
+      "correctIndex": 1,
+      "feedback": "いぬ means dog; the cat word is ねこ.",
+      "explanation": "いぬ means dog; the cat word is ねこ.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "いぬ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-03-c1",
+          "text": "Fish",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-03-c2",
+          "text": "Dog",
+          "rationale": "いぬ means dog; the cat word is ねこ."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-03-c3",
+          "text": "Cat",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-03-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "Which label belongs on a picture of the sky?",
+      "options": [
+        "そら",
+        "はな",
+        "みず"
+      ],
+      "correctIndex": 0,
+      "feedback": "そら means sky. はな is flower or nose, and みず is water.",
+      "explanation": "そら means sky. はな is flower or nose, and みず is water.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "そら"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-04-c1",
+          "text": "そら",
+          "rationale": "そら means sky. はな is flower or nose, and みず is water."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-04-c2",
+          "text": "はな",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-04-c3",
+          "text": "みず",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "In the flower-picture card, what does はな mean?",
+      "options": [
+        "Nose",
+        "Flower",
+        "Friend"
+      ],
+      "correctIndex": 1,
+      "feedback": "The flower picture establishes the flower meaning of はな; the word can also mean nose in other contexts.",
+      "explanation": "The flower picture establishes the flower meaning of はな; the word can also mean nose in other contexts.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "はな"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-05-c1",
+          "text": "Nose",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-05-c2",
+          "text": "Flower",
+          "rationale": "The flower picture establishes the flower meaning of はな; the word can also mean nose in other contexts."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-05-c3",
+          "text": "Friend",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "Which written word means book?",
+      "options": [
+        "ほん",
+        "やま",
+        "さかな"
+      ],
+      "correctIndex": 0,
+      "feedback": "ほん means book; やま is mountain and さかな is fish.",
+      "explanation": "ほん means book; やま is mountain and さかな is fish.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "ほん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-06-c1",
+          "text": "ほん",
+          "rationale": "ほん means book; やま is mountain and さかな is fish."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-06-c2",
+          "text": "やま",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-06-c3",
+          "text": "さかな",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "What is the request in ねこをみてください。?",
+      "options": [
+        "Please look at the cat.",
+        "Please draw a cat.",
+        "Which one is the cat?"
+      ],
+      "correctIndex": 0,
+      "feedback": "みてください asks someone to look; ねこ is the object marked by を.",
+      "explanation": "みてください asks someone to look; ねこ is the object marked by を.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "ねこをみてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-07-c1",
+          "text": "Please look at the cat.",
+          "rationale": "みてください asks someone to look; ねこ is the object marked by を."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-07-c2",
+          "text": "Please draw a cat.",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-07-c3",
+          "text": "Which one is the cat?",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "Which sentence asks someone to look at the book?",
+      "options": [
+        "やまはどれですか。",
+        "ほんをみてください。",
+        "ねこをみてください。"
+      ],
+      "correctIndex": 1,
+      "feedback": "ほんをみてください。 is the polite request to look at the book.",
+      "explanation": "ほんをみてください。 is the polite request to look at the book.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "ほんをみてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-08-c1",
+          "text": "やまはどれですか。",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-08-c2",
+          "text": "ほんをみてください。",
+          "rationale": "ほんをみてください。 is the polite request to look at the book."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-08-c3",
+          "text": "ねこをみてください。",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "In やまはどれですか。, what is being asked?",
+      "options": [
+        "Which one is the mountain?",
+        "Please look at the mountain.",
+        "Where is the car?"
+      ],
+      "correctIndex": 0,
+      "feedback": "どれですか asks which one; やま identifies mountain.",
+      "explanation": "どれですか asks which one; やま identifies mountain.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "やまはどれですか。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-09-c1",
+          "text": "Which one is the mountain?",
+          "rationale": "どれですか asks which one; やま identifies mountain."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-09-c2",
+          "text": "Please look at the mountain.",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-09-c3",
+          "text": "Where is the car?",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-09-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c04-l02-10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c04-l02-word-bank"
+      ],
+      "prompt": "Why is ねこ を みてください。 spaced in the table?",
+      "options": [
+        "Spaces are mandatory in Japanese.",
+        "To help beginners identify word chunks.",
+        "To change the meaning to dog."
+      ],
+      "correctIndex": 1,
+      "feedback": "Spaces in the table are instructional segmentation; ordinary spelling is ねこをみてください。",
+      "explanation": "Spaces in the table are instructional segmentation; ordinary spelling is ねこをみてください。",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-fluency-vocabulary.mdx",
+        "phrase": "ねこ を みてください。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c04-l02-10-c1",
+          "text": "Spaces are mandatory in Japanese.",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-10-c2",
+          "text": "To help beginners identify word chunks.",
+          "rationale": "Spaces in the table are instructional segmentation; ordinary spelling is ねこをみてください。"
+        },
+        {
+          "id": "ex-l0-m02-c04-l02-10-c3",
+          "text": "To change the meaning to dog.",
+          "rationale": "This choice does not match the word bank or the classroom instruction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c04-l02-10-c2"
+      }
+    }
+  ]
+}

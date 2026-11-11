@@ -1,0 +1,53 @@
+name: Japanese TTS — Qwen3 offline pilot (candidate only)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['infra/tts/**']
+    paths:
+      - '.github/workflows/audio-qwen3-pilot.yml'
+      - 'scripts/tts/**'
+      - 'tests/test_qwen3_audio.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qwen3-audio-pilot-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate-candidate:
+    name: Generate and validate unapproved Japanese narration
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate candidate-only schema and anti-silence tests
+        run: python3 -m unittest discover -s tests -p test_qwen3_audio.py
+      - name: Install CPU speech.cpp inference (no paid API)
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 --proto '=https' --tlsv1.2 \
+            https://raw.githubusercontent.com/nyosegawa/speech.cpp/main/install.sh \
+            -o "$RUNNER_TEMP/speech-install.sh"
+          sh "$RUNNER_TEMP/speech-install.sh"
+          binary="$(find "$HOME" -maxdepth 8 -type f -name speech -perm /111 -print -quit)"
+          test -n "$binary" && test -x "$binary"
+          echo "SPEECH_BIN=$binary" >> "$GITHUB_ENV"
+          "$binary" info qwen3-tts-0.6b
+      - name: Generate two L06 candidate narrations and validate actual WAVs
+        env:
+          HF_HUB_DISABLE_TELEMETRY: '1'
+        run: python3 scripts/tts/qwen3_generate.py --job scripts/tts/l06_pilot.json --out "$RUNNER_TEMP/qwen3-candidates"
+      - name: Preserve candidates and source-aligned QA report for human audition
+        uses: actions/upload-artifact@v4
+        with:
+          name: qwen3-ja-l06-listening-candidates
+          path: ${{ runner.temp }}/qwen3-candidates/
+          if-no-files-found: error
+          retention-days: 14

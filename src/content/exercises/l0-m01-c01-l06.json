@@ -1,0 +1,339 @@
+{
+  "id": "l0-m01-c01-l06-check-v2",
+  "lessonId": "l0-m01-c01-l06",
+  "version": 2,
+  "tracks": [
+    "audio-l0-m01-c01-l06-a",
+    "audio-l0-m01-c01-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c01-l06-001",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-ocha"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "What drink does the man ask for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coffee",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "b",
+          "text": "Tea",
+          "rationale": "The spoken conversation directly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "Water",
+          "rationale": "This does not match what the speakers said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The man orders tea by saying お茶をお願いします。",
+      "evidence": "お茶をお願いします。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-002",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "spoken-temperature"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "What choice does the woman offer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hot tea or cold tea",
+          "rationale": "The spoken conversation directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "Tea or coffee",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "c",
+          "text": "Water or juice",
+          "rationale": "This does not match what the speakers said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman offers a choice between hot tea and cold tea.",
+      "evidence": "温かいお茶ですか。冷たいお茶ですか。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-003",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "spoken-temperature"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "Which kind of tea does the man choose?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cold",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "b",
+          "text": "No drink",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "c",
+          "text": "Hot",
+          "rationale": "The spoken conversation directly supports this answer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The man chooses hot tea.",
+      "evidence": "温かいお茶をお願いします。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-004",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "phrase-arigatou-gozaimasu"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-a",
+      "prompt": "How does the man finish the conversation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thank you",
+          "rationale": "The spoken conversation directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "Good night",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "c",
+          "text": "See you tomorrow",
+          "rationale": "This does not match what the speakers said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The man says thank you after receiving the drink.",
+      "evidence": "ありがとうございます。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-005",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "spoken-greetings"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "What greeting starts the conversation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Good morning",
+          "rationale": "The spoken conversation directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "Good night",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "c",
+          "text": "Goodbye",
+          "rationale": "This does not match what the speakers said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman begins with a good-morning greeting.",
+      "evidence": "おはようございます。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-006",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "spoken-weather"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "What does the woman say about the weather?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It's raining",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "b",
+          "text": "The weather is nice",
+          "rationale": "The spoken conversation directly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "It is snowing",
+          "rationale": "This does not match what the speakers said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The woman says the weather is nice today.",
+      "evidence": "今日はいい天気ですね。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-007",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-sakura"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "What does the woman say is near the mountain?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A train station",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "b",
+          "text": "Cherry blossoms",
+          "rationale": "The spoken conversation directly supports this answer."
+        },
+        {
+          "id": "c",
+          "text": "A restaurant",
+          "rationale": "This does not match what the speakers said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The woman mentions cherry blossoms near the mountain.",
+      "evidence": "山の近くに桜がありますよ。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-l06-008",
+      "version": 2,
+      "objectiveIds": [
+        "l0-m01-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "spoken-issho-ni"
+      ],
+      "trackId": "audio-l0-m01-c01-l06-b",
+      "prompt": "What do the two people decide to do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Go together",
+          "rationale": "The spoken conversation directly supports this answer."
+        },
+        {
+          "id": "b",
+          "text": "Stay home",
+          "rationale": "This does not match what the speakers said."
+        },
+        {
+          "id": "c",
+          "text": "Drink coffee",
+          "rationale": "This does not match what the speakers said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The man suggests going together, and the woman agrees.",
+      "evidence": "一緒に行きましょう。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    }
+  ]
+}

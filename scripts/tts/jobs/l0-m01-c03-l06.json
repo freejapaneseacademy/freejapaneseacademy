@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "l0-m01-c03-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Automated FreeJapaneseAcademy license screening, 2026-11-03 (pinned AivisHub model pages and ACML 1.0; no independent human review claimed)",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "ACML 1.0 permits non-deceptive educational generated audio; credit both synthetic voices; no endorsement or voice impersonation."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Buying stamps at the post office",
+      "scenarioType": "dialogue",
+      "objectiveId": "l0-m01-c03-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "すみません。切手を二枚ください。",
+          "english": "Excuse me. Two stamps, please."
+        },
+        {
+          "speaker": "male",
+          "text": "はい。二枚ですね。お手紙は日本に送りますか。",
+          "english": "Certainly. Two, right? Are you sending the letter within Japan?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい。大阪の友達に送ります。",
+          "english": "Yes. I'm sending it to a friend in Osaka."
+        },
+        {
+          "speaker": "male",
+          "text": "わかりました。こちらです。",
+          "english": "Understood. Here you are."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What does the customer ask to buy?",
+        "How many does she want?",
+        "Where is she sending the letter?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Getting ready for a picnic",
+      "scenarioType": "dialogue",
+      "objectiveId": "l0-m01-c03-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "明日のピクニック、何を持っていきますか。",
+          "english": "What will you bring to tomorrow's picnic?"
+        },
+        {
+          "speaker": "female",
+          "text": "パンとお茶を持っていきます。",
+          "english": "I'll bring bread and tea."
+        },
+        {
+          "speaker": "male",
+          "text": "いいですね。かばんは大きいですか。",
+          "english": "Sounds good. Is your bag big?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、小さいです。でも、パンは入りますよ。",
+          "english": "No, it's small. But the bread will fit."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What food and drink will the woman bring?",
+        "Is her bag big or small?",
+        "Will the bread fit in the bag?"
+      ]
+    }
+  ]
+}

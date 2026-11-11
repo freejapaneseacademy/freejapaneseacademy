@@ -1,0 +1,75 @@
+name: Audio Delivery Monitor
+
+on:
+  schedule:
+    - cron: '27 */2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'public/audio/**'
+      - 'src/content/audio/**'
+      - 'scripts/check_audio_delivery.mjs'
+      - 'scripts/wait_for_audio_deployment.mjs'
+      - 'scripts/verify_static_audio.mjs'
+      - 'functions/audio/**'
+      - '.github/workflows/audio-delivery-monitor.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'public/audio/**'
+      - 'src/content/audio/**'
+      - 'scripts/check_audio_delivery.mjs'
+      - 'scripts/verify_static_audio.mjs'
+      - 'functions/audio/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: audio-delivery-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audio-integrity:
+    name: Verify all checked-in SHA-256 WAVs (speaking + dialogue)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/verify_static_audio.mjs
+
+  audio-integration:
+    name: Live Cloudflare Pages WAV availability and ranges (all tracks)
+    if: github.event_name != 'pull_request'
+    needs: [audio-integrity]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Wait for every newly deployed and legacy WAV on production
+        if: github.event_name == 'push'
+        run: node scripts/wait_for_audio_deployment.mjs
+      - name: Perform full/range/HEAD WAV checks for every published lesson
+        run: node scripts/check_audio_delivery.mjs
+
+  audio-preview:
+    name: Live byte-range and integrity checks on Cloudflare Pages preview
+    if: github.event_name == 'pull_request'
+    needs: [audio-integrity]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify staged WAVs locally before preview promotion
+        run: node scripts/verify_static_audio.mjs
+      # Production live network checks run after the merged Pages deployment.
+      # Never probe a stale pinned preview URL when new asset names are introduced.

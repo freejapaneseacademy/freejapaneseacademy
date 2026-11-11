@@ -1,0 +1,181 @@
+{
+  "lessonId": "l0-m03-c03-l06",
+  "chapterId": "l0-m03-c03",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-l0-m03-c03-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m03-c03-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 13.91,
+      "transcript": "女性： いらっしゃいませ。なにをさがしていますか。\n男性： ちいさいノートをさがしています。\n女性： このあおいノートはどうですか。\n男性： いいですね。いっさつください。\n女性： はい。ちょっとおまちください。",
+      "english": "Woman: Welcome. What are you looking for?\nMan: I'm looking for a small notebook.\nWoman: How about this blue notebook?\nMan: That looks good. One notebook, please.\nWoman: Certainly. Please wait a moment.",
+      "scriptPurpose": "A bookstore visit",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m03-c03-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いらっしゃいませ。なにをさがしていますか。",
+          "english": "Welcome. What are you looking for?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.31
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ちいさいノートをさがしています。",
+          "english": "I'm looking for a small notebook.",
+          "startSeconds": 3.59,
+          "endSeconds": 5.79
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "このあおいノートはどうですか。",
+          "english": "How about this blue notebook?",
+          "startSeconds": 6.07,
+          "endSeconds": 8.48
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいですね。いっさつください。",
+          "english": "That looks good. One notebook, please.",
+          "startSeconds": 8.76,
+          "endSeconds": 11.07
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。ちょっとおまちください。",
+          "english": "Certainly. Please wait a moment.",
+          "startSeconds": 11.35,
+          "endSeconds": 13.91
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy project rights policy v5 and pinned ACML 1.0 model review; independent legal and native-audio review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "6b6bfdafa9d6f69c173bba459547a7f7981864366090acacddcdc33533bc58bc",
+        "bytes": 1227076,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-l0-m03-c03-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-l0-m03-c03-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 12.95,
+      "transcript": "男性： きょう、がっこうであいますか。\n女性： はい。さんじにあいましょう。\n男性： がっこうのまえですか。\n女性： いいえ。こうえんのまえであいましょう。\n男性： わかりました。ちょっとはやくいきます。",
+      "english": "Man: Shall we meet at school today?\nWoman: Yes. Let's meet at three o'clock.\nMan: In front of the school?\nWoman: No. Let's meet in front of the park.\nMan: Understood. I'll go a little early.",
+      "scriptPurpose": "Meeting at the school",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "l0-m03-c03-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "きょう、がっこうであいますか。",
+          "english": "Shall we meet at school today?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.18
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。さんじにあいましょう。",
+          "english": "Yes. Let's meet at three o'clock.",
+          "startSeconds": 2.46,
+          "endSeconds": 4.92
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "がっこうのまえですか。",
+          "english": "In front of the school?",
+          "startSeconds": 5.2,
+          "endSeconds": 6.97
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ。こうえんのまえであいましょう。",
+          "english": "No. Let's meet in front of the park.",
+          "startSeconds": 7.25,
+          "endSeconds": 9.89
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "わかりました。ちょっとはやくいきます。",
+          "english": "Understood. I'll go a little early.",
+          "startSeconds": 10.17,
+          "endSeconds": 12.95
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy project rights policy v5 and pinned ACML 1.0 model review; independent legal and native-audio review pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "748158c795b4bb4d6bd3d841d7237ee6a37f0b111285fdfae2b465beaa4d90b2",
+        "bytes": 1142588,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}

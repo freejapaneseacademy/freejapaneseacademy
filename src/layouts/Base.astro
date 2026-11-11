@@ -1,0 +1,116 @@
+---
+import '../styles/global.css';
+import '../styles/theme.css';
+import '../styles/responsive.css';
+interface Props { title: string; description: string; noindex?: boolean; image?: string; breadcrumbs?: { label: string; href: string }[] }
+const { title, description, noindex = false, image = '/logo.webp', breadcrumbs = [] } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? Astro.url.origin;
+const brand = 'FreeJapaneseAcademy';
+const org = { '@context': 'https://schema.org', '@type': 'Organization', name: brand, url: siteUrl, logo: `${siteUrl}/logo.webp`, description: 'Free, structured Japanese-learning resources for English-speaking learners.' };
+const website = { '@context': 'https://schema.org', '@type': 'WebSite', name: brand, url: siteUrl, inLanguage: 'en' };
+const crumbs = breadcrumbs.length ? { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ label: 'Home', href: '/' }, ...breadcrumbs].map((c, index) => ({ '@type': 'ListItem', position: index + 1, name: c.label, item: new URL(c.href, siteUrl).toString() })) } : null;
+const isHome = Astro.url.pathname === '/';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="google-site-verification" content="o9KqGyKt7ThdvzX2N_49aFDDYZO9LQmnT85jC-OT_mc" />
+    <meta name="msvalidate.01" content="6F5CEF54439CF26D57A6D6556901350F" />
+    <script is:inline>
+      // Choose a saved preference first, then the operating system setting.
+      // The inline head script runs before the page is painted to avoid a theme flash.
+      (() => {
+        let preference;
+        try { preference = localStorage.getItem('fja-theme'); } catch { /* Storage may be disabled. */ }
+        const theme = preference === 'dark' || preference === 'light'
+          ? preference
+          : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#111820' : '#FFFFFF');
+      })();
+    </script>
+    <!-- Google AdSense: shared layout ensures this publisher script appears once on every current and future page. -->
+    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3399213817491318" crossorigin="anonymous"></script>
+    <title>{title === brand ? brand : `${title} | ${brand}`}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={brand} />
+    <meta property="og:title" content={title === brand ? brand : `${title} | ${brand}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(image, siteUrl).toString()} />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json" set:html={JSON.stringify(isHome ? [org, website] : crumbs ? [crumbs] : []).replace(/</g, '\\u003c')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="brand" aria-label="FreeJapaneseAcademy home">
+          <img src="/logo.webp" width="48" height="48" alt="" loading="eager" decoding="async" />
+          <span class="brand-wordmark"><strong>FreeJapanese<span>Academy</span></strong><small>LEARN WITHOUT LIMITS</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="/learn/" class:list={{ active: Astro.url.pathname.startsWith('/learn/') }}>Courses</a>
+          <a href="/practice/demo/">Practice</a>
+          <a href="/about/">Our approach</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Dark mode" aria-pressed="false" title="Switch to dark mode">
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 15.2A8.5 8.5 0 0 1 8.8 3.7 8.5 8.5 0 1 0 20.3 15.2Z" /></svg>
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" /></svg>
+        </button>
+        <a class="header-dashboard" href="/dashboard/"><span aria-hidden="true">◷</span> My learning <span aria-hidden="true">↗</span></a>
+        <details class="mobile-nav"><summary aria-label="Open navigation menu"><span></span><span></span><span></span></summary><nav aria-label="Mobile navigation"><a href="/learn/">Explore courses</a><a href="/practice/demo/">Practice</a><a href="/dashboard/">My learning</a><a href="/about/">Our approach</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a></nav></details>
+      </div>
+    </header>
+    <main id="main-content"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-top"><div class="footer-brand"><div class="footer-mark">日</div><h2>Make Japanese part<br/>of your world.</h2><p>Thoughtful learning. Open to everyone. Free, from the first character onward.</p></div><div class="footer-links"><div><h3>Learn</h3><a href="/learn/">All courses</a><a href="/learn/n5/">Start with N5</a><a href="/practice/demo/">Demo practice</a><a href="/dashboard/">My learning</a></div><div><h3>Academy</h3><a href="/about/">About us</a><a href="/faq/">FAQ</a><a href="/privacy/">Privacy & data</a><a href="/contact/">Contact us</a></div></div></div>
+      <div class="container footer-bottom"><span>© {new Date().getFullYear()} FreeJapaneseAcademy</span><span>Made for curious minds, everywhere. <span lang="ja">日本語を学ぼう。</span></span></div>
+    </footer>
+    <script is:inline>
+      (() => {
+        const toggle = document.querySelector('[data-theme-toggle]');
+        if (!toggle) return;
+        const media = window.matchMedia('(prefers-color-scheme: dark)');
+        const storedPreference = () => {
+          try { return localStorage.getItem('fja-theme'); } catch { return null; }
+        };
+        const setTheme = (theme, save = false) => {
+          document.documentElement.dataset.theme = theme;
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#111820' : '#FFFFFF');
+          toggle.setAttribute('aria-pressed', String(theme === 'dark'));
+          toggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+          if (save) {
+            try { localStorage.setItem('fja-theme', theme); } catch { /* Works without persistent storage. */ }
+          }
+        };
+        setTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+        toggle.addEventListener('click', () => {
+          setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark', true);
+        });
+        const followSystem = () => {
+          if (storedPreference() !== 'dark' && storedPreference() !== 'light') {
+            setTheme(media.matches ? 'dark' : 'light');
+          }
+        };
+        if (media.addEventListener) media.addEventListener('change', followSystem);
+        else if (media.addListener) media.addListener(followSystem);
+        window.addEventListener('storage', (event) => {
+          if (event.key === 'fja-theme' || event.key === null) {
+            const stored = storedPreference();
+            setTheme(stored === 'dark' || stored === 'light' ? stored : media.matches ? 'dark' : 'light');
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

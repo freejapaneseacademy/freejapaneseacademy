@@ -1,0 +1,26 @@
+name: Real-network Japanese dialogue preview quality
+
+on:
+  push:
+    branches:
+      - lesson/real-listening-dual-voice
+    paths:
+      - .github/workflows/dual-voice-preview-check.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check-cloudflare-preview:
+    name: Real HTTP WAV ranges and hashes (old + new)
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check 72 real HTTPS requests against same-origin Pages preview
+        run: node scripts/check_audio_delivery.mjs
+        env:
+          FJA_AUDIO_BASE_URL: https://a49a6e60.free-japanese-academy.pages.dev

@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import HiraganaFluencyReadingPractice from '../../../../../components/interactive/HiraganaFluencyReadingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/hiragana-fluency-reading');
+if(!lesson||lesson.data.lessonId!=='l0-m02-c04-l05')throw new Error('Missing canonical lesson l0-m02-c04-l05');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Hiragana I',href:'/learn/start/module-02/chapter-04/lesson-05/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 02 · Chapter 04 · Lesson 05</span></nav><span class="eyebrow">LEVEL 0 · MODULE 02 · CHAPTER 04 · LESSON 05</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Eight printed word cards</span><span>Ten reading questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original beginner reading.</strong> Independent Japanese and assessment reviews pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><HiraganaFluencyReadingPractice client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion and reading attempts are stored separately on this device.</p><LessonActions client:load lessonId="l0-m02-c04-l05" level="l0"/></div><div class="lesson-next"><h3>Continue learning</h3><p>Next: Chapter 04 lesson 06 — listening to a short read-aloud passage.</p><a class="btn btn-outline" href="/learn/start/module-02/chapter-04/lesson-04/">Previous lesson</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Hiragana I · Fluency</h3><p>Find exact Japanese evidence on the word cards and in the directions.</p></aside></div></section>
+</Base>

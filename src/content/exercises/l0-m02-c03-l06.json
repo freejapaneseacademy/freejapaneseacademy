@@ -1,0 +1,257 @@
+{
+  "id": "l0-m02-c03-l06-check-v1",
+  "lessonId": "l0-m02-c03-l06",
+  "version": 1,
+  "tracks": [
+    "audio-l0-m02-c03-l06-a",
+    "audio-l0-m02-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m02-c03-l06-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l06-spoken-1"
+      ],
+      "trackId": "audio-l0-m02-c03-l06-a",
+      "prompt": "What fruit does the customer ask about first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peaches",
+          "rationale": "Supported by the spoken evidence: ももはありますか。"
+        },
+        {
+          "id": "b",
+          "text": "Apples",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "c",
+          "text": "Grapes",
+          "rationale": "Not supported by the spoken exchange."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The customer asks whether peaches are available.",
+      "evidence": "ももはありますか。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l06-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l06-spoken-2"
+      ],
+      "trackId": "audio-l0-m02-c03-l06-a",
+      "prompt": "Which two fruits does the shopkeeper have?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peaches and bananas",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "b",
+          "text": "Peaches and mandarin oranges",
+          "rationale": "Supported by the spoken evidence: ももとみかんがあります。"
+        },
+        {
+          "id": "c",
+          "text": "Apples and pears",
+          "rationale": "Not supported by the spoken exchange."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The shopkeeper says there are peaches and mandarin oranges.",
+      "evidence": "ももとみかんがあります。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l06-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l06-spoken-3"
+      ],
+      "trackId": "audio-l0-m02-c03-l06-a",
+      "prompt": "How many peaches does the customer request?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "b",
+          "text": "Three",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "c",
+          "text": "Two",
+          "rationale": "Supported by the spoken evidence: ももをふたつください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "ふたつ means two items.",
+      "evidence": "ももをふたつください。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l06-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l06-spoken-4"
+      ],
+      "trackId": "audio-l0-m02-c03-l06-b",
+      "prompt": "What does the man first ask the woman to look at?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A book",
+          "rationale": "Supported by the spoken evidence: あのほんをみてください。"
+        },
+        {
+          "id": "b",
+          "text": "A mountain",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "c",
+          "text": "A picture",
+          "rationale": "Not supported by the spoken exchange."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "He asks her to look at that book.",
+      "evidence": "あのほんをみてください。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l06-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l06-spoken-5"
+      ],
+      "trackId": "audio-l0-m02-c03-l06-b",
+      "prompt": "What is the book about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sea",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "b",
+          "text": "Mountains",
+          "rationale": "Supported by the spoken evidence: やまのほんですね。"
+        },
+        {
+          "id": "c",
+          "text": "Fruit",
+          "rationale": "Not supported by the spoken exchange."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "やま means mountain.",
+      "evidence": "やまのほんですね。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    },
+    {
+      "id": "ex-l0-m02-c03-l06-006",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m02-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c03-l06-spoken-6"
+      ],
+      "trackId": "audio-l0-m02-c03-l06-b",
+      "prompt": "What does the man ask the woman to do next?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Buy the book",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "b",
+          "text": "Close the book",
+          "rationale": "Not supported by the spoken exchange."
+        },
+        {
+          "id": "c",
+          "text": "Read the book",
+          "rationale": "Supported by the spoken evidence: よんでください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "よんでください asks someone to read.",
+      "evidence": "よんでください。",
+      "type": "single-choice",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "listening-comprehension",
+        "spoken-interaction"
+      ]
+    }
+  ]
+}

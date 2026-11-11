@@ -1,0 +1,422 @@
+{
+  "id": "l0-m03-c02-l01",
+  "lessonId": "l0-m03-c02-l01",
+  "version": 1,
+  "status": "published",
+  "source": "Original Yui/Sora/Aki contracted-kana picture-card lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c02-l01-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "Who prepares the three written word cards?",
+      "options": [
+        "Yui",
+        "Sora",
+        "Aki"
+      ],
+      "correctIndex": 0,
+      "feedback": "Yui prepares the word cards.",
+      "explanation": "Yui prepares the word cards.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "**Yui** prepares three word cards"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-01-c1",
+          "text": "Yui",
+          "rationale": "Yui prepares the word cards."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-01-c2",
+          "text": "Sora",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-01-c3",
+          "text": "Aki",
+          "rationale": "This does not match the written lesson evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l01-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "Who matches each card to a picture?",
+      "options": [
+        "Aki",
+        "Sora",
+        "Yui"
+      ],
+      "correctIndex": 1,
+      "feedback": "Sora matches the cards to drawings.",
+      "explanation": "Sora matches the cards to drawings.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "**Sora** matches each card"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-02-c1",
+          "text": "Aki",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-02-c2",
+          "text": "Sora",
+          "rationale": "Sora matches the cards to drawings."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-02-c3",
+          "text": "Yui",
+          "rationale": "This does not match the written lesson evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l01-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "Who checks the small kana?",
+      "options": [
+        "Yui",
+        "Sora",
+        "Aki"
+      ],
+      "correctIndex": 2,
+      "feedback": "Tutor Aki checks the kana sizes.",
+      "explanation": "Tutor Aki checks the kana sizes.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "**Aki** checks"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-03-c1",
+          "text": "Yui",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-03-c2",
+          "text": "Sora",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-03-c3",
+          "text": "Aki",
+          "rationale": "Tutor Aki checks the kana sizes."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l01-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "Which pair has a small ゃ and is one blended mora?",
+      "options": [
+        "きや",
+        "きゃ",
+        "きゆ"
+      ],
+      "correctIndex": 1,
+      "feedback": "きゃ has small ゃ and is read kya as one mora.",
+      "explanation": "きゃ has small ゃ and is read kya as one mora.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "きゃ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-04-c1",
+          "text": "きや",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-04-c2",
+          "text": "きゃ",
+          "rationale": "きゃ has small ゃ and is read kya as one mora."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-04-c3",
+          "text": "きゆ",
+          "rationale": "This does not match the written lesson evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-04-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l01-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "Which written pair represents two separate morae?",
+      "options": [
+        "しゅ",
+        "ちょ",
+        "しゆ"
+      ],
+      "correctIndex": 2,
+      "feedback": "しゆ uses full-sized ゆ: shi-yu, two separate morae.",
+      "explanation": "しゆ uses full-sized ゆ: shi-yu, two separate morae.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "しゆ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-05-c1",
+          "text": "しゅ",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-05-c2",
+          "text": "ちょ",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-05-c3",
+          "text": "しゆ",
+          "rationale": "しゆ uses full-sized ゆ: shi-yu, two separate morae."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-05-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l01-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "Which word card means homework?",
+      "options": [
+        "きゃく",
+        "しゅくだい",
+        "ちょきん"
+      ],
+      "correctIndex": 1,
+      "feedback": "しゅくだい means homework.",
+      "explanation": "しゅくだい means homework.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "しゅくだい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-06-c1",
+          "text": "きゃく",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-06-c2",
+          "text": "しゅくだい",
+          "rationale": "しゅくだい means homework."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-06-c3",
+          "text": "ちょきん",
+          "rationale": "This does not match the written lesson evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l01-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "Which word card is matched with savings?",
+      "options": [
+        "ちょきん",
+        "きゃく",
+        "しゅくだい"
+      ],
+      "correctIndex": 0,
+      "feedback": "ちょきん means savings.",
+      "explanation": "ちょきん means savings.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "ちょきん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-07-c1",
+          "text": "ちょきん",
+          "rationale": "ちょきん means savings."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-07-c2",
+          "text": "きゃく",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-07-c3",
+          "text": "しゅくだい",
+          "rationale": "This does not match the written lesson evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c02-l01-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m03-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c02-l01-yoon"
+      ],
+      "prompt": "What does きゃく mean in this club scene?",
+      "options": [
+        "A guest",
+        "Homework",
+        "Savings"
+      ],
+      "correctIndex": 0,
+      "feedback": "きゃく is the guest visiting the club.",
+      "explanation": "きゃく is the guest visiting the club.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-yoon-context.mdx",
+        "phrase": "きゃく"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c02-l01-08-c1",
+          "text": "A guest",
+          "rationale": "きゃく is the guest visiting the club."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-08-c2",
+          "text": "Homework",
+          "rationale": "This does not match the written lesson evidence."
+        },
+        {
+          "id": "ex-l0-m03-c02-l01-08-c3",
+          "text": "Savings",
+          "rationale": "This does not match the written lesson evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c02-l01-08-c1"
+      }
+    }
+  ]
+}

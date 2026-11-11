@@ -1,0 +1,626 @@
+{
+  "id": "l0-m01-c04-chk",
+  "lessonId": "l0-m01-c04-chk",
+  "version": 1,
+  "status": "published",
+  "source": "Original Chapter 04 written, script, grammar and keyboard-guide comprehension",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m01-c04-chk-w01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "What does an IME help you do?",
+      "options": [
+        "Enter Japanese text",
+        "Measure audio volume",
+        "Translate every sentence automatically"
+      ],
+      "correctIndex": 0,
+      "feedback": "An input method editor lets you enter Japanese characters using a keyboard.",
+      "explanation": "An input method editor lets you enter Japanese characters using a keyboard.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "IME input"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w01-c1",
+          "text": "Enter Japanese text",
+          "rationale": "An input method editor lets you enter Japanese characters using a keyboard."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w01-c2",
+          "text": "Measure audio volume",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w01-c3",
+          "text": "Translate every sentence automatically",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "Which kana is produced by typing neko in a common romaji-input IME?",
+      "options": [
+        "のこ",
+        "ねこ",
+        "ねこう"
+      ],
+      "correctIndex": 1,
+      "feedback": "The romaji sequence neko normally produces ねこ when Japanese input is active.",
+      "explanation": "The romaji sequence neko normally produces ねこ when Japanese input is active.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "ねこ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w02-c1",
+          "text": "のこ",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w02-c2",
+          "text": "ねこ",
+          "rationale": "The romaji sequence neko normally produces ねこ when Japanese input is active."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w02-c3",
+          "text": "ねこう",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "What is ふりがな for?",
+      "options": [
+        "Showing how a written word is read",
+        "Changing the meaning of a word",
+        "Sending a message"
+      ],
+      "correctIndex": 0,
+      "feedback": "Furigana supplies a reading, not a translation or a keyboard shortcut.",
+      "explanation": "Furigana supplies a reading, not a translation or a keyboard shortcut.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "ふりがな"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w03-c1",
+          "text": "Showing how a written word is read",
+          "rationale": "Furigana supplies a reading, not a translation or a keyboard shortcut."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w03-c2",
+          "text": "Changing the meaning of a word",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w03-c3",
+          "text": "Sending a message",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "Which action should come before selecting a Japanese conversion candidate?",
+      "options": [
+        "Check the candidate meaning",
+        "Always choose the first candidate",
+        "Turn off Japanese input"
+      ],
+      "correctIndex": 0,
+      "feedback": "Candidates may differ in meaning; confirm the intended word before selection.",
+      "explanation": "Candidates may differ in meaning; confirm the intended word before selection.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "意味を確認します"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w04-c1",
+          "text": "Check the candidate meaning",
+          "rationale": "Candidates may differ in meaning; confirm the intended word before selection."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w04-c2",
+          "text": "Always choose the first candidate",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w04-c3",
+          "text": "Turn off Japanese input",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "Which phrase politely asks someone to look?",
+      "options": [
+        "見てください",
+        "見ますか",
+        "見た"
+      ],
+      "correctIndex": 0,
+      "feedback": "見てください is a polite request: please look.",
+      "explanation": "見てください is a polite request: please look.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "見てください"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w05-c1",
+          "text": "見てください",
+          "rationale": "見てください is a polite request: please look."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w05-c2",
+          "text": "見ますか",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w05-c3",
+          "text": "見た",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w05-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "Which phrase asks for help with a word's reading?",
+      "options": [
+        "読み方を教えてください",
+        "名前を食べてください",
+        "日本語を消してください"
+      ],
+      "correctIndex": 0,
+      "feedback": "読み方を教えてください means please tell me how to read it.",
+      "explanation": "読み方を教えてください means please tell me how to read it.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "読み方を教えてください"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w06-c1",
+          "text": "読み方を教えてください",
+          "rationale": "読み方を教えてください means please tell me how to read it."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w06-c2",
+          "text": "名前を食べてください",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w06-c3",
+          "text": "日本語を消してください",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w06-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "Which Japanese word means 'candidate' in an IME conversion menu?",
+      "options": [
+        "候補",
+        "入力",
+        "読み方"
+      ],
+      "correctIndex": 0,
+      "feedback": "候補 (こうほ) refers to a candidate choice.",
+      "explanation": "候補 (こうほ) refers to a candidate choice.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "候補"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w07-c1",
+          "text": "候補",
+          "rationale": "候補 (こうほ) refers to a candidate choice."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w07-c2",
+          "text": "入力",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w07-c3",
+          "text": "読み方",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "In the keyboard guide, can ねこ remain in hiragana?",
+      "options": [
+        "No, all words must be converted",
+        "Yes, it can stay in hiragana",
+        "Only if the computer is offline"
+      ],
+      "correctIndex": 1,
+      "feedback": "Step ③ states 「ねこ」は、ひらがなのままでもいいです。",
+      "explanation": "Step ③ states 「ねこ」は、ひらがなのままでもいいです。",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "「ねこ」は、ひらがなのままでもいいです。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w08-c1",
+          "text": "No, all words must be converted",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w08-c2",
+          "text": "Yes, it can stay in hiragana",
+          "rationale": "Step ③ states 「ねこ」は、ひらがなのままでもいいです。"
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w08-c3",
+          "text": "Only if the computer is offline",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w08-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w09",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "Which guide step explains the reading of 日本語?",
+      "options": [
+        "Step ② about romaji",
+        "Step ⑤ about furigana",
+        "Step ⑦ about asking for help"
+      ],
+      "correctIndex": 1,
+      "feedback": "Step ⑤ says 「日本語」の読み方は「にほんご」です。",
+      "explanation": "Step ⑤ says 「日本語」の読み方は「にほんご」です。",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "「日本語」の読み方は「にほんご」です。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w09-c1",
+          "text": "Step ② about romaji",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w09-c2",
+          "text": "Step ⑤ about furigana",
+          "rationale": "Step ⑤ says 「日本語」の読み方は「にほんご」です。"
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w09-c3",
+          "text": "Step ⑦ about asking for help",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w09-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w10",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "What distinction does the guide draw between きゃ and きや?",
+      "options": [
+        "They are identical",
+        "They differ because ゃ and や have different sizes",
+        "Both must be written in katakana"
+      ],
+      "correctIndex": 1,
+      "feedback": "Step ⑥ explicitly says 「きゃ」と「きや」はちがいます。",
+      "explanation": "Step ⑥ explicitly says 「きゃ」と「きや」はちがいます。",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "「きゃ」と「きや」はちがいます。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w10-c1",
+          "text": "They are identical",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w10-c2",
+          "text": "They differ because ゃ and や have different sizes",
+          "rationale": "Step ⑥ explicitly says 「きゃ」と「きや」はちがいます。"
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w10-c3",
+          "text": "Both must be written in katakana",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w10-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w11",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "What does まず signal in the guide's first step?",
+      "options": [
+        "A reason",
+        "A final result",
+        "The first action"
+      ],
+      "correctIndex": 2,
+      "feedback": "まず means first; choose Japanese input before trying to type.",
+      "explanation": "まず means first; choose Japanese input before trying to type.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "まず、日本語の入力をえらびます。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w11-c1",
+          "text": "A reason",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w11-c2",
+          "text": "A final result",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w11-c3",
+          "text": "The first action",
+          "rationale": "まず means first; choose Japanese input before trying to type."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w11-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m01-c04-chk-w12",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m01-c04-chk-written"
+      ],
+      "knowledgeItemIds": [
+        "l0-m01-c04-ime-reading"
+      ],
+      "prompt": "What is the appropriate next action if a conversion candidate does not match your intended meaning?",
+      "options": [
+        "Check other candidates",
+        "Accept it without reading",
+        "Disable the keyboard"
+      ],
+      "correctIndex": 0,
+      "feedback": "Step ④ instructs learners to check the meaning of conversion candidates.",
+      "explanation": "Step ④ instructs learners to check the meaning of conversion candidates.",
+      "evidence": {
+        "source": "src/content/lessons/l0/study-tools-input-reading.mdx",
+        "phrase": "候補を見て、意味を確認します。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m01-c04-chk-w12-c1",
+          "text": "Check other candidates",
+          "rationale": "Step ④ instructs learners to check the meaning of conversion candidates."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w12-c2",
+          "text": "Accept it without reading",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        },
+        {
+          "id": "ex-l0-m01-c04-chk-w12-c3",
+          "text": "Disable the keyboard",
+          "rationale": "This choice is not supported by the taught input method, Japanese expression or guide evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m01-c04-chk-w12-c1"
+      }
+    }
+  ]
+}

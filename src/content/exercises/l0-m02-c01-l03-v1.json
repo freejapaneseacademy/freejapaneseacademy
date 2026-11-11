@@ -1,0 +1,422 @@
+{
+  "id": "l0-m02-c01-l03",
+  "lessonId": "l0-m02-c01-l03",
+  "version": 1,
+  "status": "published",
+  "source": "Original character-to-sound grid and guided practice",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m02-c01-l03-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "What is the usual Hepburn reading aid for し?",
+      "options": [
+        "shi",
+        "si is always the only acceptable romanization",
+        "sa"
+      ],
+      "correctIndex": 0,
+      "feedback": "し is usually written shi in Hepburn; some other romanization systems write si. The Japanese kana stays し.",
+      "explanation": "し is usually written shi in Hepburn; some other romanization systems write si. The Japanese kana stays し.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "し"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-01-c1",
+          "text": "shi",
+          "rationale": "し is usually written shi in Hepburn; some other romanization systems write si. The Japanese kana stays し."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-01-c2",
+          "text": "si is always the only acceptable romanization",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-01-c3",
+          "text": "sa",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l03-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which kana maps to the sound ke?",
+      "options": [
+        "こ",
+        "け",
+        "き"
+      ],
+      "correctIndex": 1,
+      "feedback": "け represents ke; こ represents ko and き represents ki.",
+      "explanation": "け represents ke; こ represents ko and き represents ki.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "け"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-02-c1",
+          "text": "こ",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-02-c2",
+          "text": "け",
+          "rationale": "け represents ke; こ represents ko and き represents ki."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-02-c3",
+          "text": "き",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l03-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Read せかい from left to right.",
+      "options": [
+        "se-ka-i",
+        "sa-ko-i",
+        "se-ki-e"
+      ],
+      "correctIndex": 0,
+      "feedback": "せ is se, か is ka and い is i, yielding sekai.",
+      "explanation": "せ is se, か is ka and い is i, yielding sekai.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "せかい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-03-c1",
+          "text": "se-ka-i",
+          "rationale": "せ is se, か is ka and い is i, yielding sekai."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-03-c2",
+          "text": "sa-ko-i",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-03-c3",
+          "text": "se-ki-e",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-03-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l03-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which two kana spell the word read isu?",
+      "options": [
+        "いす",
+        "うし",
+        "いそ"
+      ],
+      "correctIndex": 0,
+      "feedback": "い represents i and す represents su, so いす is isu.",
+      "explanation": "い represents i and す represents su, so いす is isu.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "いす"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-04-c1",
+          "text": "いす",
+          "rationale": "い represents i and す represents su, so いす is isu."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-04-c2",
+          "text": "うし",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-04-c3",
+          "text": "いそ",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l03-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Which sound corresponds to そ?",
+      "options": [
+        "su",
+        "so",
+        "se"
+      ],
+      "correctIndex": 1,
+      "feedback": "そ is so; す is su and せ is se.",
+      "explanation": "そ is so; す is su and せ is se.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "そ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-05-c1",
+          "text": "su",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-05-c2",
+          "text": "so",
+          "rationale": "そ is so; す is su and せ is se."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-05-c3",
+          "text": "se",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l03-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "How many morae are represented by すし in this beginner reading?",
+      "options": [
+        "three, because shi has three Latin letters",
+        "two, one for す and one for し",
+        "one, because it is one word"
+      ],
+      "correctIndex": 1,
+      "feedback": "す and し each represent one mora here, regardless of romanization length.",
+      "explanation": "す and し each represent one mora here, regardless of romanization length.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "すし"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-06-c1",
+          "text": "three, because shi has three Latin letters",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-06-c2",
+          "text": "two, one for す and one for し",
+          "rationale": "す and し each represent one mora here, regardless of romanization length."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-06-c3",
+          "text": "one, because it is one word",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-06-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l03-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "What can you conclude from a static printed か shape?",
+      "options": [
+        "Its sound is ka, but its exact stroke order needs a separate model",
+        "Every stroke must go left to right",
+        "It has the same stroke count as き"
+      ],
+      "correctIndex": 0,
+      "feedback": "The printed grid gives recognition and sound, not a demonstrated stroke sequence.",
+      "explanation": "The printed grid gives recognition and sound, not a demonstrated stroke sequence.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "か"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-07-c1",
+          "text": "Its sound is ka, but its exact stroke order needs a separate model",
+          "rationale": "The printed grid gives recognition and sound, not a demonstrated stroke sequence."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-07-c2",
+          "text": "Every stroke must go left to right",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-07-c3",
+          "text": "It has the same stroke count as き",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m02-c01-l03-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "reading"
+      ],
+      "objectiveIds": [
+        "l0-m02-c01-l03-mapping"
+      ],
+      "knowledgeItemIds": [
+        "l0-m02-c01-vowels-ks"
+      ],
+      "prompt": "Why is か + さ not translated as two separate English words?",
+      "options": [
+        "Kana are sound symbols; かさ is the lexical word umbrella",
+        "か means rain and さ means shade",
+        "All two-kana combinations mean umbrella"
+      ],
+      "correctIndex": 0,
+      "feedback": "か and さ represent sound units; the combined vocabulary word かさ means umbrella.",
+      "explanation": "か and さ represent sound units; the combined vocabulary word かさ means umbrella.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-vowels-ks-mapping.mdx",
+        "phrase": "かさ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m02-c01-l03-08-c1",
+          "text": "Kana are sound symbols; かさ is the lexical word umbrella",
+          "rationale": "か and さ represent sound units; the combined vocabulary word かさ means umbrella."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-08-c2",
+          "text": "か means rain and さ means shade",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        },
+        {
+          "id": "ex-l0-m02-c01-l03-08-c3",
+          "text": "All two-kana combinations mean umbrella",
+          "rationale": "This choice conflicts with the sound mapping or stroke guidance shown in the lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m02-c01-l03-08-c1"
+      }
+    }
+  ]
+}

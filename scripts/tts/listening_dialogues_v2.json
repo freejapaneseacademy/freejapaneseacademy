@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "lessonId": "l0-m01-c01-l06",
+  "candidateOnly": true,
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "assetId": "audio-l0-m01-c01-l06-a",
+      "title": "At the tea counter",
+      "filename": "fja-l06-real-dialogue-a-v2.wav",
+      "objectiveId": "l0-m01-c01-l06-o1",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "こんにちは。お茶をお願いします。",
+          "english": "Hello. Tea, please."
+        },
+        {
+          "speaker": "female",
+          "text": "こんにちは。温かいお茶ですか。冷たいお茶ですか。",
+          "english": "Hello. Hot tea or cold tea?"
+        },
+        {
+          "speaker": "male",
+          "text": "温かいお茶をお願いします。",
+          "english": "Hot tea, please."
+        },
+        {
+          "speaker": "female",
+          "text": "はい、どうぞ。",
+          "english": "Certainly. Here you are."
+        },
+        {
+          "speaker": "male",
+          "text": "ありがとうございます。",
+          "english": "Thank you."
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "assetId": "audio-l0-m01-c01-l06-b",
+      "title": "A walk by the mountain",
+      "filename": "fja-l06-real-dialogue-b-v2.wav",
+      "objectiveId": "l0-m01-c01-l06-o2",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "おはようございます。今日はいい天気ですね。",
+          "english": "Good morning. Nice weather today, isn't it?"
+        },
+        {
+          "speaker": "male",
+          "text": "おはようございます。そうですね。あの山がきれいですね。",
+          "english": "Good morning. Yes, it is. That mountain is beautiful."
+        },
+        {
+          "speaker": "female",
+          "text": "山の近くに桜がありますよ。",
+          "english": "There are cherry blossoms near the mountain."
+        },
+        {
+          "speaker": "male",
+          "text": "そうですか。じゃあ、一緒に行きましょう。",
+          "english": "Oh, really? Then let's go together."
+        },
+        {
+          "speaker": "female",
+          "text": "はい、行きましょう。",
+          "english": "Yes, let's go."
+        }
+      ]
+    }
+  ]
+}

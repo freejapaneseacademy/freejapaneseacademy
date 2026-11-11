@@ -1,0 +1,684 @@
+{
+  "id": "l0-m01-c01-chk-v2",
+  "lessonId": "l0-m01-c01-chk",
+  "chapterId": "l0-m01-c01",
+  "version": 2,
+  "readingStimulusId": "l0-m01-c01-l05-chart-v1",
+  "audioAssetIds": [
+    "audio-l0-m01-c01-l06-a",
+    "audio-l0-m01-c01-l06-b"
+  ],
+  "scoring": "16 original single-choice items; writing and optional speaking are self-reviewed, not scored; transcript-assisted results are not stored as blind checkpoint scores",
+  "items": [
+    {
+      "id": "ex-l0-m01-c01-chk-001",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "kana-hira-a",
+        "kana-kata-a"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "Two cards, あ and ア, are shown. What is the most accurate comparison?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They use different kana scripts but represent the same vowel a.",
+          "rationale": "Correct: あ is hiragana and ア is katakana; both represent the vowel a."
+        },
+        {
+          "id": "b",
+          "text": "They are two kanji with different meanings.",
+          "rationale": "Neither character is kanji."
+        },
+        {
+          "id": "c",
+          "text": "One is an English translation of the other.",
+          "rationale": "They are written Japanese sound symbols, not English translations."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "あ is hiragana and ア is katakana. A shared sound does not make their written scripts identical.",
+      "evidence": "The vowel a can be represented as hiragana あ or katakana ア."
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-002",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "particle-wa",
+        "particle-o"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "In わたしはおちゃをのみます。, which written character marks the topic わたし?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "を",
+          "rationale": "を follows おちゃ and marks the object, not the topic."
+        },
+        {
+          "id": "b",
+          "text": "は",
+          "rationale": "Correct: the topic particle は follows わたし and is pronounced wa."
+        },
+        {
+          "id": "c",
+          "text": "ま",
+          "rationale": "ま is part of the polite verb ending ます, not a topic particle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The topic is わたし, followed by は (pronounced wa in this role). The object おちゃ is followed by を.",
+      "evidence": "わたし + は (topic); おちゃ + を (object)."
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-003",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "order-verb-final",
+        "particle-o"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "A teacher writes hiragana: せんせいはひらがなをかきます。 Which part expresses the action?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "せんせい",
+          "rationale": "This identifies the teacher, the topic in this example."
+        },
+        {
+          "id": "b",
+          "text": "ひらがな",
+          "rationale": "This is what the teacher writes, not the action."
+        },
+        {
+          "id": "c",
+          "text": "かきます",
+          "rationale": "Correct: かきます is the polite verb meaning writes."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The verb かきます appears at the end of this ordinary topic–object–verb example; it means writes.",
+      "evidence": "せんせいは / ひらがなを / かきます。"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-004",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-romaji",
+        "word-sakura"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "A learner sees sakura beside さくら. What is the Latin-letter spelling called?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Romaji, a way to represent Japanese in Latin letters.",
+          "rationale": "Correct: sakura is romaji for the Japanese reading さくら."
+        },
+        {
+          "id": "b",
+          "text": "Furigana, small kana above kanji.",
+          "rationale": "Furigana are kana reading aids, not Latin letters."
+        },
+        {
+          "id": "c",
+          "text": "The English translation of さくら.",
+          "rationale": "The English meaning is cherry blossom; sakura is a Japanese reading in Latin letters."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Romaji shows Japanese sounds using Latin letters. The meaning of さくら is cherry blossom.",
+      "evidence": "さくら (hiragana) → sakura (romaji); meaning: cherry blossom."
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-005",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "phrase-mou-ichido-onegaishimasu"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "You did not catch the teacher's last instruction. Which studied phrase politely asks for repetition?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "みなさん、こんにちは。",
+          "rationale": "This greets a group; it does not request repetition."
+        },
+        {
+          "id": "b",
+          "text": "もういちど おねがいします。",
+          "rationale": "Correct: this politely requests one more time."
+        },
+        {
+          "id": "c",
+          "text": "さくらです。",
+          "rationale": "This identifies something as sakura; it is not a repetition request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "もういちど おねがいします is a useful polite classroom request. It does not literally translate word-for-word as an English command.",
+      "evidence": "もういちど おねがいします。 — One more time, please."
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-006",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "script-furigana",
+        "word-yama"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "A book prints small やま above 山. What is the small writing doing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Giving the English meaning mountain.",
+          "rationale": "やま is a Japanese reading; mountain is the English meaning."
+        },
+        {
+          "id": "b",
+          "text": "Turning the kanji into katakana.",
+          "rationale": "Small kana reading aids do not change the underlying kanji script."
+        },
+        {
+          "id": "c",
+          "text": "Showing a Japanese reading using furigana.",
+          "rationale": "Correct: the small kana give a reading of the kanji in this context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Furigana provide a pronunciation guide for kanji. Here 山 is read やま and means mountain.",
+      "evidence": "山 with furigana やま; English meaning mountain."
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-007",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-koohii",
+        "script-katakana"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "source": "reading",
+      "prompt": "Consult Row C of the classroom chart. Which symbol lengthens the vowel in コーヒー?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "っ",
+          "rationale": "Small っ is a different timing marker and is not printed in this row."
+        },
+        {
+          "id": "b",
+          "text": "ー",
+          "rationale": "Correct: Row C explicitly notes the long-vowel mark ー."
+        },
+        {
+          "id": "c",
+          "text": "ん",
+          "rationale": "ん represents a nasal mora and is not the mark shown here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The chart's note for Row C identifies ー as a mark that extends the preceding vowel in コーヒー.",
+      "evidence": "Row C — コーヒー; the mark ー extends the preceding vowel.",
+      "rowIds": [
+        "C"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-008",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "script-furigana",
+        "word-sensei"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "source": "reading",
+      "prompt": "Row H prints 先生 with せんせい in smaller kana. Which statement matches the chart?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The small kana give the English word teacher.",
+          "rationale": "The English gloss is teacher; せんせい is Japanese."
+        },
+        {
+          "id": "b",
+          "text": "The main printed characters are romaji.",
+          "rationale": "先生 consists of kanji, not Latin letters."
+        },
+        {
+          "id": "c",
+          "text": "せんせい supplies a reading for the kanji 先生.",
+          "rationale": "Correct: Row H labels the small kana as the reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The chart separates the Japanese reading せんせい from the English meaning teacher.",
+      "evidence": "Row H — 先生（せんせい）; small せんせい gives the reading.",
+      "rowIds": [
+        "H"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-009",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-sakura",
+        "script-romaji",
+        "script-hiragana"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "source": "reading",
+      "prompt": "Compare Rows B and G. Both refer to sakura. What differs in their writing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Row B uses hiragana さくら; Row G uses romaji sakura.",
+          "rationale": "Correct: the Japanese reading is represented in different scripts."
+        },
+        {
+          "id": "b",
+          "text": "Row B is katakana and Row G is kanji.",
+          "rationale": "Neither description matches the printed rows."
+        },
+        {
+          "id": "c",
+          "text": "Row G gives the English translation cherry blossom.",
+          "rationale": "Row G spells the Japanese reading with Latin letters, not its English meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Row B uses three hiragana characters; Row G writes the Japanese reading with Latin letters.",
+      "evidence": "Row B — さくら; Row G — sakura.",
+      "rowIds": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-010",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o2"
+      ],
+      "knowledgeItemIds": [
+        "phrase-mou-ichido-onegaishimasu",
+        "script-hiragana"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "source": "reading",
+      "prompt": "In Row I, what is the classroom purpose of もういちど おねがいします?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To say good night.",
+          "rationale": "This is a polite request, not a night-time greeting."
+        },
+        {
+          "id": "b",
+          "text": "To ask someone politely to repeat something.",
+          "rationale": "Correct: the chart glosses the phrase as One more time, please."
+        },
+        {
+          "id": "c",
+          "text": "To identify a loanword written in katakana.",
+          "rationale": "The row uses hiragana and expresses a request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The note for Row I explicitly gives the function: a polite request to hear something again.",
+      "evidence": "Row I — もういちど おねがいします; One more time, please.",
+      "rowIds": [
+        "I"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-011",
+      "version": 2,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "spoken-dialogue-roles"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "source": "listening",
+      "prompt": "In Recording A, who hands over the drink?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The man",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "b",
+          "text": "The woman",
+          "rationale": "The conversation directly supports this choice."
+        },
+        {
+          "id": "c",
+          "text": "A third person",
+          "rationale": "This is not what the speakers describe or decide."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The woman's はい、どうぞ means she hands it over to the man.",
+      "evidence": "はい、どうぞ。",
+      "trackId": "audio-l0-m01-c01-l06-a"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-012",
+      "version": 2,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "spoken-temperature"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "source": "listening",
+      "prompt": "What kind of choice does the woman ask the man to make?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The size of a cake",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "b",
+          "text": "Whether his tea is hot or cold",
+          "rationale": "The conversation directly supports this choice."
+        },
+        {
+          "id": "c",
+          "text": "Where to go tomorrow",
+          "rationale": "This is not what the speakers describe or decide."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "She asks whether he wants hot or cold tea.",
+      "evidence": "温かいお茶ですか。冷たいお茶ですか。",
+      "trackId": "audio-l0-m01-c01-l06-a"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-013",
+      "version": 2,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "kanji-yama"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "source": "listening",
+      "prompt": "In Recording B, what does the man say looks beautiful?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mountain",
+          "rationale": "The conversation directly supports this choice."
+        },
+        {
+          "id": "b",
+          "text": "A book",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "c",
+          "text": "A restaurant",
+          "rationale": "This is not what the speakers describe or decide."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The man says the mountain is beautiful; no printed character knowledge is required.",
+      "evidence": "あの山がきれいですね。",
+      "trackId": "audio-l0-m01-c01-l06-b"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-014",
+      "version": 2,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o3"
+      ],
+      "knowledgeItemIds": [
+        "spoken-issho-ni"
+      ],
+      "skills": [
+        "listening-comprehension"
+      ],
+      "source": "listening",
+      "prompt": "What do the speakers plan to do after hearing about cherry blossoms?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Write a letter",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "b",
+          "text": "Order another drink",
+          "rationale": "This is not what the speakers describe or decide."
+        },
+        {
+          "id": "c",
+          "text": "Go together",
+          "rationale": "The conversation directly supports this choice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "He suggests going together; she agrees.",
+      "evidence": "一緒に行きましょう。",
+      "trackId": "audio-l0-m01-c01-l06-b"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-015",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "particle-wa",
+        "particle-o",
+        "order-verb-final"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "A classmate wants to say The teacher writes hiragana. Which supported sentence best matches that meaning?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "せんせいはひらがなをかきます。",
+          "rationale": "Correct: topic せんせいは, object ひらがなを, action かきます."
+        },
+        {
+          "id": "b",
+          "text": "せんせいはひらがなです。",
+          "rationale": "This identifies the teacher as hiragana, rather than saying the teacher writes it."
+        },
+        {
+          "id": "c",
+          "text": "ひらがなはせんせいです。",
+          "rationale": "This identifies hiragana as the teacher, not an action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Use せんせいは for the topic, ひらがなを for the thing written, and かきます for the action.",
+      "evidence": "せんせいは / ひらがなを / かきます。"
+    },
+    {
+      "id": "ex-l0-m01-c01-chk-016",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "level": "l0",
+      "objectiveIds": [
+        "l0-m01-c01-chk-o1"
+      ],
+      "knowledgeItemIds": [
+        "word-yama",
+        "script-kanji"
+      ],
+      "skills": [
+        "integrated-recognition"
+      ],
+      "source": "concept",
+      "prompt": "A classmate says 山 is read やま and means mountain. Which explanation keeps reading and meaning separate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "やま is the English word mountain.",
+          "rationale": "やま is Japanese, not English."
+        },
+        {
+          "id": "b",
+          "text": "やま is a Japanese reading; mountain is the English meaning.",
+          "rationale": "Correct: reading and meaning answer different questions."
+        },
+        {
+          "id": "c",
+          "text": "山 is romaji because it has a reading.",
+          "rationale": "山 is kanji; having a reading does not make it Latin-letter romaji."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "A reading tells you how to say the character in a given context; a translation tells you what it means.",
+      "evidence": "山 (kanji) — reading やま; English meaning mountain."
+    }
+  ]
+}

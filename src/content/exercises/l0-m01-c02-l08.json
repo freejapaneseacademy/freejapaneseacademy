@@ -1,0 +1,211 @@
+{
+  "id": "l0-m01-c02-l08-check-v1",
+  "lessonId": "l0-m01-c02-l08",
+  "version": 1,
+  "modelAssetIds": [
+    "audio-l0-m01-c02-l06-a",
+    "audio-l0-m01-c02-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-l0-m01-c02-l08-001",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-ie",
+        "word-iie"
+      ],
+      "prompt": "In the model photo conversation, how many morae are in いえ (house) compared with いいえ (no)?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2 morae versus 3 morae",
+          "rationale": "Correct: the extra い gives いいえ an additional timing unit."
+        },
+        {
+          "id": "b",
+          "text": "3 morae versus 2 morae",
+          "rationale": "The order is reversed: the negative reply いいえ is longer."
+        },
+        {
+          "id": "c",
+          "text": "They have the same mora count",
+          "rationale": "The negative reply has an extra い; reducing it can affect meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "いえ has two morae (い・え); いいえ has three (い・い・え). Track A's house question and negative reply contain this meaningful timing contrast.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l08-002",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l08-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-iie",
+        "word-omise"
+      ],
+      "prompt": "Which track-A reply politely corrects the mistaken idea that the photo shows a house?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "はい。家です。",
+          "rationale": "This would confirm the house, not correct the mistake."
+        },
+        {
+          "id": "b",
+          "text": "いいえ、これはお店の写真です。",
+          "rationale": "Correct: the recorded woman says no; the image is of a shop."
+        },
+        {
+          "id": "c",
+          "text": "この写真の人は、あなたのおばさんですか。",
+          "rationale": "This is a different question from the family-photo track."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Track A contains the spoken turn いいえ、これはお店の写真です。 Meaning: No, this is a photo of a shop. Shadow the held i at the start and the natural pause following the correction.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l08-003",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "word-obasan",
+        "word-obaasan"
+      ],
+      "prompt": "In the family-photo situation, which pair correctly shows the extra mora in 'grandmother'?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "おばあさん = four morae; おばさん = five morae",
+          "rationale": "This reverses the counts; the long vowel adds one timing unit."
+        },
+        {
+          "id": "b",
+          "text": "おばあさん = five morae; おばさん = four morae",
+          "rationale": "Correct: the extra あ distinguishes grandmother from aunt in this context."
+        },
+        {
+          "id": "c",
+          "text": "Both contain only three morae",
+          "rationale": "Both contain more units; ん counts as its own mora."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "おばさん = お・ば・さ・ん (4), and おばあさん = お・ば・あ・さ・ん (5). The extra あ lengthens the vowel. Both include the nasal mora ん.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l08-004",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l08-o3"
+      ],
+      "knowledgeItemIds": [
+        "word-obaasan",
+        "word-iie"
+      ],
+      "prompt": "Which recorded reply should you shadow to correct 'aunt' to 'grandmother'?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "いいえ、私のおばあさんです。",
+          "rationale": "Correct: Track B's man clearly identifies the person as his grandmother."
+        },
+        {
+          "id": "b",
+          "text": "いいえ、これはお店の写真です。",
+          "rationale": "This corrects a different picture: a shop, not a family member."
+        },
+        {
+          "id": "c",
+          "text": "あ、家じゃないんですね。",
+          "rationale": "This is about the house/shop conversation, not family relations."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Track B explicitly says いいえ、私のおばあさんです。 Shadow the additional あ in おばあさん and preserve the polite ending です.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    },
+    {
+      "id": "ex-l0-m01-c02-l08-005",
+      "version": 1,
+      "objectiveIds": [
+        "l0-m01-c02-l08-o4"
+      ],
+      "knowledgeItemIds": [
+        "skill-shadowing",
+        "skill-mora-timing"
+      ],
+      "prompt": "Which practice method best helps you check actual Japanese vowel timing without inventing a pronunciation grade?",
+      "type": "single-choice",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Read the Latin letters quickly and let a multiple-choice score grade your accent.",
+          "rationale": "The English letter names do not represent Japanese vowel quality, and choices cannot grade speech."
+        },
+        {
+          "id": "b",
+          "text": "Record automatically whenever the page loads and upload the audio for a numerical accent score.",
+          "rationale": "Speaking is optional and requires explicit permission; this lesson neither uploads nor grades voices."
+        },
+        {
+          "id": "c",
+          "text": "Listen to a real turn, pause, imitate its vowels and rhythm, then self-review; record only if you choose.",
+          "rationale": "Correct: structured shadowing and honest, optional self-review are appropriate for this lesson."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Listen first, then reproduce a whole recorded turn and compare meaning and pacing. A self-check or optional private recording can guide your next attempt, but neither is a certified speech evaluation.",
+      "status": "published",
+      "level": "l0",
+      "skills": [
+        "speaking-preparation",
+        "mora-timing"
+      ]
+    }
+  ]
+}

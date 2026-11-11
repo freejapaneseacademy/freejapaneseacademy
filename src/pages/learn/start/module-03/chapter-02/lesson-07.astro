@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import YoonWritingPractice from '../../../../../components/interactive/YoonWritingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','l0/hiragana-yoon-writing');
+if(!lesson||lesson.data.lessonId!=='l0-m03-c02-l07')throw new Error('Missing canonical lesson l0-m03-c02-l07');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Hiragana II writing',href:'/learn/start/module-03/chapter-02/lesson-07/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 03 · Chapter 02 · Lesson 07</span></nav><span class="eyebrow">LEVEL 0 · MODULE 03 · CHAPTER 02 · LESSON 07</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Eight scored typing prompts</span><span>Optional writing rubric</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original beginner writing.</strong> Independent Japanese and assessment reviews pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><YoonWritingPractice client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion and scored writing attempts are stored separately on this device.</p><LessonActions client:load lessonId="l0-m03-c02-l07" level="l0"/></div><div class="lesson-next"><h3>Continue learning</h3><a class="btn btn-outline" href="/learn/start/module-03/chapter-02/lesson-06/">Previous: listening</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Keep the small kana small</h3><p>Type the converted hiragana, check the small ゃ, ゅ or ょ, then revise your own two-line message.</p></aside></div></section>
+</Base>

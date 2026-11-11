@@ -1,0 +1,36 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import RhythmSpeakingPractice from '../../../../../components/interactive/RhythmSpeakingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import audio from '../../../../../content/audio/l0-m01-c03-l06-v1.json';
+import bank from '../../../../../content/exercises/l0-m01-c03-l08.json';
+import '../../../../../styles/foundations.css';
+import '../../../../../styles/vowel-speaking.css';
+
+const lesson = await getEntry('lessons', 'l0/sound-changes-rhythm-speaking');
+if (!lesson || lesson.data.lessonId !== 'l0-m01-c03-l08' ||
+    bank.lessonId !== lesson.data.lessonId || bank.items.length !== 5 ||
+    audio.lessonId !== 'l0-m01-c03-l06' || audio.assets.length !== 2 ||
+    audio.assets.some(asset => !bank.modelAssetIds.includes(asset.id) ||
+      !asset.rights.redistributionCleared || !asset.qa.sha256 || asset.turns.length < 2)) {
+  throw new Error('Chapter 03 L08 speaking lesson and approved model package mismatch');
+}
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Sound changes and rhythm',href:'/learn/start/module-01/chapter-03/lesson-08/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 03 · Lesson 08</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 03 · LESSON 08</span>
+    <h1>Speak the rhythm in real Japanese conversations</h1><p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Two licensed real WAV recordings</span><span>Optional private microphone</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Optional speaking, not automatic pronunciation grading.</strong> Two original AivisSpeech conversations are reused unchanged from L06. Their model credits and SHA-256 values are documented in the source manifest. Independent Japanese pronunciation and assessment reviews remain pending. Microphone access is never required.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR SPEAKING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <RhythmSpeakingPractice client:load tracks={audio.assets} bank={bank} />
+    <div class="foundation-completion"><h2>Finish this optional lesson</h2><p>Shadow the models and reflect on your timing. You may mark this lesson complete without recording or submitting the optional written preparation quiz. Completion is not a pronunciation certification.</p><LessonActions client:load lessonId="l0-m01-c03-l08" level="l0" /></div>
+    <div class="lesson-next"><h3>Continue learning</h3><p>Next in canonical order: the Chapter 03 mixed checkpoint.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-03/lesson-07/">← Review writing L07</a><a class="btn btn-outline" href="/learn/start/">Foundations overview</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div>
+  </div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Sound changes and rhythm</h3><p><strong>L0-M01-C03-L08</strong></p><ol><li>Read the three timing cues.</li><li>Play each full model conversation.</li><li>Shadow a recorded turn at normal speed.</li><li>Optionally record locally and compare.</li><li>Self-review without a fabricated score.</li><li>Optionally complete five knowledge questions.</li></ol><p>Never upload private audio; the model recordings are synthetic and independent native review remains pending.</p></aside></div></section>
+</Base>

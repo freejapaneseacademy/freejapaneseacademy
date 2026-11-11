@@ -1,0 +1,422 @@
+{
+  "id": "l0-m03-c04-l02",
+  "lessonId": "l0-m03-c04-l02",
+  "version": 1,
+  "status": "published",
+  "source": "Original L0-M03-C04 library dialogue and word-study explanations",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m03-c04-l02-01",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "Which word names the item Yui wants to find?",
+      "options": [
+        "えほん",
+        "ここ",
+        "はい"
+      ],
+      "correctIndex": 0,
+      "feedback": "えほん is a picture book, the item Yui is seeking.",
+      "explanation": "えほん is a picture book, the item Yui is seeking.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "えほん"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-01-c1",
+          "text": "えほん",
+          "rationale": "えほん is a picture book, the item Yui is seeking."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-01-c2",
+          "text": "ここ",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-01-c3",
+          "text": "はい",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-01-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l02-02",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "In えほんは ここです。, what does ここ mean?",
+      "options": [
+        "Thank you",
+        "Here",
+        "Picture book"
+      ],
+      "correctIndex": 1,
+      "feedback": "ここ points to a place near the speaker: here.",
+      "explanation": "ここ points to a place near the speaker: here.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "ここ"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-02-c1",
+          "text": "Thank you",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-02-c2",
+          "text": "Here",
+          "rationale": "ここ points to a place near the speaker: here."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-02-c3",
+          "text": "Picture book",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-02-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l02-03",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "Which expression politely thanks the librarian?",
+      "options": [
+        "こんにちは",
+        "はい",
+        "ありがとうございます"
+      ],
+      "correctIndex": 2,
+      "feedback": "ありがとうございます is a polite expression of thanks.",
+      "explanation": "ありがとうございます is a polite expression of thanks.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "ありがとうございます"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-03-c1",
+          "text": "こんにちは",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-03-c2",
+          "text": "はい",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-03-c3",
+          "text": "ありがとうございます",
+          "rationale": "ありがとうございます is a polite expression of thanks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-03-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l02-04",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "Which expression is the daytime greeting?",
+      "options": [
+        "こんにちは",
+        "あります",
+        "みます"
+      ],
+      "correctIndex": 0,
+      "feedback": "こんにちは is a greeting, not a request or an action.",
+      "explanation": "こんにちは is a greeting, not a request or an action.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "こんにちは"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-04-c1",
+          "text": "こんにちは",
+          "rationale": "こんにちは is a greeting, not a request or an action."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-04-c2",
+          "text": "あります",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-04-c3",
+          "text": "みます",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-04-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l02-05",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "In はい、あります。, what does はい communicate?",
+      "options": [
+        "No",
+        "Yes",
+        "Where"
+      ],
+      "correctIndex": 1,
+      "feedback": "はい is an affirmative answer: yes.",
+      "explanation": "はい is an affirmative answer: yes.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "はい"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-05-c1",
+          "text": "No",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-05-c2",
+          "text": "Yes",
+          "rationale": "はい is an affirmative answer: yes."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-05-c3",
+          "text": "Where",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-05-c2"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l02-06",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "What is Yui doing in えほんを みます。?",
+      "options": [
+        "Buying a book",
+        "Writing a book",
+        "Looking at a book"
+      ],
+      "correctIndex": 2,
+      "feedback": "みます means look at or see in this context, not buy or write.",
+      "explanation": "みます means look at or see in this context, not buy or write.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "みます"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-06-c1",
+          "text": "Buying a book",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-06-c2",
+          "text": "Writing a book",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-06-c3",
+          "text": "Looking at a book",
+          "rationale": "みます means look at or see in this context, not buy or write."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-06-c3"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l02-07",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "Which ending turns あります into a question here?",
+      "options": [
+        "か",
+        "を",
+        "は"
+      ],
+      "correctIndex": 0,
+      "feedback": "The final particle か marks a question in ありますか。",
+      "explanation": "The final particle か marks a question in ありますか。",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "か"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-07-c1",
+          "text": "か",
+          "rationale": "The final particle か marks a question in ありますか。"
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-07-c2",
+          "text": "を",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-07-c3",
+          "text": "は",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-07-c1"
+      }
+    },
+    {
+      "id": "ex-l0-m03-c04-l02-08",
+      "version": 1,
+      "status": "published",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "l0",
+      "skills": [
+        "written",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "l0-m03-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "l0-m03-c04-l02-library-words"
+      ],
+      "prompt": "In えほんは ありますか。, what is Yui asking?",
+      "options": [
+        "Where is the train?",
+        "Are picture books available?",
+        "Did you buy a book?"
+      ],
+      "correctIndex": 1,
+      "feedback": "ありますか asks whether picture books are available in this scene.",
+      "explanation": "ありますか asks whether picture books are available in this scene.",
+      "evidence": {
+        "source": "src/content/lessons/l0/hiragana-sentence-reading-vocabulary.mdx",
+        "phrase": "えほんは ありますか。"
+      },
+      "choices": [
+        {
+          "id": "ex-l0-m03-c04-l02-08-c1",
+          "text": "Where is the train?",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-08-c2",
+          "text": "Are picture books available?",
+          "rationale": "ありますか asks whether picture books are available in this scene."
+        },
+        {
+          "id": "ex-l0-m03-c04-l02-08-c3",
+          "text": "Did you buy a book?",
+          "rationale": "This choice does not match the word's meaning in the library scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-l0-m03-c04-l02-08-c2"
+      }
+    }
+  ]
+}

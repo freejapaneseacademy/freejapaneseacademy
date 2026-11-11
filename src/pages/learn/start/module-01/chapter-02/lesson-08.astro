@@ -1,0 +1,41 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import VowelSpeakingPractice from '../../../../../components/interactive/VowelSpeakingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import audio from '../../../../../content/audio/l0-m01-c02-l06-v1.json';
+import bank from '../../../../../content/exercises/l0-m01-c02-l08.json';
+import '../../../../../styles/foundations.css';
+import '../../../../../styles/vowel-speaking.css';
+
+const lesson = await getEntry('lessons', 'l0/japanese-sound-system-speaking');
+if (!lesson || lesson.data.lessonId !== 'l0-m01-c02-l08' ||
+    bank.lessonId !== lesson.data.lessonId ||
+    audio.lessonId !== 'l0-m01-c02-l06' || audio.assets.length !== 2 ||
+    bank.modelAssetIds.length !== 2 || bank.items.length !== 5 ||
+    audio.assets.some(asset => !bank.modelAssetIds.includes(asset.id))) {
+  throw new Error('L0-M01-C02-L08 model-audio and preparation package mismatch');
+}
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Japanese sound system',href:'/learn/start/module-01/chapter-02/lesson-08/'}]}>
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Chapter 02 · Lesson 08</span></nav>
+    <span class="eyebrow">LEVEL 0 · MODULE 01 · CHAPTER 02 · LESSON 08</span>
+    <h1>Speak Japanese vowels with natural timing.</h1>
+    <p>{lesson.data.description}</p>
+    <div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Chapter 02 lessons 01–07 recommended</span><span>Two real model recordings · Optional private mic · Self-review</span></div>
+  </div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice"><strong>Optional, privacy-conscious pronunciation practice.</strong> Model clips reuse the two original AivisSpeech recordings from Lesson 06, without changing their WAV files. The approved male/female voice credits and rights are recorded in the accompanying audio manifest. Independent Japanese pronunciation and human assessment reviews remain pending. This is not an official JLPT speaking test and no microphone is required.</div>
+    <div class="lesson-intro"><span class="eyebrow">YOUR SPEAKING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <VowelSpeakingPractice client:load tracks={audio.assets} />
+    <div class="foundation-completion"><h2>Finish this lesson</h2><p>You may mark this optional speaking lesson complete after self-review, even if you did not record yourself or save a preparation score. Completion is not a pronunciation certification.</p><LessonActions client:load lessonId="l0-m01-c02-l08" level="l0" /></div>
+    <div class="lesson-next"><h3>Continue Japanese Foundations</h3><p>Next in Blueprint order: the published Chapter 02 mixed checkpoint with twelve written and four real listening questions.</p><a class="btn btn-outline" href="/learn/start/module-01/chapter-02/lesson-07/">← Review writing lesson 07</a><a class="btn btn-primary" href="/learn/start/module-01/chapter-02/checkpoint/">Take Chapter 02 checkpoint ↗</a><a class="btn btn-outline" href="/learn/start/">All Foundations lessons ↗</a><a class="btn btn-outline" href="/dashboard/">My learning ↗</a></div>
+  </div><aside class="lesson-side foundation-side">
+    <span class="eyebrow">STUDY GUIDE</span><h3>Five vowels · Mora timing</h3><p><strong>L0-M01-C02-L08</strong></p>
+    <div class="sample-rule"></div><h3>Suggested order</h3><ol><li>Warm up with あ・い・う・え・お.</li><li>Listen to the two entire original conversations.</li><li>Use each turn's play button to isolate natural speech.</li><li>Shadow the long vowels in いいえ and おばあさん.</li><li>Optionally record locally and compare your voice.</li><li>Complete the honest speaking self-review.</li><li>Optionally save a five-item knowledge score.</li></ol>
+    <p>No model WAV regeneration, speech recognition, speaking grade, audio upload or database migration is required.</p>
+  </aside></div></section>
+</Base>

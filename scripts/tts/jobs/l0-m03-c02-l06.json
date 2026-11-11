@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "l0-m03-c02-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy project rights policy v5 and pinned ACML 1.0 model review; independent legal and native-audio review pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original synthetic audio; required AivisSpeech attribution retained. Verify generated WAV checksums and spoken alignment before publication."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Choosing a drink at a café",
+      "scenarioType": "dialogue",
+      "objectiveId": "l0-m03-c02-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "こんにちは。きょうは、なにをのみますか。",
+          "english": "Hello. What will you drink today?"
+        },
+        {
+          "speaker": "male",
+          "text": "ぎゅうにゅうをください。",
+          "english": "Milk, please."
+        },
+        {
+          "speaker": "female",
+          "text": "つめたいぎゅうにゅうですか。",
+          "english": "Cold milk?"
+        },
+        {
+          "speaker": "male",
+          "text": "はい。つめたいのをひとつください。",
+          "english": "Yes. One cold one, please."
+        },
+        {
+          "speaker": "female",
+          "text": "はい、しょうしょうおまちください。",
+          "english": "Certainly, please wait a moment."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What drink does the customer order?",
+        "Does the customer want the drink cold or hot?",
+        "How many drinks does the customer order?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Planning a weekend outing",
+      "scenarioType": "dialogue",
+      "objectiveId": "l0-m03-c02-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "にちようびは、どこへいきますか。",
+          "english": "Where are you going on Sunday?"
+        },
+        {
+          "speaker": "female",
+          "text": "としょかんへいきます。",
+          "english": "I'm going to the library."
+        },
+        {
+          "speaker": "male",
+          "text": "としょかんで、なにをしますか。",
+          "english": "What will you do at the library?"
+        },
+        {
+          "speaker": "female",
+          "text": "いっしょにほんをよみましょう。",
+          "english": "Let's read books together."
+        },
+        {
+          "speaker": "male",
+          "text": "いいですね。なんじにいきますか。",
+          "english": "Sounds good. What time shall we go?"
+        },
+        {
+          "speaker": "female",
+          "text": "じゅうじにいきましょう。",
+          "english": "Let's go at ten o'clock."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where will they go on Sunday?",
+        "What will they do there?",
+        "At what time do they plan to go?"
+      ]
+    }
+  ]
+}

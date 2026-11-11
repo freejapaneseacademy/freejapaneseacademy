@@ -1,0 +1,17 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import HiraganaYoonCheckpoint from '../../../../../components/interactive/HiraganaYoonCheckpoint';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import manifest from '../../../../../content/audio/l0-m03-c02-l06-v1.json';
+import bank from '../../../../../content/exercises/l0-m03-c02-chk.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','l0/hiragana-yoon-checkpoint');
+if (!lesson || lesson.data.lessonId !== 'l0-m03-c02-chk' || bank.lessonId !== lesson.data.lessonId || bank.items.length !== 12 || manifest.assets.length !== 2 || manifest.assets.some(a => !a.rights.redistributionCleared || !a.qa.sha256 || a.turns.length < 4)) throw new Error('Chapter 02 checkpoint package invalid');
+const { Content } = await render(lesson);
+const tracks = manifest.assets.map((a,i) => ({id:a.id,label:i ? 'Library conversation' : 'Café conversation',url:a.mediaPath,transcript:a.transcript,english:a.english}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Foundations',href:'/learn/start/'},{label:'Chapter 02 checkpoint',href:'/learn/start/module-03/chapter-02/checkpoint/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/start/">Foundations</a><span>›</span><span>Module 03 · Chapter 02 · Checkpoint</span></nav><span class="eyebrow">LEVEL 0 · MODULE 03 · CHAPTER 02 · CHECKPOINT</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>12 scored questions</span><span>2 licensed WAV conversations</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original mixed chapter checkpoint.</strong> Licensed model audio is reused unchanged. Independent Japanese and assessment reviews remain pending.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><HiraganaYoonCheckpoint client:load questions={bank.items} tracks={tracks}/><div class="foundation-completion"><h2>Finish Chapter 02</h2><p>Completion is separate from your practice score; optional speaking is not required.</p><LessonActions client:load lessonId="l0-m03-c02-chk" level="l0"/></div><div class="lesson-next"><h3>Continue learning</h3><a class="btn btn-outline" href="/learn/start/module-03/chapter-02/lesson-07/">Previous: writing</a><a class="btn btn-primary" href="/learn/start/">Foundations overview</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Check, explain, revisit</h3><p>Replay licensed recordings and review missed evidence. Transcript assistance is labelled separately.</p></aside></div></section>
+</Base>
