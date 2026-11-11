@@ -1,0 +1,436 @@
+{
+  "lessonId": "n5-m05-c02-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l04-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-1"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "How is 車 read when it means 'car' by itself?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "くるま",
+          "rationale": "Correct. 車 as a standalone word for a car is くるま; しゃ is a compound reading."
+        },
+        {
+          "id": "c2",
+          "text": "しゃ",
+          "rationale": "Not quite. 車 as a standalone word for a car is くるま; しゃ is a compound reading."
+        },
+        {
+          "id": "c3",
+          "text": "でんしゃ",
+          "rationale": "Not quite. 車 as a standalone word for a car is くるま; しゃ is a compound reading."
+        },
+        {
+          "id": "c4",
+          "text": "じてんしゃ",
+          "rationale": "Not quite. 車 as a standalone word for a car is くるま; しゃ is a compound reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "車 as a standalone word for a car is くるま; しゃ is a compound reading."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-2"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "What is the reading of 電車?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "でんくるま",
+          "rationale": "Not quite. 電車 is read でんしゃ and means train."
+        },
+        {
+          "id": "c2",
+          "text": "でんしゃ",
+          "rationale": "Correct. 電車 is read でんしゃ and means train."
+        },
+        {
+          "id": "c3",
+          "text": "じてんしゃ",
+          "rationale": "Not quite. 電車 is read でんしゃ and means train."
+        },
+        {
+          "id": "c4",
+          "text": "くるまでん",
+          "rationale": "Not quite. 電車 is read でんしゃ and means train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "電車 is read でんしゃ and means train."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-3"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "Which word means 'bicycle'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車",
+          "rationale": "Not quite. 自転車（じてんしゃ） is bicycle; 電車 is train and 車 is car."
+        },
+        {
+          "id": "c2",
+          "text": "車",
+          "rationale": "Not quite. 自転車（じてんしゃ） is bicycle; 電車 is train and 車 is car."
+        },
+        {
+          "id": "c3",
+          "text": "自転車",
+          "rationale": "Correct. 自転車（じてんしゃ） is bicycle; 電車 is train and 車 is car."
+        },
+        {
+          "id": "c4",
+          "text": "二人",
+          "rationale": "Not quite. 自転車（じてんしゃ） is bicycle; 電車 is train and 車 is car."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "自転車（じてんしゃ） is bicycle; 電車 is train and 車 is car."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-4"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "What is the correct reading of 一人?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いちにん",
+          "rationale": "Not quite. 一人 is read ひとり; learn this irregular reading as a whole word."
+        },
+        {
+          "id": "c2",
+          "text": "ひとにん",
+          "rationale": "Not quite. 一人 is read ひとり; learn this irregular reading as a whole word."
+        },
+        {
+          "id": "c3",
+          "text": "ふたり",
+          "rationale": "Not quite. 一人 is read ひとり; learn this irregular reading as a whole word."
+        },
+        {
+          "id": "c4",
+          "text": "ひとり",
+          "rationale": "Correct. 一人 is read ひとり; learn this irregular reading as a whole word."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "一人 is read ひとり; learn this irregular reading as a whole word."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-5"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "What is the correct reading of 二人?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ふたり",
+          "rationale": "Correct. 二人 is ふたり, not the mechanical combination ににん."
+        },
+        {
+          "id": "c2",
+          "text": "にひと",
+          "rationale": "Not quite. 二人 is ふたり, not the mechanical combination ににん."
+        },
+        {
+          "id": "c3",
+          "text": "ににん",
+          "rationale": "Not quite. 二人 is ふたり, not the mechanical combination ににん."
+        },
+        {
+          "id": "c4",
+          "text": "ひとり",
+          "rationale": "Not quite. 二人 is ふたり, not the mechanical combination ににん."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "二人 is ふたり, not the mechanical combination ににん."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-6"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "Which written word means 'friend'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "父",
+          "rationale": "Not quite. 友だち（ともだち） means friend; the other words name family members or a train."
+        },
+        {
+          "id": "c2",
+          "text": "友だち",
+          "rationale": "Correct. 友だち（ともだち） means friend; the other words name family members or a train."
+        },
+        {
+          "id": "c3",
+          "text": "母",
+          "rationale": "Not quite. 友だち（ともだち） means friend; the other words name family members or a train."
+        },
+        {
+          "id": "c4",
+          "text": "電車",
+          "rationale": "Not quite. 友だち（ともだち） means friend; the other words name family members or a train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "友だち（ともだち） means friend; the other words name family members or a train."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-7"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "In 父と電車で行きます, who is the companion?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車",
+          "rationale": "Not quite. 父と marks father as the companion; 電車で marks the means."
+        },
+        {
+          "id": "c2",
+          "text": "母",
+          "rationale": "Not quite. 父と marks father as the companion; 電車で marks the means."
+        },
+        {
+          "id": "c3",
+          "text": "父",
+          "rationale": "Correct. 父と marks father as the companion; 電車で marks the means."
+        },
+        {
+          "id": "c4",
+          "text": "一人",
+          "rationale": "Not quite. 父と marks father as the companion; 電車で marks the means."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "父と marks father as the companion; 電車で marks the means."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-8"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "Which phrase means 'by car'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "車と",
+          "rationale": "Not quite. 車で（くるまで） identifies car as the means of travel."
+        },
+        {
+          "id": "c2",
+          "text": "車に",
+          "rationale": "Not quite. 車で（くるまで） identifies car as the means of travel."
+        },
+        {
+          "id": "c3",
+          "text": "車へ",
+          "rationale": "Not quite. 車で（くるまで） identifies car as the means of travel."
+        },
+        {
+          "id": "c4",
+          "text": "車で",
+          "rationale": "Correct. 車で（くるまで） identifies car as the means of travel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "車で（くるまで） identifies car as the means of travel."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-9"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "In Note B, what does 二人で tell us?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "There are two travellers",
+          "rationale": "Correct. 二人で tells us the group consists of two people; 電車で names the vehicle."
+        },
+        {
+          "id": "c2",
+          "text": "They ride two trains",
+          "rationale": "Not quite. 二人で tells us the group consists of two people; 電車で names the vehicle."
+        },
+        {
+          "id": "c3",
+          "text": "They travel alone",
+          "rationale": "Not quite. 二人で tells us the group consists of two people; 電車で names the vehicle."
+        },
+        {
+          "id": "c4",
+          "text": "They go by car",
+          "rationale": "Not quite. 二人で tells us the group consists of two people; 電車で names the vehicle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "二人で tells us the group consists of two people; 電車で names the vehicle."
+    },
+    {
+      "id": "ex-n5-m05-c02-l04-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l04-kanji-10"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "prompt": "Which statement matches Aki's friend's travel plan?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "母とバスで行きます",
+          "rationale": "Not quite. Aki says 友だちは自転車で行きます。一人で行きます: her friend cycles alone."
+        },
+        {
+          "id": "c2",
+          "text": "一人で自転車で行きます",
+          "rationale": "Correct. Aki says 友だちは自転車で行きます。一人で行きます: her friend cycles alone."
+        },
+        {
+          "id": "c3",
+          "text": "父と電車で行きます",
+          "rationale": "Not quite. Aki says 友だちは自転車で行きます。一人で行きます: her friend cycles alone."
+        },
+        {
+          "id": "c4",
+          "text": "二人で車で行きます",
+          "rationale": "Not quite. Aki says 友だちは自転車で行きます。一人で行きます: her friend cycles alone."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Aki says 友だちは自転車で行きます。一人で行きます: her friend cycles alone."
+    }
+  ]
+}
