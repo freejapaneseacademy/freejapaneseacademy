@@ -4134,6 +4134,23 @@
       "audio": "not required for written L01; no audio or pronunciation evaluation claimed",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m06-c01-l08",
+      "level": "n5",
+      "moduleId": "n5-m06",
+      "chapterId": "n5-m06-c01",
+      "slot": "L08",
+      "title": "Say What You Do: Optional Dictionary-Form Role Play",
+      "content": "src/content/lessons/n5/action-verb-speaking.mdx",
+      "url": "/learn/n5/module-06/chapter-01/lesson-08/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese-language and speaking review not claimed",
+      "assessmentReview": "pending — independent assessment-editor review not claimed",
+      "audio": "no new recording; printed models only; separate chapter L06 supplies listening assets",
+      "noindex": true,
+      "authorSlot": ":15",
+      "automationId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
