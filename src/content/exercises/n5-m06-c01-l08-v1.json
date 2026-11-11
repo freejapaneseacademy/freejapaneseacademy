@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m06-c01-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form matches 読む?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k01"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "読みます",
+          "rationale": "Correct. Group 1 読む changes む to み before ます."
+        },
+        {
+          "id": "c2",
+          "text": "読むます",
+          "rationale": "Not quite. Group 1 読む changes む to み before ます."
+        },
+        {
+          "id": "c3",
+          "text": "読めます",
+          "rationale": "Not quite. Group 1 読む changes む to み before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Group 1 読む changes む to み before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary form matches 見ます?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k02"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "見る",
+          "rationale": "Correct. 見る is a Group 2 verb; drop る for 見ます."
+        },
+        {
+          "id": "c2",
+          "text": "見む",
+          "rationale": "Not quite. 見る is a Group 2 verb; drop る for 見ます."
+        },
+        {
+          "id": "c3",
+          "text": "見く",
+          "rationale": "Not quite. 見る is a Group 2 verb; drop る for 見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "見る is a Group 2 verb; drop る for 見ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which group contains 食べる?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k03"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Group 2",
+          "rationale": "Correct. 食べる → 食べます is Group 2."
+        },
+        {
+          "id": "c2",
+          "text": "Group 1",
+          "rationale": "Not quite. 食べる → 食べます is Group 2."
+        },
+        {
+          "id": "c3",
+          "text": "Group 3",
+          "rationale": "Not quite. 食べる → 食べます is Group 2."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "食べる → 食べます is Group 2."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which polite form matches 書く?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k04"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書きます",
+          "rationale": "Correct. Group 1 書く changes く to き before ます."
+        },
+        {
+          "id": "c2",
+          "text": "書くます",
+          "rationale": "Not quite. Group 1 書く changes く to き before ます."
+        },
+        {
+          "id": "c3",
+          "text": "書けます",
+          "rationale": "Not quite. Group 1 書く changes く to き before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Group 1 書く changes く to き before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which dictionary form matches 飲みます?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k05"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飲む",
+          "rationale": "Correct. 飲む → 飲みます is Group 1."
+        },
+        {
+          "id": "c2",
+          "text": "飲みる",
+          "rationale": "Not quite. 飲む → 飲みます is Group 1."
+        },
+        {
+          "id": "c3",
+          "text": "飲ます",
+          "rationale": "Not quite. 飲む → 飲みます is Group 1."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "飲む → 飲みます is Group 1."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which verb is irregular (Group 3)?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k06"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "する",
+          "rationale": "Correct. する → します is irregular."
+        },
+        {
+          "id": "c2",
+          "text": "読む",
+          "rationale": "Not quite. する → します is irregular."
+        },
+        {
+          "id": "c3",
+          "text": "見る",
+          "rationale": "Not quite. する → します is irregular."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "する → します is irregular."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the polite form of 来る（くる）?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k07"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来ます（きます）",
+          "rationale": "Correct. 来る changes to 来ます, read きます."
+        },
+        {
+          "id": "c2",
+          "text": "来ります（くります）",
+          "rationale": "Not quite. 来る changes to 来ます, read きます."
+        },
+        {
+          "id": "c3",
+          "text": "来るます（くるます）",
+          "rationale": "Not quite. 来る changes to 来ます, read きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "来る changes to 来ます, read きます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the correct group of 帰る?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k08"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Group 1",
+          "rationale": "Correct. 帰る → 帰ります is Group 1 even though it ends in る."
+        },
+        {
+          "id": "c2",
+          "text": "Group 2",
+          "rationale": "Not quite. 帰る → 帰ります is Group 1 even though it ends in る."
+        },
+        {
+          "id": "c3",
+          "text": "Group 3",
+          "rationale": "Not quite. 帰る → 帰ります is Group 1 even though it ends in る."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "帰る → 帰ります is Group 1 even though it ends in る."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In model A, what does B do in the afternoon?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k09"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "絵を見ます。",
+          "rationale": "Correct. B says 午後は絵を見ます."
+        },
+        {
+          "id": "c2",
+          "text": "本を読みます。",
+          "rationale": "Not quite. B says 午後は絵を見ます."
+        },
+        {
+          "id": "c3",
+          "text": "名前を書きます。",
+          "rationale": "Not quite. B says 午後は絵を見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "B says 午後は絵を見ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In model B, which dictionary form matches 起きます?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k10"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "起きる",
+          "rationale": "Correct. 起きる → 起きます is Group 2."
+        },
+        {
+          "id": "c2",
+          "text": "起きむ",
+          "rationale": "Not quite. 起きる → 起きます is Group 2."
+        },
+        {
+          "id": "c3",
+          "text": "起きく",
+          "rationale": "Not quite. 起きる → 起きます is Group 2."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "起きる → 起きます is Group 2."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which question politely asks what someone does on Saturday?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k11"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "土曜日に何をしますか。",
+          "rationale": "Correct. 何をしますか asks what someone does."
+        },
+        {
+          "id": "c2",
+          "text": "土曜日に何ですか。",
+          "rationale": "Not quite. 何をしますか asks what someone does."
+        },
+        {
+          "id": "c3",
+          "text": "土曜日はどこですか。",
+          "rationale": "Not quite. 何をしますか asks what someone does."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "何をしますか asks what someone does."
+    },
+    {
+      "id": "ex-n5-m06-c01-l08-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence is a natural polite activity statement?",
+      "objectiveIds": [
+        "n5-m06-c01-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l08-k12"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午後二時にお茶を飲みます。",
+          "rationale": "Correct. 飲みます is the correct polite nonpast form of 飲む."
+        },
+        {
+          "id": "c2",
+          "text": "午後二時にお茶を飲むます。",
+          "rationale": "Not quite. 飲みます is the correct polite nonpast form of 飲む."
+        },
+        {
+          "id": "c3",
+          "text": "午後二時にお茶を飲みる。",
+          "rationale": "Not quite. 飲みます is the correct polite nonpast form of 飲む."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "飲みます is the correct polite nonpast form of 飲む."
+    }
+  ]
+}
