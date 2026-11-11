@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c02-l02",
+  "lessonId": "n5-m06-c02-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional cooking-class preparation board and action sequence",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "「手を洗います」の「洗います」は何をしますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-01-c1",
+          "text": "wash",
+          "rationale": "Correct. 洗います is 'wash'; 手を洗います means wash one's hands."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-01-c2",
+          "text": "wait",
+          "rationale": "Not quite. 洗います is 'wash'; 手を洗います means wash one's hands."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-01-c3",
+          "text": "write",
+          "rationale": "Not quite. 洗います is 'wash'; 手を洗います means wash one's hands."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-01-c1"
+      },
+      "explanation": "洗います is 'wash'; 手を洗います means wash one's hands.",
+      "feedback": "洗います is 'wash'; 手を洗います means wash one's hands."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "「野菜を切ります」の意味は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-02-c1",
+          "text": "drink vegetables",
+          "rationale": "Not quite. 切ります means cut; 野菜 means vegetables."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-02-c2",
+          "text": "cut vegetables",
+          "rationale": "Correct. 切ります means cut; 野菜 means vegetables."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-02-c3",
+          "text": "read vegetables",
+          "rationale": "Not quite. 切ります means cut; 野菜 means vegetables."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-02-c2"
+      },
+      "explanation": "切ります means cut; 野菜 means vegetables.",
+      "feedback": "切ります means cut; 野菜 means vegetables."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "「水を入れます」の動詞の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-03-c1",
+          "text": "入れる",
+          "rationale": "Correct. 入れます corresponds to the transitive ichidan verb 入れる, to put in."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-03-c2",
+          "text": "入る",
+          "rationale": "Not quite. 入れます corresponds to the transitive ichidan verb 入れる, to put in."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-03-c3",
+          "text": "切る",
+          "rationale": "Not quite. 入れます corresponds to the transitive ichidan verb 入れる, to put in."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-03-c1"
+      },
+      "explanation": "入れます corresponds to the transitive ichidan verb 入れる, to put in.",
+      "feedback": "入れます corresponds to the transitive ichidan verb 入れる, to put in."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "「説明を読みます」の意味は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-04-c1",
+          "text": "write instructions",
+          "rationale": "Not quite. 読む means read, and 説明 means an explanation or instructions."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-04-c2",
+          "text": "read instructions",
+          "rationale": "Correct. 読む means read, and 説明 means an explanation or instructions."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-04-c3",
+          "text": "make instructions",
+          "rationale": "Not quite. 読む means read, and 説明 means an explanation or instructions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-04-c2"
+      },
+      "explanation": "読む means read, and 説明 means an explanation or instructions.",
+      "feedback": "読む means read, and 説明 means an explanation or instructions."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "「ここで待ちます」の「待ちます」は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-05-c1",
+          "text": "eat",
+          "rationale": "Not quite. 待ちます is the polite form of 待つ, to wait."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-05-c2",
+          "text": "wait",
+          "rationale": "Correct. 待ちます is the polite form of 待つ, to wait."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-05-c3",
+          "text": "wash",
+          "rationale": "Not quite. 待ちます is the polite form of 待つ, to wait."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-05-c2"
+      },
+      "explanation": "待ちます is the polite form of 待つ, to wait.",
+      "feedback": "待ちます is the polite form of 待つ, to wait."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "Which word naturally introduces the first step?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-06-c1",
+          "text": "最後に",
+          "rationale": "Not quite. まず marks the beginning of a sequence."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-06-c2",
+          "text": "まず",
+          "rationale": "Correct. まず marks the beginning of a sequence."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-06-c3",
+          "text": "それから",
+          "rationale": "Not quite. まず marks the beginning of a sequence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-06-c2"
+      },
+      "explanation": "まず marks the beginning of a sequence.",
+      "feedback": "まず marks the beginning of a sequence."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "Which expression means 'finally'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-07-c1",
+          "text": "次に",
+          "rationale": "Not quite. 最後に marks the final step."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-07-c2",
+          "text": "まず",
+          "rationale": "Not quite. 最後に marks the final step."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-07-c3",
+          "text": "最後に",
+          "rationale": "Correct. 最後に marks the final step."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-07-c3"
+      },
+      "explanation": "最後に marks the final step.",
+      "feedback": "最後に marks the final step."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "「それから、道具を片付けます」の意味は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-08-c1",
+          "text": "Then put the tools away.",
+          "rationale": "Correct. それから connects the next step; 道具を片付けます means put away the tools."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-08-c2",
+          "text": "First cut the tools.",
+          "rationale": "Not quite. それから connects the next step; 道具を片付けます means put away the tools."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-08-c3",
+          "text": "Finally drink the tools.",
+          "rationale": "Not quite. それから connects the next step; 道具を片付けます means put away the tools."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-08-c1"
+      },
+      "explanation": "それから connects the next step; 道具を片付けます means put away the tools.",
+      "feedback": "それから connects the next step; 道具を片付けます means put away the tools."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "Which is the dictionary form of 「作ります」?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-09-c1",
+          "text": "作る",
+          "rationale": "Correct. 作る is godan, even though its dictionary form ends in る."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-09-c2",
+          "text": "作れる",
+          "rationale": "Not quite. 作る is godan, even though its dictionary form ends in る."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-09-c3",
+          "text": "作りる",
+          "rationale": "Not quite. 作る is godan, even though its dictionary form ends in る."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-09-c1"
+      },
+      "explanation": "作る is godan, even though its dictionary form ends in る.",
+      "feedback": "作る is godan, even though its dictionary form ends in る."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "Which pair has the same action?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-10-c1",
+          "text": "食べる・食べます",
+          "rationale": "Correct. 食べる and 食べます both mean eat, in dictionary and polite forms."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-10-c2",
+          "text": "食べる・飲みます",
+          "rationale": "Not quite. 食べる and 食べます both mean eat, in dictionary and polite forms."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-10-c3",
+          "text": "切る・読みます",
+          "rationale": "Not quite. 食べる and 食べます both mean eat, in dictionary and polite forms."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-10-c1"
+      },
+      "explanation": "食べる and 食べます both mean eat, in dictionary and polite forms.",
+      "feedback": "食べる and 食べます both mean eat, in dictionary and polite forms."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "「手を洗ってから、野菜を切ります」の順番は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-11-c1",
+          "text": "Cut, then wash.",
+          "rationale": "Not quite. 〜てから means after doing; washing is completed before cutting."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-11-c2",
+          "text": "Wash, then cut.",
+          "rationale": "Correct. 〜てから means after doing; washing is completed before cutting."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-11-c3",
+          "text": "Eat, then wait.",
+          "rationale": "Not quite. 〜てから means after doing; washing is completed before cutting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-11-c2"
+      },
+      "explanation": "〜てから means after doing; washing is completed before cutting.",
+      "feedback": "〜てから means after doing; washing is completed before cutting."
+    },
+    {
+      "id": "ex-n5-m06-c02-l02-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l02-sequence-words"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l02-action-vocabulary"
+      ],
+      "prompt": "Which is the correct て-form of 「読む」?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l02-12-c1",
+          "text": "読めて",
+          "rationale": "Not quite. 読む is a godan む verb: む → んで in the て-form."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-12-c2",
+          "text": "読んで",
+          "rationale": "Correct. 読む is a godan む verb: む → んで in the て-form."
+        },
+        {
+          "id": "ex-n5-m06-c02-l02-12-c3",
+          "text": "読みて",
+          "rationale": "Not quite. 読む is a godan む verb: む → んで in the て-form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l02-12-c2"
+      },
+      "explanation": "読む is a godan む verb: む → んで in the て-form.",
+      "feedback": "読む is a godan む verb: む → んで in the て-form."
+    }
+  ]
+}
