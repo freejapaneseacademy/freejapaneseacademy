@@ -1,0 +1,326 @@
+{
+  "id": "n5-m06-c03-l04",
+  "lessonId": "n5-m06-c03-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original community learning-room notice in requests-permission-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-01"
+      ],
+      "prompt": "Which character means water in the sign?",
+      "evidence": "水を飲んでもいいです。",
+      "explanation": "水 is read みず and means water. Evidence: 水を飲んでもいいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-01-c1",
+          "text": "水",
+          "rationale": "Correct. 水 is read みず and means water."
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-01-c2",
+          "text": "火",
+          "rationale": "Not here. Compare with the sign: 水を飲んでもいいです。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-01-c3",
+          "text": "手",
+          "rationale": "Not here. Compare with the sign: 水を飲んでもいいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-02"
+      ],
+      "prompt": "How do you read 手 in 手を洗ってください?",
+      "evidence": "手を洗ってください。",
+      "explanation": "手 is read て in this sentence. Evidence: 手を洗ってください。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-02-c1",
+          "text": "ひ",
+          "rationale": "Not here. Compare with the sign: 手を洗ってください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-02-c2",
+          "text": "みず",
+          "rationale": "Not here. Compare with the sign: 手を洗ってください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-02-c3",
+          "text": "て",
+          "rationale": "Correct. 手 is read て in this sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-03"
+      ],
+      "prompt": "What is the reading of 入り口?",
+      "evidence": "入り口で手を洗ってください。",
+      "explanation": "入り口 is read いりぐち; 入る alone is はいる. Evidence: 入り口で手を洗ってください。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-03-c1",
+          "text": "でぐち",
+          "rationale": "Not here. Compare with the sign: 入り口で手を洗ってください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-03-c2",
+          "text": "いりぐち",
+          "rationale": "Correct. 入り口 is read いりぐち; 入る alone is はいる."
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-03-c3",
+          "text": "はいりくち",
+          "rationale": "Not here. Compare with the sign: 入り口で手を洗ってください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-04"
+      ],
+      "prompt": "Which character in the sign means fire?",
+      "evidence": "火を使ってはいけません。",
+      "explanation": "火 is read ひ here and means fire. Evidence: 火を使ってはいけません。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-04-c1",
+          "text": "火",
+          "rationale": "Correct. 火 is read ひ here and means fire."
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-04-c2",
+          "text": "水",
+          "rationale": "Not here. Compare with the sign: 火を使ってはいけません。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-04-c3",
+          "text": "口",
+          "rationale": "Not here. Compare with the sign: 火を使ってはいけません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-05"
+      ],
+      "prompt": "What does 水を飲んでもいいです mean?",
+      "evidence": "水を飲んでもいいです。",
+      "explanation": "〜てもいいです grants permission; it is not a prohibition. Evidence: 水を飲んでもいいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-05-c1",
+          "text": "You must not drink water.",
+          "rationale": "Not here. Compare with the sign: 水を飲んでもいいです。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-05-c2",
+          "text": "Please wash the water.",
+          "rationale": "Not here. Compare with the sign: 水を飲んでもいいです。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-05-c3",
+          "text": "Drinking water is allowed.",
+          "rationale": "Correct. 〜てもいいです grants permission; it is not a prohibition."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-06"
+      ],
+      "prompt": "What does 火を使ってはいけません mean?",
+      "evidence": "火を使ってはいけません。",
+      "explanation": "〜てはいけません marks a prohibition. Evidence: 火を使ってはいけません。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-06-c1",
+          "text": "Please use fire.",
+          "rationale": "Not here. Compare with the sign: 火を使ってはいけません。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-06-c2",
+          "text": "Using fire is prohibited.",
+          "rationale": "Correct. 〜てはいけません marks a prohibition."
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-06-c3",
+          "text": "You may use fire.",
+          "rationale": "Not here. Compare with the sign: 火を使ってはいけません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-07"
+      ],
+      "prompt": "What does 出る mean in 出るときは?",
+      "evidence": "出るときは、ドアを閉めてください。",
+      "explanation": "出る (でる) means to leave or go out. Evidence: 出るときは、ドアを閉めてください。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-07-c1",
+          "text": "to leave",
+          "rationale": "Correct. 出る (でる) means to leave or go out."
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-07-c2",
+          "text": "to enter",
+          "rationale": "Not here. Compare with the sign: 出るときは、ドアを閉めてください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-07-c3",
+          "text": "to drink",
+          "rationale": "Not here. Compare with the sign: 出るときは、ドアを閉めてください。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c03-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l04-kanji-08"
+      ],
+      "prompt": "Which line is a polite request to wash hands?",
+      "evidence": "入り口で手を洗ってください。",
+      "explanation": "〜てください requests an action; the other endings permit or prohibit. Evidence: 入り口で手を洗ってください。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l04-08-c1",
+          "text": "水を飲んでもいいです。",
+          "rationale": "Not here. Compare with the sign: 入り口で手を洗ってください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-08-c2",
+          "text": "火を使ってはいけません。",
+          "rationale": "Not here. Compare with the sign: 入り口で手を洗ってください。"
+        },
+        {
+          "id": "ex-n5-m06-c03-l04-08-c3",
+          "text": "手を洗ってください。",
+          "rationale": "Correct. 〜てください requests an action; the other endings permit or prohibit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l04-08-c3"
+      }
+    }
+  ]
+}
