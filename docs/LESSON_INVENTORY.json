@@ -4134,6 +4134,23 @@
       "audio": "not required for written L01; no audio or pronunciation evaluation claimed",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m05-c04-chk",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c04",
+      "slot": "CHK",
+      "title": "Travel plans and review — chapter checkpoint",
+      "content": "src/content/lessons/n5/travel-plans-checkpoint.mdx",
+      "url": "/learn/n5/module-05/chapter-04/checkpoint/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "L06 authentic listening verification pending; written-only checkpoint does not score listening",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
