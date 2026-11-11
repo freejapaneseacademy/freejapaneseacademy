@@ -1,0 +1,522 @@
+{
+  "lessonId": "n5-m04-c04-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-l02-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-1"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "At the station, which word means 'a plan'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "予定（よてい）",
+          "rationale": "予定 means a plan or schedule; 駅 is a station, 店 a shop, 水 water."
+        },
+        {
+          "id": "c2",
+          "text": "駅（えき）",
+          "rationale": "Not this one. 予定 means a plan or schedule; 駅 is a station, 店 a shop, 水 water."
+        },
+        {
+          "id": "c3",
+          "text": "店（みせ）",
+          "rationale": "Not this one. 予定 means a plan or schedule; 駅 is a station, 店 a shop, 水 water."
+        },
+        {
+          "id": "c4",
+          "text": "水（みず）",
+          "rationale": "Not this one. 予定 means a plan or schedule; 駅 is a station, 店 a shop, 水 water."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "予定 means a plan or schedule; 駅 is a station, 店 a shop, 水 water."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-2"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which word means 'a promise or appointment'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "注文（ちゅうもん）",
+          "rationale": "Not this one. 約束 is an agreement or appointment; 注文 is an order."
+        },
+        {
+          "id": "c2",
+          "text": "約束（やくそく）",
+          "rationale": "約束 is an agreement or appointment; 注文 is an order."
+        },
+        {
+          "id": "c3",
+          "text": "昼（ひる）",
+          "rationale": "Not this one. 約束 is an agreement or appointment; 注文 is an order."
+        },
+        {
+          "id": "c4",
+          "text": "映画（えいが）",
+          "rationale": "Not this one. 約束 is an agreement or appointment; 注文 is an order."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "約束 is an agreement or appointment; 注文 is an order."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-3"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "You want to suggest meeting at a café. Which place is a café?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食堂（しょくどう）",
+          "rationale": "Not this one. 喫茶店 means a café or coffee shop; 食堂 is a dining hall."
+        },
+        {
+          "id": "c2",
+          "text": "公園（こうえん）",
+          "rationale": "Not this one. 喫茶店 means a café or coffee shop; 食堂 is a dining hall."
+        },
+        {
+          "id": "c3",
+          "text": "喫茶店（きっさてん）",
+          "rationale": "喫茶店 means a café or coffee shop; 食堂 is a dining hall."
+        },
+        {
+          "id": "c4",
+          "text": "駅（えき）",
+          "rationale": "Not this one. 喫茶店 means a café or coffee shop; 食堂 is a dining hall."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "喫茶店 means a café or coffee shop; 食堂 is a dining hall."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-4"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Where could you see a movie?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "映画館（えいがかん）",
+          "rationale": "映画館 is a cinema; 図書館 is a library."
+        },
+        {
+          "id": "c2",
+          "text": "図書館（としょかん）",
+          "rationale": "Not this one. 映画館 is a cinema; 図書館 is a library."
+        },
+        {
+          "id": "c3",
+          "text": "食堂（しょくどう）",
+          "rationale": "Not this one. 映画館 is a cinema; 図書館 is a library."
+        },
+        {
+          "id": "c4",
+          "text": "駅（えき）",
+          "rationale": "Not this one. 映画館 is a cinema; 図書館 is a library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "映画館 is a cinema; 図書館 is a library."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-5"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Choose the Japanese word for 'tomorrow'.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昨日（きのう）",
+          "rationale": "Not this one. 明日 is tomorrow; 今日 is today, 昨日 yesterday, 毎日 every day."
+        },
+        {
+          "id": "c2",
+          "text": "今日（きょう）",
+          "rationale": "Not this one. 明日 is tomorrow; 今日 is today, 昨日 yesterday, 毎日 every day."
+        },
+        {
+          "id": "c3",
+          "text": "毎日（まいにち）",
+          "rationale": "Not this one. 明日 is tomorrow; 今日 is today, 昨日 yesterday, 毎日 every day."
+        },
+        {
+          "id": "c4",
+          "text": "明日（あした）",
+          "rationale": "明日 is tomorrow; 今日 is today, 昨日 yesterday, 毎日 every day."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "明日 is tomorrow; 今日 is today, 昨日 yesterday, 毎日 every day."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-6"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "A friend says 昼ご飯を食べませんか。 What is being suggested?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Breakfast",
+          "rationale": "Not this one. 昼ご飯 means lunch; the negative-question form ませんか is a polite invitation here."
+        },
+        {
+          "id": "c2",
+          "text": "Lunch",
+          "rationale": "昼ご飯 means lunch; the negative-question form ませんか is a polite invitation here."
+        },
+        {
+          "id": "c3",
+          "text": "Dinner",
+          "rationale": "Not this one. 昼ご飯 means lunch; the negative-question form ませんか is a polite invitation here."
+        },
+        {
+          "id": "c4",
+          "text": "A train ride",
+          "rationale": "Not this one. 昼ご飯 means lunch; the negative-question form ませんか is a polite invitation here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "昼ご飯 means lunch; the negative-question form ませんか is a polite invitation here."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-7"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which expression is a natural way to accept a suggestion?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いいですね。",
+          "rationale": "いいですね means 'That sounds good.' The other options decline, state not going, or ask the time."
+        },
+        {
+          "id": "c2",
+          "text": "すみません、今日はちょっと。",
+          "rationale": "Not this one. いいですね means 'That sounds good.' The other options decline, state not going, or ask the time."
+        },
+        {
+          "id": "c3",
+          "text": "行きません。",
+          "rationale": "Not this one. いいですね means 'That sounds good.' The other options decline, state not going, or ask the time."
+        },
+        {
+          "id": "c4",
+          "text": "何時ですか。",
+          "rationale": "Not this one. いいですね means 'That sounds good.' The other options decline, state not going, or ask the time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いいですね means 'That sounds good.' The other options decline, state not going, or ask the time."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-8"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which expression can politely soften a refusal?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "もちろん。",
+          "rationale": "Not this one. すみません、今日はちょっと。 implies 'Sorry, today is difficult' without a blunt rejection."
+        },
+        {
+          "id": "c2",
+          "text": "はい、ぜひ。",
+          "rationale": "Not this one. すみません、今日はちょっと。 implies 'Sorry, today is difficult' without a blunt rejection."
+        },
+        {
+          "id": "c3",
+          "text": "すみません、今日はちょっと。",
+          "rationale": "すみません、今日はちょっと。 implies 'Sorry, today is difficult' without a blunt rejection."
+        },
+        {
+          "id": "c4",
+          "text": "いっしょに。",
+          "rationale": "Not this one. すみません、今日はちょっと。 implies 'Sorry, today is difficult' without a blunt rejection."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "すみません、今日はちょっと。 implies 'Sorry, today is difficult' without a blunt rejection."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-9"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "What does いっしょに mean in いっしょに行きませんか。?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Together",
+          "rationale": "いっしょに means together; it is an adverb here, not a destination."
+        },
+        {
+          "id": "c2",
+          "text": "Tomorrow",
+          "rationale": "Not this one. いっしょに means together; it is an adverb here, not a destination."
+        },
+        {
+          "id": "c3",
+          "text": "At noon",
+          "rationale": "Not this one. いっしょに means together; it is an adverb here, not a destination."
+        },
+        {
+          "id": "c4",
+          "text": "Near the station",
+          "rationale": "Not this one. いっしょに means together; it is an adverb here, not a destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いっしょに means together; it is an adverb here, not a destination."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-10"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Choose the place for a casual meal in a school or workplace.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "映画館",
+          "rationale": "Not this one. 食堂 means a dining hall or cafeteria."
+        },
+        {
+          "id": "c2",
+          "text": "食堂",
+          "rationale": "食堂 means a dining hall or cafeteria."
+        },
+        {
+          "id": "c3",
+          "text": "駅",
+          "rationale": "Not this one. 食堂 means a dining hall or cafeteria."
+        },
+        {
+          "id": "c4",
+          "text": "公園",
+          "rationale": "Not this one. 食堂 means a dining hall or cafeteria."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "食堂 means a dining hall or cafeteria."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-11"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "What does 何時（なんじ） ask?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Where?",
+          "rationale": "Not this one. 何時 asks what time; どこ asks where."
+        },
+        {
+          "id": "c2",
+          "text": "With whom?",
+          "rationale": "Not this one. 何時 asks what time; どこ asks where."
+        },
+        {
+          "id": "c3",
+          "text": "What time?",
+          "rationale": "何時 asks what time; どこ asks where."
+        },
+        {
+          "id": "c4",
+          "text": "Which meal?",
+          "rationale": "Not this one. 何時 asks what time; どこ asks where."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "何時 asks what time; どこ asks where."
+    },
+    {
+      "id": "ex-n5-m04-c04-l02-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l02-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l02-word-12"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "prompt": "Which sentence means 'Let's meet at the station tomorrow'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "明日、駅で会いましょう。",
+          "rationale": "明日 is tomorrow, 駅で is at the station, and 会いましょう is let's meet."
+        },
+        {
+          "id": "c2",
+          "text": "今日、映画館で会いましょう。",
+          "rationale": "Not this one. 明日 is tomorrow, 駅で is at the station, and 会いましょう is let's meet."
+        },
+        {
+          "id": "c3",
+          "text": "明日、駅で食べましょう。",
+          "rationale": "Not this one. 明日 is tomorrow, 駅で is at the station, and 会いましょう is let's meet."
+        },
+        {
+          "id": "c4",
+          "text": "昨日、駅で会いました。",
+          "rationale": "Not this one. 明日 is tomorrow, 駅で is at the station, and 会いましょう is let's meet."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "明日 is tomorrow, 駅で is at the station, and 会いましょう is let's meet."
+    }
+  ]
+}
