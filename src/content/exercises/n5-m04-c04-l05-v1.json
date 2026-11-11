@@ -1,0 +1,458 @@
+{
+  "id": "n5-m04-c04-l05",
+  "lessonId": "n5-m04-c04-l05",
+  "version": 1,
+  "status": "internally-checked",
+  "source": "Original fictional meeting message authored for this lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-l05-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-01"
+      ],
+      "prompt": "Who first invites the group?",
+      "explanation": "あや → けん、みほ identifies Aya as the sender of the first invitation.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-01-c1",
+          "text": "Aya",
+          "rationale": "Correct. あや → けん、みほ identifies Aya as the sender of the first invitation."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-01-c2",
+          "text": "Ken",
+          "rationale": "Not supported by the final Japanese messages. あや → けん、みほ identifies Aya as the sender of the first invitation."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-01-c3",
+          "text": "Miho",
+          "rationale": "Not supported by the final Japanese messages. あや → けん、みほ identifies Aya as the sender of the first invitation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-02"
+      ],
+      "prompt": "Which day is proposed?",
+      "explanation": "土曜日 means Saturday.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-02-c1",
+          "text": "Sunday",
+          "rationale": "Not supported by the final Japanese messages. 土曜日 means Saturday."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-02-c2",
+          "text": "Friday",
+          "rationale": "Not supported by the final Japanese messages. 土曜日 means Saturday."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-02-c3",
+          "text": "Saturday",
+          "rationale": "Correct. 土曜日 means Saturday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-03"
+      ],
+      "prompt": "What time is the final meeting?",
+      "explanation": "土曜日の午後二時 gives Saturday at 2 p.m.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-03-c1",
+          "text": "3 p.m.",
+          "rationale": "Not supported by the final Japanese messages. 土曜日の午後二時 gives Saturday at 2 p.m."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-03-c2",
+          "text": "2 p.m.",
+          "rationale": "Correct. 土曜日の午後二時 gives Saturday at 2 p.m."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-03-c3",
+          "text": "2 a.m.",
+          "rationale": "Not supported by the final Japanese messages. 土曜日の午後二時 gives Saturday at 2 p.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-04"
+      ],
+      "prompt": "Where does Aya first propose meeting?",
+      "explanation": "学校の前で会いませんか names the original meeting point.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-04-c1",
+          "text": "In front of the school",
+          "rationale": "Correct. 学校の前で会いませんか names the original meeting point."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-04-c2",
+          "text": "In front of the library",
+          "rationale": "Not supported by the final Japanese messages. 学校の前で会いませんか names the original meeting point."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-04-c3",
+          "text": "Inside the café",
+          "rationale": "Not supported by the final Japanese messages. 学校の前で会いませんか names the original meeting point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-05"
+      ],
+      "prompt": "Why does Ken suggest a different location?",
+      "explanation": "学校の前は人が多いです means there are many people in front of the school.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-05-c1",
+          "text": "The library is closed",
+          "rationale": "Not supported by the final Japanese messages. 学校の前は人が多いです means there are many people in front of the school."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-05-c2",
+          "text": "He wants to meet earlier",
+          "rationale": "Not supported by the final Japanese messages. 学校の前は人が多いです means there are many people in front of the school."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-05-c3",
+          "text": "The school front is crowded",
+          "rationale": "Correct. 学校の前は人が多いです means there are many people in front of the school."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-06"
+      ],
+      "prompt": "What alternative does Ken propose?",
+      "explanation": "図書館の前はどうですか proposes in front of the library.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-06-c1",
+          "text": "Inside the classroom",
+          "rationale": "Not supported by the final Japanese messages. 図書館の前はどうですか proposes in front of the library."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-06-c2",
+          "text": "In front of the library",
+          "rationale": "Correct. 図書館の前はどうですか proposes in front of the library."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-06-c3",
+          "text": "At the station ticket gate",
+          "rationale": "Not supported by the final Japanese messages. 図書館の前はどうですか proposes in front of the library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-07"
+      ],
+      "prompt": "Who politely declines Saturday?",
+      "explanation": "Miho writes 土曜日はちょっと……。また今度お願いします.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-07-c1",
+          "text": "Miho",
+          "rationale": "Correct. Miho writes 土曜日はちょっと……。また今度お願いします."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-07-c2",
+          "text": "Aya",
+          "rationale": "Not supported by the final Japanese messages. Miho writes 土曜日はちょっと……。また今度お願いします."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-07-c3",
+          "text": "Ken",
+          "rationale": "Not supported by the final Japanese messages. Miho writes 土曜日はちょっと……。また今度お願いします."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-08"
+      ],
+      "prompt": "Which phrase supports the interpretation 'another time'?",
+      "explanation": "また今度お願いします asks for another occasion.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-08-c1",
+          "text": "いいですね",
+          "rationale": "Not supported by the final Japanese messages. また今度お願いします asks for another occasion."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-08-c2",
+          "text": "二時に",
+          "rationale": "Not supported by the final Japanese messages. また今度お願いします asks for another occasion."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-08-c3",
+          "text": "また今度お願いします",
+          "rationale": "Correct. また今度お願いします asks for another occasion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-09"
+      ],
+      "prompt": "Where do Aya and Ken finally agree to meet?",
+      "explanation": "Aya's final plan says 図書館の前で会いましょう.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-09-c1",
+          "text": "At Café Sakura",
+          "rationale": "Not supported by the final Japanese messages. Aya's final plan says 図書館の前で会いましょう."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-09-c2",
+          "text": "In front of the library",
+          "rationale": "Correct. Aya's final plan says 図書館の前で会いましょう."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-09-c3",
+          "text": "In front of the school",
+          "rationale": "Not supported by the final Japanese messages. Aya's final plan says 図書館の前で会いましょう."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-10"
+      ],
+      "prompt": "What happens after the meeting?",
+      "explanation": "そのあと、駅の近くの喫茶店に行きましょう places the café trip afterward.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-10-c1",
+          "text": "They go to a coffee shop",
+          "rationale": "Correct. そのあと、駅の近くの喫茶店に行きましょう places the café trip afterward."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-10-c2",
+          "text": "They go to the school office",
+          "rationale": "Not supported by the final Japanese messages. そのあと、駅の近くの喫茶店に行きましょう places the café trip afterward."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-10-c3",
+          "text": "They return to class",
+          "rationale": "Not supported by the final Japanese messages. そのあと、駅の近くの喫茶店に行きましょう places the café trip afterward."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-11"
+      ],
+      "prompt": "Which coffee shop do they choose?",
+      "explanation": "喫茶店は「さくら」にしましょう explicitly chooses Sakura.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-11-c1",
+          "text": "Mori",
+          "rationale": "Not supported by the final Japanese messages. 喫茶店は「さくら」にしましょう explicitly chooses Sakura."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-11-c2",
+          "text": "Hoshi",
+          "rationale": "Not supported by the final Japanese messages. 喫茶店は「さくら」にしましょう explicitly chooses Sakura."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-11-c3",
+          "text": "Sakura",
+          "rationale": "Correct. 喫茶店は「さくら」にしましょう explicitly chooses Sakura."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l05-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l05-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l05-message-12"
+      ],
+      "prompt": "Which statement best explains そのあと?",
+      "explanation": "そのあと refers to the subsequent café visit after meeting.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l05-12-c1",
+          "text": "Before the invitation",
+          "rationale": "Not supported by the final Japanese messages. そのあと refers to the subsequent café visit after meeting."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-12-c2",
+          "text": "After the meeting",
+          "rationale": "Correct. そのあと refers to the subsequent café visit after meeting."
+        },
+        {
+          "id": "ex-n5-m04-c04-l05-12-c3",
+          "text": "Before Saturday",
+          "rationale": "Not supported by the final Japanese messages. そのあと refers to the subsequent café visit after meeting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l05-12-c2"
+      }
+    }
+  ]
+}
