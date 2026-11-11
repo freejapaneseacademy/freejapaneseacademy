@@ -1,0 +1,197 @@
+{
+  "lessonId": "n5-m05-c02-l06",
+  "chapterId": "n5-m05-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m05-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m05-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 13.49,
+      "transcript": "女性： 土曜日、だれと美術館へ行きますか。\n男性： 兄と行きます。\n女性： 電車で行きますか。\n男性： いいえ、バスで行きます。\n女性： 何時に行きますか。\n男性： 午前十時に行きます。",
+      "english": "Woman: Who will you go to the art museum with on Saturday?\nMan: I'll go with my older brother.\nWoman: Will you go by train?\nMan: No, we'll go by bus.\nWoman: What time will you go?\nMan: We'll go at ten in the morning.",
+      "scriptPurpose": "Museum trip partners",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m05-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "土曜日、だれと美術館へ行きますか。",
+          "english": "Who will you go to the art museum with on Saturday?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.32
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "兄と行きます。",
+          "english": "I'll go with my older brother.",
+          "startSeconds": 3.6,
+          "endSeconds": 4.9
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "電車で行きますか。",
+          "english": "Will you go by train?",
+          "startSeconds": 5.18,
+          "endSeconds": 6.99
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいえ、バスで行きます。",
+          "english": "No, we'll go by bus.",
+          "startSeconds": 7.27,
+          "endSeconds": 9.22
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "何時に行きますか。",
+          "english": "What time will you go?",
+          "startSeconds": 9.5,
+          "endSeconds": 11.28
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "午前十時に行きます。",
+          "english": "We'll go at ten in the morning.",
+          "startSeconds": 11.56,
+          "endSeconds": 13.49
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "6aaaec60bd6b5c3d417d5a146dec04bf4445a700b384dab0904aa6cbeb62a090",
+        "bytes": 1189722,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m05-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m05-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.17,
+      "transcript": "男性： 日曜日、友だちと図書館へ行きますか。\n女性： いいえ、一人で行きます。\n男性： どうやって行きますか。\n女性： 自転車で行きます。\n男性： 図書館で何をしますか。\n女性： 日本語を勉強します。午後三時に帰ります。",
+      "english": "Man: Will you go to the library with a friend on Sunday?\nWoman: No, I'll go alone.\nMan: How will you get there?\nWoman: I'll go by bicycle.\nMan: What will you do at the library?\nWoman: I'll study Japanese. I'll return at three in the afternoon.",
+      "scriptPurpose": "An independent library visit",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m05-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "日曜日、友だちと図書館へ行きますか。",
+          "english": "Will you go to the library with a friend on Sunday?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.12
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ、一人で行きます。",
+          "english": "No, I'll go alone.",
+          "startSeconds": 3.4,
+          "endSeconds": 5.63
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "どうやって行きますか。",
+          "english": "How will you get there?",
+          "startSeconds": 5.91,
+          "endSeconds": 7.58
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "自転車で行きます。",
+          "english": "I'll go by bicycle.",
+          "startSeconds": 7.86,
+          "endSeconds": 9.63
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "図書館で何をしますか。",
+          "english": "What will you do at the library?",
+          "startSeconds": 9.91,
+          "endSeconds": 12.02
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "日本語を勉強します。午後三時に帰ります。",
+          "english": "I'll study Japanese. I'll return at three in the afternoon.",
+          "startSeconds": 12.3,
+          "endSeconds": 16.17
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "19276f5024c7fd725529048901839a85956557c880ffd41615c9f67e0ef12835",
+        "bytes": 1426632,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
