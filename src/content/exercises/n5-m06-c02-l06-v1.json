@@ -67,13 +67,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Their names",
-          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+          "text": "The date",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
         },
         {
           "id": "b",
-          "text": "The date",
-          "rationale": "Not stated in this sequence. Replay the relevant turn."
+          "text": "Their names",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
         },
         {
           "id": "c",
@@ -82,7 +82,7 @@
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "b"
       },
       "explanation": "The recording says 「まず、紙を取って、名前を書きます。」; their names is the stated detail.",
       "evidence": "まず、紙を取って、名前を書きます。"
@@ -107,22 +107,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Look at photos",
-          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
-        },
-        {
-          "id": "b",
           "text": "Drink tea",
           "rationale": "Not stated in this sequence. Replay the relevant turn."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Read a book",
           "rationale": "Not stated in this sequence. Listen again for the action or person."
+        },
+        {
+          "id": "c",
+          "text": "Look at photos",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "c"
       },
       "explanation": "The recording says 「写真を見てから、ポスターを作ります。」; look at photos is the stated detail.",
       "evidence": "写真を見てから、ポスターを作ります。"
@@ -187,13 +187,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Wash them",
-          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+          "text": "Cook rice",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
         },
         {
           "id": "b",
-          "text": "Cook rice",
-          "rationale": "Not stated in this sequence. Replay the relevant turn."
+          "text": "Wash them",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
         },
         {
           "id": "c",
@@ -202,7 +202,7 @@
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "b"
       },
       "explanation": "The recording says 「野菜を洗って、切ります。」; wash them is the stated detail.",
       "evidence": "野菜を洗って、切ります。"
@@ -227,22 +227,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "In a pot",
-          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
-        },
-        {
-          "id": "b",
           "text": "On a plate",
           "rationale": "Not stated in this sequence. Replay the relevant turn."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "In a bag",
           "rationale": "Not stated in this sequence. Listen again for the action or person."
+        },
+        {
+          "id": "c",
+          "text": "In a pot",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "c"
       },
       "explanation": "The recording says 「鍋に入れて、少し煮ます。」; in a pot is the stated detail.",
       "evidence": "鍋に入れて、少し煮ます。"
@@ -307,13 +307,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Wash their hands",
-          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+          "text": "Make a poster",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
         },
         {
           "id": "b",
-          "text": "Make a poster",
-          "rationale": "Not stated in this sequence. Replay the relevant turn."
+          "text": "Wash their hands",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
         },
         {
           "id": "c",
@@ -322,7 +322,7 @@
         }
       ],
       "answerKey": {
-        "choiceId": "a"
+        "choiceId": "b"
       },
       "explanation": "The recording says 「手を洗ってから、みんなで食べましょう。」; wash their hands is the stated detail.",
       "evidence": "手を洗ってから、みんなで食べましょう。"
