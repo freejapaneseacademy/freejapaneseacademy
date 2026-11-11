@@ -1,0 +1,436 @@
+{
+  "lessonId": "n5-m05-c02-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l01-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-1"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Who asks about the companion for Saturday?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Takumi",
+          "rationale": "Not quite. Yui asks 土曜日、だれと公園に行きますか。"
+        },
+        {
+          "id": "c2",
+          "text": "Yui",
+          "rationale": "Correct. Yui asks 土曜日、だれと公園に行きますか。"
+        },
+        {
+          "id": "c3",
+          "text": "Takumi's sister",
+          "rationale": "Not quite. Yui asks 土曜日、だれと公園に行きますか。"
+        },
+        {
+          "id": "c4",
+          "text": "A bus driver",
+          "rationale": "Not quite. Yui asks 土曜日、だれと公園に行きますか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Yui asks 土曜日、だれと公園に行きますか。"
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-2"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Where are both travellers planning to go?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The park",
+          "rationale": "Correct. Both speakers discuss 公園に行きます, going to the park."
+        },
+        {
+          "id": "c2",
+          "text": "The station",
+          "rationale": "Not quite. Both speakers discuss 公園に行きます, going to the park."
+        },
+        {
+          "id": "c3",
+          "text": "The library",
+          "rationale": "Not quite. Both speakers discuss 公園に行きます, going to the park."
+        },
+        {
+          "id": "c4",
+          "text": "The school",
+          "rationale": "Not quite. Both speakers discuss 公園に行きます, going to the park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Both speakers discuss 公園に行きます, going to the park."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-3"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Who accompanies Takumi?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yui",
+          "rationale": "Not quite. 妹と行きます means Takumi goes with his younger sister."
+        },
+        {
+          "id": "c2",
+          "text": "His teacher",
+          "rationale": "Not quite. 妹と行きます means Takumi goes with his younger sister."
+        },
+        {
+          "id": "c3",
+          "text": "Nobody",
+          "rationale": "Not quite. 妹と行きます means Takumi goes with his younger sister."
+        },
+        {
+          "id": "c4",
+          "text": "His younger sister",
+          "rationale": "Correct. 妹と行きます means Takumi goes with his younger sister."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "妹と行きます means Takumi goes with his younger sister."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-4"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "How does Takumi plan to travel?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "By train",
+          "rationale": "Not quite. バスで行きます explicitly gives the bus as his transport."
+        },
+        {
+          "id": "c2",
+          "text": "By bicycle",
+          "rationale": "Not quite. バスで行きます explicitly gives the bus as his transport."
+        },
+        {
+          "id": "c3",
+          "text": "By bus",
+          "rationale": "Correct. バスで行きます explicitly gives the bus as his transport."
+        },
+        {
+          "id": "c4",
+          "text": "On foot",
+          "rationale": "Not quite. バスで行きます explicitly gives the bus as his transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "バスで行きます explicitly gives the bus as his transport."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-5"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "How does Yui plan to travel?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "By bus",
+          "rationale": "Not quite. 自転車で行きます means Yui plans to go by bicycle."
+        },
+        {
+          "id": "c2",
+          "text": "By bicycle",
+          "rationale": "Correct. 自転車で行きます means Yui plans to go by bicycle."
+        },
+        {
+          "id": "c3",
+          "text": "By taxi",
+          "rationale": "Not quite. 自転車で行きます means Yui plans to go by bicycle."
+        },
+        {
+          "id": "c4",
+          "text": "By train",
+          "rationale": "Not quite. 自転車で行きます means Yui plans to go by bicycle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "自転車で行きます means Yui plans to go by bicycle."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-6"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "What does 一人で mean in Yui's sentence?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Alone",
+          "rationale": "Correct. 一人で describes being alone, not a specific means of transport."
+        },
+        {
+          "id": "c2",
+          "text": "On foot",
+          "rationale": "Not quite. 一人で describes being alone, not a specific means of transport."
+        },
+        {
+          "id": "c3",
+          "text": "By train",
+          "rationale": "Not quite. 一人で describes being alone, not a specific means of transport."
+        },
+        {
+          "id": "c4",
+          "text": "With her sister",
+          "rationale": "Not quite. 一人で describes being alone, not a specific means of transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "一人で describes being alone, not a specific means of transport."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-7"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Which particle marks the companion in 妹と行きます?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "で",
+          "rationale": "Not quite. The particle と follows 妹 to mark the person accompanying Takumi."
+        },
+        {
+          "id": "c2",
+          "text": "に",
+          "rationale": "Not quite. The particle と follows 妹 to mark the person accompanying Takumi."
+        },
+        {
+          "id": "c3",
+          "text": "へ",
+          "rationale": "Not quite. The particle と follows 妹 to mark the person accompanying Takumi."
+        },
+        {
+          "id": "c4",
+          "text": "と",
+          "rationale": "Correct. The particle と follows 妹 to mark the person accompanying Takumi."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "The particle と follows 妹 to mark the person accompanying Takumi."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-8"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Which expression means 'by bus'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "バスと",
+          "rationale": "Not quite. で after バス expresses the means of travel."
+        },
+        {
+          "id": "c2",
+          "text": "バスに",
+          "rationale": "Not quite. で after バス expresses the means of travel."
+        },
+        {
+          "id": "c3",
+          "text": "バスで",
+          "rationale": "Correct. で after バス expresses the means of travel."
+        },
+        {
+          "id": "c4",
+          "text": "バスへ",
+          "rationale": "Not quite. で after バス expresses the means of travel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "で after バス expresses the means of travel."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-9"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "What does 公園で express in 公園で会いましょう?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The vehicle",
+          "rationale": "Not quite. 公園で locates the action 会いましょう at the park."
+        },
+        {
+          "id": "c2",
+          "text": "The meeting place",
+          "rationale": "Correct. 公園で locates the action 会いましょう at the park."
+        },
+        {
+          "id": "c3",
+          "text": "The companion",
+          "rationale": "Not quite. 公園で locates the action 会いましょう at the park."
+        },
+        {
+          "id": "c4",
+          "text": "The departure time",
+          "rationale": "Not quite. 公園で locates the action 会いましょう at the park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "公園で locates the action 会いましょう at the park."
+    },
+    {
+      "id": "ex-n5-m05-c02-l01-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l01-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l01-context-10"
+      ],
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "prompt": "Which detail is NOT stated?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The price of the bus ride",
+          "rationale": "Correct. No bus fare is mentioned; the other three details are explicit."
+        },
+        {
+          "id": "c2",
+          "text": "Yui goes by bicycle",
+          "rationale": "Not quite. No bus fare is mentioned; the other three details are explicit."
+        },
+        {
+          "id": "c3",
+          "text": "Takumi goes with his sister",
+          "rationale": "Not quite. No bus fare is mentioned; the other three details are explicit."
+        },
+        {
+          "id": "c4",
+          "text": "They plan to meet at ten",
+          "rationale": "Not quite. No bus fare is mentioned; the other three details are explicit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "No bus fare is mentioned; the other three details are explicit."
+    }
+  ]
+}
