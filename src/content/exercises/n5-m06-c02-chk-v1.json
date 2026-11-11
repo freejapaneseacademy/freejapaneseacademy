@@ -1,0 +1,670 @@
+{
+  "id": "n5-m06-c02-chk",
+  "lessonId": "n5-m06-c02-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional poster workshop and lunch-preparation notes",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 16,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "Which is the correct て-form of 書く（かく）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-01-c1",
+          "text": "書いて",
+          "rationale": "Correct. く changes to いて."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-01-c2",
+          "text": "書きて",
+          "rationale": "Review: く changes to いて."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-01-c3",
+          "text": "書って",
+          "rationale": "Review: く changes to いて."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-01-c1"
+      },
+      "explanation": "く changes to いて.",
+      "feedback": "く changes to いて."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "Choose the て-form of 読む（よむ）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-02-c1",
+          "text": "読みて",
+          "rationale": "Review: む changes to んで."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-02-c2",
+          "text": "読んで",
+          "rationale": "Correct. む changes to んで."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-02-c3",
+          "text": "読って",
+          "rationale": "Review: む changes to んで."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-02-c2"
+      },
+      "explanation": "む changes to んで.",
+      "feedback": "む changes to んで."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "Choose the て-form of 泳ぐ（およぐ）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-03-c1",
+          "text": "泳いて",
+          "rationale": "Review: ぐ changes to いで."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-03-c2",
+          "text": "泳ぎて",
+          "rationale": "Review: ぐ changes to いで."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-03-c3",
+          "text": "泳いで",
+          "rationale": "Correct. ぐ changes to いで."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-03-c3"
+      },
+      "explanation": "ぐ changes to いで.",
+      "feedback": "ぐ changes to いで."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "Which て-form belongs to 帰る（かえる）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-04-c1",
+          "text": "帰って",
+          "rationale": "Correct. 帰る is Group 1: る becomes って."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-04-c2",
+          "text": "帰て",
+          "rationale": "Review: 帰る is Group 1: る becomes って."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-04-c3",
+          "text": "帰りて",
+          "rationale": "Review: 帰る is Group 1: る becomes って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-04-c1"
+      },
+      "explanation": "帰る is Group 1: る becomes って.",
+      "feedback": "帰る is Group 1: る becomes って."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "Which て-form belongs to 食べる（たべる）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-05-c1",
+          "text": "食べって",
+          "rationale": "Review: 食べる is Group 2: remove る, add て."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-05-c2",
+          "text": "食べて",
+          "rationale": "Correct. 食べる is Group 2: remove る, add て."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-05-c3",
+          "text": "食べりて",
+          "rationale": "Review: 食べる is Group 2: remove る, add て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-05-c2"
+      },
+      "explanation": "食べる is Group 2: remove る, add て.",
+      "feedback": "食べる is Group 2: remove る, add て."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "Which form correctly follows 行く（いく）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-06-c1",
+          "text": "行いて",
+          "rationale": "Review: 行く is an exception: 行って."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-06-c2",
+          "text": "行きて",
+          "rationale": "Review: 行く is an exception: 行って."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-06-c3",
+          "text": "行って",
+          "rationale": "Correct. 行く is an exception: 行って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-06-c3"
+      },
+      "explanation": "行く is an exception: 行って.",
+      "feedback": "行く is an exception: 行って."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "How do you read 来て?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-07-c1",
+          "text": "きて",
+          "rationale": "Correct. 来る（くる） becomes 来て（きて）."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-07-c2",
+          "text": "くて",
+          "rationale": "Review: 来る（くる） becomes 来て（きて）."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-07-c3",
+          "text": "こて",
+          "rationale": "Review: 来る（くる） becomes 来て（きて）."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-07-c1"
+      },
+      "explanation": "来る（くる） becomes 来て（きて）.",
+      "feedback": "来る（くる） becomes 来て（きて）."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-te-forms"
+      ],
+      "prompt": "Which form of する connects to another action?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-08-c1",
+          "text": "すって",
+          "rationale": "Review: する is irregular: して."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-08-c2",
+          "text": "して",
+          "rationale": "Correct. する is irregular: して."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-08-c3",
+          "text": "しって",
+          "rationale": "Review: する is irregular: して."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-08-c2"
+      },
+      "explanation": "する is irregular: して.",
+      "feedback": "する is irregular: して."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "In the poster notice, what do students do after writing the title?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-09-c1",
+          "text": "紙を買います。",
+          "rationale": "Review: The notice says 題名を書いてから、絵をかきます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-09-c2",
+          "text": "昼ごはんを食べます。",
+          "rationale": "Review: The notice says 題名を書いてから、絵をかきます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-09-c3",
+          "text": "絵をかきます。",
+          "rationale": "Correct. The notice says 題名を書いてから、絵をかきます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-09-c3"
+      },
+      "explanation": "The notice says 題名を書いてから、絵をかきます。",
+      "feedback": "The notice says 題名を書いてから、絵をかきます。"
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "In the poster notice, where do students put the completed poster?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-10-c1",
+          "text": "教室のドア",
+          "rationale": "Correct. The notice says ポスターを教室のドアにはります。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-10-c2",
+          "text": "図書館のまど",
+          "rationale": "Review: The notice says ポスターを教室のドアにはります。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-10-c3",
+          "text": "食堂のテーブル",
+          "rationale": "Review: The notice says ポスターを教室のドアにはります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-10-c1"
+      },
+      "explanation": "The notice says ポスターを教室のドアにはります。",
+      "feedback": "The notice says ポスターを教室のドアにはります。"
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "In the lunch note, what happens immediately after washing hands?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-11-c1",
+          "text": "お皿を洗います。",
+          "rationale": "Review: The lunch note says 手を洗ってから、野菜を切ります。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-11-c2",
+          "text": "野菜を切ります。",
+          "rationale": "Correct. The lunch note says 手を洗ってから、野菜を切ります。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-11-c3",
+          "text": "お茶を飲みます。",
+          "rationale": "Review: The lunch note says 手を洗ってから、野菜を切ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-11-c2"
+      },
+      "explanation": "The lunch note says 手を洗ってから、野菜を切ります。",
+      "feedback": "The lunch note says 手を洗ってから、野菜を切ります。"
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "In the lunch note, who eats together?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-12-c1",
+          "text": "先生だけ",
+          "rationale": "Review: The lunch note ends with みんなで食べます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-12-c2",
+          "text": "田中さんだけ",
+          "rationale": "Review: The lunch note ends with みんなで食べます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-12-c3",
+          "text": "みんな",
+          "rationale": "Correct. The lunch note ends with みんなで食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-12-c3"
+      },
+      "explanation": "The lunch note ends with みんなで食べます。",
+      "feedback": "The lunch note ends with みんなで食べます。"
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "Which phrase explicitly means 'after reading'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-13-c1",
+          "text": "読んでから",
+          "rationale": "Correct. Verb て-form + から marks a completed earlier action."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-13-c2",
+          "text": "読むから",
+          "rationale": "Review: Verb て-form + から marks a completed earlier action."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-13-c3",
+          "text": "読みてから",
+          "rationale": "Review: Verb て-form + から marks a completed earlier action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-13-c1"
+      },
+      "explanation": "Verb て-form + から marks a completed earlier action.",
+      "feedback": "Verb て-form + から marks a completed earlier action."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "Which sentence says 'I go to the library and read a book'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-14-c1",
+          "text": "図書館に行いて、本を読みます。",
+          "rationale": "Review: 行く → 行って; に marks the destination."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-14-c2",
+          "text": "図書館に行って、本を読みます。",
+          "rationale": "Correct. 行く → 行って; に marks the destination."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-14-c3",
+          "text": "図書館を行って、本を読みます。",
+          "rationale": "Review: 行く → 行って; に marks the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-14-c2"
+      },
+      "explanation": "行く → 行って; に marks the destination.",
+      "feedback": "行く → 行って; に marks the destination."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-15",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "Which part of 『紙を切って、絵をはります』 shows the first action?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-15-c1",
+          "text": "絵をはります",
+          "rationale": "Review: 切って connects the first action to the final verb."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-15-c2",
+          "text": "紙を切りますから",
+          "rationale": "Review: 切って connects the first action to the final verb."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-15-c3",
+          "text": "紙を切って",
+          "rationale": "Correct. 切って connects the first action to the final verb."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-15-c3"
+      },
+      "explanation": "切って connects the first action to the final verb.",
+      "feedback": "切って connects the first action to the final verb."
+    },
+    {
+      "id": "ex-n5-m06-c02-chk-16",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-chk-sequence"
+      ],
+      "prompt": "Which sentence correctly says 'After making lunch, we clean up'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-chk-16-c1",
+          "text": "昼ごはんを作ってから、片づけます。",
+          "rationale": "Correct. 作る is Group 1: 作ってから marks after making lunch."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-16-c2",
+          "text": "昼ごはんを作るから、片づけます。",
+          "rationale": "Review: 作る is Group 1: 作ってから marks after making lunch."
+        },
+        {
+          "id": "ex-n5-m06-c02-chk-16-c3",
+          "text": "昼ごはんを作りてから、片づけます。",
+          "rationale": "Review: 作る is Group 1: 作ってから marks after making lunch."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-chk-16-c1"
+      },
+      "explanation": "作る is Group 1: 作ってから marks after making lunch.",
+      "feedback": "作る is Group 1: 作ってから marks after making lunch."
+    }
+  ]
+}
