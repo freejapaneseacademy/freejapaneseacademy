@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m04-c04-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-l07-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-1"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence politely invites someone to eat together?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いっしょに昼ご飯を食べませんか。",
+          "rationale": "ませんか in this context is a polite invitation; ません alone is a negative statement."
+        },
+        {
+          "id": "c2",
+          "text": "いっしょに昼ご飯を食べません。",
+          "rationale": "Not this one. ませんか in this context is a polite invitation; ません alone is a negative statement."
+        },
+        {
+          "id": "c3",
+          "text": "いっしょに昼ご飯を食べました。",
+          "rationale": "Not this one. ませんか in this context is a polite invitation; ません alone is a negative statement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ませんか in this context is a polite invitation; ません alone is a negative statement."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-2"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence proposes meeting at twelve?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "十二時に会います。",
+          "rationale": "Not this one. 会いましょう proposes a shared action; 会います simply states an action."
+        },
+        {
+          "id": "c2",
+          "text": "十二時に会いましょう。",
+          "rationale": "会いましょう proposes a shared action; 会います simply states an action."
+        },
+        {
+          "id": "c3",
+          "text": "十二時に会いません。",
+          "rationale": "Not this one. 会いましょう proposes a shared action; 会います simply states an action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "会いましょう proposes a shared action; 会います simply states an action."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-3"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence means 'I'll choose tea'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "お茶にしましょう。",
+          "rationale": "Not this one. にします expresses the speaker's choice; にしましょう proposes a joint choice."
+        },
+        {
+          "id": "c2",
+          "text": "お茶を飲みませんか。",
+          "rationale": "Not this one. にします expresses the speaker's choice; にしましょう proposes a joint choice."
+        },
+        {
+          "id": "c3",
+          "text": "お茶にします。",
+          "rationale": "にします expresses the speaker's choice; にしましょう proposes a joint choice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "にします expresses the speaker's choice; にしましょう proposes a joint choice."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-4"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Choose the natural particle for meeting at the station: 駅＿会いましょう。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Not this one. で marks the location where the meeting takes place."
+        },
+        {
+          "id": "c2",
+          "text": "で",
+          "rationale": "で marks the location where the meeting takes place."
+        },
+        {
+          "id": "c3",
+          "text": "を",
+          "rationale": "Not this one. で marks the location where the meeting takes place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "で marks the location where the meeting takes place."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-5"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Choose the natural particle for going to the cinema: 映画館＿行きます。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "で",
+          "rationale": "Not this one. に marks a destination with 行きます."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Not this one. に marks a destination with 行きます."
+        },
+        {
+          "id": "c3",
+          "text": "に",
+          "rationale": "に marks a destination with 行きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "に marks a destination with 行きます."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-6"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Choose the natural phrase for meeting at three: 三時＿会いましょう。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Specific clock times normally take に."
+        },
+        {
+          "id": "c2",
+          "text": "で",
+          "rationale": "Not this one. Specific clock times normally take に."
+        },
+        {
+          "id": "c3",
+          "text": "を",
+          "rationale": "Not this one. Specific clock times normally take に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Specific clock times normally take に."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-7"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which is a tactful decline with an alternative?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いいですね。土曜日にしましょう。",
+          "rationale": "Not this one. 今日はちょっと / 土曜日はちょっと can soften refusal; どうですか offers another option."
+        },
+        {
+          "id": "c2",
+          "text": "すみません、土曜日はちょっと。日曜日はどうですか。",
+          "rationale": "今日はちょっと / 土曜日はちょっと can soften refusal; どうですか offers another option."
+        },
+        {
+          "id": "c3",
+          "text": "もちろん、土曜日に会いましょう。",
+          "rationale": "Not this one. 今日はちょっと / 土曜日はちょっと can soften refusal; どうですか offers another option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "今日はちょっと / 土曜日はちょっと can soften refusal; どうですか offers another option."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-8"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which is a well-formed invitation to go to a café?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "喫茶店に行くませんか。",
+          "rationale": "Not this one. 行き is the ます-stem of 行く; 行きませんか is the polite invitation."
+        },
+        {
+          "id": "c2",
+          "text": "喫茶店に行きませんか。",
+          "rationale": "行き is the ます-stem of 行く; 行きませんか is the polite invitation."
+        },
+        {
+          "id": "c3",
+          "text": "喫茶店に行きましょうかません。",
+          "rationale": "Not this one. 行き is the ます-stem of 行く; 行きませんか is the polite invitation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "行き is the ます-stem of 行く; 行きませんか is the polite invitation."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-9"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "In the model invitation, where will the classmates meet?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "喫茶店",
+          "rationale": "Not this one. Evidence: 十二時に駅で会いましょう specifies the station as the meeting place."
+        },
+        {
+          "id": "c2",
+          "text": "映画館",
+          "rationale": "Not this one. Evidence: 十二時に駅で会いましょう specifies the station as the meeting place."
+        },
+        {
+          "id": "c3",
+          "text": "駅",
+          "rationale": "Evidence: 十二時に駅で会いましょう specifies the station as the meeting place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: 十二時に駅で会いましょう specifies the station as the meeting place."
+    },
+    {
+      "id": "ex-n5-m04-c04-l07-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m04-c04-l07-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l07-writing-10"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "In the model invitation, what day is proposed?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日曜日",
+          "rationale": "Not this one. Evidence: 土曜日にいっしょに昼ご飯を食べませんか proposes Saturday."
+        },
+        {
+          "id": "c2",
+          "text": "土曜日",
+          "rationale": "Evidence: 土曜日にいっしょに昼ご飯を食べませんか proposes Saturday."
+        },
+        {
+          "id": "c3",
+          "text": "金曜日",
+          "rationale": "Not this one. Evidence: 土曜日にいっしょに昼ご飯を食べませんか proposes Saturday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: 土曜日にいっしょに昼ご飯を食べませんか proposes Saturday."
+    }
+  ]
+}
