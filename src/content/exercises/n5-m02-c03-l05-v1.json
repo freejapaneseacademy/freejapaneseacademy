@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m02-c03-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the teacher in line A?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室の 前",
+          "rationale": "Supported by: A: 教室の 前に 先生が います。"
+        },
+        {
+          "id": "c2",
+          "text": "教室の 後ろ",
+          "rationale": "This does not match: A: 教室の 前に 先生が います。"
+        },
+        {
+          "id": "c3",
+          "text": "教室の 右の 後ろ",
+          "rationale": "This does not match: A: 教室の 前に 先生が います。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: A: 教室の 前に 先生が います。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is on the left desk in line B?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "辞書",
+          "rationale": "This does not match: B: 左の 机の 上に 本が あります。"
+        },
+        {
+          "id": "c2",
+          "text": "本",
+          "rationale": "Supported by: B: 左の 机の 上に 本が あります。"
+        },
+        {
+          "id": "c3",
+          "text": "かばん",
+          "rationale": "This does not match: B: 左の 机の 上に 本が あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: B: 左の 机の 上に 本が あります。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the dictionary in line C?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右の いすの 下",
+          "rationale": "This does not match: C: 後ろの 本棚に 辞書が あります。"
+        },
+        {
+          "id": "c2",
+          "text": "窓の 近く",
+          "rationale": "This does not match: C: 後ろの 本棚に 辞書が あります。"
+        },
+        {
+          "id": "c3",
+          "text": "後ろの 本棚",
+          "rationale": "Supported by: C: 後ろの 本棚に 辞書が あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: C: 後ろの 本棚に 辞書が あります。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which verb accompanies 猫 in line D?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "います",
+          "rationale": "Supported by: D: 窓の 近くに 猫が います。"
+        },
+        {
+          "id": "c2",
+          "text": "あります",
+          "rationale": "This does not match: D: 窓の 近くに 猫が います。"
+        },
+        {
+          "id": "c3",
+          "text": "です",
+          "rationale": "This does not match: D: 窓の 近くに 猫が います。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: D: 窓の 近くに 猫が います。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is under the right chair in line E?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本",
+          "rationale": "This does not match: E: 右の いすの 下に かばんが あります。"
+        },
+        {
+          "id": "c2",
+          "text": "かばん",
+          "rationale": "Supported by: E: 右の いすの 下に かばんが あります。"
+        },
+        {
+          "id": "c3",
+          "text": "辞書",
+          "rationale": "This does not match: E: 右の いすの 下に かばんが あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: E: 右の いすの 下に かばんが あります。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the door in line F?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室の 前の 左",
+          "rationale": "This does not match: F: ドアは 教室の 右の 後ろに あります。"
+        },
+        {
+          "id": "c2",
+          "text": "教室の 前の 中央",
+          "rationale": "This does not match: F: ドアは 教室の 右の 後ろに あります。"
+        },
+        {
+          "id": "c3",
+          "text": "教室の 右の 後ろ",
+          "rationale": "Supported by: F: ドアは 教室の 右の 後ろに あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: F: ドアは 教室の 右の 後ろに あります。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which two living beings are explicitly mentioned?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生と 猫",
+          "rationale": "Supported by: A: 先生が います。 D: 猫が います。"
+        },
+        {
+          "id": "c2",
+          "text": "先生と 犬",
+          "rationale": "This does not match: A: 先生が います。 D: 猫が います。"
+        },
+        {
+          "id": "c3",
+          "text": "猫と 犬",
+          "rationale": "This does not match: A: 先生が います。 D: 猫が います。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: A: 先生が います。 D: 猫が います。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the reading establish about 時計 (clock)?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "時計は 本棚に あります",
+          "rationale": "This does not match: The diagram labels and notice A–F do not mention 時計。"
+        },
+        {
+          "id": "c2",
+          "text": "Its location is not stated",
+          "rationale": "Supported by: The diagram labels and notice A–F do not mention 時計。"
+        },
+        {
+          "id": "c3",
+          "text": "時計は いすの 下に あります",
+          "rationale": "This does not match: The diagram labels and notice A–F do not mention 時計。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: The diagram labels and notice A–F do not mention 時計。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase uses あります for an object?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "猫が あります",
+          "rationale": "This does not match: C: 後ろの 本棚に 辞書が あります。"
+        },
+        {
+          "id": "c2",
+          "text": "先生が あります",
+          "rationale": "This does not match: C: 後ろの 本棚に 辞書が あります。"
+        },
+        {
+          "id": "c3",
+          "text": "辞書が あります",
+          "rationale": "Supported by: C: 後ろの 本棚に 辞書が あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: C: 後ろの 本棚に 辞書が あります。"
+    },
+    {
+      "id": "ex-n5-m02-c03-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which pair of positions matches lines B and E?",
+      "objectiveIds": [
+        "n5-m02-c03-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l05-room-diagram"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本は 上、かばんは 下",
+          "rationale": "Supported by: B: 机の 上に 本が あります。 E: いすの 下に かばんが あります。"
+        },
+        {
+          "id": "c2",
+          "text": "本は 下、かばんは 上",
+          "rationale": "This does not match: B: 机の 上に 本が あります。 E: いすの 下に かばんが あります。"
+        },
+        {
+          "id": "c3",
+          "text": "本も かばんも 上",
+          "rationale": "This does not match: B: 机の 上に 本が あります。 E: いすの 下に かばんが あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: B: 机の 上に 本が あります。 E: いすの 下に かばんが あります。"
+    }
+  ]
+}
