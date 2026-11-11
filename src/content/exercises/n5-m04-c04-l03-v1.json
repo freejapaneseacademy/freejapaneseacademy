@@ -1,0 +1,458 @@
+{
+  "id": "n5-m04-c04-l03",
+  "lessonId": "n5-m04-c04-l03",
+  "version": 1,
+  "status": "internally-checked",
+  "source": "Original invitation dialogues and grammar explanations in n5-m04-c04-l03",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-l03-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-1"
+      ],
+      "prompt": "Your classmate wants to invite you to eat lunch together. Which is the invitation?",
+      "explanation": "ませんか makes a polite invitation; ましょう proposes shared action, and にします selects an option.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-01-c1",
+          "text": "いっしょに昼ご飯を食べませんか。",
+          "rationale": "Correct. ませんか makes a polite invitation; ましょう proposes shared action, and にします selects an option."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-01-c2",
+          "text": "いっしょに昼ご飯を食べましょう。",
+          "rationale": "Not this time. ませんか makes a polite invitation; ましょう proposes shared action, and にします selects an option."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-01-c3",
+          "text": "昼ご飯にします。",
+          "rationale": "Not this time. ませんか makes a polite invitation; ましょう proposes shared action, and にします selects an option."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-2"
+      ],
+      "prompt": "A friend asks カフェに行きませんか。 You happily accept. What fits?",
+      "explanation": "いいですね expresses positive reception; 行きましょう accepts a shared plan.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-02-c1",
+          "text": "すみません。今日はちょっと……。",
+          "rationale": "Not this time. いいですね expresses positive reception; 行きましょう accepts a shared plan."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-02-c2",
+          "text": "カフェに行きませんか。",
+          "rationale": "Not this time. いいですね expresses positive reception; 行きましょう accepts a shared plan."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-02-c3",
+          "text": "いいですね。行きましょう。",
+          "rationale": "Correct. いいですね expresses positive reception; 行きましょう accepts a shared plan."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-3"
+      ],
+      "prompt": "You choose tea rather than coffee. Which expresses your decision?",
+      "explanation": "Noun + にします marks the chosen option, not an invitation or joint suggestion.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-03-c1",
+          "text": "お茶を飲みましょう。",
+          "rationale": "Not this time. Noun + にします marks the chosen option, not an invitation or joint suggestion."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-03-c2",
+          "text": "お茶にします。",
+          "rationale": "Correct. Noun + にします marks the chosen option, not an invitation or joint suggestion."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-03-c3",
+          "text": "お茶を飲みませんか。",
+          "rationale": "Not this time. Noun + にします marks the chosen option, not an invitation or joint suggestion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-4"
+      ],
+      "prompt": "Which phrase gently declines an invitation for today?",
+      "explanation": "今日はちょっと…… conventionally signals difficulty or reluctance in a tactful reply.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-04-c1",
+          "text": "すみません。今日はちょっと……。",
+          "rationale": "Correct. 今日はちょっと…… conventionally signals difficulty or reluctance in a tactful reply."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-04-c2",
+          "text": "いいですね。行きましょう。",
+          "rationale": "Not this time. 今日はちょっと…… conventionally signals difficulty or reluctance in a tactful reply."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-04-c3",
+          "text": "カフェにします。",
+          "rationale": "Not this time. 今日はちょっと…… conventionally signals difficulty or reluctance in a tactful reply."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-5"
+      ],
+      "prompt": "Choose the polite invitation to drink tea together.",
+      "explanation": "飲みます changes to 飲みませんか for an invitation.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-05-c1",
+          "text": "いっしょにお茶を飲みましょう。",
+          "rationale": "Not this time. 飲みます changes to 飲みませんか for an invitation."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-05-c2",
+          "text": "お茶にします。",
+          "rationale": "Not this time. 飲みます changes to 飲みませんか for an invitation."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-05-c3",
+          "text": "いっしょにお茶を飲みませんか。",
+          "rationale": "Correct. 飲みます changes to 飲みませんか for an invitation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-6"
+      ],
+      "prompt": "Aki says 映画を見ませんか。 What is the matching 'Let's watch' response?",
+      "explanation": "見ます changes to 見ましょう when suggesting or accepting a shared action.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-06-c1",
+          "text": "映画にします。",
+          "rationale": "Not this time. 見ます changes to 見ましょう when suggesting or accepting a shared action."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-06-c2",
+          "text": "見ましょう。",
+          "rationale": "Correct. 見ます changes to 見ましょう when suggesting or accepting a shared action."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-06-c3",
+          "text": "見ませんか。",
+          "rationale": "Not this time. 見ます changes to 見ましょう when suggesting or accepting a shared action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-7"
+      ],
+      "prompt": "Which statement means 'I'll choose this restaurant'?",
+      "explanation": "にします selects the restaurant; 行きませんか invites and 行きましょう proposes going.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-07-c1",
+          "text": "このレストランにします。",
+          "rationale": "Correct. にします selects the restaurant; 行きませんか invites and 行きましょう proposes going."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-07-c2",
+          "text": "このレストランに行きませんか。",
+          "rationale": "Not this time. にします selects the restaurant; 行きませんか invites and 行きましょう proposes going."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-07-c3",
+          "text": "このレストランに行きましょう。",
+          "rationale": "Not this time. にします selects the restaurant; 行きませんか invites and 行きましょう proposes going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-8"
+      ],
+      "prompt": "In カフェに行きませんか, what does に mark?",
+      "explanation": "With 行きます/行く, に identifies a destination; the choice construction is noun + にします.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-08-c1",
+          "text": "The menu item selected",
+          "rationale": "Not this time. With 行きます/行く, に identifies a destination; the choice construction is noun + にします."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-08-c2",
+          "text": "The person being invited",
+          "rationale": "Not this time. With 行きます/行く, に identifies a destination; the choice construction is noun + にします."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-08-c3",
+          "text": "The destination of going",
+          "rationale": "Correct. With 行きます/行く, に identifies a destination; the choice construction is noun + にします."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-9"
+      ],
+      "prompt": "A friend proposes going on Saturday. You cannot. Which is most considerate?",
+      "explanation": "A brief apology and 土曜日はちょっと…… politely decline without inventing a reason.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-09-c1",
+          "text": "土曜日にします。",
+          "rationale": "Not this time. A brief apology and 土曜日はちょっと…… politely decline without inventing a reason."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-09-c2",
+          "text": "すみません。土曜日はちょっと……。",
+          "rationale": "Correct. A brief apology and 土曜日はちょっと…… politely decline without inventing a reason."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-09-c3",
+          "text": "はい。行きましょう。",
+          "rationale": "Not this time. A brief apology and 土曜日はちょっと…… politely decline without inventing a reason."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-10"
+      ],
+      "prompt": "Which changes 食べます into a shared suggestion?",
+      "explanation": "Replace ます with ましょう for 'Let's eat'; ませんか invites, while ますか asks a question.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-10-c1",
+          "text": "食べましょう。",
+          "rationale": "Correct. Replace ます with ましょう for 'Let's eat'; ませんか invites, while ますか asks a question."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-10-c2",
+          "text": "食べませんか。",
+          "rationale": "Not this time. Replace ます with ましょう for 'Let's eat'; ませんか invites, while ますか asks a question."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-10-c3",
+          "text": "食べますか。",
+          "rationale": "Not this time. Replace ます with ましょう for 'Let's eat'; ませんか invites, while ますか asks a question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-11"
+      ],
+      "prompt": "You are offered カフェ or レストラン. You decide on カフェ. What do you say?",
+      "explanation": "カフェにします announces your choice, rather than inviting someone to go.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-11-c1",
+          "text": "カフェに行きませんか。",
+          "rationale": "Not this time. カフェにします announces your choice, rather than inviting someone to go."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-11-c2",
+          "text": "カフェに行きましょう。",
+          "rationale": "Not this time. カフェにします announces your choice, rather than inviting someone to go."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-11-c3",
+          "text": "カフェにします。",
+          "rationale": "Correct. カフェにします announces your choice, rather than inviting someone to go."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l03-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l03-invitation-decision"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l03-pattern-12"
+      ],
+      "prompt": "Which pair correctly matches an invitation and an acceptance?",
+      "explanation": "The first line invites with ませんか; the second positively accepts with いいですね and ましょう.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l03-12-c1",
+          "text": "行きますか。／カフェにします。",
+          "rationale": "Not this time. The first line invites with ませんか; the second positively accepts with いいですね and ましょう."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-12-c2",
+          "text": "行きませんか。／いいですね。行きましょう。",
+          "rationale": "Correct. The first line invites with ませんか; the second positively accepts with いいですね and ましょう."
+        },
+        {
+          "id": "ex-n5-m04-c04-l03-12-c3",
+          "text": "行きましょう。／今日はちょっと……。",
+          "rationale": "Not this time. The first line invites with ませんか; the second positively accepts with いいですね and ましょう."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l03-12-c2"
+      }
+    }
+  ]
+}
