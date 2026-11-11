@@ -21,7 +21,8 @@
       "choices": [
         {
           "id": "c1",
-          "text": "On the second floor"
+          "text": "On the second floor",
+          "rationale": "The staff member says 図書館は二階にあります, explicitly placing the library on the second floor."
         },
         {
           "id": "c2",
@@ -42,7 +43,8 @@
       "answerKey": {
         "choiceId": "c1"
       },
-      "evidence": "図書館は二階にあります。"
+      "evidence": "図書館は二階にあります。",
+      "explanation": "Track A states 図書館は二階にあります, so the library is on the second floor, not the cafeteria's first floor."
     },
     {
       "id": "ex-n5-m02-c02-l06-v1-02",
@@ -68,7 +70,8 @@
         },
         {
           "id": "c2",
-          "text": "First floor"
+          "text": "First floor",
+          "rationale": "The staff member says 食堂は一階です, explicitly placing the cafeteria on the first floor."
         },
         {
           "id": "c3",
@@ -84,7 +87,8 @@
       "answerKey": {
         "choiceId": "c2"
       },
-      "evidence": "食堂は一階です。"
+      "evidence": "食堂は一階です。",
+      "explanation": "Track A corrects the visitor's assumption: いいえ、食堂は一階です. The cafeteria is on the first floor."
     },
     {
       "id": "ex-n5-m02-c02-l06-v1-03",
@@ -115,7 +119,8 @@
         },
         {
           "id": "c3",
-          "text": "The entrance"
+          "text": "The entrance",
+          "rationale": "The staff member adds 入口の近くです about the cafeteria, identifying the entrance as the landmark."
         },
         {
           "id": "c4",
@@ -126,7 +131,8 @@
       "answerKey": {
         "choiceId": "c3"
       },
-      "evidence": "入口の近くです。"
+      "evidence": "入口の近くです。",
+      "explanation": "Track A says 入口の近くです immediately after locating the cafeteria, so it is near the entrance."
     },
     {
       "id": "ex-n5-m02-c02-l06-v1-04",
@@ -152,7 +158,8 @@
         },
         {
           "id": "c2",
-          "text": "To the right"
+          "text": "To the right",
+          "rationale": "The phrase 階段の右です puts the restroom to the right of the stairs, not to the left."
         },
         {
           "id": "c3",
@@ -168,7 +175,8 @@
       "answerKey": {
         "choiceId": "c2"
       },
-      "evidence": "階段の右です。"
+      "evidence": "階段の右です。",
+      "explanation": "Track B describes the restroom as 階段の右です, meaning to the right of the stairs."
     },
     {
       "id": "ex-n5-m02-c02-l06-v1-05",
@@ -204,13 +212,15 @@
         },
         {
           "id": "c4",
-          "text": "Reception"
+          "text": "Reception",
+          "rationale": "The second question in Track B is 受付はどこですか, which asks for reception."
         }
       ],
       "answerKey": {
         "choiceId": "c4"
       },
-      "evidence": "受付はどこですか。"
+      "evidence": "受付はどこですか。",
+      "explanation": "After asking about the restroom, the visitor asks 受付はどこですか, a question about reception."
     },
     {
       "id": "ex-n5-m02-c02-l06-v1-06",
@@ -231,7 +241,8 @@
       "choices": [
         {
           "id": "c1",
-          "text": "Here, where the staff member is"
+          "text": "Here, where the staff member is",
+          "rationale": "The reply 受付はここです identifies reception as here, at the staff member's location."
         },
         {
           "id": "c2",
@@ -252,7 +263,8 @@
       "answerKey": {
         "choiceId": "c1"
       },
-      "evidence": "受付はここです。"
+      "evidence": "受付はここです。",
+      "explanation": "The staff member answers 受付はここです, so reception is here at the speaker's location."
     }
   ]
 }
