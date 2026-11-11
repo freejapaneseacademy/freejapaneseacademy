@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { recordAttempt } from '../../lib/progress';
 
 type Question = { id: string; prompt: string; options: [string, string, string]; answer: number; feedback: string; wrong: string };
@@ -14,6 +14,8 @@ export const contrastQuestions: Question[] = [
 ];
 
 export default function RhythmVocabularyPractice() {
+  const [hydrated,setHydrated]=useState(false);
+  useEffect(()=>setHydrated(true),[]);
   const [answers,setAnswers]=useState<Record<string,number>>({});
   const [submitted,setSubmitted]=useState(false);
   const [status,setStatus]=useState('');
@@ -32,15 +34,15 @@ export default function RhythmVocabularyPractice() {
     {contrastQuestions.map((q,i)=><fieldset key={q.id} style={{marginBlock:'1.25rem',padding:'1rem',border:'1px solid var(--border, #888)',borderRadius:'0.75rem'}}>
       <legend><strong>{i+1}. {q.prompt}</strong></legend>
       {q.options.map((option,index)=><label key={option} style={{display:'flex',gap:'0.75rem',alignItems:'center',minHeight:44,marginBlock:'0.3rem'}}>
-        <input type="radio" name={q.id} value={index} disabled={submitted} checked={answers[q.id]===index} onChange={()=>setAnswers(a=>({...a,[q.id]:index}))}/>
+        <input type="radio" name={q.id} value={index} disabled={!hydrated||submitted} checked={answers[q.id]===index} onChange={()=>setAnswers(a=>({...a,[q.id]:index}))}/>
         <span lang={/[ぁ-ん]/.test(option)?'ja':undefined}>{option}</span>
       </label>)}
       {submitted&&<p role="status"><strong>{answers[q.id]===q.answer?'Correct. ':'Review. '}</strong>{answers[q.id]===q.answer?q.feedback:q.wrong}</p>}
     </fieldset>)}
     {submitted&&<p role="status"><strong>{correct} / {contrastQuestions.length} correct.</strong> This score measures written word recognition only. {status}</p>}
     <div style={{display:'flex',flexWrap:'wrap',gap:'0.75rem'}}>
-      <button type="button" className="btn btn-primary" onClick={submit} disabled={!ready||submitted}>Submit answers</button>
-      <button type="button" className="btn btn-outline" onClick={reset}>Try again</button>
+      <button type="button" className="btn btn-primary" onClick={submit} disabled={!hydrated||!ready||submitted}>Submit answers</button>
+      <button type="button" className="btn btn-outline" onClick={reset} disabled={!hydrated}>Try again</button>
     </div>
   </section>;
 }

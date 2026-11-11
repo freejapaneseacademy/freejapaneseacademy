@@ -1,0 +1,390 @@
+{
+  "id": "n5-m01-c02-l01",
+  "lessonId": "n5-m01-c02-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional classroom welcome-desk exchange in questions-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c02-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "Who is asking for help at the welcome desk?",
+      "options": [
+        "ミナ",
+        "田中",
+        "A card"
+      ],
+      "correctIndex": 0,
+      "feedback": "Mina is the newcomer asking the questions.",
+      "explanation": "Mina is the newcomer asking the questions.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-01-c1",
+          "text": "ミナ",
+          "rationale": "Mina is the newcomer asking the questions."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-01-c2",
+          "text": "田中",
+          "rationale": "This does not fit the evidence or question type. Mina is the newcomer asking the questions."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-01-c3",
+          "text": "A card",
+          "rationale": "This does not fit the evidence or question type. Mina is the newcomer asking the questions."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "What is the main purpose of the exchange?",
+      "options": [
+        "Ordering lunch",
+        "Finding a classroom and identifying a card",
+        "Buying a train ticket"
+      ],
+      "correctIndex": 1,
+      "feedback": "The exchange concerns the classroom location and the correct room card.",
+      "explanation": "The exchange concerns the classroom location and the correct room card.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-02-c1",
+          "text": "Ordering lunch",
+          "rationale": "This does not fit the evidence or question type. The exchange concerns the classroom location and the correct room card."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-02-c2",
+          "text": "Finding a classroom and identifying a card",
+          "rationale": "The exchange concerns the classroom location and the correct room card."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-02-c3",
+          "text": "Buying a train ticket",
+          "rationale": "This does not fit the evidence or question type. The exchange concerns the classroom location and the correct room card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "Which cue asks for a location?",
+      "options": [
+        "どれ",
+        "だれ",
+        "どこ"
+      ],
+      "correctIndex": 2,
+      "feedback": "どこ asks where something is.",
+      "explanation": "どこ asks where something is.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-03-c1",
+          "text": "どれ",
+          "rationale": "This does not fit the evidence or question type. どこ asks where something is."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-03-c2",
+          "text": "だれ",
+          "rationale": "This does not fit the evidence or question type. どこ asks where something is."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-03-c3",
+          "text": "どこ",
+          "rationale": "どこ asks where something is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "Which cue asks you to choose one card from several?",
+      "options": [
+        "どれ",
+        "何",
+        "だれ"
+      ],
+      "correctIndex": 0,
+      "feedback": "どれ selects an item among alternatives.",
+      "explanation": "どれ selects an item among alternatives.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-04-c1",
+          "text": "どれ",
+          "rationale": "どれ selects an item among alternatives."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-04-c2",
+          "text": "何",
+          "rationale": "This does not fit the evidence or question type. どれ selects an item among alternatives."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-04-c3",
+          "text": "だれ",
+          "rationale": "This does not fit the evidence or question type. どれ selects an item among alternatives."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "What does 二階 answer in the exchange?",
+      "options": [
+        "Who Tanaka is",
+        "Where the classroom is",
+        "Which card Mina owns"
+      ],
+      "correctIndex": 1,
+      "feedback": "二階 means second floor, a location answer to どこ.",
+      "explanation": "二階 means second floor, a location answer to どこ.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-05-c1",
+          "text": "Who Tanaka is",
+          "rationale": "This does not fit the evidence or question type. 二階 means second floor, a location answer to どこ."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-05-c2",
+          "text": "Where the classroom is",
+          "rationale": "二階 means second floor, a location answer to どこ."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-05-c3",
+          "text": "Which card Mina owns",
+          "rationale": "This does not fit the evidence or question type. 二階 means second floor, a location answer to どこ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "Which phrase means 'What is this card?'",
+      "options": [
+        "このカードはどれですか。",
+        "このカードはだれですか。",
+        "このカードは何ですか。"
+      ],
+      "correctIndex": 2,
+      "feedback": "何（なん）ですか asks what the object is.",
+      "explanation": "何（なん）ですか asks what the object is.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-06-c1",
+          "text": "このカードはどれですか。",
+          "rationale": "This does not fit the evidence or question type. 何（なん）ですか asks what the object is."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-06-c2",
+          "text": "このカードはだれですか。",
+          "rationale": "This does not fit the evidence or question type. 何（なん）ですか asks what the object is."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-06-c3",
+          "text": "このカードは何ですか。",
+          "rationale": "何（なん）ですか asks what the object is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "In ミナさんも学生ですか, what does も contribute?",
+      "options": [
+        "Also / too",
+        "A location",
+        "A question word for who"
+      ],
+      "correctIndex": 0,
+      "feedback": "も adds an 'also/too' meaning and replaces は in this position.",
+      "explanation": "も adds an 'also/too' meaning and replaces は in this position.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-07-c1",
+          "text": "Also / too",
+          "rationale": "も adds an 'also/too' meaning and replaces は in this position."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-07-c2",
+          "text": "A location",
+          "rationale": "This does not fit the evidence or question type. も adds an 'also/too' meaning and replaces は in this position."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-07-c3",
+          "text": "A question word for who",
+          "rationale": "This does not fit the evidence or question type. も adds an 'also/too' meaning and replaces は in this position."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c02-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l01-question-cues"
+      ],
+      "prompt": "Which statement is supported by the dialogue?",
+      "options": [
+        "Mina's card is marked B",
+        "Tanaka says the classroom is on the second floor",
+        "Mina is the teacher"
+      ],
+      "correctIndex": 1,
+      "feedback": "Tanaka answers 二階です, and identifies the A card.",
+      "explanation": "Tanaka answers 二階です, and identifies the A card.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c02-l01-08-c1",
+          "text": "Mina's card is marked B",
+          "rationale": "This does not fit the evidence or question type. Tanaka answers 二階です, and identifies the A card."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-08-c2",
+          "text": "Tanaka says the classroom is on the second floor",
+          "rationale": "Tanaka answers 二階です, and identifies the A card."
+        },
+        {
+          "id": "ex-n5-m01-c02-l01-08-c3",
+          "text": "Mina is the teacher",
+          "rationale": "This does not fit the evidence or question type. Tanaka answers 二階です, and identifies the A card."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c02-l01-08-c2"
+      }
+    }
+  ]
+}
