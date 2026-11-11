@@ -1,0 +1,7 @@
+import {describe,it,expect} from 'vitest';
+import bank from '../content/exercises/n5-m02-c02-l06-v1.json';
+import {gradePlacesListening} from '../components/interactive/PlacesListeningPractice';
+describe('N5-M02-C02-L06 listening integrity',()=>{
+it('has six unique, answerable questions across two tracks',()=>{expect(bank.lessonId).toBe('n5-m02-c02-l06');expect(bank.items).toHaveLength(6);expect(new Set(bank.items.map(q=>q.id)).size).toBe(6);expect(bank.items.filter(q=>q.trackId==='a')).toHaveLength(3);expect(bank.items.filter(q=>q.trackId==='b')).toHaveLength(3);for(const q of bank.items){expect(q.choices).toHaveLength(4);expect(new Set(q.choices.map(c=>c.id)).size).toBe(4);expect(q.choices.some(c=>c.id===q.answerKey.choiceId)).toBe(true);expect(q.evidence.length).toBeGreaterThan(4);expect(q.explanation.length).toBeGreaterThan(12);}});
+it('grades correct, blank and incorrect responses',()=>{const perfect=Object.fromEntries(bank.items.map(q=>[q.id,q.answerKey.choiceId]));expect(gradePlacesListening(perfect)).toBe(6);expect(gradePlacesListening({})).toBe(0);const wrong=Object.fromEntries(bank.items.map(q=>[q.id,q.choices.find(c=>c.id!==q.answerKey.choiceId)!.id]));expect(gradePlacesListening(wrong)).toBe(0);});
+});

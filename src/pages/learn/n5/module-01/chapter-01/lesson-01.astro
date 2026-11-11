@@ -1,0 +1,19 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import FirstMeetingContextPractice from '../../../../../components/interactive/FirstMeetingContextPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import bank from '../../../../../content/exercises/n5-m01-c01-l01-v1.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'n5/first-meeting-context');
+if (!lesson || lesson.data.lessonId !== 'n5-m01-c01-l01') throw new Error('Missing canonical N5 first-meeting lesson');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'}]}>
+  <section class="page-hero"><div class="container"><p class="eyebrow">N5 · MODULE 01 · CHAPTER 01 · LESSON 01</p><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p></div></section>
+  <main class="container min-w-0 py-8">
+    <article class="lesson-prose min-w-0"><Content /></article>
+    <FirstMeetingContextPractice client:load lessonId="n5-m01-c01-l01" questions={bank.items} />
+    <LessonActions client:load lessonId="n5-m01-c01-l01" level="n5" />
+  </main>
+</Base>
