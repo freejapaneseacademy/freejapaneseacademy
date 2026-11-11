@@ -1,0 +1,251 @@
+{
+  "id": "n5-m05-c03-l06-check-v1",
+  "lessonId": "n5-m05-c03-l06",
+  "version": 1,
+  "tracks": [
+    "audio-n5-m05-c03-l06-a",
+    "audio-n5-m05-c03-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l06-1"
+      ],
+      "trackId": "audio-n5-m05-c03-l06-a",
+      "prompt": "What is the visitor looking for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bakery",
+          "rationale": "Supported directly by the spoken direction."
+        },
+        {
+          "id": "b",
+          "text": "A hospital",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        },
+        {
+          "id": "c",
+          "text": "A post office",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The visitor asks where the bakery is.",
+      "evidence": "パン屋はどこですか。"
+    },
+    {
+      "id": "ex-n5-m05-c03-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l06-2"
+      ],
+      "trackId": "audio-n5-m05-c03-l06-a",
+      "prompt": "What should the visitor do first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Turn left immediately",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        },
+        {
+          "id": "b",
+          "text": "Go straight along this road",
+          "rationale": "Supported directly by the spoken direction."
+        },
+        {
+          "id": "c",
+          "text": "Cross a bridge",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The first instruction is to go straight.",
+      "evidence": "この道をまっすぐ行ってください。"
+    },
+    {
+      "id": "ex-n5-m05-c03-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l06-3"
+      ],
+      "trackId": "audio-n5-m05-c03-l06-a",
+      "prompt": "Which way should the visitor turn at the next corner?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Right",
+          "rationale": "Supported directly by the spoken direction."
+        },
+        {
+          "id": "b",
+          "text": "Left",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        },
+        {
+          "id": "c",
+          "text": "Do not turn",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The local explicitly says to turn right.",
+      "evidence": "次の角を右に曲がってください。"
+    },
+    {
+      "id": "ex-n5-m05-c03-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l06-4"
+      ],
+      "trackId": "audio-n5-m05-c03-l06-b",
+      "prompt": "Which landmark should the visitor reach first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The station",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        },
+        {
+          "id": "b",
+          "text": "The park",
+          "rationale": "Supported directly by the spoken direction."
+        },
+        {
+          "id": "c",
+          "text": "The bakery",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The guide says to go straight as far as the park.",
+      "evidence": "公園までまっすぐ行ってください。"
+    },
+    {
+      "id": "ex-n5-m05-c03-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l06-5"
+      ],
+      "trackId": "audio-n5-m05-c03-l06-b",
+      "prompt": "Which direction should the visitor turn at the park?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Right",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        },
+        {
+          "id": "b",
+          "text": "Go back",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        },
+        {
+          "id": "c",
+          "text": "Left",
+          "rationale": "Supported directly by the spoken direction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The guide rejects right and specifies left.",
+      "evidence": "いいえ、左に曲がってください。"
+    },
+    {
+      "id": "ex-n5-m05-c03-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l06-6"
+      ],
+      "trackId": "audio-n5-m05-c03-l06-b",
+      "prompt": "Where is the post office?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Next to the park",
+          "rationale": "Supported directly by the spoken direction."
+        },
+        {
+          "id": "b",
+          "text": "Inside the station",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        },
+        {
+          "id": "c",
+          "text": "Across from the bakery",
+          "rationale": "Not supported by this recording; listen to the relevant instruction again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The post office is beside the park.",
+      "evidence": "郵便局は公園のとなりにあります。"
+    }
+  ]
+}
