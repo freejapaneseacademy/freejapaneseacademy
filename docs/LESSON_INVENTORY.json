@@ -3858,6 +3858,21 @@
       "audio": "not required for written vocabulary L02",
       "noindex": false,
       "ownerApproval": "2026-11-08: owner authorized automatic publication after exact-head quality gates and Cloudflare verification"
+    },
+    {
+      "id": "n5-m02-c02-l03",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c02",
+      "slot": "L03",
+      "title": "Places and directions — ここ・そこ・あそこ, どこ and に",
+      "content": "src/content/lessons/n5/places-directions-grammar.mdx",
+      "url": "/learn/n5/module-02/chapter-02/lesson-03/",
+      "status": "published",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L03",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
