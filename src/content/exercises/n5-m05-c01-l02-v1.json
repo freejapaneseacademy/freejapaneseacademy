@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c01-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means a railway station?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅",
+          "rationale": "駅 (えき) is a station, not an airport or park."
+        },
+        {
+          "id": "c2",
+          "text": "空港",
+          "rationale": "空港 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "公園",
+          "rationale": "公園 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "駅 (えき) is a station, not an airport or park."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means a library building?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書室",
+          "rationale": "図書室 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "図書館",
+          "rationale": "図書館 (としょかん) is a library; 図書室 usually names a library room."
+        },
+        {
+          "id": "c3",
+          "text": "学校",
+          "rationale": "学校 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "図書館 (としょかん) is a library; 図書室 usually names a library room."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese word names a supermarket?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "バス",
+          "rationale": "バス does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "地下鉄",
+          "rationale": "地下鉄 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "スーパー",
+          "rationale": "スーパー is the katakana word for supermarket."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "スーパー is the katakana word for supermarket."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You are going to a park. Which destination noun fits?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園",
+          "rationale": "公園 (こうえん) means park; the others are vehicles."
+        },
+        {
+          "id": "c2",
+          "text": "電車",
+          "rationale": "電車 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "自転車",
+          "rationale": "自転車 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "公園 (こうえん) means park; the others are vehicles."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word refers to a subway or metro?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飛行機",
+          "rationale": "飛行機 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "地下鉄",
+          "rationale": "地下鉄 (ちかてつ) refers to subway transport."
+        },
+        {
+          "id": "c3",
+          "text": "車",
+          "rationale": "車 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "地下鉄 (ちかてつ) refers to subway transport."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means bicycle?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車",
+          "rationale": "電車 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "空港",
+          "rationale": "空港 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "自転車",
+          "rationale": "自転車 (じてんしゃ) is a bicycle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "自転車 (じてんしゃ) is a bicycle."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means airplane?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "飛行機",
+          "rationale": "飛行機 (ひこうき) means airplane."
+        },
+        {
+          "id": "c2",
+          "text": "バス",
+          "rationale": "バス does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "駅",
+          "rationale": "駅 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "飛行機 (ひこうき) means airplane."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In バスで行きます, what does バス identify?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Destination",
+          "rationale": "Destination does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "Means of transport",
+          "rationale": "バス is the vehicle used to travel; で marks the means."
+        },
+        {
+          "id": "c3",
+          "text": "Time of day",
+          "rationale": "Time of day does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "バス is the vehicle used to travel; で marks the means."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 学校へ行きます, what does 学校 identify?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Vehicle",
+          "rationale": "Vehicle does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "Travel companion",
+          "rationale": "Travel companion does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "Destination",
+          "rationale": "学校 is the destination; へ marks direction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "学校 is the destination; へ marks direction."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word can mean one's home in 家に帰ります?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "うち",
+          "rationale": "家 can be read うち in this homeward expression."
+        },
+        {
+          "id": "c2",
+          "text": "えき",
+          "rationale": "えき does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "こうえん",
+          "rationale": "こうえん does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "家 can be read うち in this homeward expression."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase says 'go by train'?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車へ行きます",
+          "rationale": "電車へ行きます does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "電車で行きます",
+          "rationale": "で marks the means of travel in 電車で行きます."
+        },
+        {
+          "id": "c3",
+          "text": "電車に帰ります",
+          "rationale": "電車に帰ります does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "で marks the means of travel in 電車で行きます."
+    },
+    {
+      "id": "ex-n5-m05-c01-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means airport?",
+      "objectiveIds": [
+        "n5-m05-c01-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l02-transport-destinations"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅",
+          "rationale": "駅 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c2",
+          "text": "図書館",
+          "rationale": "図書館 does not answer this particular question; review the distinction between places, vehicles and travel patterns."
+        },
+        {
+          "id": "c3",
+          "text": "空港",
+          "rationale": "空港 (くうこう) is an airport, distinct from 駅 (station)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "空港 (くうこう) is an airport, distinct from 駅 (station)."
+    }
+  ]
+}
