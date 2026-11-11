@@ -5,7 +5,7 @@ test('keyboard role switching, written feedback and retry',async({page})=>{
  await expect(page.getByRole('heading',{name:'Where is everyone? Optional existence-and-location roleplay'})).toBeVisible();
  await page.getByRole('button',{name:'Bag scene'}).click();
  await page.getByRole('button',{name:'Helper'}).click();
- await expect(page.getByText('図書室に あります。机の 上に あります。')).toBeVisible();
+ await expect(page.getByLabel('Find the teacher or the bag').getByText('図書室に あります。机の 上に あります。')).toBeVisible();
  await page.getByRole('checkbox',{name:/I used います/}).check();
  await expect(page.getByText(/1 of 4 self-review/)).toBeVisible();
  const questions=page.locator('.foundation-question');await expect(questions).toHaveCount(8);
