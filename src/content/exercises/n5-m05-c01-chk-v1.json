@@ -1,0 +1,470 @@
+{
+  "id": "n5-m05-c01-chk",
+  "lessonId": "n5-m05-c01-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original route plan in checkpoint MDX; written review only. L06 authentic audio is not represented as heard.",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-grammar-01"
+      ],
+      "prompt": "Which sentence says 'I go to the library by train'?",
+      "evidence": "電車で図書館に行きます。",
+      "explanation": "で marks the means of transport; に marks the destination; 行きます describes going.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-01-c1",
+          "text": "電車で図書館に行きます。",
+          "rationale": "Correct. で marks the means of transport; に marks the destination; 行きます describes going."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-01-c2",
+          "text": "電車に図書館で行きます。",
+          "rationale": "Not this one. で marks the means of transport; に marks the destination; 行きます describes going."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-01-c3",
+          "text": "電車を図書館へ来ます。",
+          "rationale": "Not this one. で marks the means of transport; に marks the destination; 行きます describes going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-grammar-02"
+      ],
+      "prompt": "A friend is waiting at the station and you are heading toward them. What do you say?",
+      "evidence": "駅に行きます。",
+      "explanation": "From your viewpoint you go to the station. 来ます would describe motion toward a relevant reference point, often the speaker.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-02-c1",
+          "text": "駅から帰ります。",
+          "rationale": "Not this one. From your viewpoint you go to the station. 来ます would describe motion toward a relevant reference point, often the speaker."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-02-c2",
+          "text": "駅に行きます。",
+          "rationale": "Correct. From your viewpoint you go to the station. 来ます would describe motion toward a relevant reference point, often the speaker."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-02-c3",
+          "text": "駅で帰ります。",
+          "rationale": "Not this one. From your viewpoint you go to the station. 来ます would describe motion toward a relevant reference point, often the speaker."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-grammar-03"
+      ],
+      "prompt": "You are already at the library. Your friend is on the way to meet you. Which report fits?",
+      "evidence": "友だちは図書館に来ます。",
+      "explanation": "来ます describes your friend coming toward your present location at the library.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-03-c1",
+          "text": "友だちは図書館に帰ります。",
+          "rationale": "Not this one. 来ます describes your friend coming toward your present location at the library."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-03-c2",
+          "text": "友だちは図書館で行きます。",
+          "rationale": "Not this one. 来ます describes your friend coming toward your present location at the library."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-03-c3",
+          "text": "友だちは図書館に来ます。",
+          "rationale": "Correct. 来ます describes your friend coming toward your present location at the library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-vocabulary-04"
+      ],
+      "prompt": "Which means 'I return home'?",
+      "evidence": "家に帰ります。",
+      "explanation": "帰ります means to return; 家に identifies home as the destination.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-04-c1",
+          "text": "家に帰ります。",
+          "rationale": "Correct. 帰ります means to return; 家に identifies home as the destination."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-04-c2",
+          "text": "家で来ます。",
+          "rationale": "Not this one. 帰ります means to return; 家に identifies home as the destination."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-04-c3",
+          "text": "家へ行きません。",
+          "rationale": "Not this one. 帰ります means to return; 家に identifies home as the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-script-05"
+      ],
+      "prompt": "Choose the correct reading of 電車.",
+      "evidence": "電車（でんしゃ）",
+      "explanation": "電車 is read でんしゃ and means train.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-05-c1",
+          "text": "でんしゃ",
+          "rationale": "Correct. 電車 is read でんしゃ and means train."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-05-c2",
+          "text": "でんちゃ",
+          "rationale": "Not this one. 電車 is read でんしゃ and means train."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-05-c3",
+          "text": "てんしゃ",
+          "rationale": "Not this one. 電車 is read でんしゃ and means train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-vocabulary-06"
+      ],
+      "prompt": "Which word means 'on foot'?",
+      "evidence": "歩いて",
+      "explanation": "歩いて is 'on foot'; バス is bus and 自転車 is bicycle.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-06-c1",
+          "text": "バス",
+          "rationale": "Not this one. 歩いて is 'on foot'; バス is bus and 自転車 is bicycle."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-06-c2",
+          "text": "歩いて",
+          "rationale": "Correct. 歩いて is 'on foot'; バス is bus and 自転車 is bicycle."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-06-c3",
+          "text": "自転車",
+          "rationale": "Not this one. 歩いて is 'on foot'; バス is bus and 自転車 is bicycle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-reading-07"
+      ],
+      "prompt": "In the route plan, who travels to the library by train?",
+      "evidence": "たけし：電車で図書館に行きます。",
+      "explanation": "The route plan explicitly states たけし：電車で図書館に行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-07-c1",
+          "text": "ゆき",
+          "rationale": "Not this one. The route plan explicitly states たけし：電車で図書館に行きます。"
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-07-c2",
+          "text": "たけし",
+          "rationale": "Correct. The route plan explicitly states たけし：電車で図書館に行きます。"
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-07-c3",
+          "text": "みか",
+          "rationale": "Not this one. The route plan explicitly states たけし：電車で図書館に行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-reading-08"
+      ],
+      "prompt": "In the route plan, where does Mika go after the park?",
+      "evidence": "みか：バスで公園に行きます。公園から家に帰ります。",
+      "explanation": "The plan states 公園から家に帰ります, returning home from the park.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-08-c1",
+          "text": "図書館",
+          "rationale": "Not this one. The plan states 公園から家に帰ります, returning home from the park."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-08-c2",
+          "text": "駅",
+          "rationale": "Not this one. The plan states 公園から家に帰ります, returning home from the park."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-08-c3",
+          "text": "家",
+          "rationale": "Correct. The plan states 公園から家に帰ります, returning home from the park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-reading-09"
+      ],
+      "prompt": "In the route plan, how does Yuki get to the station?",
+      "evidence": "ゆき：歩いて駅に行きます。",
+      "explanation": "The plan says ゆき：歩いて駅に行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-09-c1",
+          "text": "歩いて",
+          "rationale": "Correct. The plan says ゆき：歩いて駅に行きます。"
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-09-c2",
+          "text": "電車で",
+          "rationale": "Not this one. The plan says ゆき：歩いて駅に行きます。"
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-09-c3",
+          "text": "バスで",
+          "rationale": "Not this one. The plan says ゆき：歩いて駅に行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-09-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-grammar-10"
+      ],
+      "prompt": "Which particle marks the bus as the means of travel?",
+      "evidence": "バスで行きます。",
+      "explanation": "In バスで行きます, で marks the means; に and へ can mark a destination.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-10-c1",
+          "text": "に",
+          "rationale": "Not this one. In バスで行きます, で marks the means; に and へ can mark a destination."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-10-c2",
+          "text": "で",
+          "rationale": "Correct. In バスで行きます, で marks the means; に and へ can mark a destination."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-10-c3",
+          "text": "へ",
+          "rationale": "Not this one. In バスで行きます, で marks the means; に and へ can mark a destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-10-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-grammar-11"
+      ],
+      "prompt": "Which sentence best means 'I go to the park'?",
+      "evidence": "公園へ行きます。",
+      "explanation": "へ (pronounced え) can mark direction or destination with 行きます.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-11-c1",
+          "text": "公園で行きます。",
+          "rationale": "Not this one. へ (pronounced え) can mark direction or destination with 行きます."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-11-c2",
+          "text": "公園に来ます。",
+          "rationale": "Not this one. へ (pronounced え) can mark direction or destination with 行きます."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-11-c3",
+          "text": "公園へ行きます。",
+          "rationale": "Correct. へ (pronounced え) can mark direction or destination with 行きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c01-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-chk-grammar-12"
+      ],
+      "prompt": "Which sentence is a question about destination?",
+      "evidence": "どこに行きますか。",
+      "explanation": "どこに asks where someone is going; 何で asks by what means, and いつ asks when.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c01-chk-12-c1",
+          "text": "どこに行きますか。",
+          "rationale": "Correct. どこに asks where someone is going; 何で asks by what means, and いつ asks when."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-12-c2",
+          "text": "何で来ますか。",
+          "rationale": "Not this one. どこに asks where someone is going; 何で asks by what means, and いつ asks when."
+        },
+        {
+          "id": "ex-n5-m05-c01-chk-12-c3",
+          "text": "いつ帰りますか。",
+          "rationale": "Not this one. どこに asks where someone is going; 何で asks by what means, and いつ asks when."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c01-chk-12-c1"
+      }
+    }
+  ]
+}
