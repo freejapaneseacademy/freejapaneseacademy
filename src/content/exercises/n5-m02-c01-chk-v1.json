@@ -1,0 +1,616 @@
+{
+  "id": "n5-m02-c01-chk",
+  "lessonId": "n5-m02-c01-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original lost-and-found notes A–D and N5-M02-C01-L06 recorded dialogues; listening locked until genuine audio playable",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m02-c01-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-grammar-1"
+      ],
+      "prompt": "Which phrase means 'this notebook' when the notebook is beside the speaker?",
+      "evidence": "このノート",
+      "explanation": "この modifies a following noun; これ stands alone.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-01-c1",
+          "text": "このノート",
+          "rationale": "Correct: この modifies a following noun; これ stands alone."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-01-c2",
+          "text": "これノート",
+          "rationale": "Incorrect: この modifies a following noun; これ stands alone."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-01-c3",
+          "text": "そのノート",
+          "rationale": "Incorrect: この modifies a following noun; これ stands alone."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-01-c4",
+          "text": "あのノート",
+          "rationale": "Incorrect: この modifies a following noun; これ stands alone."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-grammar-2"
+      ],
+      "prompt": "Which word replaces 'that umbrella over there' without repeating the noun?",
+      "evidence": "あれ",
+      "explanation": "あれ stands alone and refers to something distant from both speakers.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-02-c1",
+          "text": "あの",
+          "rationale": "Incorrect: あれ stands alone and refers to something distant from both speakers."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-02-c2",
+          "text": "これ",
+          "rationale": "Incorrect: あれ stands alone and refers to something distant from both speakers."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-02-c3",
+          "text": "この",
+          "rationale": "Incorrect: あれ stands alone and refers to something distant from both speakers."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-02-c4",
+          "text": "あれ",
+          "rationale": "Correct: あれ stands alone and refers to something distant from both speakers."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-02-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-grammar-3"
+      ],
+      "prompt": "At the counter, which question asks whose bag this is?",
+      "evidence": "このかばんはだれのですか。",
+      "explanation": "だれの asks ownership; この directly modifies かばん.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-03-c1",
+          "text": "これかばんはだれのですか。",
+          "rationale": "Incorrect: だれの asks ownership; この directly modifies かばん."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-03-c2",
+          "text": "このかばんのだれですか。",
+          "rationale": "Incorrect: だれの asks ownership; この directly modifies かばん."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-03-c3",
+          "text": "このかばんはだれのですか。",
+          "rationale": "Correct: だれの asks ownership; この directly modifies かばん."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-03-c4",
+          "text": "このかばんはだれですか。",
+          "rationale": "Incorrect: だれの asks ownership; この directly modifies かばん."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-grammar-4"
+      ],
+      "prompt": "Which response means 'It is Sato's' with the object understood?",
+      "evidence": "佐藤さんのです。",
+      "explanation": "の can stand for the previously identified object.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-04-c1",
+          "text": "佐藤さんかです。",
+          "rationale": "Incorrect: の can stand for the previously identified object."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-04-c2",
+          "text": "佐藤さんのです。",
+          "rationale": "Correct: の can stand for the previously identified object."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-04-c3",
+          "text": "佐藤さんはです。",
+          "rationale": "Incorrect: の can stand for the previously identified object."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-04-c4",
+          "text": "佐藤さんもです。",
+          "rationale": "Incorrect: の can stand for the previously identified object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-grammar-5"
+      ],
+      "prompt": "The pen is near the listener, not the speaker. Which standalone form is appropriate?",
+      "evidence": "それ",
+      "explanation": "それ points to an item near the listener; その needs a noun.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-05-c1",
+          "text": "それ",
+          "rationale": "Correct: それ points to an item near the listener; その needs a noun."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-05-c2",
+          "text": "これ",
+          "rationale": "Incorrect: それ points to an item near the listener; その needs a noun."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-05-c3",
+          "text": "あれ",
+          "rationale": "Incorrect: それ points to an item near the listener; その needs a noun."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-05-c4",
+          "text": "その",
+          "rationale": "Incorrect: それ points to an item near the listener; その needs a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-grammar-6"
+      ],
+      "prompt": "Which is the correct phrase for 'that red umbrella near you'?",
+      "evidence": "その赤いかさ",
+      "explanation": "その modifies the noun phrase 赤いかさ; それ cannot directly modify a noun.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-06-c1",
+          "text": "それ赤いかさ",
+          "rationale": "Incorrect: その modifies the noun phrase 赤いかさ; それ cannot directly modify a noun."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-06-c2",
+          "text": "あれ赤いかさ",
+          "rationale": "Incorrect: その modifies the noun phrase 赤いかさ; それ cannot directly modify a noun."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-06-c3",
+          "text": "この赤いかさ",
+          "rationale": "Incorrect: その modifies the noun phrase 赤いかさ; それ cannot directly modify a noun."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-06-c4",
+          "text": "その赤いかさ",
+          "rationale": "Correct: その modifies the noun phrase 赤いかさ; それ cannot directly modify a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-06-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-reading-7"
+      ],
+      "prompt": "Note A: which item was found?",
+      "evidence": "青いノートをあずかっています。",
+      "explanation": "青いノート names the blue notebook.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-07-c1",
+          "text": "Black bag",
+          "rationale": "Incorrect: 青いノート names the blue notebook."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-07-c2",
+          "text": "White pencil",
+          "rationale": "Incorrect: 青いノート names the blue notebook."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-07-c3",
+          "text": "Blue notebook",
+          "rationale": "Correct: 青いノート names the blue notebook."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-07-c4",
+          "text": "Red umbrella",
+          "rationale": "Incorrect: 青いノート names the blue notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-reading-8"
+      ],
+      "prompt": "Note B: who owns the umbrella?",
+      "evidence": "赤いかさは山本さんのです。",
+      "explanation": "山本さんのです states the owner.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-08-c1",
+          "text": "Unknown",
+          "rationale": "Incorrect: 山本さんのです states the owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-08-c2",
+          "text": "Yamamoto",
+          "rationale": "Correct: 山本さんのです states the owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-08-c3",
+          "text": "Tanaka",
+          "rationale": "Incorrect: 山本さんのです states the owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-08-c4",
+          "text": "Sato",
+          "rationale": "Incorrect: 山本さんのです states the owner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-reading-9"
+      ],
+      "prompt": "Note C: where should the owner ask?",
+      "evidence": "このかばんは職員室（しょくいんしつ）にあります。",
+      "explanation": "職員室にあります identifies the location.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-09-c1",
+          "text": "Staff room",
+          "rationale": "Correct: 職員室にあります identifies the location."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-09-c2",
+          "text": "Classroom",
+          "rationale": "Incorrect: 職員室にあります identifies the location."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-09-c3",
+          "text": "Library",
+          "rationale": "Incorrect: 職員室にあります identifies the location."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-09-c4",
+          "text": "Station",
+          "rationale": "Incorrect: 職員室にあります identifies the location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-09-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-reading-10"
+      ],
+      "prompt": "Note D: which item belongs to Sato?",
+      "evidence": "佐藤さんのノートは机（つくえ）の上（うえ）です。",
+      "explanation": "佐藤さんのノート directly identifies the notebook.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-10-c1",
+          "text": "Bag",
+          "rationale": "Incorrect: 佐藤さんのノート directly identifies the notebook."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-10-c2",
+          "text": "Umbrella",
+          "rationale": "Incorrect: 佐藤さんのノート directly identifies the notebook."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-10-c3",
+          "text": "Pencil",
+          "rationale": "Incorrect: 佐藤さんのノート directly identifies the notebook."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-10-c4",
+          "text": "Notebook",
+          "rationale": "Correct: 佐藤さんのノート directly identifies the notebook."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-10-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-listening-11"
+      ],
+      "prompt": "Track A: whose is the blue umbrella?",
+      "evidence": "それは田中さんのです。",
+      "explanation": "田中さんのです identifies the blue umbrella's owner.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-11-c1",
+          "text": "Sato",
+          "rationale": "Incorrect: 田中さんのです identifies the blue umbrella's owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-11-c2",
+          "text": "Staff member",
+          "rationale": "Incorrect: 田中さんのです identifies the blue umbrella's owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-11-c3",
+          "text": "Tanaka",
+          "rationale": "Correct: 田中さんのです identifies the blue umbrella's owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-11-c4",
+          "text": "Yamamoto",
+          "rationale": "Incorrect: 田中さんのです identifies the blue umbrella's owner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-listening-12"
+      ],
+      "prompt": "Track A: whose is the red umbrella?",
+      "evidence": "いいえ、それは山本さんのです。",
+      "explanation": "いいえ corrects the guess; 山本さん is the red umbrella's owner.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-12-c1",
+          "text": "Unknown",
+          "rationale": "Incorrect: いいえ corrects the guess; 山本さん is the red umbrella's owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-12-c2",
+          "text": "Yamamoto",
+          "rationale": "Correct: いいえ corrects the guess; 山本さん is the red umbrella's owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-12-c3",
+          "text": "Tanaka",
+          "rationale": "Incorrect: いいえ corrects the guess; 山本さん is the red umbrella's owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-12-c4",
+          "text": "Sato",
+          "rationale": "Incorrect: いいえ corrects the guess; 山本さん is the red umbrella's owner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-listening-13"
+      ],
+      "prompt": "Track B: who owns the distant bag?",
+      "evidence": "あれは佐藤さんのです。",
+      "explanation": "あれ refers to the distant bag and 佐藤さんの gives its owner.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-13-c1",
+          "text": "Sato",
+          "rationale": "Correct: あれ refers to the distant bag and 佐藤さんの gives its owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-13-c2",
+          "text": "Tanaka",
+          "rationale": "Incorrect: あれ refers to the distant bag and 佐藤さんの gives its owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-13-c3",
+          "text": "Staff member",
+          "rationale": "Incorrect: あれ refers to the distant bag and 佐藤さんの gives its owner."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-13-c4",
+          "text": "Yamamoto",
+          "rationale": "Incorrect: あれ refers to the distant bag and 佐藤さんの gives its owner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-13-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c01-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-chk-listening-14"
+      ],
+      "prompt": "Track B: who owns the notebook being held?",
+      "evidence": "いいえ、そのノートはわたしのです。",
+      "explanation": "わたしのです is spoken by the staff member.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c01-chk-14-c1",
+          "text": "Sato",
+          "rationale": "Incorrect: わたしのです is spoken by the staff member."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-14-c2",
+          "text": "Tanaka",
+          "rationale": "Incorrect: わたしのです is spoken by the staff member."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-14-c3",
+          "text": "Yamamoto",
+          "rationale": "Incorrect: わたしのです is spoken by the staff member."
+        },
+        {
+          "id": "ex-n5-m02-c01-chk-14-c4",
+          "text": "Staff member",
+          "rationale": "Correct: わたしのです is spoken by the staff member."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c01-chk-14-c4"
+      }
+    }
+  ]
+}
