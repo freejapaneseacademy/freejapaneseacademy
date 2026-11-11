@@ -1,0 +1,272 @@
+{
+  "id": "n5-m06-c03-l06",
+  "lessonId": "n5-m06-c03-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy-authored two-scene request dialogue; scored listening requires real verified WAVs",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l06-requests-rules"
+      ],
+      "trackId": "audio-n5-m06-c03-l06-a",
+      "prompt": "What does the visitor ask to use?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l06-01-c1",
+          "text": "A dictionary",
+          "rationale": "Correct. The visitor explicitly asks about using a dictionary."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-01-c2",
+          "text": "A camera",
+          "rationale": "Not supported by the spoken line. The visitor explicitly asks about using a dictionary."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-01-c3",
+          "text": "A chair",
+          "rationale": "Not supported by the spoken line. The visitor explicitly asks about using a dictionary."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l06-01-c1"
+      },
+      "evidence": "この辞書を使ってもいいですか。",
+      "explanation": "The visitor explicitly asks about using a dictionary.",
+      "feedback": "The visitor explicitly asks about using a dictionary."
+    },
+    {
+      "id": "ex-n5-m06-c03-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l06-requests-rules"
+      ],
+      "trackId": "audio-n5-m06-c03-l06-a",
+      "prompt": "Where should the dictionary be used?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l06-02-c1",
+          "text": "Outside",
+          "rationale": "Not supported by the spoken line. The staff member asks that it be used here."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-02-c2",
+          "text": "Here in the study room",
+          "rationale": "Correct. The staff member asks that it be used here."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-02-c3",
+          "text": "At home",
+          "rationale": "Not supported by the spoken line. The staff member asks that it be used here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l06-02-c2"
+      },
+      "evidence": "ここで使ってください。",
+      "explanation": "The staff member asks that it be used here.",
+      "feedback": "The staff member asks that it be used here."
+    },
+    {
+      "id": "ex-n5-m06-c03-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l06-requests-rules"
+      ],
+      "trackId": "audio-n5-m06-c03-l06-a",
+      "prompt": "Can the visitor take photographs here?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l06-03-c1",
+          "text": "Yes, anytime",
+          "rationale": "Not supported by the spoken line. The staff member states a prohibition."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-03-c2",
+          "text": "Only after lunch",
+          "rationale": "Not supported by the spoken line. The staff member states a prohibition."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-03-c3",
+          "text": "No, photographs are prohibited",
+          "rationale": "Correct. The staff member states a prohibition."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l06-03-c3"
+      },
+      "evidence": "ここでは写真を撮ってはいけません。",
+      "explanation": "The staff member states a prohibition.",
+      "feedback": "The staff member states a prohibition."
+    },
+    {
+      "id": "ex-n5-m06-c03-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l06-requests-rules"
+      ],
+      "trackId": "audio-n5-m06-c03-l06-b",
+      "prompt": "Which drink is permitted?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l06-04-c1",
+          "text": "Coffee",
+          "rationale": "Not supported by the spoken line. The staff member explicitly permits water."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-04-c2",
+          "text": "Water",
+          "rationale": "Correct. The staff member explicitly permits water."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-04-c3",
+          "text": "Tea",
+          "rationale": "Not supported by the spoken line. The staff member explicitly permits water."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l06-04-c2"
+      },
+      "evidence": "水は飲んでもいいですよ。",
+      "explanation": "The staff member explicitly permits water.",
+      "feedback": "The staff member explicitly permits water."
+    },
+    {
+      "id": "ex-n5-m06-c03-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l06-requests-rules"
+      ],
+      "trackId": "audio-n5-m06-c03-l06-b",
+      "prompt": "Can the visitor enter the room now?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l06-05-c1",
+          "text": "Yes, now",
+          "rationale": "Not supported by the spoken line. The staff member says entering is prohibited now."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-05-c2",
+          "text": "No, not now",
+          "rationale": "Correct. The staff member says entering is prohibited now."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-05-c3",
+          "text": "Only with a ticket",
+          "rationale": "Not supported by the spoken line. The staff member says entering is prohibited now."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l06-05-c2"
+      },
+      "evidence": "今は入ってはいけません。",
+      "explanation": "The staff member says entering is prohibited now.",
+      "feedback": "The staff member says entering is prohibited now."
+    },
+    {
+      "id": "ex-n5-m06-c03-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l06-requests-rules"
+      ],
+      "trackId": "audio-n5-m06-c03-l06-b",
+      "prompt": "What should the visitor do?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l06-06-c1",
+          "text": "Go outside",
+          "rationale": "Not supported by the spoken line. The staff member asks the visitor to wait here."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-06-c2",
+          "text": "Take a photo",
+          "rationale": "Not supported by the spoken line. The staff member asks the visitor to wait here."
+        },
+        {
+          "id": "ex-n5-m06-c03-l06-06-c3",
+          "text": "Wait here",
+          "rationale": "Correct. The staff member asks the visitor to wait here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l06-06-c3"
+      },
+      "evidence": "ここで待ってください。",
+      "explanation": "The staff member asks the visitor to wait here.",
+      "feedback": "The staff member asks the visitor to wait here."
+    }
+  ]
+}
