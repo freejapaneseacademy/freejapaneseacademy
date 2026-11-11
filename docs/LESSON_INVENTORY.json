@@ -4134,6 +4134,23 @@
       "audio": "not required for written L01; no audio or pronunciation evaluation claimed",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m02-c04-l02",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c04",
+      "slot": "L02",
+      "title": "Room vocabulary: furniture and spatial words",
+      "content": "src/content/lessons/n5/room-vocabulary.mdx",
+      "url": "/learn/n5/module-02/chapter-04/lesson-02/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L02",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
