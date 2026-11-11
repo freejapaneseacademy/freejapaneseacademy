@@ -1,0 +1,318 @@
+{
+  "id": "n5-m06-c02-l05",
+  "lessonId": "n5-m06-c02-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional community cooking-class instruction card in te-form-instruction-card-reading.mdx; written evidence only.",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-01"
+      ],
+      "prompt": "Who puts on an apron?",
+      "evidence": "ミカさんは手を洗って、エプロンを着ます。",
+      "explanation": "The instruction card states: ミカさんは手を洗って、エプロンを着ます。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-01-c1",
+          "text": "Mika",
+          "rationale": "Correct: ミカさんは手を洗って、エプロンを着ます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-01-c2",
+          "text": "Haru",
+          "rationale": "Not supported by the card. Compare with: ミカさんは手を洗って、エプロンを着ます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-01-c3",
+          "text": "The participants",
+          "rationale": "Not supported by the card. Compare with: ミカさんは手を洗って、エプロンを着ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c02-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-02"
+      ],
+      "prompt": "What does Haru do before putting vegetables on a plate?",
+      "evidence": "ハルさんは野菜を切って、皿に入れます。",
+      "explanation": "The instruction card states: ハルさんは野菜を切って、皿に入れます。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-02-c1",
+          "text": "Serves soup",
+          "rationale": "Not supported by the card. Compare with: ハルさんは野菜を切って、皿に入れます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-02-c2",
+          "text": "Cuts vegetables",
+          "rationale": "Correct: ハルさんは野菜を切って、皿に入れます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-02-c3",
+          "text": "Wipes the table",
+          "rationale": "Not supported by the card. Compare with: ハルさんは野菜を切って、皿に入れます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c02-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-03"
+      ],
+      "prompt": "At what time do the two make soup?",
+      "evidence": "午前九時半に、二人はスープを作ります。",
+      "explanation": "The instruction card states: 午前九時半に、二人はスープを作ります。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-03-c1",
+          "text": "9:00 a.m.",
+          "rationale": "Not supported by the card. Compare with: 午前九時半に、二人はスープを作ります。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-03-c2",
+          "text": "10:00 a.m.",
+          "rationale": "Not supported by the card. Compare with: 午前九時半に、二人はスープを作ります。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-03-c3",
+          "text": "9:30 a.m.",
+          "rationale": "Correct: 午前九時半に、二人はスープを作ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c02-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-04"
+      ],
+      "prompt": "Who wipes the table?",
+      "evidence": "二人はテーブルを拭きます。",
+      "explanation": "The instruction card states: 二人はテーブルを拭きます。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-04-c1",
+          "text": "Both Mika and Haru",
+          "rationale": "Correct: 二人はテーブルを拭きます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-04-c2",
+          "text": "Only Mika",
+          "rationale": "Not supported by the card. Compare with: 二人はテーブルを拭きます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-04-c3",
+          "text": "The participants",
+          "rationale": "Not supported by the card. Compare with: 二人はテーブルを拭きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c02-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-05"
+      ],
+      "prompt": "Which action follows making the soup?",
+      "evidence": "スープを作ってから、二人はテーブルを拭きます。",
+      "explanation": "The instruction card states: スープを作ってから、二人はテーブルを拭きます。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-05-c1",
+          "text": "Putting on an apron",
+          "rationale": "Not supported by the card. Compare with: スープを作ってから、二人はテーブルを拭きます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-05-c2",
+          "text": "Wiping the table",
+          "rationale": "Correct: スープを作ってから、二人はテーブルを拭きます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-05-c3",
+          "text": "Cutting vegetables",
+          "rationale": "Not supported by the card. Compare with: スープを作ってから、二人はテーブルを拭きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c02-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-06"
+      ],
+      "prompt": "Who receives the soup at the end?",
+      "evidence": "参加者にスープを出します。",
+      "explanation": "The instruction card states: 参加者にスープを出します。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-06-c1",
+          "text": "The two preparers only",
+          "rationale": "Not supported by the card. Compare with: 参加者にスープを出します。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-06-c2",
+          "text": "The center director",
+          "rationale": "Not supported by the card. Compare with: 参加者にスープを出します。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-06-c3",
+          "text": "The participants",
+          "rationale": "Correct: 参加者にスープを出します。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c02-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-07"
+      ],
+      "prompt": "Which phrase explicitly marks the final step?",
+      "evidence": "最後に、午前十時に、参加者にスープを出します。",
+      "explanation": "The instruction card states: 最後に、午前十時に、参加者にスープを出します。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-07-c1",
+          "text": "最後に",
+          "rationale": "Correct: 最後に、午前十時に、参加者にスープを出します。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-07-c2",
+          "text": "次に",
+          "rationale": "Not supported by the card. Compare with: 最後に、午前十時に、参加者にスープを出します。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-07-c3",
+          "text": "午前九時に",
+          "rationale": "Not supported by the card. Compare with: 最後に、午前十時に、参加者にスープを出します。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c02-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l05-reading-08"
+      ],
+      "prompt": "What does 野菜を切ってから tell you about the order?",
+      "evidence": "野菜を切ってから、ミカさんは水を鍋に入れます。",
+      "explanation": "The instruction card states: 野菜を切ってから、ミカさんは水を鍋に入れます。 This is the explicit evidence for the correct answer.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l05-08-c1",
+          "text": "Water goes in before vegetables are cut",
+          "rationale": "Not supported by the card. Compare with: 野菜を切ってから、ミカさんは水を鍋に入れます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-08-c2",
+          "text": "Vegetables are cut before the water task",
+          "rationale": "Correct: 野菜を切ってから、ミカさんは水を鍋に入れます。"
+        },
+        {
+          "id": "ex-n5-m06-c02-l05-08-c3",
+          "text": "Both actions occur at the same time",
+          "rationale": "Not supported by the card. Compare with: 野菜を切ってから、ミカさんは水を鍋に入れます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l05-08-c2"
+      }
+    }
+  ]
+}
