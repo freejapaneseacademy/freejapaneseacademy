@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c03-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which character means right?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右",
+          "rationale": "右 (みぎ) indicates right."
+        },
+        {
+          "id": "c2",
+          "text": "左",
+          "rationale": "左 is not correct here. 右 (みぎ) indicates right."
+        },
+        {
+          "id": "c3",
+          "text": "道",
+          "rationale": "道 is not correct here. 右 (みぎ) indicates right."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "右 (みぎ) indicates right."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which character means left?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "左",
+          "rationale": "左 (ひだり) indicates left."
+        },
+        {
+          "id": "c2",
+          "text": "右",
+          "rationale": "右 is not correct here. 左 (ひだり) indicates left."
+        },
+        {
+          "id": "c3",
+          "text": "口",
+          "rationale": "口 is not correct here. 左 (ひだり) indicates left."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "左 (ひだり) indicates left."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means road?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "道",
+          "rationale": "道 (みち) means road or path."
+        },
+        {
+          "id": "c2",
+          "text": "駅",
+          "rationale": "駅 is not correct here. 道 (みち) means road or path."
+        },
+        {
+          "id": "c3",
+          "text": "園",
+          "rationale": "園 is not correct here. 道 (みち) means road or path."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "道 (みち) means road or path."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sign names a station?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅",
+          "rationale": "駅 (えき) means station."
+        },
+        {
+          "id": "c2",
+          "text": "口",
+          "rationale": "口 is not correct here. 駅 (えき) means station."
+        },
+        {
+          "id": "c3",
+          "text": "書",
+          "rationale": "書 is not correct here. 駅 (えき) means station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "駅 (えき) means station."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means exit?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "出口",
+          "rationale": "出口 (でぐち) means exit."
+        },
+        {
+          "id": "c2",
+          "text": "公園",
+          "rationale": "公園 is not correct here. 出口 (でぐち) means exit."
+        },
+        {
+          "id": "c3",
+          "text": "図書館",
+          "rationale": "図書館 is not correct here. 出口 (でぐち) means exit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "出口 (でぐち) means exit."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means park?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園",
+          "rationale": "公園 (こうえん) is a park."
+        },
+        {
+          "id": "c2",
+          "text": "図書館",
+          "rationale": "図書館 is not correct here. 公園 (こうえん) is a park."
+        },
+        {
+          "id": "c3",
+          "text": "出口",
+          "rationale": "出口 is not correct here. 公園 (こうえん) is a park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "公園 (こうえん) is a park."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means library?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館",
+          "rationale": "図書館 (としょかん) is a library."
+        },
+        {
+          "id": "c2",
+          "text": "公園",
+          "rationale": "公園 is not correct here. 図書館 (としょかん) is a library."
+        },
+        {
+          "id": "c3",
+          "text": "駅",
+          "rationale": "駅 is not correct here. 図書館 (としょかん) is a library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "図書館 (としょかん) is a library."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word contains three kanji?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館",
+          "rationale": "図・書・館 are three characters."
+        },
+        {
+          "id": "c2",
+          "text": "公園",
+          "rationale": "公園 is not correct here. 図・書・館 are three characters."
+        },
+        {
+          "id": "c3",
+          "text": "出口",
+          "rationale": "出口 is not correct here. 図・書・館 are three characters."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "図・書・館 are three characters."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means turn left?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "左に曲がってください",
+          "rationale": "左に曲がってください asks someone to turn left."
+        },
+        {
+          "id": "c2",
+          "text": "右に曲がってください",
+          "rationale": "右に曲がってください is not correct here. 左に曲がってください asks someone to turn left."
+        },
+        {
+          "id": "c3",
+          "text": "左にあります",
+          "rationale": "左にあります is not correct here. 左に曲がってください asks someone to turn left."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "左に曲がってください asks someone to turn left."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence states a location, not a turn?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅の出口は右にあります。",
+          "rationale": "右にあります states where the exit is."
+        },
+        {
+          "id": "c2",
+          "text": "右に曲がってください。",
+          "rationale": "右に曲がってください。 is not correct here. 右にあります states where the exit is."
+        },
+        {
+          "id": "c3",
+          "text": "まっすぐ行ってください。",
+          "rationale": "まっすぐ行ってください。 is not correct here. 右にあります states where the exit is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "右にあります states where the exit is."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "On the fictional sign, which destination points left?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "公園 ←",
+          "rationale": "The signboard shows 公園 with a left arrow."
+        },
+        {
+          "id": "c2",
+          "text": "図書館 ↑",
+          "rationale": "図書館 ↑ is not correct here. The signboard shows 公園 with a left arrow."
+        },
+        {
+          "id": "c3",
+          "text": "駅　出口 →",
+          "rationale": "駅　出口 → is not correct here. The signboard shows 公園 with a left arrow."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The signboard shows 公園 with a left arrow."
+    },
+    {
+      "id": "ex-n5-m05-c03-l04-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the correct reading of 図書館?",
+      "objectiveIds": [
+        "n5-m05-c03-l04-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l04-kanji-navigation"
+      ],
+      "skills": [
+        "reading",
+        "recognition"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "としょかん",
+          "rationale": "図書館 is read としょかん."
+        },
+        {
+          "id": "c2",
+          "text": "こうえん",
+          "rationale": "こうえん is not correct here. 図書館 is read としょかん."
+        },
+        {
+          "id": "c3",
+          "text": "でぐち",
+          "rationale": "でぐち is not correct here. 図書館 is read としょかん."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "図書館 is read としょかん."
+    }
+  ]
+}
