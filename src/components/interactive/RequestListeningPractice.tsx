@@ -12,6 +12,7 @@ export default function RequestListeningPractice(){
  const [available,setAvailable]=useState<Record<string,boolean>>({});
  const [failed,setFailed]=useState<Record<string,boolean>>({});
  const [reveal,setReveal]=useState<Record<string,boolean>>({});
+ const [assisted,setAssisted]=useState(false);
  const [answers,setAnswers]=useState<Record<string,string>>({});
  const [submitted,setSubmitted]=useState(false);
  const [notice,setNotice]=useState('');
@@ -20,7 +21,7 @@ export default function RequestListeningPractice(){
  async function submit(){
   if(!ready){setNotice('Verified audio must be available before a listening score can be saved.');return;}
   if(listeningQuestions.some(q=>!answers[q.id])){setNotice('Answer all six questions.');return;}
-  if(Object.values(reveal).some(Boolean)){setNotice('Transcript revealed: use this as assisted practice. Hide transcripts and retry for a blind listening attempt.');setSubmitted(true);return;}
+  if(assisted){setNotice('Transcript viewed: this is assisted practice, not a blind listening score. Retry for a blind attempt.');setSubmitted(true);return;}
   setSubmitted(true);
   try{await recordAttempt(LISTENING_QUIZ_ID,'n5',score,listeningQuestions.length);setNotice('Blind listening attempt saved on this device.');}
   catch{setNotice('Answers checked; local progress storage is unavailable.');}
@@ -31,7 +32,7 @@ export default function RequestListeningPractice(){
   {scenes.map(s=><section key={s.id} aria-label={s.title} style={{marginBlock:'1.5rem',minWidth:0}}>
    <h3>{s.title}</h3><audio controls preload="metadata" src={s.url} style={{width:'100%',maxWidth:'100%'}} onCanPlay={()=>setAvailable(v=>({...v,[s.id]:true}))} onError={()=>{setFailed(v=>({...v,[s.id]:true}));setAvailable(v=>({...v,[s.id]:false}));}} aria-label={s.title+' recording'} />
    {failed[s.id]&&<p role="status">This recording is not available yet. Audio generation and verification are required before scored listening.</p>}
-   <button type="button" aria-expanded={!!reveal[s.id]} onClick={()=>setReveal(v=>({...v,[s.id]:!v[s.id]}))}>{reveal[s.id]?'Hide transcript':'Reveal Japanese transcript and translation (assisted practice)'}</button>
+   <button type="button" aria-expanded={!!reveal[s.id]} onClick={()=>{if(!reveal[s.id])setAssisted(true);setReveal(v=>({...v,[s.id]:!v[s.id]}));}}>{reveal[s.id]?'Hide transcript':'Reveal Japanese transcript and translation (assisted practice)'}</button>
    {reveal[s.id]&&<div className="course-notice">{s.lines.map((line,i)=><p key={i}><strong>{line[0]}:</strong> <span lang="ja">{line[1]}</span> — {line[2]}</p>)}</div>}
   </section>)}
   <h2>Six audible comprehension questions</h2>
@@ -41,6 +42,6 @@ export default function RequestListeningPractice(){
    {submitted&&<p role="status"><strong>{answers[q.id]===q.answerKey.choiceId?'Correct.':'Review.'}</strong> {q.choices.find(c=>c.id===answers[q.id])?.rationale} <span lang="ja">{q.evidence}</span></p>}
   </fieldset>)}
   <p aria-live="polite">{notice}</p>
-  {submitted?<><p role="status">Practice result: {score} / {listeningQuestions.length}{Object.values(reveal).some(Boolean)?' (assisted, not saved)':''}</p><button type="button" onClick={()=>{setAnswers({});setSubmitted(false);setReveal({});setNotice('Ready for another attempt.');}}>Retry without transcript</button></>:<button type="button" onClick={submit} disabled={!ready||Object.keys(answers).length!==listeningQuestions.length}>Check listening answers</button>}
+  {submitted?<><p role="status">Practice result: {score} / {listeningQuestions.length}{assisted?' (assisted, not saved)':''}</p><button type="button" onClick={()=>{setAnswers({});setSubmitted(false);setReveal({});setAssisted(false);setNotice('Ready for another attempt.');}}>Retry without transcript</button></>:<button type="button" onClick={submit} disabled={!ready||Object.keys(answers).length!==listeningQuestions.length}>Check listening answers</button>}
  </section>;
 }
