@@ -1,0 +1,13 @@
+import { useEffect, useState } from 'react';
+import bank from '../../content/exercises/n5-m06-c02-l04-v1.json';
+import { recordAttempt } from '../../lib/progress';
+export const scoreActionKanji = (answers: Record<string,string>) => bank.items.filter(q=>answers[q.id]===q.answerKey.choiceId).length;
+export default function ActionKanjiPractice(){
+ const [ready,setReady]=useState(false),[answers,setAnswers]=useState<Record<string,string>>({}),[submitted,setSubmitted]=useState(false),[notice,setNotice]=useState('');
+ useEffect(()=>setReady(true),[]);
+ async function submit(){if(!ready||submitted||bank.items.some(q=>!answers[q.id]))return;setSubmitted(true);try{await recordAttempt('n5-m06-c02-l04-written-v1','n5',scoreActionKanji(answers),bank.items.length);setNotice('Attempt saved on this device.');}catch{setNotice('Storage unavailable; your result is still shown.');}}
+ return <section aria-label="Action kanji practice" className="min-w-0 space-y-5"><h2 className="text-2xl font-semibold">Check your reading</h2><p>Use Tab and arrow keys to select an answer. All questions are written recognition, not pronunciation grading.</p>
+ {bank.items.map((q,i)=><fieldset key={q.id} data-question-id={q.id} disabled={!ready||submitted} className="min-w-0 rounded-xl border border-current/30 p-3 sm:p-4"><legend className="font-semibold">{i+1}. {q.prompt}</legend>{q.choices.map(c=><label key={c.id} className="flex min-h-11 items-start gap-3 rounded-lg p-2 focus-within:outline focus-within:outline-2"><input type="radio" name={q.id} checked={answers[q.id]===c.id} onChange={()=>setAnswers(v=>({...v,[q.id]:c.id}))}/><span className="break-words">{c.text}</span></label>)}{submitted&&<p role="status"><strong>{answers[q.id]===q.answerKey.choiceId?'Correct. ':'Review. '}</strong>{q.choices.find(c=>c.id===answers[q.id])?.rationale}</p>}</fieldset>)}
+ {!submitted?<button type="button" disabled={!ready||bank.items.some(q=>!answers[q.id])} onClick={submit} className="min-h-11 rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white disabled:opacity-50">Check 12 answers</button>:<div role="status"><p>Written recognition score: {scoreActionKanji(answers)}/12. Not an official JLPT score.</p><button type="button" className="min-h-11 rounded-lg border border-current px-4 py-2" onClick={()=>{setSubmitted(false);setAnswers({});setNotice('');}}>Retry questions</button></div>}
+ <p aria-live="polite" role="status">{notice}</p></section>;
+}
