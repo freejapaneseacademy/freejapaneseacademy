@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c04-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'departure'?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "出発",
+          "rationale": "Correct. 出発 (しゅっぱつ) names the start of a journey."
+        },
+        {
+          "id": "c2",
+          "text": "到着",
+          "rationale": "Not quite. 出発 (しゅっぱつ) names the start of a journey."
+        },
+        {
+          "id": "c3",
+          "text": "集合",
+          "rationale": "Not quite. 出発 (しゅっぱつ) names the start of a journey."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "出発 (しゅっぱつ) names the start of a journey."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'arrival'?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "出発",
+          "rationale": "Not quite. 到着 (とうちゃく) names the end of a journey."
+        },
+        {
+          "id": "c2",
+          "text": "到着",
+          "rationale": "Correct. 到着 (とうちゃく) names the end of a journey."
+        },
+        {
+          "id": "c3",
+          "text": "運賃",
+          "rationale": "Not quite. 到着 (とうちゃく) names the end of a journey."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "到着 (とうちゃく) names the end of a journey."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 片道 mean?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "round trip",
+          "rationale": "Not quite. 片道 (かたみち) is travel in one direction."
+        },
+        {
+          "id": "c2",
+          "text": "timetable",
+          "rationale": "Not quite. 片道 (かたみち) is travel in one direction."
+        },
+        {
+          "id": "c3",
+          "text": "one way",
+          "rationale": "Correct. 片道 (かたみち) is travel in one direction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "片道 (かたみち) is travel in one direction."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 往復 mean?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "round trip",
+          "rationale": "Correct. 往復 (おうふく) covers the outward and return journeys."
+        },
+        {
+          "id": "c2",
+          "text": "one way",
+          "rationale": "Not quite. 往復 (おうふく) covers the outward and return journeys."
+        },
+        {
+          "id": "c3",
+          "text": "boarding area",
+          "rationale": "Not quite. 往復 (おうふく) covers the outward and return journeys."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "往復 (おうふく) covers the outward and return journeys."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'fare'?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "切符",
+          "rationale": "Not quite. 運賃 (うんちん) is the transport charge."
+        },
+        {
+          "id": "c2",
+          "text": "運賃",
+          "rationale": "Correct. 運賃 (うんちん) is the transport charge."
+        },
+        {
+          "id": "c3",
+          "text": "乗り場",
+          "rationale": "Not quite. 運賃 (うんちん) is the transport charge."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "運賃 (うんちん) is the transport charge."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'ticket'?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "運賃",
+          "rationale": "Not quite. 切符 (きっぷ) is a ticket, not the price itself."
+        },
+        {
+          "id": "c2",
+          "text": "時刻表",
+          "rationale": "Not quite. 切符 (きっぷ) is a ticket, not the price itself."
+        },
+        {
+          "id": "c3",
+          "text": "切符",
+          "rationale": "Correct. 切符 (きっぷ) is a ticket, not the price itself."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "切符 (きっぷ) is a ticket, not the price itself."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where do passengers board? Choose the Japanese word.",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "乗り場",
+          "rationale": "Correct. 乗り場 (のりば) is the boarding area."
+        },
+        {
+          "id": "c2",
+          "text": "目的地",
+          "rationale": "Not quite. 乗り場 (のりば) is the boarding area."
+        },
+        {
+          "id": "c3",
+          "text": "集合",
+          "rationale": "Not quite. 乗り場 (のりば) is the boarding area."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "乗り場 (のりば) is the boarding area."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'timetable'?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "目的地",
+          "rationale": "Not quite. 時刻表 (じこくひょう) lists scheduled times."
+        },
+        {
+          "id": "c2",
+          "text": "時刻表",
+          "rationale": "Correct. 時刻表 (じこくひょう) lists scheduled times."
+        },
+        {
+          "id": "c3",
+          "text": "運賃",
+          "rationale": "Not quite. 時刻表 (じこくひょう) lists scheduled times."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "時刻表 (じこくひょう) lists scheduled times."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which means 'a.m.'?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午後",
+          "rationale": "Not quite. 午前 (ごぜん) indicates morning or before noon."
+        },
+        {
+          "id": "c2",
+          "text": "往復",
+          "rationale": "Not quite. 午前 (ごぜん) indicates morning or before noon."
+        },
+        {
+          "id": "c3",
+          "text": "午前",
+          "rationale": "Correct. 午前 (ごぜん) indicates morning or before noon."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "午前 (ごぜん) indicates morning or before noon."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which means 'p.m.'?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午後",
+          "rationale": "Correct. 午後 (ごご) indicates afternoon/evening or after noon."
+        },
+        {
+          "id": "c2",
+          "text": "午前",
+          "rationale": "Not quite. 午後 (ごご) indicates afternoon/evening or after noon."
+        },
+        {
+          "id": "c3",
+          "text": "片道",
+          "rationale": "Not quite. 午後 (ごご) indicates afternoon/evening or after noon."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "午後 (ごご) indicates afternoon/evening or after noon."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the notice, when does the group meet?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "9:00 a.m.",
+          "rationale": "Not quite. 集合：午前八時半 gives the meeting time, before departure."
+        },
+        {
+          "id": "c2",
+          "text": "8:30 a.m.",
+          "rationale": "Correct. 集合：午前八時半 gives the meeting time, before departure."
+        },
+        {
+          "id": "c3",
+          "text": "9:20 a.m.",
+          "rationale": "Not quite. 集合：午前八時半 gives the meeting time, before departure."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "集合：午前八時半 gives the meeting time, before departure."
+    },
+    {
+      "id": "ex-n5-m05-c04-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the notice, what is the one-way fare?",
+      "objectiveIds": [
+        "n5-m05-c04-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l02-travel-vocabulary"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "¥400",
+          "rationale": "Not quite. 運賃：片道二百円、往復四百円 gives ¥200 one way."
+        },
+        {
+          "id": "c2",
+          "text": "¥900",
+          "rationale": "Not quite. 運賃：片道二百円、往復四百円 gives ¥200 one way."
+        },
+        {
+          "id": "c3",
+          "text": "¥200",
+          "rationale": "Correct. 運賃：片道二百円、往復四百円 gives ¥200 one way."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "運賃：片道二百円、往復四百円 gives ¥200 one way."
+    }
+  ]
+}
