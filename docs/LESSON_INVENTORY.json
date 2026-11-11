@@ -3904,6 +3904,23 @@
       "audio": "not required for written L05",
       "noindex": false,
       "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "n5-m04-c04-chk",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c04",
+      "slot": "CHK",
+      "title": "Invitations and decisions — chapter checkpoint",
+      "content": "src/content/lessons/n5/invitations-chapter-checkpoint.mdx",
+      "url": "/learn/n5/module-04/chapter-04/checkpoint/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "Written checkpoint only; authentic predecessor L06 audio pending generation and validation; no listening score",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
