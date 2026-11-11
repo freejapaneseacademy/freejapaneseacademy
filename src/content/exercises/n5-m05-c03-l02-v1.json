@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c03-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'right'?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右",
+          "rationale": "右 (みぎ) is right, not 左 (left)."
+        },
+        {
+          "id": "c2",
+          "text": "左",
+          "rationale": "Not here. 右 (みぎ) is right, not 左 (left)."
+        },
+        {
+          "id": "c3",
+          "text": "まっすぐ",
+          "rationale": "Not here. 右 (みぎ) is right, not 左 (left)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "右 (みぎ) is right, not 左 (left)."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'left'?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右",
+          "rationale": "Not here. 左 (ひだり) is left."
+        },
+        {
+          "id": "c2",
+          "text": "左",
+          "rationale": "左 (ひだり) is left."
+        },
+        {
+          "id": "c3",
+          "text": "道",
+          "rationale": "Not here. 左 (ひだり) is left."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "左 (ひだり) is left."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A guide says まっすぐ行ってください. Which direction?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Turn left",
+          "rationale": "Not here. まっすぐ means straight ahead; 行ってください is a polite request to go."
+        },
+        {
+          "id": "c2",
+          "text": "Go straight ahead",
+          "rationale": "まっすぐ means straight ahead; 行ってください is a polite request to go."
+        },
+        {
+          "id": "c3",
+          "text": "Turn right",
+          "rationale": "Not here. まっすぐ means straight ahead; 行ってください is a polite request to go."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "まっすぐ means straight ahead; 行ってください is a polite request to go."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word refers to an intersection?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "交差点",
+          "rationale": "交差点 (こうさてん) is an intersection; 角 is a corner."
+        },
+        {
+          "id": "c2",
+          "text": "角",
+          "rationale": "Not here. 交差点 (こうさてん) is an intersection; 角 is a corner."
+        },
+        {
+          "id": "c3",
+          "text": "駅",
+          "rationale": "Not here. 交差点 (こうさてん) is an intersection; 角 is a corner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "交差点 (こうさてん) is an intersection; 角 is a corner."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'corner'?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "道",
+          "rationale": "Not here. 角 (かど) is a corner."
+        },
+        {
+          "id": "c2",
+          "text": "信号",
+          "rationale": "Not here. 角 (かど) is a corner."
+        },
+        {
+          "id": "c3",
+          "text": "角",
+          "rationale": "角 (かど) is a corner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "角 (かど) is a corner."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is a 信号?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Traffic light",
+          "rationale": "信号 (しんごう) means traffic light."
+        },
+        {
+          "id": "c2",
+          "text": "Station",
+          "rationale": "Not here. 信号 (しんごう) means traffic light."
+        },
+        {
+          "id": "c3",
+          "text": "Crosswalk",
+          "rationale": "Not here. 信号 (しんごう) means traffic light."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "信号 (しんごう) means traffic light."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word is a pedestrian crossing?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "銀行",
+          "rationale": "Not here. 横断歩道 (おうだんほどう) is a pedestrian crossing."
+        },
+        {
+          "id": "c2",
+          "text": "横断歩道",
+          "rationale": "横断歩道 (おうだんほどう) is a pedestrian crossing."
+        },
+        {
+          "id": "c3",
+          "text": "郵便局",
+          "rationale": "Not here. 横断歩道 (おうだんほどう) is a pedestrian crossing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "横断歩道 (おうだんほどう) is a pedestrian crossing."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which landmark means 'bank'?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "銀行",
+          "rationale": "銀行 (ぎんこう) is a bank."
+        },
+        {
+          "id": "c2",
+          "text": "駅",
+          "rationale": "Not here. 銀行 (ぎんこう) is a bank."
+        },
+        {
+          "id": "c3",
+          "text": "郵便局",
+          "rationale": "Not here. 銀行 (ぎんこう) is a bank."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "銀行 (ぎんこう) is a bank."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which landmark means 'post office'?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "銀行",
+          "rationale": "Not here. 郵便局 (ゆうびんきょく) is a post office."
+        },
+        {
+          "id": "c2",
+          "text": "道",
+          "rationale": "Not here. 郵便局 (ゆうびんきょく) is a post office."
+        },
+        {
+          "id": "c3",
+          "text": "郵便局",
+          "rationale": "郵便局 (ゆうびんきょく) is a post office."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "郵便局 (ゆうびんきょく) is a post office."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 駅の隣に銀行があります, where is the bank?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Across from the station",
+          "rationale": "Not here. 隣 (となり) indicates next to; の links the station to the location."
+        },
+        {
+          "id": "c2",
+          "text": "Next to the station",
+          "rationale": "隣 (となり) indicates next to; の links the station to the location."
+        },
+        {
+          "id": "c3",
+          "text": "Inside the station",
+          "rationale": "Not here. 隣 (となり) indicates next to; の links the station to the location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "隣 (となり) indicates next to; の links the station to the location."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'road / way'?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "道",
+          "rationale": "道 (みち) means road or way."
+        },
+        {
+          "id": "c2",
+          "text": "角",
+          "rationale": "Not here. 道 (みち) means road or way."
+        },
+        {
+          "id": "c3",
+          "text": "左",
+          "rationale": "Not here. 道 (みち) means road or way."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "道 (みち) means road or way."
+    },
+    {
+      "id": "ex-n5-m05-c03-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 信号を右に曲がってください, what should you do at the light?",
+      "objectiveIds": [
+        "n5-m05-c03-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l02-navigation-landmarks"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Go straight",
+          "rationale": "Not here. 右に曲がってください asks someone to turn right."
+        },
+        {
+          "id": "c2",
+          "text": "Turn left",
+          "rationale": "Not here. 右に曲がってください asks someone to turn right."
+        },
+        {
+          "id": "c3",
+          "text": "Turn right",
+          "rationale": "右に曲がってください asks someone to turn right."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "右に曲がってください asks someone to turn right."
+    }
+  ]
+}
