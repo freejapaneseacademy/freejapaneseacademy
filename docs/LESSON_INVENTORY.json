@@ -3904,6 +3904,23 @@
       "audio": "not required for written L05",
       "noindex": false,
       "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "n5-m04-c04-l08",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c04",
+      "slot": "L08",
+      "title": "Invitation role-play: Ask, accept and choose a place",
+      "content": "src/content/lessons/n5/invitations-roleplay.mdx",
+      "url": "/learn/n5/module-04/chapter-04/lesson-08/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese-language review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "no new audio required for optional role-play; no recording or pronunciation grade claimed",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
