@@ -1,0 +1,189 @@
+{
+  "lessonId": "n5-m06-c02-l06",
+  "chapterId": "n5-m06-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m06-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m06-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.66,
+      "transcript": "女性： 明日の発表の準備をしましょう。まず、何をしますか。\n男性： まず、紙を取って、名前を書きます。\n女性： そのあと、どうしますか。\n男性： 写真を見てから、ポスターを作ります。\n女性： ポスターを作ってから、先生に見せてください。",
+      "english": "Woman: Let's prepare for tomorrow's presentation. What shall we do first?\nMan: First, we take paper and write our names.\nWoman: What do we do after that?\nMan: After looking at the photos, we make a poster.\nWoman: After making the poster, please show it to the teacher.",
+      "scriptPurpose": "Preparing a classroom poster",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m06-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "明日の発表の準備をしましょう。まず、何をしますか。",
+          "english": "Let's prepare for tomorrow's presentation. What shall we do first?",
+          "startSeconds": 0.0,
+          "endSeconds": 4.63
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "まず、紙を取って、名前を書きます。",
+          "english": "First, we take paper and write our names.",
+          "startSeconds": 4.91,
+          "endSeconds": 7.84
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "そのあと、どうしますか。",
+          "english": "What do we do after that?",
+          "startSeconds": 8.12,
+          "endSeconds": 10.35
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "写真を見てから、ポスターを作ります。",
+          "english": "After looking at the photos, we make a poster.",
+          "startSeconds": 10.63,
+          "endSeconds": 13.64
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ポスターを作ってから、先生に見せてください。",
+          "english": "After making the poster, please show it to the teacher.",
+          "startSeconds": 13.92,
+          "endSeconds": 17.66
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "30c1f4ca148b94b161bcfc3f709c821f300ba2096616f8b24b3b8e7443e26d7c",
+        "bytes": 1557740,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m06-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m06-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.53,
+      "transcript": "男性： 今日のお昼ご飯は、どうやって作りますか。\n女性： 野菜を洗って、切ります。\n男性： 野菜を切ってから、何をしますか。\n女性： 鍋に入れて、少し煮ます。\n男性： 食べる前に、何をしますか。\n女性： 手を洗ってから、みんなで食べましょう。",
+      "english": "Man: How will we make today's lunch?\nWoman: We wash the vegetables and cut them.\nMan: After cutting the vegetables, what do we do?\nWoman: We put them in a pot and simmer them a little.\nMan: What do we do before eating?\nWoman: After washing our hands, let's eat together.",
+      "scriptPurpose": "Making lunch together",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m06-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "今日のお昼ご飯は、どうやって作りますか。",
+          "english": "How will we make today's lunch?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.25
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "野菜を洗って、切ります。",
+          "english": "We wash the vegetables and cut them.",
+          "startSeconds": 3.53,
+          "endSeconds": 5.93
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "野菜を切ってから、何をしますか。",
+          "english": "After cutting the vegetables, what do we do?",
+          "startSeconds": 6.21,
+          "endSeconds": 8.93
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "鍋に入れて、少し煮ます。",
+          "english": "We put them in a pot and simmer them a little.",
+          "startSeconds": 9.21,
+          "endSeconds": 11.68
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "食べる前に、何をしますか。",
+          "english": "What do we do before eating?",
+          "startSeconds": 11.96,
+          "endSeconds": 14.27
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "手を洗ってから、みんなで食べましょう。",
+          "english": "After washing our hands, let's eat together.",
+          "startSeconds": 14.55,
+          "endSeconds": 17.53
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "58b0f37aad7cf8e66df7e4aad66b2f6ab7c7e5ea4e25c47dfc88ccbbcacd0e5e",
+        "bytes": 1546060,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
