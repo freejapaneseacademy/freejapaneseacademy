@@ -1,0 +1,331 @@
+{
+  "id": "n5-m06-c02-l06-check-v1",
+  "lessonId": "n5-m06-c02-l06",
+  "version": 1,
+  "tracks": [
+    "audio-n5-m06-c02-l06-a",
+    "audio-n5-m06-c02-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-1"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-a",
+      "prompt": "What do they take first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Paper",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "A book",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "A pencil",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「まず、紙を取って、名前を書きます。」; paper is the stated detail.",
+      "evidence": "まず、紙を取って、名前を書きます。"
+    },
+    {
+      "id": "ex-n5-m06-c02-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-2"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-a",
+      "prompt": "What do they write?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their names",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "The date",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "The price",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「まず、紙を取って、名前を書きます。」; their names is the stated detail.",
+      "evidence": "まず、紙を取って、名前を書きます。"
+    },
+    {
+      "id": "ex-n5-m06-c02-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-3"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-a",
+      "prompt": "What do they do before making the poster?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Look at photos",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "Drink tea",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Read a book",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「写真を見てから、ポスターを作ります。」; look at photos is the stated detail.",
+      "evidence": "写真を見てから、ポスターを作ります。"
+    },
+    {
+      "id": "ex-n5-m06-c02-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-4"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-a",
+      "prompt": "Who should see the finished poster?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The teacher",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "The principal",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "A friend",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「ポスターを作ってから、先生に見せてください。」; the teacher is the stated detail.",
+      "evidence": "ポスターを作ってから、先生に見せてください。"
+    },
+    {
+      "id": "ex-n5-m06-c02-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-5"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-b",
+      "prompt": "What do they do before cutting vegetables?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wash them",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "Cook rice",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Boil water",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「野菜を洗って、切ります。」; wash them is the stated detail.",
+      "evidence": "野菜を洗って、切ります。"
+    },
+    {
+      "id": "ex-n5-m06-c02-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-6"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-b",
+      "prompt": "Where do they put the vegetables?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In a pot",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "On a plate",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "In a bag",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「鍋に入れて、少し煮ます。」; in a pot is the stated detail.",
+      "evidence": "鍋に入れて、少し煮ます。"
+    },
+    {
+      "id": "ex-n5-m06-c02-l06-007",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-7"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-b",
+      "prompt": "What do they do after putting the vegetables in the pot?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Simmer them a little",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "Freeze them",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Eat them immediately",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「鍋に入れて、少し煮ます。」; simmer them a little is the stated detail.",
+      "evidence": "鍋に入れて、少し煮ます。"
+    },
+    {
+      "id": "ex-n5-m06-c02-l06-008",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l06-8"
+      ],
+      "trackId": "audio-n5-m06-c02-l06-b",
+      "prompt": "What do they do before eating?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wash their hands",
+          "rationale": "Correct: this detail is explicitly stated in the spoken sequence."
+        },
+        {
+          "id": "b",
+          "text": "Make a poster",
+          "rationale": "Not stated in this sequence. Replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Go shopping",
+          "rationale": "Not stated in this sequence. Listen again for the action or person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The recording says 「手を洗ってから、みんなで食べましょう。」; wash their hands is the stated detail.",
+      "evidence": "手を洗ってから、みんなで食べましょう。"
+    }
+  ]
+}
