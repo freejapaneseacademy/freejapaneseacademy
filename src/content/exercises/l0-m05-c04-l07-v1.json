@@ -1,0 +1,334 @@
+{
+  "id": "l0-m05-c04-l07",
+  "lessonId": "l0-m05-c04-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original constrained kana-writing and review-plan practice",
+  "scoring": {
+    "mode": "short-input",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-l0-m05-c04-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'kitte' (postage stamp) in hiragana.",
+      "explanation": "The small っ closes the first mora before て.",
+      "feedback": "The small っ closes the first mora before て.",
+      "answerKey": {
+        "accepted": [
+          "きって"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "きって"
+      ],
+      "modelAnswer": "きって",
+      "commonError": "きて"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'gakkou' (school) in hiragana.",
+      "explanation": "がっこう uses small っ and う to represent the long ō vowel.",
+      "feedback": "がっこう uses small っ and う to represent the long ō vowel.",
+      "answerKey": {
+        "accepted": [
+          "がっこう"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "modelAnswer": "がっこう",
+      "commonError": "がこう"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'kyou' (today) in hiragana.",
+      "explanation": "きょ combines き and small ょ; う extends the vowel.",
+      "feedback": "きょ combines き and small ょ; う extends the vowel.",
+      "answerKey": {
+        "accepted": [
+          "きょう"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "きょう"
+      ],
+      "modelAnswer": "きょう",
+      "commonError": "きよう"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'ryokou' (trip) in hiragana.",
+      "explanation": "りょ contains small ょ; こう represents a long vowel.",
+      "feedback": "りょ contains small ょ; こう represents a long vowel.",
+      "answerKey": {
+        "accepted": [
+          "りょこう"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "りょこう"
+      ],
+      "modelAnswer": "りょこう",
+      "commonError": "りようこう"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'koohii' (coffee) in katakana.",
+      "explanation": "Two long-vowel bars ー are used in コーヒー.",
+      "feedback": "Two long-vowel bars ー are used in コーヒー.",
+      "answerKey": {
+        "accepted": [
+          "コーヒー"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "コーヒー"
+      ],
+      "modelAnswer": "コーヒー",
+      "commonError": "コヒ"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'chokoreeto' (chocolate) in katakana.",
+      "explanation": "チョ uses small ョ and レー uses the length bar.",
+      "feedback": "チョ uses small ョ and レー uses the length bar.",
+      "answerKey": {
+        "accepted": [
+          "チョコレート"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "チョコレート"
+      ],
+      "modelAnswer": "チョコレート",
+      "commonError": "チヨコレト"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'pan' (bread) in katakana.",
+      "explanation": "パ has handakuten and ン is the final nasal.",
+      "feedback": "パ has handakuten and ン is the final nasal.",
+      "answerKey": {
+        "accepted": [
+          "パン"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "パン"
+      ],
+      "modelAnswer": "パン",
+      "commonError": "バン"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'pen' (pen) in katakana.",
+      "explanation": "ペ has handakuten, not dakuten.",
+      "feedback": "ペ has handakuten, not dakuten.",
+      "answerKey": {
+        "accepted": [
+          "ペン"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "ペン"
+      ],
+      "modelAnswer": "ペン",
+      "commonError": "ベン"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'nihongo' (Japanese language) in hiragana.",
+      "explanation": "The final ご carries dakuten.",
+      "feedback": "The final ご carries dakuten.",
+      "answerKey": {
+        "accepted": [
+          "にほんご"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "にほんご"
+      ],
+      "modelAnswer": "にほんご",
+      "commonError": "にほんこ"
+    },
+    {
+      "id": "ex-l0-m05-c04-l07-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "short-input",
+      "skill": "writing",
+      "level": "l0",
+      "skills": [
+        "writing",
+        "written"
+      ],
+      "objectiveIds": [
+        "l0-m05-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l07-kana-recall"
+      ],
+      "prompt": "Write 'arigatou' (thank you) in hiragana.",
+      "explanation": "The conventional spelling ends with とう.",
+      "feedback": "The conventional spelling ends with とう.",
+      "answerKey": {
+        "accepted": [
+          "ありがとう"
+        ],
+        "normalization": "trim-and-unicode-nfc"
+      },
+      "acceptedAnswers": [
+        "ありがとう"
+      ],
+      "modelAnswer": "ありがとう",
+      "commonError": "ありがと"
+    }
+  ]
+}
