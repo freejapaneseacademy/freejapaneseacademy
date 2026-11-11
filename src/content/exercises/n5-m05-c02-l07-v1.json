@@ -1,0 +1,436 @@
+{
+  "lessonId": "n5-m05-c02-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l07-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-1"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "Which particle marks the destination in 公園＿行きます?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Correct. 公園に行きます uses に for the destination; へ is also possible in other sentences."
+        },
+        {
+          "id": "c2",
+          "text": "と",
+          "rationale": "Not quite. 公園に行きます uses に for the destination; へ is also possible in other sentences."
+        },
+        {
+          "id": "c3",
+          "text": "で",
+          "rationale": "Not quite. 公園に行きます uses に for the destination; へ is also possible in other sentences."
+        },
+        {
+          "id": "c4",
+          "text": "を",
+          "rationale": "Not quite. 公園に行きます uses に for the destination; へ is also possible in other sentences."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "公園に行きます uses に for the destination; へ is also possible in other sentences."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-2"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "Which phrase means 'by train'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車と",
+          "rationale": "Not quite. The vehicle takes で to mark means of travel."
+        },
+        {
+          "id": "c2",
+          "text": "電車に",
+          "rationale": "Not quite. The vehicle takes で to mark means of travel."
+        },
+        {
+          "id": "c3",
+          "text": "電車を",
+          "rationale": "Not quite. The vehicle takes で to mark means of travel."
+        },
+        {
+          "id": "c4",
+          "text": "電車で",
+          "rationale": "Correct. The vehicle takes で to mark means of travel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "The vehicle takes で to mark means of travel."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-3"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "Which phrase means 'with a friend'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だちに",
+          "rationale": "Not quite. The companion takes と, not the means particle で."
+        },
+        {
+          "id": "c2",
+          "text": "友だちへ",
+          "rationale": "Not quite. The companion takes と, not the means particle で."
+        },
+        {
+          "id": "c3",
+          "text": "友だちと",
+          "rationale": "Correct. The companion takes と, not the means particle で."
+        },
+        {
+          "id": "c4",
+          "text": "友だちで",
+          "rationale": "Not quite. The companion takes と, not the means particle で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The companion takes と, not the means particle で."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-4"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "How do you say 'go alone'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一人を行きます",
+          "rationale": "Not quite. 一人で describes travelling alone; と would suggest accompaniment."
+        },
+        {
+          "id": "c2",
+          "text": "一人で行きます",
+          "rationale": "Correct. 一人で describes travelling alone; と would suggest accompaniment."
+        },
+        {
+          "id": "c3",
+          "text": "一人と行きます",
+          "rationale": "Not quite. 一人で describes travelling alone; と would suggest accompaniment."
+        },
+        {
+          "id": "c4",
+          "text": "一人に行きます",
+          "rationale": "Not quite. 一人で describes travelling alone; と would suggest accompaniment."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "一人で describes travelling alone; と would suggest accompaniment."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-5"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "In 母とバスで行きます, what is the means of travel?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "バス",
+          "rationale": "Correct. バスで names the means, while 母と names the companion."
+        },
+        {
+          "id": "c2",
+          "text": "母",
+          "rationale": "Not quite. バスで names the means, while 母と names the companion."
+        },
+        {
+          "id": "c3",
+          "text": "行きます",
+          "rationale": "Not quite. バスで names the means, while 母と names the companion."
+        },
+        {
+          "id": "c4",
+          "text": "と",
+          "rationale": "Not quite. バスで names the means, while 母と names the companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "バスで names the means, while 母と names the companion."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-6"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "Which Japanese sentence says 'I go to the library with my younger sister'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "妹で図書館に行きます",
+          "rationale": "Not quite. 妹と identifies the companion and 図書館に identifies the destination."
+        },
+        {
+          "id": "c2",
+          "text": "妹に図書館と行きます",
+          "rationale": "Not quite. 妹と identifies the companion and 図書館に identifies the destination."
+        },
+        {
+          "id": "c3",
+          "text": "妹と図書館で行きます",
+          "rationale": "Not quite. 妹と identifies the companion and 図書館に identifies the destination."
+        },
+        {
+          "id": "c4",
+          "text": "妹と図書館に行きます",
+          "rationale": "Correct. 妹と identifies the companion and 図書館に identifies the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "妹と identifies the companion and 図書館に identifies the destination."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-7"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "Which sentence means 'I walk to the park'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "歩くで公園に行きます",
+          "rationale": "Not quite. 歩いて行きます expresses walking; do not add a vehicle で after 歩いて."
+        },
+        {
+          "id": "c2",
+          "text": "歩いてと公園に行きます",
+          "rationale": "Not quite. 歩いて行きます expresses walking; do not add a vehicle で after 歩いて."
+        },
+        {
+          "id": "c3",
+          "text": "歩いて公園に行きます",
+          "rationale": "Correct. 歩いて行きます expresses walking; do not add a vehicle で after 歩いて."
+        },
+        {
+          "id": "c4",
+          "text": "歩いてで公園に行きます",
+          "rationale": "Not quite. 歩いて行きます expresses walking; do not add a vehicle で after 歩いて."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "歩いて行きます expresses walking; do not add a vehicle で after 歩いて."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-8"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "What does 二人で express in 友だちと二人で行きます?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The friend is the destination",
+          "rationale": "Not quite. 二人で describes the size of the travelling group, not a vehicle."
+        },
+        {
+          "id": "c2",
+          "text": "There are two travellers",
+          "rationale": "Correct. 二人で describes the size of the travelling group, not a vehicle."
+        },
+        {
+          "id": "c3",
+          "text": "They take two trains",
+          "rationale": "Not quite. 二人で describes the size of the travelling group, not a vehicle."
+        },
+        {
+          "id": "c4",
+          "text": "They travel alone",
+          "rationale": "Not quite. 二人で describes the size of the travelling group, not a vehicle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "二人で describes the size of the travelling group, not a vehicle."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-9"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "Which sentence matches 'On Sunday I go by car with my father'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日曜日、父と車で行きます",
+          "rationale": "Correct. 父と is the companion and 車で the transport method."
+        },
+        {
+          "id": "c2",
+          "text": "日曜日、父で車と行きます",
+          "rationale": "Not quite. 父と is the companion and 車で the transport method."
+        },
+        {
+          "id": "c3",
+          "text": "日曜日、父に車と行きます",
+          "rationale": "Not quite. 父と is the companion and 車で the transport method."
+        },
+        {
+          "id": "c4",
+          "text": "日曜日、父と車に行きます",
+          "rationale": "Not quite. 父と is the companion and 車で the transport method."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "父と is the companion and 車で the transport method."
+    },
+    {
+      "id": "ex-n5-m05-c02-l07-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l07-pattern-10"
+      ],
+      "skills": [
+        "writing",
+        "recognition"
+      ],
+      "prompt": "Which statement is supported by 土曜日、友だちとバスで博物館に行きます?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The speaker travels alone by bus",
+          "rationale": "Not quite. 土曜日 gives Saturday, 友だちと a friend, バスで bus, and 博物館に the destination."
+        },
+        {
+          "id": "c2",
+          "text": "The speaker goes to a library by train",
+          "rationale": "Not quite. 土曜日 gives Saturday, 友だちと a friend, バスで bus, and 博物館に the destination."
+        },
+        {
+          "id": "c3",
+          "text": "The speaker goes with their father by car",
+          "rationale": "Not quite. 土曜日 gives Saturday, 友だちと a friend, バスで bus, and 博物館に the destination."
+        },
+        {
+          "id": "c4",
+          "text": "The speaker goes to a museum with a friend by bus",
+          "rationale": "Correct. 土曜日 gives Saturday, 友だちと a friend, バスで bus, and 博物館に the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "土曜日 gives Saturday, 友だちと a friend, バスで bus, and 博物館に the destination."
+    }
+  ]
+}
