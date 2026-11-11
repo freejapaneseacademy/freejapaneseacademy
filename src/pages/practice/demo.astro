@@ -1,8 +1,0 @@
----
-import Base from '../../layouts/Base.astro';
-import QuizDemo from '../../components/interactive/QuizDemo';
----
-<Base title="Hiragana Practice — Demonstration Quiz" description="Try a short hiragana demonstration quiz, with explanations and progress saved locally on your device." noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'Demo practice',href:'/practice/demo/'}]}>
-  <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><span>Demo practice</span></nav><span class="eyebrow">N5 · PRACTICE SPACE</span><h1>A little practice<br/>goes a long way.</h1><p>Three simple hiragana questions to show how the learning experience works. This is a demonstration, not an official JLPT exam.</p></div></section>
-  <section class="page-body"><div class="container"><QuizDemo client:load /></div></section>
-</Base>
