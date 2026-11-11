@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m05-c01-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Approved ACML 1.0 synthetic voices with attribution; generated WAV rights and model hash must be reverified by the audio workflow; no endorsement."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Meeting at the station",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m05-c01-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "あした、どこへ行きますか。",
+          "english": "Where are you going tomorrow?"
+        },
+        {
+          "speaker": "male",
+          "text": "駅へ行きます。それから、電車で図書館へ行きます。",
+          "english": "I'm going to the station. Then I'll go to the library by train."
+        },
+        {
+          "speaker": "female",
+          "text": "何時に図書館へ行きますか。",
+          "english": "What time will you go to the library?"
+        },
+        {
+          "speaker": "male",
+          "text": "十時に行きます。田中さんも来ますか。",
+          "english": "I'll go at ten. Will you come too, Tanaka?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい、十時に図書館へ行きます。",
+          "english": "Yes, I'll go to the library at ten."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where does the man go first?",
+        "How does he travel to the library?",
+        "At what time will they go to the library?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Returning from the park",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m05-c01-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "今日は公園へ行きますか。",
+          "english": "Are you going to the park today?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい、友だちとバスで公園へ行きます。",
+          "english": "Yes, I'm going to the park by bus with a friend."
+        },
+        {
+          "speaker": "male",
+          "text": "何時に家へ帰りますか。",
+          "english": "What time will you return home?"
+        },
+        {
+          "speaker": "female",
+          "text": "五時に帰ります。",
+          "english": "I'll return at five."
+        },
+        {
+          "speaker": "male",
+          "text": "そうですか。ぼくは六時に家へ帰ります。",
+          "english": "I see. I'll return home at six."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where is the woman going?",
+        "What transport does she use?",
+        "When will the woman return home?"
+      ]
+    }
+  ]
+}

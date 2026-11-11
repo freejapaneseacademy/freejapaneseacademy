@@ -1,0 +1,251 @@
+{
+  "id": "n5-m05-c01-l06-check-v1",
+  "lessonId": "n5-m05-c01-l06",
+  "version": 1,
+  "tracks": [
+    "audio-n5-m05-c01-l06-a",
+    "audio-n5-m05-c01-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l06-first-stop"
+      ],
+      "trackId": "audio-n5-m05-c01-l06-a",
+      "prompt": "Where does the man go first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The station",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "b",
+          "text": "The school",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "The park",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "He first says he will go to the station.",
+      "evidence": "駅へ行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c01-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l06-train"
+      ],
+      "trackId": "audio-n5-m05-c01-l06-a",
+      "prompt": "How does the man travel to the library?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By bus",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "By train",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "c",
+          "text": "On foot",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "He explicitly says 電車で (by train).",
+      "evidence": "電車で図書館へ行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c01-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l06-ten"
+      ],
+      "trackId": "audio-n5-m05-c01-l06-a",
+      "prompt": "What time will he go to the library?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At nine",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "At eleven",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "At ten",
+          "rationale": "The spoken evidence directly supports this choice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "十時 means ten o'clock.",
+      "evidence": "十時に行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c01-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l06-park"
+      ],
+      "trackId": "audio-n5-m05-c01-l06-b",
+      "prompt": "Where is the woman going today?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The library",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "The park",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "c",
+          "text": "The station",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "She says she will go to the park.",
+      "evidence": "公園へ行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c01-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l06-bus"
+      ],
+      "trackId": "audio-n5-m05-c01-l06-b",
+      "prompt": "How will she travel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By bus",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "b",
+          "text": "By train",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "By bicycle",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "バスで marks travel by bus.",
+      "evidence": "バスで公園へ行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c01-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l06-five"
+      ],
+      "trackId": "audio-n5-m05-c01-l06-b",
+      "prompt": "When will she return home?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At six",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "At four",
+          "rationale": "The recording does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "At five",
+          "rationale": "The spoken evidence directly supports this choice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "She will return at five, while the man returns at six.",
+      "evidence": "五時に帰ります。"
+    }
+  ]
+}
