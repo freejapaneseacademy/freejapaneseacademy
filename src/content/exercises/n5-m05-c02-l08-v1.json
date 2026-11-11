@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c02-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l08-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-1"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which question asks 'Who are you going with?'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "だれと行きますか。",
+          "rationale": "Correct. だれと asks for a companion; 何で asks the means of transport."
+        },
+        {
+          "id": "c2",
+          "text": "何で行きますか。",
+          "rationale": "Review. だれと asks for a companion; 何で asks the means of transport."
+        },
+        {
+          "id": "c3",
+          "text": "どこへ行きますか。",
+          "rationale": "Review. だれと asks for a companion; 何で asks the means of transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "だれと asks for a companion; 何で asks the means of transport."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-2"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "How do you say 'I am going with my older sister'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "姉で行きます。",
+          "rationale": "Review. A person accompanying you takes と, not the means marker で."
+        },
+        {
+          "id": "c2",
+          "text": "姉と行きます。",
+          "rationale": "Correct. A person accompanying you takes と, not the means marker で."
+        },
+        {
+          "id": "c3",
+          "text": "姉へ行きます。",
+          "rationale": "Review. A person accompanying you takes と, not the means marker で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "A person accompanying you takes と, not the means marker で."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-3"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which answer means 'I am going alone'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一人と行きます。",
+          "rationale": "Review. 一人で is the fixed expression for going alone."
+        },
+        {
+          "id": "c2",
+          "text": "一人に行きます。",
+          "rationale": "Review. 一人で is the fixed expression for going alone."
+        },
+        {
+          "id": "c3",
+          "text": "一人で行きます。",
+          "rationale": "Correct. 一人で is the fixed expression for going alone."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "一人で is the fixed expression for going alone."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-4"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "How do you say 'I am going by train'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車で行きます。",
+          "rationale": "Correct. Use で after the vehicle to identify the means of transport."
+        },
+        {
+          "id": "c2",
+          "text": "電車と行きます。",
+          "rationale": "Review. Use で after the vehicle to identify the means of transport."
+        },
+        {
+          "id": "c3",
+          "text": "電車へ行きます。",
+          "rationale": "Review. Use で after the vehicle to identify the means of transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Use で after the vehicle to identify the means of transport."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-5"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "A: だれと行きますか。 B: 友達と行きます。 Who is accompanying B?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A teacher",
+          "rationale": "Review. 友達と directly identifies a friend as the companion."
+        },
+        {
+          "id": "c2",
+          "text": "A friend",
+          "rationale": "Correct. 友達と directly identifies a friend as the companion."
+        },
+        {
+          "id": "c3",
+          "text": "Nobody",
+          "rationale": "Review. 友達と directly identifies a friend as the companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "友達と directly identifies a friend as the companion."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-6"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "A: 何で行きますか。 B: バスで行きます。 Which vehicle?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Train",
+          "rationale": "Review. バスで identifies travel by bus."
+        },
+        {
+          "id": "c2",
+          "text": "Bicycle",
+          "rationale": "Review. バスで identifies travel by bus."
+        },
+        {
+          "id": "c3",
+          "text": "Bus",
+          "rationale": "Correct. バスで identifies travel by bus."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "バスで identifies travel by bus."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-7"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which reply answers 何で行きますか naturally?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "地下鉄で行きます。",
+          "rationale": "Correct. The question asks how; 地下鉄で specifies travel by subway."
+        },
+        {
+          "id": "c2",
+          "text": "母と行きます。",
+          "rationale": "Review. The question asks how; 地下鉄で specifies travel by subway."
+        },
+        {
+          "id": "c3",
+          "text": "日曜日に行きます。",
+          "rationale": "Review. The question asks how; 地下鉄で specifies travel by subway."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The question asks how; 地下鉄で specifies travel by subway."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-8"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which reply answers だれと行きますか naturally?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "自転車で行きます。",
+          "rationale": "Review. The question asks with whom; 父と identifies the father."
+        },
+        {
+          "id": "c2",
+          "text": "父と行きます。",
+          "rationale": "Correct. The question asks with whom; 父と identifies the father."
+        },
+        {
+          "id": "c3",
+          "text": "公園へ行きます。",
+          "rationale": "Review. The question asks with whom; 父と identifies the father."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The question asks with whom; 父と identifies the father."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-9"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence means 'I will go to the museum by bus with my friend'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友達でバスと博物館に行きます。",
+          "rationale": "Review. 友達と is companion, バスで is means, 博物館に is destination."
+        },
+        {
+          "id": "c2",
+          "text": "友達にバスへ博物館で行きます。",
+          "rationale": "Review. 友達と is companion, バスで is means, 博物館に is destination."
+        },
+        {
+          "id": "c3",
+          "text": "友達とバスで博物館に行きます。",
+          "rationale": "Correct. 友達と is companion, バスで is means, 博物館に is destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "友達と is companion, バスで is means, 博物館に is destination."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-10"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is the correct response if you will walk with your friend?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友達と歩いて行きます。",
+          "rationale": "Correct. 友達と identifies the companion; 歩いて行きます expresses walking."
+        },
+        {
+          "id": "c2",
+          "text": "友達で歩くで行きます。",
+          "rationale": "Review. 友達と identifies the companion; 歩いて行きます expresses walking."
+        },
+        {
+          "id": "c3",
+          "text": "友達へ歩きと行きます。",
+          "rationale": "Review. 友達と identifies the companion; 歩いて行きます expresses walking."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "友達と identifies the companion; 歩いて行きます expresses walking."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-11"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "At the meeting place, your friend asks だれと来ますか。 What fits 'with my family'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "家族で来ます。",
+          "rationale": "Review. 家族と means with family. 来ます fits movement toward the meeting point."
+        },
+        {
+          "id": "c2",
+          "text": "家族と来ます。",
+          "rationale": "Correct. 家族と means with family. 来ます fits movement toward the meeting point."
+        },
+        {
+          "id": "c3",
+          "text": "家族へ来ます。",
+          "rationale": "Review. 家族と means with family. 来ます fits movement toward the meeting point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "家族と means with family. 来ます fits movement toward the meeting point."
+    },
+    {
+      "id": "ex-n5-m05-c02-l08-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c02-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l08-knowledge-12"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which exchange correctly distinguishes how from with whom?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "だれと行きますか。電車と行きます。",
+          "rationale": "Review. 何で requests transport; 電車で answers with a vehicle."
+        },
+        {
+          "id": "c2",
+          "text": "何で行きますか。友達で行きます。",
+          "rationale": "Review. 何で requests transport; 電車で answers with a vehicle."
+        },
+        {
+          "id": "c3",
+          "text": "何で行きますか。電車で行きます。",
+          "rationale": "Correct. 何で requests transport; 電車で answers with a vehicle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "何で requests transport; 電車で answers with a vehicle."
+    }
+  ]
+}
