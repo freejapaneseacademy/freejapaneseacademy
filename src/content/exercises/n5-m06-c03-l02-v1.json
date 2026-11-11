@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c03-l02",
+  "lessonId": "n5-m06-c03-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original community learning-room conversation and noticeboard",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-l02-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "「鉛筆を借りる」の「借りる」は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-01-c1",
+          "text": "borrow",
+          "rationale": "Correct. 借りる means borrow; 貸す means lend."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-01-c2",
+          "text": "lend",
+          "rationale": "Review: 借りる means borrow; 貸す means lend."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-01-c3",
+          "text": "buy",
+          "rationale": "Review: 借りる means borrow; 貸す means lend."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-01-c1"
+      },
+      "explanation": "借りる means borrow; 貸す means lend.",
+      "feedback": "借りる means borrow; 貸す means lend."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "「この机を使ってもいいですか」の「使う」は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-02-c1",
+          "text": "wait",
+          "rationale": "Review: 使う means use; the question asks permission to use the desk."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-02-c2",
+          "text": "use",
+          "rationale": "Correct. 使う means use; the question asks permission to use the desk."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-02-c3",
+          "text": "write",
+          "rationale": "Review: 使う means use; the question asks permission to use the desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-02-c2"
+      },
+      "explanation": "使う means use; the question asks permission to use the desk.",
+      "feedback": "使う means use; the question asks permission to use the desk."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "「ここで待ってください」は何をお願いしますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-03-c1",
+          "text": "to enter",
+          "rationale": "Review: 待つ（まつ） means wait; 待ってください requests waiting."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-03-c2",
+          "text": "to eat",
+          "rationale": "Review: 待つ（まつ） means wait; 待ってください requests waiting."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-03-c3",
+          "text": "to wait",
+          "rationale": "Correct. 待つ（まつ） means wait; 待ってください requests waiting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-03-c3"
+      },
+      "explanation": "待つ（まつ） means wait; 待ってください requests waiting.",
+      "feedback": "待つ（まつ） means wait; 待ってください requests waiting."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "Which verb means 'enter'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-04-c1",
+          "text": "入る（はいる）",
+          "rationale": "Correct. 入る means enter, whereas 座る means sit."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-04-c2",
+          "text": "座る（すわる）",
+          "rationale": "Review: 入る means enter, whereas 座る means sit."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-04-c3",
+          "text": "話す（はなす）",
+          "rationale": "Review: 入る means enter, whereas 座る means sit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-04-c1"
+      },
+      "explanation": "入る means enter, whereas 座る means sit.",
+      "feedback": "入る means enter, whereas 座る means sit."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "vocabulary",
+      "level": "n5",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "「写真を撮る」の意味は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-05-c1",
+          "text": "read a sign",
+          "rationale": "Review: 写真を撮る means take photographs."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-05-c2",
+          "text": "take photos",
+          "rationale": "Correct. 写真を撮る means take photographs."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-05-c3",
+          "text": "borrow a photo",
+          "rationale": "Review: 写真を撮る means take photographs."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-05-c2"
+      },
+      "explanation": "写真を撮る means take photographs.",
+      "feedback": "写真を撮る means take photographs."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "Which is the correct て-form of 読む（よむ）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-06-c1",
+          "text": "読みて",
+          "rationale": "Review: む-ending godan verbs form んで: 読む → 読んで."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-06-c2",
+          "text": "読って",
+          "rationale": "Review: む-ending godan verbs form んで: 読む → 読んで."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-06-c3",
+          "text": "読んで",
+          "rationale": "Correct. む-ending godan verbs form んで: 読む → 読んで."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-06-c3"
+      },
+      "explanation": "む-ending godan verbs form んで: 読む → 読んで.",
+      "feedback": "む-ending godan verbs form んで: 読む → 読んで."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "Which sentence politely asks to borrow a book?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-07-c1",
+          "text": "本を借りてもいいですか。",
+          "rationale": "Correct. 〜てもいいですか asks permission; 〜てください requests an action."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-07-c2",
+          "text": "本を借りてはいけません。",
+          "rationale": "Review: 〜てもいいですか asks permission; 〜てください requests an action."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-07-c3",
+          "text": "本を借りてください。",
+          "rationale": "Review: 〜てもいいですか asks permission; 〜てください requests an action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-07-c1"
+      },
+      "explanation": "〜てもいいですか asks permission; 〜てください requests an action.",
+      "feedback": "〜てもいいですか asks permission; 〜てください requests an action."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "Which expression prohibits eating here?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-08-c1",
+          "text": "ここで食べてもいいですか。",
+          "rationale": "Review: 〜てはいけません prohibits an action."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-08-c2",
+          "text": "ここで食べてはいけません。",
+          "rationale": "Correct. 〜てはいけません prohibits an action."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-08-c3",
+          "text": "ここで食べてください。",
+          "rationale": "Review: 〜てはいけません prohibits an action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-08-c2"
+      },
+      "explanation": "〜てはいけません prohibits an action.",
+      "feedback": "〜てはいけません prohibits an action."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "「小さい声で話してください」の意味は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-09-c1",
+          "text": "May I enter?",
+          "rationale": "Review: 小さい声で means in a quiet/low voice; 話してください is a request."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-09-c2",
+          "text": "Do not read.",
+          "rationale": "Review: 小さい声で means in a quiet/low voice; 話してください is a request."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-09-c3",
+          "text": "Please speak quietly.",
+          "rationale": "Correct. 小さい声で means in a quiet/low voice; 話してください is a request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-09-c3"
+      },
+      "explanation": "小さい声で means in a quiet/low voice; 話してください is a request.",
+      "feedback": "小さい声で means in a quiet/low voice; 話してください is a request."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "Which notice allows borrowing books?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-10-c1",
+          "text": "本を借りてもいいです。",
+          "rationale": "Correct. 〜てもいいです states permission, unlike a prohibition or request."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-10-c2",
+          "text": "本を借りてはいけません。",
+          "rationale": "Review: 〜てもいいです states permission, unlike a prohibition or request."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-10-c3",
+          "text": "本を借りてください。",
+          "rationale": "Review: 〜てもいいです states permission, unlike a prohibition or request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-10-c1"
+      },
+      "explanation": "〜てもいいです states permission, unlike a prohibition or request.",
+      "feedback": "〜てもいいです states permission, unlike a prohibition or request."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "What is the correct て-form of 待つ（まつ）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-11-c1",
+          "text": "待ちて",
+          "rationale": "Review: 待つ → 待って; つ changes to small っ + て."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-11-c2",
+          "text": "待って",
+          "rationale": "Correct. 待つ → 待って; つ changes to small っ + て."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-11-c3",
+          "text": "待んで",
+          "rationale": "Review: 待つ → 待って; つ changes to small っ + て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-11-c2"
+      },
+      "explanation": "待つ → 待って; つ changes to small っ + て.",
+      "feedback": "待つ → 待って; つ changes to small っ + て."
+    },
+    {
+      "id": "ex-n5-m06-c03-l02-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l02-requests-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l02-classroom-rules"
+      ],
+      "prompt": "Which line asks permission rather than giving an instruction?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l02-12-c1",
+          "text": "名前を書いてください。",
+          "rationale": "Review: 〜てもいいですか asks if entering is allowed."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-12-c2",
+          "text": "写真を撮ってはいけません。",
+          "rationale": "Review: 〜てもいいですか asks if entering is allowed."
+        },
+        {
+          "id": "ex-n5-m06-c03-l02-12-c3",
+          "text": "ここに入ってもいいですか。",
+          "rationale": "Correct. 〜てもいいですか asks if entering is allowed."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l02-12-c3"
+      },
+      "explanation": "〜てもいいですか asks if entering is allowed.",
+      "feedback": "〜てもいいですか asks if entering is allowed."
+    }
+  ]
+}
