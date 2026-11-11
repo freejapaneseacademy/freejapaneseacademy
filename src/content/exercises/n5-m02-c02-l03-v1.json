@@ -1,0 +1,518 @@
+{
+  "lessonId": "n5-m02-c02-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c02-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "At the entrance, you point to the spot where you are standing. Choose 'Here is the entrance.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ここは いりぐちです。",
+          "rationale": "ここ indicates the speaker's location; そこ is near the listener and あそこ is away from both."
+        },
+        {
+          "id": "c2",
+          "text": "そこは いりぐちです。",
+          "rationale": "This does not match the stated location or sentence function. ここ indicates the speaker's location; そこ is near the listener and あそこ is away from both."
+        },
+        {
+          "id": "c3",
+          "text": "あそこは いりぐちです。",
+          "rationale": "This does not match the stated location or sentence function. ここ indicates the speaker's location; そこ is near the listener and あそこ is away from both."
+        },
+        {
+          "id": "c4",
+          "text": "どこは いりぐちですか。",
+          "rationale": "This does not match the stated location or sentence function. ここ indicates the speaker's location; そこ is near the listener and あそこ is away from both."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ここ indicates the speaker's location; そこ is near the listener and あそこ is away from both."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "You ask a staff member where the library is. Choose the polite question.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "としょかんは ここです。",
+          "rationale": "This does not match the stated location or sentence function. どこですか asks where a place is; だれ asks who."
+        },
+        {
+          "id": "c2",
+          "text": "としょかんは どこですか。",
+          "rationale": "どこですか asks where a place is; だれ asks who."
+        },
+        {
+          "id": "c3",
+          "text": "としょかんは そこです。",
+          "rationale": "This does not match the stated location or sentence function. どこですか asks where a place is; だれ asks who."
+        },
+        {
+          "id": "c4",
+          "text": "としょかんは だれですか。",
+          "rationale": "This does not match the stated location or sentence function. どこですか asks where a place is; だれ asks who."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "どこですか asks where a place is; だれ asks who."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "The staff member points to a room beside you, the listener. Choose 'The library is there (near you).'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "としょかんは あそこです。",
+          "rationale": "This does not match the stated location or sentence function. そこ refers to the listener's vicinity in this physical-pointing scenario."
+        },
+        {
+          "id": "c2",
+          "text": "としょかんは ここです。",
+          "rationale": "This does not match the stated location or sentence function. そこ refers to the listener's vicinity in this physical-pointing scenario."
+        },
+        {
+          "id": "c3",
+          "text": "としょかんは そこです。",
+          "rationale": "そこ refers to the listener's vicinity in this physical-pointing scenario."
+        },
+        {
+          "id": "c4",
+          "text": "としょかんは どこですか。",
+          "rationale": "This does not match the stated location or sentence function. そこ refers to the listener's vicinity in this physical-pointing scenario."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "そこ refers to the listener's vicinity in this physical-pointing scenario."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Both of you see the cafeteria across the courtyard. Choose 'The cafeteria is over there.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "しょくどうは そこです。",
+          "rationale": "This does not match the stated location or sentence function. あそこ refers to a place away from both speaker and listener."
+        },
+        {
+          "id": "c2",
+          "text": "しょくどうは ここです。",
+          "rationale": "This does not match the stated location or sentence function. あそこ refers to a place away from both speaker and listener."
+        },
+        {
+          "id": "c3",
+          "text": "しょくどうは どこですか。",
+          "rationale": "This does not match the stated location or sentence function. あそこ refers to a place away from both speaker and listener."
+        },
+        {
+          "id": "c4",
+          "text": "しょくどうは あそこです。",
+          "rationale": "あそこ refers to a place away from both speaker and listener."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "あそこ refers to a place away from both speaker and listener."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose the correct sentence: 'The dictionary is in the classroom.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "じしょは きょうしつに あります。",
+          "rationale": "に marks the location of an inanimate object with あります."
+        },
+        {
+          "id": "c2",
+          "text": "じしょは きょうしつを あります。",
+          "rationale": "The location in an existence sentence takes に, not this particle."
+        },
+        {
+          "id": "c3",
+          "text": "じしょは きょうしつが あります。",
+          "rationale": "The location in an existence sentence takes に, not this particle."
+        },
+        {
+          "id": "c4",
+          "text": "じしょは きょうしつは あります。",
+          "rationale": "The location in an existence sentence takes に, not this particle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "に marks the location of an inanimate object with あります."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose 'The restroom is on the second floor.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "トイレは にかいを あります。",
+          "rationale": "This does not match the stated location or sentence function. に marks the location; あります states the existence of the restroom."
+        },
+        {
+          "id": "c2",
+          "text": "トイレは にかいに あります。",
+          "rationale": "に marks the location; あります states the existence of the restroom."
+        },
+        {
+          "id": "c3",
+          "text": "トイレは にかいが あります。",
+          "rationale": "This does not match the stated location or sentence function. に marks the location; あります states the existence of the restroom."
+        },
+        {
+          "id": "c4",
+          "text": "トイレは にかいの あります。",
+          "rationale": "This does not match the stated location or sentence function. に marks the location; あります states the existence of the restroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "に marks the location; あります states the existence of the restroom."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-7"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose the question 'Where is the reception desk?'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "うけつけは ここです。",
+          "rationale": "This does not match the stated location or sentence function. どこですか asks for an unknown location, not a statement."
+        },
+        {
+          "id": "c2",
+          "text": "うけつけは そこです。",
+          "rationale": "This does not match the stated location or sentence function. どこですか asks for an unknown location, not a statement."
+        },
+        {
+          "id": "c3",
+          "text": "うけつけは どこですか。",
+          "rationale": "どこですか asks for an unknown location, not a statement."
+        },
+        {
+          "id": "c4",
+          "text": "うけつけは あそこです。",
+          "rationale": "This does not match the stated location or sentence function. どこですか asks for an unknown location, not a statement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "どこですか asks for an unknown location, not a statement."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-8"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A visitor is at the door next to you. Which answer means 'Here is the reception desk'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "うけつけは そこです。",
+          "rationale": "This does not match the stated location or sentence function. ここ is where the speaker is standing."
+        },
+        {
+          "id": "c2",
+          "text": "うけつけは あそこです。",
+          "rationale": "This does not match the stated location or sentence function. ここ is where the speaker is standing."
+        },
+        {
+          "id": "c3",
+          "text": "うけつけは どこですか。",
+          "rationale": "This does not match the stated location or sentence function. ここ is where the speaker is standing."
+        },
+        {
+          "id": "c4",
+          "text": "うけつけは ここです。",
+          "rationale": "ここ is where the speaker is standing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "ここ is where the speaker is standing."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-9"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Read: 『としょかんは にかいに あります。』 Where is the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On the second floor",
+          "rationale": "にかいに あります explicitly places the library on floor two."
+        },
+        {
+          "id": "c2",
+          "text": "On the first floor",
+          "rationale": "This does not match the stated location or sentence function. にかいに あります explicitly places the library on floor two."
+        },
+        {
+          "id": "c3",
+          "text": "Across the street",
+          "rationale": "This does not match the stated location or sentence function. にかいに あります explicitly places the library on floor two."
+        },
+        {
+          "id": "c4",
+          "text": "Location not given",
+          "rationale": "This does not match the stated location or sentence function. にかいに あります explicitly places the library on floor two."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "にかいに あります explicitly places the library on floor two."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-10"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Read: 『トイレは いっかいです。』 Which location is stated?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Second floor",
+          "rationale": "This does not match the stated location or sentence function. いっかい is the first floor."
+        },
+        {
+          "id": "c2",
+          "text": "First floor",
+          "rationale": "いっかい is the first floor."
+        },
+        {
+          "id": "c3",
+          "text": "Outside",
+          "rationale": "This does not match the stated location or sentence function. いっかい is the first floor."
+        },
+        {
+          "id": "c4",
+          "text": "Next to the library",
+          "rationale": "This does not match the stated location or sentence function. いっかい is the first floor."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "いっかい is the first floor."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-11"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Read: 『うけつけは ここです。』 What is the speaker identifying?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A person",
+          "rationale": "This does not match the stated location or sentence function. ここです identifies a location near the speaker."
+        },
+        {
+          "id": "c2",
+          "text": "A time",
+          "rationale": "This does not match the stated location or sentence function. ここです identifies a location near the speaker."
+        },
+        {
+          "id": "c3",
+          "text": "The reception desk's location here",
+          "rationale": "ここです identifies a location near the speaker."
+        },
+        {
+          "id": "c4",
+          "text": "A book's owner",
+          "rationale": "This does not match the stated location or sentence function. ここです identifies a location near the speaker."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ここです identifies a location near the speaker."
+    },
+    {
+      "id": "ex-n5-m02-c02-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l03-pattern-12"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Read: 『しょくどうは あそこです。』 Where is the cafeteria relative to both people?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Beside the speaker",
+          "rationale": "This does not match the stated location or sentence function. あそこ is the distal location word."
+        },
+        {
+          "id": "c2",
+          "text": "Beside the listener",
+          "rationale": "This does not match the stated location or sentence function. あそこ is the distal location word."
+        },
+        {
+          "id": "c3",
+          "text": "Not specified",
+          "rationale": "This does not match the stated location or sentence function. あそこ is the distal location word."
+        },
+        {
+          "id": "c4",
+          "text": "Away from both",
+          "rationale": "あそこ is the distal location word."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "あそこ is the distal location word."
+    }
+  ]
+}

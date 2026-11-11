@@ -1,0 +1,487 @@
+{
+  "id": "n5-m01-c01-l03-v1",
+  "lessonId": "n5-m01-c01-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m01-c01-l03-001",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-1"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "In 「わたしは アンです。」, what does は mark?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The topic",
+          "rationale": "Correct. The particle は marks the topic; here it is pronounced wa."
+        },
+        {
+          "id": "c2",
+          "text": "A question",
+          "rationale": "Not quite. The particle は marks the topic; here it is pronounced wa."
+        },
+        {
+          "id": "c3",
+          "text": "A direct object",
+          "rationale": "Not quite. The particle は marks the topic; here it is pronounced wa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The particle は marks the topic; here it is pronounced wa.",
+      "evidence": "わたしは アンです。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-002",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-2"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "Which is a polite affirmative identity statement?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "わたしは がくせいです。",
+          "rationale": "Correct. A noun predicate followed by です makes a polite statement."
+        },
+        {
+          "id": "c2",
+          "text": "わたしは がくせいか。",
+          "rationale": "Not quite. A noun predicate followed by です makes a polite statement."
+        },
+        {
+          "id": "c3",
+          "text": "わたしは がくせいを。",
+          "rationale": "Not quite. A noun predicate followed by です makes a polite statement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A noun predicate followed by です makes a polite statement.",
+      "evidence": "わたしは がくせいです。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-003",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-3"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "How do you ask politely whether Mori is a teacher?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "もりさんは せんせいです。",
+          "rationale": "Not quite. Add the sentence-final question particle か to です."
+        },
+        {
+          "id": "c2",
+          "text": "もりさんは せんせいですか。",
+          "rationale": "Correct. Add the sentence-final question particle か to です."
+        },
+        {
+          "id": "c3",
+          "text": "もりさんを せんせいです。",
+          "rationale": "Not quite. Add the sentence-final question particle か to です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Add the sentence-final question particle か to です.",
+      "evidence": "もりさんは せんせいですか。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-004",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-4"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "Which is the polite negative of 「がくせいです」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "がくせいじゃありません。",
+          "rationale": "Correct. じゃありません is a polite negative noun predicate; ではありません is a more formal alternative."
+        },
+        {
+          "id": "c2",
+          "text": "がくせいですか。",
+          "rationale": "Not quite. じゃありません is a polite negative noun predicate; ではありません is a more formal alternative."
+        },
+        {
+          "id": "c3",
+          "text": "がくせいを。",
+          "rationale": "Not quite. じゃありません is a polite negative noun predicate; ではありません is a more formal alternative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "じゃありません is a polite negative noun predicate; ではありません is a more formal alternative.",
+      "evidence": "がくせいじゃありません。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-005",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-5"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "A says 「せんせいですか。」 B says 「いいえ、せんせいじゃありません。」 What does B mean?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, I am a teacher.",
+          "rationale": "Not quite. いいえ introduces the negative answer; じゃありません denies the teacher role."
+        },
+        {
+          "id": "c2",
+          "text": "No, I am not a teacher.",
+          "rationale": "Correct. いいえ introduces the negative answer; じゃありません denies the teacher role."
+        },
+        {
+          "id": "c3",
+          "text": "Where is the teacher?",
+          "rationale": "Not quite. いいえ introduces the negative answer; じゃありません denies the teacher role."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "いいえ introduces the negative answer; じゃありません denies the teacher role.",
+      "evidence": "いいえ、せんせいじゃありません。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-006",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-6"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "What does 「か」 do at the end of 「カナダじんですか。」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Indicates a question",
+          "rationale": "Correct. Sentence-final か turns this polite predicate into a question."
+        },
+        {
+          "id": "c2",
+          "text": "Marks the topic",
+          "rationale": "Not quite. Sentence-final か turns this polite predicate into a question."
+        },
+        {
+          "id": "c3",
+          "text": "Makes the sentence negative",
+          "rationale": "Not quite. Sentence-final か turns this polite predicate into a question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Sentence-final か turns this polite predicate into a question.",
+      "evidence": "カナダじんですか。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-007",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-7"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "script",
+      "prompt": "Which written particle is pronounced wa when marking a topic?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "わ",
+          "rationale": "Not quite. The topic particle is written は even though pronounced wa."
+        },
+        {
+          "id": "c2",
+          "text": "は",
+          "rationale": "Correct. The topic particle is written は even though pronounced wa."
+        },
+        {
+          "id": "c3",
+          "text": "を",
+          "rationale": "Not quite. The topic particle is written は even though pronounced wa."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The topic particle is written は even though pronounced wa.",
+      "evidence": "わたしは がくせいです。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-008",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-8"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "Which sentence says 'I am not a student' politely?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "わたしは がくせいです。",
+          "rationale": "Not quite. Keep は for the topic and replace the affirmative predicate with じゃありません."
+        },
+        {
+          "id": "c2",
+          "text": "わたしは がくせいですか。",
+          "rationale": "Not quite. Keep は for the topic and replace the affirmative predicate with じゃありません."
+        },
+        {
+          "id": "c3",
+          "text": "わたしは がくせいじゃありません。",
+          "rationale": "Correct. Keep は for the topic and replace the affirmative predicate with じゃありません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Keep は for the topic and replace the affirmative predicate with じゃありません.",
+      "evidence": "わたしは がくせいじゃありません。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-009",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-9"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Read 「わたしは リーです。かいしゃいんです。」 What is Lee's role?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Student",
+          "rationale": "Not quite. The omitted topic of the second sentence is still Lee; かいしゃいん means company employee."
+        },
+        {
+          "id": "c2",
+          "text": "Company employee",
+          "rationale": "Correct. The omitted topic of the second sentence is still Lee; かいしゃいん means company employee."
+        },
+        {
+          "id": "c3",
+          "text": "Teacher",
+          "rationale": "Not quite. The omitted topic of the second sentence is still Lee; かいしゃいん means company employee."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The omitted topic of the second sentence is still Lee; かいしゃいん means company employee.",
+      "evidence": "かいしゃいんです。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-010",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-10"
+      ],
+      "skills": [
+        "reading-comprehension"
+      ],
+      "area": "reading",
+      "prompt": "Read 「わたしは エマです。アメリカじんです。」 What nationality does Emma state?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Canadian",
+          "rationale": "Not quite. アメリカじん means American; the topic continues from the first sentence."
+        },
+        {
+          "id": "c2",
+          "text": "Japanese",
+          "rationale": "Not quite. アメリカじん means American; the topic continues from the first sentence."
+        },
+        {
+          "id": "c3",
+          "text": "American",
+          "rationale": "Correct. アメリカじん means American; the topic continues from the first sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "アメリカじん means American; the topic continues from the first sentence.",
+      "evidence": "アメリカじんです。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-011",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-11"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "Which reply naturally answers 「たなかさんは がくせいですか。」 if Tanaka is not a student?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いいえ、がくせいじゃありません。",
+          "rationale": "Correct. いいえ agrees with the negative response; a polite negative predicate supplies the correction."
+        },
+        {
+          "id": "c2",
+          "text": "はい、がくせいじゃありません。",
+          "rationale": "Not quite. いいえ agrees with the negative response; a polite negative predicate supplies the correction."
+        },
+        {
+          "id": "c3",
+          "text": "がくせいですか。",
+          "rationale": "Not quite. いいえ agrees with the negative response; a polite negative predicate supplies the correction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いいえ agrees with the negative response; a polite negative predicate supplies the correction.",
+      "evidence": "いいえ、がくせいじゃありません。"
+    },
+    {
+      "id": "ex-n5-m01-c01-l03-012",
+      "version": 1,
+      "status": "drafted",
+      "level": "n5",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c01-l03-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c01-l03-item-12"
+      ],
+      "skills": [
+        "script-recognition"
+      ],
+      "area": "grammar",
+      "prompt": "Which is a more formal alternative to 「せんせいじゃありません」?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "せんせいではありません",
+          "rationale": "Correct. ではありません is a more formal negative; じゃありません is a conversational contraction."
+        },
+        {
+          "id": "c2",
+          "text": "せんせいですか",
+          "rationale": "Not quite. ではありません is a more formal negative; じゃありません is a conversational contraction."
+        },
+        {
+          "id": "c3",
+          "text": "せんせいはです",
+          "rationale": "Not quite. ではありません is a more formal negative; じゃありません is a conversational contraction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "ではありません is a more formal negative; じゃありません is a conversational contraction.",
+      "evidence": "せんせいではありません。"
+    }
+  ]
+}
