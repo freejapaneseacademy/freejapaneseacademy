@@ -1,0 +1,20 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import PermissionGrammarPractice from '../../../../../components/interactive/PermissionGrammarPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/requests-permission-grammar');
+if(!lesson || lesson.data.lessonId !== 'n5-m06-c03-l03') throw new Error('Missing canonical lesson n5-m06-c03-l03');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Requests and permission grammar',href:'/learn/n5/module-06/chapter-03/lesson-03/'}]}>
+  <section class="page-hero"><div class="container"><p class="eyebrow">N5 · MODULE 06 · CHAPTER 03 · LESSON 03</p><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Grammar and sentence function</span><span>12 recognition questions</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map(o=><li>{o}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <PermissionGrammarPractice client:load />
+    <div class="foundation-completion"><h2>Finish the lesson</h2><p>Completion and recognition attempts are recorded separately on this device when browser storage is available.</p><LessonActions client:load lessonId="n5-m06-c03-l03" level="n5"/></div>
+    <div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/module-06/chapter-03/lesson-02/">Previous vocabulary lesson</a><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div>
+  </div><aside class="lesson-side foundation-side"><h3>Three meanings</h3><p>〜てください: request. 〜てもいいですか: ask permission. 〜てはいけません: prohibition.</p><p>Written grammar practice only; no audio or verified speaking score.</p></aside></div></section>
+</Base>
