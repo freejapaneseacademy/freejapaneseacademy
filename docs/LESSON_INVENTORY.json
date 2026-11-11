@@ -4000,6 +4000,23 @@
       "noindex": false,
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m05-c02-chk",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c02",
+      "slot": "CHK",
+      "title": "Methods and companions — chapter checkpoint",
+      "content": "src/content/lessons/n5/methods-companions-checkpoint.mdx",
+      "url": "/learn/n5/module-05/chapter-02/checkpoint/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "written-only checkpoint; L06 audio verification separate",
+      "noindex": true,
+      "ownerSlot": ":00",
+      "automationId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
