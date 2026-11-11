@@ -1,0 +1,622 @@
+{
+  "id": "n5-m06-c01-chk",
+  "lessonId": "n5-m06-c01-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional activity board and chapter verb-form contrasts; written checkpoint only, not audio scoring.",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 16,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-01"
+      ],
+      "prompt": "What is the dictionary form of 読みます?",
+      "evidence": "読みます ↔ 読む",
+      "explanation": "読む（よむ） is the dictionary form; 読みます is polite nonpast.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-01-c1",
+          "text": "読む",
+          "rationale": "Correct. 読む（よむ） is the dictionary form; 読みます is polite nonpast."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-01-c2",
+          "text": "読みる",
+          "rationale": "Review. 読む（よむ） is the dictionary form; 読みます is polite nonpast."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-01-c3",
+          "text": "読める",
+          "rationale": "Review. 読む（よむ） is the dictionary form; 読みます is polite nonpast."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-02"
+      ],
+      "prompt": "Which polite form matches 書く?",
+      "evidence": "書く → 書きます",
+      "explanation": "Godan く changes to き before ます; 書けます expresses ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-02-c1",
+          "text": "書くます",
+          "rationale": "Review. Godan く changes to き before ます; 書けます expresses ability."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-02-c2",
+          "text": "書けます",
+          "rationale": "Review. Godan く changes to き before ます; 書けます expresses ability."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-02-c3",
+          "text": "書きます",
+          "rationale": "Correct. Godan く changes to き before ます; 書けます expresses ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-03"
+      ],
+      "prompt": "Which dictionary form matches 食べます?",
+      "evidence": "食べる → 食べます",
+      "explanation": "Ichidan 食べる drops る before ます.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-03-c1",
+          "text": "食べまする",
+          "rationale": "Review. Ichidan 食べる drops る before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-03-c2",
+          "text": "食べる",
+          "rationale": "Correct. Ichidan 食べる drops る before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-03-c3",
+          "text": "食ぶ",
+          "rationale": "Review. Ichidan 食べる drops る before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-04"
+      ],
+      "prompt": "Which polite form matches 帰る?",
+      "evidence": "帰る（かえる）→ 帰ります",
+      "explanation": "帰る is a godan る verb; it becomes 帰ります.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-04-c1",
+          "text": "帰ります",
+          "rationale": "Correct. 帰る is a godan る verb; it becomes 帰ります."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-04-c2",
+          "text": "帰ます",
+          "rationale": "Review. 帰る is a godan る verb; it becomes 帰ります."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-04-c3",
+          "text": "帰るます",
+          "rationale": "Review. 帰る is a godan る verb; it becomes 帰ります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-05"
+      ],
+      "prompt": "What is the dictionary form of 来ます（きます）?",
+      "evidence": "来る（くる）→ 来ます（きます）",
+      "explanation": "Irregular 来る is read くる, but 来ます is read きます.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-05-c1",
+          "text": "来る（きる）",
+          "rationale": "Review. Irregular 来る is read くる, but 来ます is read きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-05-c2",
+          "text": "来まする",
+          "rationale": "Review. Irregular 来る is read くる, but 来ます is read きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-05-c3",
+          "text": "来る（くる）",
+          "rationale": "Correct. Irregular 来る is read くる, but 来ます is read きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-vocabulary-06"
+      ],
+      "prompt": "What does 切る（きる） mean?",
+      "evidence": "野菜を切ります。",
+      "explanation": "切る（きる） means cut; 着る（きる） means wear and 来る（くる） means come.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-06-c1",
+          "text": "to come",
+          "rationale": "Review. 切る（きる） means cut; 着る（きる） means wear and 来る（くる） means come."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-06-c2",
+          "text": "to cut",
+          "rationale": "Correct. 切る（きる） means cut; 着る（きる） means wear and 来る（くる） means come."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-06-c3",
+          "text": "to wear",
+          "rationale": "Review. 切る（きる） means cut; 着る（きる） means wear and 来る（くる） means come."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-07"
+      ],
+      "prompt": "Which is the dictionary form of します?",
+      "evidence": "する → します",
+      "explanation": "する and します are the irregular do pair.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-07-c1",
+          "text": "する",
+          "rationale": "Correct. する and します are the irregular do pair."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-07-c2",
+          "text": "しる",
+          "rationale": "Review. する and します are the irregular do pair."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-07-c3",
+          "text": "すます",
+          "rationale": "Review. する and します are the irregular do pair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-script-08"
+      ],
+      "prompt": "How do you read 読む?",
+      "evidence": "本を読む（ほんをよむ）",
+      "explanation": "読む is よむ (read); 飲む is のむ (drink).",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-08-c1",
+          "text": "のむ",
+          "rationale": "Review. 読む is よむ (read); 飲む is のむ (drink)."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-08-c2",
+          "text": "かく",
+          "rationale": "Review. 読む is よむ (read); 飲む is のむ (drink)."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-08-c3",
+          "text": "よむ",
+          "rationale": "Correct. 読む is よむ (read); 飲む is のむ (drink)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-vocabulary-09"
+      ],
+      "prompt": "Which activity means 'drink tea'?",
+      "evidence": "お茶を飲みます。",
+      "explanation": "飲む（のむ） means drink; 読む means read and 書く means write.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-09-c1",
+          "text": "お茶を書く",
+          "rationale": "Review. 飲む（のむ） means drink; 読む means read and 書く means write."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-09-c2",
+          "text": "お茶を飲む",
+          "rationale": "Correct. 飲む（のむ） means drink; 読む means read and 書く means write."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-09-c3",
+          "text": "お茶を読む",
+          "rationale": "Review. 飲む（のむ） means drink; 読む means read and 書く means write."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-reading-10"
+      ],
+      "prompt": "On the board, 午前九時に本を読む means what?",
+      "evidence": "午前九時：本を読む",
+      "explanation": "本を読む means read a book; 午前九時 is 9 a.m.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-10-c1",
+          "text": "Read a book at 9 a.m.",
+          "rationale": "Correct. 本を読む means read a book; 午前九時 is 9 a.m."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-10-c2",
+          "text": "Write Japanese at 9 a.m.",
+          "rationale": "Review. 本を読む means read a book; 午前九時 is 9 a.m."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-10-c3",
+          "text": "Watch a film at 9 a.m.",
+          "rationale": "Review. 本を読む means read a book; 午前九時 is 9 a.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-reading-11"
+      ],
+      "prompt": "Which activity is at 10 a.m. on the review board?",
+      "evidence": "午前十時：日本語を書く",
+      "explanation": "The review board lists 午前十時：日本語を書く.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-11-c1",
+          "text": "お茶を飲む",
+          "rationale": "Review. The review board lists 午前十時：日本語を書く."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-11-c2",
+          "text": "映画を見る",
+          "rationale": "Review. The review board lists 午前十時：日本語を書く."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-11-c3",
+          "text": "日本語を書く",
+          "rationale": "Correct. The review board lists 午前十時：日本語を書く."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-reading-12"
+      ],
+      "prompt": "What is planned at 1 p.m.?",
+      "evidence": "午後一時：映画を見る",
+      "explanation": "午後一時：映画を見る means watch a film at 1 p.m.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-12-c1",
+          "text": "日本語を書く",
+          "rationale": "Review. 午後一時：映画を見る means watch a film at 1 p.m."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-12-c2",
+          "text": "映画を見る",
+          "rationale": "Correct. 午後一時：映画を見る means watch a film at 1 p.m."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-12-c3",
+          "text": "本を読む",
+          "rationale": "Review. 午後一時：映画を見る means watch a film at 1 p.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-13"
+      ],
+      "prompt": "In the classroom announcement, which form is polite?",
+      "evidence": "本を読みます。",
+      "explanation": "読みます is polite nonpast; 読む is dictionary/plain nonpast.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-13-c1",
+          "text": "本を読みます",
+          "rationale": "Correct. 読みます is polite nonpast; 読む is dictionary/plain nonpast."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-13-c2",
+          "text": "本を読む",
+          "rationale": "Review. 読みます is polite nonpast; 読む is dictionary/plain nonpast."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-13-c3",
+          "text": "本を読みる",
+          "rationale": "Review. 読みます is polite nonpast; 読む is dictionary/plain nonpast."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-13-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-14"
+      ],
+      "prompt": "Which statement is correct about 見ます?",
+      "evidence": "映画を見ます。",
+      "explanation": "見ます is polite nonpast; 見ました is polite past.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-14-c1",
+          "text": "It is polite past.",
+          "rationale": "Review. 見ます is polite nonpast; 見ました is polite past."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-14-c2",
+          "text": "It means 'to cut'.",
+          "rationale": "Review. 見ます is polite nonpast; 見ました is polite past."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-14-c3",
+          "text": "It is polite nonpast.",
+          "rationale": "Correct. 見ます is polite nonpast; 見ました is polite past."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-14-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-15",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-grammar-15"
+      ],
+      "prompt": "Which is the dictionary form of 見ます?",
+      "evidence": "見る → 見ます",
+      "explanation": "見る（みる） is an ichidan verb, corresponding to 見ます.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-15-c1",
+          "text": "見く",
+          "rationale": "Review. 見る（みる） is an ichidan verb, corresponding to 見ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-15-c2",
+          "text": "見る",
+          "rationale": "Correct. 見る（みる） is an ichidan verb, corresponding to 見ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-15-c3",
+          "text": "見む",
+          "rationale": "Review. 見る（みる） is an ichidan verb, corresponding to 見ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-15-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c01-chk-16",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-chk-reading-16"
+      ],
+      "prompt": "What is the correct statement about listening evidence?",
+      "evidence": "L06 short action narration requires verified WAV audio.",
+      "explanation": "Audio comprehension requires real verified playback; this checkpoint scores written responses only.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-chk-16-c1",
+          "text": "A printed transcript cannot prove listening comprehension.",
+          "rationale": "Correct. Audio comprehension requires real verified playback; this checkpoint scores written responses only."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-16-c2",
+          "text": "Reading a transcript proves audio comprehension.",
+          "rationale": "Review. Audio comprehension requires real verified playback; this checkpoint scores written responses only."
+        },
+        {
+          "id": "ex-n5-m06-c01-chk-16-c3",
+          "text": "A dictionary-form quiz tests pronunciation accuracy.",
+          "rationale": "Review. Audio comprehension requires real verified playback; this checkpoint scores written responses only."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-chk-16-c1"
+      }
+    }
+  ]
+}
