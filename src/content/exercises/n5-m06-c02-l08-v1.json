@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m06-c02-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-01"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which instruction means 'First, wash the vegetables'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "まず、野菜を洗ってください。",
+          "rationale": "まず means first; 洗ってください asks someone to wash."
+        },
+        {
+          "id": "c2",
+          "text": "まず、野菜を切ってください。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c3",
+          "text": "最後に、野菜を洗ってください。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "まず means first; 洗ってください asks someone to wash."
+    },
+    {
+      "id": "ex-n5-m06-c02-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-02"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which is the correct te-form of 切る (きる, to cut)?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "切て",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c2",
+          "text": "切って",
+          "rationale": "切る is a godan verb: 切って, with a small っ."
+        },
+        {
+          "id": "c3",
+          "text": "切いて",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "切る is a godan verb: 切って, with a small っ."
+    },
+    {
+      "id": "ex-n5-m06-c02-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-03"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Choose the correct te-form of 洗う (あらう, to wash).",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "洗って",
+          "rationale": "The う ending changes to って: 洗う → 洗って."
+        },
+        {
+          "id": "c2",
+          "text": "洗いて",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c3",
+          "text": "洗んで",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The う ending changes to って: 洗う → 洗って."
+    },
+    {
+      "id": "ex-n5-m06-c02-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-04"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What does 野菜を洗ってから、切ります mean?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "I cut the vegetables before washing them.",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c2",
+          "text": "I wash and cut at the same time.",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c3",
+          "text": "After washing the vegetables, I cut them.",
+          "rationale": "〜てから establishes that washing happens before cutting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "〜てから establishes that washing happens before cutting."
+    },
+    {
+      "id": "ex-n5-m06-c02-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-05"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence politely tells a partner to put vegetables in the bowl?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "野菜をボウルに入れてください。",
+          "rationale": "入れる is transitive here: 野菜をボウルに入れてください is a polite request."
+        },
+        {
+          "id": "c2",
+          "text": "野菜をボウルに入ります。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c3",
+          "text": "野菜をボウルで食べてから。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "入れる is transitive here: 野菜をボウルに入れてください is a polite request."
+    },
+    {
+      "id": "ex-n5-m06-c02-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-06"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Choose the te-form of 混ぜる (まぜる, to mix).",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "混ぜって",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c2",
+          "text": "混ぜて",
+          "rationale": "混ぜる is an ichidan verb: remove る and add て."
+        },
+        {
+          "id": "c3",
+          "text": "混ぜんで",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "混ぜる is an ichidan verb: remove る and add て."
+    },
+    {
+      "id": "ex-n5-m06-c02-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-07"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is the best next step after まず、手を洗います in a rehearsal?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "まず、手を洗います。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c2",
+          "text": "最後に、手を洗います。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c3",
+          "text": "次に、野菜を切ります。",
+          "rationale": "次に introduces the following action: cutting vegetables."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "次に introduces the following action: cutting vegetables."
+    },
+    {
+      "id": "ex-n5-m06-c02-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c02-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l08-sequence-08"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which line politely closes a completed practice sequence?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "最後に、皿を洗います。",
+          "rationale": "最後に marks the final step; 皿を洗います is a complete polite sentence."
+        },
+        {
+          "id": "c2",
+          "text": "まず、皿を洗ってから。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        },
+        {
+          "id": "c3",
+          "text": "次に、皿を洗ってくださいか。",
+          "rationale": "Compare the time marker and the te-form with the model. This option changes the intended action, order, or grammar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "最後に marks the final step; 皿を洗います is a complete polite sentence."
+    }
+  ]
+}
