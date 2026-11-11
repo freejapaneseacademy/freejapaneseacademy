@@ -1,0 +1,458 @@
+{
+  "id": "n5-m04-c04-chk",
+  "lessonId": "n5-m04-c04-chk",
+  "version": 1,
+  "status": "internally-checked",
+  "source": "Original fictional invitations and meeting messages; written checkpoint; authentic L06 audio remains separate and unscored here",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-chk-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-grammar-01"
+      ],
+      "prompt": "Which sentence politely invites a friend to lunch?",
+      "explanation": "〜ませんか asks someone to join an activity.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-01-c1",
+          "text": "いっしょに昼ごはんを食べませんか。",
+          "rationale": "Correct. 〜ませんか asks someone to join an activity."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-01-c2",
+          "text": "いっしょに昼ごはんを食べました。",
+          "rationale": "Not supported. 〜ませんか asks someone to join an activity."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-01-c3",
+          "text": "昼ごはんを食べません。",
+          "rationale": "Not supported. 〜ませんか asks someone to join an activity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-grammar-02"
+      ],
+      "prompt": "Which sentence proposes a shared action?",
+      "explanation": "〜ましょう expresses a suggestion to act together.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-02-c1",
+          "text": "カフェに行きません。",
+          "rationale": "Not supported. 〜ましょう expresses a suggestion to act together."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-02-c2",
+          "text": "カフェに行きましょう。",
+          "rationale": "Correct. 〜ましょう expresses a suggestion to act together."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-02-c3",
+          "text": "カフェに行きました。",
+          "rationale": "Not supported. 〜ましょう expresses a suggestion to act together."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-grammar-03"
+      ],
+      "prompt": "Which means 'Let's choose the café'?",
+      "explanation": "〜にしましょう proposes a choice; 〜にします states a decision.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-03-c1",
+          "text": "カフェがあります。",
+          "rationale": "Not supported. 〜にしましょう proposes a choice; 〜にします states a decision."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-03-c2",
+          "text": "カフェに行きません。",
+          "rationale": "Not supported. 〜にしましょう proposes a choice; 〜にします states a decision."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-03-c3",
+          "text": "カフェにしましょう。",
+          "rationale": "Correct. 〜にしましょう proposes a choice; 〜にします states a decision."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "pragmatics"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-pragmatics"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-pragmatics-04"
+      ],
+      "prompt": "Which politely declines an invitation in context?",
+      "explanation": "今日はちょっと signals difficulty and can soften a refusal.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-04-c1",
+          "text": "すみません、今日はちょっと……。",
+          "rationale": "Correct. 今日はちょっと signals difficulty and can soften a refusal."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-04-c2",
+          "text": "はい、ぜひ。",
+          "rationale": "Not supported. 今日はちょっと signals difficulty and can soften a refusal."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-04-c3",
+          "text": "いいですね。",
+          "rationale": "Not supported. 今日はちょっと signals difficulty and can soften a refusal."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-vocabulary-05"
+      ],
+      "prompt": "What does 日曜日なら大丈夫です mean?",
+      "explanation": "なら frames Sunday as the acceptable alternative.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-05-c1",
+          "text": "Sunday is impossible.",
+          "rationale": "Not supported. なら frames Sunday as the acceptable alternative."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-05-c2",
+          "text": "Sunday would work for me.",
+          "rationale": "Correct. なら frames Sunday as the acceptable alternative."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-05-c3",
+          "text": "I met on Sunday.",
+          "rationale": "Not supported. なら frames Sunday as the acceptable alternative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-grammar-06"
+      ],
+      "prompt": "Which correctly asks 'What time shall we meet?'",
+      "explanation": "Meeting time is marked by に; ましょうか asks for a joint decision.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-06-c1",
+          "text": "何時を会いますか。",
+          "rationale": "Not supported. Meeting time is marked by に; ましょうか asks for a joint decision."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-06-c2",
+          "text": "何時は会いましたか。",
+          "rationale": "Not supported. Meeting time is marked by に; ましょうか asks for a joint decision."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-06-c3",
+          "text": "何時に会いましょうか。",
+          "rationale": "Correct. Meeting time is marked by に; ましょうか asks for a joint decision."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-reading-07"
+      ],
+      "prompt": "Read: 『土曜日はちょっと。日曜日はどうですか。』 What alternative is proposed?",
+      "explanation": "Evidence: 日曜日はどうですか.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-07-c1",
+          "text": "Sunday",
+          "rationale": "Correct. Evidence: 日曜日はどうですか."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-07-c2",
+          "text": "Saturday",
+          "rationale": "Not supported. Evidence: 日曜日はどうですか."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-07-c3",
+          "text": "Friday",
+          "rationale": "Not supported. Evidence: 日曜日はどうですか."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-reading-08"
+      ],
+      "prompt": "Read: 『駅の前のレストランは休みです。学校のとなりのカフェにしましょう。』 Where will they go?",
+      "explanation": "Evidence: 学校のとなりのカフェにしましょう.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-08-c1",
+          "text": "The restaurant in front of the station",
+          "rationale": "Not supported. Evidence: 学校のとなりのカフェにしましょう."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-08-c2",
+          "text": "The café next to the school",
+          "rationale": "Correct. Evidence: 学校のとなりのカフェにしましょう."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-08-c3",
+          "text": "The park",
+          "rationale": "Not supported. Evidence: 学校のとなりのカフェにしましょう."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-reading-09"
+      ],
+      "prompt": "Read: 『あしたの二時に駅で会いましょう。』 When will they meet?",
+      "explanation": "Evidence: あしたの二時.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-09-c1",
+          "text": "Today at two",
+          "rationale": "Not supported. Evidence: あしたの二時."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-09-c2",
+          "text": "Tomorrow at three",
+          "rationale": "Not supported. Evidence: あしたの二時."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-09-c3",
+          "text": "Tomorrow at two",
+          "rationale": "Correct. Evidence: あしたの二時."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-reading-10"
+      ],
+      "prompt": "Read: 『雨ですから、公園はやめましょう。カフェにしましょう。』 Why change the plan?",
+      "explanation": "Evidence: 雨ですから.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-10-c1",
+          "text": "Because it is raining",
+          "rationale": "Correct. Evidence: 雨ですから."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-10-c2",
+          "text": "Because the café is closed",
+          "rationale": "Not supported. Evidence: 雨ですから."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-10-c3",
+          "text": "Because it is too early",
+          "rationale": "Not supported. Evidence: 雨ですから."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-reading-11"
+      ],
+      "prompt": "Read: 『田中さん：金曜日に食べませんか。山田さん：金曜日はちょっと。土曜日なら大丈夫です。』 Which day works for Yamada?",
+      "explanation": "Evidence: 土曜日なら大丈夫です.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-11-c1",
+          "text": "Friday",
+          "rationale": "Not supported. Evidence: 土曜日なら大丈夫です."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-11-c2",
+          "text": "Saturday",
+          "rationale": "Correct. Evidence: 土曜日なら大丈夫です."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-11-c3",
+          "text": "Neither day",
+          "rationale": "Not supported. Evidence: 土曜日なら大丈夫です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-chk-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-chk-reading-12"
+      ],
+      "prompt": "Read: 『三時はどうですか。』『すみません、四時にしましょう。』『はい。』 What time is agreed?",
+      "explanation": "Evidence: 四時にしましょう followed by はい.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-chk-12-c1",
+          "text": "Three o'clock",
+          "rationale": "Not supported. Evidence: 四時にしましょう followed by はい."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-12-c2",
+          "text": "Two o'clock",
+          "rationale": "Not supported. Evidence: 四時にしましょう followed by はい."
+        },
+        {
+          "id": "ex-n5-m04-c04-chk-12-c3",
+          "text": "Four o'clock",
+          "rationale": "Correct. Evidence: 四時にしましょう followed by はい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-chk-12-c3"
+      }
+    }
+  ]
+}
