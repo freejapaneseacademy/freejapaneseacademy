@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c02-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You travel by underground railway. Which word names that vehicle?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "地下鉄",
+          "rationale": "地下鉄 specifically means subway; 電車 is the broader word train."
+        },
+        {
+          "id": "c2",
+          "text": "電車",
+          "rationale": "電車 does not express the meaning requested here; compare it with 地下鉄."
+        },
+        {
+          "id": "c3",
+          "text": "タクシー",
+          "rationale": "タクシー does not express the meaning requested here; compare it with 地下鉄."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "地下鉄 specifically means subway; 電車 is the broader word train."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression says you are going alone?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友達",
+          "rationale": "友達 does not express the meaning requested here; compare it with 一人で."
+        },
+        {
+          "id": "c2",
+          "text": "家族",
+          "rationale": "家族 does not express the meaning requested here; compare it with 一人で."
+        },
+        {
+          "id": "c3",
+          "text": "一人で",
+          "rationale": "一人で means by oneself, without a companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "一人で means by oneself, without a companion."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You ride a bicycle. Which means word completes 自転車で行きます?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "母",
+          "rationale": "母 does not express the meaning requested here; compare it with 自転車."
+        },
+        {
+          "id": "c2",
+          "text": "自転車",
+          "rationale": "自転車で行きます means go by bicycle."
+        },
+        {
+          "id": "c3",
+          "text": "徒歩",
+          "rationale": "徒歩 does not express the meaning requested here; compare it with 自転車."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "自転車で行きます means go by bicycle."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means taxi?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "タクシー",
+          "rationale": "タクシー is a hired car; バス is a bus."
+        },
+        {
+          "id": "c2",
+          "text": "バス",
+          "rationale": "バス does not express the meaning requested here; compare it with タクシー."
+        },
+        {
+          "id": "c3",
+          "text": "電車",
+          "rationale": "電車 does not express the meaning requested here; compare it with タクシー."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "タクシー is a hired car; バス is a bus."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word names a friend?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "家族",
+          "rationale": "家族 does not express the meaning requested here; compare it with 友達."
+        },
+        {
+          "id": "c2",
+          "text": "父",
+          "rationale": "父 does not express the meaning requested here; compare it with 友達."
+        },
+        {
+          "id": "c3",
+          "text": "友達",
+          "rationale": "友達 means friend; 家族 means family."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "友達 means friend; 家族 means family."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When talking to a teacher about your own mother, which word is appropriate?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友達",
+          "rationale": "友達 does not express the meaning requested here; compare it with 母."
+        },
+        {
+          "id": "c2",
+          "text": "母",
+          "rationale": "母 (はは) refers to one's own mother in this context."
+        },
+        {
+          "id": "c3",
+          "text": "父",
+          "rationale": "父 does not express the meaning requested here; compare it with 母."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "母 (はは) refers to one's own mother in this context."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word names your own father when speaking to someone outside the family?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "父",
+          "rationale": "父 (ちち) refers to one's own father in this context."
+        },
+        {
+          "id": "c2",
+          "text": "母",
+          "rationale": "母 does not express the meaning requested here; compare it with 父."
+        },
+        {
+          "id": "c3",
+          "text": "家族",
+          "rationale": "家族 does not express the meaning requested here; compare it with 父."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "父 (ちち) refers to one's own father in this context."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese word means family?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友達",
+          "rationale": "友達 does not express the meaning requested here; compare it with 家族."
+        },
+        {
+          "id": "c2",
+          "text": "一人で",
+          "rationale": "一人で does not express the meaning requested here; compare it with 家族."
+        },
+        {
+          "id": "c3",
+          "text": "家族",
+          "rationale": "家族 refers to family as a group."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "家族 refers to family as a group."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which vehicle is a bus?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "自転車",
+          "rationale": "自転車 does not express the meaning requested here; compare it with バス."
+        },
+        {
+          "id": "c2",
+          "text": "バス",
+          "rationale": "バス is bus, while タクシー is taxi."
+        },
+        {
+          "id": "c3",
+          "text": "タクシー",
+          "rationale": "タクシー does not express the meaning requested here; compare it with バス."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "バス is bus, while タクシー is taxi."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word specifically means bicycle?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "自転車",
+          "rationale": "自転車 means bicycle."
+        },
+        {
+          "id": "c2",
+          "text": "電車",
+          "rationale": "電車 does not express the meaning requested here; compare it with 自転車."
+        },
+        {
+          "id": "c3",
+          "text": "地下鉄",
+          "rationale": "地下鉄 does not express the meaning requested here; compare it with 自転車."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "自転車 means bicycle."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means together?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一人で",
+          "rationale": "一人で does not express the meaning requested here; compare it with いっしょに."
+        },
+        {
+          "id": "c2",
+          "text": "徒歩",
+          "rationale": "徒歩 does not express the meaning requested here; compare it with いっしょに."
+        },
+        {
+          "id": "c3",
+          "text": "いっしょに",
+          "rationale": "いっしょに means together; 一人で means alone."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "いっしょに means together; 一人で means alone."
+    },
+    {
+      "id": "ex-n5-m05-c02-l02-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means travel on foot in a formal itinerary?",
+      "objectiveIds": [
+        "n5-m05-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l02-transport-companions"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "地下鉄",
+          "rationale": "地下鉄 does not express the meaning requested here; compare it with 徒歩."
+        },
+        {
+          "id": "c2",
+          "text": "徒歩",
+          "rationale": "徒歩 means on foot; everyday conversation also commonly uses 歩いて."
+        },
+        {
+          "id": "c3",
+          "text": "バス",
+          "rationale": "バス does not express the meaning requested here; compare it with 徒歩."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "徒歩 means on foot; everyday conversation also commonly uses 歩いて."
+    }
+  ]
+}
