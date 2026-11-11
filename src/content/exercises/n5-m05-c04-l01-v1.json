@@ -1,0 +1,506 @@
+{
+  "id": "n5-m05-c04-l01",
+  "lessonId": "n5-m05-c04-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Saturday museum outing dialogue",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "Where do Yui and Aki plan to go?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-01-c1",
+          "text": "駅",
+          "rationale": "Not this option. 博物館へ names their destination, the museum."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-01-c2",
+          "text": "博物館",
+          "rationale": "博物館へ names their destination, the museum."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-01-c3",
+          "text": "公園",
+          "rationale": "Not this option. 博物館へ names their destination, the museum."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-01-c2"
+      },
+      "explanation": "博物館へ names their destination, the museum.",
+      "feedback": "博物館へ names their destination, the museum."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "On which day is the outing?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-02-c1",
+          "text": "土曜日",
+          "rationale": "土曜日 appears in the invitation and the final confirmation."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-02-c2",
+          "text": "月曜日",
+          "rationale": "Not this option. 土曜日 appears in the invitation and the final confirmation."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-02-c3",
+          "text": "日曜日",
+          "rationale": "Not this option. 土曜日 appears in the invitation and the final confirmation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-02-c1"
+      },
+      "explanation": "土曜日 appears in the invitation and the final confirmation.",
+      "feedback": "土曜日 appears in the invitation and the final confirmation."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "At what time will they meet?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-03-c1",
+          "text": "午前十時",
+          "rationale": "Not this option. 午前九時に explicitly gives the meeting time as 9 a.m."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-03-c2",
+          "text": "午後九時",
+          "rationale": "Not this option. 午前九時に explicitly gives the meeting time as 9 a.m."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-03-c3",
+          "text": "午前九時",
+          "rationale": "午前九時に explicitly gives the meeting time as 9 a.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-03-c3"
+      },
+      "explanation": "午前九時に explicitly gives the meeting time as 9 a.m.",
+      "feedback": "午前九時に explicitly gives the meeting time as 9 a.m."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "Where will they meet?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-04-c1",
+          "text": "博物館",
+          "rationale": "Not this option. 駅で会いましょう gives the meeting place."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-04-c2",
+          "text": "駅",
+          "rationale": "駅で会いましょう gives the meeting place."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-04-c3",
+          "text": "学校",
+          "rationale": "Not this option. 駅で会いましょう gives the meeting place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-04-c2"
+      },
+      "explanation": "駅で会いましょう gives the meeting place.",
+      "feedback": "駅で会いましょう gives the meeting place."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "How will they travel from the station?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-05-c1",
+          "text": "電車で",
+          "rationale": "駅から電車で行きます states the train as the means."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-05-c2",
+          "text": "自転車で",
+          "rationale": "Not this option. 駅から電車で行きます states the train as the means."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-05-c3",
+          "text": "バスで",
+          "rationale": "Not this option. 駅から電車で行きます states the train as the means."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-05-c1"
+      },
+      "explanation": "駅から電車で行きます states the train as the means.",
+      "feedback": "駅から電車で行きます states the train as the means."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "What is the fictional one-way ticket price?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-06-c1",
+          "text": "三百円",
+          "rationale": "Not this option. 片道二百円です gives 200 yen one way."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-06-c2",
+          "text": "百円",
+          "rationale": "Not this option. 片道二百円です gives 200 yen one way."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-06-c3",
+          "text": "二百円",
+          "rationale": "片道二百円です gives 200 yen one way."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-06-c3"
+      },
+      "explanation": "片道二百円です gives 200 yen one way.",
+      "feedback": "片道二百円です gives 200 yen one way."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "Which expression is a polite invitation?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-07-c1",
+          "text": "行きません",
+          "rationale": "Not this option. 行きませんか invites the listener to go together."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-07-c2",
+          "text": "行きませんか",
+          "rationale": "行きませんか invites the listener to go together."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-07-c3",
+          "text": "行きました",
+          "rationale": "Not this option. 行きませんか invites the listener to go together."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-07-c2"
+      },
+      "explanation": "行きませんか invites the listener to go together.",
+      "feedback": "行きませんか invites the listener to go together."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "Which phrase marks the destination?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-08-c1",
+          "text": "博物館へ",
+          "rationale": "The particle へ after 博物館 marks where they are going."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-08-c2",
+          "text": "午前九時に",
+          "rationale": "Not this option. The particle へ after 博物館 marks where they are going."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-08-c3",
+          "text": "駅で",
+          "rationale": "Not this option. The particle へ after 博物館 marks where they are going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-08-c1"
+      },
+      "explanation": "The particle へ after 博物館 marks where they are going.",
+      "feedback": "The particle へ after 博物館 marks where they are going."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "Which phrase states the meeting place?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-09-c1",
+          "text": "電車で行きます",
+          "rationale": "Not this option. The で in 駅で会いましょう marks where meeting occurs."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-09-c2",
+          "text": "駅から行きます",
+          "rationale": "Not this option. The で in 駅で会いましょう marks where meeting occurs."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-09-c3",
+          "text": "駅で会いましょう",
+          "rationale": "The で in 駅で会いましょう marks where meeting occurs."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-09-c3"
+      },
+      "explanation": "The で in 駅で会いましょう marks where meeting occurs.",
+      "feedback": "The で in 駅で会いましょう marks where meeting occurs."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "Which phrase identifies the starting point?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-10-c1",
+          "text": "博物館へ",
+          "rationale": "Not this option. から marks the point from which the trip starts."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-10-c2",
+          "text": "駅から",
+          "rationale": "から marks the point from which the trip starts."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-10-c3",
+          "text": "土曜日に",
+          "rationale": "Not this option. から marks the point from which the trip starts."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-10-c2"
+      },
+      "explanation": "から marks the point from which the trip starts.",
+      "feedback": "から marks the point from which the trip starts."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "Which expression indicates going together?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-11-c1",
+          "text": "いっしょに",
+          "rationale": "いっしょに means together."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-11-c2",
+          "text": "何時に",
+          "rationale": "Not this option. いっしょに means together."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-11-c3",
+          "text": "片道",
+          "rationale": "Not this option. いっしょに means together."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-11-c1"
+      },
+      "explanation": "いっしょに means together.",
+      "feedback": "いっしょに means together."
+    },
+    {
+      "id": "ex-n5-m05-c04-l01-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "reading",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l01-outing"
+      ],
+      "prompt": "What does Aki ask with 切符はいくらですか?",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c04-l01-12-c1",
+          "text": "The museum location",
+          "rationale": "Not this option. いくら asks how much something costs."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-12-c2",
+          "text": "The departure time",
+          "rationale": "Not this option. いくら asks how much something costs."
+        },
+        {
+          "id": "ex-n5-m05-c04-l01-12-c3",
+          "text": "The ticket price",
+          "rationale": "いくら asks how much something costs."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c04-l01-12-c3"
+      },
+      "explanation": "いくら asks how much something costs.",
+      "feedback": "いくら asks how much something costs."
+    }
+  ]
+}
