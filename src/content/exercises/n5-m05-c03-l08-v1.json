@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m05-c03-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l08-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k01"
+      ],
+      "prompt": "Which phrase politely asks where the post office is?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-01-c1",
+          "text": "郵便局はどこですか。",
+          "rationale": "Correct. どこですか asks for a location."
+        },
+        {
+          "id": "n5-m05-c03-l08-01-c2",
+          "text": "郵便局に行きます。",
+          "rationale": "Review. どこですか asks for a location."
+        },
+        {
+          "id": "n5-m05-c03-l08-01-c3",
+          "text": "郵便局は大きいです。",
+          "rationale": "Review. どこですか asks for a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-01-c1"
+      },
+      "explanation": "どこですか asks for a location."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k02"
+      ],
+      "prompt": "What is a polite request to go straight?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-02-c1",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Correct. 行ってください requests movement straight ahead."
+        },
+        {
+          "id": "n5-m05-c03-l08-02-c2",
+          "text": "まっすぐにあります。",
+          "rationale": "Review. 行ってください requests movement straight ahead."
+        },
+        {
+          "id": "n5-m05-c03-l08-02-c3",
+          "text": "右に曲がってください。",
+          "rationale": "Review. 行ってください requests movement straight ahead."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-02-c1"
+      },
+      "explanation": "行ってください requests movement straight ahead."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k03"
+      ],
+      "prompt": "Which instruction means turn left?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-03-c1",
+          "text": "左に曲がってください。",
+          "rationale": "Correct. 左に曲がってください asks for a left turn."
+        },
+        {
+          "id": "n5-m05-c03-l08-03-c2",
+          "text": "右に曲がってください。",
+          "rationale": "Review. 左に曲がってください asks for a left turn."
+        },
+        {
+          "id": "n5-m05-c03-l08-03-c3",
+          "text": "左にあります。",
+          "rationale": "Review. 左に曲がってください asks for a left turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-03-c1"
+      },
+      "explanation": "左に曲がってください asks for a left turn."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k04"
+      ],
+      "prompt": "How do you ask 'Do I turn right at the signal?'",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-04-c1",
+          "text": "信号で右に曲がりますか。",
+          "rationale": "Correct. 曲がりますか asks whether to turn; 右 means right."
+        },
+        {
+          "id": "n5-m05-c03-l08-04-c2",
+          "text": "信号は右にありますか。",
+          "rationale": "Review. 曲がりますか asks whether to turn; 右 means right."
+        },
+        {
+          "id": "n5-m05-c03-l08-04-c3",
+          "text": "信号で左に曲がりますか。",
+          "rationale": "Review. 曲がりますか asks whether to turn; 右 means right."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-04-c1"
+      },
+      "explanation": "曲がりますか asks whether to turn; 右 means right."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k05"
+      ],
+      "prompt": "Which sentence says the bank is next to the station?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-05-c1",
+          "text": "銀行は駅の隣にあります。",
+          "rationale": "Correct. 隣にあります describes a location."
+        },
+        {
+          "id": "n5-m05-c03-l08-05-c2",
+          "text": "銀行は駅へ行きます。",
+          "rationale": "Review. 隣にあります describes a location."
+        },
+        {
+          "id": "n5-m05-c03-l08-05-c3",
+          "text": "銀行は駅で曲がります。",
+          "rationale": "Review. 隣にあります describes a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-05-c1"
+      },
+      "explanation": "隣にあります describes a location."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k06"
+      ],
+      "prompt": "Which reply corrects a mistaken right turn?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-06-c1",
+          "text": "いいえ、左に曲がってください。",
+          "rationale": "Correct. いいえ rejects the proposed right turn; 左 gives the correction."
+        },
+        {
+          "id": "n5-m05-c03-l08-06-c2",
+          "text": "はい、右に曲がってください。",
+          "rationale": "Review. いいえ rejects the proposed right turn; 左 gives the correction."
+        },
+        {
+          "id": "n5-m05-c03-l08-06-c3",
+          "text": "右にあります。",
+          "rationale": "Review. いいえ rejects the proposed right turn; 左 gives the correction."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-06-c1"
+      },
+      "explanation": "いいえ rejects the proposed right turn; 左 gives the correction."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k07"
+      ],
+      "prompt": "Which sentence locates the park in front of the library?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-07-c1",
+          "text": "公園は図書館の前にあります。",
+          "rationale": "Correct. 前 means in front; 隣 means next to."
+        },
+        {
+          "id": "n5-m05-c03-l08-07-c2",
+          "text": "公園は図書館の隣にあります。",
+          "rationale": "Review. 前 means in front; 隣 means next to."
+        },
+        {
+          "id": "n5-m05-c03-l08-07-c3",
+          "text": "図書館で右に曲がってください。",
+          "rationale": "Review. 前 means in front; 隣 means next to."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-07-c1"
+      },
+      "explanation": "前 means in front; 隣 means next to."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k08"
+      ],
+      "prompt": "What does その信号 refer to after 信号があります?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-08-c1",
+          "text": "The signal just mentioned",
+          "rationale": "Correct. その points back to the previously introduced signal."
+        },
+        {
+          "id": "n5-m05-c03-l08-08-c2",
+          "text": "A new station",
+          "rationale": "Review. その points back to the previously introduced signal."
+        },
+        {
+          "id": "n5-m05-c03-l08-08-c3",
+          "text": "A different park",
+          "rationale": "Review. その points back to the previously introduced signal."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-08-c1"
+      },
+      "explanation": "その points back to the previously introduced signal."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k09"
+      ],
+      "prompt": "Which phrase asks a listener to repeat?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-09-c1",
+          "text": "もう一度お願いします。",
+          "rationale": "Correct. もう一度お願いします politely requests one more time."
+        },
+        {
+          "id": "n5-m05-c03-l08-09-c2",
+          "text": "まっすぐお願いします。",
+          "rationale": "Review. もう一度お願いします politely requests one more time."
+        },
+        {
+          "id": "n5-m05-c03-l08-09-c3",
+          "text": "右にあります。",
+          "rationale": "Review. もう一度お願いします politely requests one more time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-09-c1"
+      },
+      "explanation": "もう一度お願いします politely requests one more time."
+    },
+    {
+      "id": "ex-n5-m05-c03-l08-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-l08-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l08-k10"
+      ],
+      "prompt": "Which is a suitable final acknowledgement after receiving directions?",
+      "choices": [
+        {
+          "id": "n5-m05-c03-l08-10-c1",
+          "text": "ありがとうございます。",
+          "rationale": "Correct. ありがとうございます thanks the person for their help."
+        },
+        {
+          "id": "n5-m05-c03-l08-10-c2",
+          "text": "どこですか。",
+          "rationale": "Review. ありがとうございます thanks the person for their help."
+        },
+        {
+          "id": "n5-m05-c03-l08-10-c3",
+          "text": "右に曲がりますか。",
+          "rationale": "Review. ありがとうございます thanks the person for their help."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "n5-m05-c03-l08-10-c1"
+      },
+      "explanation": "ありがとうございます thanks the person for their help."
+    }
+  ]
+}
