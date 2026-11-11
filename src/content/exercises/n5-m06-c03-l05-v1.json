@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c03-l05",
+  "lessonId": "n5-m06-c03-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional classroom, library and community hall signage",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "When does the Japanese class start?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-01-c1",
+          "text": "When does the Japanese class start?",
+          "rationale": "Correct. Evidence from the original sign: 授業は午前十時からです."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-01-c2",
+          "text": "10:00 a.m.",
+          "rationale": "Review the wording: 授業は午前十時からです. This supports “10:00 a.m.,” not “10:00 a.m..”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-01-c3",
+          "text": "9:50 a.m.",
+          "rationale": "Review the wording: 授業は午前十時からです. This supports “10:00 a.m.,” not “9:50 a.m..”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-01-c1"
+      },
+      "explanation": "Evidence: 授業は午前十時からです.",
+      "feedback": "Evidence: 授業は午前十時からです."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "By when should students arrive?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-02-c1",
+          "text": "10:50 a.m.",
+          "rationale": "Review the wording: 九時五十分までに教室に来てください. This supports “9:50 a.m.,” not “10:50 a.m..”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-02-c2",
+          "text": "By when should students arrive?",
+          "rationale": "Correct. Evidence from the original sign: 九時五十分までに教室に来てください."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-02-c3",
+          "text": "9:50 a.m.",
+          "rationale": "Review the wording: 九時五十分までに教室に来てください. This supports “9:50 a.m.,” not “9:50 a.m..”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-02-c2"
+      },
+      "explanation": "Evidence: 九時五十分までに教室に来てください.",
+      "feedback": "Evidence: 九時五十分までに教室に来てください."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "What is prohibited in the classroom?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-03-c1",
+          "text": "Talking on the phone",
+          "rationale": "Review the wording: 教室では電話で話してはいけません. This supports “Talking on the phone,” not “Talking on the phone.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-03-c2",
+          "text": "Reading a book",
+          "rationale": "Review the wording: 教室では電話で話してはいけません. This supports “Talking on the phone,” not “Reading a book.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-03-c3",
+          "text": "What is prohibited in the classroom?",
+          "rationale": "Correct. Evidence from the original sign: 教室では電話で話してはいけません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-03-c3"
+      },
+      "explanation": "Evidence: 教室では電話で話してはいけません.",
+      "feedback": "Evidence: 教室では電話で話してはいけません."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "Which phrase requests an action?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-04-c1",
+          "text": "Which phrase requests an action?",
+          "rationale": "Correct. Evidence from the original sign: 教室に来てください."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-04-c2",
+          "text": "教室に来てください",
+          "rationale": "Review the wording: 教室に来てください. This supports “教室に来てください,” not “教室に来てください.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-04-c3",
+          "text": "電話で話してはいけません",
+          "rationale": "Review the wording: 教室に来てください. This supports “教室に来てください,” not “電話で話してはいけません.”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-04-c1"
+      },
+      "explanation": "Evidence: 教室に来てください.",
+      "feedback": "Evidence: 教室に来てください."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "What is allowed in the reading room?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-05-c1",
+          "text": "Taking books home",
+          "rationale": "Review the wording: 本はここで読んでもいいです. This supports “Reading books there,” not “Taking books home.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-05-c2",
+          "text": "What is allowed in the reading room?",
+          "rationale": "Correct. Evidence from the original sign: 本はここで読んでもいいです."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-05-c3",
+          "text": "Reading books there",
+          "rationale": "Review the wording: 本はここで読んでもいいです. This supports “Reading books there,” not “Reading books there.”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-05-c2"
+      },
+      "explanation": "Evidence: 本はここで読んでもいいです.",
+      "feedback": "Evidence: 本はここで読んでもいいです."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "What may readers NOT do?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-06-c1",
+          "text": "Take books home",
+          "rationale": "Review the wording: 本を持って帰ってはいけません. This supports “Take books home,” not “Take books home.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-06-c2",
+          "text": "Read books there",
+          "rationale": "Review the wording: 本を持って帰ってはいけません. This supports “Take books home,” not “Read books there.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-06-c3",
+          "text": "What may readers NOT do?",
+          "rationale": "Correct. Evidence from the original sign: 本を持って帰ってはいけません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-06-c3"
+      },
+      "explanation": "Evidence: 本を持って帰ってはいけません.",
+      "feedback": "Evidence: 本を持って帰ってはいけません."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "Where should books go after reading?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-07-c1",
+          "text": "Where should books go after reading?",
+          "rationale": "Correct. Evidence from the original sign: 本を棚に戻してください."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-07-c2",
+          "text": "Back to the shelf",
+          "rationale": "Review the wording: 本を棚に戻してください. This supports “Back to the shelf,” not “Back to the shelf.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-07-c3",
+          "text": "Home with the reader",
+          "rationale": "Review the wording: 本を棚に戻してください. This supports “Back to the shelf,” not “Home with the reader.”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-07-c1"
+      },
+      "explanation": "Evidence: 本を棚に戻してください.",
+      "feedback": "Evidence: 本を棚に戻してください."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "What does 戻してください communicate?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-08-c1",
+          "text": "A ban on returning something",
+          "rationale": "Review the wording: 本を棚に戻してください. This supports “A request to return something,” not “A ban on returning something.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-08-c2",
+          "text": "What does 戻してください communicate?",
+          "rationale": "Correct. Evidence from the original sign: 本を棚に戻してください."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-08-c3",
+          "text": "A request to return something",
+          "rationale": "Review the wording: 本を棚に戻してください. This supports “A request to return something,” not “A request to return something.”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-08-c2"
+      },
+      "explanation": "Evidence: 本を棚に戻してください.",
+      "feedback": "Evidence: 本を棚に戻してください."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "What does the visitor ask about?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-09-c1",
+          "text": "Taking photos",
+          "rationale": "Review the wording: ここで写真を撮ってもいいですか. This supports “Taking photos,” not “Taking photos.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-09-c2",
+          "text": "Borrowing books",
+          "rationale": "Review the wording: ここで写真を撮ってもいいですか. This supports “Taking photos,” not “Borrowing books.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-09-c3",
+          "text": "What does the visitor ask about?",
+          "rationale": "Correct. Evidence from the original sign: ここで写真を撮ってもいいですか."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-09-c3"
+      },
+      "explanation": "Evidence: ここで写真を撮ってもいいですか.",
+      "feedback": "Evidence: ここで写真を撮ってもいいですか."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "Who confirms photography is permitted?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-10-c1",
+          "text": "Who confirms photography is permitted?",
+          "rationale": "Correct. Evidence from the original sign: 係の人：はい、写真を撮ってもいいです."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-10-c2",
+          "text": "The staff member",
+          "rationale": "Review the wording: 係の人：はい、写真を撮ってもいいです. This supports “The staff member,” not “The staff member.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-10-c3",
+          "text": "The classroom teacher",
+          "rationale": "Review the wording: 係の人：はい、写真を撮ってもいいです. This supports “The staff member,” not “The classroom teacher.”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-10-c1"
+      },
+      "explanation": "Evidence: 係の人：はい、写真を撮ってもいいです.",
+      "feedback": "Evidence: 係の人：はい、写真を撮ってもいいです."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "Which action remains forbidden in the hall?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-11-c1",
+          "text": "Taking photos",
+          "rationale": "Review the wording: フラッシュを使ってはいけません. This supports “Using flash,” not “Taking photos.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-11-c2",
+          "text": "Which action remains forbidden in the hall?",
+          "rationale": "Correct. Evidence from the original sign: フラッシュを使ってはいけません."
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-11-c3",
+          "text": "Using flash",
+          "rationale": "Review the wording: フラッシュを使ってはいけません. This supports “Using flash,” not “Using flash.”"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-11-c2"
+      },
+      "explanation": "Evidence: フラッシュを使ってはいけません.",
+      "feedback": "Evidence: フラッシュを使ってはいけません."
+    },
+    {
+      "id": "ex-n5-m06-c03-l05-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l05-signs"
+      ],
+      "prompt": "Does Sign A give the class ending time?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-l05-12-c1",
+          "text": "No, it is not stated",
+          "rationale": "Review the wording: 授業は午前十時からです. This supports “No, it is not stated,” not “No, it is not stated.”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-12-c2",
+          "text": "Yes, 11:00 a.m.",
+          "rationale": "Review the wording: 授業は午前十時からです. This supports “No, it is not stated,” not “Yes, 11:00 a.m..”"
+        },
+        {
+          "id": "ex-n5-m06-c03-l05-12-c3",
+          "text": "Does Sign A give the class ending time?",
+          "rationale": "Correct. Evidence from the original sign: 授業は午前十時からです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-l05-12-c3"
+      },
+      "explanation": "Evidence: 授業は午前十時からです.",
+      "feedback": "Evidence: 授業は午前十時からです."
+    }
+  ]
+}
