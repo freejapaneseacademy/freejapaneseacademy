@@ -3904,6 +3904,23 @@
       "audio": "not required for written L05",
       "noindex": false,
       "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "n5-m05-c01-l07",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c01",
+      "slot": "L07",
+      "title": "Write a Journey: Destinations, Transport and Viewpoint",
+      "content": "src/content/lessons/n5/journey-writing.mdx",
+      "url": "/learn/n5/module-05/chapter-01/lesson-07/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment editor review not claimed",
+      "audio": "not required for written L07; L06 listening audio separate",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
