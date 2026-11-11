@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m02-c03-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who is looking for the notebook?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ユイ (Yui)",
+          "rationale": "Yui asks where her notebook is."
+        },
+        {
+          "id": "c2",
+          "text": "タク (Taku)",
+          "rationale": "Taku is helping locate it."
+        },
+        {
+          "id": "c3",
+          "text": "The teacher",
+          "rationale": "No teacher speaks in the scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Yui asks where her notebook is."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the notebook?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On the desk",
+          "rationale": "The notebook is in the bag, かばんの なか."
+        },
+        {
+          "id": "c2",
+          "text": "In the bag",
+          "rationale": "The desk holds a book, not the notebook."
+        },
+        {
+          "id": "c3",
+          "text": "At the entrance",
+          "rationale": "No item is located at the entrance."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The desk holds a book, not the notebook."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the book?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On the desk",
+          "rationale": "つくえの うえ locates the book on the desk."
+        },
+        {
+          "id": "c2",
+          "text": "In the bag",
+          "rationale": "The bag holds the notebook."
+        },
+        {
+          "id": "c3",
+          "text": "In the classroom next door",
+          "rationale": "No neighboring classroom is mentioned."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "つくえの うえ locates the book on the desk."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the teacher?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In the classroom",
+          "rationale": "せんせいは きょうしつに います."
+        },
+        {
+          "id": "c2",
+          "text": "In the bag",
+          "rationale": "A person cannot be located inside the bag in this scene."
+        },
+        {
+          "id": "c3",
+          "text": "At the library",
+          "rationale": "The library is not mentioned."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "せんせいは きょうしつに います."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase states that the notebook exists in the bag?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ノートは かばんの なかに あります。",
+          "rationale": "あります is used for the notebook, an inanimate object."
+        },
+        {
+          "id": "c2",
+          "text": "ノートは かばんの なかに います。",
+          "rationale": "います normally describes living beings, not notebooks."
+        },
+        {
+          "id": "c3",
+          "text": "ノートは どこですか。",
+          "rationale": "This asks a question but does not give the location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "あります is used for the notebook, an inanimate object."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which verb fits a teacher's presence?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あります",
+          "rationale": "います expresses a person's presence."
+        },
+        {
+          "id": "c2",
+          "text": "います",
+          "rationale": "あります is for inanimate objects and many nonliving things."
+        },
+        {
+          "id": "c3",
+          "text": "ですか",
+          "rationale": "ですか forms a question, not an existence verb."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "あります is for inanimate objects and many nonliving things."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In つくえの うえに ほんが あります, what does に mark?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The place where the book is",
+          "rationale": "に marks the location of existence."
+        },
+        {
+          "id": "c2",
+          "text": "The person who owns the book",
+          "rationale": "Ownership is expressed with の, not に."
+        },
+        {
+          "id": "c3",
+          "text": "The book as a direct object",
+          "rationale": "が marks the book as the thing present here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "に marks the location of existence."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence answers 'Is there a book on the desk?'",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "はい、つくえの うえに ほんが あります。",
+          "rationale": "はい and あります match the pictured facts and question."
+        },
+        {
+          "id": "c2",
+          "text": "はい、つくえの うえに ほんが います。",
+          "rationale": "います is not used for the book."
+        },
+        {
+          "id": "c3",
+          "text": "いいえ、つくえの うえに ほんが あります。",
+          "rationale": "いいえ contradicts the affirmative existence statement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "はい and あります match the pictured facts and question."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the purpose of the exchange?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "To locate belongings and a teacher",
+          "rationale": "Yui and Taku locate items and identify the teacher's location."
+        },
+        {
+          "id": "c2",
+          "text": "To order food",
+          "rationale": "No food is ordered."
+        },
+        {
+          "id": "c3",
+          "text": "To arrange a train trip",
+          "rationale": "No train journey is discussed."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Yui and Taku locate items and identify the teacher's location."
+    },
+    {
+      "id": "ex-n5-m02-c03-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which statement is supported by the room description?",
+      "objectiveIds": [
+        "n5-m02-c03-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l01-room-context"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The bag contains the notebook.",
+          "rationale": "The bag contains Yui's notebook."
+        },
+        {
+          "id": "c2",
+          "text": "The teacher is on the desk.",
+          "rationale": "The teacher is in the classroom, not on a desk."
+        },
+        {
+          "id": "c3",
+          "text": "The book is inside the bag.",
+          "rationale": "The book is on the desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The bag contains Yui's notebook."
+    }
+  ]
+}

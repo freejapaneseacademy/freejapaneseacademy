@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m02-c02-l02",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c02-l02-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You want to borrow a book. Which place should you ask for?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書室",
+          "rationale": "The library room is where books are available."
+        },
+        {
+          "id": "c2",
+          "text": "食堂",
+          "rationale": "食堂 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c3",
+          "text": "保健室",
+          "rationale": "保健室 refers to a different place or facility, not the one described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The library room is where books are available."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "A student feels sick at school. Which room is appropriate?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "事務室",
+          "rationale": "事務室 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c2",
+          "text": "保健室",
+          "rationale": "The school health room is the appropriate place to seek help."
+        },
+        {
+          "id": "c3",
+          "text": "教室",
+          "rationale": "教室 refers to a different place or facility, not the one described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The school health room is the appropriate place to seek help."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word refers to the place where a class meets?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "廊下",
+          "rationale": "廊下 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c2",
+          "text": "出口",
+          "rationale": "出口 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c3",
+          "text": "教室",
+          "rationale": "教室 names a classroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "教室 names a classroom."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means 'administrative office'?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "事務室",
+          "rationale": "事務室 is the school office."
+        },
+        {
+          "id": "c2",
+          "text": "図書室",
+          "rationale": "図書室 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c3",
+          "text": "食堂",
+          "rationale": "食堂 refers to a different place or facility, not the one described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "事務室 is the school office."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where would you go for lunch?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "階段",
+          "rationale": "階段 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c2",
+          "text": "食堂",
+          "rationale": "食堂 is a cafeteria or dining hall."
+        },
+        {
+          "id": "c3",
+          "text": "保健室",
+          "rationale": "保健室 refers to a different place or facility, not the one described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "食堂 is a cafeteria or dining hall."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word names the way into a building?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "出口",
+          "rationale": "出口 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c2",
+          "text": "廊下",
+          "rationale": "廊下 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c3",
+          "text": "入口",
+          "rationale": "入口 is the entrance, whereas 出口 is the exit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "入口 is the entrance, whereas 出口 is the exit."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word names the way out of a building?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "出口",
+          "rationale": "出口 is the exit."
+        },
+        {
+          "id": "c2",
+          "text": "入口",
+          "rationale": "入口 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c3",
+          "text": "教室",
+          "rationale": "教室 refers to a different place or facility, not the one described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "出口 is the exit."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "You need to walk to another floor. Which word is useful?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食堂",
+          "rationale": "食堂 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c2",
+          "text": "階段",
+          "rationale": "階段 means stairs."
+        },
+        {
+          "id": "c3",
+          "text": "図書室",
+          "rationale": "図書室 refers to a different place or facility, not the one described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "階段 means stairs."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which Japanese word is commonly written in katakana?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "入口",
+          "rationale": "入口 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c2",
+          "text": "保健室",
+          "rationale": "保健室 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c3",
+          "text": "トイレ",
+          "rationale": "トイレ is the common loanword for restroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "トイレ is the common loanword for restroom."
+    },
+    {
+      "id": "ex-n5-m02-c02-l02-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word refers to a passage connecting rooms?",
+      "objectiveIds": [
+        "n5-m02-c02-l02-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l02-school-facilities"
+      ],
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "廊下",
+          "rationale": "廊下 means a corridor or hallway."
+        },
+        {
+          "id": "c2",
+          "text": "事務室",
+          "rationale": "事務室 refers to a different place or facility, not the one described."
+        },
+        {
+          "id": "c3",
+          "text": "階段",
+          "rationale": "階段 refers to a different place or facility, not the one described."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "廊下 means a corridor or hallway."
+    }
+  ]
+}
