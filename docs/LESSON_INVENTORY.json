@@ -4134,6 +4134,21 @@
       "audio": "not required for written L01; no audio or pronunciation evaluation claimed",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m06-c01-l01",
+      "level": "n5",
+      "moduleId": "n5-m06",
+      "chapterId": "n5-m06-c01",
+      "slot": "L01",
+      "title": "At the activity board: recognizing Japanese verb forms",
+      "content": "src/content/lessons/n5/verb-board-context.mdx",
+      "url": "/learn/n5/module-06/chapter-01/lesson-01/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified Japanese review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written L01",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
