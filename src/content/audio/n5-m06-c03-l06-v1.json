@@ -1,0 +1,181 @@
+{
+  "lessonId": "n5-m06-c03-l06",
+  "chapterId": "n5-m06-c03",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m06-c03-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m06-c03-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 18.08,
+      "transcript": "女性： すみません。この辞書を使ってもいいですか。\n男性： はい、いいですよ。でも、ここで使ってください。\n女性： わかりました。写真を撮ってもいいですか。\n男性： すみません。ここでは写真を撮ってはいけません。\n女性： わかりました。ありがとうございます。",
+      "english": "Woman: Excuse me. May I use this dictionary?\nMan: Yes, that's fine. But please use it here.\nWoman: Understood. May I take a photograph?\nMan: Sorry. You must not take photographs here.\nWoman: Understood. Thank you.",
+      "scriptPurpose": "Borrowing a dictionary in a study room",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-a"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。この辞書を使ってもいいですか。",
+          "english": "Excuse me. May I use this dictionary?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.54
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい、いいですよ。でも、ここで使ってください。",
+          "english": "Yes, that's fine. But please use it here.",
+          "startSeconds": 3.82,
+          "endSeconds": 7.32
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "わかりました。写真を撮ってもいいですか。",
+          "english": "Understood. May I take a photograph?",
+          "startSeconds": 7.6,
+          "endSeconds": 11.04
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "すみません。ここでは写真を撮ってはいけません。",
+          "english": "Sorry. You must not take photographs here.",
+          "startSeconds": 11.32,
+          "endSeconds": 14.7
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "わかりました。ありがとうございます。",
+          "english": "Understood. Thank you.",
+          "startSeconds": 14.98,
+          "endSeconds": 18.08
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — reviewed repository TTS_GENERATION_POLICY.md v5 and its linked ACML 1.0 model license declarations; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "970aeeb873ce70d019c2799725301349b645d194b0967d6b3d5f1e2a8e878a32",
+        "bytes": 1594556,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m06-c03-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m06-c03-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.92,
+      "transcript": "男性： こんにちは。ここで水を飲んでもいいですか。\n女性： はい、水は飲んでもいいですよ。\n男性： ありがとうございます。あの部屋に入ってもいいですか。\n女性： すみません。今は入ってはいけません。ここで待ってください。\n男性： はい、ここで待ちます。",
+      "english": "Man: Hello. May I drink water here?\nWoman: Yes, you may drink water.\nMan: Thank you. May I enter that room?\nWoman: Sorry. You must not enter now. Please wait here.\nMan: Okay, I'll wait here.",
+      "scriptPurpose": "Rules at a community hall entrance",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m06-c03-l06-listen-b"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "こんにちは。ここで水を飲んでもいいですか。",
+          "english": "Hello. May I drink water here?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.4
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい、水は飲んでもいいですよ。",
+          "english": "Yes, you may drink water.",
+          "startSeconds": 3.68,
+          "endSeconds": 6.53
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ありがとうございます。あの部屋に入ってもいいですか。",
+          "english": "Thank you. May I enter that room?",
+          "startSeconds": 6.81,
+          "endSeconds": 10.44
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。今は入ってはいけません。ここで待ってください。",
+          "english": "Sorry. You must not enter now. Please wait here.",
+          "startSeconds": 10.72,
+          "endSeconds": 15.58
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい、ここで待ちます。",
+          "english": "Okay, I'll wait here.",
+          "startSeconds": 15.86,
+          "endSeconds": 17.92
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — reviewed repository TTS_GENERATION_POLICY.md v5 and its linked ACML 1.0 model license declarations; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "77941b55852a37b1220f7fa4a657613e9f41e9e5614ed245d0f33eaa14d52f8c",
+        "bytes": 1580814,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
