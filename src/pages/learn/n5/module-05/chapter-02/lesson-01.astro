@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import CompanionContextPractice from '../../../../../components/interactive/CompanionContextPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/transport-companions-context');
+if(!lesson || lesson.data.lessonId!=='n5-m05-c02-l01') throw new Error('Missing canonical lesson n5-m05-c02-l01');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Methods and companions',href:'/learn/n5/module-05/chapter-02/lesson-01/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 05 · CHAPTER 02 · LESSON 01</span><h1>Who is coming along?</h1><p>{lesson.data.description}</p><p>About {lesson.data.minutes} minutes · Context and meaning</p></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+<div class="course-notice">Original written lesson. Independent Japanese-language and assessment reviews pending. No audio or pronunciation grade is claimed.</div>
+<div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+<article class="lesson-article foundation-article"><Content/></article>
+<CompanionContextPractice client:load/>
+<div class="foundation-completion"><h2>Complete the lesson</h2><p>Completion and question accuracy are recorded separately.</p><LessonActions client:load lessonId="n5-m05-c02-l01" level="n5"/></div>
+<div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 course</a><a class="btn btn-outline" href="/dashboard/">Progress dashboard</a></div>
+</div><aside class="lesson-side foundation-side"><h2>Study guide</h2><p>Ask how a traveller goes, who accompanies them, and what the conversation actually states.</p></aside></div></section>
+</Base>
