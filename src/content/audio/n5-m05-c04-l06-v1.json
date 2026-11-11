@@ -1,0 +1,197 @@
+{
+  "lessonId": "n5-m05-c04-l06",
+  "chapterId": "n5-m05-c04",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m05-c04-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m05-c04-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.39,
+      "transcript": "女性： 土曜日に博物館へ行きませんか。\n男性： いいですね。何時に会いますか。\n女性： 午前九時に駅で会いましょう。\n男性： 博物館へは何で行きますか。\n女性： 駅から電車で行きます。\n男性： わかりました。土曜日の午前九時ですね。",
+      "english": "Woman: Would you like to go to the museum on Saturday?\nMan: Sounds good. What time shall we meet?\nWoman: Let's meet at the station at nine in the morning.\nMan: How will we get to the museum?\nWoman: We'll go by train from the station.\nMan: Understood. Nine on Saturday morning, then.",
+      "scriptPurpose": "Meeting for the museum visit",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m05-c04-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "土曜日に博物館へ行きませんか。",
+          "english": "Would you like to go to the museum on Saturday?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.92
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいですね。何時に会いますか。",
+          "english": "Sounds good. What time shall we meet?",
+          "startSeconds": 3.2,
+          "endSeconds": 5.8
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "午前九時に駅で会いましょう。",
+          "english": "Let's meet at the station at nine in the morning.",
+          "startSeconds": 6.08,
+          "endSeconds": 8.62
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "博物館へは何で行きますか。",
+          "english": "How will we get to the museum?",
+          "startSeconds": 8.9,
+          "endSeconds": 11.38
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "駅から電車で行きます。",
+          "english": "We'll go by train from the station.",
+          "startSeconds": 11.66,
+          "endSeconds": 13.76
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "わかりました。土曜日の午前九時ですね。",
+          "english": "Understood. Nine on Saturday morning, then.",
+          "startSeconds": 14.04,
+          "endSeconds": 17.39
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "6a3e93b690314f14b5ee68130875836ac72e3c6fbd64badf9dd37c13a65ad497",
+        "bytes": 1533824,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m05-c04-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m05-c04-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.06,
+      "transcript": "男性： 日曜日の水族館へのバスは何時ですか。\n女性： 午前十時に駅の前から出ます。\n男性： 切符はいくらですか。\n女性： 片道三百円です。\n男性： 友達と行きます。二人分をお願いします。\n女性： はい。二枚で六百円です。",
+      "english": "Man: What time is the bus to the aquarium on Sunday?\nWoman: It leaves from in front of the station at ten in the morning.\nMan: How much is a ticket?\nWoman: It's three hundred yen one way.\nMan: I'm going with a friend. Two tickets, please.\nWoman: Certainly. Two tickets are six hundred yen.",
+      "scriptPurpose": "Sunday bus trip to the aquarium",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m05-c04-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "日曜日の水族館へのバスは何時ですか。",
+          "english": "What time is the bus to the aquarium on Sunday?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.22
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "午前十時に駅の前から出ます。",
+          "english": "It leaves from in front of the station at ten in the morning.",
+          "startSeconds": 3.5,
+          "endSeconds": 6.26
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "切符はいくらですか。",
+          "english": "How much is a ticket?",
+          "startSeconds": 6.54,
+          "endSeconds": 8.44
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "片道三百円です。",
+          "english": "It's three hundred yen one way.",
+          "startSeconds": 8.72,
+          "endSeconds": 10.82
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "友達と行きます。二人分をお願いします。",
+          "english": "I'm going with a friend. Two tickets, please.",
+          "startSeconds": 11.1,
+          "endSeconds": 14.16
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。二枚で六百円です。",
+          "english": "Certainly. Two tickets are six hundred yen.",
+          "startSeconds": 14.44,
+          "endSeconds": 17.06
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "370987633350dead174f0687c66e2e36dd1ba2d2b8e77ad178d50eac16ada359",
+        "bytes": 1504766,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}

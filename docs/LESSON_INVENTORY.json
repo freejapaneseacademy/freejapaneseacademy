@@ -4117,6 +4117,21 @@
       "audio": "reuses L06 AivisSpeech candidate recordings; WAV, hashes, rights and alignment unverified",
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
+    },
+    {
+      "id": "n5-m05-c04-l06",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c04",
+      "slot": "L06",
+      "title": "Listen to two outing plans: meeting times, transport and fares",
+      "content": "src/content/lessons/n5/travel-outing-listening.mdx",
+      "url": "/learn/n5/module-05/chapter-04/lesson-06/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent pronunciation and language review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "schema-v3 candidate job committed; actual WAVs and manifest pending workflow and QA",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

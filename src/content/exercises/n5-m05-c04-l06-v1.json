@@ -1,0 +1,411 @@
+{
+  "id": "n5-m05-c04-l06-check-v1",
+  "lessonId": "n5-m05-c04-l06",
+  "version": 1,
+  "tracks": [
+    "audio-n5-m05-c04-l06-a",
+    "audio-n5-m05-c04-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-1"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-a",
+      "prompt": "Where are the friends planning to go?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A museum",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "b",
+          "text": "A library",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "c",
+          "text": "A park",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The invitation is to visit a museum.",
+      "evidence": "博物館へ行きませんか。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-2"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-a",
+      "prompt": "On which day will they go?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sunday",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "b",
+          "text": "Saturday",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "c",
+          "text": "Monday",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The invitation specifies Saturday.",
+      "evidence": "土曜日に博物館へ行きませんか。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-3"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-a",
+      "prompt": "When will they meet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At 10 a.m.",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "b",
+          "text": "At 9 p.m.",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "c",
+          "text": "At 9 a.m.",
+          "rationale": "Directly supported by the spoken evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "午前九時 means nine in the morning.",
+      "evidence": "午前九時に駅で会いましょう。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-4"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-a",
+      "prompt": "Where will they meet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At the museum",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "b",
+          "text": "At the station",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "c",
+          "text": "At the aquarium",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The meeting location is the station, not the destination.",
+      "evidence": "駅で会いましょう。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-5"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-a",
+      "prompt": "How will they travel from the station?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By train",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "b",
+          "text": "By bus",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "c",
+          "text": "On foot",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "電車で specifies travel by train.",
+      "evidence": "駅から電車で行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-6"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-b",
+      "prompt": "Where is the Sunday bus going?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The museum",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "b",
+          "text": "The aquarium",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "c",
+          "text": "The park",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "The bus destination is the aquarium.",
+      "evidence": "日曜日の水族館へのバスは何時ですか。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-007",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-7"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-b",
+      "prompt": "What time does the bus leave?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10 a.m.",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "b",
+          "text": "9 a.m.",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "c",
+          "text": "10 p.m.",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "午前十時 is ten in the morning.",
+      "evidence": "午前十時に駅の前から出ます。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-008",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-8"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-b",
+      "prompt": "Where does the bus leave from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The museum entrance",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "b",
+          "text": "The park",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "c",
+          "text": "In front of the station",
+          "rationale": "Directly supported by the spoken evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The departure point is in front of the station.",
+      "evidence": "駅の前から出ます。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-009",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-9"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-b",
+      "prompt": "How much is one one-way ticket?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "600 yen",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "b",
+          "text": "300 yen",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "c",
+          "text": "200 yen",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "One one-way ticket costs 300 yen in this fictional conversation.",
+      "evidence": "片道三百円です。"
+    },
+    {
+      "id": "ex-n5-m05-c04-l06-010",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l06-10"
+      ],
+      "trackId": "audio-n5-m05-c04-l06-b",
+      "prompt": "How many people are travelling together?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two",
+          "rationale": "Directly supported by the spoken evidence."
+        },
+        {
+          "id": "b",
+          "text": "Three",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        },
+        {
+          "id": "c",
+          "text": "One",
+          "rationale": "Not stated in this scene; listen again for the relevant phrase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The traveller requests tickets for two people.",
+      "evidence": "友達と行きます。二人分をお願いします。"
+    }
+  ]
+}
