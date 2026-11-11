@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m06-c02-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the main goal of this chapter?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k01"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Link simple actions using て-forms",
+          "rationale": "Correct. The chapter introduces action sequences using the て-form."
+        },
+        {
+          "id": "c2",
+          "text": "Memorize counters",
+          "rationale": "Not this option. The chapter introduces action sequences using the て-form."
+        },
+        {
+          "id": "c3",
+          "text": "Learn honorific titles",
+          "rationale": "Not this option. The chapter introduces action sequences using the て-form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The chapter introduces action sequences using the て-form."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "On a classroom instruction card, what does 手を洗って mean?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k02"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Wash your hands, and…",
+          "rationale": "Correct. 洗って is a linking て-form of 洗う, not a complete past-tense statement."
+        },
+        {
+          "id": "c2",
+          "text": "I washed my hands yesterday",
+          "rationale": "Not this option. 洗って is a linking て-form of 洗う, not a complete past-tense statement."
+        },
+        {
+          "id": "c3",
+          "text": "Do not wash your hands",
+          "rationale": "Not this option. 洗って is a linking て-form of 洗う, not a complete past-tense statement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "洗って is a linking て-form of 洗う, not a complete past-tense statement."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sequence matches 朝ごはんを食べて、学校に行きます?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k03"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Eat breakfast, then go to school",
+          "rationale": "Correct. The actions appear in that order; 食べて links to 行きます."
+        },
+        {
+          "id": "c2",
+          "text": "Go to school, then eat breakfast",
+          "rationale": "Not this option. The actions appear in that order; 食べて links to 行きます."
+        },
+        {
+          "id": "c3",
+          "text": "Eat breakfast at school yesterday",
+          "rationale": "Not this option. The actions appear in that order; 食べて links to 行きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The actions appear in that order; 食べて links to 行きます."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the て-form of 食べる?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k04"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "食べて",
+          "rationale": "Correct. Group 2 食べる drops る and adds て."
+        },
+        {
+          "id": "c2",
+          "text": "食べます",
+          "rationale": "Not this option. Group 2 食べる drops る and adds て."
+        },
+        {
+          "id": "c3",
+          "text": "食べた",
+          "rationale": "Not this option. Group 2 食べる drops る and adds て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Group 2 食べる drops る and adds て."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the て-form of 読む?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k05"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "読んで",
+          "rationale": "Correct. The む ending changes to んで in this Group 1 pattern."
+        },
+        {
+          "id": "c2",
+          "text": "読みて",
+          "rationale": "Not this option. The む ending changes to んで in this Group 1 pattern."
+        },
+        {
+          "id": "c3",
+          "text": "読むて",
+          "rationale": "Not this option. The む ending changes to んで in this Group 1 pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The む ending changes to んで in this Group 1 pattern."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the て-form of 書く?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k06"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書いて",
+          "rationale": "Correct. Most Group 1 く verbs use いて; 行く is an important exception."
+        },
+        {
+          "id": "c2",
+          "text": "書きて",
+          "rationale": "Not this option. Most Group 1 く verbs use いて; 行く is an important exception."
+        },
+        {
+          "id": "c3",
+          "text": "書んで",
+          "rationale": "Not this option. Most Group 1 く verbs use いて; 行く is an important exception."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Most Group 1 く verbs use いて; 行く is an important exception."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the て-form of 行く?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k07"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "行って",
+          "rationale": "Correct. 行く has the irregular て-form 行って."
+        },
+        {
+          "id": "c2",
+          "text": "行いて",
+          "rationale": "Not this option. 行く has the irregular て-form 行って."
+        },
+        {
+          "id": "c3",
+          "text": "行んで",
+          "rationale": "Not this option. 行く has the irregular て-form 行って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "行く has the irregular て-form 行って."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the て-form of する?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k08"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "して",
+          "rationale": "Correct. する has the irregular て-form して."
+        },
+        {
+          "id": "c2",
+          "text": "すて",
+          "rationale": "Not this option. する has the irregular て-form して."
+        },
+        {
+          "id": "c3",
+          "text": "しますて",
+          "rationale": "Not this option. する has the irregular て-form して."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "する has the irregular て-form して."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the て-form of 来る（くる）?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k09"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来て（きて）",
+          "rationale": "Correct. 来る has the irregular て-form 来て（きて）."
+        },
+        {
+          "id": "c2",
+          "text": "来って（くって）",
+          "rationale": "Not this option. 来る has the irregular て-form 来て（きて）."
+        },
+        {
+          "id": "c3",
+          "text": "来ますて",
+          "rationale": "Not this option. 来る has the irregular て-form 来て（きて）."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "来る has the irregular て-form 来て（きて）."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 〜てから emphasize?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k10"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "After doing the first action",
+          "rationale": "Correct. 〜てから explicitly marks that the next action follows the first."
+        },
+        {
+          "id": "c2",
+          "text": "Before doing the first action",
+          "rationale": "Not this option. 〜てから explicitly marks that the next action follows the first."
+        },
+        {
+          "id": "c3",
+          "text": "That an action is forbidden",
+          "rationale": "Not this option. 〜てから explicitly marks that the next action follows the first."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "〜てから explicitly marks that the next action follows the first."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 本を読んでから、寝ます, what happens first?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k11"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Read a book",
+          "rationale": "Correct. 読んでから means after reading; 寝ます follows."
+        },
+        {
+          "id": "c2",
+          "text": "Go to sleep",
+          "rationale": "Not this option. 読んでから means after reading; 寝ます follows."
+        },
+        {
+          "id": "c3",
+          "text": "Write a book",
+          "rationale": "Not this option. 読んでから means after reading; 寝ます follows."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "読んでから means after reading; 寝ます follows."
+    },
+    {
+      "id": "ex-n5-m06-c02-l01-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is the best way to describe a two-step morning routine?",
+      "objectiveIds": [
+        "n5-m06-c02-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l01-k12"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "顔を洗って、朝ごはんを食べます。",
+          "rationale": "Correct. Use the て-form 洗って to link the first action to the final polite verb."
+        },
+        {
+          "id": "c2",
+          "text": "顔を洗いますて、朝ごはんを食べます。",
+          "rationale": "Not this option. Use the て-form 洗って to link the first action to the final polite verb."
+        },
+        {
+          "id": "c3",
+          "text": "顔を洗うます、朝ごはんを食べます。",
+          "rationale": "Not this option. Use the て-form 洗って to link the first action to the final polite verb."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Use the て-form 洗って to link the first action to the final polite verb."
+    }
+  ]
+}
