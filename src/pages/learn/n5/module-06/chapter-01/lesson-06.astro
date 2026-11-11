@@ -1,0 +1,22 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import bank from '../../../../../content/exercises/n5-m06-c01-l06-v1.json';
+import manifest from '../../../../../content/audio/n5-m06-c01-l06-v1.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'n5/action-narration-listening');
+if (!lesson || lesson.data.lessonId !== 'n5-m06-c01-l06') throw new Error('Missing canonical listening lesson n5-m06-c01-l06');
+const { Content } = await render(lesson);
+const tracks = manifest.assets.map((asset: any, index: number) => ({
+  id: index === 0 ? 'a' : 'b', assetId: asset.id,
+  label: index === 0 ? 'Saturday activity announcement' : 'Cooking-club actions',
+  url: asset.mediaPath, durationSeconds: asset.durationSeconds,
+  transcript: asset.transcript, english: asset.english
+}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Action narration',href:'/learn/n5/module-06/chapter-01/lesson-06/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 06 · CHAPTER 01 · LISTENING 06</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>2 synthetic Japanese recordings</span><span>{bank.items.length} listening questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice">Original synthetic Japanese narration. Independent pronunciation and assessment review pending. Transcript-assisted attempts do not count as blind listening scores.</div><div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map((objective:string) => <li>{objective}</li>)}</ul></div><article class="lesson-article foundation-article"><Content /></article><ReusableListeningPractice client:load lessonId="n5-m06-c01-l06" level="n5" version={1} tracks={tracks} questions={bank.items} /><div class="foundation-completion"><h2>Finish this lesson</h2><LessonActions client:load lessonId="n5-m06-c01-l06" level="n5" /></div></div><aside class="lesson-side foundation-side"><h3>Listen before reading</h3><p>Replay the two recordings before revealing transcripts. Your listening score is saved locally only for unaided attempts.</p></aside></div></section>
+</Base>

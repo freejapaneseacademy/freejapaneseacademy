@@ -1,0 +1,179 @@
+{
+  "lessonId": "n5-m06-c01-l06",
+  "chapterId": "n5-m06-c01",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m06-c01-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m06-c01-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 19.22,
+      "transcript": "女性： 土曜日の日本語クラスでは、三つの活動をします。\n女性： 午前九時に本を読みます。読む時間は三十分です。\n女性： それから、日本語を書きます。書く時間は午前十時からです。\n女性： 午後一時に映画を見ます。見る活動は教室二です。",
+      "english": "Woman: In Saturday's Japanese class, we will do three activities.\nWoman: At nine in the morning, we read books. Reading time is thirty minutes.\nWoman: After that, we write Japanese. Writing time begins at ten in the morning.\nWoman: At one in the afternoon, we watch a film. The watching activity is in classroom two.",
+      "scriptPurpose": "Saturday library activity announcement",
+      "scenarioType": "announcement",
+      "objectiveIds": [
+        "n5-m06-c01-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "土曜日の日本語クラスでは、三つの活動をします。",
+          "english": "In Saturday's Japanese class, we will do three activities.",
+          "startSeconds": 0.0,
+          "endSeconds": 4.14
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "午前九時に本を読みます。読む時間は三十分です。",
+          "english": "At nine in the morning, we read books. Reading time is thirty minutes.",
+          "startSeconds": 4.42,
+          "endSeconds": 8.83
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "それから、日本語を書きます。書く時間は午前十時からです。",
+          "english": "After that, we write Japanese. Writing time begins at ten in the morning.",
+          "startSeconds": 9.11,
+          "endSeconds": 14.27
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "午後一時に映画を見ます。見る活動は教室二です。",
+          "english": "At one in the afternoon, we watch a film. The watching activity is in classroom two.",
+          "startSeconds": 14.55,
+          "endSeconds": 19.22
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "521596fae176068a5f3e10e7724acfdda2b9a42105373d08855aed0bfc51406e",
+        "bytes": 1695362,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m06-c01-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m06-c01-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 21.78,
+      "transcript": "男性： 今日の料理クラブでは、何をしますか。\n女性： まず、野菜を切ります。切る仕事は私がします。\n男性： 田中さんは何をしますか。\n女性： 田中さんはご飯を作ります。作る仕事ですね。\n男性： 飲み物はありますか。\n女性： はい。最後にお茶を飲みます。飲む時間は三時です。",
+      "english": "Man: What will we do in today's cooking club?\nWoman: First, we cut vegetables. I will do the cutting.\nMan: What will Tanaka do?\nWoman: Tanaka will make rice. That's the making task.\nMan: Are there drinks?\nWoman: Yes. Finally, we'll drink tea. Drinking time is at three.",
+      "scriptPurpose": "Teacher describes the cooking club",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m06-c01-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "今日の料理クラブでは、何をしますか。",
+          "english": "What will we do in today's cooking club?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.93
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "まず、野菜を切ります。切る仕事は私がします。",
+          "english": "First, we cut vegetables. I will do the cutting.",
+          "startSeconds": 3.21,
+          "endSeconds": 7.54
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "田中さんは何をしますか。",
+          "english": "What will Tanaka do?",
+          "startSeconds": 7.82,
+          "endSeconds": 10.02
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "田中さんはご飯を作ります。作る仕事ですね。",
+          "english": "Tanaka will make rice. That's the making task.",
+          "startSeconds": 10.3,
+          "endSeconds": 14.69
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "飲み物はありますか。",
+          "english": "Are there drinks?",
+          "startSeconds": 14.97,
+          "endSeconds": 16.88
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。最後にお茶を飲みます。飲む時間は三時です。",
+          "english": "Yes. Finally, we'll drink tea. Drinking time is at three.",
+          "startSeconds": 17.16,
+          "endSeconds": 21.78
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "31db6265a98328a1bdc6dd2079ba2434cfdf6e8152bf8e52dd8cc44a0c6f8a9b",
+        "bytes": 1920920,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
