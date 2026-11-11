@@ -1,0 +1,436 @@
+{
+  "lessonId": "n5-m02-c03-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l04-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-01"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 先生 in this classroom notice.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "せんせい",
+          "rationale": "先生（せんせい） means teacher."
+        },
+        {
+          "id": "c2",
+          "text": "がくせい",
+          "rationale": "がくせい does not answer this question. 先生（せんせい） means teacher."
+        },
+        {
+          "id": "c3",
+          "text": "せいせい",
+          "rationale": "せいせい does not answer this question. 先生（せんせい） means teacher."
+        },
+        {
+          "id": "c4",
+          "text": "せんこう",
+          "rationale": "せんこう does not answer this question. 先生（せんせい） means teacher."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "先生（せんせい） means teacher."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-02"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Which written word means student?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生",
+          "rationale": "先生 does not answer this question. 学生（がくせい） is a student; 学校 is a school."
+        },
+        {
+          "id": "c2",
+          "text": "学生",
+          "rationale": "学生（がくせい） is a student; 学校 is a school."
+        },
+        {
+          "id": "c3",
+          "text": "学校",
+          "rationale": "学校 does not answer this question. 学生（がくせい） is a student; 学校 is a school."
+        },
+        {
+          "id": "c4",
+          "text": "教室",
+          "rationale": "教室 does not answer this question. 学生（がくせい） is a student; 学校 is a school."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "学生（がくせい） is a student; 学校 is a school."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-03"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 教室.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "きょうじつ",
+          "rationale": "きょうじつ does not answer this question. 教室 is read きょうしつ, classroom."
+        },
+        {
+          "id": "c2",
+          "text": "がっこう",
+          "rationale": "がっこう does not answer this question. 教室 is read きょうしつ, classroom."
+        },
+        {
+          "id": "c3",
+          "text": "きょうしつ",
+          "rationale": "教室 is read きょうしつ, classroom."
+        },
+        {
+          "id": "c4",
+          "text": "としょかん",
+          "rationale": "としょかん does not answer this question. 教室 is read きょうしつ, classroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "教室 is read きょうしつ, classroom."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-04"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Which word means desk?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本",
+          "rationale": "本 does not answer this question. 机（つくえ） means desk."
+        },
+        {
+          "id": "c2",
+          "text": "人",
+          "rationale": "人 does not answer this question. 机（つくえ） means desk."
+        },
+        {
+          "id": "c3",
+          "text": "中",
+          "rationale": "中 does not answer this question. 机（つくえ） means desk."
+        },
+        {
+          "id": "c4",
+          "text": "机",
+          "rationale": "机（つくえ） means desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "机（つくえ） means desk."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-05"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 本.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ほん",
+          "rationale": "本（ほん） is a book in this context."
+        },
+        {
+          "id": "c2",
+          "text": "ひと",
+          "rationale": "ひと does not answer this question. 本（ほん） is a book in this context."
+        },
+        {
+          "id": "c3",
+          "text": "なか",
+          "rationale": "なか does not answer this question. 本（ほん） is a book in this context."
+        },
+        {
+          "id": "c4",
+          "text": "せん",
+          "rationale": "せん does not answer this question. 本（ほん） is a book in this context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "本（ほん） is a book in this context."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-06"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "What does 人 mean here?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "book",
+          "rationale": "book does not answer this question. 人（ひと） means a person; います is used for people."
+        },
+        {
+          "id": "c2",
+          "text": "person",
+          "rationale": "人（ひと） means a person; います is used for people."
+        },
+        {
+          "id": "c3",
+          "text": "desk",
+          "rationale": "desk does not answer this question. 人（ひと） means a person; います is used for people."
+        },
+        {
+          "id": "c4",
+          "text": "school",
+          "rationale": "school does not answer this question. 人（ひと） means a person; います is used for people."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "人（ひと） means a person; います is used for people."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-07"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Choose the natural sentence: There is a book in the classroom.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室に 本が います。",
+          "rationale": "教室に 本が います。 does not answer this question. The place takes に, the existing object takes が, and an inanimate book takes あります."
+        },
+        {
+          "id": "c2",
+          "text": "教室が 本に あります。",
+          "rationale": "教室が 本に あります。 does not answer this question. The place takes に, the existing object takes が, and an inanimate book takes あります."
+        },
+        {
+          "id": "c3",
+          "text": "教室に 本が あります。",
+          "rationale": "The place takes に, the existing object takes が, and an inanimate book takes あります."
+        },
+        {
+          "id": "c4",
+          "text": "教室に 本を あります。",
+          "rationale": "教室に 本を あります。 does not answer this question. The place takes に, the existing object takes が, and an inanimate book takes あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The place takes に, the existing object takes が, and an inanimate book takes あります."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-08"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Choose the natural sentence: There is a teacher at school.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校に 先生が あります。",
+          "rationale": "学校に 先生が あります。 does not answer this question. A teacher is a person, so use います, with location に and subject が."
+        },
+        {
+          "id": "c2",
+          "text": "学校が 先生に います。",
+          "rationale": "学校が 先生に います。 does not answer this question. A teacher is a person, so use います, with location に and subject が."
+        },
+        {
+          "id": "c3",
+          "text": "学校に 先生を います。",
+          "rationale": "学校に 先生を います。 does not answer this question. A teacher is a person, so use います, with location に and subject が."
+        },
+        {
+          "id": "c4",
+          "text": "学校に 先生が います。",
+          "rationale": "A teacher is a person, so use います, with location に and subject が."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "A teacher is a person, so use います, with location に and subject が."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-09"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "Read 中 in かばんの中.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "なか",
+          "rationale": "中（なか） means inside; かばんの中 is inside the bag."
+        },
+        {
+          "id": "c2",
+          "text": "うえ",
+          "rationale": "うえ does not answer this question. 中（なか） means inside; かばんの中 is inside the bag."
+        },
+        {
+          "id": "c3",
+          "text": "した",
+          "rationale": "した does not answer this question. 中（なか） means inside; かばんの中 is inside the bag."
+        },
+        {
+          "id": "c4",
+          "text": "ほん",
+          "rationale": "ほん does not answer this question. 中（なか） means inside; かばんの中 is inside the bag."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "中（なか） means inside; かばんの中 is inside the bag."
+    },
+    {
+      "id": "ex-n5-m02-c03-l04-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l04-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l04-item-10"
+      ],
+      "skills": [
+        "kanji",
+        "reading"
+      ],
+      "prompt": "In『机の上に 本が あります。』what exists?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "a teacher",
+          "rationale": "a teacher does not answer this question. 本が marks the book as the thing that exists; 机の上に is its location."
+        },
+        {
+          "id": "c2",
+          "text": "a book",
+          "rationale": "本が marks the book as the thing that exists; 机の上に is its location."
+        },
+        {
+          "id": "c3",
+          "text": "a student",
+          "rationale": "a student does not answer this question. 本が marks the book as the thing that exists; 机の上に is its location."
+        },
+        {
+          "id": "c4",
+          "text": "a school",
+          "rationale": "a school does not answer this question. 本が marks the book as the thing that exists; 机の上に is its location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "本が marks the book as the thing that exists; 机の上に is its location."
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "lessonId": "n5-m02-c01-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c01-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "At reception, the umbrella is beside the speaker. Choose “This is an umbrella.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "これは かさです。",
+          "rationale": "これ stands alone for an object near the speaker; この needs a following noun."
+        },
+        {
+          "id": "c2",
+          "text": "それは かさです。",
+          "rationale": "Not in this context: それは かさです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "あれは かさです。",
+          "rationale": "Not in this context: あれは かさです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "このは かさです。",
+          "rationale": "Not in this context: このは かさです。 Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "これ stands alone for an object near the speaker; この needs a following noun."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "The notebook is next to the person you are talking to. Choose “That is a notebook.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "これは ノートです。",
+          "rationale": "Not in this context: これは ノートです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "あれは ノートです。",
+          "rationale": "Not in this context: あれは ノートです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "そのは ノートです。",
+          "rationale": "Not in this context: そのは ノートです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "それは ノートです。",
+          "rationale": "それ identifies an object near the listener; その cannot stand alone."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "それ identifies an object near the listener; その cannot stand alone."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A bag is far from both people. Choose “That over there is a bag.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "それは かばんです。",
+          "rationale": "Not in this context: それは かばんです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "あのは かばんです。",
+          "rationale": "Not in this context: あのは かばんです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "あれは かばんです。",
+          "rationale": "あれ points to an object distant from both speakers."
+        },
+        {
+          "id": "c4",
+          "text": "これは かばんです。",
+          "rationale": "Not in this context: これは かばんです。 Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "あれ points to an object distant from both speakers."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose “This pen is mine.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "その ペンは わたしのです。",
+          "rationale": "Not in this context: その ペンは わたしのです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "この ペンは わたしのです。",
+          "rationale": "この modifies the following noun ペン; わたしの replaces the repeated noun."
+        },
+        {
+          "id": "c3",
+          "text": "これは ペンは わたしのです。",
+          "rationale": "Not in this context: これは ペンは わたしのです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "このは ペンです。",
+          "rationale": "Not in this context: このは ペンです。 Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "この modifies the following noun ペン; わたしの replaces the repeated noun."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose “Whose eraser is that near you?”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "その けしゴムは だれのですか。",
+          "rationale": "その precedes the noun near the listener; だれの asks whose."
+        },
+        {
+          "id": "c2",
+          "text": "それ けしゴムは だれのですか。",
+          "rationale": "Not in this context: それ けしゴムは だれのですか。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "あの けしゴムは だれのですか。",
+          "rationale": "Not in this context: あの けしゴムは だれのですか。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "その けしゴムは だれですか。",
+          "rationale": "Not in this context: その けしゴムは だれですか。 Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "その precedes the noun near the listener; だれの asks whose."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A distant book belongs to Aki. Choose “That book over there is Aki's.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あれ ほんは アキさんのです。",
+          "rationale": "Not in this context: あれ ほんは アキさんのです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "この ほんは アキさんのです。",
+          "rationale": "Not in this context: この ほんは アキさんのです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "あの ほんは アキさんです。",
+          "rationale": "Not in this context: あの ほんは アキさんです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "あの ほんは アキさんのです。",
+          "rationale": "あの + noun marks a distant item; アキさんの indicates its owner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "あの + noun marks a distant item; アキさんの indicates its owner."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-7"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose “Is this Mina's dictionary?”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このは ミナさんの じしょですか。",
+          "rationale": "Not in this context: このは ミナさんの じしょですか。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "これは ミナさんの じしょです。",
+          "rationale": "Not in this context: これは ミナさんの じしょです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "これは ミナさんの じしょですか。",
+          "rationale": "の connects the name and dictionary; か makes the polite question."
+        },
+        {
+          "id": "c4",
+          "text": "これは ミナさん じしょですか。",
+          "rationale": "Not in this context: これは ミナさん じしょですか。 Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "の connects the name and dictionary; か makes the polite question."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-8"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Someone asks 「これは だれのですか。」 Choose the reply “It's Ren's.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "レンさんのですか。",
+          "rationale": "Not in this context: レンさんのですか。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "レンさんのです。",
+          "rationale": "The omitted object is recoverable from context; レンさんの means Ren's."
+        },
+        {
+          "id": "c3",
+          "text": "レンさんです。",
+          "rationale": "Not in this context: レンさんです。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "だれのです。",
+          "rationale": "Not in this context: だれのです。 Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The omitted object is recoverable from context; レンさんの means Ren's."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-9"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Choose the grammatical phrase “that umbrella near you.”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "その かさ",
+          "rationale": "その must directly modify a noun; それ is a stand-alone demonstrative."
+        },
+        {
+          "id": "c2",
+          "text": "それ かさ",
+          "rationale": "Not in this context: それ かさ Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "そのは かさ",
+          "rationale": "Not in this context: そのは かさ Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "それの かさ",
+          "rationale": "Not in this context: それの かさ Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "その must directly modify a noun; それ is a stand-alone demonstrative."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-10"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "The speaker holds a pencil and asks “What is this?”",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このは 何ですか。",
+          "rationale": "Not in this context: このは 何ですか。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "それは 何ですか。",
+          "rationale": "Not in this context: それは 何ですか。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "あのは 何ですか。",
+          "rationale": "Not in this context: あのは 何ですか。 Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "これは 何ですか。",
+          "rationale": "これ is a pronoun near the speaker; 何ですか asks what it is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "これ is a pronoun near the speaker; 何ですか asks what it is."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-11"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Aki says 「この ノートは わたしのです。」 What is claimed?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The notebook is far from both people.",
+          "rationale": "Not in this context: The notebook is far from both people. Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "Aki asks who owns the notebook.",
+          "rationale": "Not in this context: Aki asks who owns the notebook. Review distance, noun position and ownership."
+        },
+        {
+          "id": "c3",
+          "text": "The notebook near Aki is Aki's.",
+          "rationale": "この ノート identifies the nearby notebook; わたしのです claims it."
+        },
+        {
+          "id": "c4",
+          "text": "The notebook belongs to the listener.",
+          "rationale": "Not in this context: The notebook belongs to the listener. Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "この ノート identifies the nearby notebook; わたしのです claims it."
+    },
+    {
+      "id": "ex-n5-m02-c01-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c01-l03-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l03-pattern-12"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "Ren says 「あれは ミナさんの かばんです。」 Which bag?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A bag with unknown ownership.",
+          "rationale": "Not in this context: A bag with unknown ownership. Review distance, noun position and ownership."
+        },
+        {
+          "id": "c2",
+          "text": "The bag far from both speakers.",
+          "rationale": "あれ identifies the distant object; ミナさんの specifies its owner."
+        },
+        {
+          "id": "c3",
+          "text": "The bag Ren is holding.",
+          "rationale": "Not in this context: The bag Ren is holding. Review distance, noun position and ownership."
+        },
+        {
+          "id": "c4",
+          "text": "The bag beside the listener.",
+          "rationale": "Not in this context: The bag beside the listener. Review distance, noun position and ownership."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "あれ identifies the distant object; ミナさんの specifies its owner."
+    }
+  ]
+}

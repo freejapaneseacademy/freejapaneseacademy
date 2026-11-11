@@ -1,0 +1,620 @@
+{
+  "id": "n5-m02-c03-chk",
+  "lessonId": "n5-m02-c03-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original chapter L05 classroom room diagram and L06 study-room/classroom recordings; listening requires verified playable audio",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-grammar-01"
+      ],
+      "prompt": "Which sentence correctly says there is a teacher in the classroom?",
+      "evidence": "教室に先生がいます。",
+      "explanation": "People take います; に marks the classroom and が marks the teacher.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-01-c1",
+          "text": "教室に先生があります。",
+          "rationale": "Not supported. People take います; に marks the classroom and が marks the teacher. Compare: 教室に先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-01-c2",
+          "text": "教室に先生がいます。",
+          "rationale": "Correct. People take います; に marks the classroom and が marks the teacher. Evidence: 教室に先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-01-c3",
+          "text": "教室を先生がいます。",
+          "rationale": "Not supported. People take います; に marks the classroom and が marks the teacher. Compare: 教室に先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-01-c4",
+          "text": "教室に先生がありません。",
+          "rationale": "Not supported. People take います; に marks the classroom and が marks the teacher. Compare: 教室に先生がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-grammar-02"
+      ],
+      "prompt": "Which sentence says a book exists on the desk?",
+      "evidence": "机の上に本があります。",
+      "explanation": "An inanimate book takes あります; location に and subject が.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-02-c1",
+          "text": "机の上が本にあります。",
+          "rationale": "Not supported. An inanimate book takes あります; location に and subject が. Compare: 机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-02-c2",
+          "text": "机の上に本がいます。",
+          "rationale": "Not supported. An inanimate book takes あります; location に and subject が. Compare: 机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-02-c3",
+          "text": "机の上に本があります。",
+          "rationale": "Correct. An inanimate book takes あります; location に and subject が. Evidence: 机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-02-c4",
+          "text": "机の上を本があります。",
+          "rationale": "Not supported. An inanimate book takes あります; location に and subject が. Compare: 机の上に本があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-grammar-03"
+      ],
+      "prompt": "Which particle marks the place in 部屋__猫がいます?",
+      "evidence": "部屋に猫がいます。",
+      "explanation": "に marks where the cat is.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-03-c1",
+          "text": "が",
+          "rationale": "Not supported. に marks where the cat is. Compare: 部屋に猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-03-c2",
+          "text": "は",
+          "rationale": "Not supported. に marks where the cat is. Compare: 部屋に猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-03-c3",
+          "text": "を",
+          "rationale": "Not supported. に marks where the cat is. Compare: 部屋に猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-03-c4",
+          "text": "に",
+          "rationale": "Correct. に marks where the cat is. Evidence: 部屋に猫がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-03-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-grammar-04"
+      ],
+      "prompt": "Which particle marks the newly identified thing in 机に本__あります?",
+      "evidence": "机に本があります。",
+      "explanation": "が marks the thing whose existence is asserted.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-04-c1",
+          "text": "が",
+          "rationale": "Correct. が marks the thing whose existence is asserted. Evidence: 机に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-04-c2",
+          "text": "に",
+          "rationale": "Not supported. が marks the thing whose existence is asserted. Compare: 机に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-04-c3",
+          "text": "を",
+          "rationale": "Not supported. が marks the thing whose existence is asserted. Compare: 机に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-04-c4",
+          "text": "で",
+          "rationale": "Not supported. が marks the thing whose existence is asserted. Compare: 机に本があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-grammar-05"
+      ],
+      "prompt": "Which natural answer means 'There is no bag here'?",
+      "evidence": "ここにかばんはありません。",
+      "explanation": "A bag is inanimate; ありません is its negative existence form.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-05-c1",
+          "text": "ここにかばんがいます。",
+          "rationale": "Not supported. A bag is inanimate; ありません is its negative existence form. Compare: ここにかばんはありません。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-05-c2",
+          "text": "ここにかばんはありません。",
+          "rationale": "Correct. A bag is inanimate; ありません is its negative existence form. Evidence: ここにかばんはありません。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-05-c3",
+          "text": "ここをかばんはありません。",
+          "rationale": "Not supported. A bag is inanimate; ありません is its negative existence form. Compare: ここにかばんはありません。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-05-c4",
+          "text": "ここにかばんがいません。",
+          "rationale": "Not supported. A bag is inanimate; ありません is its negative existence form. Compare: ここにかばんはありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-grammar-06"
+      ],
+      "prompt": "Which reply says there is no teacher in the classroom?",
+      "evidence": "教室に先生はいません。",
+      "explanation": "A teacher is a person, so use いません in a negative response.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-06-c1",
+          "text": "教室に先生はありません。",
+          "rationale": "Not supported. A teacher is a person, so use いません in a negative response. Compare: 教室に先生はいません。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-06-c2",
+          "text": "教室に先生がいます。",
+          "rationale": "Not supported. A teacher is a person, so use いません in a negative response. Compare: 教室に先生はいません。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-06-c3",
+          "text": "教室に先生はいません。",
+          "rationale": "Correct. A teacher is a person, so use いません in a negative response. Evidence: 教室に先生はいません。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-06-c4",
+          "text": "教室に先生をいません。",
+          "rationale": "Not supported. A teacher is a person, so use いません in a negative response. Compare: 教室に先生はいません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-reading-07"
+      ],
+      "prompt": "According to line A, where is the teacher?",
+      "evidence": "A: 教室の前に先生がいます。",
+      "explanation": "Line A puts the teacher at the front.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-07-c1",
+          "text": "At the front of the classroom",
+          "rationale": "Correct. Line A puts the teacher at the front. Evidence: A: 教室の前に先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-07-c2",
+          "text": "At the back of the classroom",
+          "rationale": "Not supported. Line A puts the teacher at the front. Compare: A: 教室の前に先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-07-c3",
+          "text": "In the hallway",
+          "rationale": "Not supported. Line A puts the teacher at the front. Compare: A: 教室の前に先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-07-c4",
+          "text": "On the desk",
+          "rationale": "Not supported. Line A puts the teacher at the front. Compare: A: 教室の前に先生がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-reading-08"
+      ],
+      "prompt": "What is on the left desk in line B?",
+      "evidence": "B: 左の机の上に本があります。",
+      "explanation": "Line B names 本 on the left desk.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-08-c1",
+          "text": "A bag",
+          "rationale": "Not supported. Line B names 本 on the left desk. Compare: B: 左の机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-08-c2",
+          "text": "A book",
+          "rationale": "Correct. Line B names 本 on the left desk. Evidence: B: 左の机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-08-c3",
+          "text": "A cat",
+          "rationale": "Not supported. Line B names 本 on the left desk. Compare: B: 左の机の上に本があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-08-c4",
+          "text": "A dictionary",
+          "rationale": "Not supported. Line B names 本 on the left desk. Compare: B: 左の机の上に本があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-reading-09"
+      ],
+      "prompt": "Where is the dictionary?",
+      "evidence": "C: 後ろの本棚に辞書があります。",
+      "explanation": "Line C places 辞書 on the back bookshelf.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-09-c1",
+          "text": "Under the right chair",
+          "rationale": "Not supported. Line C places 辞書 on the back bookshelf. Compare: C: 後ろの本棚に辞書があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-09-c2",
+          "text": "On the left desk",
+          "rationale": "Not supported. Line C places 辞書 on the back bookshelf. Compare: C: 後ろの本棚に辞書があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-09-c3",
+          "text": "On the bookshelf at the back",
+          "rationale": "Correct. Line C places 辞書 on the back bookshelf. Evidence: C: 後ろの本棚に辞書があります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-09-c4",
+          "text": "By the door",
+          "rationale": "Not supported. Line C places 辞書 on the back bookshelf. Compare: C: 後ろの本棚に辞書があります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-reading-10"
+      ],
+      "prompt": "Which living creature is by the window?",
+      "evidence": "D: 窓の近くに猫がいます。",
+      "explanation": "Line D says 猫がいます by the window.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-10-c1",
+          "text": "A teacher",
+          "rationale": "Not supported. Line D says 猫がいます by the window. Compare: D: 窓の近くに猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-10-c2",
+          "text": "A dog",
+          "rationale": "Not supported. Line D says 猫がいます by the window. Compare: D: 窓の近くに猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-10-c3",
+          "text": "A student",
+          "rationale": "Not supported. Line D says 猫がいます by the window. Compare: D: 窓の近くに猫がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-10-c4",
+          "text": "A cat",
+          "rationale": "Correct. Line D says 猫がいます by the window. Evidence: D: 窓の近くに猫がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-10-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-listening-11"
+      ],
+      "prompt": "Track A: what object is the visitor looking for?",
+      "evidence": "机の上にノートがありますか。",
+      "explanation": "The visitor asks about ノート.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-11-c1",
+          "text": "A notebook",
+          "rationale": "Correct. The visitor asks about ノート. Evidence: 机の上にノートがありますか。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-11-c2",
+          "text": "A pencil",
+          "rationale": "Not supported. The visitor asks about ノート. Compare: 机の上にノートがありますか。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-11-c3",
+          "text": "A clock",
+          "rationale": "Not supported. The visitor asks about ノート. Compare: 机の上にノートがありますか。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-11-c4",
+          "text": "A bag",
+          "rationale": "Not supported. The visitor asks about ノート. Compare: 机の上にノートがありますか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-11-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-listening-12"
+      ],
+      "prompt": "Track A: which notebook is confirmed present?",
+      "evidence": "はい、青いノートがあります。",
+      "explanation": "The response confirms 青いノート.",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-12-c1",
+          "text": "The red notebook",
+          "rationale": "Not supported. The response confirms 青いノート. Compare: はい、青いノートがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-12-c2",
+          "text": "The blue notebook",
+          "rationale": "Correct. The response confirms 青いノート. Evidence: はい、青いノートがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-12-c3",
+          "text": "Both notebooks",
+          "rationale": "Not supported. The response confirms 青いノート. Compare: はい、青いノートがあります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-12-c4",
+          "text": "Neither notebook",
+          "rationale": "Not supported. The response confirms 青いノート. Compare: はい、青いノートがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-listening-13"
+      ],
+      "prompt": "Track B: who is in the classroom?",
+      "evidence": "はい、先生がいます。",
+      "explanation": "The reply identifies 先生.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-13-c1",
+          "text": "A student",
+          "rationale": "Not supported. The reply identifies 先生. Compare: はい、先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-13-c2",
+          "text": "A cat",
+          "rationale": "Not supported. The reply identifies 先生. Compare: はい、先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-13-c3",
+          "text": "A teacher",
+          "rationale": "Correct. The reply identifies 先生. Evidence: はい、先生がいます。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-13-c4",
+          "text": "Nobody",
+          "rationale": "Not supported. The reply identifies 先生. Compare: はい、先生がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-13-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c03-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-chk-listening-14"
+      ],
+      "prompt": "Track B: where is the bag, after the correction?",
+      "evidence": "いいえ、かばんは教室にありません。廊下にあります。",
+      "explanation": "The correction places it in 廊下.",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-chk-v1-14-c1",
+          "text": "On the desk",
+          "rationale": "Not supported. The correction places it in 廊下. Compare: いいえ、かばんは教室にありません。廊下にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-14-c2",
+          "text": "In the classroom",
+          "rationale": "Not supported. The correction places it in 廊下. Compare: いいえ、かばんは教室にありません。廊下にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-14-c3",
+          "text": "In the library",
+          "rationale": "Not supported. The correction places it in 廊下. Compare: いいえ、かばんは教室にありません。廊下にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c03-chk-v1-14-c4",
+          "text": "In the hallway",
+          "rationale": "Correct. The correction places it in 廊下. Evidence: いいえ、かばんは教室にありません。廊下にあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-chk-v1-14-c4"
+      }
+    }
+  ]
+}
