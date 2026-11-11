@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c02-l03",
+  "lessonId": "n5-m06-c02-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional cooking-class instruction card and grammar practice",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "What is the て-form of 読む（よむ）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-01-c1",
+          "text": "読んで",
+          "rationale": "Correct. む changes to んで in Group 1."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-01-c2",
+          "text": "読みて",
+          "rationale": "Review. む changes to んで in Group 1."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-01-c3",
+          "text": "読って",
+          "rationale": "Review. む changes to んで in Group 1."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-01-c1"
+      },
+      "explanation": "む changes to んで in Group 1.",
+      "feedback": "む changes to んで in Group 1."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Which form correctly follows 行く（いく）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-02-c1",
+          "text": "行いて",
+          "rationale": "Review. 行く is the exception: 行って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-02-c2",
+          "text": "行って",
+          "rationale": "Correct. 行く is the exception: 行って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-02-c3",
+          "text": "行きて",
+          "rationale": "Review. 行く is the exception: 行って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-02-c2"
+      },
+      "explanation": "行く is the exception: 行って.",
+      "feedback": "行く is the exception: 行って."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "What is the て-form of 食べる（たべる）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-03-c1",
+          "text": "食べって",
+          "rationale": "Review. Group 2 removes る and adds て."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-03-c2",
+          "text": "食べりて",
+          "rationale": "Review. Group 2 removes る and adds て."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-03-c3",
+          "text": "食べて",
+          "rationale": "Correct. Group 2 removes る and adds て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-03-c3"
+      },
+      "explanation": "Group 2 removes る and adds て.",
+      "feedback": "Group 2 removes る and adds て."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Choose the て-form of 泳ぐ（およぐ）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-04-c1",
+          "text": "泳いで",
+          "rationale": "Correct. ぐ changes to いで, with で."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-04-c2",
+          "text": "泳いて",
+          "rationale": "Review. ぐ changes to いで, with で."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-04-c3",
+          "text": "泳ぎて",
+          "rationale": "Review. ぐ changes to いで, with で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-04-c1"
+      },
+      "explanation": "ぐ changes to いで, with で.",
+      "feedback": "ぐ changes to いで, with で."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Which is the correct て-form of 帰る（かえる）?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-05-c1",
+          "text": "帰て",
+          "rationale": "Review. 帰る is Group 1: る changes to って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-05-c2",
+          "text": "帰って",
+          "rationale": "Correct. 帰る is Group 1: る changes to って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-05-c3",
+          "text": "帰りて",
+          "rationale": "Review. 帰る is Group 1: る changes to って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-05-c2"
+      },
+      "explanation": "帰る is Group 1: る changes to って.",
+      "feedback": "帰る is Group 1: る changes to って."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Which reading matches 来て?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-06-c1",
+          "text": "くて",
+          "rationale": "Review. 来る（くる） becomes 来て（きて）."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-06-c2",
+          "text": "こて",
+          "rationale": "Review. 来る（くる） becomes 来て（きて）."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-06-c3",
+          "text": "きて",
+          "rationale": "Correct. 来る（くる） becomes 来て（きて）."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-06-c3"
+      },
+      "explanation": "来る（くる） becomes 来て（きて）.",
+      "feedback": "来る（くる） becomes 来て（きて）."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Which sentence explicitly means 'After washing my hands, I start cooking'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-07-c1",
+          "text": "手を洗ってから、料理を始めます。",
+          "rationale": "Correct. The て-form plus から explicitly marks the earlier completed action."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-07-c2",
+          "text": "手を洗うから、料理を始めます。",
+          "rationale": "Review. The て-form plus から explicitly marks the earlier completed action."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-07-c3",
+          "text": "手を洗いますから、料理を始めます。",
+          "rationale": "Review. The て-form plus から explicitly marks the earlier completed action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-07-c1"
+      },
+      "explanation": "The て-form plus から explicitly marks the earlier completed action.",
+      "feedback": "The て-form plus から explicitly marks the earlier completed action."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "In the cooking-class card, what happens after washing hands?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-08-c1",
+          "text": "みんなで食べます。",
+          "rationale": "Review. The card says 手を洗ってから、野菜を切ります."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-08-c2",
+          "text": "野菜を切ります。",
+          "rationale": "Correct. The card says 手を洗ってから、野菜を切ります."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-08-c3",
+          "text": "九時に来ます。",
+          "rationale": "Review. The card says 手を洗ってから、野菜を切ります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-08-c2"
+      },
+      "explanation": "The card says 手を洗ってから、野菜を切ります.",
+      "feedback": "The card says 手を洗ってから、野菜を切ります."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Which pair uses a Group 1 す ending correctly?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-09-c1",
+          "text": "話んで",
+          "rationale": "Review. 話す changes す to して."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-09-c2",
+          "text": "話って",
+          "rationale": "Review. 話す changes す to して."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-09-c3",
+          "text": "話して",
+          "rationale": "Correct. 話す changes す to して."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-09-c3"
+      },
+      "explanation": "話す changes す to して.",
+      "feedback": "話す changes す to して."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Which statement about て is accurate?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-10-c1",
+          "text": "The final verb can show past or nonpast.",
+          "rationale": "Correct. The final predicate often carries tense; て itself is not past."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-10-c2",
+          "text": "Every て-form is past tense.",
+          "rationale": "Review. The final predicate often carries tense; て itself is not past."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-10-c3",
+          "text": "て always means 'please'.",
+          "rationale": "Review. The final predicate often carries tense; て itself is not past."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-10-c1"
+      },
+      "explanation": "The final predicate often carries tense; て itself is not past.",
+      "feedback": "The final predicate often carries tense; て itself is not past."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "What is the て-form of する?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-11-c1",
+          "text": "すて",
+          "rationale": "Review. する is irregular: して."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-11-c2",
+          "text": "して",
+          "rationale": "Correct. する is irregular: して."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-11-c3",
+          "text": "すって",
+          "rationale": "Review. する is irregular: して."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-11-c2"
+      },
+      "explanation": "する is irregular: して.",
+      "feedback": "する is irregular: して."
+    },
+    {
+      "id": "ex-n5-m06-c02-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l03-te-form"
+      ],
+      "prompt": "Which sentence correctly says 'I go to the library and read a book'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l03-12-c1",
+          "text": "図書館を行いて、本に読みます。",
+          "rationale": "Review. に marks the destination, 行って is the exception, and を marks the object."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-12-c2",
+          "text": "図書館で行って、本が読みます。",
+          "rationale": "Review. に marks the destination, 行って is the exception, and を marks the object."
+        },
+        {
+          "id": "ex-n5-m06-c02-l03-12-c3",
+          "text": "図書館に行って、本を読みます。",
+          "rationale": "Correct. に marks the destination, 行って is the exception, and を marks the object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l03-12-c3"
+      },
+      "explanation": "に marks the destination, 行って is the exception, and を marks the object.",
+      "feedback": "に marks the destination, 行って is the exception, and を marks the object."
+    }
+  ]
+}
