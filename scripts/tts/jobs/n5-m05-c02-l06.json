@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m05-c02-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy author policy check against docs/audio/TTS_GENERATION_POLICY.md v5; independent rights review not claimed",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Approved ACML 1.0 synthetic voices with attribution; generated WAV rights and model hash must be reverified by the audio workflow; no endorsement."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Museum trip partners",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m05-c02-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "土曜日、だれと美術館へ行きますか。",
+          "english": "Who will you go to the art museum with on Saturday?"
+        },
+        {
+          "speaker": "male",
+          "text": "兄と行きます。",
+          "english": "I'll go with my older brother."
+        },
+        {
+          "speaker": "female",
+          "text": "電車で行きますか。",
+          "english": "Will you go by train?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいえ、バスで行きます。",
+          "english": "No, we'll go by bus."
+        },
+        {
+          "speaker": "female",
+          "text": "何時に行きますか。",
+          "english": "What time will you go?"
+        },
+        {
+          "speaker": "male",
+          "text": "午前十時に行きます。",
+          "english": "We'll go at ten in the morning."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Who is going with the man?",
+        "Which transport will he take?",
+        "At what time will he go?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "An independent library visit",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m05-c02-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "日曜日、友だちと図書館へ行きますか。",
+          "english": "Will you go to the library with a friend on Sunday?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、一人で行きます。",
+          "english": "No, I'll go alone."
+        },
+        {
+          "speaker": "male",
+          "text": "どうやって行きますか。",
+          "english": "How will you get there?"
+        },
+        {
+          "speaker": "female",
+          "text": "自転車で行きます。",
+          "english": "I'll go by bicycle."
+        },
+        {
+          "speaker": "male",
+          "text": "図書館で何をしますか。",
+          "english": "What will you do at the library?"
+        },
+        {
+          "speaker": "female",
+          "text": "日本語を勉強します。午後三時に帰ります。",
+          "english": "I'll study Japanese. I'll return at three in the afternoon."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Does the woman travel alone or with a friend?",
+        "How does she travel?",
+        "What does she do at the library?"
+      ]
+    }
+  ]
+}
