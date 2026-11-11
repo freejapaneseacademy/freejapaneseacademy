@@ -1,0 +1,291 @@
+{
+  "id": "n5-m04-c04-l06-check-v1",
+  "lessonId": "n5-m04-c04-l06",
+  "version": 1,
+  "tracks": [
+    "audio-n5-m04-c04-l06-a",
+    "audio-n5-m04-c04-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-invite-lunch"
+      ],
+      "trackId": "audio-n5-m04-c04-l06-a",
+      "prompt": "What does the woman invite the man to do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have lunch together",
+          "rationale": "This is supported by the exact spoken line."
+        },
+        {
+          "id": "b",
+          "text": "Go shopping",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "c",
+          "text": "Study at home",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "She invites him to eat lunch together after class.",
+      "evidence": "授業のあとで、いっしょにお昼ごはんを食べませんか。"
+    },
+    {
+      "id": "ex-n5-m04-c04-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-place-station"
+      ],
+      "trackId": "audio-n5-m04-c04-l06-a",
+      "prompt": "Which place does the man suggest first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The school library",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "b",
+          "text": "The restaurant by the station",
+          "rationale": "This is supported by the exact spoken line."
+        },
+        {
+          "id": "c",
+          "text": "The park",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "He first suggests the restaurant in front of the station.",
+      "evidence": "駅の前のレストランはどうですか。"
+    },
+    {
+      "id": "ex-n5-m04-c04-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-closed"
+      ],
+      "trackId": "audio-n5-m04-c04-l06-a",
+      "prompt": "Why do they not choose that restaurant?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is too expensive",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "b",
+          "text": "It is far away",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "c",
+          "text": "It is closed today",
+          "rationale": "This is supported by the exact spoken line."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The woman says the restaurant is closed today.",
+      "evidence": "今日はあの店は休みですよ。"
+    },
+    {
+      "id": "ex-n5-m04-c04-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-cafe"
+      ],
+      "trackId": "audio-n5-m04-c04-l06-a",
+      "prompt": "Where do they finally agree to go?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The café next to the school",
+          "rationale": "This is supported by the exact spoken line."
+        },
+        {
+          "id": "b",
+          "text": "The station restaurant",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "c",
+          "text": "A supermarket",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "They decide on the café next to the school.",
+      "evidence": "学校のとなりのカフェにしましょう。"
+    },
+    {
+      "id": "ex-n5-m04-c04-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-decline"
+      ],
+      "trackId": "audio-n5-m04-c04-l06-b",
+      "prompt": "Which day is difficult for the woman?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sunday",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "b",
+          "text": "Saturday",
+          "rationale": "This is supported by the exact spoken line."
+        },
+        {
+          "id": "c",
+          "text": "Friday",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "She politely indicates Saturday is difficult.",
+      "evidence": "土曜日はちょっと。"
+    },
+    {
+      "id": "ex-n5-m04-c04-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-sunday"
+      ],
+      "trackId": "audio-n5-m04-c04-l06-b",
+      "prompt": "Which day does the man agree to?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Monday",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "b",
+          "text": "Saturday",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "c",
+          "text": "Sunday",
+          "rationale": "This is supported by the exact spoken line."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "He confirms that Sunday works.",
+      "evidence": "日曜日なら大丈夫です。"
+    },
+    {
+      "id": "ex-n5-m04-c04-l06-007",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-time"
+      ],
+      "trackId": "audio-n5-m04-c04-l06-b",
+      "prompt": "What time do they agree to meet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two o'clock",
+          "rationale": "This is supported by the exact spoken line."
+        },
+        {
+          "id": "b",
+          "text": "Three o'clock",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        },
+        {
+          "id": "c",
+          "text": "Ten o'clock",
+          "rationale": "This detail is not stated in the dialogue; listen again."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The woman proposes two o'clock.",
+      "evidence": "二時にしましょう。"
+    }
+  ]
+}
