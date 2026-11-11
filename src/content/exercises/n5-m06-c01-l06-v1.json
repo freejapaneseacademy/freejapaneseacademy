@@ -1,0 +1,331 @@
+{
+  "id": "n5-m06-c01-l06-check-v1",
+  "lessonId": "n5-m06-c01-l06",
+  "version": 1,
+  "tracks": [
+    "audio-n5-m06-c01-l06-a",
+    "audio-n5-m06-c01-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-1"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-a",
+      "prompt": "What happens first in Saturday's class?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Read books",
+          "rationale": "This is explicitly stated in the spoken recording."
+        },
+        {
+          "id": "b",
+          "text": "Watch a film",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Drink tea",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The first activity is reading at nine.",
+      "evidence": "午前九時に本を読みます。"
+    },
+    {
+      "id": "ex-n5-m06-c01-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-2"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-a",
+      "prompt": "How long does reading last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One hour",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Thirty minutes",
+          "rationale": "This is explicitly stated in the spoken recording."
+        },
+        {
+          "id": "c",
+          "text": "Ten minutes",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "三十分 is thirty minutes.",
+      "evidence": "読む時間は三十分です。"
+    },
+    {
+      "id": "ex-n5-m06-c01-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-3"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-a",
+      "prompt": "When does writing start?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At 10 a.m.",
+          "rationale": "This is explicitly stated in the spoken recording."
+        },
+        {
+          "id": "b",
+          "text": "At 9 a.m.",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "At 1 p.m.",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Writing begins at ten.",
+      "evidence": "書く時間は午前十時からです。"
+    },
+    {
+      "id": "ex-n5-m06-c01-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-4"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-a",
+      "prompt": "Where will they watch a film?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In classroom one",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "In the library",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "In classroom two",
+          "rationale": "This is explicitly stated in the spoken recording."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The film activity is in classroom two.",
+      "evidence": "見る活動は教室二です。"
+    },
+    {
+      "id": "ex-n5-m06-c01-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-5"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-b",
+      "prompt": "What does the cooking club do first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Make rice",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Cut vegetables",
+          "rationale": "This is explicitly stated in the spoken recording."
+        },
+        {
+          "id": "c",
+          "text": "Drink tea",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "まず marks the first task: cutting vegetables.",
+      "evidence": "まず、野菜を切ります。"
+    },
+    {
+      "id": "ex-n5-m06-c01-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-6"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-b",
+      "prompt": "Who makes the rice?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tanaka",
+          "rationale": "This is explicitly stated in the spoken recording."
+        },
+        {
+          "id": "b",
+          "text": "The teacher",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Everyone together",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Tanaka is assigned the rice.",
+      "evidence": "田中さんはご飯を作ります。"
+    },
+    {
+      "id": "ex-n5-m06-c01-l06-007",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-7"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-b",
+      "prompt": "What drink is mentioned?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coffee",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Water",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Tea",
+          "rationale": "This is explicitly stated in the spoken recording."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "The final activity involves tea.",
+      "evidence": "最後にお茶を飲みます。"
+    },
+    {
+      "id": "ex-n5-m06-c01-l06-008",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l06-8"
+      ],
+      "trackId": "audio-n5-m06-c01-l06-b",
+      "prompt": "When is drinking time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At two",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "At three",
+          "rationale": "This is explicitly stated in the spoken recording."
+        },
+        {
+          "id": "c",
+          "text": "At four",
+          "rationale": "This conflicts with the spoken detail; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "三時 is three o'clock; the recording does not specify a.m. or p.m.",
+      "evidence": "飲む時間は三時です。"
+    }
+  ]
+}
