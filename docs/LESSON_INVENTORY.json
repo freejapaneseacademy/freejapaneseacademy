@@ -4100,6 +4100,23 @@
       "assessmentReview": "pending - independent assessment review not claimed",
       "audio": "written optional speaking models; no new audio required; related L06 audio not embedded",
       "noindex": false
+    },
+    {
+      "id": "n5-m05-c04-l05",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c04",
+      "slot": "L05",
+      "title": "Read a travel notice: Find the time, place and fare",
+      "content": "src/content/lessons/n5/travel-notice-reading.mdx",
+      "url": "/learn/n5/module-05/chapter-04/lesson-05/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L05",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
