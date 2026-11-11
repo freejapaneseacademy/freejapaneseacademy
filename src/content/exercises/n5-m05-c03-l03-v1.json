@@ -1,0 +1,436 @@
+{
+  "lessonId": "n5-m05-c03-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "Which expression means 'go straight ahead'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右に行ってください。",
+          "rationale": "Not quite. まっすぐ describes straight movement, not a turn or a location."
+        },
+        {
+          "id": "c2",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Correct. まっすぐ describes straight movement, not a turn or a location."
+        },
+        {
+          "id": "c3",
+          "text": "左に行ってください。",
+          "rationale": "Not quite. まっすぐ describes straight movement, not a turn or a location."
+        },
+        {
+          "id": "c4",
+          "text": "駅にあります。",
+          "rationale": "Not quite. まっすぐ describes straight movement, not a turn or a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "まっすぐ describes straight movement, not a turn or a location."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "Choose 'Please turn right at the next corner.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "次の角を右に曲がってください。",
+          "rationale": "Correct. 右に曲がる is to turn right; 次の角を marks the corner where the turn happens."
+        },
+        {
+          "id": "c2",
+          "text": "次の角を左に曲がってください。",
+          "rationale": "Not quite. 右に曲がる is to turn right; 次の角を marks the corner where the turn happens."
+        },
+        {
+          "id": "c3",
+          "text": "次の角に右があります。",
+          "rationale": "Not quite. 右に曲がる is to turn right; 次の角を marks the corner where the turn happens."
+        },
+        {
+          "id": "c4",
+          "text": "右の角はまっすぐです。",
+          "rationale": "Not quite. 右に曲がる is to turn right; 次の角を marks the corner where the turn happens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "右に曲がる is to turn right; 次の角を marks the corner where the turn happens."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "Choose 'Please turn left.'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右に曲がってください。",
+          "rationale": "Not quite. 左に曲がってください is an instruction; 左にあります describes a location."
+        },
+        {
+          "id": "c2",
+          "text": "左にあります。",
+          "rationale": "Not quite. 左に曲がってください is an instruction; 左にあります describes a location."
+        },
+        {
+          "id": "c3",
+          "text": "左を来ます。",
+          "rationale": "Not quite. 左に曲がってください is an instruction; 左にあります describes a location."
+        },
+        {
+          "id": "c4",
+          "text": "左に曲がってください。",
+          "rationale": "Correct. 左に曲がってください is an instruction; 左にあります describes a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "左に曲がってください is an instruction; 左にあります describes a location."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "Which says 'The library is on the right'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館は右を曲がります。",
+          "rationale": "Not quite. あります states where a nonliving place or object is; it is not an instruction to turn."
+        },
+        {
+          "id": "c2",
+          "text": "図書館は右に行ってください。",
+          "rationale": "Not quite. あります states where a nonliving place or object is; it is not an instruction to turn."
+        },
+        {
+          "id": "c3",
+          "text": "図書館は右にあります。",
+          "rationale": "Correct. あります states where a nonliving place or object is; it is not an instruction to turn."
+        },
+        {
+          "id": "c4",
+          "text": "図書館は右で行きます。",
+          "rationale": "Not quite. あります states where a nonliving place or object is; it is not an instruction to turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "あります states where a nonliving place or object is; it is not an instruction to turn."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "Which sentence locates the bank beside the station?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "銀行は駅のとなりを行きます。",
+          "rationale": "Not quite. 駅のとなりにあります identifies a fixed location next to the station."
+        },
+        {
+          "id": "c2",
+          "text": "銀行は駅のとなりにあります。",
+          "rationale": "Correct. 駅のとなりにあります identifies a fixed location next to the station."
+        },
+        {
+          "id": "c3",
+          "text": "銀行は駅のとなりで曲がります。",
+          "rationale": "Not quite. 駅のとなりにあります identifies a fixed location next to the station."
+        },
+        {
+          "id": "c4",
+          "text": "銀行は駅のとなりに行ってください。",
+          "rationale": "Not quite. 駅のとなりにあります identifies a fixed location next to the station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "駅のとなりにあります identifies a fixed location next to the station."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "What is the natural polite request 'Please go straight'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Correct. The て-form 行って plus ください makes a polite instruction; 行きますか asks a question."
+        },
+        {
+          "id": "c2",
+          "text": "まっすぐあります。",
+          "rationale": "Not quite. The て-form 行って plus ください makes a polite instruction; 行きますか asks a question."
+        },
+        {
+          "id": "c3",
+          "text": "まっすぐ行きますか。",
+          "rationale": "Not quite. The て-form 行って plus ください makes a polite instruction; 行きますか asks a question."
+        },
+        {
+          "id": "c4",
+          "text": "まっすぐ行きました。",
+          "rationale": "Not quite. The て-form 行って plus ください makes a polite instruction; 行きますか asks a question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The て-form 行って plus ください makes a polite instruction; 行きますか asks a question."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-7"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "In '交差点を左に曲がってください', which way do you turn?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "右",
+          "rationale": "Not quite. 左 means left; 交差点を indicates the intersection at which to turn."
+        },
+        {
+          "id": "c2",
+          "text": "まっすぐ",
+          "rationale": "Not quite. 左 means left; 交差点を indicates the intersection at which to turn."
+        },
+        {
+          "id": "c3",
+          "text": "となり",
+          "rationale": "Not quite. 左 means left; 交差点を indicates the intersection at which to turn."
+        },
+        {
+          "id": "c4",
+          "text": "左",
+          "rationale": "Correct. 左 means left; 交差点を indicates the intersection at which to turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "左 means left; 交差点を indicates the intersection at which to turn."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-8"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "Which is a location statement, not a movement command?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "左に曲がってください。",
+          "rationale": "Not quite. 〜にあります describes where a nonliving landmark is; 〜てください directs action."
+        },
+        {
+          "id": "c2",
+          "text": "まっすぐ行ってください。",
+          "rationale": "Not quite. 〜にあります describes where a nonliving landmark is; 〜てください directs action."
+        },
+        {
+          "id": "c3",
+          "text": "郵便局は左にあります。",
+          "rationale": "Correct. 〜にあります describes where a nonliving landmark is; 〜てください directs action."
+        },
+        {
+          "id": "c4",
+          "text": "ここで止まってください。",
+          "rationale": "Not quite. 〜にあります describes where a nonliving landmark is; 〜てください directs action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "〜にあります describes where a nonliving landmark is; 〜てください directs action."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-9"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "How do you ask 'Where is the station?'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅は右に曲がってください。",
+          "rationale": "Not quite. 駅はどこですか asks for a location; the other options mix location and instruction patterns."
+        },
+        {
+          "id": "c2",
+          "text": "駅はどこですか。",
+          "rationale": "Correct. 駅はどこですか asks for a location; the other options mix location and instruction patterns."
+        },
+        {
+          "id": "c3",
+          "text": "駅をありますか。",
+          "rationale": "Not quite. 駅はどこですか asks for a location; the other options mix location and instruction patterns."
+        },
+        {
+          "id": "c4",
+          "text": "駅でまっすぐですか。",
+          "rationale": "Not quite. 駅はどこですか asks for a location; the other options mix location and instruction patterns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "駅はどこですか asks for a location; the other options mix location and instruction patterns."
+    },
+    {
+      "id": "ex-n5-m05-c03-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-l03-pattern-10"
+      ],
+      "skills": [
+        "grammar",
+        "recognition"
+      ],
+      "prompt": "After 'まっすぐ行ってください。次の角を右に曲がってください。', what happens first?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Go straight.",
+          "rationale": "Correct. The first sentence says go straight; the next sentence gives the subsequent right turn."
+        },
+        {
+          "id": "c2",
+          "text": "Turn right.",
+          "rationale": "Not quite. The first sentence says go straight; the next sentence gives the subsequent right turn."
+        },
+        {
+          "id": "c3",
+          "text": "Turn left.",
+          "rationale": "Not quite. The first sentence says go straight; the next sentence gives the subsequent right turn."
+        },
+        {
+          "id": "c4",
+          "text": "Stop at the station.",
+          "rationale": "Not quite. The first sentence says go straight; the next sentence gives the subsequent right turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The first sentence says go straight; the next sentence gives the subsequent right turn."
+    }
+  ]
+}
