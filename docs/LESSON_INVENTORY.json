@@ -3966,6 +3966,23 @@
       "assessmentReview": "pending — independent assessment editor review not claimed",
       "audio": "reuses two original N5-M02-C02-L06 recordings; playable WAVs, integrity, rights and pronunciation review pending",
       "noindex": false
+    },
+    {
+      "id": "n5-m05-c02-l07",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c02",
+      "slot": "L07",
+      "title": "Write a Travel Plan: Who Goes With You and How",
+      "content": "src/content/lessons/n5/travel-companions-writing.mdx",
+      "url": "/learn/n5/module-05/chapter-02/lesson-07/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L07",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
