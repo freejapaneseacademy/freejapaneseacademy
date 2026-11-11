@@ -1,0 +1,470 @@
+{
+  "id": "n5-m05-c03-chk",
+  "lessonId": "n5-m05-c03-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional map notes in directions checkpoint MDX; printed evidence only, not an audio score.",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m05-c03-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-reading-01"
+      ],
+      "prompt": "In the route note, where does Mika begin?",
+      "evidence": "みか：駅の前から図書館まで行きます。",
+      "explanation": "駅の前から identifies the starting point in front of the station.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-01-c1",
+          "text": "At the library",
+          "rationale": "Not this one. 駅の前から identifies the starting point in front of the station."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-01-c2",
+          "text": "At the station",
+          "rationale": "Correct. 駅の前から identifies the starting point in front of the station."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-01-c3",
+          "text": "At the post office",
+          "rationale": "Not this one. 駅の前から identifies the starting point in front of the station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-vocabulary-02"
+      ],
+      "prompt": "What does まっすぐ mean in a direction?",
+      "evidence": "この道をまっすぐ行ってください。",
+      "explanation": "まっすぐ describes continuing straight ahead.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-02-c1",
+          "text": "Go back",
+          "rationale": "Not this one. まっすぐ describes continuing straight ahead."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-02-c2",
+          "text": "Turn left",
+          "rationale": "Not this one. まっすぐ describes continuing straight ahead."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-02-c3",
+          "text": "Go straight",
+          "rationale": "Correct. まっすぐ describes continuing straight ahead."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-grammar-03"
+      ],
+      "prompt": "Which sentence politely asks someone to turn right?",
+      "evidence": "次の角を右に曲がってください。",
+      "explanation": "右に曲がってください means please turn right.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-03-c1",
+          "text": "次の角を右に曲がってください。",
+          "rationale": "Correct. 右に曲がってください means please turn right."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-03-c2",
+          "text": "次の角にあります。",
+          "rationale": "Not this one. 右に曲がってください means please turn right."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-03-c3",
+          "text": "次の角を左に曲がってください。",
+          "rationale": "Not this one. 右に曲がってください means please turn right."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-script-04"
+      ],
+      "prompt": "Which word is read ひだり?",
+      "evidence": "左（ひだり）",
+      "explanation": "左 is read ひだり and means left.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-04-c1",
+          "text": "右",
+          "rationale": "Not this one. 左 is read ひだり and means left."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-04-c2",
+          "text": "左",
+          "rationale": "Correct. 左 is read ひだり and means left."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-04-c3",
+          "text": "駅",
+          "rationale": "Not this one. 左 is read ひだり and means left."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-reading-05"
+      ],
+      "prompt": "Where is the library in the original route note?",
+      "evidence": "図書館は銀行のとなりにあります。",
+      "explanation": "銀行のとなり means next to the bank.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-05-c1",
+          "text": "Across from the post office",
+          "rationale": "Not this one. 銀行のとなり means next to the bank."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-05-c2",
+          "text": "Inside the station",
+          "rationale": "Not this one. 銀行のとなり means next to the bank."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-05-c3",
+          "text": "Next to the bank",
+          "rationale": "Correct. 銀行のとなり means next to the bank."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-reading-06"
+      ],
+      "prompt": "After going straight, which way does Mika turn?",
+      "evidence": "次の角を右に曲がってください。",
+      "explanation": "右 indicates right; the instruction follows the straight segment.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-06-c1",
+          "text": "Right",
+          "rationale": "Correct. 右 indicates right; the instruction follows the straight segment."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-06-c2",
+          "text": "She does not turn",
+          "rationale": "Not this one. 右 indicates right; the instruction follows the straight segment."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-06-c3",
+          "text": "Left",
+          "rationale": "Not this one. 右 indicates right; the instruction follows the straight segment."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-grammar-07"
+      ],
+      "prompt": "Which particle marks the location in 駅の前にあります?",
+      "evidence": "駅の前にあります。",
+      "explanation": "に marks where something exists with あります.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-07-c1",
+          "text": "を",
+          "rationale": "Not this one. に marks where something exists with あります."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-07-c2",
+          "text": "に",
+          "rationale": "Correct. に marks where something exists with あります."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-07-c3",
+          "text": "と",
+          "rationale": "Not this one. に marks where something exists with あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-script-08"
+      ],
+      "prompt": "What is the reading of 駅?",
+      "evidence": "駅（えき）",
+      "explanation": "駅 is えき, station.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-08-c1",
+          "text": "かど",
+          "rationale": "Not this one. 駅 is えき, station."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-08-c2",
+          "text": "みぎ",
+          "rationale": "Not this one. 駅 is えき, station."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-08-c3",
+          "text": "えき",
+          "rationale": "Correct. 駅 is えき, station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-08-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-reading-09"
+      ],
+      "prompt": "In the second route, what is beside the park?",
+      "evidence": "郵便局は公園のとなりにあります。",
+      "explanation": "郵便局 is the post office; 公園のとなり locates it beside the park.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-09-c1",
+          "text": "The post office",
+          "rationale": "Correct. 郵便局 is the post office; 公園のとなり locates it beside the park."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-09-c2",
+          "text": "The station",
+          "rationale": "Not this one. 郵便局 is the post office; 公園のとなり locates it beside the park."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-09-c3",
+          "text": "The library",
+          "rationale": "Not this one. 郵便局 is the post office; 公園のとなり locates it beside the park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-09-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-reading-10"
+      ],
+      "prompt": "In the second route, what is corrected?",
+      "evidence": "『右ですか。』『いいえ、左に曲がってください。』",
+      "explanation": "いいえ rejects 右 and the guide specifies 左.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-10-c1",
+          "text": "Go back to the station",
+          "rationale": "Not this one. いいえ rejects 右 and the guide specifies 左."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-10-c2",
+          "text": "Turn left, not right",
+          "rationale": "Correct. いいえ rejects 右 and the guide specifies 左."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-10-c3",
+          "text": "Turn right, not left",
+          "rationale": "Not this one. いいえ rejects 右 and the guide specifies 左."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-10-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-grammar-11"
+      ],
+      "prompt": "Which sentence describes a place rather than instructing movement?",
+      "evidence": "郵便局は公園のとなりにあります。",
+      "explanation": "あります states location; 〜てください requests an action.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-11-c1",
+          "text": "次の角を左に曲がってください。",
+          "rationale": "Not this one. あります states location; 〜てください requests an action."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-11-c2",
+          "text": "公園までまっすぐ行ってください。",
+          "rationale": "Not this one. あります states location; 〜てください requests an action."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-11-c3",
+          "text": "郵便局は公園のとなりにあります。",
+          "rationale": "Correct. あります states location; 〜てください requests an action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m05-c03-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m05-c03-chk-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c03-chk-vocabulary-12"
+      ],
+      "prompt": "Which expression means 'at the next corner'?",
+      "evidence": "次の角を右に曲がってください。",
+      "explanation": "次の角（つぎのかど） is the next corner.",
+      "choices": [
+        {
+          "id": "ex-n5-m05-c03-chk-12-c1",
+          "text": "次の角",
+          "rationale": "Correct. 次の角（つぎのかど） is the next corner."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-12-c2",
+          "text": "公園のとなり",
+          "rationale": "Not this one. 次の角（つぎのかど） is the next corner."
+        },
+        {
+          "id": "ex-n5-m05-c03-chk-12-c3",
+          "text": "駅の前",
+          "rationale": "Not this one. 次の角（つぎのかど） is the next corner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m05-c03-chk-12-c1"
+      }
+    }
+  ]
+}
