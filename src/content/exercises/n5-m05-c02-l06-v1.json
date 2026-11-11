@@ -1,0 +1,251 @@
+{
+  "id": "n5-m05-c02-l06-check-v1",
+  "lessonId": "n5-m05-c02-l06",
+  "version": 1,
+  "tracks": [
+    "audio-n5-m05-c02-l06-a",
+    "audio-n5-m05-c02-l06-b"
+  ],
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l06-001",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l06-companion"
+      ],
+      "trackId": "audio-n5-m05-c02-l06-a",
+      "prompt": "Who will accompany the man to the museum?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "His older brother",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "b",
+          "text": "His friend",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "His father",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "兄 (older brother) is the companion.",
+      "evidence": "兄と行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c02-l06-002",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l06-vehicle"
+      ],
+      "trackId": "audio-n5-m05-c02-l06-a",
+      "prompt": "Which vehicle will the man take?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Train",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Bus",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "c",
+          "text": "Taxi",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "He corrects the train suggestion and says bus.",
+      "evidence": "いいえ、バスで行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c02-l06-003",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c02-l06-o1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l06-time"
+      ],
+      "trackId": "audio-n5-m05-c02-l06-a",
+      "prompt": "When will the man go?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At nine in the morning",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "At ten in the morning",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "c",
+          "text": "At ten at night",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "午前十時 is 10 a.m.",
+      "evidence": "午前十時に行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c02-l06-004",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l06-alone"
+      ],
+      "trackId": "audio-n5-m05-c02-l06-b",
+      "prompt": "Who will accompany the woman to the library?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A friend",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Her sister",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "Nobody",
+          "rationale": "The spoken evidence directly supports this choice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "一人で means alone.",
+      "evidence": "いいえ、一人で行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c02-l06-005",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l06-bicycle"
+      ],
+      "trackId": "audio-n5-m05-c02-l06-b",
+      "prompt": "How will the woman get to the library?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By bicycle",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "b",
+          "text": "By train",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "c",
+          "text": "On foot",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "自転車で means by bicycle.",
+      "evidence": "自転車で行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c02-l06-006",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "level": "n5",
+      "skills": [
+        "listening-comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m05-c02-l06-o2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l06-activity"
+      ],
+      "trackId": "audio-n5-m05-c02-l06-b",
+      "prompt": "What will the woman do at the library?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Read a newspaper",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        },
+        {
+          "id": "b",
+          "text": "Study Japanese",
+          "rationale": "The spoken evidence directly supports this choice."
+        },
+        {
+          "id": "c",
+          "text": "Meet a teacher",
+          "rationale": "The dialogue does not support this choice; replay the relevant turn."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "She says she will study Japanese.",
+      "evidence": "日本語を勉強します。"
+    }
+  ]
+}
