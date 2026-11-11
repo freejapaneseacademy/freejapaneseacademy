@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m01-c02-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m01-c02-l05-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-a"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which card tells where Teacher Tanaka is?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A",
+          "rationale": "A names the classroom as Teacher Tanaka's location."
+        },
+        {
+          "id": "b",
+          "text": "B",
+          "rationale": "B is about Sato's identity, not Tanaka's location."
+        },
+        {
+          "id": "c",
+          "text": "C",
+          "rationale": "C identifies a roster, not a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「A: たなか先生はきょうしつです。」 A names the classroom as Teacher Tanaka's location."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-b"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "In Card B, who is the person?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sato",
+          "rationale": "The answer explicitly names Sato."
+        },
+        {
+          "id": "b",
+          "text": "Tanaka",
+          "rationale": "Tanaka is mentioned in Card A."
+        },
+        {
+          "id": "c",
+          "text": "A student",
+          "rationale": "Card B says 先生, not student."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「さとうさんです。」 The answer explicitly names Sato."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-c"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What is これ in Card C?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The class roster",
+          "rationale": "The response identifies the object as a class roster."
+        },
+        {
+          "id": "b",
+          "text": "A blue pen",
+          "rationale": "The pen is discussed in Card D."
+        },
+        {
+          "id": "c",
+          "text": "A classroom",
+          "rationale": "The classroom is the location in Card A."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「クラスのめいぼです。」 The response identifies the object as a class roster."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-d"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which pen is Sato's in Card D?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The blue pen",
+          "rationale": "The answer identifies the blue pen."
+        },
+        {
+          "id": "b",
+          "text": "The red pen",
+          "rationale": "No red pen is named."
+        },
+        {
+          "id": "c",
+          "text": "Every pen",
+          "rationale": "The answer specifies one pen, not all pens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「あおいペンです。」 The answer identifies the blue pen."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-review"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which question asks for a person?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "あの人はだれですか。",
+          "rationale": "だれ asks who someone is."
+        },
+        {
+          "id": "b",
+          "text": "これは何ですか。",
+          "rationale": "何 asks what an object is."
+        },
+        {
+          "id": "c",
+          "text": "たなか先生はどこですか。",
+          "rationale": "どこ asks where someone is."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「あの人はだれですか。」 だれ asks who someone is."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-review"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which question asks for a choice among objects?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "どれがさとうさんのペンですか。",
+          "rationale": "どれ asks which one."
+        },
+        {
+          "id": "b",
+          "text": "これは何ですか。",
+          "rationale": "何 asks what something is."
+        },
+        {
+          "id": "c",
+          "text": "あの人はだれですか。",
+          "rationale": "だれ asks who."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「どれがさとうさんのペンですか。」 どれ asks which one."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-review"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What does も add in さとうさんも先生です?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sato is also a teacher",
+          "rationale": "も adds 'also' to Sato's description."
+        },
+        {
+          "id": "b",
+          "text": "Sato is not a teacher",
+          "rationale": "There is no negation."
+        },
+        {
+          "id": "c",
+          "text": "Sato is in the classroom",
+          "rationale": "No location is given in that sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「さとうさんも先生です。」 も adds 'also' to Sato's description."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-review"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Which card identifies an object rather than a person or place?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "C",
+          "rationale": "Card C identifies a roster."
+        },
+        {
+          "id": "b",
+          "text": "A",
+          "rationale": "Card A locates a teacher."
+        },
+        {
+          "id": "c",
+          "text": "B",
+          "rationale": "Card B identifies a person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「これは何ですか。／クラスのめいぼです。」 Card C identifies a roster."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-review"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "Does Card D explicitly state the pen's price?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No",
+          "rationale": "The card gives color only; it states no price."
+        },
+        {
+          "id": "b",
+          "text": "Yes, 100 yen",
+          "rationale": "No price is printed."
+        },
+        {
+          "id": "c",
+          "text": "Yes, 200 yen",
+          "rationale": "No price is printed."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「あおいペンです。」 The card gives color only; it states no price."
+    },
+    {
+      "id": "ex-n5-m01-c02-l05-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m01-c02-l05-reading-evidence"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c02-l05-card-review"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "prompt": "What is the most accurate evidence for Tanaka's location?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "たなか先生はきょうしつです。",
+          "rationale": "This sentence directly names the location."
+        },
+        {
+          "id": "b",
+          "text": "さとうさんです。",
+          "rationale": "This names another person."
+        },
+        {
+          "id": "c",
+          "text": "あおいペンです。",
+          "rationale": "This identifies a pen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "Evidence: 「たなか先生はきょうしつです。」 This sentence directly names the location."
+    }
+  ]
+}
