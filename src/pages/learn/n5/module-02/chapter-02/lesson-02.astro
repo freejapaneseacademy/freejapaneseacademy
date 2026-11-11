@@ -1,0 +1,25 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import SchoolPlacesPractice from '../../../../../components/interactive/SchoolPlacesPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/school-places-vocabulary');
+if(!lesson || lesson.data.lessonId!=='n5-m02-c02-l02')throw new Error('Missing canonical lesson n5-m02-c02-l02');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Places and directions',href:'/learn/n5/module-02/chapter-02/lesson-02/'}]}>
+<section class="page-hero"><div class="container">
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 02 · Chapter 02 · Lesson 02</span></nav>
+<span class="eyebrow">N5 · MODULE 02 · CHAPTER 02 · LESSON 02</span><h1>School places: finding rooms and facilities</h1><p>{lesson.data.description}</p>
+<div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Written vocabulary study</span><span>10 questions</span></div>
+</div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+<div class="course-notice"><strong>Original written lesson.</strong> Fictional school examples; independent Japanese and assessment reviews pending. No audio or pronunciation grade is claimed.</div>
+<div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+<article class="lesson-article foundation-article"><Content/></article>
+<SchoolPlacesPractice client:load/>
+<div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion is separate from the written quiz score.</p><LessonActions client:load lessonId="n5-m02-c02-l02" level="n5"/></div>
+<div class="lesson-next"><h3>Keep learning</h3><p>Next: location grammar with ここ・そこ・あそこ and に.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div>
+</div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Purpose before place</h3><p>Ask what someone needs to do, then choose the room or facility. Try both Japanese-to-English and English-to-Japanese recall.</p></aside></div></section>
+</Base>

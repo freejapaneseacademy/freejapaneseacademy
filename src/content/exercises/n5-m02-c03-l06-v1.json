@@ -1,0 +1,270 @@
+{
+  "lessonId": "n5-m02-c03-l06",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l06-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l06-listening-1"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What does the visitor ask about on the desk?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A notebook",
+          "rationale": "Correct. The first speaker asks whether a notebook is on the desk."
+        },
+        {
+          "id": "c2",
+          "text": "A clock",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: 机の上にノートがありますか。"
+        },
+        {
+          "id": "c3",
+          "text": "A pencil",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: 机の上にノートがありますか。"
+        },
+        {
+          "id": "c4",
+          "text": "A phone",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: 机の上にノートがありますか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "机の上にノートがありますか。",
+      "explanation": "The first speaker asks whether a notebook is on the desk."
+    },
+    {
+      "id": "ex-n5-m02-c03-l06-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l06-listening-2"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "What color is the notebook that is present?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Red",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: はい、青いノートがあります。"
+        },
+        {
+          "id": "c2",
+          "text": "Blue",
+          "rationale": "Correct. The response confirms a blue notebook."
+        },
+        {
+          "id": "c3",
+          "text": "White",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: はい、青いノートがあります。"
+        },
+        {
+          "id": "c4",
+          "text": "Black",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: はい、青いノートがあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "はい、青いノートがあります。",
+      "explanation": "The response confirms a blue notebook."
+    },
+    {
+      "id": "ex-n5-m02-c03-l06-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l06-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l06-listening-3"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "a",
+      "prompt": "Is there a red notebook?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, on the desk",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: いいえ、赤いノートはありません。"
+        },
+        {
+          "id": "c2",
+          "text": "Yes, in the hallway",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: いいえ、赤いノートはありません。"
+        },
+        {
+          "id": "c3",
+          "text": "No, there is not",
+          "rationale": "Correct. The speaker explicitly denies that a red notebook is present."
+        },
+        {
+          "id": "c4",
+          "text": "The speaker does not know",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: いいえ、赤いノートはありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "evidence": "いいえ、赤いノートはありません。",
+      "explanation": "The speaker explicitly denies that a red notebook is present."
+    },
+    {
+      "id": "ex-n5-m02-c03-l06-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l06-listening-4"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Who is in the classroom?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A student",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: はい、先生がいます。"
+        },
+        {
+          "id": "c2",
+          "text": "A teacher",
+          "rationale": "Correct. The answer confirms the teacher is there."
+        },
+        {
+          "id": "c3",
+          "text": "A visitor",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: はい、先生がいます。"
+        },
+        {
+          "id": "c4",
+          "text": "Nobody",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: はい、先生がいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "evidence": "はい、先生がいます。",
+      "explanation": "The answer confirms the teacher is there."
+    },
+    {
+      "id": "ex-n5-m02-c03-l06-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l06-listening-5"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Is the bag in the classroom?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, on the desk",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: いいえ、かばんは教室にありません。"
+        },
+        {
+          "id": "c2",
+          "text": "Yes, beside the teacher",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: いいえ、かばんは教室にありません。"
+        },
+        {
+          "id": "c3",
+          "text": "Its location is unknown",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: いいえ、かばんは教室にありません。"
+        },
+        {
+          "id": "c4",
+          "text": "No, it is not",
+          "rationale": "Correct. The bag is explicitly said not to be in the classroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "evidence": "いいえ、かばんは教室にありません。",
+      "explanation": "The bag is explicitly said not to be in the classroom."
+    },
+    {
+      "id": "ex-n5-m02-c03-l06-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l06-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l06-listening-6"
+      ],
+      "skills": [
+        "listening"
+      ],
+      "trackId": "b",
+      "prompt": "Where is the bag?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In the hallway",
+          "rationale": "Correct. The final line locates the bag in the hallway."
+        },
+        {
+          "id": "c2",
+          "text": "In the library",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: 廊下にあります。"
+        },
+        {
+          "id": "c3",
+          "text": "In the classroom",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: 廊下にあります。"
+        },
+        {
+          "id": "c4",
+          "text": "Outside the building",
+          "rationale": "Not supported by the recording. Listen for the exact Japanese evidence: 廊下にあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "evidence": "廊下にあります。",
+      "explanation": "The final line locates the bag in the hallway."
+    }
+  ]
+}

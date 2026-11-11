@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m02-c04-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l01-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who is showing the room?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Haru, the host",
+          "rationale": "Haru gives the location answers."
+        },
+        {
+          "id": "c2",
+          "text": "Mei, the visitor",
+          "rationale": "Mei asks questions rather than giving the tour."
+        },
+        {
+          "id": "c3",
+          "text": "A teacher",
+          "rationale": "No teacher participates."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Haru gives the location answers."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Why are Haru and Mei talking?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "To order furniture",
+          "rationale": "No furniture purchase occurs."
+        },
+        {
+          "id": "c2",
+          "text": "To describe a study room",
+          "rationale": "Haru explains where objects are in the room."
+        },
+        {
+          "id": "c3",
+          "text": "To buy a train ticket",
+          "rationale": "There is no train discussion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Haru explains where objects are in the room."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the desk?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Behind the window",
+          "rationale": "The text says まどの まえ, not behind."
+        },
+        {
+          "id": "c2",
+          "text": "Under the chair",
+          "rationale": "The bag, not the desk, is under the chair."
+        },
+        {
+          "id": "c3",
+          "text": "In front of the window",
+          "rationale": "まどの まえ means in front of the window."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "まどの まえ means in front of the window."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the bag?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Under the chair",
+          "rationale": "いすの した is under the chair."
+        },
+        {
+          "id": "c2",
+          "text": "On the desk",
+          "rationale": "The book is on the desk."
+        },
+        {
+          "id": "c3",
+          "text": "Inside the window",
+          "rationale": "The dialogue never puts a bag inside a window."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いすの した is under the chair."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the book?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Inside the bag",
+          "rationale": "The bag is under the chair; the book is on the desk."
+        },
+        {
+          "id": "c2",
+          "text": "On the desk",
+          "rationale": "つくえの うえ means on the desk."
+        },
+        {
+          "id": "c3",
+          "text": "Beside the cat",
+          "rationale": "The text does not place the book beside the cat."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "つくえの うえ means on the desk."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the cat?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Under the desk",
+          "rationale": "No cat is located under the desk."
+        },
+        {
+          "id": "c2",
+          "text": "Behind the window",
+          "rationale": "The cat is not behind the window."
+        },
+        {
+          "id": "c3",
+          "text": "Beside the chair",
+          "rationale": "いすの となり means beside the chair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "いすの となり means beside the chair."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does まどの まえ mean?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In front of the window",
+          "rationale": "まえ means in front of."
+        },
+        {
+          "id": "c2",
+          "text": "Behind the window",
+          "rationale": "うしろ would mean behind."
+        },
+        {
+          "id": "c3",
+          "text": "Inside the window",
+          "rationale": "なか would mean inside."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "まえ means in front of."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which verb correctly describes the cat's presence?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あります",
+          "rationale": "あります is ordinarily for objects, not a cat."
+        },
+        {
+          "id": "c2",
+          "text": "います",
+          "rationale": "います is the ordinary existence verb for an animal."
+        },
+        {
+          "id": "c3",
+          "text": "ですか",
+          "rationale": "ですか is not an existence verb."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "います is the ordinary existence verb for an animal."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What marks the location in いすの したに かばんが あります?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "が",
+          "rationale": "が marks the thing present, かばん."
+        },
+        {
+          "id": "c2",
+          "text": "の",
+          "rationale": "の connects いす to した."
+        },
+        {
+          "id": "c3",
+          "text": "に",
+          "rationale": "に follows the place expression いすの した."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "に follows the place expression いすの した."
+    },
+    {
+      "id": "ex-n5-m02-c04-l01-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly describes the room?",
+      "objectiveIds": [
+        "n5-m02-c04-l01-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l01-room-tour"
+      ],
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ねこは いすの となりに います。",
+          "rationale": "The cat is beside the chair, and います is correct."
+        },
+        {
+          "id": "c2",
+          "text": "ねこは いすの となりに あります。",
+          "rationale": "あります is not the usual existence verb for a cat."
+        },
+        {
+          "id": "c3",
+          "text": "ねこは いすの したに います。",
+          "rationale": "The cat is beside, not under, the chair."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The cat is beside the chair, and います is correct."
+    }
+  ]
+}

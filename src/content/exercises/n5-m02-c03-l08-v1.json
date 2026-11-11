@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m02-c03-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-01"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "The visitor asks where the teacher is. Which question is suitable?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生は どこに いますか。",
+          "rationale": "います is used for a teacher, and どこに asks for a location."
+        },
+        {
+          "id": "c2",
+          "text": "先生は どこに ありますか。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c3",
+          "text": "先生が どこです。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "います is used for a teacher, and どこに asks for a location."
+    },
+    {
+      "id": "ex-n5-m02-c03-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-02"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "The teacher is in the classroom. Choose the complete existence statement.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室が 先生に います。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c2",
+          "text": "教室に 先生が います。",
+          "rationale": "教室に marks the place, 先生が the person, and います their presence."
+        },
+        {
+          "id": "c3",
+          "text": "教室に 先生が あります。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "教室に marks the place, 先生が the person, and います their presence."
+    },
+    {
+      "id": "ex-n5-m02-c03-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-03"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which statement correctly places a bag in the library room?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書室に かばんが あります。",
+          "rationale": "A bag is a thing, so use あります with location に and entity が."
+        },
+        {
+          "id": "c2",
+          "text": "図書室に かばんが います。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c3",
+          "text": "図書室が かばんに あります。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A bag is a thing, so use あります with location に and entity が."
+    },
+    {
+      "id": "ex-n5-m02-c03-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-04"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What does 机の 上に mean in Scene B?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Under the desk",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c2",
+          "text": "Beside the classroom",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c3",
+          "text": "On top of the desk",
+          "rationale": "上 means above/on top; 机の 上に identifies the desk surface as the location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "上 means above/on top; 机の 上に identifies the desk surface as the location."
+    },
+    {
+      "id": "ex-n5-m02-c03-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-05"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "The student wants to find the bag. Which question fits?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "かばんは どこに いますか。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c2",
+          "text": "かばんは どこに ありますか。",
+          "rationale": "An inanimate bag takes あります in a location question."
+        },
+        {
+          "id": "c3",
+          "text": "かばんが だれですか。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "An inanimate bag takes あります in a location question."
+    },
+    {
+      "id": "ex-n5-m02-c03-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-06"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence correctly says a cat is in the classroom?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室に ねこが います。",
+          "rationale": "Animals ordinarily take います, and 教室に specifies where the cat is."
+        },
+        {
+          "id": "c2",
+          "text": "教室に ねこが あります。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c3",
+          "text": "ねこに 教室が います。",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Animals ordinarily take います, and 教室に specifies where the cat is."
+    },
+    {
+      "id": "ex-n5-m02-c03-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-07"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which part marks the entity present in 教室に 先生が います?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室に",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c2",
+          "text": "先生が",
+          "rationale": "先生が marks the person whose presence is being stated; 教室に is the location."
+        },
+        {
+          "id": "c3",
+          "text": "います",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "先生が marks the person whose presence is being stated; 教室に is the location."
+    },
+    {
+      "id": "ex-n5-m02-c03-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l08-existence-08"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is known about the bag's owner from Scene B?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The helper owns it.",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c2",
+          "text": "The teacher owns it.",
+          "rationale": "This option does not fit the specified scene or the います／あります and に／が contrast; compare the model dialogue and identify the referent."
+        },
+        {
+          "id": "c3",
+          "text": "The owner is not stated.",
+          "rationale": "The helper reports where the bag is; the conversation never identifies its owner."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The helper reports where the bag is; the conversation never identifies its owner."
+    }
+  ]
+}
