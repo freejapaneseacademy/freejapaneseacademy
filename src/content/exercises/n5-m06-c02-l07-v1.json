@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c02-l07",
+  "lessonId": "n5-m06-c02-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional morning and library writing examples",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c02-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the て-form of 洗う.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-01-c1",
+          "text": "洗って",
+          "rationale": "Correct. 洗う ends in う, so the connector is 洗って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-01-c2",
+          "text": "洗いて",
+          "rationale": "Review. 洗う ends in う, so the connector is 洗って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-01-c3",
+          "text": "洗んで",
+          "rationale": "Review. 洗う ends in う, so the connector is 洗って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-01-c1"
+      },
+      "explanation": "洗う ends in う, so the connector is 洗って.",
+      "feedback": "洗う ends in う, so the connector is 洗って."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the て-form of 読む.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-02-c1",
+          "text": "読んで",
+          "rationale": "Correct. 読む ends in む; 読んで is the correct linking form."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-02-c2",
+          "text": "読って",
+          "rationale": "Review. 読む ends in む; 読んで is the correct linking form."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-02-c3",
+          "text": "読みて",
+          "rationale": "Review. 読む ends in む; 読んで is the correct linking form."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-02-c1"
+      },
+      "explanation": "読む ends in む; 読んで is the correct linking form.",
+      "feedback": "読む ends in む; 読んで is the correct linking form."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the て-form of 行く.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-03-c1",
+          "text": "行って",
+          "rationale": "Correct. 行く is the important exception: 行って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-03-c2",
+          "text": "行いて",
+          "rationale": "Review. 行く is the important exception: 行って."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-03-c3",
+          "text": "行きて",
+          "rationale": "Review. 行く is the important exception: 行って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-03-c1"
+      },
+      "explanation": "行く is the important exception: 行って.",
+      "feedback": "行く is the important exception: 行って."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Complete: 本を読んでから、メモを____。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-04-c1",
+          "text": "書きます",
+          "rationale": "Correct. The final polite verb 書きます completes the sentence."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-04-c2",
+          "text": "書いて",
+          "rationale": "Review. The final polite verb 書きます completes the sentence."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-04-c3",
+          "text": "書くて",
+          "rationale": "Review. The final polite verb 書きます completes the sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-04-c1"
+      },
+      "explanation": "The final polite verb 書きます completes the sentence.",
+      "feedback": "The final polite verb 書きます completes the sentence."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Which sentence means 'After eating, I go to the library'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-05-c1",
+          "text": "食べてから、図書館に行きます。",
+          "rationale": "Correct. 食べてから explicitly places eating before going."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-05-c2",
+          "text": "図書館に行ってから、食べます。",
+          "rationale": "Review. 食べてから explicitly places eating before going."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-05-c3",
+          "text": "食べますから、図書館に行って。",
+          "rationale": "Review. 食べてから explicitly places eating before going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-05-c1"
+      },
+      "explanation": "食べてから explicitly places eating before going.",
+      "feedback": "食べてから explicitly places eating before going."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the natural destination particle: 図書館___行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-06-c1",
+          "text": "に",
+          "rationale": "Correct. A destination with 行きます commonly takes に."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-06-c2",
+          "text": "を",
+          "rationale": "Review. A destination with 行きます commonly takes に."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-06-c3",
+          "text": "が",
+          "rationale": "Review. A destination with 行きます commonly takes に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-06-c1"
+      },
+      "explanation": "A destination with 行きます commonly takes に.",
+      "feedback": "A destination with 行きます commonly takes に."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the object particle: 本___読みます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-07-c1",
+          "text": "を",
+          "rationale": "Correct. 本 is the object of 読みます, so を is appropriate."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-07-c2",
+          "text": "に",
+          "rationale": "Review. 本 is the object of 読みます, so を is appropriate."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-07-c3",
+          "text": "で",
+          "rationale": "Review. 本 is the object of 読みます, so を is appropriate."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-07-c1"
+      },
+      "explanation": "本 is the object of 読みます, so を is appropriate.",
+      "feedback": "本 is the object of 読みます, so を is appropriate."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Which is a complete polite sentence?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-08-c1",
+          "text": "顔を洗って、朝ごはんを食べます。",
+          "rationale": "Correct. A final ます verb closes the connected sentence."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-08-c2",
+          "text": "顔を洗って、朝ごはんを食べて。",
+          "rationale": "Review. A final ます verb closes the connected sentence."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-08-c3",
+          "text": "顔を洗いて、朝ごはんを食べます。",
+          "rationale": "Review. A final ます verb closes the connected sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-08-c1"
+      },
+      "explanation": "A final ます verb closes the connected sentence.",
+      "feedback": "A final ます verb closes the connected sentence."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the て-form of 飲む.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-09-c1",
+          "text": "飲んで",
+          "rationale": "Correct. 飲む becomes 飲んで."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-09-c2",
+          "text": "飲って",
+          "rationale": "Review. 飲む becomes 飲んで."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-09-c3",
+          "text": "飲みて",
+          "rationale": "Review. 飲む becomes 飲んで."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-09-c1"
+      },
+      "explanation": "飲む becomes 飲んで.",
+      "feedback": "飲む becomes 飲んで."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Which connector explicitly means 'after doing'?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-10-c1",
+          "text": "〜てから",
+          "rationale": "Correct. 〜てから marks the first completed action before the next."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-10-c2",
+          "text": "〜ています",
+          "rationale": "Review. 〜てから marks the first completed action before the next."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-10-c3",
+          "text": "〜ません",
+          "rationale": "Review. 〜てから marks the first completed action before the next."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-10-c1"
+      },
+      "explanation": "〜てから marks the first completed action before the next.",
+      "feedback": "〜てから marks the first completed action before the next."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the correct form of する.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-11-c1",
+          "text": "して",
+          "rationale": "Correct. する is irregular: して."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-11-c2",
+          "text": "すって",
+          "rationale": "Review. する is irregular: して."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-11-c3",
+          "text": "すんで",
+          "rationale": "Review. する is irregular: して."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-11-c1"
+      },
+      "explanation": "する is irregular: して.",
+      "feedback": "する is irregular: して."
+    },
+    {
+      "id": "ex-n5-m06-c02-l07-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "writing"
+      ],
+      "objectiveIds": [
+        "n5-m06-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c02-l07-te-sequence"
+      ],
+      "prompt": "Choose the correct form of 来る（くる）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c02-l07-12-c1",
+          "text": "来て（きて）",
+          "rationale": "Correct. 来る becomes 来て（きて）, not くて."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-12-c2",
+          "text": "来って（くって）",
+          "rationale": "Review. 来る becomes 来て（きて）, not くて."
+        },
+        {
+          "id": "ex-n5-m06-c02-l07-12-c3",
+          "text": "来んで（こんで）",
+          "rationale": "Review. 来る becomes 来て（きて）, not くて."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c02-l07-12-c1"
+      },
+      "explanation": "来る becomes 来て（きて）, not くて.",
+      "feedback": "来る becomes 来て（きて）, not くて."
+    }
+  ]
+}
