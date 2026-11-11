@@ -3904,6 +3904,23 @@
       "audio": "not required for written L05",
       "noindex": false,
       "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "n5-m04-c04-l06",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c04",
+      "slot": "L06",
+      "title": "Listening to invitations: choose a place and a time",
+      "content": "src/content/lessons/n5/invitation-dialogue-listening.mdx",
+      "url": "/learn/n5/module-04/chapter-04/lesson-06/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "AivisSpeech schema-v3 job committed; authentic WAV generation and QA pending",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
