@@ -15,6 +15,9 @@ test('keyboard answers optional knowledge check and saves a separate numeric res
   await page.goto(route);
   const questions = page.locator('fieldset[data-question-id^="ex-l0-m02-c02-l08-"]');
   await expect(questions).toHaveCount(6);
+  // Astro renders the React island's fieldsets disabled until hydration sets ready.
+  // Wait for the actual interactive state before sending keyboard input.
+  await expect(questions.first()).toBeEnabled();
   for (let i = 0; i < 6; i++) {
     const first = questions.nth(i).locator('input[type="radio"]').first();
     await first.focus();

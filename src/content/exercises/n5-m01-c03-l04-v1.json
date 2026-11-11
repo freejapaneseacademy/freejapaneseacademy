@@ -1,0 +1,484 @@
+{
+  "id": "n5-m01-c03-l04",
+  "lessonId": "n5-m01-c03-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional family-photo chart in family-relationship-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c03-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "Which reading matches 家族?",
+      "options": [
+        "かそく",
+        "かぞく",
+        "いえぞく"
+      ],
+      "correctIndex": 1,
+      "feedback": "家族（かぞく） means family; ぞ is voiced.",
+      "explanation": "家族（かぞく） means family; ぞ is voiced.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-01-c1",
+          "text": "かそく",
+          "rationale": "Not correct: 家族（かぞく） means family; ぞ is voiced."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-01-c2",
+          "text": "かぞく",
+          "rationale": "Correct: 家族（かぞく） means family; ぞ is voiced."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-01-c3",
+          "text": "いえぞく",
+          "rationale": "Not correct: 家族（かぞく） means family; ぞ is voiced."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "Which word means 'older brother' when speaking about your own family?",
+      "options": [
+        "弟",
+        "兄",
+        "姉"
+      ],
+      "correctIndex": 1,
+      "feedback": "兄（あに） means one's own older brother; 弟 is younger brother and 姉 is older sister.",
+      "explanation": "兄（あに） means one's own older brother; 弟 is younger brother and 姉 is older sister.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-02-c1",
+          "text": "弟",
+          "rationale": "Not correct: 兄（あに） means one's own older brother; 弟 is younger brother and 姉 is older sister."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-02-c2",
+          "text": "兄",
+          "rationale": "Correct: 兄（あに） means one's own older brother; 弟 is younger brother and 姉 is older sister."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-02-c3",
+          "text": "姉",
+          "rationale": "Not correct: 兄（あに） means one's own older brother; 弟 is younger brother and 姉 is older sister."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "How do you read 母 when referring to your own mother?",
+      "options": [
+        "はは",
+        "かか",
+        "ぼ"
+      ],
+      "correctIndex": 0,
+      "feedback": "母 is はは when referring to one's own mother in this beginner pattern.",
+      "explanation": "母 is はは when referring to one's own mother in this beginner pattern.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-03-c1",
+          "text": "はは",
+          "rationale": "Correct: 母 is はは when referring to one's own mother in this beginner pattern."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-03-c2",
+          "text": "かか",
+          "rationale": "Not correct: 母 is はは when referring to one's own mother in this beginner pattern."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-03-c3",
+          "text": "ぼ",
+          "rationale": "Not correct: 母 is はは when referring to one's own mother in this beginner pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "Which word means 'father' when referring to your own father?",
+      "options": [
+        "母",
+        "父",
+        "兄"
+      ],
+      "correctIndex": 1,
+      "feedback": "父（ちち） means one's own father; 母 is mother.",
+      "explanation": "父（ちち） means one's own father; 母 is mother.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-04-c1",
+          "text": "母",
+          "rationale": "Not correct: 父（ちち） means one's own father; 母 is mother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-04-c2",
+          "text": "父",
+          "rationale": "Correct: 父（ちち） means one's own father; 母 is mother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-04-c3",
+          "text": "兄",
+          "rationale": "Not correct: 父（ちち） means one's own father; 母 is mother."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "Which reading matches 写真?",
+      "options": [
+        "さしん",
+        "しゃじん",
+        "しゃしん"
+      ],
+      "correctIndex": 2,
+      "feedback": "写真（しゃしん） means photograph; the first syllable uses small ゃ.",
+      "explanation": "写真（しゃしん） means photograph; the first syllable uses small ゃ.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-05-c1",
+          "text": "さしん",
+          "rationale": "Not correct: 写真（しゃしん） means photograph; the first syllable uses small ゃ."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-05-c2",
+          "text": "しゃじん",
+          "rationale": "Not correct: 写真（しゃしん） means photograph; the first syllable uses small ゃ."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-05-c3",
+          "text": "しゃしん",
+          "rationale": "Correct: 写真（しゃしん） means photograph; the first syllable uses small ゃ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "Which phrase means 'my family's photograph'?",
+      "options": [
+        "私の家族の写真",
+        "私の写真の家族",
+        "私の家族は写真"
+      ],
+      "correctIndex": 0,
+      "feedback": "私の家族の写真 uses の to link 'my family' and 'photograph'.",
+      "explanation": "私の家族の写真 uses の to link 'my family' and 'photograph'.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-06-c1",
+          "text": "私の家族の写真",
+          "rationale": "Correct: 私の家族の写真 uses の to link 'my family' and 'photograph'."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-06-c2",
+          "text": "私の写真の家族",
+          "rationale": "Not correct: 私の家族の写真 uses の to link 'my family' and 'photograph'."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-06-c3",
+          "text": "私の家族は写真",
+          "rationale": "Not correct: 私の家族の写真 uses の to link 'my family' and 'photograph'."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "On a family chart, '兄：たけし' identifies Takeshi as whose relation?",
+      "options": [
+        "Father",
+        "Older brother",
+        "Younger brother"
+      ],
+      "correctIndex": 1,
+      "feedback": "兄（あに） labels the older brother in this chart.",
+      "explanation": "兄（あに） labels the older brother in this chart.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-07-c1",
+          "text": "Father",
+          "rationale": "Not correct: 兄（あに） labels the older brother in this chart."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-07-c2",
+          "text": "Older brother",
+          "rationale": "Correct: 兄（あに） labels the older brother in this chart."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-07-c3",
+          "text": "Younger brother",
+          "rationale": "Not correct: 兄（あに） labels the older brother in this chart."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "Which reading matches 弟?",
+      "options": [
+        "おとと",
+        "おとうと",
+        "おとうさん"
+      ],
+      "correctIndex": 1,
+      "feedback": "弟（おとうと） means younger brother, distinct from おとうさん (someone's father).",
+      "explanation": "弟（おとうと） means younger brother, distinct from おとうさん (someone's father).",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-08-c1",
+          "text": "おとと",
+          "rationale": "Not correct: 弟（おとうと） means younger brother, distinct from おとうさん (someone's father)."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-08-c2",
+          "text": "おとうと",
+          "rationale": "Correct: 弟（おとうと） means younger brother, distinct from おとうさん (someone's father)."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-08-c3",
+          "text": "おとうさん",
+          "rationale": "Not correct: 弟（おとうと） means younger brother, distinct from おとうさん (someone's father)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "In 母は先生です, what is stated?",
+      "options": [
+        "My mother is a teacher.",
+        "My teacher is a mother.",
+        "My older sister is a teacher."
+      ],
+      "correctIndex": 0,
+      "feedback": "母 is mother, は marks the topic, and 先生 is teacher.",
+      "explanation": "母 is mother, は marks the topic, and 先生 is teacher.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-09-c1",
+          "text": "My mother is a teacher.",
+          "rationale": "Correct: 母 is mother, は marks the topic, and 先生 is teacher."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-09-c2",
+          "text": "My teacher is a mother.",
+          "rationale": "Not correct: 母 is mother, は marks the topic, and 先生 is teacher."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-09-c3",
+          "text": "My older sister is a teacher.",
+          "rationale": "Not correct: 母 is mother, は marks the topic, and 先生 is teacher."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-09-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l04-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l04-kanji"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l04-family-words"
+      ],
+      "prompt": "Which is the natural respectful way to refer to another person's mother?",
+      "options": [
+        "母",
+        "お母さん",
+        "弟"
+      ],
+      "correctIndex": 1,
+      "feedback": "お母さん（おかあさん） is a respectful everyday reference/address; 母（はは） commonly refers to one's own mother when speaking to outsiders.",
+      "explanation": "お母さん（おかあさん） is a respectful everyday reference/address; 母（はは） commonly refers to one's own mother when speaking to outsiders.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l04-10-c1",
+          "text": "母",
+          "rationale": "Not correct: お母さん（おかあさん） is a respectful everyday reference/address; 母（はは） commonly refers to one's own mother when speaking to outsiders."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-10-c2",
+          "text": "お母さん",
+          "rationale": "Correct: お母さん（おかあさん） is a respectful everyday reference/address; 母（はは） commonly refers to one's own mother when speaking to outsiders."
+        },
+        {
+          "id": "ex-n5-m01-c03-l04-10-c3",
+          "text": "弟",
+          "rationale": "Not correct: お母さん（おかあさん） is a respectful everyday reference/address; 母（はは） commonly refers to one's own mother when speaking to outsiders."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l04-10-c2"
+      }
+    }
+  ]
+}

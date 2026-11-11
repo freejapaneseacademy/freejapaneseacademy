@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import CampusLocationWritingWorkshop from '../../../../../components/interactive/CampusLocationWritingWorkshop';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/campus-location-writing');
+if(!lesson || lesson.data.lessonId!=='n5-m02-c02-l07') throw new Error('Missing canonical lesson n5-m02-c02-l07');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Places and directions',href:'/learn/n5/module-02/chapter-02/lesson-07/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 02 · CHAPTER 02 · LESSON 07</span><h1>Write campus locations</h1><p>{lesson.data.description}</p><p>About {lesson.data.minutes} minutes · Writing and typing</p></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice">Original Japanese writing lesson. Independent Japanese-language and assessment review pending. No automatic free-writing grade or audio verification is claimed.</div><div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><CampusLocationWritingWorkshop client:load/><div class="foundation-completion"><h2>Complete the lesson</h2><p>Completion is separate from recognition scoring and self-reviewed composition.</p><LessonActions client:load lessonId="n5-m02-c02-l07" level="n5"/></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 course</a><a class="btn btn-outline" href="/dashboard/">Progress dashboard</a></div></div><aside class="lesson-side foundation-side"><h2>Writing checklist</h2><p>Read → substitute → reconstruct → write 2–5 sentences → self-review.</p><p>Saved drafts stay in this browser; they are not submitted to a teacher.</p></aside></div></section>
+</Base>
