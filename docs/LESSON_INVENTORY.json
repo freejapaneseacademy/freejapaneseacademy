@@ -3904,6 +3904,23 @@
       "audio": "not required for written L05",
       "noindex": false,
       "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "n5-m04-c04-l07",
+      "level": "n5",
+      "moduleId": "n5-m04",
+      "chapterId": "n5-m04-c04",
+      "slot": "L07",
+      "title": "Write an Invitation: Make Plans and Reply Politely",
+      "content": "src/content/lessons/n5/invitation-writing.mdx",
+      "url": "/learn/n5/module-04/chapter-04/lesson-07/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese writing review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L07; no recording or pronunciation score",
+      "noindex": true,
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
