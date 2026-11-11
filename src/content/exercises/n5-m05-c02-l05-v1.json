@@ -1,0 +1,450 @@
+{
+  "lessonId": "n5-m05-c02-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who leaves home alone at 9 a.m.?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yui",
+          "rationale": "Correct: The subject ゆい and 一人で identify Yui alone. Evidence: 午前九時に、ゆいは一人で家を出ます。"
+        },
+        {
+          "id": "c2",
+          "text": "Aki",
+          "rationale": "This option is not supported by the itinerary. Recheck: 午前九時に、ゆいは一人で家を出ます。"
+        },
+        {
+          "id": "c3",
+          "text": "Both friends",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 午前九時に、ゆいは一人で家を出ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前九時に、ゆいは一人で家を出ます。 The subject ゆい and 一人で identify Yui alone."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How does Yui get to the station first?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "By bicycle",
+          "rationale": "Correct: 自転車で states the transport to the station. Evidence: 駅までは自転車で行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "By bus",
+          "rationale": "This option is not supported by the itinerary. Recheck: 駅までは自転車で行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "By train",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 駅までは自転車で行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 駅までは自転車で行きます。 自転車で states the transport to the station."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where does Yui meet Aki?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At the station",
+          "rationale": "Correct: 駅で marks the location of their meeting. Evidence: 駅で友達のあきと会います。"
+        },
+        {
+          "id": "c2",
+          "text": "At the bookstore",
+          "rationale": "This option is not supported by the itinerary. Recheck: 駅で友達のあきと会います。"
+        },
+        {
+          "id": "c3",
+          "text": "At the museum",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 駅で友達のあきと会います。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 駅で友達のあきと会います。 駅で marks the location of their meeting."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "At 9:30, who accompanies Yui?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Aki",
+          "rationale": "Correct: あきと identifies Aki as the companion. Evidence: 九時半に、ゆいはあきと電車で町の博物館へ行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "Her mother",
+          "rationale": "This option is not supported by the itinerary. Recheck: 九時半に、ゆいはあきと電車で町の博物館へ行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "Nobody",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 九時半に、ゆいはあきと電車で町の博物館へ行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 九時半に、ゆいはあきと電車で町の博物館へ行きます。 あきと identifies Aki as the companion."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which vehicle takes them to the museum?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Train",
+          "rationale": "Correct: 電車で names the means of transport. Evidence: あきと電車で町の博物館へ行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "Bicycle",
+          "rationale": "This option is not supported by the itinerary. Recheck: あきと電車で町の博物館へ行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "Bus",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: あきと電車で町の博物館へ行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: あきと電車で町の博物館へ行きます。 電車で names the means of transport."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the destination of their train trip?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The town museum",
+          "rationale": "Correct: 博物館へ marks the museum destination. Evidence: 町の博物館へ行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "The bookstore",
+          "rationale": "This option is not supported by the itinerary. Recheck: 町の博物館へ行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "Yui's home",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 町の博物館へ行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 町の博物館へ行きます。 博物館へ marks the museum destination."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When do they visit the museum?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "10:00–11:30 a.m.",
+          "rationale": "Correct: から and まで give the start and end. Evidence: 十時から十一時半まで、二人で博物館を見ます。"
+        },
+        {
+          "id": "c2",
+          "text": "9:00–9:30 a.m.",
+          "rationale": "This option is not supported by the itinerary. Recheck: 十時から十一時半まで、二人で博物館を見ます。"
+        },
+        {
+          "id": "c3",
+          "text": "1:00–3:00 p.m.",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 十時から十一時半まで、二人で博物館を見ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 十時から十一時半まで、二人で博物館を見ます。 から and まで give the start and end."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where do both friends eat lunch?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At a nearby café",
+          "rationale": "Correct: カフェで marks the place of eating. Evidence: 正午に、二人は近くのカフェで昼ご飯を食べます。"
+        },
+        {
+          "id": "c2",
+          "text": "At the station",
+          "rationale": "This option is not supported by the itinerary. Recheck: 正午に、二人は近くのカフェで昼ご飯を食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "At the bookstore",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 正午に、二人は近くのカフェで昼ご飯を食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 正午に、二人は近くのカフェで昼ご飯を食べます。 カフェで marks the place of eating."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How does Aki return home?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "By bus",
+          "rationale": "Correct: バスで gives Aki's means of return. Evidence: 午後一時に、あきはバスで家に帰ります。"
+        },
+        {
+          "id": "c2",
+          "text": "By bicycle",
+          "rationale": "This option is not supported by the itinerary. Recheck: 午後一時に、あきはバスで家に帰ります。"
+        },
+        {
+          "id": "c3",
+          "text": "On foot",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 午後一時に、あきはバスで家に帰ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後一時に、あきはバスで家に帰ります。 バスで gives Aki's means of return."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who goes to the bookstore?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yui alone",
+          "rationale": "Correct: 一人で excludes Aki as a companion on this leg. Evidence: ゆいは一人で本屋へ行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "Aki alone",
+          "rationale": "This option is not supported by the itinerary. Recheck: ゆいは一人で本屋へ行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "Both together",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: ゆいは一人で本屋へ行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: ゆいは一人で本屋へ行きます。 一人で excludes Aki as a companion on this leg."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How does Yui go from the bookstore to the station?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On foot",
+          "rationale": "Correct: 歩いて行きます states walking. Evidence: 本屋から駅までは歩いて行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "By subway",
+          "rationale": "This option is not supported by the itinerary. Recheck: 本屋から駅までは歩いて行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "By taxi",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 本屋から駅までは歩いて行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 本屋から駅までは歩いて行きます。 歩いて行きます states walking."
+    },
+    {
+      "id": "ex-n5-m05-c02-l05-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which detail is NOT stated in the itinerary?",
+      "objectiveIds": [
+        "n5-m05-c02-l05-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l05-itinerary-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The train fare",
+          "rationale": "Correct: The text states return details but no ticket price. Evidence: 午後三時に、ゆいは自転車で家に帰ります。／あきはバスで家に帰ります。"
+        },
+        {
+          "id": "c2",
+          "text": "Yui's return time",
+          "rationale": "This option is not supported by the itinerary. Recheck: 午後三時に、ゆいは自転車で家に帰ります。／あきはバスで家に帰ります。"
+        },
+        {
+          "id": "c3",
+          "text": "Aki's return vehicle",
+          "rationale": "This option conflicts with or is not stated in the text. Evidence: 午後三時に、ゆいは自転車で家に帰ります。／あきはバスで家に帰ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後三時に、ゆいは自転車で家に帰ります。／あきはバスで家に帰ります。 The text states return details but no ticket price."
+    }
+  ]
+}
