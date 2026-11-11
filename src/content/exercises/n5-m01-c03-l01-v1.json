@@ -1,0 +1,484 @@
+{
+  "id": "n5-m01-c03-l01",
+  "lessonId": "n5-m01-c03-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional family photograph conversation in family-photo-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m01-c03-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "Whose family photograph is discussed?",
+      "options": [
+        "ユイ",
+        "マリ",
+        "けん"
+      ],
+      "correctIndex": 0,
+      "feedback": "Yui says 私の家族の写真です; 私 refers to Yui.",
+      "explanation": "Yui says 私の家族の写真です; 私 refers to Yui.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-01-c1",
+          "text": "ユイ",
+          "rationale": "Yui says 私の家族の写真です; 私 refers to Yui."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-01-c2",
+          "text": "マリ",
+          "rationale": "This answer is not supported by the conversation. Yui says 私の家族の写真です; 私 refers to Yui."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-01-c3",
+          "text": "けん",
+          "rationale": "This answer is not supported by the conversation. Yui says 私の家族の写真です; 私 refers to Yui."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "Who is あきこ?",
+      "options": [
+        "Yui's older brother",
+        "Yui's mother",
+        "Mari's mother"
+      ],
+      "correctIndex": 1,
+      "feedback": "Yui says 私の母です and gives the name あきこ.",
+      "explanation": "Yui says 私の母です and gives the name あきこ.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-02-c1",
+          "text": "Yui's older brother",
+          "rationale": "This answer is not supported by the conversation. Yui says 私の母です and gives the name あきこ."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-02-c2",
+          "text": "Yui's mother",
+          "rationale": "Yui says 私の母です and gives the name あきこ."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-02-c3",
+          "text": "Mari's mother",
+          "rationale": "This answer is not supported by the conversation. Yui says 私の母です and gives the name あきこ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "Who is けん?",
+      "options": [
+        "Yui's older brother",
+        "Yui's father",
+        "Mari's younger brother"
+      ],
+      "correctIndex": 0,
+      "feedback": "Yui explicitly says 私の兄です. 兄 is older brother.",
+      "explanation": "Yui explicitly says 私の兄です. 兄 is older brother.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-03-c1",
+          "text": "Yui's older brother",
+          "rationale": "Yui explicitly says 私の兄です. 兄 is older brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-03-c2",
+          "text": "Yui's father",
+          "rationale": "This answer is not supported by the conversation. Yui explicitly says 私の兄です. 兄 is older brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-03-c3",
+          "text": "Mari's younger brother",
+          "rationale": "This answer is not supported by the conversation. Yui explicitly says 私の兄です. 兄 is older brother."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "What does 私の母 mean?",
+      "options": [
+        "my mother",
+        "your mother",
+        "my older sister"
+      ],
+      "correctIndex": 0,
+      "feedback": "私の母 identifies the speaker's own mother.",
+      "explanation": "私の母 identifies the speaker's own mother.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-04-c1",
+          "text": "my mother",
+          "rationale": "私の母 identifies the speaker's own mother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-04-c2",
+          "text": "your mother",
+          "rationale": "This answer is not supported by the conversation. 私の母 identifies the speaker's own mother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-04-c3",
+          "text": "my older sister",
+          "rationale": "This answer is not supported by the conversation. 私の母 identifies the speaker's own mother."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "What does の connect in 家族の写真?",
+      "options": [
+        "a family and a photograph",
+        "a question and its answer",
+        "two cities"
+      ],
+      "correctIndex": 0,
+      "feedback": "家族の写真 means a family photograph; の links nouns.",
+      "explanation": "家族の写真 means a family photograph; の links nouns.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-05-c1",
+          "text": "a family and a photograph",
+          "rationale": "家族の写真 means a family photograph; の links nouns."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-05-c2",
+          "text": "a question and its answer",
+          "rationale": "This answer is not supported by the conversation. 家族の写真 means a family photograph; の links nouns."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-05-c3",
+          "text": "two cities",
+          "rationale": "This answer is not supported by the conversation. 家族の写真 means a family photograph; の links nouns."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "Where is Yui's mother?",
+      "options": [
+        "京都",
+        "大阪",
+        "東京"
+      ],
+      "correctIndex": 1,
+      "feedback": "母は大阪にいます directly states Osaka.",
+      "explanation": "母は大阪にいます directly states Osaka.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-06-c1",
+          "text": "京都",
+          "rationale": "This answer is not supported by the conversation. 母は大阪にいます directly states Osaka."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-06-c2",
+          "text": "大阪",
+          "rationale": "母は大阪にいます directly states Osaka."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-06-c3",
+          "text": "東京",
+          "rationale": "This answer is not supported by the conversation. 母は大阪にいます directly states Osaka."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "Where is Yui's older brother?",
+      "options": [
+        "大阪",
+        "京都",
+        "東京"
+      ],
+      "correctIndex": 1,
+      "feedback": "兄は京都にいます directly states Kyoto.",
+      "explanation": "兄は京都にいます directly states Kyoto.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-07-c1",
+          "text": "大阪",
+          "rationale": "This answer is not supported by the conversation. 兄は京都にいます directly states Kyoto."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-07-c2",
+          "text": "京都",
+          "rationale": "兄は京都にいます directly states Kyoto."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-07-c3",
+          "text": "東京",
+          "rationale": "This answer is not supported by the conversation. 兄は京都にいます directly states Kyoto."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "Which phrase politely introduces a person?",
+      "options": [
+        "こちらは私の兄です。",
+        "その人はどこですか。",
+        "これは京都です。"
+      ],
+      "correctIndex": 0,
+      "feedback": "こちらは私の兄です is a polite way to introduce one's older brother.",
+      "explanation": "こちらは私の兄です is a polite way to introduce one's older brother.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-08-c1",
+          "text": "こちらは私の兄です。",
+          "rationale": "こちらは私の兄です is a polite way to introduce one's older brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-08-c2",
+          "text": "その人はどこですか。",
+          "rationale": "This answer is not supported by the conversation. こちらは私の兄です is a polite way to introduce one's older brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-08-c3",
+          "text": "これは京都です。",
+          "rationale": "This answer is not supported by the conversation. こちらは私の兄です is a polite way to introduce one's older brother."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "Does ユイさんの写真 always mean a photo showing Yui?",
+      "options": [
+        "Yes, always",
+        "No; context can mean owned by or depicting Yui",
+        "No; it means Mari's photograph"
+      ],
+      "correctIndex": 1,
+      "feedback": "の marks a relationship; context resolves whether Yui owns or appears in the photo.",
+      "explanation": "の marks a relationship; context resolves whether Yui owns or appears in the photo.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-09-c1",
+          "text": "Yes, always",
+          "rationale": "This answer is not supported by the conversation. の marks a relationship; context resolves whether Yui owns or appears in the photo."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-09-c2",
+          "text": "No; context can mean owned by or depicting Yui",
+          "rationale": "の marks a relationship; context resolves whether Yui owns or appears in the photo."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-09-c3",
+          "text": "No; it means Mari's photograph",
+          "rationale": "This answer is not supported by the conversation. の marks a relationship; context resolves whether Yui owns or appears in the photo."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m01-c03-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "written"
+      ],
+      "objectiveIds": [
+        "n5-m01-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m01-c03-l01-family-evidence"
+      ],
+      "prompt": "What is the best evidence that Ken is older, not younger?",
+      "options": [
+        "写真",
+        "兄",
+        "名前"
+      ],
+      "correctIndex": 1,
+      "feedback": "兄（あに） specifically means older brother; 弟 means younger brother.",
+      "explanation": "兄（あに） specifically means older brother; 弟 means younger brother.",
+      "choices": [
+        {
+          "id": "ex-n5-m01-c03-l01-10-c1",
+          "text": "写真",
+          "rationale": "This answer is not supported by the conversation. 兄（あに） specifically means older brother; 弟 means younger brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-10-c2",
+          "text": "兄",
+          "rationale": "兄（あに） specifically means older brother; 弟 means younger brother."
+        },
+        {
+          "id": "ex-n5-m01-c03-l01-10-c3",
+          "text": "名前",
+          "rationale": "This answer is not supported by the conversation. 兄（あに） specifically means older brother; 弟 means younger brother."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m01-c03-l01-10-c2"
+      }
+    }
+  ]
+}

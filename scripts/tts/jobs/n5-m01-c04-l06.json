@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m01-c04-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "Original fictional personal-profile introductions; prior approved pinned voice model terms are reused. Actual recordings, hashes, playback and independent pronunciation checks pending."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.88,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.89,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Two students at orientation",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m01-c04-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "はじめまして。わたしは小林あきです。十九歳です。",
+          "english": "Nice to meet you. I am Aki Kobayashi. I am nineteen."
+        },
+        {
+          "speaker": "male",
+          "text": "はじめまして。田中けんです。小林さんは大学生ですか。",
+          "english": "Nice to meet you. I am Ken Tanaka. Are you a university student?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい、大学生です。出身は京都です。",
+          "english": "Yes, I am a university student. I am from Kyoto."
+        },
+        {
+          "speaker": "male",
+          "text": "そうですか。わたしも大学生です。出身は大阪です。",
+          "english": "I see. I am also a university student. I am from Osaka."
+        }
+      ],
+      "comprehensionPrompts": [
+        "How old is Aki?",
+        "Where is Aki from?",
+        "What do both speakers have in common?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Profiles at a community class",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m01-c04-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "佐藤さんは会社員ですか。",
+          "english": "Sato, are you a company employee?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、会社員じゃありません。高校の先生です。",
+          "english": "No, I am not a company employee. I am a high school teacher."
+        },
+        {
+          "speaker": "male",
+          "text": "そうですか。出身は東京ですか。",
+          "english": "I see. Are you from Tokyo?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、出身は名古屋です。今は東京に住んでいます。",
+          "english": "No, I am from Nagoya. I live in Tokyo now."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Is Sato a company employee?",
+        "What is Sato's occupation?",
+        "Which city is Sato from?"
+      ]
+    }
+  ]
+}
