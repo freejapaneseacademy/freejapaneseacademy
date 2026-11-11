@@ -3904,6 +3904,21 @@
       "audio": "not required for written L05",
       "noindex": false,
       "ownerApproval": "2026-11-08 standing authorization; publication gated by exact-head CI and Cloudflare verification"
+    },
+    {
+      "id": "n5-m05-c01-l08",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c01",
+      "slot": "L08",
+      "title": "Movement role-play: Where are you going and how?",
+      "content": "src/content/lessons/n5/movement-roleplay.mdx",
+      "url": "/learn/n5/module-05/chapter-01/lesson-08/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "no new audio required; optional spoken rehearsal references L06 only when verified; no recording or pronunciation assessment",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

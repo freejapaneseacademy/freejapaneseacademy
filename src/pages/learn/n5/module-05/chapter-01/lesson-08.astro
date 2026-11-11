@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/MovementRoleplayPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/movement-roleplay');
+if (!lesson || lesson.data.lessonId !== 'n5-m05-c01-l08') throw new Error('Missing canonical lesson n5-m05-c01-l08');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Going and coming',href:'/learn/n5/module-05/chapter-01/lesson-08/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 05 · Chapter 01 · Lesson 08</span></nav><span class="eyebrow">N5 · MODULE 05 · CHAPTER 01 · OPTIONAL LESSON 08</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Optional speaking and role switch</span><span>12 written checks</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Optional rehearsal.</strong> No automatic microphone access or speaking grade. Independent Japanese and assessment reviews pending. Not official JLPT material.</div><div class="lesson-intro"><h2>Learning goals</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><Practice client:load/><div class="foundation-completion"><h2>Finish this optional lesson</h2><p>You may complete or skip this optional speaking rehearsal. Quiz attempts and completion are stored locally when browser storage is available.</p><LessonActions client:load lessonId="n5-m05-c01-l08" level="n5"/></div><div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/module-05/chapter-01/lesson-07/">Previous lesson</a><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div></div><aside class="lesson-side foundation-side"><h3>Travel conversation</h3><p>Where? どこへ. How? どうやって. Means? で. Destination? に／へ. Return? 帰ります.</p><p>Switch roles and distinguish coming toward the speaker from going away.</p></aside></div></section>
+</Base>
