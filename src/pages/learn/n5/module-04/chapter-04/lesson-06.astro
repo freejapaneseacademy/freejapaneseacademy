@@ -1,0 +1,25 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import audio from '../../../../../content/audio/n5-m04-c04-l06-v1.json';
+import bank from '../../../../../content/exercises/n5-m04-c04-l06-v1.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/invitation-dialogue-listening');
+if (!lesson || lesson.data.lessonId !== 'n5-m04-c04-l06') throw new Error('Missing canonical invitation listening lesson');
+if (audio.lessonId !== lesson.data.lessonId || bank.lessonId !== lesson.data.lessonId || audio.assets.length !== 2 || bank.items.length !== 7) throw new Error('Listening package mismatch');
+const { Content } = await render(lesson);
+const tracks = audio.assets.map((a,index) => ({id: (index===0?'a':'b') as 'a'|'b',assetId:a.id,label:index===0?'Lunch after class':'A new meeting day',url:a.mediaPath,durationSeconds:a.durationSeconds,transcript:a.transcript,english:a.english}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Invitation listening',href:'/learn/n5/module-04/chapter-04/lesson-06/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 04 · CHAPTER 04 · LESSON 06</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>25 minutes</span><span>Two conversations · Seven questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+<div class="course-notice">Original academy dialogue with licensed synthetic AivisSpeech voices. Independent native pronunciation and assessment review remain pending; this is not an official JLPT test.</div>
+<div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map(o=><li>{o}</li>)}</ul></div>
+<article class="lesson-article foundation-article"><Content /></article>
+<ReusableListeningPractice client:load lessonId="n5-m04-c04-l06" level="n5" version={bank.version} tracks={tracks} questions={bank.items} />
+<div class="foundation-completion"><h2>Complete your lesson</h2><p>Completion is separate from blind listening scoring. Transcript-assisted attempts remain ungraded.</p><LessonActions client:load lessonId="n5-m04-c04-l06" level="n5" /></div>
+<div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/module-04/chapter-04/lesson-05/">Review reading</a><a class="btn btn-primary" href="/learn/n5/module-04/chapter-04/lesson-07/">Continue to writing</a></div>
+</div><aside class="lesson-side foundation-side"><h3>Listening checklist</h3><ol><li>Listen to both recordings without the transcript.</li><li>Answer seven questions from speech alone.</li><li>Submit and inspect feedback.</li><li>Reveal the transcripts and replay uncertain lines.</li></ol><p>Transcript access is always available for accessibility and switches the attempt to assisted mode.</p></aside></div></section>
+</Base>

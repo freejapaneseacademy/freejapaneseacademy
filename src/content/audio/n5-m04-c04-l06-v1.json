@@ -1,0 +1,181 @@
+{
+  "lessonId": "n5-m04-c04-l06",
+  "chapterId": "n5-m04-c04",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m04-c04-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c04-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.98,
+      "transcript": "女性： 授業のあとで、いっしょにお昼ごはんを食べませんか。\n男性： いいですね。駅の前のレストランはどうですか。\n女性： 今日はあの店は休みですよ。\n男性： そうですか。じゃあ、学校のとなりのカフェにしましょう。\n女性： はい、そこにしましょう。",
+      "english": "Woman: Would you like to have lunch together after class?\nMan: Sounds good. How about the restaurant in front of the station?\nWoman: That restaurant is closed today.\nMan: I see. Then let's go with the café next to the school.\nWoman: Yes, let's choose that place.",
+      "scriptPurpose": "Lunch after class",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c04-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "授業のあとで、いっしょにお昼ごはんを食べませんか。",
+          "english": "Would you like to have lunch together after class?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.88
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいですね。駅の前のレストランはどうですか。",
+          "english": "Sounds good. How about the restaurant in front of the station?",
+          "startSeconds": 4.16,
+          "endSeconds": 7.57
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "今日はあの店は休みですよ。",
+          "english": "That restaurant is closed today.",
+          "startSeconds": 7.85,
+          "endSeconds": 10.36
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "そうですか。じゃあ、学校のとなりのカフェにしましょう。",
+          "english": "I see. Then let's go with the café next to the school.",
+          "startSeconds": 10.64,
+          "endSeconds": 14.55
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい、そこにしましょう。",
+          "english": "Yes, let's choose that place.",
+          "startSeconds": 14.83,
+          "endSeconds": 16.98
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy automated license-policy screening (2026-11-11); no human reviewer claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "a3ba5bbd0ef1399ae1ee892cbca693417cbb766299f78852129ff202fefeb0b4",
+        "bytes": 1497592,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m04-c04-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m04-c04-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.2,
+      "transcript": "男性： 土曜日に公園で会いませんか。\n女性： すみません。土曜日はちょっと。日曜日はどうですか。\n男性： 日曜日なら大丈夫です。何時に会いましょうか。\n女性： 二時にしましょう。\n男性： わかりました。日曜日の二時ですね。",
+      "english": "Man: Would you like to meet at the park on Saturday?\nWoman: Sorry, Saturday is difficult. How about Sunday?\nMan: Sunday works for me. What time shall we meet?\nWoman: Let's make it two o'clock.\nMan: Got it. Sunday at two.",
+      "scriptPurpose": "A polite decline and a new plan",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m04-c04-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "土曜日に公園で会いませんか。",
+          "english": "Would you like to meet at the park on Saturday?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.42
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。土曜日はちょっと。日曜日はどうですか。",
+          "english": "Sorry, Saturday is difficult. How about Sunday?",
+          "startSeconds": 2.7,
+          "endSeconds": 7.11
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "日曜日なら大丈夫です。何時に会いましょうか。",
+          "english": "Sunday works for me. What time shall we meet?",
+          "startSeconds": 7.39,
+          "endSeconds": 10.95
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "二時にしましょう。",
+          "english": "Let's make it two o'clock.",
+          "startSeconds": 11.23,
+          "endSeconds": 12.87
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "わかりました。日曜日の二時ですね。",
+          "english": "Got it. Sunday at two.",
+          "startSeconds": 13.15,
+          "endSeconds": 16.2
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy automated license-policy screening (2026-11-11); no human reviewer claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "660387fbf4a2af46e0bc96b5c2b3b295cd71e6a9b280778e9cdde5039b23efdc",
+        "bytes": 1429060,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}

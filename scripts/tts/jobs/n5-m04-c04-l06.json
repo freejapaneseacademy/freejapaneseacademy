@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m04-c04-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "Academy automated license-policy screening (2026-11-11); no human reviewer claimed",
+    "licenseUrl": "https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md",
+    "notes": "ACML 1.0 permits non-deceptive educational generated audio; credit both synthetic voices; no endorsement or voice impersonation."
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Lunch after class",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m04-c04-l06-o1",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "授業のあとで、いっしょにお昼ごはんを食べませんか。",
+          "english": "Would you like to have lunch together after class?"
+        },
+        {
+          "speaker": "male",
+          "text": "いいですね。駅の前のレストランはどうですか。",
+          "english": "Sounds good. How about the restaurant in front of the station?"
+        },
+        {
+          "speaker": "female",
+          "text": "今日はあの店は休みですよ。",
+          "english": "That restaurant is closed today."
+        },
+        {
+          "speaker": "male",
+          "text": "そうですか。じゃあ、学校のとなりのカフェにしましょう。",
+          "english": "I see. Then let's go with the café next to the school."
+        },
+        {
+          "speaker": "female",
+          "text": "はい、そこにしましょう。",
+          "english": "Yes, let's choose that place."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What does the woman invite the man to do?",
+        "Why do they not choose the station restaurant?",
+        "Where do they finally decide to go?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "A polite decline and a new plan",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m04-c04-l06-o2",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "土曜日に公園で会いませんか。",
+          "english": "Would you like to meet at the park on Saturday?"
+        },
+        {
+          "speaker": "female",
+          "text": "すみません。土曜日はちょっと。日曜日はどうですか。",
+          "english": "Sorry, Saturday is difficult. How about Sunday?"
+        },
+        {
+          "speaker": "male",
+          "text": "日曜日なら大丈夫です。何時に会いましょうか。",
+          "english": "Sunday works for me. What time shall we meet?"
+        },
+        {
+          "speaker": "female",
+          "text": "二時にしましょう。",
+          "english": "Let's make it two o'clock."
+        },
+        {
+          "speaker": "male",
+          "text": "わかりました。日曜日の二時ですね。",
+          "english": "Got it. Sunday at two."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Which day is declined?",
+        "Which day do they agree on?",
+        "What time do they agree to meet?"
+      ]
+    }
+  ]
+}
