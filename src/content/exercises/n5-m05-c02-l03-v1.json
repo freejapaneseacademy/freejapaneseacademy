@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c02-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c02-l03-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Ken goes with a friend: 友だち＿＿電車で行きます。",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "と",
+          "rationale": "A companion takes と, while 電車で marks means."
+        },
+        {
+          "id": "c2",
+          "text": "で",
+          "rationale": "This choice does not match the intended meaning. A companion takes と, while 電車で marks means."
+        },
+        {
+          "id": "c3",
+          "text": "へ",
+          "rationale": "This choice does not match the intended meaning. A companion takes と, while 電車で marks means."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A companion takes と, while 電車で marks means."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Yui travels by bus: バス＿＿行きます。",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "と",
+          "rationale": "This choice does not match the intended meaning. The vehicle takes で to express means of transport."
+        },
+        {
+          "id": "c2",
+          "text": "で",
+          "rationale": "The vehicle takes で to express means of transport."
+        },
+        {
+          "id": "c3",
+          "text": "に",
+          "rationale": "This choice does not match the intended meaning. The vehicle takes で to express means of transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The vehicle takes で to express means of transport."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence means 'I go alone'?",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一人と行きます。",
+          "rationale": "This choice does not match the intended meaning. 一人で means by oneself; と implies another participant."
+        },
+        {
+          "id": "c2",
+          "text": "一人に行きます。",
+          "rationale": "This choice does not match the intended meaning. 一人で means by oneself; と implies another participant."
+        },
+        {
+          "id": "c3",
+          "text": "一人で行きます。",
+          "rationale": "一人で means by oneself; と implies another participant."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "一人で means by oneself; と implies another participant."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 友だちと電車で行きます, which phrase names the companion?",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だちと",
+          "rationale": "友だちと identifies the companion."
+        },
+        {
+          "id": "c2",
+          "text": "電車で",
+          "rationale": "This choice does not match the intended meaning. 友だちと identifies the companion."
+        },
+        {
+          "id": "c3",
+          "text": "行きます",
+          "rationale": "This choice does not match the intended meaning. 友だちと identifies the companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "友だちと identifies the companion."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 電車で mean in 電車で行きます?",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "With a train as a friend",
+          "rationale": "This choice does not match the intended meaning. 電車で identifies how the person travels."
+        },
+        {
+          "id": "c2",
+          "text": "By train",
+          "rationale": "電車で identifies how the person travels."
+        },
+        {
+          "id": "c3",
+          "text": "At the train station",
+          "rationale": "This choice does not match the intended meaning. 電車で identifies how the person travels."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "電車で identifies how the person travels."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence means 'I study at the library'?",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館に行きます。",
+          "rationale": "This choice does not match the intended meaning. 図書館で marks the place where 勉強します happens."
+        },
+        {
+          "id": "c2",
+          "text": "図書館と勉強します。",
+          "rationale": "This choice does not match the intended meaning. 図書館で marks the place where 勉強します happens."
+        },
+        {
+          "id": "c3",
+          "text": "図書館で勉強します。",
+          "rationale": "図書館で marks the place where 勉強します happens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "図書館で marks the place where 勉強します happens."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does へ mark in 美術館へ行きます?",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Direction/destination",
+          "rationale": "へ points toward a destination and is pronounced え as a particle."
+        },
+        {
+          "id": "c2",
+          "text": "Companion",
+          "rationale": "This choice does not match the intended meaning. へ points toward a destination and is pronounced え as a particle."
+        },
+        {
+          "id": "c3",
+          "text": "Means of travel",
+          "rationale": "This choice does not match the intended meaning. へ points toward a destination and is pronounced え as a particle."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "へ points toward a destination and is pronounced え as a particle."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose 'I go by taxi with my mother.'",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "母でタクシーと行きます。",
+          "rationale": "This choice does not match the intended meaning. 母と marks the companion; タクシーで marks transport."
+        },
+        {
+          "id": "c2",
+          "text": "母とタクシーで行きます。",
+          "rationale": "母と marks the companion; タクシーで marks transport."
+        },
+        {
+          "id": "c3",
+          "text": "母にタクシーへ行きます。",
+          "rationale": "This choice does not match the intended meaning. 母と marks the companion; タクシーで marks transport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "母と marks the companion; タクシーで marks transport."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which phrase means 'alone, by bus'?",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "一人とバスと",
+          "rationale": "This choice does not match the intended meaning. 一人で means alone and バスで means by bus; both can appear together."
+        },
+        {
+          "id": "c2",
+          "text": "一人にバスへ",
+          "rationale": "This choice does not match the intended meaning. 一人で means alone and バスで means by bus; both can appear together."
+        },
+        {
+          "id": "c3",
+          "text": "一人でバスで",
+          "rationale": "一人で means alone and バスで means by bus; both can appear together."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "一人で means alone and バスで means by bus; both can appear together."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the sentence for going to the museum.",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "美術館に行きます。",
+          "rationale": "A movement destination takes に; へ would also work."
+        },
+        {
+          "id": "c2",
+          "text": "美術館で行きます。",
+          "rationale": "This choice does not match the intended meaning. A movement destination takes に; へ would also work."
+        },
+        {
+          "id": "c3",
+          "text": "美術館と行きます。",
+          "rationale": "This choice does not match the intended meaning. A movement destination takes に; へ would also work."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A movement destination takes に; へ would also work."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does Ken tell Yui with 友だちと電車で行きます?",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "He goes alone by bus.",
+          "rationale": "This choice does not match the intended meaning. The sentence explicitly states both companion and means."
+        },
+        {
+          "id": "c2",
+          "text": "He goes with a friend by train.",
+          "rationale": "The sentence explicitly states both companion and means."
+        },
+        {
+          "id": "c3",
+          "text": "He studies with a friend.",
+          "rationale": "This choice does not match the intended meaning. The sentence explicitly states both companion and means."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The sentence explicitly states both companion and means."
+    },
+    {
+      "id": "ex-n5-m05-c02-l03-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Correct 歩いてで行きます to mean 'go on foot'.",
+      "objectiveIds": [
+        "n5-m05-c02-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c02-l03-means-companions"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "歩いてと行きます。",
+          "rationale": "This choice does not match the intended meaning. 歩いて already describes walking; do not add で."
+        },
+        {
+          "id": "c2",
+          "text": "歩いてに行きます。",
+          "rationale": "This choice does not match the intended meaning. 歩いて already describes walking; do not add で."
+        },
+        {
+          "id": "c3",
+          "text": "歩いて行きます。",
+          "rationale": "歩いて already describes walking; do not add で."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "歩いて already describes walking; do not add で."
+    }
+  ]
+}
