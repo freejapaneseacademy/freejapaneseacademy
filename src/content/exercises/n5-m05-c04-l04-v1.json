@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c04-l04",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c04-l04-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which kanji means station in 駅前?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "円",
+          "rationale": "Not quite. 駅前 (えきまえ) means in front of the station."
+        },
+        {
+          "id": "c2",
+          "text": "駅",
+          "rationale": "Correct. 駅前 (えきまえ) means in front of the station."
+        },
+        {
+          "id": "c3",
+          "text": "時",
+          "rationale": "Not quite. 駅前 (えきまえ) means in front of the station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "駅前 (えきまえ) means in front of the station."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word means train?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車",
+          "rationale": "Correct. 電車 (でんしゃ) means train; 車 alone is car."
+        },
+        {
+          "id": "c2",
+          "text": "駅前",
+          "rationale": "Not quite. 電車 (でんしゃ) means train; 車 alone is car."
+        },
+        {
+          "id": "c3",
+          "text": "車",
+          "rationale": "Not quite. 電車 (でんしゃ) means train; 車 alone is car."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "電車 (でんしゃ) means train; 車 alone is car."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which character marks yen after a price?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "分",
+          "rationale": "Not quite. 円 (えん) follows the fare amount."
+        },
+        {
+          "id": "c2",
+          "text": "時",
+          "rationale": "Not quite. 円 (えん) follows the fare amount."
+        },
+        {
+          "id": "c3",
+          "text": "円",
+          "rationale": "Correct. 円 (えん) follows the fare amount."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "円 (えん) follows the fare amount."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is 午前九時?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "9:00 p.m.",
+          "rationale": "Not quite. 午前九時 (ごぜん くじ) is nine in the morning."
+        },
+        {
+          "id": "c2",
+          "text": "9:00 a.m.",
+          "rationale": "Correct. 午前九時 (ごぜん くじ) is nine in the morning."
+        },
+        {
+          "id": "c3",
+          "text": "9:10 a.m.",
+          "rationale": "Not quite. 午前九時 (ごぜん くじ) is nine in the morning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "午前九時 (ごぜん くじ) is nine in the morning."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is 午後九時?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "9:00 p.m.",
+          "rationale": "Correct. 午後九時 (ごご くじ) is nine after noon."
+        },
+        {
+          "id": "c2",
+          "text": "10:00 a.m.",
+          "rationale": "Not quite. 午後九時 (ごご くじ) is nine after noon."
+        },
+        {
+          "id": "c3",
+          "text": "9:00 a.m.",
+          "rationale": "Not quite. 午後九時 (ごご くじ) is nine after noon."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "午後九時 (ごご くじ) is nine after noon."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which character marks an hour in 九時?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "円",
+          "rationale": "Not quite. 時 (じ) marks the hour."
+        },
+        {
+          "id": "c2",
+          "text": "日",
+          "rationale": "Not quite. 時 (じ) marks the hour."
+        },
+        {
+          "id": "c3",
+          "text": "時",
+          "rationale": "Correct. 時 (じ) marks the hour."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "時 (じ) marks the hour."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which character marks minutes in 十分?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "前",
+          "rationale": "Not quite. 分 (ふん/ぷん in time words) marks minutes."
+        },
+        {
+          "id": "c2",
+          "text": "分",
+          "rationale": "Correct. 分 (ふん/ぷん in time words) marks minutes."
+        },
+        {
+          "id": "c3",
+          "text": "行",
+          "rationale": "Not quite. 分 (ふん/ぷん in time words) marks minutes."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "分 (ふん/ぷん in time words) marks minutes."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How is 十分 read in 午前九時十分?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "じゅっぷん",
+          "rationale": "Correct. 十分 is read じゅっぷん in this time expression."
+        },
+        {
+          "id": "c2",
+          "text": "じゅうじ",
+          "rationale": "Not quite. 十分 is read じゅっぷん in this time expression."
+        },
+        {
+          "id": "c3",
+          "text": "ごふん",
+          "rationale": "Not quite. 十分 is read じゅっぷん in this time expression."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "十分 is read じゅっぷん in this time expression."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In the outing card, where does the group meet?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車の中",
+          "rationale": "Not quite. 集合：午前九時、駅前 states the meeting place."
+        },
+        {
+          "id": "c2",
+          "text": "市立美術館",
+          "rationale": "Not quite. 集合：午前九時、駅前 states the meeting place."
+        },
+        {
+          "id": "c3",
+          "text": "駅前",
+          "rationale": "Correct. 集合：午前九時、駅前 states the meeting place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "集合：午前九時、駅前 states the meeting place."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does the train trip depart?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午前九時",
+          "rationale": "Not quite. 出発：午前九時十分 states 9:10 a.m."
+        },
+        {
+          "id": "c2",
+          "text": "午前九時十分",
+          "rationale": "Correct. 出発：午前九時十分 states 9:10 a.m."
+        },
+        {
+          "id": "c3",
+          "text": "午前十時",
+          "rationale": "Not quite. 出発：午前九時十分 states 9:10 a.m."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "出発：午前九時十分 states 9:10 a.m."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is the one-way fare?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "三百円",
+          "rationale": "Correct. 電車の運賃：片道三百円 explicitly gives ¥300 one way."
+        },
+        {
+          "id": "c2",
+          "text": "十円",
+          "rationale": "Not quite. 電車の運賃：片道三百円 explicitly gives ¥300 one way."
+        },
+        {
+          "id": "c3",
+          "text": "二百円",
+          "rationale": "Not quite. 電車の運賃：片道三百円 explicitly gives ¥300 one way."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "電車の運賃：片道三百円 explicitly gives ¥300 one way."
+    },
+    {
+      "id": "ex-n5-m05-c04-l04-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression names the destination?",
+      "objectiveIds": [
+        "n5-m05-c04-l04-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c04-l04-travel-kanji"
+      ],
+      "skills": [
+        "reading",
+        "kanji"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "出発：午前九時十分",
+          "rationale": "Not quite. 行き先 is the destination label, followed by the municipal art museum."
+        },
+        {
+          "id": "c2",
+          "text": "集合：駅前",
+          "rationale": "Not quite. 行き先 is the destination label, followed by the municipal art museum."
+        },
+        {
+          "id": "c3",
+          "text": "行き先：市立美術館",
+          "rationale": "Correct. 行き先 is the destination label, followed by the municipal art museum."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "行き先 is the destination label, followed by the municipal art museum."
+    }
+  ]
+}
