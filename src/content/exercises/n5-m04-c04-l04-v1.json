@@ -1,0 +1,458 @@
+{
+  "id": "n5-m04-c04-l04",
+  "lessonId": "n5-m04-c04-l04",
+  "version": 1,
+  "status": "internally-checked",
+  "source": "Original meeting-note and shop-sign examples in n5-m04-c04-l04",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m04-c04-l04-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "kanji"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-01"
+      ],
+      "prompt": "What is the reading of 学校 in 学校の前?",
+      "explanation": "学校 is がっこう; the small っ is part of its standard reading.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-01-c1",
+          "text": "がっこう",
+          "rationale": "Correct. 学校 is がっこう; the small っ is part of its standard reading."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-01-c2",
+          "text": "がくこう",
+          "rationale": "Not quite. 学校 is がっこう; the small っ is part of its standard reading."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-01-c3",
+          "text": "がっこ",
+          "rationale": "Not quite. 学校 is がっこう; the small っ is part of its standard reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "kanji"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-02"
+      ],
+      "prompt": "Which word means 'shop' and is read みせ?",
+      "explanation": "The standalone noun 店 is read みせ in this scene.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-02-c1",
+          "text": "前",
+          "rationale": "Not quite. The standalone noun 店 is read みせ in this scene."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-02-c2",
+          "text": "店",
+          "rationale": "Correct. The standalone noun 店 is read みせ in this scene."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-02-c3",
+          "text": "時",
+          "rationale": "Not quite. The standalone noun 店 is read みせ in this scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "kanji"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-03"
+      ],
+      "prompt": "What is the reading of 前 in 店の前?",
+      "explanation": "前 is read まえ when it means in front of a place.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-03-c1",
+          "text": "ぜん",
+          "rationale": "Not quite. 前 is read まえ when it means in front of a place."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-03-c2",
+          "text": "とき",
+          "rationale": "Not quite. 前 is read まえ when it means in front of a place."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-03-c3",
+          "text": "まえ",
+          "rationale": "Correct. 前 is read まえ when it means in front of a place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "kanji"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-04"
+      ],
+      "prompt": "How do you read 三時?",
+      "explanation": "The time suffix 時 is read じ here; 三時 is さんじ.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-04-c1",
+          "text": "さんじ",
+          "rationale": "Correct. The time suffix 時 is read じ here; 三時 is さんじ."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-04-c2",
+          "text": "さんとき",
+          "rationale": "Not quite. The time suffix 時 is read じ here; 三時 is さんじ."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-04-c3",
+          "text": "みじ",
+          "rationale": "Not quite. The time suffix 時 is read じ here; 三時 is さんじ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "kanji"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-05"
+      ],
+      "prompt": "Which reading matches 会います?",
+      "explanation": "会います is あいます, the polite form meaning meet.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-05-c1",
+          "text": "かいます",
+          "rationale": "Not quite. 会います is あいます, the polite form meaning meet."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-05-c2",
+          "text": "あいます",
+          "rationale": "Correct. 会います is あいます, the polite form meaning meet."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-05-c3",
+          "text": "あえます",
+          "rationale": "Not quite. 会います is あいます, the polite form meaning meet."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-06"
+      ],
+      "prompt": "What does 学校の前 mean?",
+      "explanation": "学校の前 combines school + の + front; it specifies a location.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-06-c1",
+          "text": "inside the shop",
+          "rationale": "Not quite. 学校の前 combines school + の + front; it specifies a location."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-06-c2",
+          "text": "after school ends",
+          "rationale": "Not quite. 学校の前 combines school + の + front; it specifies a location."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-06-c3",
+          "text": "in front of the school",
+          "rationale": "Correct. 学校の前 combines school + の + front; it specifies a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-07"
+      ],
+      "prompt": "In 二時に会いましょう, when will people meet?",
+      "explanation": "二時（にじ） is two o'clock; に marks the meeting time.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-07-c1",
+          "text": "at two o'clock",
+          "rationale": "Correct. 二時（にじ） is two o'clock; に marks the meeting time."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-07-c2",
+          "text": "at twelve o'clock",
+          "rationale": "Not quite. 二時（にじ） is two o'clock; に marks the meeting time."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-07-c3",
+          "text": "at three o'clock",
+          "rationale": "Not quite. 二時（にじ） is two o'clock; に marks the meeting time."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-08"
+      ],
+      "prompt": "In 学校の前で会いましょう, where is the meeting?",
+      "explanation": "学校の前 is the meeting place, and で marks where the action happens.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-08-c1",
+          "text": "inside the classroom",
+          "rationale": "Not quite. 学校の前 is the meeting place, and で marks where the action happens."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-08-c2",
+          "text": "in front of the school",
+          "rationale": "Correct. 学校の前 is the meeting place, and で marks where the action happens."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-08-c3",
+          "text": "at the shop",
+          "rationale": "Not quite. 学校の前 is the meeting place, and で marks where the action happens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-09"
+      ],
+      "prompt": "What does 土曜日に会いませんか ask?",
+      "explanation": "会いませんか is an invitation, and 土曜日 is Saturday.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-09-c1",
+          "text": "We met on Sunday.",
+          "rationale": "Not quite. 会いませんか is an invitation, and 土曜日 is Saturday."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-09-c2",
+          "text": "I will choose Saturday.",
+          "rationale": "Not quite. 会いませんか is an invitation, and 土曜日 is Saturday."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-09-c3",
+          "text": "Would you like to meet on Saturday?",
+          "rationale": "Correct. 会いませんか is an invitation, and 土曜日 is Saturday."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-10"
+      ],
+      "prompt": "In the mini-message, what happens AFTER meeting at the school?",
+      "explanation": "そのあと、店に行きましょう places the shop visit after the school meeting.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-10-c1",
+          "text": "They go to a shop.",
+          "rationale": "Correct. そのあと、店に行きましょう places the shop visit after the school meeting."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-10-c2",
+          "text": "They meet at the shop first.",
+          "rationale": "Not quite. そのあと、店に行きましょう places the shop visit after the school meeting."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-10-c3",
+          "text": "They go to the station.",
+          "rationale": "Not quite. そのあと、店に行きましょう places the shop visit after the school meeting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-11"
+      ],
+      "prompt": "Which sentence says 'I'll choose this shop'?",
+      "explanation": "Noun + にします expresses a choice; で会います describes meeting.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-11-c1",
+          "text": "この店で会います。",
+          "rationale": "Not quite. Noun + にします expresses a choice; で会います describes meeting."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-11-c2",
+          "text": "この店にします。",
+          "rationale": "Correct. Noun + にします expresses a choice; で会います describes meeting."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-11-c3",
+          "text": "この店に行きませんか。",
+          "rationale": "Not quite. Noun + にします expresses a choice; で会います describes meeting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m04-c04-l04-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "skills": [
+        "kanji"
+      ],
+      "objectiveIds": [
+        "n5-m04-c04-l04-kanji-meeting"
+      ],
+      "knowledgeItemIds": [
+        "n5-m04-c04-l04-word-12"
+      ],
+      "prompt": "Which is the correct reading of 学校の前で会います?",
+      "explanation": "学校=がっこう, 前=まえ, 会います=あいます.",
+      "choices": [
+        {
+          "id": "ex-n5-m04-c04-l04-12-c1",
+          "text": "がくこうのぜんでかいます",
+          "rationale": "Not quite. 学校=がっこう, 前=まえ, 会います=あいます."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-12-c2",
+          "text": "がっこうのときであいます",
+          "rationale": "Not quite. 学校=がっこう, 前=まえ, 会います=あいます."
+        },
+        {
+          "id": "ex-n5-m04-c04-l04-12-c3",
+          "text": "がっこうのまえであいます",
+          "rationale": "Correct. 学校=がっこう, 前=まえ, 会います=あいます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m04-c04-l04-12-c3"
+      }
+    }
+  ]
+}
