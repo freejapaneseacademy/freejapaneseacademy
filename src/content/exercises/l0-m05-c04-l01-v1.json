@@ -1,0 +1,376 @@
+{
+  "lessonId": "l0-m05-c04-l01",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-l0-m05-c04-l01-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Why are Mio and Ken reading the diary?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k1"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "To plan tomorrow's review",
+          "rationale": "They are preparing a targeted review before the next class."
+        },
+        {
+          "id": "b",
+          "text": "To order coffee",
+          "rationale": "Not supported by the lesson. They are preparing a targeted review before the next class."
+        },
+        {
+          "id": "c",
+          "text": "To register for school",
+          "rationale": "Not supported by the lesson. They are preparing a targeted review before the next class."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "They are preparing a targeted review before the next class."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which heading means 'I made a mistake'?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k2"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "よめた",
+          "rationale": "Not supported by the lesson. まちがえた records an error."
+        },
+        {
+          "id": "b",
+          "text": "あした",
+          "rationale": "Not supported by the lesson. まちがえた records an error."
+        },
+        {
+          "id": "c",
+          "text": "まちがえた",
+          "rationale": "まちがえた records an error."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "まちがえた records an error."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which word did Mio read correctly?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k3"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "コーヒー",
+          "rationale": "Not supported by the lesson. Mio writes 「さくら」は よめました."
+        },
+        {
+          "id": "b",
+          "text": "さくら",
+          "rationale": "Mio writes 「さくら」は よめました."
+        },
+        {
+          "id": "c",
+          "text": "きって",
+          "rationale": "Not supported by the lesson. Mio writes 「さくら」は よめました."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "Mio writes 「さくら」は よめました."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What did Mio read きって as?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o1"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k4"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "きて",
+          "rationale": "The diary explicitly says she read きって as きて."
+        },
+        {
+          "id": "b",
+          "text": "きっと",
+          "rationale": "Not supported by the lesson. The diary explicitly says she read きって as きて."
+        },
+        {
+          "id": "c",
+          "text": "きっで",
+          "rationale": "Not supported by the lesson. The diary explicitly says she read きって as きて."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The diary explicitly says she read きって as きて."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does small っ indicate?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k5"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "A long vowel",
+          "rationale": "Not supported by the lesson. Small っ indicates a held consonant before て."
+        },
+        {
+          "id": "b",
+          "text": "A question",
+          "rationale": "Not supported by the lesson. Small っ indicates a held consonant before て."
+        },
+        {
+          "id": "c",
+          "text": "Held consonant timing",
+          "rationale": "Small っ indicates a held consonant before て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Small っ indicates a held consonant before て."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which mark belongs in コーヒー?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k6"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "ゃ",
+          "rationale": "Not supported by the lesson. コーヒー includes long-vowel marks."
+        },
+        {
+          "id": "b",
+          "text": "ー",
+          "rationale": "コーヒー includes long-vowel marks."
+        },
+        {
+          "id": "c",
+          "text": "っ",
+          "rationale": "Not supported by the lesson. コーヒー includes long-vowel marks."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "コーヒー includes long-vowel marks."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What will Mio practise tomorrow?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o2"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k7"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Small っ",
+          "rationale": "The last diary line identifies small っ."
+        },
+        {
+          "id": "b",
+          "text": "The number 100",
+          "rationale": "Not supported by the lesson. The last diary line identifies small っ."
+        },
+        {
+          "id": "c",
+          "text": "Formal letters",
+          "rationale": "Not supported by the lesson. The last diary line identifies small っ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The last diary line identifies small っ."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which plan tests kana recall?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k8"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Read only English",
+          "rationale": "Not supported by the lesson. Unaided reading and correction test decoding."
+        },
+        {
+          "id": "b",
+          "text": "Copy without checking",
+          "rationale": "Not supported by the lesson. Unaided reading and correction test decoding."
+        },
+        {
+          "id": "c",
+          "text": "Read without romaji and retry missed cards",
+          "rationale": "Unaided reading and correction test decoding."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c"
+      },
+      "explanation": "Unaided reading and correction test decoding."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does reading さくら correctly prove?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k9"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Katakana is impossible",
+          "rationale": "Not supported by the lesson. One successful word is limited evidence."
+        },
+        {
+          "id": "b",
+          "text": "That specific word was read",
+          "rationale": "One successful word is limited evidence."
+        },
+        {
+          "id": "c",
+          "text": "All kana are mastered",
+          "rationale": "Not supported by the lesson. One successful word is limited evidence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "b"
+      },
+      "explanation": "One successful word is limited evidence."
+    },
+    {
+      "id": "ex-l0-m05-c04-l01-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What changes in おばあさん versus おばさん?",
+      "objectiveIds": [
+        "l0-m05-c04-l01-o3"
+      ],
+      "knowledgeItemIds": [
+        "l0-m05-c04-l01-k10"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "An extra あ",
+          "rationale": "The extra あ lengthens the vowel."
+        },
+        {
+          "id": "b",
+          "text": "A small っ",
+          "rationale": "Not supported by the lesson. The extra あ lengthens the vowel."
+        },
+        {
+          "id": "c",
+          "text": "A katakana ー",
+          "rationale": "Not supported by the lesson. The extra あ lengthens the vowel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "a"
+      },
+      "explanation": "The extra あ lengthens the vowel."
+    }
+  ]
+}

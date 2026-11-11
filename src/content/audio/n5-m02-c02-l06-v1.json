@@ -1,0 +1,165 @@
+{
+  "lessonId": "n5-m02-c02-l06",
+  "chapterId": "n5-m02-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m02-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m02-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 12.9,
+      "transcript": "女性： すみません。図書館はどこですか。\n男性： 図書館は二階にあります。\n女性： 食堂も二階ですか。\n男性： いいえ、食堂は一階です。入口の近くです。",
+      "english": "Woman: Excuse me. Where is the library?\nMan: The library is on the second floor.\nWoman: Is the cafeteria also on the second floor?\nMan: No, the cafeteria is on the first floor, near the entrance.",
+      "scriptPurpose": "Finding the library and cafeteria",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m02-c02-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "すみません。図書館はどこですか。",
+          "english": "Excuse me. Where is the library?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.25
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "図書館は二階にあります。",
+          "english": "The library is on the second floor.",
+          "startSeconds": 3.53,
+          "endSeconds": 5.82
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "食堂も二階ですか。",
+          "english": "Is the cafeteria also on the second floor?",
+          "startSeconds": 6.1,
+          "endSeconds": 8.42
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいえ、食堂は一階です。入口の近くです。",
+          "english": "No, the cafeteria is on the first floor, near the entrance.",
+          "startSeconds": 8.7,
+          "endSeconds": 12.9
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "255235552e93f900eca871ed93abfe2bd0fd5a9be04271860cc93045d7256401",
+        "bytes": 1137826,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m02-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m02-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 12.11,
+      "transcript": "男性： すみません。トイレはどこですか。\n女性： トイレはあそこです。階段の右です。\n男性： ありがとうございます。受付はどこですか。\n女性： 受付はここです。",
+      "english": "Man: Excuse me. Where is the restroom?\nWoman: The restroom is over there, to the right of the stairs.\nMan: Thank you. Where is reception?\nWoman: Reception is here.",
+      "scriptPurpose": "Finding the restroom and reception",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m02-c02-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "すみません。トイレはどこですか。",
+          "english": "Excuse me. Where is the restroom?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.72
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "トイレはあそこです。階段の右です。",
+          "english": "The restroom is over there, to the right of the stairs.",
+          "startSeconds": 3.0,
+          "endSeconds": 6.4
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ありがとうございます。受付はどこですか。",
+          "english": "Thank you. Where is reception?",
+          "startSeconds": 6.68,
+          "endSeconds": 9.89
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "受付はここです。",
+          "english": "Reception is here.",
+          "startSeconds": 10.17,
+          "endSeconds": 12.11
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "0e3c49b6d7c158357a17f8eea12e02795c501eafad3397d51650372865ca8e71",
+        "bytes": 1068546,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
