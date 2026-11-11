@@ -1,0 +1,620 @@
+{
+  "id": "n5-m02-c02-chk",
+  "lessonId": "n5-m02-c02-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original Sakura School two-floor map (N5-M02-C02-L05) and two original chapter direction recordings (N5-M02-C02-L06); listening requires playable audio",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m02-c02-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-grammar-01"
+      ],
+      "prompt": "At the information desk, the staff member points to the floor under their feet. Which word means 'here'?",
+      "evidence": "受付はここです。",
+      "explanation": "ここ refers to the speaker's location.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-01-c1",
+          "text": "そこ",
+          "rationale": "Not supported. ここ refers to the speaker's location."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-01-c2",
+          "text": "どこ",
+          "rationale": "Not supported. ここ refers to the speaker's location."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-01-c3",
+          "text": "あそこ",
+          "rationale": "Not supported. ここ refers to the speaker's location."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-01-c4",
+          "text": "ここ",
+          "rationale": "Correct. ここ refers to the speaker's location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-01-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-grammar-02"
+      ],
+      "prompt": "The restroom is away from both people. Which word fits 'The restroom is over there'?",
+      "evidence": "トイレはあそこです。",
+      "explanation": "あそこ refers to a place away from both speakers.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-02-c1",
+          "text": "どこ",
+          "rationale": "Not supported. あそこ refers to a place away from both speakers."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-02-c2",
+          "text": "あそこ",
+          "rationale": "Correct. あそこ refers to a place away from both speakers."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-02-c3",
+          "text": "そこ",
+          "rationale": "Not supported. あそこ refers to a place away from both speakers."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-02-c4",
+          "text": "ここ",
+          "rationale": "Not supported. あそこ refers to a place away from both speakers."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-grammar-03"
+      ],
+      "prompt": "Which question politely asks where the office is?",
+      "evidence": "事務室はどこですか。",
+      "explanation": "どこですか asks for a location.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-03-c1",
+          "text": "事務室にどこですか。",
+          "rationale": "Not supported. どこですか asks for a location."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-03-c2",
+          "text": "事務室はここですか。",
+          "rationale": "Not supported. どこですか asks for a location."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-03-c3",
+          "text": "事務室はどこですか。",
+          "rationale": "Correct. どこですか asks for a location."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-03-c4",
+          "text": "事務室はだれですか。",
+          "rationale": "Not supported. どこですか asks for a location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-grammar-04"
+      ],
+      "prompt": "Which sentence says 'The library is on the second floor' using あります?",
+      "evidence": "図書館は二階にあります。",
+      "explanation": "に marks the location with あります.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-04-c1",
+          "text": "図書館は二階にあります。",
+          "rationale": "Correct. に marks the location with あります."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-04-c2",
+          "text": "図書館は二階をあります。",
+          "rationale": "Not supported. に marks the location with あります."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-04-c3",
+          "text": "図書館は二階があります。",
+          "rationale": "Not supported. に marks the location with あります."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-04-c4",
+          "text": "図書館は二階のあります。",
+          "rationale": "Not supported. に marks the location with あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-grammar-05"
+      ],
+      "prompt": "Which natural answer to '受付はどこですか' means 'It is here'?",
+      "evidence": "受付はここです。",
+      "explanation": "ここです answers the location question with a noun-like location word.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-05-c1",
+          "text": "どこです。",
+          "rationale": "Not supported. ここです answers the location question with a noun-like location word."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-05-c2",
+          "text": "ここをです。",
+          "rationale": "Not supported. ここです answers the location question with a noun-like location word."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-05-c3",
+          "text": "ここにです。",
+          "rationale": "Not supported. ここです answers the location question with a noun-like location word."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-05-c4",
+          "text": "ここです。",
+          "rationale": "Correct. ここです answers the location question with a noun-like location word."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-05-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-grammar-06"
+      ],
+      "prompt": "Which sentence says the office is on the first floor's east side?",
+      "evidence": "事務室は一階の東です。",
+      "explanation": "一階の東 links floor and side with の before です.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-06-c1",
+          "text": "事務室は一階の西です。",
+          "rationale": "Not supported. 一階の東 links floor and side with の before です."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-06-c2",
+          "text": "事務室は一階の東です。",
+          "rationale": "Correct. 一階の東 links floor and side with の before です."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-06-c3",
+          "text": "事務室は一階に東です。",
+          "rationale": "Not supported. 一階の東 links floor and side with の before です."
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-06-c4",
+          "text": "事務室は二階の東です。",
+          "rationale": "Not supported. 一階の東 links floor and side with の before です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-reading-07"
+      ],
+      "prompt": "In the Sakura School map, where is 図書室?",
+      "evidence": "図書室は 二階の 西です。",
+      "explanation": "The original Sakura School guide says: 図書室は 二階の 西です。",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-07-c1",
+          "text": "First floor, east",
+          "rationale": "Not supported. Read the map evidence: 図書室は 二階の 西です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-07-c2",
+          "text": "Second floor, east",
+          "rationale": "Not supported. Read the map evidence: 図書室は 二階の 西です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-07-c3",
+          "text": "Second floor, west",
+          "rationale": "Correct. The map states: 図書室は 二階の 西です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-07-c4",
+          "text": "First floor, west",
+          "rationale": "Not supported. Read the map evidence: 図書室は 二階の 西です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-reading-08"
+      ],
+      "prompt": "Where is the school's 事務室?",
+      "evidence": "事務室は 一階の 東です。",
+      "explanation": "The original Sakura School guide says: 事務室は 一階の 東です。",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-08-c1",
+          "text": "First floor, east",
+          "rationale": "Correct. The map states: 事務室は 一階の 東です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-08-c2",
+          "text": "Second floor, east",
+          "rationale": "Not supported. Read the map evidence: 事務室は 一階の 東です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-08-c3",
+          "text": "First floor, west",
+          "rationale": "Not supported. Read the map evidence: 事務室は 一階の 東です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-08-c4",
+          "text": "Second floor, west",
+          "rationale": "Not supported. Read the map evidence: 事務室は 一階の 東です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-reading-09"
+      ],
+      "prompt": "Which facility is on the first-floor west side?",
+      "evidence": "保健室は 一階の 西です。",
+      "explanation": "The original Sakura School guide says: 保健室は 一階の 西です。",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-09-c1",
+          "text": "Library room",
+          "rationale": "Not supported. Read the map evidence: 保健室は 一階の 西です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-09-c2",
+          "text": "Office",
+          "rationale": "Not supported. Read the map evidence: 保健室は 一階の 西です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-09-c3",
+          "text": "Classroom",
+          "rationale": "Not supported. Read the map evidence: 保健室は 一階の 西です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-09-c4",
+          "text": "Health room",
+          "rationale": "Correct. The map states: 保健室は 一階の 西です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-09-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-reading-10"
+      ],
+      "prompt": "What floor is the entrance on?",
+      "evidence": "入口は 一階の 中央です。",
+      "explanation": "The original Sakura School guide says: 入口は 一階の 中央です。",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-10-c1",
+          "text": "Third floor",
+          "rationale": "Not supported. Read the map evidence: 入口は 一階の 中央です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-10-c2",
+          "text": "First floor",
+          "rationale": "Correct. The map states: 入口は 一階の 中央です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-10-c3",
+          "text": "Not shown",
+          "rationale": "Not supported. Read the map evidence: 入口は 一階の 中央です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-10-c4",
+          "text": "Second floor",
+          "rationale": "Not supported. Read the map evidence: 入口は 一階の 中央です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-10-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-listening-11"
+      ],
+      "prompt": "Track A: which floor is the library on?",
+      "evidence": "図書館は二階にあります。",
+      "explanation": "The chapter recording says: 図書館は二階にあります。",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-11-c1",
+          "text": "Not stated",
+          "rationale": "Not supported. Listen for: 図書館は二階にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-11-c2",
+          "text": "First floor",
+          "rationale": "Not supported. Listen for: 図書館は二階にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-11-c3",
+          "text": "Second floor",
+          "rationale": "Correct. The recording states: 図書館は二階にあります。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-11-c4",
+          "text": "Third floor",
+          "rationale": "Not supported. Listen for: 図書館は二階にあります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-11-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-listening-12"
+      ],
+      "prompt": "Track A: where is the cafeteria?",
+      "evidence": "いいえ、食堂は一階です。入口の近くです。",
+      "explanation": "The chapter recording says: いいえ、食堂は一階です。入口の近くです。",
+      "trackId": "a",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-12-c1",
+          "text": "First floor near the entrance",
+          "rationale": "Correct. The recording states: いいえ、食堂は一階です。入口の近くです。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-12-c2",
+          "text": "First floor beside the stairs",
+          "rationale": "Not supported. Listen for: いいえ、食堂は一階です。入口の近くです。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-12-c3",
+          "text": "Second floor beside the library",
+          "rationale": "Not supported. Listen for: いいえ、食堂は一階です。入口の近くです。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-12-c4",
+          "text": "Second floor near reception",
+          "rationale": "Not supported. Listen for: いいえ、食堂は一階です。入口の近くです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-12-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-listening-13"
+      ],
+      "prompt": "Track B: where is the restroom relative to the stairs?",
+      "evidence": "トイレはあそこです。階段の右です。",
+      "explanation": "The chapter recording says: トイレはあそこです。階段の右です。",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-13-c1",
+          "text": "To the left",
+          "rationale": "Not supported. Listen for: トイレはあそこです。階段の右です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-13-c2",
+          "text": "Behind reception",
+          "rationale": "Not supported. Listen for: トイレはあそこです。階段の右です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-13-c3",
+          "text": "Upstairs",
+          "rationale": "Not supported. Listen for: トイレはあそこです。階段の右です。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-13-c4",
+          "text": "To the right",
+          "rationale": "Correct. The recording states: トイレはあそこです。階段の右です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-13-c4"
+      }
+    },
+    {
+      "id": "ex-n5-m02-c02-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m02-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-chk-listening-14"
+      ],
+      "prompt": "Track B: where is reception from the staff member's viewpoint?",
+      "evidence": "受付はここです。",
+      "explanation": "The chapter recording says: 受付はここです。",
+      "trackId": "b",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c02-chk-14-c1",
+          "text": "On the second floor",
+          "rationale": "Not supported. Listen for: 受付はここです。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-14-c2",
+          "text": "Here",
+          "rationale": "Correct. The recording states: 受付はここです。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-14-c3",
+          "text": "Next to the entrance",
+          "rationale": "Not supported. Listen for: 受付はここです。"
+        },
+        {
+          "id": "ex-n5-m02-c02-chk-14-c4",
+          "text": "Over there",
+          "rationale": "Not supported. Listen for: 受付はここです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c02-chk-14-c2"
+      }
+    }
+  ]
+}

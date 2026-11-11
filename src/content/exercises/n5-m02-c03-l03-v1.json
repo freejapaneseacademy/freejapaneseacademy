@@ -1,0 +1,522 @@
+{
+  "lessonId": "n5-m02-c03-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l03-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-1"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A dictionary is in the classroom. Choose the natural existence sentence.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "きょうしつに じしょが あります。",
+          "rationale": "じしょ is an inanimate object, so use あります; に marks the classroom and が marks the dictionary."
+        },
+        {
+          "id": "c2",
+          "text": "きょうしつに じしょが います。",
+          "rationale": "This option does not match the stated person, object, location or existence form. じしょ is an inanimate object, so use あります; に marks the classroom and が marks the dictionary."
+        },
+        {
+          "id": "c3",
+          "text": "きょうしつが じしょに あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. じしょ is an inanimate object, so use あります; に marks the classroom and が marks the dictionary."
+        },
+        {
+          "id": "c4",
+          "text": "きょうしつを じしょが あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. じしょ is an inanimate object, so use あります; に marks the classroom and が marks the dictionary."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "じしょ is an inanimate object, so use あります; に marks the classroom and が marks the dictionary."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-2"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A teacher is in the classroom. Choose the natural sentence.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "きょうしつに せんせいが あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A teacher is a person: います. The location takes に and the person takes が."
+        },
+        {
+          "id": "c2",
+          "text": "きょうしつが せんせいに います。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A teacher is a person: います. The location takes に and the person takes が."
+        },
+        {
+          "id": "c3",
+          "text": "きょうしつを せんせいが います。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A teacher is a person: います. The location takes に and the person takes が."
+        },
+        {
+          "id": "c4",
+          "text": "きょうしつに せんせいが います。",
+          "rationale": "A teacher is a person: います. The location takes に and the person takes が."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "A teacher is a person: います. The location takes に and the person takes が."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-3"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A cat is in the garden. Which sentence states that fact?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "にわが ねこに います。",
+          "rationale": "This option does not match the stated person, object, location or existence form. Living animals normally take います in this existence pattern."
+        },
+        {
+          "id": "c2",
+          "text": "にわを ねこが います。",
+          "rationale": "This option does not match the stated person, object, location or existence form. Living animals normally take います in this existence pattern."
+        },
+        {
+          "id": "c3",
+          "text": "にわに ねこが います。",
+          "rationale": "Living animals normally take います in this existence pattern."
+        },
+        {
+          "id": "c4",
+          "text": "にわに ねこが あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. Living animals normally take います in this existence pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Living animals normally take います in this existence pattern."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-4"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "A bag is in the room. Choose the correct particle pair.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "へやに かばんを あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. In [place] に [thing] が あります, に identifies where and が identifies what exists."
+        },
+        {
+          "id": "c2",
+          "text": "へやに かばんが あります。",
+          "rationale": "In [place] に [thing] が あります, に identifies where and が identifies what exists."
+        },
+        {
+          "id": "c3",
+          "text": "へやが かばんに あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. In [place] に [thing] が あります, に identifies where and が identifies what exists."
+        },
+        {
+          "id": "c4",
+          "text": "へやを かばんが あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. In [place] に [thing] が あります, に identifies where and が identifies what exists."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "In [place] に [thing] が あります, に identifies where and が identifies what exists."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-5"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "You are looking for a key. Which question asks whether there is a key in the room?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "へやに かぎが ありますか。",
+          "rationale": "A key is not alive; ありますか asks whether it is present."
+        },
+        {
+          "id": "c2",
+          "text": "へやに かぎが いますか。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A key is not alive; ありますか asks whether it is present."
+        },
+        {
+          "id": "c3",
+          "text": "へやを かぎが ありますか。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A key is not alive; ありますか asks whether it is present."
+        },
+        {
+          "id": "c4",
+          "text": "へやに かぎを ありますか。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A key is not alive; ありますか asks whether it is present."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "A key is not alive; ありますか asks whether it is present."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-6"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "prompt": "You are looking for a friend. Which question asks whether your friend is in the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "としょかんに ともだちが ありますか。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A friend is a person, so いますか asks about presence in the library."
+        },
+        {
+          "id": "c2",
+          "text": "としょかんが ともだちに いますか。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A friend is a person, so いますか asks about presence in the library."
+        },
+        {
+          "id": "c3",
+          "text": "としょかんを ともだちが いますか。",
+          "rationale": "This option does not match the stated person, object, location or existence form. A friend is a person, so いますか asks about presence in the library."
+        },
+        {
+          "id": "c4",
+          "text": "としょかんに ともだちが いますか。",
+          "rationale": "A friend is a person, so いますか asks about presence in the library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "A friend is a person, so いますか asks about presence in the library."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-7"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: へやに つくえが あります。 What is in the room?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A cat.",
+          "rationale": "This option does not match the stated person, object, location or existence form. つくえ is a desk, and あります says the desk exists in the room."
+        },
+        {
+          "id": "c2",
+          "text": "A friend.",
+          "rationale": "This option does not match the stated person, object, location or existence form. つくえ is a desk, and あります says the desk exists in the room."
+        },
+        {
+          "id": "c3",
+          "text": "A desk.",
+          "rationale": "つくえ is a desk, and あります says the desk exists in the room."
+        },
+        {
+          "id": "c4",
+          "text": "A teacher.",
+          "rationale": "This option does not match the stated person, object, location or existence form. つくえ is a desk, and あります says the desk exists in the room."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "つくえ is a desk, and あります says the desk exists in the room."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-8"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: にわに いぬが います。 Where is the dog?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "In the classroom.",
+          "rationale": "This option does not match the stated person, object, location or existence form. にわに marks the garden as the dog's location."
+        },
+        {
+          "id": "c2",
+          "text": "In the garden.",
+          "rationale": "にわに marks the garden as the dog's location."
+        },
+        {
+          "id": "c3",
+          "text": "In the library.",
+          "rationale": "This option does not match the stated person, object, location or existence form. にわに marks the garden as the dog's location."
+        },
+        {
+          "id": "c4",
+          "text": "At the station.",
+          "rationale": "This option does not match the stated person, object, location or existence form. にわに marks the garden as the dog's location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "にわに marks the garden as the dog's location."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-9"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: としょかんに せんせいが います。 Who is in the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A teacher.",
+          "rationale": "せんせいが names the teacher as the person present."
+        },
+        {
+          "id": "c2",
+          "text": "A student.",
+          "rationale": "This option does not match the stated person, object, location or existence form. せんせいが names the teacher as the person present."
+        },
+        {
+          "id": "c3",
+          "text": "A friend.",
+          "rationale": "This option does not match the stated person, object, location or existence form. せんせいが names the teacher as the person present."
+        },
+        {
+          "id": "c4",
+          "text": "A child.",
+          "rationale": "This option does not match the stated person, object, location or existence form. せんせいが names the teacher as the person present."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "せんせいが names the teacher as the person present."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-10"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Read: きょうしつに ほんが あります。 Which Japanese phrase identifies the thing present?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "きょうしつに",
+          "rationale": "This option does not match the stated person, object, location or existence form. ほんが identifies the book as what exists; きょうしつに identifies the place."
+        },
+        {
+          "id": "c2",
+          "text": "あります",
+          "rationale": "This option does not match the stated person, object, location or existence form. ほんが identifies the book as what exists; きょうしつに identifies the place."
+        },
+        {
+          "id": "c3",
+          "text": "きょうしつが",
+          "rationale": "This option does not match the stated person, object, location or existence form. ほんが identifies the book as what exists; きょうしつに identifies the place."
+        },
+        {
+          "id": "c4",
+          "text": "ほんが",
+          "rationale": "ほんが identifies the book as what exists; きょうしつに identifies the place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "ほんが identifies the book as what exists; きょうしつに identifies the place."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-11"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Which is a natural response to へやに ねこが いますか。 when a cat is present?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いいえ、います。",
+          "rationale": "This option does not match the stated person, object, location or existence form. The question uses います for a cat; はい、います confirms its presence."
+        },
+        {
+          "id": "c2",
+          "text": "はい、です。",
+          "rationale": "This option does not match the stated person, object, location or existence form. The question uses います for a cat; はい、います confirms its presence."
+        },
+        {
+          "id": "c3",
+          "text": "はい、います。",
+          "rationale": "The question uses います for a cat; はい、います confirms its presence."
+        },
+        {
+          "id": "c4",
+          "text": "はい、あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. The question uses います for a cat; はい、います confirms its presence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "The question uses います for a cat; はい、います confirms its presence."
+    },
+    {
+      "id": "ex-n5-m02-c03-l03-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c03-l03-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l03-pattern-12"
+      ],
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "prompt": "Which is a natural response to つくえの うえに じしょが ありますか。 when there is no dictionary?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "はい、います。",
+          "rationale": "This option does not match the stated person, object, location or existence form. The negative of あります is ありません; じしょ is an inanimate dictionary."
+        },
+        {
+          "id": "c2",
+          "text": "いいえ、ありません。",
+          "rationale": "The negative of あります is ありません; じしょ is an inanimate dictionary."
+        },
+        {
+          "id": "c3",
+          "text": "はい、あります。",
+          "rationale": "This option does not match the stated person, object, location or existence form. The negative of あります is ありません; じしょ is an inanimate dictionary."
+        },
+        {
+          "id": "c4",
+          "text": "いいえ、いません。",
+          "rationale": "This option does not match the stated person, object, location or existence form. The negative of あります is ありません; じしょ is an inanimate dictionary."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "The negative of あります is ありません; じしょ is an inanimate dictionary."
+    }
+  ]
+}
