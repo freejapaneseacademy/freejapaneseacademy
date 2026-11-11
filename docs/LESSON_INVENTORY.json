@@ -4085,6 +4085,23 @@
       "audio": "not required for written L07",
       "ownerSlot": ":15",
       "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
+    },
+    {
+      "id": "n5-m05-c03-chk",
+      "level": "n5",
+      "moduleId": "n5-m05",
+      "chapterId": "n5-m05-c03",
+      "slot": "CHK",
+      "title": "Find the way — directions chapter checkpoint",
+      "content": "src/content/lessons/n5/directions-chapter-checkpoint.mdx",
+      "url": "/learn/n5/module-05/chapter-03/checkpoint/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "written-only checkpoint; L06 real recordings are separate",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
