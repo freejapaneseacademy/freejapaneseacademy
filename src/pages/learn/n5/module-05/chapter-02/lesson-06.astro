@@ -1,0 +1,25 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import audio from '../../../../../content/audio/n5-m05-c02-l06-v1.json';
+import bank from '../../../../../content/exercises/n5-m05-c02-l06-v1.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/means-companions-listening');
+if (!lesson || lesson.data.lessonId !== 'n5-m05-c02-l06') throw new Error('Missing canonical companions listening lesson');
+if (audio.lessonId !== lesson.data.lessonId || bank.lessonId !== lesson.data.lessonId || audio.assets.length !== 2 || bank.items.length !== 6) throw new Error('Listening package mismatch');
+const { Content } = await render(lesson);
+const tracks = audio.assets.map((a,index) => ({id: (index===0?'a':'b') as 'a'|'b',assetId:a.id,label:index===0?'Museum trip partners':'An independent library visit',url:a.mediaPath,durationSeconds:a.durationSeconds,transcript:a.transcript,english:a.english}));
+---
+<Base title={lesson.data.title} description={lesson.data.description} noindex={true} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Means and companions listening',href:'/learn/n5/module-05/chapter-02/lesson-06/'}]}>
+<section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 05 · CHAPTER 02 · LESSON 06</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><p>25 minutes · Two original planning conversations</p></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+<div class="course-notice">Synthetic AivisSpeech voices; independent Japanese pronunciation and assessment review pending. Media must be verified before publication.</div>
+<div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map(o=><li>{o}</li>)}</ul></div>
+<article class="lesson-article foundation-article"><Content /></article>
+<ReusableListeningPractice client:load lessonId="n5-m05-c02-l06" level="n5" version={bank.version} tracks={tracks} questions={bank.items} />
+<div class="foundation-completion"><h2>Complete the lesson</h2><p>Lesson completion is separate from blind listening scoring.</p><LessonActions client:load lessonId="n5-m05-c02-l06" level="n5" /></div>
+<div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/module-05/chapter-02/lesson-05/">Review itinerary reading</a><a class="btn btn-primary" href="/learn/n5/module-05/chapter-02/lesson-07/">Continue to writing</a></div>
+</div><aside class="lesson-side foundation-side"><h2>Listening checklist</h2><ol><li>Listen to both tracks without transcripts.</li><li>Answer all six questions.</li><li>Submit and inspect feedback.</li><li>Reveal transcripts and verify spoken evidence.</li></ol></aside></div></section>
+</Base>
