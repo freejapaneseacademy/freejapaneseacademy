@@ -1,0 +1,450 @@
+{
+  "lessonId": "n5-m05-c01-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What time does Mei leave home?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "9:00 a.m.",
+          "rationale": "The first sentence states 9 a.m."
+        },
+        {
+          "id": "c2",
+          "text": "9:30 a.m.",
+          "rationale": "The plan does not support this option. Compare with the evidence: 午前九時に、メイは家を出ます。"
+        },
+        {
+          "id": "c3",
+          "text": "10:00 a.m.",
+          "rationale": "This does not match the route plan. Recheck: 午前九時に、メイは家を出ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前九時に、メイは家を出ます。 The first sentence states 9 a.m."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How does Mei reach the first station?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "On foot",
+          "rationale": "歩いて means by walking; the train comes later."
+        },
+        {
+          "id": "c2",
+          "text": "By bus",
+          "rationale": "The plan does not support this option. Compare with the evidence: 駅までは歩いて行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "By train",
+          "rationale": "This does not match the route plan. Recheck: 駅までは歩いて行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 駅までは歩いて行きます。 歩いて means by walking; the train comes later."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who comes to the station?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Haru",
+          "rationale": "ハルが is the person who comes."
+        },
+        {
+          "id": "c2",
+          "text": "Mei's teacher",
+          "rationale": "The plan does not support this option. Compare with the evidence: 駅でハルが来ます。"
+        },
+        {
+          "id": "c3",
+          "text": "A bus driver",
+          "rationale": "This does not match the route plan. Recheck: 駅でハルが来ます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 駅でハルが来ます。 ハルが is the person who comes."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where do the two travel by train?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A station near the library",
+          "rationale": "The destination is a station near the library."
+        },
+        {
+          "id": "c2",
+          "text": "Directly into the library",
+          "rationale": "The plan does not support this option. Compare with the evidence: 二人は電車で図書館の近くの駅へ行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "The airport",
+          "rationale": "This does not match the route plan. Recheck: 二人は電車で図書館の近くの駅へ行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 二人は電車で図書館の近くの駅へ行きます。 The destination is a station near the library."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When do they go to the library?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "10:00 a.m.",
+          "rationale": "午前十時 means 10 a.m."
+        },
+        {
+          "id": "c2",
+          "text": "Noon",
+          "rationale": "The plan does not support this option. Compare with the evidence: 午前十時に図書館に行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "2:00 p.m.",
+          "rationale": "This does not match the route plan. Recheck: 午前十時に図書館に行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午前十時に図書館に行きます。 午前十時 means 10 a.m."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What do they do at the library?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Read books",
+          "rationale": "そこで refers back to the library."
+        },
+        {
+          "id": "c2",
+          "text": "Buy tickets",
+          "rationale": "The plan does not support this option. Compare with the evidence: そこで本を読みます。"
+        },
+        {
+          "id": "c3",
+          "text": "Eat boxed lunches",
+          "rationale": "This does not match the route plan. Recheck: そこで本を読みます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: そこで本を読みます。 そこで refers back to the library."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where do they go at noon?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A nearby park",
+          "rationale": "正午 is noon; 公園 is park."
+        },
+        {
+          "id": "c2",
+          "text": "The airport",
+          "rationale": "The plan does not support this option. Compare with the evidence: 正午に近くの公園へ行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "Home",
+          "rationale": "This does not match the route plan. Recheck: 正午に近くの公園へ行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 正午に近くの公園へ行きます。 正午 is noon; 公園 is park."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What do they eat in the park?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Boxed lunches",
+          "rationale": "お弁当 means boxed lunch."
+        },
+        {
+          "id": "c2",
+          "text": "Cake",
+          "rationale": "The plan does not support this option. Compare with the evidence: 公園でお弁当を食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "Breakfast cereal",
+          "rationale": "This does not match the route plan. Recheck: 公園でお弁当を食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 公園でお弁当を食べます。 お弁当 means boxed lunch."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does Mei return home?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "2:00 p.m.",
+          "rationale": "午後二時 is 2 p.m."
+        },
+        {
+          "id": "c2",
+          "text": "9:00 a.m.",
+          "rationale": "The plan does not support this option. Compare with the evidence: 午後二時に、メイはバスで家に帰ります。"
+        },
+        {
+          "id": "c3",
+          "text": "Noon",
+          "rationale": "This does not match the route plan. Recheck: 午後二時に、メイはバスで家に帰ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 午後二時に、メイはバスで家に帰ります。 午後二時 is 2 p.m."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "How does Mei return home?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "By bus",
+          "rationale": "バスで marks the means of travel."
+        },
+        {
+          "id": "c2",
+          "text": "On foot",
+          "rationale": "The plan does not support this option. Compare with the evidence: メイはバスで家に帰ります。"
+        },
+        {
+          "id": "c3",
+          "text": "By subway",
+          "rationale": "This does not match the route plan. Recheck: メイはバスで家に帰ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: メイはバスで家に帰ります。 バスで marks the means of travel."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which detail is NOT stated in the plan?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "How Haru goes home",
+          "rationale": "Do not infer an unstated journey for Haru."
+        },
+        {
+          "id": "c2",
+          "text": "How Mei gets to the station",
+          "rationale": "The plan does not support this option. Compare with the evidence: The plan gives Mei's return by bus but does not describe Haru's return."
+        },
+        {
+          "id": "c3",
+          "text": "What they do at the library",
+          "rationale": "This does not match the route plan. Recheck: The plan gives Mei's return by bus but does not describe Haru's return."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: The plan gives Mei's return by bus but does not describe Haru's return. Do not infer an unstated journey for Haru."
+    },
+    {
+      "id": "ex-n5-m05-c01-l05-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 公園でお弁当を食べます, what does で mark?",
+      "objectiveIds": [
+        "n5-m05-c01-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l05-route-evidence"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The place where eating happens",
+          "rationale": "Here で marks the location of the activity, unlike バスで."
+        },
+        {
+          "id": "c2",
+          "text": "A vehicle",
+          "rationale": "The plan does not support this option. Compare with the evidence: 公園でお弁当を食べます。"
+        },
+        {
+          "id": "c3",
+          "text": "The destination of returning",
+          "rationale": "This does not match the route plan. Recheck: 公園でお弁当を食べます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: 公園でお弁当を食べます。 Here で marks the location of the activity, unlike バスで."
+    }
+  ]
+}
