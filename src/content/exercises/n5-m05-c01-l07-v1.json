@@ -1,0 +1,386 @@
+{
+  "lessonId": "n5-m05-c01-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l07-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-1"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence means 'I go to the station by train'? ",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車で駅に行きます。",
+          "rationale": "Correct. で marks the means (train), and に marks the destination (station)."
+        },
+        {
+          "id": "c2",
+          "text": "電車に駅で行きます。",
+          "rationale": "Not this one. で marks the means (train), and に marks the destination (station)."
+        },
+        {
+          "id": "c3",
+          "text": "電車から駅で行きます。",
+          "rationale": "Not this one. で marks the means (train), and に marks the destination (station)."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "で marks the means (train), and に marks the destination (station)."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-2"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence explicitly says 'I return home'? ",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "家に来ます。",
+          "rationale": "Not this one. 帰ります describes returning to one's home or usual base."
+        },
+        {
+          "id": "c2",
+          "text": "家に帰ります。",
+          "rationale": "Correct. 帰ります describes returning to one's home or usual base."
+        },
+        {
+          "id": "c3",
+          "text": "家で行きます。",
+          "rationale": "Not this one. 帰ります describes returning to one's home or usual base."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "帰ります describes returning to one's home or usual base."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-3"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which particle fills the transport blank: バス＿学校へ行きます。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "に",
+          "rationale": "Not this one. バスで expresses travel by bus; 学校へ is the destination."
+        },
+        {
+          "id": "c2",
+          "text": "から",
+          "rationale": "Not this one. バスで expresses travel by bus; 学校へ is the destination."
+        },
+        {
+          "id": "c3",
+          "text": "で",
+          "rationale": "Correct. バスで expresses travel by bus; 学校へ is the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "バスで expresses travel by bus; 学校へ is the destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-4"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which particle marks the starting point: 学校＿駅へ行きます。",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "から",
+          "rationale": "Correct. 学校から marks 'from school'."
+        },
+        {
+          "id": "c2",
+          "text": "に",
+          "rationale": "Not this one. 学校から marks 'from school'."
+        },
+        {
+          "id": "c3",
+          "text": "で",
+          "rationale": "Not this one. 学校から marks 'from school'."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "学校から marks 'from school'."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-5"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "You are at home and a friend is heading to your home. Which sentence fits your viewpoint?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だちは私の家に帰ります。",
+          "rationale": "Not this one. 来ます describes movement toward the speaker's established location."
+        },
+        {
+          "id": "c2",
+          "text": "友だちは私の家に来ます。",
+          "rationale": "Correct. 来ます describes movement toward the speaker's established location."
+        },
+        {
+          "id": "c3",
+          "text": "友だちは私の家で行きます。",
+          "rationale": "Not this one. 来ます describes movement toward the speaker's established location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "来ます describes movement toward the speaker's established location."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-6"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "You travel from home to your friend's home. Which sentence is natural?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だちの家へ行きます。",
+          "rationale": "Correct. 行きます is appropriate for going to a destination away from the speaker."
+        },
+        {
+          "id": "c2",
+          "text": "友だちの家で来ます。",
+          "rationale": "Not this one. 行きます is appropriate for going to a destination away from the speaker."
+        },
+        {
+          "id": "c3",
+          "text": "友だちの家を帰ります。",
+          "rationale": "Not this one. 行きます is appropriate for going to a destination away from the speaker."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "行きます is appropriate for going to a destination away from the speaker."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-7"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence is a clear return after visiting the library?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館で帰ります。",
+          "rationale": "Not this one. 夕方、家に帰ります says that you return home in the evening."
+        },
+        {
+          "id": "c2",
+          "text": "家で行きます。",
+          "rationale": "Not this one. 夕方、家に帰ります says that you return home in the evening."
+        },
+        {
+          "id": "c3",
+          "text": "夕方、家に帰ります。",
+          "rationale": "Correct. 夕方、家に帰ります says that you return home in the evening."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "夕方、家に帰ります says that you return home in the evening."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-8"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "What is the destination in 学校からバスで駅へ行きます。?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校",
+          "rationale": "Not this one. 駅へ identifies the destination; 学校から is the origin and バスで the means."
+        },
+        {
+          "id": "c2",
+          "text": "駅",
+          "rationale": "Correct. 駅へ identifies the destination; 学校から is the origin and バスで the means."
+        },
+        {
+          "id": "c3",
+          "text": "バス",
+          "rationale": "Not this one. 駅へ identifies the destination; 学校から is the origin and バスで the means."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "駅へ identifies the destination; 学校から is the origin and バスで the means."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-9"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence uses a natural expression for going on foot?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "歩きで駅へ行きます。",
+          "rationale": "Not this one. 歩いて行きます is the ordinary expression for going on foot."
+        },
+        {
+          "id": "c2",
+          "text": "歩くで駅へ行きます。",
+          "rationale": "Not this one. 歩いて行きます is the ordinary expression for going on foot."
+        },
+        {
+          "id": "c3",
+          "text": "歩いて駅へ行きます。",
+          "rationale": "Correct. 歩いて行きます is the ordinary expression for going on foot."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "歩いて行きます is the ordinary expression for going on foot."
+    },
+    {
+      "id": "ex-n5-m05-c01-l07-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l07-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l07-writing-10"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "In ゆい's model, what happens after the train trip to town?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "私は家に帰ります。",
+          "rationale": "Correct. The final model sentence is 夕方、私は家に帰ります。"
+        },
+        {
+          "id": "c2",
+          "text": "友だちは学校に来ます。",
+          "rationale": "Not this one. The final model sentence is 夕方、私は家に帰ります。"
+        },
+        {
+          "id": "c3",
+          "text": "バスで図書館に行きます。",
+          "rationale": "Not this one. The final model sentence is 夕方、私は家に帰ります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The final model sentence is 夕方、私は家に帰ります。"
+    }
+  ]
+}
