@@ -1,0 +1,20 @@
+import React,{useState} from 'react';
+import bank from '../../content/exercises/n5-m05-c01-l03-v1.json';
+import {recordAttempt} from '../../lib/progress';
+export const movementGrammarItems=bank.items;
+export function scoreMovementGrammar(answers:Record<string,string>){return movementGrammarItems.reduce((sum,q)=>sum+(answers[q.id]===q.answerKey.choiceId?1:0),0);}
+export default function MovementGrammarPractice(){
+ const [answers,setAnswers]=useState<Record<string,string>>({});
+ const [submitted,setSubmitted]=useState(false);
+ const [saved,setSaved]=useState('');
+ const [draft,setDraft]=useState('');
+ const [model,setModel]=useState(false);
+ const [checks,setChecks]=useState<boolean[]>(Array(5).fill(false));
+ const score=scoreMovementGrammar(answers);
+ const submit=async()=>{setSubmitted(true);try{await recordAttempt('n5-m05-c01-l03-v1','n5',score,movementGrammarItems.length);setSaved('Attempt saved on this device.');}catch{setSaved('Score shown; browser storage is unavailable.');}};
+ return <section aria-label="Movement grammar practice" className="my-8 rounded-xl border border-slate-300 dark:border-slate-600 p-4 min-w-0">
+ <h2 className="text-2xl font-semibold">Movement grammar — 12 questions</h2><p>Choose one best answer per question. Use Tab to reach each radio group and arrow keys to move between choices. Feedback appears after submission.</p>
+ {movementGrammarItems.map((q,i)=><fieldset key={q.id} disabled={submitted} className="my-6 border-t border-slate-300 dark:border-slate-600 pt-4 min-w-0"><legend className="font-semibold pt-2">{i+1}. {q.prompt}</legend><div className="grid gap-2 mt-3">{q.choices.map(c=><label key={c.id} className="flex gap-3 items-start rounded-lg border border-slate-300 dark:border-slate-600 p-3 min-h-11 cursor-pointer break-words"><input type="radio" name={q.id} value={c.id} checked={answers[q.id]===c.id} onChange={()=>setAnswers(a=>({...a,[q.id]:c.id}))} className="mt-1"/><span>{c.text}</span></label>)}</div>{submitted&&<div role="status" className="mt-3"><p>{answers[q.id]===q.answerKey.choiceId?'Correct.':'Review this pattern.'} {q.explanation}</p><p>{q.choices.find(c=>c.id===answers[q.id])?.rationale??'No answer selected.'}</p><p>Answer: {q.choices.find(c=>c.id===q.answerKey.choiceId)?.text}</p></div>}</fieldset>)}
+ {!submitted?<button type="button" className="btn btn-primary" disabled={Object.keys(answers).length!==movementGrammarItems.length} onClick={submit}>Submit answers</button>:<div aria-live="polite"><p className="font-semibold">Written score: {score} / {movementGrammarItems.length}</p><p>{saved}</p><button type="button" className="btn btn-outline" onClick={()=>{setAnswers({});setSubmitted(false);setSaved('');}}>Retry practice</button></div>}
+ <div className="mt-8 border-t border-slate-300 dark:border-slate-600 pt-4"><h3 className="font-semibold">Ungraded travel-plan writing</h3><label htmlFor="movement-grammar-draft">Write three connected Japanese sentences about a fictional trip</label><textarea id="movement-grammar-draft" rows={5} value={draft} onChange={e=>setDraft(e.target.value)} className="w-full max-w-full rounded-lg border border-slate-400 bg-white text-slate-950 dark:bg-slate-900 dark:text-white p-3 mt-2"/><button type="button" className="btn btn-outline mt-2" onClick={()=>setModel(x=>!x)}>{model?'Hide model':'Compare with model'}</button>{model&&<p lang="ja" className="mt-3">土曜日に公園へ行きます。自転車で行きます。午後、家に帰ります。</p>}<fieldset className="mt-4"><legend className="font-semibold">Self-review — not an automatic writing grade</legend>{['Clear destination','Correct へ or に for destination','Correct で for vehicle','帰ります indicates a return','Consistent viewpoint and polite endings'].map((t,i)=><label key={t} className="flex gap-2 items-center my-2"><input type="checkbox" checked={checks[i]} onChange={e=>setChecks(a=>a.map((v,j)=>i===j?e.target.checked:v))}/>{t}</label>)}</fieldset><p>Your draft is not uploaded or saved after this page session. Quiz attempts are stored locally where available.</p></div>
+ </section>;

@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c01-l03",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l03-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Mei is waiting at the library and asks Haru to travel toward her. Which verb completes 図書館に＿＿か。",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来ます",
+          "rationale": "来ます expresses motion toward Mei's established location; 行きます would describe going away from a reference point."
+        },
+        {
+          "id": "c2",
+          "text": "行きます",
+          "rationale": "This does not fit the stated viewpoint or particle role. 来ます expresses motion toward Mei's established location; 行きます would describe going away from a reference point."
+        },
+        {
+          "id": "c3",
+          "text": "帰ります",
+          "rationale": "This does not fit the stated viewpoint or particle role. 来ます expresses motion toward Mei's established location; 行きます would describe going away from a reference point."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "来ます expresses motion toward Mei's established location; 行きます would describe going away from a reference point."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Haru is at home and will travel to the park for the first time today. 公園へ＿＿。",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "帰ります",
+          "rationale": "This does not fit the stated viewpoint or particle role. 行きます describes going to the park from Haru's present location."
+        },
+        {
+          "id": "c2",
+          "text": "行きます",
+          "rationale": "行きます describes going to the park from Haru's present location."
+        },
+        {
+          "id": "c3",
+          "text": "来ます",
+          "rationale": "This does not fit the stated viewpoint or particle role. 行きます describes going to the park from Haru's present location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "行きます describes going to the park from Haru's present location."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "After the outing, Haru goes back home. 家に＿＿。",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来ます",
+          "rationale": "This does not fit the stated viewpoint or particle role. 帰ります conveys returning to one's home or relevant base."
+        },
+        {
+          "id": "c2",
+          "text": "行きます",
+          "rationale": "This does not fit the stated viewpoint or particle role. 帰ります conveys returning to one's home or relevant base."
+        },
+        {
+          "id": "c3",
+          "text": "帰ります",
+          "rationale": "帰ります conveys returning to one's home or relevant base."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "帰ります conveys returning to one's home or relevant base."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Complete 'I go to school by bus': ＿＿で学校に行きます。",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "バス",
+          "rationale": "バス is a means of transport and takes で in this sentence."
+        },
+        {
+          "id": "c2",
+          "text": "学校",
+          "rationale": "This does not fit the stated viewpoint or particle role. バス is a means of transport and takes で in this sentence."
+        },
+        {
+          "id": "c3",
+          "text": "公園",
+          "rationale": "This does not fit the stated viewpoint or particle role. バス is a means of transport and takes で in this sentence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "バス is a means of transport and takes で in this sentence."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which particle marks the destination in 駅＿＿行きます?",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "で",
+          "rationale": "This does not fit the stated viewpoint or particle role. へ marks direction/destination; に would also be correct Japanese but is not among these options."
+        },
+        {
+          "id": "c2",
+          "text": "へ",
+          "rationale": "へ marks direction/destination; に would also be correct Japanese but is not among these options."
+        },
+        {
+          "id": "c3",
+          "text": "を",
+          "rationale": "This does not fit the stated viewpoint or particle role. へ marks direction/destination; に would also be correct Japanese but is not among these options."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "へ marks direction/destination; に would also be correct Japanese but is not among these options."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence clearly means 'I go to the library by train'?",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "電車に図書館で行きます。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 電車で marks the means; 図書館に marks the destination."
+        },
+        {
+          "id": "c2",
+          "text": "図書館で電車へ行きます。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 電車で marks the means; 図書館に marks the destination."
+        },
+        {
+          "id": "c3",
+          "text": "電車で図書館に行きます。",
+          "rationale": "電車で marks the means; 図書館に marks the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "電車で marks the means; 図書館に marks the destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 電車で学校へ行きます, what does 電車で express?",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Means of transport",
+          "rationale": "で after 電車 indicates travel by train."
+        },
+        {
+          "id": "c2",
+          "text": "Destination",
+          "rationale": "This does not fit the stated viewpoint or particle role. で after 電車 indicates travel by train."
+        },
+        {
+          "id": "c3",
+          "text": "Return destination",
+          "rationale": "This does not fit the stated viewpoint or particle role. で after 電車 indicates travel by train."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "で after 電車 indicates travel by train."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Mei is already at school. She says her friend will come to school tomorrow. Which sentence fits?",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だちは明日学校に帰ります。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 来ます matches movement toward Mei's established reference point at school."
+        },
+        {
+          "id": "c2",
+          "text": "友だちは明日学校に来ます。",
+          "rationale": "来ます matches movement toward Mei's established reference point at school."
+        },
+        {
+          "id": "c3",
+          "text": "友だちは明日学校で来ます。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 来ます matches movement toward Mei's established reference point at school."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "来ます matches movement toward Mei's established reference point at school."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Choose the natural expression for 'go on foot'.",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "歩いてで行きます。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 歩いて is the verb form meaning 'walking'; adding で after it is incorrect."
+        },
+        {
+          "id": "c2",
+          "text": "歩いてへ行きます。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 歩いて is the verb form meaning 'walking'; adding で after it is incorrect."
+        },
+        {
+          "id": "c3",
+          "text": "歩いて行きます。",
+          "rationale": "歩いて is the verb form meaning 'walking'; adding で after it is incorrect."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "歩いて is the verb form meaning 'walking'; adding で after it is incorrect."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "In 三時に駅へ行きます, what does 三時に mark?",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A clock time",
+          "rationale": "に after a specific clock time marks when the trip happens; 駅へ marks the destination."
+        },
+        {
+          "id": "c2",
+          "text": "A vehicle",
+          "rationale": "This does not fit the stated viewpoint or particle role. に after a specific clock time marks when the trip happens; 駅へ marks the destination."
+        },
+        {
+          "id": "c3",
+          "text": "A destination",
+          "rationale": "This does not fit the stated viewpoint or particle role. に after a specific clock time marks when the trip happens; 駅へ marks the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "に after a specific clock time marks when the trip happens; 駅へ marks the destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression is appropriate for returning to a school you left earlier?",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "学校で帰ります。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 帰ります can mean return to a relevant base, including a school one is returning to."
+        },
+        {
+          "id": "c2",
+          "text": "学校に帰ります。",
+          "rationale": "帰ります can mean return to a relevant base, including a school one is returning to."
+        },
+        {
+          "id": "c3",
+          "text": "学校を来ます。",
+          "rationale": "This does not fit the stated viewpoint or particle role. 帰ります can mean return to a relevant base, including a school one is returning to."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "帰ります can mean return to a relevant base, including a school one is returning to."
+    },
+    {
+      "id": "ex-n5-m05-c01-l03-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Mei asks at the library, 図書館に来ますか。 Haru answers from home. Which reply naturally describes his own journey?",
+      "objectiveIds": [
+        "n5-m05-c01-l03-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l03-movement-particles"
+      ],
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "はい、二時に帰ります。",
+          "rationale": "This does not fit the stated viewpoint or particle role. From home Haru normally uses 行きます for travel toward the library; Mei uses 来ます for movement toward her."
+        },
+        {
+          "id": "c2",
+          "text": "はい、二時に来ます。",
+          "rationale": "This does not fit the stated viewpoint or particle role. From home Haru normally uses 行きます for travel toward the library; Mei uses 来ます for movement toward her."
+        },
+        {
+          "id": "c3",
+          "text": "はい、二時に行きます。",
+          "rationale": "From home Haru normally uses 行きます for travel toward the library; Mei uses 来ます for movement toward her."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "From home Haru normally uses 行きます for travel toward the library; Mei uses 来ます for movement toward her."
+    }
+  ]
+}
