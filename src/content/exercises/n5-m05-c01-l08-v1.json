@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m05-c01-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m05-c01-l08-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-destination-1"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is the natural polite question for 'Where are you going?'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どこへ行きますか。",
+          "rationale": "Correct. どこへ asks for the destination; どうやって asks how and いつ asks when."
+        },
+        {
+          "id": "c2",
+          "text": "どうやって行きますか。",
+          "rationale": "Review: どこへ asks for the destination; どうやって asks how and いつ asks when."
+        },
+        {
+          "id": "c3",
+          "text": "いつ帰りますか。",
+          "rationale": "Review: どこへ asks for the destination; どうやって asks how and いつ asks when."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "どこへ asks for the destination; どうやって asks how and いつ asks when."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-particles-2"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence means 'I'll go to the park by bus'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "バスに公園で行きます。",
+          "rationale": "Review: バスで identifies the means and 公園へ the destination."
+        },
+        {
+          "id": "c2",
+          "text": "バスで公園へ行きます。",
+          "rationale": "Correct. バスで identifies the means and 公園へ the destination."
+        },
+        {
+          "id": "c3",
+          "text": "バスへ公園に行きます。",
+          "rationale": "Review: バスで identifies the means and 公園へ the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "バスで identifies the means and 公園へ the destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-means-3"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "How do you naturally say 'I'll walk to the station'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "歩くで駅に行きます。",
+          "rationale": "Review: 歩いて行きます is the normal walking expression."
+        },
+        {
+          "id": "c2",
+          "text": "歩きで駅に行きます。",
+          "rationale": "Review: 歩いて行きます is the normal walking expression."
+        },
+        {
+          "id": "c3",
+          "text": "歩いて駅に行きます。",
+          "rationale": "Correct. 歩いて行きます is the normal walking expression."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "歩いて行きます is the normal walking expression."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-return-4"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which question asks 'When will you return?'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いつ帰りますか。",
+          "rationale": "Correct. いつ asks when; 帰ります asks about returning."
+        },
+        {
+          "id": "c2",
+          "text": "どこにいますか。",
+          "rationale": "Review: いつ asks when; 帰ります asks about returning."
+        },
+        {
+          "id": "c3",
+          "text": "どうやって行きますか。",
+          "rationale": "Review: いつ asks when; 帰ります asks about returning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いつ asks when; 帰ります asks about returning."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-viewpoint-5"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "You are waiting at the library. How do you ask a friend if they are coming there?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館で帰りますか。",
+          "rationale": "Review: 来ます describes motion toward the speaker's established location."
+        },
+        {
+          "id": "c2",
+          "text": "図書館に来ますか。",
+          "rationale": "Correct. 来ます describes motion toward the speaker's established location."
+        },
+        {
+          "id": "c3",
+          "text": "図書館から行きますか。",
+          "rationale": "Review: 来ます describes motion toward the speaker's established location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "来ます describes motion toward the speaker's established location."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-viewpoint-6"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "You are at the station heading to a library. Which response fits your viewpoint?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館で帰ります。",
+          "rationale": "Review: From the station, the library is a destination away from you, so 行きます fits."
+        },
+        {
+          "id": "c2",
+          "text": "図書館に来ます。",
+          "rationale": "Review: From the station, the library is a destination away from you, so 行きます fits."
+        },
+        {
+          "id": "c3",
+          "text": "図書館に行きます。",
+          "rationale": "Correct. From the station, the library is a destination away from you, so 行きます fits."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "From the station, the library is a destination away from you, so 行きます fits."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-return-7"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence says 'I'll return home around four in the afternoon'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "午後四時ごろ、家に帰ります。",
+          "rationale": "Correct. 午後四時ごろ gives approximate time; 家に帰ります means return home."
+        },
+        {
+          "id": "c2",
+          "text": "午後四時ごろ、家で来ます。",
+          "rationale": "Review: 午後四時ごろ gives approximate time; 家に帰ります means return home."
+        },
+        {
+          "id": "c3",
+          "text": "午後四時ごろ、家を行きます。",
+          "rationale": "Review: 午後四時ごろ gives approximate time; 家に帰ります means return home."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "午後四時ごろ gives approximate time; 家に帰ります means return home."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-means-8"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is the means of travel in 電車で駅へ行きます。?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "駅",
+          "rationale": "Review: 電車で indicates by train; 駅へ indicates the destination."
+        },
+        {
+          "id": "c2",
+          "text": "電車",
+          "rationale": "Correct. 電車で indicates by train; 駅へ indicates the destination."
+        },
+        {
+          "id": "c3",
+          "text": "行きます",
+          "rationale": "Review: 電車で indicates by train; 駅へ indicates the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "電車で indicates by train; 駅へ indicates the destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-09",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-model-a-9"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "In Model A, what happens after the train ride to the station?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The traveler goes home immediately.",
+          "rationale": "Review: Model A states それから、歩いて図書館に行きます。"
+        },
+        {
+          "id": "c2",
+          "text": "The traveler takes another train.",
+          "rationale": "Review: Model A states それから、歩いて図書館に行きます。"
+        },
+        {
+          "id": "c3",
+          "text": "The traveler walks to the library.",
+          "rationale": "Correct. Model A states それから、歩いて図書館に行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Model A states それから、歩いて図書館に行きます。"
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-10",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-interaction-10"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which is a natural answer to どうやって行きますか。?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "自転車で行きます。",
+          "rationale": "Correct. The question asks how; 自転車で supplies a means of travel."
+        },
+        {
+          "id": "c2",
+          "text": "公園へ行きます。",
+          "rationale": "Review: The question asks how; 自転車で supplies a means of travel."
+        },
+        {
+          "id": "c3",
+          "text": "土曜日に行きます。",
+          "rationale": "Review: The question asks how; 自転車で supplies a means of travel."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The question asks how; 自転車で supplies a means of travel."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-11",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-interaction-11"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which exchange has a coherent destination question and answer?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "A: いつ帰りますか。 B: バスで行きます。",
+          "rationale": "Review: どこへ asks for a place, and 学校に supplies the destination."
+        },
+        {
+          "id": "c2",
+          "text": "A: どこへ行きますか。 B: 学校に行きます。",
+          "rationale": "Correct. どこへ asks for a place, and 学校に supplies the destination."
+        },
+        {
+          "id": "c3",
+          "text": "A: どうやって行きますか。 B: 午後五時です。",
+          "rationale": "Review: どこへ asks for a place, and 学校に supplies the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "どこへ asks for a place, and 学校に supplies the destination."
+    },
+    {
+      "id": "ex-n5-m05-c01-l08-v1-12",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m05-c01-l08-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m05-c01-l08-return-12"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence explicitly expresses return to the usual home base?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "家へ来ます。",
+          "rationale": "Review: 帰ります expresses returning to one's home or usual base."
+        },
+        {
+          "id": "c2",
+          "text": "家で行きます。",
+          "rationale": "Review: 帰ります expresses returning to one's home or usual base."
+        },
+        {
+          "id": "c3",
+          "text": "家に帰ります。",
+          "rationale": "Correct. 帰ります expresses returning to one's home or usual base."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "帰ります expresses returning to one's home or usual base."
+    }
+  ]
+}
