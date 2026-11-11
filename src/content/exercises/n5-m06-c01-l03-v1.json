@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c01-l03",
+  "lessonId": "n5-m06-c01-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original action-board examples and authored grammar contrasts",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c01-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「読みます」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-01-c1",
+          "text": "読む",
+          "rationale": "読む is the dictionary form of 読みます; 読める means can read."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-01-c2",
+          "text": "読める",
+          "rationale": "Not this one. 読む is the dictionary form of 読みます; 読める means can read."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-01-c3",
+          "text": "読みる",
+          "rationale": "Not this one. 読む is the dictionary form of 読みます; 読める means can read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-01-c1"
+      },
+      "explanation": "読む is the dictionary form of 読みます; 読める means can read.",
+      "feedback": "読む is the dictionary form of 読みます; 読める means can read."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「書く」の丁寧なます形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-02-c1",
+          "text": "書くます",
+          "rationale": "Not this one. 書く is a godan verb: く changes to き before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-02-c2",
+          "text": "書きます",
+          "rationale": "書く is a godan verb: く changes to き before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-02-c3",
+          "text": "書けます",
+          "rationale": "Not this one. 書く is a godan verb: く changes to き before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-02-c2"
+      },
+      "explanation": "書く is a godan verb: く changes to き before ます.",
+      "feedback": "書く is a godan verb: く changes to き before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「食べます」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-03-c1",
+          "text": "食べる",
+          "rationale": "食べる is an ichidan verb; remove ます and add る."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-03-c2",
+          "text": "食べまする",
+          "rationale": "Not this one. 食べる is an ichidan verb; remove ます and add る."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-03-c3",
+          "text": "食ぶ",
+          "rationale": "Not this one. 食べる is an ichidan verb; remove ます and add る."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-03-c1"
+      },
+      "explanation": "食べる is an ichidan verb; remove ます and add る.",
+      "feedback": "食べる is an ichidan verb; remove ます and add る."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「見ます」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-04-c1",
+          "text": "見む",
+          "rationale": "Not this one. 見る is an ichidan verb: 見ます ↔ 見る."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-04-c2",
+          "text": "見まする",
+          "rationale": "Not this one. 見る is an ichidan verb: 見ます ↔ 見る."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-04-c3",
+          "text": "見る",
+          "rationale": "見る is an ichidan verb: 見ます ↔ 見る."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-04-c3"
+      },
+      "explanation": "見る is an ichidan verb: 見ます ↔ 見る.",
+      "feedback": "見る is an ichidan verb: 見ます ↔ 見る."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「飲む」の丁寧なます形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-05-c1",
+          "text": "飲めます",
+          "rationale": "Not this one. 飲む is godan; む changes to み before ます. 飲めます means can drink."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-05-c2",
+          "text": "飲みます",
+          "rationale": "飲む is godan; む changes to み before ます. 飲めます means can drink."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-05-c3",
+          "text": "飲むます",
+          "rationale": "Not this one. 飲む is godan; む changes to み before ます. 飲めます means can drink."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-05-c2"
+      },
+      "explanation": "飲む is godan; む changes to み before ます. 飲めます means can drink.",
+      "feedback": "飲む is godan; む changes to み before ます. 飲めます means can drink."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「します」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-06-c1",
+          "text": "する",
+          "rationale": "する is irregular and pairs with します."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-06-c2",
+          "text": "しる",
+          "rationale": "Not this one. する is irregular and pairs with します."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-06-c3",
+          "text": "しまする",
+          "rationale": "Not this one. する is irregular and pairs with します."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-06-c1"
+      },
+      "explanation": "する is irregular and pairs with します.",
+      "feedback": "する is irregular and pairs with します."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「来ます（きます）」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-07-c1",
+          "text": "きる",
+          "rationale": "Not this one. 来る is irregular: the reading changes from くる to きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-07-c2",
+          "text": "来る（くる）",
+          "rationale": "来る is irregular: the reading changes from くる to きます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-07-c3",
+          "text": "来まする",
+          "rationale": "Not this one. 来る is irregular: the reading changes from くる to きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-07-c2"
+      },
+      "explanation": "来る is irregular: the reading changes from くる to きます.",
+      "feedback": "来る is irregular: the reading changes from くる to きます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「話します」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-08-c1",
+          "text": "話しる",
+          "rationale": "Not this one. 話す is godan; す changes to し before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-08-c2",
+          "text": "話せる",
+          "rationale": "Not this one. 話す is godan; す changes to し before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-08-c3",
+          "text": "話す",
+          "rationale": "話す is godan; す changes to し before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-08-c3"
+      },
+      "explanation": "話す is godan; す changes to し before ます.",
+      "feedback": "話す is godan; す changes to し before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「帰ります」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-09-c1",
+          "text": "帰る",
+          "rationale": "帰る ends in る but is godan: 帰ります, not 帰ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-09-c2",
+          "text": "帰りる",
+          "rationale": "Not this one. 帰る ends in る but is godan: 帰ります, not 帰ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-09-c3",
+          "text": "帰ます",
+          "rationale": "Not this one. 帰る ends in る but is godan: 帰ります, not 帰ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-09-c1"
+      },
+      "explanation": "帰る ends in る but is godan: 帰ります, not 帰ます.",
+      "feedback": "帰る ends in る but is godan: 帰ります, not 帰ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「起きる」の丁寧なます形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-10-c1",
+          "text": "起きります",
+          "rationale": "Not this one. 起きる is ichidan: remove る, add ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-10-c2",
+          "text": "起きます",
+          "rationale": "起きる is ichidan: remove る, add ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-10-c3",
+          "text": "起くます",
+          "rationale": "Not this one. 起きる is ichidan: remove る, add ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-10-c2"
+      },
+      "explanation": "起きる is ichidan: remove る, add ます.",
+      "feedback": "起きる is ichidan: remove る, add ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "「買います」の辞書形は？",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-11-c1",
+          "text": "買いる",
+          "rationale": "Not this one. 買う is godan: う changes to い before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-11-c2",
+          "text": "買えます",
+          "rationale": "Not this one. 買う is godan: う changes to い before ます."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-11-c3",
+          "text": "買う",
+          "rationale": "買う is godan: う changes to い before ます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-11-c3"
+      },
+      "explanation": "買う is godan: う changes to い before ます.",
+      "feedback": "買う is godan: う changes to い before ます."
+    },
+    {
+      "id": "ex-n5-m06-c01-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "grammar",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c01-l03-dictionary-masu"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c01-l03-verb-groups"
+      ],
+      "prompt": "Which statement about dictionary forms is correct?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c01-l03-12-c1",
+          "text": "They always mean past tense.",
+          "rationale": "Not this one. Dictionary forms are plain nonpast; context determines present/habitual or future meaning."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-12-c2",
+          "text": "They are plain nonpast forms, often used in dictionaries.",
+          "rationale": "Dictionary forms are plain nonpast; context determines present/habitual or future meaning."
+        },
+        {
+          "id": "ex-n5-m06-c01-l03-12-c3",
+          "text": "They are always commands.",
+          "rationale": "Not this one. Dictionary forms are plain nonpast; context determines present/habitual or future meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c01-l03-12-c2"
+      },
+      "explanation": "Dictionary forms are plain nonpast; context determines present/habitual or future meaning.",
+      "feedback": "Dictionary forms are plain nonpast; context determines present/habitual or future meaning."
+    }
+  ]
+}
