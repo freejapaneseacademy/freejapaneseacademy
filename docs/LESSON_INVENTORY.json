@@ -4100,6 +4100,23 @@
       "assessmentReview": "pending - independent assessment review not claimed",
       "audio": "written optional speaking models; no new audio required; related L06 audio not embedded",
       "noindex": false
+    },
+    {
+      "id": "n5-m02-c03-chk",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c03",
+      "slot": "CHK",
+      "title": "Existence and location — chapter checkpoint",
+      "content": "src/content/lessons/n5/existence-location-checkpoint.mdx",
+      "url": "/learn/n5/module-02/chapter-03/checkpoint/",
+      "status": "published",
+      "noindex": false,
+      "humanJapaneseReview": "pending — independent qualified review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "reuses L06 AivisSpeech candidate recordings; WAV, hashes, rights and alignment unverified",
+      "ownerSlot": ":00",
+      "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
