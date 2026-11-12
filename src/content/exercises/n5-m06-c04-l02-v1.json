@@ -1,0 +1,482 @@
+{
+  "id": "n5-m06-c04-l02",
+  "lessonId": "n5-m06-c04-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original workshop and park-dialogue scenes in ongoing-activity-vocabulary.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l02-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-01"
+      ],
+      "prompt": "In the workshop, what is Yuki doing?",
+      "evidence": "ユキさんは絵を描いています。",
+      "explanation": "描いています describes drawing a picture; 書いています is writing. Evidence: ユキさんは絵を描いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q01-v1-c1",
+          "text": "Drawing a picture",
+          "rationale": "Correct. 描いています describes drawing a picture; 書いています is writing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q01-v1-c2",
+          "text": "Writing Japanese",
+          "rationale": "Not this time. 描いています describes drawing a picture; 書いています is writing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q01-v1-c3",
+          "text": "Reading a book",
+          "rationale": "Not this time. 描いています describes drawing a picture; 書いています is writing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-02"
+      ],
+      "prompt": "Which word means 'reading room'?",
+      "evidence": "図書室で、ミナさんは本を読んでいます。",
+      "explanation": "図書室（としょしつ） is a school reading room or library room. Evidence: 図書室で、ミナさんは本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q02-v1-c1",
+          "text": "教室",
+          "rationale": "Not this time. 図書室（としょしつ） is a school reading room or library room."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q02-v1-c2",
+          "text": "図書室",
+          "rationale": "Correct. 図書室（としょしつ） is a school reading room or library room."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q02-v1-c3",
+          "text": "台所",
+          "rationale": "Not this time. 図書室（としょしつ） is a school reading room or library room."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q02-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-03"
+      ],
+      "prompt": "What is the best expression for 'is taking photographs'?",
+      "evidence": "庭で、タロウさんは写真を撮っています。",
+      "explanation": "写真を撮っています means is taking photos; 撮る is the verb for taking a photo. Evidence: 庭で、タロウさんは写真を撮っています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q03-v1-c1",
+          "text": "写真を読んでいます",
+          "rationale": "Not this time. 写真を撮っています means is taking photos; 撮る is the verb for taking a photo."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q03-v1-c2",
+          "text": "写真を描いています",
+          "rationale": "Not this time. 写真を撮っています means is taking photos; 撮る is the verb for taking a photo."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q03-v1-c3",
+          "text": "写真を撮っています",
+          "rationale": "Correct. 写真を撮っています means is taking photos; 撮る is the verb for taking a photo."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q03-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-04"
+      ],
+      "prompt": "Which particle marks the place where Mina reads?",
+      "evidence": "ミナさんは図書室で本を読んでいます。",
+      "explanation": "図書室で marks the location of the action. 本を is its object. Evidence: ミナさんは図書室で本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q04-v1-c1",
+          "text": "で",
+          "rationale": "Correct. 図書室で marks the location of the action. 本を is its object."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q04-v1-c2",
+          "text": "を",
+          "rationale": "Not this time. 図書室で marks the location of the action. 本を is its object."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q04-v1-c3",
+          "text": "に",
+          "rationale": "Not this time. 図書室で marks the location of the action. 本を is its object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-05"
+      ],
+      "prompt": "Which expression means 'is studying'?",
+      "evidence": "ケンさんは部屋で日本語を勉強しています。",
+      "explanation": "勉強しています is studying; writing and listening are different activities. Evidence: ケンさんは部屋で日本語を勉強しています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q05-v1-c1",
+          "text": "日本語を書いています",
+          "rationale": "Not this time. 勉強しています is studying; writing and listening are different activities."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q05-v1-c2",
+          "text": "日本語を勉強しています",
+          "rationale": "Correct. 勉強しています is studying; writing and listening are different activities."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q05-v1-c3",
+          "text": "日本語を聞いています",
+          "rationale": "Not this time. 勉強しています is studying; writing and listening are different activities."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q05-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-06"
+      ],
+      "prompt": "What is the meaning of 休んでいます?",
+      "evidence": "ベンチで休んでいます。",
+      "explanation": "休んでいます means resting or taking a break. Evidence: ベンチで休んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q06-v1-c1",
+          "text": "is eating",
+          "rationale": "Not this time. 休んでいます means resting or taking a break."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q06-v1-c2",
+          "text": "is talking",
+          "rationale": "Not this time. 休んでいます means resting or taking a break."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q06-v1-c3",
+          "text": "is resting",
+          "rationale": "Correct. 休んでいます means resting or taking a break."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q06-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-07"
+      ],
+      "prompt": "Which sentence describes a regular habit rather than an action now?",
+      "evidence": "ミナさんは毎日本を読みます。",
+      "explanation": "毎日 and 読みます present a repeated habit; 今 plus 〜ています signals now. Evidence: ミナさんは毎日本を読みます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q07-v1-c1",
+          "text": "毎日、本を読みます。",
+          "rationale": "Correct. 毎日 and 読みます present a repeated habit; 今 plus 〜ています signals now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q07-v1-c2",
+          "text": "今、本を読んでいます。",
+          "rationale": "Not this time. 毎日 and 読みます present a repeated habit; 今 plus 〜ています signals now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q07-v1-c3",
+          "text": "今、音楽を聞いています。",
+          "rationale": "Not this time. 毎日 and 読みます present a repeated habit; 今 plus 〜ています signals now."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-08"
+      ],
+      "prompt": "Which kanji correctly describes writing Japanese?",
+      "evidence": "ケンさんは日本語を書いています。",
+      "explanation": "書いています uses 書 for writing characters; 描いています uses 描 for drawing. Evidence: ケンさんは日本語を書いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q08-v1-c1",
+          "text": "描いています",
+          "rationale": "Not this time. 書いています uses 書 for writing characters; 描いています uses 描 for drawing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q08-v1-c2",
+          "text": "書いています",
+          "rationale": "Correct. 書いています uses 書 for writing characters; 描いています uses 描 for drawing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q08-v1-c3",
+          "text": "撮っています",
+          "rationale": "Not this time. 書いています uses 書 for writing characters; 描いています uses 描 for drawing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q08-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-09"
+      ],
+      "prompt": "Where is the teacher drinking tea in the workshop?",
+      "evidence": "台所で、先生はお茶を飲んでいます。",
+      "explanation": "台所で indicates the kitchen as the action location. Evidence: 台所で、先生はお茶を飲んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q09-v1-c1",
+          "text": "庭",
+          "rationale": "Not this time. 台所で indicates the kitchen as the action location."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q09-v1-c2",
+          "text": "図書室",
+          "rationale": "Not this time. 台所で indicates the kitchen as the action location."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q09-v1-c3",
+          "text": "台所",
+          "rationale": "Correct. 台所で indicates the kitchen as the action location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q09-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-10"
+      ],
+      "prompt": "In the park dialogue, what is Sara doing?",
+      "evidence": "サラさんは公園で音楽を聞いています。",
+      "explanation": "音楽を聞いています means listening to music. Evidence: サラさんは公園で音楽を聞いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q10-v1-c1",
+          "text": "Listening to music",
+          "rationale": "Correct. 音楽を聞いています means listening to music."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q10-v1-c2",
+          "text": "Eating lunch",
+          "rationale": "Not this time. 音楽を聞いています means listening to music."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q10-v1-c3",
+          "text": "Taking photos",
+          "rationale": "Not this time. 音楽を聞いています means listening to music."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-11"
+      ],
+      "prompt": "Which expression states that Rio is AT the park, rather than describing an action there?",
+      "evidence": "公園にいます。ベンチで休んでいます。",
+      "explanation": "公園にいます locates a person. 公園で休んでいます locates an activity. Evidence: 公園にいます。ベンチで休んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q11-v1-c1",
+          "text": "公園で休んでいます。",
+          "rationale": "Not this time. 公園にいます locates a person. 公園で休んでいます locates an activity."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q11-v1-c2",
+          "text": "公園にいます。",
+          "rationale": "Correct. 公園にいます locates a person. 公園で休んでいます locates an activity."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q11-v1-c3",
+          "text": "公園で音楽を聞いています。",
+          "rationale": "Not this time. 公園にいます locates a person. 公園で休んでいます locates an activity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q11-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l02-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l02-word-12"
+      ],
+      "prompt": "What is the natural sentence for 'I am eating lunch at home'?",
+      "evidence": "私は家で昼ごはんを食べています。",
+      "explanation": "家で is the place of eating, 昼ごはんを is the object, and 食べています describes eating now. Evidence: 私は家で昼ごはんを食べています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l02-q12-v1-c1",
+          "text": "私は家を昼ごはんで食べています。",
+          "rationale": "Not this time. 家で is the place of eating, 昼ごはんを is the object, and 食べています describes eating now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q12-v1-c2",
+          "text": "私は家に昼ごはんを食べます。",
+          "rationale": "Not this time. 家で is the place of eating, 昼ごはんを is the object, and 食べています describes eating now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l02-q12-v1-c3",
+          "text": "私は家で昼ごはんを食べています。",
+          "rationale": "Correct. 家で is the place of eating, 昼ごはんを is the object, and 食べています describes eating now."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l02-q12-v1-c3"
+      }
+    }
+  ]
+}
