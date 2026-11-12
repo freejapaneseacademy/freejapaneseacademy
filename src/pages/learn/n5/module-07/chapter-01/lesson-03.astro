@@ -1,0 +1,22 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import LikesGrammarPractice from '../../../../../components/interactive/LikesGrammarPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/likes-strengths-grammar');
+if(!lesson)throw new Error('Missing blueprint lesson n5-m07-c01-l03');
+const {Content}=await render(lesson);
+const lessonId=lesson.data.lessonId??'n5-m07-c01-l03';
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Likes and strengths grammar',href:'/learn/n5/module-07/chapter-01/lesson-03/'}]}>
+ <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Lesson 03</span></nav><span class="eyebrow">N5 · MODULE 07 · CHAPTER 01 · LESSON 03</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Grammar and sentence function</span></div></div></section>
+ <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+ <div class="course-notice">Original academy-authored lesson. Independent Japanese-language and assessment reviews are pending. Not an official JLPT assessment.</div>
+ <div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div>
+ <article class="lesson-article foundation-article"><Content /></article>
+ <LikesGrammarPractice client:load />
+ <div class="foundation-completion"><h2>Finish this lesson</h2><p>Mark completion separately from your recognition score.</p><LessonActions client:load lessonId={lessonId} level="n5" /></div>
+ <div class="lesson-next"><h3>Keep studying</h3><a class="btn btn-outline" href="/learn/n5/module-07/chapter-01/lesson-02/">← Review vocabulary</a><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div>
+ </div><aside class="lesson-side foundation-side"><span class="eyebrow">STUDY GUIDE</span><h3>Likes and strengths</h3><p>Distinguish preference, skill and ability.</p><ol><li>Read the art-club dialogue.</li><li>Compare 好き, 上手 and 下手.</li><li>Practice できます.</li><li>Write a short introduction.</li><li>Complete the recognition check.</li></ol><p>No audio or speaking grade is required for L03.</p></aside></div></section>
+</Base>
