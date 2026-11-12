@@ -1,0 +1,546 @@
+{
+  "id": "n5-m07-c01-chk",
+  "lessonId": "n5-m07-c01-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original chapter hobby profile and L06 hobby interviews; listening unlocks only after verified playable recordings",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-grammar-01"
+      ],
+      "prompt": "Which sentence says 'I like drawing'?",
+      "evidence": "絵を描くのが好きです。",
+      "explanation": "好き expresses preference, not ability or skill.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-01-c1",
+          "text": "絵を描くのが好きです。",
+          "rationale": "Correct. 好き expresses preference, not ability or skill."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-01-c2",
+          "text": "絵を描くのが下手です。",
+          "rationale": "Not supported. 好き expresses preference, not ability or skill."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-01-c3",
+          "text": "絵を描くことができません。",
+          "rationale": "Not supported. 好き expresses preference, not ability or skill."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-grammar-02"
+      ],
+      "prompt": "Which expression means 'I am not good at singing'?",
+      "evidence": "歌があまり上手ではありません。",
+      "explanation": "上手ではありません describes lack of skill; あまり softens the negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-02-c1",
+          "text": "歌が好きです。",
+          "rationale": "Not supported. 上手ではありません describes lack of skill; あまり softens the negative."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-02-c2",
+          "text": "歌があまり上手ではありません。",
+          "rationale": "Correct. 上手ではありません describes lack of skill; あまり softens the negative."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-02-c3",
+          "text": "歌ができます。",
+          "rationale": "Not supported. 上手ではありません describes lack of skill; あまり softens the negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-grammar-03"
+      ],
+      "prompt": "How do you say 'I can play tennis'?",
+      "evidence": "テニスができます。",
+      "explanation": "できます reports ability, without claiming liking or expertise.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-03-c1",
+          "text": "テニスが好きです。",
+          "rationale": "Not supported. できます reports ability, without claiming liking or expertise."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-03-c2",
+          "text": "テニスが下手です。",
+          "rationale": "Not supported. できます reports ability, without claiming liking or expertise."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-03-c3",
+          "text": "テニスができます。",
+          "rationale": "Correct. できます reports ability, without claiming liking or expertise."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-grammar-04"
+      ],
+      "prompt": "Which particle is conventional with 好き?",
+      "evidence": "音楽が好きです。",
+      "explanation": "The liked noun commonly takes が with 好きです.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-04-c1",
+          "text": "が",
+          "rationale": "Correct. The liked noun commonly takes が with 好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-04-c2",
+          "text": "を",
+          "rationale": "Not supported. The liked noun commonly takes が with 好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-04-c3",
+          "text": "に",
+          "rationale": "Not supported. The liked noun commonly takes が with 好きです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-grammar-05"
+      ],
+      "prompt": "Which is the polite negative of 好きです?",
+      "evidence": "スポーツは好きではありません。",
+      "explanation": "好き is a na-adjective; use ではありません, not a verb negative.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-05-c1",
+          "text": "好きません。",
+          "rationale": "Not supported. 好き is a na-adjective; use ではありません, not a verb negative."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-05-c2",
+          "text": "好きではありません。",
+          "rationale": "Correct. 好き is a na-adjective; use ではありません, not a verb negative."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-05-c3",
+          "text": "好きできません。",
+          "rationale": "Not supported. 好き is a na-adjective; use ではありません, not a verb negative."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-grammar-06"
+      ],
+      "prompt": "A friend likes piano but cannot play it. Which sentence is accurate?",
+      "evidence": "ピアノが好きです。でも、弾けません。",
+      "explanation": "Preference does not guarantee ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-06-c1",
+          "text": "ピアノが好きです。でも、弾けません。",
+          "rationale": "Correct. Preference does not guarantee ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-06-c2",
+          "text": "ピアノが上手です。だから、弾けません。",
+          "rationale": "Not supported. Preference does not guarantee ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-06-c3",
+          "text": "ピアノが嫌いです。そして、弾けます。",
+          "rationale": "Not supported. Preference does not guarantee ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-reading-07"
+      ],
+      "prompt": "In the profile, what does Haru like?",
+      "evidence": "春：水泳が好きです。",
+      "explanation": "Haru explicitly says swimming.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-07-c1",
+          "text": "Swimming",
+          "rationale": "Correct. Haru explicitly says swimming."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-07-c2",
+          "text": "Piano",
+          "rationale": "Not supported. Haru explicitly says swimming."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-07-c3",
+          "text": "Cooking",
+          "rationale": "Not supported. Haru explicitly says swimming."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-reading-08"
+      ],
+      "prompt": "According to the profile, what can Haru do?",
+      "evidence": "春：テニスもできます。",
+      "explanation": "も adds tennis to Haru's profile.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-08-c1",
+          "text": "Play guitar",
+          "rationale": "Not supported. も adds tennis to Haru's profile."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-08-c2",
+          "text": "Play tennis",
+          "rationale": "Correct. も adds tennis to Haru's profile."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-08-c3",
+          "text": "Play piano",
+          "rationale": "Not supported. も adds tennis to Haru's profile."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-reading-09"
+      ],
+      "prompt": "What is Mei's skill assessment of drawing?",
+      "evidence": "芽衣：絵を描くのはあまり上手ではありません。",
+      "explanation": "Not very skilled is not the same as unable.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-09-c1",
+          "text": "She is very good",
+          "rationale": "Not supported. Not very skilled is not the same as unable."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-09-c2",
+          "text": "She is not very good",
+          "rationale": "Correct. Not very skilled is not the same as unable."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-09-c3",
+          "text": "She cannot draw at all",
+          "rationale": "Not supported. Not very skilled is not the same as unable."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-reading-10"
+      ],
+      "prompt": "Which ability does Mei explicitly mention?",
+      "evidence": "芽衣：ピアノを弾くことができます。",
+      "explanation": "The ability construction ことができます refers to playing piano.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-10-c1",
+          "text": "Playing piano",
+          "rationale": "Correct. The ability construction ことができます refers to playing piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-10-c2",
+          "text": "Playing guitar",
+          "rationale": "Not supported. The ability construction ことができます refers to playing piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-10-c3",
+          "text": "Swimming",
+          "rationale": "Not supported. The ability construction ことができます refers to playing piano."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-listening-11"
+      ],
+      "prompt": "In interview A, what sport does the speaker like?",
+      "evidence": "水泳が好きです。",
+      "explanation": "The interview explicitly names swimming.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-11-c1",
+          "text": "Swimming",
+          "rationale": "Correct. The interview explicitly names swimming."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-11-c2",
+          "text": "Baseball",
+          "rationale": "Not supported. The interview explicitly names swimming."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-11-c3",
+          "text": "Basketball",
+          "rationale": "Not supported. The interview explicitly names swimming."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-11-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-listening-12"
+      ],
+      "prompt": "In interview A, can the speaker play tennis?",
+      "evidence": "テニスはできますか。はい、できます。",
+      "explanation": "The affirmative answer confirms ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-12-c1",
+          "text": "No",
+          "rationale": "Not supported. The affirmative answer confirms ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-12-c2",
+          "text": "Yes",
+          "rationale": "Correct. The affirmative answer confirms ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-12-c3",
+          "text": "Not stated",
+          "rationale": "Not supported. The affirmative answer confirms ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-listening-13"
+      ],
+      "prompt": "In interview B, what instrument does Yamada like?",
+      "evidence": "ピアノが好きです。",
+      "explanation": "Yamada states a preference for piano.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-13-c1",
+          "text": "Guitar",
+          "rationale": "Not supported. Yamada states a preference for piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-13-c2",
+          "text": "Piano",
+          "rationale": "Correct. Yamada states a preference for piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-13-c3",
+          "text": "Drums",
+          "rationale": "Not supported. Yamada states a preference for piano."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-13-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-chk-listening-14"
+      ],
+      "prompt": "In interview B, can Yamada play guitar?",
+      "evidence": "ギターは弾けません。",
+      "explanation": "弾けません explicitly denies the ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-chk-v1-14-c1",
+          "text": "Yes",
+          "rationale": "Not supported. 弾けません explicitly denies the ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-14-c2",
+          "text": "No",
+          "rationale": "Correct. 弾けません explicitly denies the ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-chk-v1-14-c3",
+          "text": "Not stated",
+          "rationale": "Not supported. 弾けません explicitly denies the ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-chk-v1-14-c2"
+      }
+    }
+  ]
+}
