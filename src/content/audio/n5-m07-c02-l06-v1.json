@@ -1,0 +1,189 @@
+{
+  "lessonId": "n5-m07-c02-l06",
+  "chapterId": "n5-m07-c02",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m07-c02-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m07-c02-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 13.78,
+      "transcript": "女性： 土曜日は何をしたいですか。\n男性： 図書館で日本語の本を読みたいです。\n女性： そうですか。日曜日はどうですか。\n男性： 日曜日は友だちと映画を見に行きます。\n女性： いいですね。",
+      "english": "Woman: What do you want to do on Saturday?\nMan: I want to read a Japanese book at the library.\nWoman: I see. How about Sunday?\nMan: On Sunday, I'm going to see a movie with a friend.\nWoman: That sounds nice.",
+      "scriptPurpose": "Plans for a weekend outing",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-a"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "土曜日は何をしたいですか。",
+          "english": "What do you want to do on Saturday?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.43
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "図書館で日本語の本を読みたいです。",
+          "english": "I want to read a Japanese book at the library.",
+          "startSeconds": 2.71,
+          "endSeconds": 5.44
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "そうですか。日曜日はどうですか。",
+          "english": "I see. How about Sunday?",
+          "startSeconds": 5.72,
+          "endSeconds": 9.0
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "日曜日は友だちと映画を見に行きます。",
+          "english": "On Sunday, I'm going to see a movie with a friend.",
+          "startSeconds": 9.28,
+          "endSeconds": 12.16
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいですね。",
+          "english": "That sounds nice.",
+          "startSeconds": 12.44,
+          "endSeconds": 13.78
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 terms; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "6af0482044ea428a5760b7e13f5788bbc11eb842e5d7c8c000b0acd6a0c8bf0f",
+        "bytes": 1215824,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m07-c02-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m07-c02-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.22,
+      "transcript": "男性： 田中さん、今日は何を買いたいですか。\n女性： 妹の誕生日ですから、新しいかばんがほしいです。\n男性： どこに行きますか。\n女性： 駅の前の店にかばんを買いに行きます。\n男性： 何色がいいですか。\n女性： 青いかばんがいいです。",
+      "english": "Man: Tanaka, what do you want to buy today?\nWoman: It's my younger sister's birthday, so I want a new bag.\nMan: Where are you going?\nWoman: I'm going to the shop in front of the station to buy a bag.\nMan: What color would be good?\nWoman: A blue bag would be good.",
+      "scriptPurpose": "Shopping plans for a birthday",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-b"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "田中さん、今日は何を買いたいですか。",
+          "english": "Tanaka, what do you want to buy today?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.94
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "妹の誕生日ですから、新しいかばんがほしいです。",
+          "english": "It's my younger sister's birthday, so I want a new bag.",
+          "startSeconds": 3.22,
+          "endSeconds": 7.57
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "どこに行きますか。",
+          "english": "Where are you going?",
+          "startSeconds": 7.85,
+          "endSeconds": 9.45
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "駅の前の店にかばんを買いに行きます。",
+          "english": "I'm going to the shop in front of the station to buy a bag.",
+          "startSeconds": 9.73,
+          "endSeconds": 12.9
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "何色がいいですか。",
+          "english": "What color would be good?",
+          "startSeconds": 13.18,
+          "endSeconds": 15.05
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "青いかばんがいいです。",
+          "english": "A blue bag would be good.",
+          "startSeconds": 15.33,
+          "endSeconds": 17.22
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 terms; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "e533ca8fe94939e100604ead71137c04733598ae8ebffe4ea2415768ec0de6c3",
+        "bytes": 1519074,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
