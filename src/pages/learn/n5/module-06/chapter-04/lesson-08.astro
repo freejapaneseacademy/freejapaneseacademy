@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/ActivityRoleplay';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'n5/ongoing-activity-roleplay');
+if (!lesson) throw new Error('Missing n5-m06-c04-l08');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Ongoing activities',href:'/learn/n5/module-06/chapter-04/lesson-08/'}]}>
+ <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 06 · CHAPTER 04 · LESSON 08</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Optional speaking</span></div></div></section>
+ <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+  <div class="course-notice">Original fictional dialogues. Speaking is optional and ungraded; independent Japanese and assessment review pending. Not official JLPT material.</div>
+  <div class="lesson-intro"><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((objective: string) => <li>{objective}</li>)}</ul></div>
+  <article class="lesson-article foundation-article"><Content /></article>
+  <Practice client:load />
+  <div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion is separate from the written quiz score and optional speaking.</p><LessonActions client:load lessonId="n5-m06-c04-l08" level="n5" /></div>
+  <div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a></div>
+ </div><aside class="lesson-side foundation-side"><h3>Speaking strategy</h3><p>Listen to or read the model, switch roles, then replace one activity. There is no microphone requirement.</p><p>Authentic chapter audio belongs to L06; none is claimed on this page.</p></aside></div></section>
+</Base>
