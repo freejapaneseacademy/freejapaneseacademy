@@ -4183,6 +4183,23 @@
       "assessmentReview": "pending - independent assessment review not claimed",
       "audio": "not required for written L04",
       "noindex": false
+    },
+    {
+      "id": "n5-m07-c01-l01",
+      "level": "n5",
+      "moduleId": "n5-m07",
+      "chapterId": "n5-m07-c01",
+      "slot": "L01",
+      "title": "What Do You Like? A Hobby-Club Introduction",
+      "content": "src/content/lessons/n5/likes-strengths-context.mdx",
+      "url": "/learn/n5/module-07/chapter-01/lesson-01/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese-language review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written L01; no audio or pronunciation grade",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
