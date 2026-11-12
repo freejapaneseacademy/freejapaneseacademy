@@ -1,0 +1,31 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import bank from '../../../../../content/exercises/n5-m07-c02-l06.json';
+import job from '../../../../../../scripts/tts/jobs/n5-m07-c02-l06.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/wants-intentions-listening');
+if (!lesson) throw new Error('Missing n5-m07-c02-l06');
+const { Content } = await render(lesson);
+const tracks = job.tracks.map(t => ({
+  id: t.id as 'a' | 'b',
+  assetId: 'audio-n5-m07-c02-l06-' + t.id,
+  label: t.title,
+  url: '/audio/fja-n5-m07-c02-l06-' + t.id + '-v1.wav',
+  durationSeconds: 0,
+  transcript: t.turns.map(turn => (turn.speaker === 'male' ? '男性' : '女性') + '：' + turn.text).join('\n'),
+  english: t.turns.map(turn => (turn.speaker === 'male' ? 'Man' : 'Woman') + ': ' + turn.english).join('\n')
+}));
+---
+<Base title={lesson.data.title} description={lesson.data.description}>
+  <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 07 · CHAPTER 02 · LESSON 06</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Two plans talks · Six questions</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice">Licensed synthetic recordings are pending generation and technical verification. Do not treat this draft as a scored listening release until WAV and manifest checks pass.</div>
+    <div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map(o => <li>{o}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <ReusableListeningPractice client:load lessonId="n5-m07-c02-l06" level="n5" version={1} tracks={tracks} questions={bank.items} />
+    <div class="foundation-completion"><h2>Finish the lesson</h2><p>Review both dialogues and their feedback before marking study complete.</p><LessonActions client:load lessonId="n5-m07-c02-l06" level="n5" /></div>
+  </div><aside class="lesson-side foundation-side"><h2>Listening strategy</h2><p>Listen before reading. Identify what is wanted, then what trip is planned.</p><ol><li>Listen for the day or person.</li><li>Find the desired action or object.</li><li>Check the destination or purpose.</li></ol></aside></div></section>
+</Base>
