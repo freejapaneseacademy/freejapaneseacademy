@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m06-c03-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-01"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which line politely asks someone to help?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ちょっと手伝ってください。",
+          "rationale": "This directly requests help using the て-form plus ください."
+        },
+        {
+          "id": "c2",
+          "text": "ちょっと手伝ってもいいですか。",
+          "rationale": "This asks whether the speaker may help; it does not request another person's help."
+        },
+        {
+          "id": "c3",
+          "text": "ちょっと手伝ってはいけません。",
+          "rationale": "This prohibits helping, the opposite of the intended request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Scene A: This directly requests help using the て-form plus ください."
+    },
+    {
+      "id": "ex-n5-m06-c03-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-02"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which line asks permission to use a pen?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "このペンを使ってください。",
+          "rationale": "This tells someone else to use the pen."
+        },
+        {
+          "id": "c2",
+          "text": "このペンを使ってもいいですか。",
+          "rationale": "The てもいいですか pattern asks whether using the pen is allowed."
+        },
+        {
+          "id": "c3",
+          "text": "このペンを使ってはいけません。",
+          "rationale": "This prohibits using the pen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Scene A: The てもいいですか pattern asks whether using the pen is allowed."
+    },
+    {
+      "id": "ex-n5-m06-c03-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-03"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "In Scene A, what does the classmate allow?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Taking photos inside the hall",
+          "rationale": "Photography is discussed in Scene B, not Scene A."
+        },
+        {
+          "id": "c2",
+          "text": "Eating in the classroom",
+          "rationale": "Eating is not mentioned in Scene A."
+        },
+        {
+          "id": "c3",
+          "text": "Using the pen",
+          "rationale": "はい、使ってもいいですよ explicitly grants permission to use the pen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Scene A: はい、使ってもいいですよ explicitly grants permission to use the pen."
+    },
+    {
+      "id": "ex-n5-m06-c03-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-04"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is prohibited inside the fictional community hall?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Taking photos",
+          "rationale": "ここで写真を撮ってはいけません prohibits taking photos here."
+        },
+        {
+          "id": "c2",
+          "text": "Sitting down",
+          "rationale": "The dialogue says nothing about sitting."
+        },
+        {
+          "id": "c3",
+          "text": "Asking questions",
+          "rationale": "The visitor asks a question; questions are not prohibited."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Scene B: ここで写真を撮ってはいけません prohibits taking photos here."
+    },
+    {
+      "id": "ex-n5-m06-c03-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-05"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which response grants permission to take photos outside?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "外で撮ってはいけません。",
+          "rationale": "This prohibits photos outside, contradicting the staff's answer."
+        },
+        {
+          "id": "c2",
+          "text": "はい、外で撮ってもいいですよ。",
+          "rationale": "The staff explicitly allows taking photos outside."
+        },
+        {
+          "id": "c3",
+          "text": "外で撮ってください。",
+          "rationale": "This is a request to take photos, not a permission grant."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Scene B: The staff explicitly allows taking photos outside."
+    },
+    {
+      "id": "ex-n5-m06-c03-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-06"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which form correctly completes 手伝う → ____ください?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "手伝う",
+          "rationale": "The dictionary form cannot directly precede ください in this request pattern."
+        },
+        {
+          "id": "c2",
+          "text": "手伝い",
+          "rationale": "手伝い is the ます-stem, not the required て-form."
+        },
+        {
+          "id": "c3",
+          "text": "手伝って",
+          "rationale": "手伝って is the correct て-form of 手伝う."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Grammar: 手伝って is the correct て-form of 手伝う."
+    },
+    {
+      "id": "ex-n5-m06-c03-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-07"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence asks rather than commands?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ここに座ってもいいですか。",
+          "rationale": "てもいいですか asks whether sitting here is allowed."
+        },
+        {
+          "id": "c2",
+          "text": "ここに座ってください。",
+          "rationale": "てください requests that someone sit here."
+        },
+        {
+          "id": "c3",
+          "text": "ここに座ってはいけません。",
+          "rationale": "てはいけません prohibits sitting here."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Grammar: てもいいですか asks whether sitting here is allowed."
+    },
+    {
+      "id": "ex-n5-m06-c03-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c03-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-l08-08"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "In the photography dialogue, where are photos explicitly allowed?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Inside the hall",
+          "rationale": "ここで撮ってはいけません prohibits photos inside."
+        },
+        {
+          "id": "c2",
+          "text": "Outside",
+          "rationale": "外で撮ってもいいですよ explicitly permits photos outside."
+        },
+        {
+          "id": "c3",
+          "text": "Nowhere",
+          "rationale": "The staff grants permission outside, so nowhere is unsupported."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Scene B: 外で撮ってもいいですよ explicitly permits photos outside."
+    }
+  ]
+}
