@@ -4200,6 +4200,23 @@
       "audio": "not required for written L05",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m07-c03-l06",
+      "level": "n5",
+      "moduleId": "n5-m07",
+      "chapterId": "n5-m07-c03",
+      "slot": "L06",
+      "title": "Choosing a Café and Picnic Snacks: Listen for Comparisons",
+      "content": "src/content/lessons/n5/comparing-choices-listening.mdx",
+      "url": "/learn/n5/module-07/chapter-03/lesson-06/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "schema-v3 licensed candidate job committed; actual WAVs and manifest pending verification",
+      "ownerSlot": ":15",
+      "ownerTaskId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
