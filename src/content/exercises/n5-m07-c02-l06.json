@@ -1,0 +1,272 @@
+{
+  "id": "n5-m07-c02-l06",
+  "lessonId": "n5-m07-c02-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy-authored fictional plans conversations; licensed WAV generation and technical QA pending",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l06-wants-intentions"
+      ],
+      "trackId": "audio-n5-m07-c02-l06-a",
+      "prompt": "Where does the man want to read on Saturday?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l06-01-c1",
+          "text": "At the library",
+          "rationale": "Correct. He explicitly says he wants to read at the library."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-01-c2",
+          "text": "At the station",
+          "rationale": "Not supported by the recording. He explicitly says he wants to read at the library."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-01-c3",
+          "text": "At home",
+          "rationale": "Not supported by the recording. He explicitly says he wants to read at the library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l06-01-c1"
+      },
+      "evidence": "図書館で日本語の本を読みたいです。",
+      "explanation": "He explicitly says he wants to read at the library.",
+      "feedback": "He explicitly says he wants to read at the library."
+    },
+    {
+      "id": "ex-n5-m07-c02-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l06-wants-intentions"
+      ],
+      "trackId": "audio-n5-m07-c02-l06-a",
+      "prompt": "What does he want to read?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l06-02-c1",
+          "text": "A newspaper",
+          "rationale": "Not supported by the recording. 日本語の本 means a Japanese-language book."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-02-c2",
+          "text": "A Japanese book",
+          "rationale": "Correct. 日本語の本 means a Japanese-language book."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-02-c3",
+          "text": "A menu",
+          "rationale": "Not supported by the recording. 日本語の本 means a Japanese-language book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l06-02-c2"
+      },
+      "evidence": "日本語の本を読みたいです。",
+      "explanation": "日本語の本 means a Japanese-language book.",
+      "feedback": "日本語の本 means a Japanese-language book."
+    },
+    {
+      "id": "ex-n5-m07-c02-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l06-wants-intentions"
+      ],
+      "trackId": "audio-n5-m07-c02-l06-a",
+      "prompt": "What will he do on Sunday?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l06-03-c1",
+          "text": "Buy a bag",
+          "rationale": "Not supported by the recording. He says he will go to see a movie with a friend."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-03-c2",
+          "text": "Study at school",
+          "rationale": "Not supported by the recording. He says he will go to see a movie with a friend."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-03-c3",
+          "text": "Go to see a movie",
+          "rationale": "Correct. He says he will go to see a movie with a friend."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l06-03-c3"
+      },
+      "evidence": "日曜日は友だちと映画を見に行きます。",
+      "explanation": "He says he will go to see a movie with a friend.",
+      "feedback": "He says he will go to see a movie with a friend."
+    },
+    {
+      "id": "ex-n5-m07-c02-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l06-wants-intentions"
+      ],
+      "trackId": "audio-n5-m07-c02-l06-b",
+      "prompt": "Whose birthday is it?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l06-04-c1",
+          "text": "Tanaka's younger sister's",
+          "rationale": "Correct. 妹 means younger sister; the speaker is Tanaka."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-04-c2",
+          "text": "Tanaka's mother's",
+          "rationale": "Not supported by the recording. 妹 means younger sister; the speaker is Tanaka."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-04-c3",
+          "text": "The man's",
+          "rationale": "Not supported by the recording. 妹 means younger sister; the speaker is Tanaka."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l06-04-c1"
+      },
+      "evidence": "妹の誕生日ですから",
+      "explanation": "妹 means younger sister; the speaker is Tanaka.",
+      "feedback": "妹 means younger sister; the speaker is Tanaka."
+    },
+    {
+      "id": "ex-n5-m07-c02-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l06-wants-intentions"
+      ],
+      "trackId": "audio-n5-m07-c02-l06-b",
+      "prompt": "Where will Tanaka buy the bag?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l06-05-c1",
+          "text": "At the library",
+          "rationale": "Not supported by the recording. She names the shop in front of the station."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-05-c2",
+          "text": "At the shop in front of the station",
+          "rationale": "Correct. She names the shop in front of the station."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-05-c3",
+          "text": "At a cinema",
+          "rationale": "Not supported by the recording. She names the shop in front of the station."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l06-05-c2"
+      },
+      "evidence": "駅の前の店にかばんを買いに行きます。",
+      "explanation": "She names the shop in front of the station.",
+      "feedback": "She names the shop in front of the station."
+    },
+    {
+      "id": "ex-n5-m07-c02-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l06-wants-intentions"
+      ],
+      "trackId": "audio-n5-m07-c02-l06-b",
+      "prompt": "What color bag does Tanaka prefer?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l06-06-c1",
+          "text": "Red",
+          "rationale": "Not supported by the recording. 青い means blue."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-06-c2",
+          "text": "White",
+          "rationale": "Not supported by the recording. 青い means blue."
+        },
+        {
+          "id": "ex-n5-m07-c02-l06-06-c3",
+          "text": "Blue",
+          "rationale": "Correct. 青い means blue."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l06-06-c3"
+      },
+      "evidence": "青いかばんがいいです。",
+      "explanation": "青い means blue.",
+      "feedback": "青い means blue."
+    }
+  ]
+}
