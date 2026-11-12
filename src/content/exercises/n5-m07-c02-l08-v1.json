@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c02-l08",
+  "lessonId": "n5-m07-c02-l08",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original optional plans roleplay scenes in wants-plans-roleplay.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l08-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-01"
+      ],
+      "prompt": "What answers 週末は何をしたいですか。?",
+      "evidence": "週末は何をしたいですか。",
+      "explanation": "The question asks for an action; 見たいです expresses wanting to watch.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q01-v1-c1",
+          "text": "映画を見たいです。",
+          "rationale": "Correct. The question asks for an action; 見たいです expresses wanting to watch."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q01-v1-c2",
+          "text": "新しい本がほしいです。",
+          "rationale": "Not quite. The question asks for an action; 見たいです expresses wanting to watch."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q01-v1-c3",
+          "text": "図書館です。",
+          "rationale": "Not quite. The question asks for an action; 見たいです expresses wanting to watch."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-02"
+      ],
+      "prompt": "Which sentence means 'I want a new book'?",
+      "evidence": "新しい本がほしいです。",
+      "explanation": "A desired object takes がほしいです; reading is a separate action.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q02-v1-c1",
+          "text": "新しい本を読みます。",
+          "rationale": "Not quite. A desired object takes がほしいです; reading is a separate action."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q02-v1-c2",
+          "text": "新しい本がほしいです。",
+          "rationale": "Correct. A desired object takes がほしいです; reading is a separate action."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q02-v1-c3",
+          "text": "新しい本に行きます。",
+          "rationale": "Not quite. A desired object takes がほしいです; reading is a separate action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q02-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-03"
+      ],
+      "prompt": "What does 本屋に行きたいです mean?",
+      "evidence": "本屋に行きたいです。",
+      "explanation": "行きたい expresses a wish to go, with に marking the destination.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q03-v1-c1",
+          "text": "I am at a bookstore now.",
+          "rationale": "Not quite. 行きたい expresses a wish to go, with に marking the destination."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q03-v1-c2",
+          "text": "I want to buy a bookstore.",
+          "rationale": "Not quite. 行きたい expresses a wish to go, with に marking the destination."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q03-v1-c3",
+          "text": "I want to go to a bookstore.",
+          "rationale": "Correct. 行きたい expresses a wish to go, with に marking the destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q03-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-04"
+      ],
+      "prompt": "Which response answers 何かほしいですか?",
+      "evidence": "日本語の本がほしいです。",
+      "explanation": "ほしい asks what object is wanted.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q04-v1-c1",
+          "text": "日本語の本がほしいです。",
+          "rationale": "Correct. ほしい asks what object is wanted."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q04-v1-c2",
+          "text": "映画を見たいです。",
+          "rationale": "Not quite. ほしい asks what object is wanted."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q04-v1-c3",
+          "text": "公園に行きます。",
+          "rationale": "Not quite. ほしい asks what object is wanted."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-05"
+      ],
+      "prompt": "Which sentence states a trip rather than merely wishing for one?",
+      "evidence": "図書館に行きます。",
+      "explanation": "行きます states going; 行きたいです expresses a wish.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q05-v1-c1",
+          "text": "図書館に行きたいです。",
+          "rationale": "Not quite. 行きます states going; 行きたいです expresses a wish."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q05-v1-c2",
+          "text": "図書館に行きます。",
+          "rationale": "Correct. 行きます states going; 行きたいです expresses a wish."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q05-v1-c3",
+          "text": "図書館がほしいです。",
+          "rationale": "Not quite. 行きます states going; 行きたいです expresses a wish."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q05-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-06"
+      ],
+      "prompt": "In 公園で写真を撮りたいです, what does で mark?",
+      "evidence": "公園で写真を撮りたいです。",
+      "explanation": "で marks the place where taking photos happens.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q06-v1-c1",
+          "text": "The photographed thing",
+          "rationale": "Not quite. で marks the place where taking photos happens."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q06-v1-c2",
+          "text": "The destination of movement",
+          "rationale": "Not quite. で marks the place where taking photos happens."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q06-v1-c3",
+          "text": "The place of the activity",
+          "rationale": "Correct. で marks the place where taking photos happens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q06-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-07"
+      ],
+      "prompt": "Choose a polite invitation to go together.",
+      "evidence": "いっしょに行きませんか。",
+      "explanation": "〜ませんか politely invites another person.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q07-v1-c1",
+          "text": "いっしょに行きませんか。",
+          "rationale": "Correct. 〜ませんか politely invites another person."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q07-v1-c2",
+          "text": "いっしょに行きたいです。",
+          "rationale": "Not quite. 〜ませんか politely invites another person."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q07-v1-c3",
+          "text": "いっしょに行きません。",
+          "rationale": "Not quite. 〜ませんか politely invites another person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-08"
+      ],
+      "prompt": "What does そのあと mean in Scene B?",
+      "evidence": "そのあと、カフェに行きましょう。",
+      "explanation": "そのあと places the café visit after the park.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q08-v1-c1",
+          "text": "Before that",
+          "rationale": "Not quite. そのあと places the café visit after the park."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q08-v1-c2",
+          "text": "After that",
+          "rationale": "Correct. そのあと places the café visit after the park."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q08-v1-c3",
+          "text": "Instead of that",
+          "rationale": "Not quite. そのあと places the café visit after the park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q08-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-09"
+      ],
+      "prompt": "Which sentence means 'I want to drink tea'?",
+      "evidence": "お茶を飲みたいです。",
+      "explanation": "Drinking is an action, so use を飲みたいです.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q09-v1-c1",
+          "text": "お茶がほしいです。",
+          "rationale": "Not quite. Drinking is an action, so use を飲みたいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q09-v1-c2",
+          "text": "お茶に行きたいです。",
+          "rationale": "Not quite. Drinking is an action, so use を飲みたいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q09-v1-c3",
+          "text": "お茶を飲みたいです。",
+          "rationale": "Correct. Drinking is an action, so use を飲みたいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q09-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-10"
+      ],
+      "prompt": "Which particle marks the destination in 公園に行きます?",
+      "evidence": "公園に行きます。",
+      "explanation": "に follows the destination of 行きます.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q10-v1-c1",
+          "text": "に",
+          "rationale": "Correct. に follows the destination of 行きます."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q10-v1-c2",
+          "text": "を",
+          "rationale": "Not quite. に follows the destination of 行きます."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q10-v1-c3",
+          "text": "で",
+          "rationale": "Not quite. に follows the destination of 行きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-11"
+      ],
+      "prompt": "What does いいですね communicate when accepting the park idea?",
+      "evidence": "いいですね。",
+      "explanation": "いいですね is a positive response to the suggestion.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q11-v1-c1",
+          "text": "I do not want it.",
+          "rationale": "Not quite. いいですね is a positive response to the suggestion."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q11-v1-c2",
+          "text": "That sounds good.",
+          "rationale": "Correct. いいですね is a positive response to the suggestion."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q11-v1-c3",
+          "text": "I already went there.",
+          "rationale": "Not quite. いいですね is a positive response to the suggestion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q11-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l08-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l08-pattern-12"
+      ],
+      "prompt": "Which sentence means 'I want to study Japanese'?",
+      "evidence": "日本語を勉強したいです。",
+      "explanation": "勉強したい expresses the desire to study.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l08-q12-v1-c1",
+          "text": "日本語がほしいです。",
+          "rationale": "Not quite. 勉強したい expresses the desire to study."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q12-v1-c2",
+          "text": "日本語に勉強します。",
+          "rationale": "Not quite. 勉強したい expresses the desire to study."
+        },
+        {
+          "id": "ex-n5-m07-c02-l08-q12-v1-c3",
+          "text": "日本語を勉強したいです。",
+          "rationale": "Correct. 勉強したい expresses the desire to study."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l08-q12-v1-c3"
+      }
+    }
+  ]
+}
