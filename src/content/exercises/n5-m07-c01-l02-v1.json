@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c01-l02",
+  "lessonId": "n5-m07-c01-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional club introductions and hobby-card exchange in hobbies-and-skills-vocabulary.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l02-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-01"
+      ],
+      "prompt": "What does 読書（どくしょ） mean as a hobby?",
+      "evidence": "読書が好きです。",
+      "explanation": "読書 is reading as an activity, not the verb for reading one book.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q01-v1-c1",
+          "text": "Reading",
+          "rationale": "Correct. 読書 is reading as an activity, not the verb for reading one book."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q01-v1-c2",
+          "text": "Swimming",
+          "rationale": "Not quite. 読書 is reading as an activity, not the verb for reading one book."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q01-v1-c3",
+          "text": "Cooking",
+          "rationale": "Not quite. 読書 is reading as an activity, not the verb for reading one book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-02"
+      ],
+      "prompt": "Which expression says 'I like music'?",
+      "evidence": "音楽が好きです。",
+      "explanation": "好き takes が in this introductory preference pattern.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q02-v1-c1",
+          "text": "音楽を好きます。",
+          "rationale": "Not quite. 好き takes が in this introductory preference pattern."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q02-v1-c2",
+          "text": "音楽が好きです。",
+          "rationale": "Correct. 好き takes が in this introductory preference pattern."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q02-v1-c3",
+          "text": "音楽をできます。",
+          "rationale": "Not quite. 好き takes が in this introductory preference pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q02-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-03"
+      ],
+      "prompt": "What is 水泳（すいえい）?",
+      "evidence": "水泳が好きです。",
+      "explanation": "水泳 means swimming; it is a hobby or sport.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q03-v1-c1",
+          "text": "Photography",
+          "rationale": "Not quite. 水泳 means swimming; it is a hobby or sport."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q03-v1-c2",
+          "text": "Film",
+          "rationale": "Not quite. 水泳 means swimming; it is a hobby or sport."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q03-v1-c3",
+          "text": "Swimming",
+          "rationale": "Correct. 水泳 means swimming; it is a hobby or sport."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q03-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-04"
+      ],
+      "prompt": "Aki likes singing but says she is not very good. Which phrase expresses that?",
+      "evidence": "歌はあまり上手じゃありません。",
+      "explanation": "あまり上手じゃありません means not very good at it.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q04-v1-c1",
+          "text": "歌はあまり上手じゃありません。",
+          "rationale": "Correct. あまり上手じゃありません means not very good at it."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q04-v1-c2",
+          "text": "歌が大好きで上手です。",
+          "rationale": "Not quite. あまり上手じゃありません means not very good at it."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q04-v1-c3",
+          "text": "歌を撮ります。",
+          "rationale": "Not quite. あまり上手じゃありません means not very good at it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-05"
+      ],
+      "prompt": "Which noun refers to cooking?",
+      "evidence": "料理をします。",
+      "explanation": "料理 refers to cooking or cuisine, depending on context.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q05-v1-c1",
+          "text": "読書",
+          "rationale": "Not quite. 料理 refers to cooking or cuisine, depending on context."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q05-v1-c2",
+          "text": "料理",
+          "rationale": "Correct. 料理 refers to cooking or cuisine, depending on context."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q05-v1-c3",
+          "text": "映画",
+          "rationale": "Not quite. 料理 refers to cooking or cuisine, depending on context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q05-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-06"
+      ],
+      "prompt": "What does ピアノが少しできます mean?",
+      "evidence": "ピアノが少しできます。",
+      "explanation": "少しできます states limited ability, not mastery or liking.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q06-v1-c1",
+          "text": "I dislike the piano.",
+          "rationale": "Not quite. 少しできます states limited ability, not mastery or liking."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q06-v1-c2",
+          "text": "I own a piano.",
+          "rationale": "Not quite. 少しできます states limited ability, not mastery or liking."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q06-v1-c3",
+          "text": "I can play a little piano.",
+          "rationale": "Correct. 少しできます states limited ability, not mastery or liking."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q06-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-07"
+      ],
+      "prompt": "Which phrase means 'I don't particularly like cooking'?",
+      "evidence": "料理はあまり好きじゃありません。",
+      "explanation": "あまり combines with a negative to express not particularly.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q07-v1-c1",
+          "text": "料理はあまり好きじゃありません。",
+          "rationale": "Correct. あまり combines with a negative to express not particularly."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q07-v1-c2",
+          "text": "料理がとても好きです。",
+          "rationale": "Not quite. あまり combines with a negative to express not particularly."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q07-v1-c3",
+          "text": "料理が上手です。",
+          "rationale": "Not quite. あまり combines with a negative to express not particularly."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-08"
+      ],
+      "prompt": "What is the natural action phrase for taking photos?",
+      "evidence": "写真を撮ります。",
+      "explanation": "写真を撮ります means take photographs; 写真 itself means photo.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q08-v1-c1",
+          "text": "写真を読みます。",
+          "rationale": "Not quite. 写真を撮ります means take photographs; 写真 itself means photo."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q08-v1-c2",
+          "text": "写真を撮ります。",
+          "rationale": "Correct. 写真を撮ります means take photographs; 写真 itself means photo."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q08-v1-c3",
+          "text": "写真ができます。",
+          "rationale": "Not quite. 写真を撮ります means take photographs; 写真 itself means photo."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q08-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-09"
+      ],
+      "prompt": "Which expression refers to films?",
+      "evidence": "映画も好きです。",
+      "explanation": "映画 means film or movie.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q09-v1-c1",
+          "text": "絵",
+          "rationale": "Not quite. 映画 means film or movie."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q09-v1-c2",
+          "text": "歌",
+          "rationale": "Not quite. 映画 means film or movie."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q09-v1-c3",
+          "text": "映画",
+          "rationale": "Correct. 映画 means film or movie."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q09-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-10"
+      ],
+      "prompt": "Sora likes swimming but does not claim skill. Which statement fits?",
+      "evidence": "水泳が好きです。でも、あまり上手じゃありません。",
+      "explanation": "好き describes enjoyment; 上手 describes ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q10-v1-c1",
+          "text": "水泳が好きです。でも、あまり上手じゃありません。",
+          "rationale": "Correct. 好き describes enjoyment; 上手 describes ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q10-v1-c2",
+          "text": "水泳が嫌いです。とても上手です。",
+          "rationale": "Not quite. 好き describes enjoyment; 上手 describes ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q10-v1-c3",
+          "text": "水泳を映画です。",
+          "rationale": "Not quite. 好き describes enjoyment; 上手 describes ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-11"
+      ],
+      "prompt": "Which word means a picture or drawing?",
+      "evidence": "絵を描きます。",
+      "explanation": "絵 means a picture; 絵を描きます means draw pictures.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q11-v1-c1",
+          "text": "音楽",
+          "rationale": "Not quite. 絵 means a picture; 絵を描きます means draw pictures."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q11-v1-c2",
+          "text": "絵",
+          "rationale": "Correct. 絵 means a picture; 絵を描きます means draw pictures."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q11-v1-c3",
+          "text": "読書",
+          "rationale": "Not quite. 絵 means a picture; 絵を描きます means draw pictures."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q11-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l02-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l02-word-12"
+      ],
+      "prompt": "Which statement best describes the difference between 好き and 上手?",
+      "evidence": "私は音楽が好きです。でも、歌はあまり上手じゃありません。",
+      "explanation": "A person can like an activity without being skilled at it.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l02-q12-v1-c1",
+          "text": "Both always mean expert.",
+          "rationale": "Not quite. A person can like an activity without being skilled at it."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q12-v1-c2",
+          "text": "好き is an action verb.",
+          "rationale": "Not quite. A person can like an activity without being skilled at it."
+        },
+        {
+          "id": "ex-n5-m07-c01-l02-q12-v1-c3",
+          "text": "好き expresses preference; 上手 describes skill.",
+          "rationale": "Correct. A person can like an activity without being skilled at it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l02-q12-v1-c3"
+      }
+    }
+  ]
+}
