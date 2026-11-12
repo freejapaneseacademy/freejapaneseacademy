@@ -1,0 +1,272 @@
+{
+  "id": "n5-m07-c01-l06",
+  "lessonId": "n5-m07-c01-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy-authored fictional hobby interviews; audio pending licensed WAV and QA manifest",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l06-likes-ability"
+      ],
+      "trackId": "audio-n5-m07-c01-l06-a",
+      "prompt": "Which sport does the man like?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l06-01-c1",
+          "text": "Swimming",
+          "rationale": "Correct. He explicitly says he likes swimming."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-01-c2",
+          "text": "Baseball",
+          "rationale": "Not supported by the recording. He explicitly says he likes swimming."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-01-c3",
+          "text": "Basketball",
+          "rationale": "Not supported by the recording. He explicitly says he likes swimming."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l06-01-c1"
+      },
+      "evidence": "水泳が好きです。",
+      "explanation": "He explicitly says he likes swimming.",
+      "feedback": "He explicitly says he likes swimming."
+    },
+    {
+      "id": "ex-n5-m07-c01-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l06-likes-ability"
+      ],
+      "trackId": "audio-n5-m07-c01-l06-a",
+      "prompt": "How well does he swim?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l06-02-c1",
+          "text": "He is an expert",
+          "rationale": "Not supported by the recording. He says he is not very good at swimming; liking something does not mean being skilled."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-02-c2",
+          "text": "He is not very good",
+          "rationale": "Correct. He says he is not very good at swimming; liking something does not mean being skilled."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-02-c3",
+          "text": "He cannot enter a pool",
+          "rationale": "Not supported by the recording. He says he is not very good at swimming; liking something does not mean being skilled."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l06-02-c2"
+      },
+      "evidence": "泳ぐのはあまり上手ではありません。",
+      "explanation": "He says he is not very good at swimming; liking something does not mean being skilled.",
+      "feedback": "He says he is not very good at swimming; liking something does not mean being skilled."
+    },
+    {
+      "id": "ex-n5-m07-c01-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l06-likes-ability"
+      ],
+      "trackId": "audio-n5-m07-c01-l06-a",
+      "prompt": "Can he play tennis?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l06-03-c1",
+          "text": "Yes",
+          "rationale": "Correct. He answers yes to テニスはできますか."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-03-c2",
+          "text": "No",
+          "rationale": "Not supported by the recording. He answers yes to テニスはできますか."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-03-c3",
+          "text": "He does not answer",
+          "rationale": "Not supported by the recording. He answers yes to テニスはできますか."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l06-03-c1"
+      },
+      "evidence": "はい、できます。",
+      "explanation": "He answers yes to テニスはできますか.",
+      "feedback": "He answers yes to テニスはできますか."
+    },
+    {
+      "id": "ex-n5-m07-c01-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l06-likes-ability"
+      ],
+      "trackId": "audio-n5-m07-c01-l06-b",
+      "prompt": "What instrument does Yamada like?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l06-04-c1",
+          "text": "Guitar",
+          "rationale": "Not supported by the recording. Yamada says she likes piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-04-c2",
+          "text": "Piano",
+          "rationale": "Correct. Yamada says she likes piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-04-c3",
+          "text": "Drums",
+          "rationale": "Not supported by the recording. Yamada says she likes piano."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l06-04-c2"
+      },
+      "evidence": "ピアノが好きです。",
+      "explanation": "Yamada says she likes piano.",
+      "feedback": "Yamada says she likes piano."
+    },
+    {
+      "id": "ex-n5-m07-c01-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l06-likes-ability"
+      ],
+      "trackId": "audio-n5-m07-c01-l06-b",
+      "prompt": "Can Yamada play guitar?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l06-05-c1",
+          "text": "Yes",
+          "rationale": "Not supported by the recording. She says she cannot play guitar."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-05-c2",
+          "text": "No",
+          "rationale": "Correct. She says she cannot play guitar."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-05-c3",
+          "text": "She has never tried",
+          "rationale": "Not supported by the recording. She says she cannot play guitar."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l06-05-c2"
+      },
+      "evidence": "ギターは弾けません。",
+      "explanation": "She says she cannot play guitar.",
+      "feedback": "She says she cannot play guitar."
+    },
+    {
+      "id": "ex-n5-m07-c01-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l06-likes-ability"
+      ],
+      "trackId": "audio-n5-m07-c01-l06-b",
+      "prompt": "What else can Yamada do?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l06-06-c1",
+          "text": "Draw pictures",
+          "rationale": "Correct. She says she can draw pictures."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-06-c2",
+          "text": "Swim",
+          "rationale": "Not supported by the recording. She says she can draw pictures."
+        },
+        {
+          "id": "ex-n5-m07-c01-l06-06-c3",
+          "text": "Cook",
+          "rationale": "Not supported by the recording. She says she can draw pictures."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l06-06-c1"
+      },
+      "evidence": "絵を描くことができます。",
+      "explanation": "She says she can draw pictures.",
+      "feedback": "She says she can draw pictures."
+    }
+  ]
+}
