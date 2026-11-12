@@ -4200,6 +4200,23 @@
       "audio": "not required for written L05",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m06-c04-chk",
+      "level": "n5",
+      "moduleId": "n5-m06",
+      "chapterId": "n5-m06-c04",
+      "slot": "CHK",
+      "title": "Ongoing activities — chapter checkpoint",
+      "content": "src/content/lessons/n5/ongoing-activities-chapter-checkpoint.mdx",
+      "url": "/learn/n5/module-06/chapter-04/checkpoint/",
+      "status": "draft",
+      "noindex": true,
+      "humanJapaneseReview": "pending — independent qualified Japanese review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "not required for written checkpoint; separate L06 listening",
+      "ownerSlot": ":30",
+      "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
