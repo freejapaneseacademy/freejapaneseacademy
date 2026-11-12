@@ -1,0 +1,326 @@
+{
+  "id": "n5-m07-c02-l04",
+  "lessonId": "n5-m07-c02-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional wish-list notes in wish-list-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-01"
+      ],
+      "prompt": "Which character in Aya's note means 'book'?",
+      "evidence": "本がほしいです。",
+      "explanation": "本（ほん） means book. Aya wants a book. Evidence: 本がほしいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-01-c1",
+          "text": "本",
+          "rationale": "Correct. 本（ほん） means book. Aya wants a book."
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-01-c2",
+          "text": "山",
+          "rationale": "Review the written evidence: 本がほしいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-01-c3",
+          "text": "店",
+          "rationale": "Review the written evidence: 本がほしいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-02"
+      ],
+      "prompt": "How is 行きたいです read?",
+      "evidence": "本屋に行きたいです。",
+      "explanation": "行きたいです is read いきたいです and means want to go. Evidence: 本屋に行きたいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-02-c1",
+          "text": "かいたいです",
+          "rationale": "Review the written evidence: 本屋に行きたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-02-c2",
+          "text": "いきたいです",
+          "rationale": "Correct. 行きたいです is read いきたいです and means want to go."
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-02-c3",
+          "text": "みたいです",
+          "rationale": "Review the written evidence: 本屋に行きたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-03"
+      ],
+      "prompt": "Which character means mountain in Taku's note?",
+      "evidence": "山に行きたいです。",
+      "explanation": "山（やま） means mountain; 山に marks the destination. Evidence: 山に行きたいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-03-c1",
+          "text": "見",
+          "rationale": "Review the written evidence: 山に行きたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-03-c2",
+          "text": "山",
+          "rationale": "Correct. 山（やま） means mountain; 山に marks the destination."
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-03-c3",
+          "text": "買",
+          "rationale": "Review the written evidence: 山に行きたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-04"
+      ],
+      "prompt": "What does 店（みせ） mean in Mina's note?",
+      "evidence": "店でかばんを見たいです。",
+      "explanation": "店（みせ） means shop; 店で marks the place of looking. Evidence: 店でかばんを見たいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-04-c1",
+          "text": "book",
+          "rationale": "Review the written evidence: 店でかばんを見たいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-04-c2",
+          "text": "shop",
+          "rationale": "Correct. 店（みせ） means shop; 店で marks the place of looking."
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-04-c3",
+          "text": "mountain",
+          "rationale": "Review the written evidence: 店でかばんを見たいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-05"
+      ],
+      "prompt": "Which expression means 'want to look'?",
+      "evidence": "かばんを見たいです。",
+      "explanation": "見たいです comes from 見る and means want to look or see. Evidence: かばんを見たいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-05-c1",
+          "text": "買いたいです",
+          "rationale": "Review the written evidence: かばんを見たいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-05-c2",
+          "text": "行きたいです",
+          "rationale": "Review the written evidence: かばんを見たいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-05-c3",
+          "text": "見たいです",
+          "rationale": "Correct. 見たいです comes from 見る and means want to look or see."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-06"
+      ],
+      "prompt": "What does 買いたくないです mean?",
+      "evidence": "今は買いたくないです。",
+      "explanation": "買いたくないです is a negative wish: do not want to buy. Evidence: 今は買いたくないです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-06-c1",
+          "text": "do not want to buy",
+          "rationale": "Correct. 買いたくないです is a negative wish: do not want to buy."
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-06-c2",
+          "text": "must not buy",
+          "rationale": "Review the written evidence: 今は買いたくないです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-06-c3",
+          "text": "already bought",
+          "rationale": "Review the written evidence: 今は買いたくないです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-07"
+      ],
+      "prompt": "Which sentence correctly says 'I want a book'?",
+      "evidence": "本がほしいです。",
+      "explanation": "The beginner noun-desire pattern is noun + がほしいです. Evidence: 本がほしいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-07-c1",
+          "text": "本をほしいです。",
+          "rationale": "Review the written evidence: 本がほしいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-07-c2",
+          "text": "本がほしいです。",
+          "rationale": "Correct. The beginner noun-desire pattern is noun + がほしいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-07-c3",
+          "text": "本にほしいです。",
+          "rationale": "Review the written evidence: 本がほしいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l04-kanji-08"
+      ],
+      "prompt": "Which sentence correctly says 'I want to go to the mountains'?",
+      "evidence": "山に行きたいです。",
+      "explanation": "Destination 山 takes に with 行きたいです. Evidence: 山に行きたいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l04-08-c1",
+          "text": "山を行きたいです。",
+          "rationale": "Review the written evidence: 山に行きたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-08-c2",
+          "text": "山で行きたいです。",
+          "rationale": "Review the written evidence: 山に行きたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l04-08-c3",
+          "text": "山に行きたいです。",
+          "rationale": "Correct. Destination 山 takes に with 行きたいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l04-08-c3"
+      }
+    }
+  ]
+}
