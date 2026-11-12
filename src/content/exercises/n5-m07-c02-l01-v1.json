@@ -1,0 +1,326 @@
+{
+  "id": "n5-m07-c02-l01",
+  "lessonId": "n5-m07-c02-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional weekend-plan conversation and mini-exchanges in wants-intentions-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-01"
+      ],
+      "prompt": "Who are the two speakers?",
+      "evidence": "みな and そうた",
+      "explanation": "The scene explicitly introduces friends みな and そうた. Evidence: みな and そうた",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-01-c1",
+          "text": "a librarian and a customer",
+          "rationale": "Not this one. Compare with the exact evidence: みな and そうた"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-01-c2",
+          "text": "みな and そうた",
+          "rationale": "Correct. The scene explicitly introduces friends みな and そうた."
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-01-c3",
+          "text": "two workshop teachers",
+          "rationale": "Not this one. Compare with the exact evidence: みな and そうた"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-01-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-02"
+      ],
+      "prompt": "What does Sota want to obtain?",
+      "evidence": "新しい本がほしいです。",
+      "explanation": "新しい本がほしいです means Sota wants a new book. Evidence: 新しい本がほしいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-02-c1",
+          "text": "a new book",
+          "rationale": "Correct. 新しい本がほしいです means Sota wants a new book."
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-02-c2",
+          "text": "a paintbrush",
+          "rationale": "Not this one. Compare with the exact evidence: 新しい本がほしいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-02-c3",
+          "text": "a ticket to a movie",
+          "rationale": "Not this one. Compare with the exact evidence: 新しい本がほしいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-02-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-03"
+      ],
+      "prompt": "What does Mina want to do?",
+      "evidence": "絵を描きたいです。",
+      "explanation": "絵を描きたいです expresses a wish to draw. Evidence: 絵を描きたいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-03-c1",
+          "text": "buy a book",
+          "rationale": "Not this one. Compare with the exact evidence: 絵を描きたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-03-c2",
+          "text": "draw a picture",
+          "rationale": "Correct. 絵を描きたいです expresses a wish to draw."
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-03-c3",
+          "text": "drink tea",
+          "rationale": "Not this one. Compare with the exact evidence: 絵を描きたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-04"
+      ],
+      "prompt": "Where does Mina say she is going?",
+      "evidence": "午後、ワークショップに行きます。",
+      "explanation": "午後、ワークショップに行きます states her destination. Evidence: 午後、ワークショップに行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-04-c1",
+          "text": "a book fair",
+          "rationale": "Not this one. Compare with the exact evidence: 午後、ワークショップに行きます。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-04-c2",
+          "text": "a library",
+          "rationale": "Not this one. Compare with the exact evidence: 午後、ワークショップに行きます。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-04-c3",
+          "text": "a workshop",
+          "rationale": "Correct. 午後、ワークショップに行きます states her destination."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-04-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-05"
+      ],
+      "prompt": "Which form expresses wanting an item?",
+      "evidence": "本がほしいです。",
+      "explanation": "N がほしいです expresses wanting a noun or item. Evidence: 本がほしいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-05-c1",
+          "text": "本がほしいです",
+          "rationale": "Correct. N がほしいです expresses wanting a noun or item."
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-05-c2",
+          "text": "本を読みたいです",
+          "rationale": "Not this one. Compare with the exact evidence: 本がほしいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-05-c3",
+          "text": "本を読みます",
+          "rationale": "Not this one. Compare with the exact evidence: 本がほしいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-06"
+      ],
+      "prompt": "Which sentence expresses a desired action?",
+      "evidence": "映画を見たいです。",
+      "explanation": "見たいです is the wish to watch; 見ます only states an action. Evidence: 映画を見たいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-06-c1",
+          "text": "映画がほしいです",
+          "rationale": "Not this one. Compare with the exact evidence: 映画を見たいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-06-c2",
+          "text": "映画を見たいです",
+          "rationale": "Correct. 見たいです is the wish to watch; 見ます only states an action."
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-06-c3",
+          "text": "映画を見ます",
+          "rationale": "Not this one. Compare with the exact evidence: 映画を見たいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-07"
+      ],
+      "prompt": "What does ワークショップに mark here?",
+      "evidence": "ワークショップに行きます。",
+      "explanation": "The に after ワークショップ marks where Mina is going. Evidence: ワークショップに行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-07-c1",
+          "text": "a past event",
+          "rationale": "Not this one. Compare with the exact evidence: ワークショップに行きます。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-07-c2",
+          "text": "an object of desire",
+          "rationale": "Not this one. Compare with the exact evidence: ワークショップに行きます。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-07-c3",
+          "text": "a destination",
+          "rationale": "Correct. The に after ワークショップ marks where Mina is going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l01-meaning-08"
+      ],
+      "prompt": "What is the difference between 行きたいです and 行きます?",
+      "evidence": "本の市に行きたいです。／ワークショップに行きます。",
+      "explanation": "行きたいです expresses wanting to go; 行きます states going or a plan. Evidence: 本の市に行きたいです。／ワークショップに行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l01-08-c1",
+          "text": "wish versus stated plan",
+          "rationale": "Correct. 行きたいです expresses wanting to go; 行きます states going or a plan."
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-08-c2",
+          "text": "past versus future",
+          "rationale": "Not this one. Compare with the exact evidence: 本の市に行きたいです。／ワークショップに行きます。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l01-08-c3",
+          "text": "item versus person",
+          "rationale": "Not this one. Compare with the exact evidence: 本の市に行きたいです。／ワークショップに行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l01-08-c1"
+      }
+    }
+  ]
+}
