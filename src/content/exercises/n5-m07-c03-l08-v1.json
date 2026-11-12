@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c03-l08",
+  "lessonId": "n5-m07-c03-l08",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional comparison roleplay in comparison-choice-roleplay.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l08-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-01"
+      ],
+      "prompt": "Which asks which place is quieter?",
+      "evidence": "図書館とカフェと、どちらが静かですか。",
+      "explanation": "どちら asks which of two places; 静か means quiet.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q01-v1-c1",
+          "text": "図書館とカフェと、どちらが静かですか。",
+          "rationale": "Correct. どちら asks which of two places; 静か means quiet."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q01-v1-c2",
+          "text": "図書館はどこですか。",
+          "rationale": "Review. どちら asks which of two places; 静か means quiet."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q01-v1-c3",
+          "text": "カフェは何時ですか。",
+          "rationale": "Review. どちら asks which of two places; 静か means quiet."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-02"
+      ],
+      "prompt": "Which answer says the library is quieter?",
+      "evidence": "図書館のほうが静かです。",
+      "explanation": "のほうが identifies the stronger side of a comparison.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q02-v1-c1",
+          "text": "図書館は静かじゃありません。",
+          "rationale": "Review. のほうが identifies the stronger side of a comparison."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q02-v1-c2",
+          "text": "図書館のほうが静かです。",
+          "rationale": "Correct. のほうが identifies the stronger side of a comparison."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q02-v1-c3",
+          "text": "図書館が一番遠いです。",
+          "rationale": "Review. のほうが identifies the stronger side of a comparison."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q02-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-03"
+      ],
+      "prompt": "Translate カフェより図書館のほうが静かです。",
+      "evidence": "カフェより図書館のほうが静かです。",
+      "explanation": "より marks the café as baseline; the library is quieter.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q03-v1-c1",
+          "text": "The café is quieter.",
+          "rationale": "Review. より marks the café as baseline; the library is quieter."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q03-v1-c2",
+          "text": "Both are equally quiet.",
+          "rationale": "Review. より marks the café as baseline; the library is quieter."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q03-v1-c3",
+          "text": "The library is quieter than the café.",
+          "rationale": "Correct. より marks the café as baseline; the library is quieter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q03-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-04"
+      ],
+      "prompt": "Which says the café is closest of three?",
+      "evidence": "三つの中で、カフェが一番近いです。",
+      "explanation": "一番 expresses the top item within a group.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q04-v1-c1",
+          "text": "三つの中で、カフェが一番近いです。",
+          "rationale": "Correct. 一番 expresses the top item within a group."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q04-v1-c2",
+          "text": "カフェより公園のほうが近いです。",
+          "rationale": "Review. 一番 expresses the top item within a group."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q04-v1-c3",
+          "text": "カフェと図書館と、どちらですか。",
+          "rationale": "Review. 一番 expresses the top item within a group."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-05"
+      ],
+      "prompt": "Which question asks which is closer?",
+      "evidence": "どちらが近いですか。",
+      "explanation": "近い means near; どちら compares two.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q05-v1-c1",
+          "text": "どちらが高いですか。",
+          "rationale": "Review. 近い means near; どちら compares two."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q05-v1-c2",
+          "text": "どちらが近いですか。",
+          "rationale": "Correct. 近い means near; どちら compares two."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q05-v1-c3",
+          "text": "どちらが静かでしたか。",
+          "rationale": "Review. 近い means near; どちら compares two."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q05-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-06"
+      ],
+      "prompt": "What does 駅から図書館のほうが近いです mean?",
+      "evidence": "駅から図書館のほうが近いです。",
+      "explanation": "駅から gives the reference point; のほうが近い means closer.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q06-v1-c1",
+          "text": "The library is far from the station.",
+          "rationale": "Review. 駅から gives the reference point; のほうが近い means closer."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q06-v1-c2",
+          "text": "The library is at the station.",
+          "rationale": "Review. 駅から gives the reference point; のほうが近い means closer."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q06-v1-c3",
+          "text": "The library is closer to the station.",
+          "rationale": "Correct. 駅から gives the reference point; のほうが近い means closer."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q06-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-07"
+      ],
+      "prompt": "Choose a polite shared decision.",
+      "evidence": "図書館にしましょう。",
+      "explanation": "〜にしましょう proposes choosing that option together.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q07-v1-c1",
+          "text": "図書館にしましょう。",
+          "rationale": "Correct. 〜にしましょう proposes choosing that option together."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q07-v1-c2",
+          "text": "図書館は高いです。",
+          "rationale": "Review. 〜にしましょう proposes choosing that option together."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q07-v1-c3",
+          "text": "図書館にいますか。",
+          "rationale": "Review. 〜にしましょう proposes choosing that option together."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-08"
+      ],
+      "prompt": "What does そうですね convey here?",
+      "evidence": "そうですね。",
+      "explanation": "そうですね acknowledges the previous remark.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q08-v1-c1",
+          "text": "A refusal",
+          "rationale": "Review. そうですね acknowledges the previous remark."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q08-v1-c2",
+          "text": "Acknowledgment or agreement",
+          "rationale": "Correct. そうですね acknowledges the previous remark."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q08-v1-c3",
+          "text": "A question about cost",
+          "rationale": "Review. そうですね acknowledges the previous remark."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q08-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-09"
+      ],
+      "prompt": "Which correctly says the café costs more?",
+      "evidence": "図書館よりカフェのほうが高いです。",
+      "explanation": "AよりBのほうが高い means B costs more than A.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q09-v1-c1",
+          "text": "図書館のカフェより高いです。",
+          "rationale": "Review. AよりBのほうが高い means B costs more than A."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q09-v1-c2",
+          "text": "図書館とカフェが高いよりです。",
+          "rationale": "Review. AよりBのほうが高い means B costs more than A."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q09-v1-c3",
+          "text": "図書館よりカフェのほうが高いです。",
+          "rationale": "Correct. AよりBのほうが高い means B costs more than A."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q09-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-10"
+      ],
+      "prompt": "What is より marking?",
+      "evidence": "公園よりカフェのほうが近いです。",
+      "explanation": "より introduces the comparison baseline.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q10-v1-c1",
+          "text": "The park as baseline",
+          "rationale": "Correct. より introduces the comparison baseline."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q10-v1-c2",
+          "text": "The destination",
+          "rationale": "Review. より introduces the comparison baseline."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q10-v1-c3",
+          "text": "A question",
+          "rationale": "Review. より introduces the comparison baseline."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-11"
+      ],
+      "prompt": "Which asks the best place among three?",
+      "evidence": "三つの中で、どこが一番いいですか。",
+      "explanation": "どこ with 一番 asks for the best place among three.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q11-v1-c1",
+          "text": "どちらが一番いいですか。",
+          "rationale": "Review. どこ with 一番 asks for the best place among three."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q11-v1-c2",
+          "text": "三つの中で、どこが一番いいですか。",
+          "rationale": "Correct. どこ with 一番 asks for the best place among three."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q11-v1-c3",
+          "text": "どこよりがいいですか。",
+          "rationale": "Review. どこ with 一番 asks for the best place among three."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q11-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l08-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "speaking"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l08-pattern-12"
+      ],
+      "prompt": "Which line makes a final decision?",
+      "evidence": "では、図書館にしましょう。",
+      "explanation": "〜にしましょう proposes a shared decision.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l08-q12-v1-c1",
+          "text": "図書館よりカフェのほうが近いです。",
+          "rationale": "Review. 〜にしましょう proposes a shared decision."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q12-v1-c2",
+          "text": "図書館は近いですか。",
+          "rationale": "Review. 〜にしましょう proposes a shared decision."
+        },
+        {
+          "id": "ex-n5-m07-c03-l08-q12-v1-c3",
+          "text": "では、図書館にしましょう。",
+          "rationale": "Correct. 〜にしましょう proposes a shared decision."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l08-q12-v1-c3"
+      }
+    }
+  ]
+}
