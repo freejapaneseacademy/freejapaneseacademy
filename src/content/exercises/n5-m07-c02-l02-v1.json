@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c02-l02",
+  "lessonId": "n5-m07-c02-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional weekend-planning dialogue and goal cards in wants-and-plans-vocabulary.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l02-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-01"
+      ],
+      "prompt": "What does 予定（よてい） mean?",
+      "evidence": "来週の予定を話します。",
+      "explanation": "予定 names plans or a schedule.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q01-v1-c1",
+          "text": "A plan or schedule",
+          "rationale": "Correct. 予定 names plans or a schedule."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q01-v1-c2",
+          "text": "A ticket",
+          "rationale": "Not quite. 予定 names plans or a schedule."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q01-v1-c3",
+          "text": "A camera",
+          "rationale": "Not quite. 予定 names plans or a schedule."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-02"
+      ],
+      "prompt": "Which phrase means 'I want to read a book'?",
+      "evidence": "本を読みたいです。",
+      "explanation": "The ます-stem 読み plus たい expresses a desire to read.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q02-v1-c1",
+          "text": "本がほしいです。",
+          "rationale": "Not quite. The ます-stem 読み plus たい expresses a desire to read."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q02-v1-c2",
+          "text": "本を読みたいです。",
+          "rationale": "Correct. The ます-stem 読み plus たい expresses a desire to read."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q02-v1-c3",
+          "text": "本を読みますか。",
+          "rationale": "Not quite. The ます-stem 読み plus たい expresses a desire to read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q02-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-03"
+      ],
+      "prompt": "Which word names a museum?",
+      "evidence": "博物館に行きたいです。",
+      "explanation": "博物館 is a museum; 図書館 is a library.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q03-v1-c1",
+          "text": "図書館（としょかん）",
+          "rationale": "Not quite. 博物館 is a museum; 図書館 is a library."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q03-v1-c2",
+          "text": "映画館（えいがかん）",
+          "rationale": "Not quite. 博物館 is a museum; 図書館 is a library."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q03-v1-c3",
+          "text": "博物館（はくぶつかん）",
+          "rationale": "Correct. 博物館 is a museum; 図書館 is a library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q03-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-04"
+      ],
+      "prompt": "What does チケットがほしいです mean?",
+      "evidence": "チケットがほしいです。",
+      "explanation": "ほしい expresses wanting a thing, here a ticket.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q04-v1-c1",
+          "text": "I want a ticket.",
+          "rationale": "Correct. ほしい expresses wanting a thing, here a ticket."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q04-v1-c2",
+          "text": "I want to go to the ticket.",
+          "rationale": "Not quite. ほしい expresses wanting a thing, here a ticket."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q04-v1-c3",
+          "text": "I have a ticket.",
+          "rationale": "Not quite. ほしい expresses wanting a thing, here a ticket."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-05"
+      ],
+      "prompt": "Which expression means 'go to see a film'?",
+      "evidence": "土曜日に映画を見に行きます。",
+      "explanation": "The verb stem 見 plus に行きます expresses purpose of going.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q05-v1-c1",
+          "text": "映画がほしいです。",
+          "rationale": "Not quite. The verb stem 見 plus に行きます expresses purpose of going."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q05-v1-c2",
+          "text": "映画を見に行きます。",
+          "rationale": "Correct. The verb stem 見 plus に行きます expresses purpose of going."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q05-v1-c3",
+          "text": "映画を見たいですか。",
+          "rationale": "Not quite. The verb stem 見 plus に行きます expresses purpose of going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q05-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-06"
+      ],
+      "prompt": "Which word means 'next week'?",
+      "evidence": "来週、友だちと出かけます。",
+      "explanation": "来週 is next week; 先週 is last week.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q06-v1-c1",
+          "text": "先週（せんしゅう）",
+          "rationale": "Not quite. 来週 is next week; 先週 is last week."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q06-v1-c2",
+          "text": "毎週（まいしゅう）",
+          "rationale": "Not quite. 来週 is next week; 先週 is last week."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q06-v1-c3",
+          "text": "来週（らいしゅう）",
+          "rationale": "Correct. 来週 is next week; 先週 is last week."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q06-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-07"
+      ],
+      "prompt": "Which noun is a camera?",
+      "evidence": "旅行にカメラを持って行きます。",
+      "explanation": "カメラ is a camera; 切符 is a ticket.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q07-v1-c1",
+          "text": "カメラ",
+          "rationale": "Correct. カメラ is a camera; 切符 is a ticket."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q07-v1-c2",
+          "text": "切符（きっぷ）",
+          "rationale": "Not quite. カメラ is a camera; 切符 is a ticket."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q07-v1-c3",
+          "text": "地図（ちず）",
+          "rationale": "Not quite. カメラ is a camera; 切符 is a ticket."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-08"
+      ],
+      "prompt": "What does 旅行（りょこう） mean?",
+      "evidence": "夏に旅行したいです。",
+      "explanation": "旅行 is travel or a trip.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q08-v1-c1",
+          "text": "A class",
+          "rationale": "Not quite. 旅行 is travel or a trip."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q08-v1-c2",
+          "text": "Travel or a trip",
+          "rationale": "Correct. 旅行 is travel or a trip."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q08-v1-c3",
+          "text": "A restaurant",
+          "rationale": "Not quite. 旅行 is travel or a trip."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q08-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-09"
+      ],
+      "prompt": "Which sentence asks what someone wants to do?",
+      "evidence": "休みに何をしたいですか。",
+      "explanation": "何をしたいですか asks about a desired action.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q09-v1-c1",
+          "text": "何がほしいですか。",
+          "rationale": "Not quite. 何をしたいですか asks about a desired action."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q09-v1-c2",
+          "text": "どこですか。",
+          "rationale": "Not quite. 何をしたいですか asks about a desired action."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q09-v1-c3",
+          "text": "何をしたいですか。",
+          "rationale": "Correct. 何をしたいですか asks about a desired action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q09-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-10"
+      ],
+      "prompt": "Which sentence says 'I want a map'?",
+      "evidence": "新しい地図がほしいです。",
+      "explanation": "地図 is a map; がほしいです describes a desired object.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q10-v1-c1",
+          "text": "地図がほしいです。",
+          "rationale": "Correct. 地図 is a map; がほしいです describes a desired object."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q10-v1-c2",
+          "text": "地図を行きたいです。",
+          "rationale": "Not quite. 地図 is a map; がほしいです describes a desired object."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q10-v1-c3",
+          "text": "地図に行きます。",
+          "rationale": "Not quite. 地図 is a map; がほしいです describes a desired object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-11"
+      ],
+      "prompt": "Which word means 'a reservation'?",
+      "evidence": "レストランの予約をします。",
+      "explanation": "予約 is a reservation or booking; 約束 is a promise or arrangement.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q11-v1-c1",
+          "text": "約束（やくそく）",
+          "rationale": "Not quite. 予約 is a reservation or booking; 約束 is a promise or arrangement."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q11-v1-c2",
+          "text": "予約（よやく）",
+          "rationale": "Correct. 予約 is a reservation or booking; 約束 is a promise or arrangement."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q11-v1-c3",
+          "text": "旅行（りょこう）",
+          "rationale": "Not quite. 予約 is a reservation or booking; 約束 is a promise or arrangement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q11-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l02-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l02-word-12"
+      ],
+      "prompt": "What does 買い物（かいもの） mean?",
+      "evidence": "日曜日に買い物に行きます。",
+      "explanation": "買い物 means shopping; 買い物に行く is to go shopping.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l02-q12-v1-c1",
+          "text": "Swimming",
+          "rationale": "Not quite. 買い物 means shopping; 買い物に行く is to go shopping."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q12-v1-c2",
+          "text": "Cooking",
+          "rationale": "Not quite. 買い物 means shopping; 買い物に行く is to go shopping."
+        },
+        {
+          "id": "ex-n5-m07-c02-l02-q12-v1-c3",
+          "text": "Shopping",
+          "rationale": "Correct. 買い物 means shopping; 買い物に行く is to go shopping."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l02-q12-v1-c3"
+      }
+    }
+  ]
+}
