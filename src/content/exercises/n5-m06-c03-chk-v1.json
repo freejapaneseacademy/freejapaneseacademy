@@ -1,0 +1,670 @@
+{
+  "id": "n5-m06-c03-chk",
+  "lessonId": "n5-m06-c03-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Midori Study Room notice and volunteer dialogue",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 16,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c03-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-function"
+      ],
+      "prompt": "Which politely requests closing the door?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-01-c1",
+          "text": "ドアを閉めてください。",
+          "rationale": "Correct. 〜てください makes a polite request."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-01-c2",
+          "text": "ドアを閉めてもいいですか。",
+          "rationale": "Review. 〜てください makes a polite request."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-01-c3",
+          "text": "ドアを閉めてはいけません。",
+          "rationale": "Review. 〜てください makes a polite request."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-01-c1"
+      },
+      "explanation": "〜てください makes a polite request.",
+      "feedback": "〜てください makes a polite request."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-function"
+      ],
+      "prompt": "Which asks permission to drink water?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-02-c1",
+          "text": "水を飲んではいけません。",
+          "rationale": "Review. 〜てもいいですか asks whether something is permitted."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-02-c2",
+          "text": "水を飲んでもいいですか。",
+          "rationale": "Correct. 〜てもいいですか asks whether something is permitted."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-02-c3",
+          "text": "水を飲んでください。",
+          "rationale": "Review. 〜てもいいですか asks whether something is permitted."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-02-c2"
+      },
+      "explanation": "〜てもいいですか asks whether something is permitted.",
+      "feedback": "〜てもいいですか asks whether something is permitted."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-function"
+      ],
+      "prompt": "Which prohibits running here?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-03-c1",
+          "text": "ここで走ってください。",
+          "rationale": "Review. 〜てはいけません expresses prohibition."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-03-c2",
+          "text": "ここで走ってもいいです。",
+          "rationale": "Review. 〜てはいけません expresses prohibition."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-03-c3",
+          "text": "ここで走ってはいけません。",
+          "rationale": "Correct. 〜てはいけません expresses prohibition."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-03-c3"
+      },
+      "explanation": "〜てはいけません expresses prohibition.",
+      "feedback": "〜てはいけません expresses prohibition."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-function"
+      ],
+      "prompt": "Which reply grants permission to read?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-04-c1",
+          "text": "はい、読んでもいいです。",
+          "rationale": "Correct. 〜てもいいです grants permission."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-04-c2",
+          "text": "はい、読んではいけません。",
+          "rationale": "Review. 〜てもいいです grants permission."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-04-c3",
+          "text": "はい、読んでください。",
+          "rationale": "Review. 〜てもいいです grants permission."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-04-c1"
+      },
+      "explanation": "〜てもいいです grants permission.",
+      "feedback": "〜てもいいです grants permission."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-te"
+      ],
+      "prompt": "Choose the て-form of 飲む（のむ）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-05-c1",
+          "text": "飲って",
+          "rationale": "Review. む changes to んで: 飲んで."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-05-c2",
+          "text": "飲んで",
+          "rationale": "Correct. む changes to んで: 飲んで."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-05-c3",
+          "text": "飲みて",
+          "rationale": "Review. む changes to んで: 飲んで."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-05-c2"
+      },
+      "explanation": "む changes to んで: 飲んで.",
+      "feedback": "む changes to んで: 飲んで."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-te"
+      ],
+      "prompt": "Choose the て-form of 洗う（あらう）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-06-c1",
+          "text": "洗いて",
+          "rationale": "Review. う changes to って: 洗って."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-06-c2",
+          "text": "洗んで",
+          "rationale": "Review. う changes to って: 洗って."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-06-c3",
+          "text": "洗って",
+          "rationale": "Correct. う changes to って: 洗って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-06-c3"
+      },
+      "explanation": "う changes to って: 洗って.",
+      "feedback": "う changes to って: 洗って."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-te"
+      ],
+      "prompt": "Choose the て-form of 開ける（あける）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-07-c1",
+          "text": "開けて",
+          "rationale": "Correct. Group 2 開ける loses る and adds て."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-07-c2",
+          "text": "開けって",
+          "rationale": "Review. Group 2 開ける loses る and adds て."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-07-c3",
+          "text": "開きて",
+          "rationale": "Review. Group 2 開ける loses る and adds て."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-07-c1"
+      },
+      "explanation": "Group 2 開ける loses る and adds て.",
+      "feedback": "Group 2 開ける loses る and adds て."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-te"
+      ],
+      "prompt": "Choose the て-form of 撮る（とる）.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-08-c1",
+          "text": "撮りて",
+          "rationale": "Review. Group 1 撮る changes る to って."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-08-c2",
+          "text": "撮って",
+          "rationale": "Correct. Group 1 撮る changes る to って."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-08-c3",
+          "text": "撮て",
+          "rationale": "Review. Group 1 撮る changes る to って."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-08-c2"
+      },
+      "explanation": "Group 1 撮る changes る to って.",
+      "feedback": "Group 1 撮る changes る to って."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-notice"
+      ],
+      "prompt": "According to notice ①, where should visitors wash their hands?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-09-c1",
+          "text": "本の近くで",
+          "rationale": "Review. Notice ① states 入り口で手を洗ってください."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-09-c2",
+          "text": "部屋の外で",
+          "rationale": "Review. Notice ① states 入り口で手を洗ってください."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-09-c3",
+          "text": "入り口で",
+          "rationale": "Correct. Notice ① states 入り口で手を洗ってください."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-09-c3"
+      },
+      "explanation": "Notice ① states 入り口で手を洗ってください.",
+      "feedback": "Notice ① states 入り口で手を洗ってください."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-notice"
+      ],
+      "prompt": "According to notice ②, what is permitted?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-10-c1",
+          "text": "この部屋で水を飲む",
+          "rationale": "Correct. Notice ② states 水を飲んでもいいです."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-10-c2",
+          "text": "この部屋で食べ物を食べる",
+          "rationale": "Review. Notice ② states 水を飲んでもいいです."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-10-c3",
+          "text": "この部屋で写真を撮る",
+          "rationale": "Review. Notice ② states 水を飲んでもいいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-10-c1"
+      },
+      "explanation": "Notice ② states 水を飲んでもいいです.",
+      "feedback": "Notice ② states 水を飲んでもいいです."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-notice"
+      ],
+      "prompt": "According to notice ④, what is prohibited?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-11-c1",
+          "text": "この部屋で水を飲む",
+          "rationale": "Review. Notice ④ states 食べ物を食べてはいけません."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-11-c2",
+          "text": "この部屋で食べ物を食べる",
+          "rationale": "Correct. Notice ④ states 食べ物を食べてはいけません."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-11-c3",
+          "text": "この部屋で本を読む",
+          "rationale": "Review. Notice ④ states 食べ物を食べてはいけません."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-11-c2"
+      },
+      "explanation": "Notice ④ states 食べ物を食べてはいけません.",
+      "feedback": "Notice ④ states 食べ物を食べてはいけません."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-notice"
+      ],
+      "prompt": "What does notice ⑥ ask people to do on leaving?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-12-c1",
+          "text": "写真を撮る",
+          "rationale": "Review. Notice ⑥ states 帰るときは、ドアを閉めてください."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-12-c2",
+          "text": "水を飲む",
+          "rationale": "Review. Notice ⑥ states 帰るときは、ドアを閉めてください."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-12-c3",
+          "text": "ドアを閉める",
+          "rationale": "Correct. Notice ⑥ states 帰るときは、ドアを閉めてください."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-12-c3"
+      },
+      "explanation": "Notice ⑥ states 帰るときは、ドアを閉めてください.",
+      "feedback": "Notice ⑥ states 帰るときは、ドアを閉めてください."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-dialogue"
+      ],
+      "prompt": "What does the student ask first?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-13-c1",
+          "text": "ここで写真を撮ってもいいですか。",
+          "rationale": "Correct. The student's first question asks about photos."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-13-c2",
+          "text": "ここで水を飲んでもいいですか。",
+          "rationale": "Review. The student's first question asks about photos."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-13-c3",
+          "text": "ドアを閉めてもいいですか。",
+          "rationale": "Review. The student's first question asks about photos."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-13-c1"
+      },
+      "explanation": "The student's first question asks about photos.",
+      "feedback": "The student's first question asks about photos."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-dialogue"
+      ],
+      "prompt": "What is the volunteer's response about photos?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-14-c1",
+          "text": "写真を撮ってください。",
+          "rationale": "Review. The volunteer explicitly prohibits taking photos."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-14-c2",
+          "text": "写真を撮ってはいけません。",
+          "rationale": "Correct. The volunteer explicitly prohibits taking photos."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-14-c3",
+          "text": "写真を撮ってもいいです。",
+          "rationale": "Review. The volunteer explicitly prohibits taking photos."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-14-c2"
+      },
+      "explanation": "The volunteer explicitly prohibits taking photos.",
+      "feedback": "The volunteer explicitly prohibits taking photos."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-15",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-particles"
+      ],
+      "prompt": "In 本をここで読みます, what marks the object?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-15-c1",
+          "text": "で",
+          "rationale": "Review. 本を uses を for the object; で marks the action location."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-15-c2",
+          "text": "は",
+          "rationale": "Review. 本を uses を for the object; で marks the action location."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-15-c3",
+          "text": "を",
+          "rationale": "Correct. 本を uses を for the object; で marks the action location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-15-c3"
+      },
+      "explanation": "本を uses を for the object; で marks the action location.",
+      "feedback": "本を uses を for the object; で marks the action location."
+    },
+    {
+      "id": "ex-n5-m06-c03-chk-16",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c03-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c03-chk-particles"
+      ],
+      "prompt": "Which phrase marks an action location?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c03-chk-16-c1",
+          "text": "教室で",
+          "rationale": "Correct. 教室で marks where an action takes place."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-16-c2",
+          "text": "教室を",
+          "rationale": "Review. 教室で marks where an action takes place."
+        },
+        {
+          "id": "ex-n5-m06-c03-chk-16-c3",
+          "text": "教室はだけ",
+          "rationale": "Review. 教室で marks where an action takes place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c03-chk-16-c1"
+      },
+      "explanation": "教室で marks where an action takes place.",
+      "feedback": "教室で marks where an action takes place."
+    }
+  ]
+}
