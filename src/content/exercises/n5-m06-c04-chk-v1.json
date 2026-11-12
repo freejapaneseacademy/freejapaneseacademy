@@ -1,0 +1,670 @@
+{
+  "id": "n5-m06-c04-chk",
+  "lessonId": "n5-m06-c04-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional community-center photo-caption board and coordinator conversation",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 16,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-chk-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-function"
+      ],
+      "prompt": "Which asks what someone is doing now?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-01-c1",
+          "text": "何をしていますか。",
+          "rationale": "Correct. 何をしていますか asks about an ongoing action."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-01-c2",
+          "text": "どこにいますか。",
+          "rationale": "Review. 何をしていますか asks about an ongoing action."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-01-c3",
+          "text": "何がありますか。",
+          "rationale": "Review. 何をしていますか asks about an ongoing action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-01-c1"
+      },
+      "explanation": "何をしていますか asks about an ongoing action.",
+      "feedback": "何をしていますか asks about an ongoing action."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-function"
+      ],
+      "prompt": "Which describes someone reading now?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-02-c1",
+          "text": "本を読みます。",
+          "rationale": "Review. 読んでいます identifies an action in progress."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-02-c2",
+          "text": "本を読んでいます。",
+          "rationale": "Correct. 読んでいます identifies an action in progress."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-02-c3",
+          "text": "本を読みました。",
+          "rationale": "Review. 読んでいます identifies an action in progress."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-02-c2"
+      },
+      "explanation": "読んでいます identifies an action in progress.",
+      "feedback": "読んでいます identifies an action in progress."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-form"
+      ],
+      "prompt": "Which describes someone writing Japanese now?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-03-c1",
+          "text": "日本語を書いています。",
+          "rationale": "Correct. 書く becomes 書いて; 書いています describes ongoing writing."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-03-c2",
+          "text": "日本語を書きています。",
+          "rationale": "Review. 書く becomes 書いて; 書いています describes ongoing writing."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-03-c3",
+          "text": "日本語を書きました。",
+          "rationale": "Review. 書く becomes 書いて; 書いています describes ongoing writing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-03-c1"
+      },
+      "explanation": "書く becomes 書いて; 書いています describes ongoing writing.",
+      "feedback": "書く becomes 書いて; 書いています describes ongoing writing."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-form"
+      ],
+      "prompt": "Choose the correct ongoing form of 食べる.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-04-c1",
+          "text": "食べっています",
+          "rationale": "Review. Group 2 食べる changes to 食べて, then います."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-04-c2",
+          "text": "食べりています",
+          "rationale": "Review. Group 2 食べる changes to 食べて, then います."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-04-c3",
+          "text": "食べています",
+          "rationale": "Correct. Group 2 食べる changes to 食べて, then います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-04-c3"
+      },
+      "explanation": "Group 2 食べる changes to 食べて, then います.",
+      "feedback": "Group 2 食べる changes to 食べて, then います."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-form"
+      ],
+      "prompt": "Choose the correct ongoing form of 話す.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-05-c1",
+          "text": "話しています",
+          "rationale": "Correct. 話す becomes 話して, then います."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-05-c2",
+          "text": "話すています",
+          "rationale": "Review. 話す becomes 話して, then います."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-05-c3",
+          "text": "話してますか",
+          "rationale": "Review. 話す becomes 話して, then います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-05-c1"
+      },
+      "explanation": "話す becomes 話して, then います.",
+      "feedback": "話す becomes 話して, then います."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-form"
+      ],
+      "prompt": "Choose the correct ongoing form of 作る.",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-06-c1",
+          "text": "作りています",
+          "rationale": "Review. Group 1 作る becomes 作って, then います."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-06-c2",
+          "text": "作っています",
+          "rationale": "Correct. Group 1 作る becomes 作って, then います."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-06-c3",
+          "text": "作てています",
+          "rationale": "Review. Group 1 作る becomes 作って, then います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-06-c2"
+      },
+      "explanation": "Group 1 作る becomes 作って, then います.",
+      "feedback": "Group 1 作る becomes 作って, then います."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-particle"
+      ],
+      "prompt": "Which particle marks where an action takes place?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-07-c1",
+          "text": "に",
+          "rationale": "Review. で marks the location of an action, as in 教室で書いています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-07-c2",
+          "text": "を",
+          "rationale": "Review. で marks the location of an action, as in 教室で書いています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-07-c3",
+          "text": "で",
+          "rationale": "Correct. で marks the location of an action, as in 教室で書いています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-07-c3"
+      },
+      "explanation": "で marks the location of an action, as in 教室で書いています.",
+      "feedback": "で marks the location of an action, as in 教室で書いています."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-particle"
+      ],
+      "prompt": "Which marks the direct object in 本＿読んでいます?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-08-c1",
+          "text": "を",
+          "rationale": "Correct. 本を読んでいます: を marks what is being read."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-08-c2",
+          "text": "で",
+          "rationale": "Review. 本を読んでいます: を marks what is being read."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-08-c3",
+          "text": "に",
+          "rationale": "Review. 本を読んでいます: を marks what is being read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-08-c1"
+      },
+      "explanation": "本を読んでいます: を marks what is being read.",
+      "feedback": "本を読んでいます: を marks what is being read."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-caption"
+      ],
+      "prompt": "According to photo ①, who is reading?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-09-c1",
+          "text": "山田さん",
+          "rationale": "Review. Photo ① says 田中さんは図書室で本を読んでいます."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-09-c2",
+          "text": "田中さん",
+          "rationale": "Correct. Photo ① says 田中さんは図書室で本を読んでいます."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-09-c3",
+          "text": "佐藤さん",
+          "rationale": "Review. Photo ① says 田中さんは図書室で本を読んでいます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-09-c2"
+      },
+      "explanation": "Photo ① says 田中さんは図書室で本を読んでいます.",
+      "feedback": "Photo ① says 田中さんは図書室で本を読んでいます."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-caption"
+      ],
+      "prompt": "According to photo ②, what is Yamada writing?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-10-c1",
+          "text": "日本語",
+          "rationale": "Correct. Photo ② says 山田さんは教室で日本語を書いています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-10-c2",
+          "text": "英語",
+          "rationale": "Review. Photo ② says 山田さんは教室で日本語を書いています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-10-c3",
+          "text": "手紙",
+          "rationale": "Review. Photo ② says 山田さんは教室で日本語を書いています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-10-c1"
+      },
+      "explanation": "Photo ② says 山田さんは教室で日本語を書いています.",
+      "feedback": "Photo ② says 山田さんは教室で日本語を書いています."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-caption"
+      ],
+      "prompt": "According to photo ③, where is Sato cooking?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-11-c1",
+          "text": "庭で",
+          "rationale": "Review. Photo ③ says 佐藤さんは台所で昼ごはんを作っています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-11-c2",
+          "text": "図書室で",
+          "rationale": "Review. Photo ③ says 佐藤さんは台所で昼ごはんを作っています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-11-c3",
+          "text": "台所で",
+          "rationale": "Correct. Photo ③ says 佐藤さんは台所で昼ごはんを作っています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-11-c3"
+      },
+      "explanation": "Photo ③ says 佐藤さんは台所で昼ごはんを作っています.",
+      "feedback": "Photo ③ says 佐藤さんは台所で昼ごはんを作っています."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-caption"
+      ],
+      "prompt": "According to photo ④, what is Mika looking at?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-12-c1",
+          "text": "本",
+          "rationale": "Review. Photo ④ says ミカさんは庭で花を見ています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-12-c2",
+          "text": "花",
+          "rationale": "Correct. Photo ④ says ミカさんは庭で花を見ています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-12-c3",
+          "text": "昼ごはん",
+          "rationale": "Review. Photo ④ says ミカさんは庭で花を見ています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-12-c2"
+      },
+      "explanation": "Photo ④ says ミカさんは庭で花を見ています.",
+      "feedback": "Photo ④ says ミカさんは庭で花を見ています."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-dialogue"
+      ],
+      "prompt": "In the conversation, what does the coordinator first ask?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-13-c1",
+          "text": "田中さんは何をしていますか。",
+          "rationale": "Correct. The first line asks 今、田中さんは何をしていますか."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-13-c2",
+          "text": "佐藤さんはどこにいますか。",
+          "rationale": "Review. The first line asks 今、田中さんは何をしていますか."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-13-c3",
+          "text": "山田さんは何を食べていますか。",
+          "rationale": "Review. The first line asks 今、田中さんは何をしていますか."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-13-c1"
+      },
+      "explanation": "The first line asks 今、田中さんは何をしていますか.",
+      "feedback": "The first line asks 今、田中さんは何をしていますか."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-dialogue"
+      ],
+      "prompt": "What does the student confirm about Sato?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-14-c1",
+          "text": "庭で花を見ています。",
+          "rationale": "Review. The student answers はい。台所で昼ごはんを作っています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-14-c2",
+          "text": "教室で日本語を書いています。",
+          "rationale": "Review. The student answers はい。台所で昼ごはんを作っています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-14-c3",
+          "text": "台所で昼ごはんを作っています。",
+          "rationale": "Correct. The student answers はい。台所で昼ごはんを作っています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-14-c3"
+      },
+      "explanation": "The student answers はい。台所で昼ごはんを作っています.",
+      "feedback": "The student answers はい。台所で昼ごはんを作っています."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-15",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-particle"
+      ],
+      "prompt": "Which sentence correctly contrasts existence and action location?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-15-c1",
+          "text": "台所でいます。",
+          "rationale": "Review. に marks existence with います; で marks the location of 作っています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-15-c2",
+          "text": "台所にいます。台所で作っています。",
+          "rationale": "Correct. に marks existence with います; で marks the location of 作っています."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-15-c3",
+          "text": "台所をいます。",
+          "rationale": "Review. に marks existence with います; で marks the location of 作っています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-15-c2"
+      },
+      "explanation": "に marks existence with います; で marks the location of 作っています.",
+      "feedback": "に marks existence with います; で marks the location of 作っています."
+    },
+    {
+      "id": "ex-n5-m06-c04-chk-16",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-chk-review"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-chk-function"
+      ],
+      "prompt": "Which is a suitable reply to 何をしていますか?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-chk-16-c1",
+          "text": "教室で本を読んでいます。",
+          "rationale": "Correct. The question asks what action is happening; 読んでいます answers it."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-16-c2",
+          "text": "教室があります。",
+          "rationale": "Review. The question asks what action is happening; 読んでいます answers it."
+        },
+        {
+          "id": "ex-n5-m06-c04-chk-16-c3",
+          "text": "教室にいますか。",
+          "rationale": "Review. The question asks what action is happening; 読んでいます answers it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-chk-16-c1"
+      },
+      "explanation": "The question asks what action is happening; 読んでいます answers it.",
+      "feedback": "The question asks what action is happening; 読んでいます answers it."
+    }
+  ]
+}
