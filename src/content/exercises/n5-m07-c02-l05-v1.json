@@ -1,0 +1,450 @@
+{
+  "lessonId": "n5-m07-c02-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where does the writer want to study Japanese?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館",
+          "rationale": "Supported by A: 土曜日は図書館で日本語を勉強したいです。"
+        },
+        {
+          "id": "c2",
+          "text": "学校",
+          "rationale": "Not supported by A: 土曜日は図書館で日本語を勉強したいです。"
+        },
+        {
+          "id": "c3",
+          "text": "家",
+          "rationale": "Not supported by A: 土曜日は図書館で日本語を勉強したいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence A: 土曜日は図書館で日本語を勉強したいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the writer want to do with a friend?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "写真を撮りに行く",
+          "rationale": "Not supported by B: 日曜日は友だちと映画を見に行きたいです。"
+        },
+        {
+          "id": "c2",
+          "text": "映画を見に行く",
+          "rationale": "Supported by B: 日曜日は友だちと映画を見に行きたいです。"
+        },
+        {
+          "id": "c3",
+          "text": "本を買いに行く",
+          "rationale": "Not supported by B: 日曜日は友だちと映画を見に行きたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence B: 日曜日は友だちと映画を見に行きたいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which object does the writer want?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "赤いかばん",
+          "rationale": "Not supported by C: 新しいノートがほしいです。"
+        },
+        {
+          "id": "c2",
+          "text": "新しい時計",
+          "rationale": "Not supported by C: 新しいノートがほしいです。"
+        },
+        {
+          "id": "c3",
+          "text": "新しいノート",
+          "rationale": "Supported by C: 新しいノートがほしいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence C: 新しいノートがほしいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does the writer want to go to Kyoto?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "来月",
+          "rationale": "Supported by D: 来月、京都へ行きたいです。"
+        },
+        {
+          "id": "c2",
+          "text": "今週",
+          "rationale": "Not supported by D: 来月、京都へ行きたいです。"
+        },
+        {
+          "id": "c3",
+          "text": "明日",
+          "rationale": "Not supported by D: 来月、京都へ行きたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence D: 来月、京都へ行きたいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the writer want to do in Kyoto?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日本語を勉強する",
+          "rationale": "Not supported by E: 京都で写真を撮りたいです。"
+        },
+        {
+          "id": "c2",
+          "text": "写真を撮る",
+          "rationale": "Supported by E: 京都で写真を撮りたいです。"
+        },
+        {
+          "id": "c3",
+          "text": "映画を見る",
+          "rationale": "Not supported by E: 京都で写真を撮りたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence E: 京都で写真を撮りたいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the writer explicitly not want?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "新しいノート",
+          "rationale": "Not supported by F: 赤いかばんはほしくないです。"
+        },
+        {
+          "id": "c2",
+          "text": "映画のチケット",
+          "rationale": "Not supported by F: 赤いかばんはほしくないです。"
+        },
+        {
+          "id": "c3",
+          "text": "赤いかばん",
+          "rationale": "Supported by F: 赤いかばんはほしくないです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence F: 赤いかばんはほしくないです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does the writer not have yet?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "映画のチケット",
+          "rationale": "Supported by G: 映画のチケットはまだありません。"
+        },
+        {
+          "id": "c2",
+          "text": "日本語の本",
+          "rationale": "Not supported by G: 映画のチケットはまだありません。"
+        },
+        {
+          "id": "c3",
+          "text": "京都の地図",
+          "rationale": "Not supported by G: 映画のチケットはまだありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence G: 映画のチケットはまだありません。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "When does the writer want to rest at home?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "月曜日の夜",
+          "rationale": "Not supported by H: 日曜日の朝は家で休みたいです。"
+        },
+        {
+          "id": "c2",
+          "text": "日曜日の朝",
+          "rationale": "Supported by H: 日曜日の朝は家で休みたいです。"
+        },
+        {
+          "id": "c3",
+          "text": "土曜日の朝",
+          "rationale": "Not supported by H: 日曜日の朝は家で休みたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence H: 日曜日の朝は家で休みたいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Does the note say the film ticket was purchased?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes; the writer bought it.",
+          "rationale": "Not supported by G: 映画のチケットはまだありません。"
+        },
+        {
+          "id": "c2",
+          "text": "Yes; a friend bought it.",
+          "rationale": "Not supported by G: 映画のチケットはまだありません。"
+        },
+        {
+          "id": "c3",
+          "text": "No; the writer does not have it yet.",
+          "rationale": "Supported by G: 映画のチケットはまだありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence G: 映画のチケットはまだありません。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression describes a desired action?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "勉強したいです",
+          "rationale": "Supported by A: 土曜日は図書館で日本語を勉強したいです。"
+        },
+        {
+          "id": "c2",
+          "text": "ノートがほしいです",
+          "rationale": "Not supported by A: 土曜日は図書館で日本語を勉強したいです。"
+        },
+        {
+          "id": "c3",
+          "text": "かばんはほしくないです",
+          "rationale": "Not supported by A: 土曜日は図書館で日本語を勉強したいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence A: 土曜日は図書館で日本語を勉強したいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which expression describes going for a purpose?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "家で休みたいです",
+          "rationale": "Not supported by B: 日曜日は友だちと映画を見に行きたいです。"
+        },
+        {
+          "id": "c2",
+          "text": "映画を見に行きたいです",
+          "rationale": "Supported by B: 日曜日は友だちと映画を見に行きたいです。"
+        },
+        {
+          "id": "c3",
+          "text": "ノートがほしいです",
+          "rationale": "Not supported by B: 日曜日は友だちと映画を見に行きたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence B: 日曜日は友だちと映画を見に行きたいです。"
+    },
+    {
+      "id": "ex-n5-m07-c02-l05-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What color notebook does the writer want?",
+      "objectiveIds": [
+        "n5-m07-c02-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l05-wish-list"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Red",
+          "rationale": "Not supported by C: 新しいノートがほしいです。"
+        },
+        {
+          "id": "c2",
+          "text": "Blue",
+          "rationale": "Not supported by C: 新しいノートがほしいです。"
+        },
+        {
+          "id": "c3",
+          "text": "Not stated",
+          "rationale": "Supported by C: 新しいノートがほしいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence C: 新しいノートがほしいです。"
+    }
+  ]
+}
