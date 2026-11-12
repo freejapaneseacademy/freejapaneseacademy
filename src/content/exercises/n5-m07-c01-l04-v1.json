@@ -1,0 +1,326 @@
+{
+  "id": "n5-m07-c01-l04",
+  "lessonId": "n5-m07-c01-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional club hobby profiles in hobby-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-01"
+      ],
+      "prompt": "Which word in card A means music?",
+      "evidence": "音楽（おんがく）が好きです。",
+      "explanation": "音楽 is read おんがく and means music. Evidence: 音楽（おんがく）が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-01-c1",
+          "text": "音楽",
+          "rationale": "Correct. 音楽 is read おんがく and means music."
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-01-c2",
+          "text": "歌",
+          "rationale": "Review the profile evidence: 音楽（おんがく）が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-01-c3",
+          "text": "本",
+          "rationale": "Review the profile evidence: 音楽（おんがく）が好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-02"
+      ],
+      "prompt": "How do you read 音楽?",
+      "evidence": "音楽が好きです。",
+      "explanation": "The whole compound 音楽 is read おんがく. Evidence: 音楽が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-02-c1",
+          "text": "おとがく",
+          "rationale": "Review the profile evidence: 音楽が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-02-c2",
+          "text": "おんがく",
+          "rationale": "Correct. The whole compound 音楽 is read おんがく."
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-02-c3",
+          "text": "おんらく",
+          "rationale": "Review the profile evidence: 音楽が好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-03"
+      ],
+      "prompt": "Which kanji appears in 書く, to write?",
+      "evidence": "日本語を書くのが好きです。",
+      "explanation": "書く（かく） means to write; 読む means to read. Evidence: 日本語を書くのが好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-03-c1",
+          "text": "読",
+          "rationale": "Review the profile evidence: 日本語を書くのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-03-c2",
+          "text": "歌",
+          "rationale": "Review the profile evidence: 日本語を書くのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-03-c3",
+          "text": "書",
+          "rationale": "Correct. 書く（かく） means to write; 読む means to read."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-04"
+      ],
+      "prompt": "Who likes reading books?",
+      "evidence": "本を読むのが好きです。",
+      "explanation": "Yuu's card explicitly says 本を読むのが好きです. Evidence: 本を読むのが好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-04-c1",
+          "text": "ゆう",
+          "rationale": "Correct. Yuu's card explicitly says 本を読むのが好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-04-c2",
+          "text": "みお",
+          "rationale": "Review the profile evidence: 本を読むのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-04-c3",
+          "text": "けん",
+          "rationale": "Review the profile evidence: 本を読むのが好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-05"
+      ],
+      "prompt": "Which word means song in card A?",
+      "evidence": "歌を歌うのも好きです。",
+      "explanation": "歌 is うた as a noun, while 歌う is うたう. Evidence: 歌を歌うのも好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-05-c1",
+          "text": "音（おと）",
+          "rationale": "Review the profile evidence: 歌を歌うのも好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-05-c2",
+          "text": "歌（うた）",
+          "rationale": "Correct. 歌 is うた as a noun, while 歌う is うたう."
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-05-c3",
+          "text": "楽（らく）",
+          "rationale": "Review the profile evidence: 歌を歌うのも好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-06"
+      ],
+      "prompt": "What does 好き express in these profiles?",
+      "evidence": "音楽が好きです。",
+      "explanation": "好きです expresses liking, not necessarily ability. Evidence: 音楽が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-06-c1",
+          "text": "a prohibition",
+          "rationale": "Review the profile evidence: 音楽が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-06-c2",
+          "text": "a past action",
+          "rationale": "Review the profile evidence: 音楽が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-06-c3",
+          "text": "a preference",
+          "rationale": "Correct. 好きです expresses liking, not necessarily ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-07"
+      ],
+      "prompt": "Who says they are good at piano?",
+      "evidence": "ピアノが上手です。",
+      "explanation": "Ken's profile states ピアノが上手です. Evidence: ピアノが上手です。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-07-c1",
+          "text": "けん",
+          "rationale": "Correct. Ken's profile states ピアノが上手です."
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-07-c2",
+          "text": "あき",
+          "rationale": "Review the profile evidence: ピアノが上手です。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-07-c3",
+          "text": "ゆう",
+          "rationale": "Review the profile evidence: ピアノが上手です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l04-kanji-08"
+      ],
+      "prompt": "Which sentence correctly says 'I like writing Japanese'?",
+      "evidence": "日本語を書くのが好きです。",
+      "explanation": "書く is write; the activity phrase 書くの is marked with が before 好きです. Evidence: 日本語を書くのが好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l04-08-c1",
+          "text": "日本語を読むのが上手です。",
+          "rationale": "Review the profile evidence: 日本語を書くのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-08-c2",
+          "text": "日本語を書くのが好きです。",
+          "rationale": "Correct. 書く is write; the activity phrase 書くの is marked with が before 好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-l04-08-c3",
+          "text": "日本語が書きます。",
+          "rationale": "Review the profile evidence: 日本語を書くのが好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l04-08-c2"
+      }
+    }
+  ]
+}
