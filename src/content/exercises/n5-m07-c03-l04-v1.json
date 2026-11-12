@@ -1,0 +1,326 @@
+{
+  "id": "n5-m07-c03-l04",
+  "lessonId": "n5-m07-c03-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Saturday class cards and dialogue in choice-board-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-01"
+      ],
+      "prompt": "Which whole-word reading is correct for 安い?",
+      "evidence": "料理のクラスより、絵のクラスのほうが安いです。",
+      "explanation": "安い（やすい） is the adjective 'inexpensive'. Evidence: 料理のクラスより、絵のクラスのほうが安いです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-01-c1",
+          "text": "やすい",
+          "rationale": "Correct. 安い（やすい） is the adjective 'inexpensive'."
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-01-c2",
+          "text": "あんい",
+          "rationale": "Review the card evidence: 料理のクラスより、絵のクラスのほうが安いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-01-c3",
+          "text": "たかい",
+          "rationale": "Review the card evidence: 料理のクラスより、絵のクラスのほうが安いです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-02"
+      ],
+      "prompt": "Which whole-word reading is correct for 大きい?",
+      "evidence": "料理のクラスの部屋は大きい部屋です。",
+      "explanation": "大きい（おおきい） means large; do not substitute the compound reading だい. Evidence: 料理のクラスの部屋は大きい部屋です。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-02-c1",
+          "text": "だいきい",
+          "rationale": "Review the card evidence: 料理のクラスの部屋は大きい部屋です。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-02-c2",
+          "text": "ちいさい",
+          "rationale": "Review the card evidence: 料理のクラスの部屋は大きい部屋です。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-02-c3",
+          "text": "おおきい",
+          "rationale": "Correct. 大きい（おおきい） means large; do not substitute the compound reading だい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-03"
+      ],
+      "prompt": "Which kanji starts the adjective meaning 'new'?",
+      "evidence": "新しいクラスです。",
+      "explanation": "新しい（あたらしい） describes the new art class. Evidence: 新しいクラスです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-03-c1",
+          "text": "小",
+          "rationale": "Review the card evidence: 新しいクラスです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-03-c2",
+          "text": "新",
+          "rationale": "Correct. 新しい（あたらしい） describes the new art class."
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-03-c3",
+          "text": "古",
+          "rationale": "Review the card evidence: 新しいクラスです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-04"
+      ],
+      "prompt": "Which adjective means 'old/long-established' in the cooking card?",
+      "evidence": "古いクラスです。",
+      "explanation": "古い（ふるい） describes the age of the cooking class, not its quality. Evidence: 古いクラスです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-04-c1",
+          "text": "古い",
+          "rationale": "Correct. 古い（ふるい） describes the age of the cooking class, not its quality."
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-04-c2",
+          "text": "高い",
+          "rationale": "Review the card evidence: 古いクラスです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-04-c3",
+          "text": "安い",
+          "rationale": "Review the card evidence: 古いクラスです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-05"
+      ],
+      "prompt": "Which class is less expensive according to the cards?",
+      "evidence": "絵のクラス：千円。料理のクラス：二千円。",
+      "explanation": "Art costs ¥1,000; cooking costs ¥2,000. Therefore art is cheaper. Evidence: 絵のクラス：千円。料理のクラス：二千円。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-05-c1",
+          "text": "Cooking class",
+          "rationale": "Review the card evidence: 絵のクラス：千円。料理のクラス：二千円。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-05-c2",
+          "text": "They cost the same",
+          "rationale": "Review the card evidence: 絵のクラス：千円。料理のクラス：二千円。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-05-c3",
+          "text": "Art class",
+          "rationale": "Correct. Art costs ¥1,000; cooking costs ¥2,000. Therefore art is cheaper."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-06"
+      ],
+      "prompt": "Choose the factually correct comparison of prices.",
+      "evidence": "絵のクラス：千円。料理のクラス：二千円。",
+      "explanation": "The art class is cheaper. より marks cooking as the reference; のほうが describes art. Evidence: 絵のクラス：千円。料理のクラス：二千円。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-06-c1",
+          "text": "料理のクラスより、絵のクラスのほうが高いです。",
+          "rationale": "Review the card evidence: 絵のクラス：千円。料理のクラス：二千円。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-06-c2",
+          "text": "料理のクラスより、絵のクラスのほうが安いです。",
+          "rationale": "Correct. The art class is cheaper. より marks cooking as the reference; のほうが describes art."
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-06-c3",
+          "text": "絵のクラスより、料理のクラスのほうが安いです。",
+          "rationale": "Review the card evidence: 絵のクラス：千円。料理のクラス：二千円。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-07"
+      ],
+      "prompt": "Which class has the smaller room?",
+      "evidence": "絵のクラス：小さい部屋。料理のクラス：大きい部屋。",
+      "explanation": "The art card says 小さい部屋; the cooking card says 大きい部屋. Evidence: 絵のクラス：小さい部屋。料理のクラス：大きい部屋。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-07-c1",
+          "text": "Art class",
+          "rationale": "Correct. The art card says 小さい部屋; the cooking card says 大きい部屋."
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-07-c2",
+          "text": "Cooking class",
+          "rationale": "Review the card evidence: 絵のクラス：小さい部屋。料理のクラス：大きい部屋。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-07-c3",
+          "text": "Both rooms are large",
+          "rationale": "Review the card evidence: 絵のクラス：小さい部屋。料理のクラス：大きい部屋。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l04-kanji-08"
+      ],
+      "prompt": "Which is the natural question when comparing exactly two classes?",
+      "evidence": "どちらのクラスが安いですか。",
+      "explanation": "どちら asks which of two; 三つ would incorrectly introduce three classes, and いつ asks when. Evidence: どちらのクラスが安いですか。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l04-08-c1",
+          "text": "三つのクラスの中で、どれが一番安いですか。",
+          "rationale": "Review the card evidence: どちらのクラスが安いですか。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-08-c2",
+          "text": "いつのクラスが安いですか。",
+          "rationale": "Review the card evidence: どちらのクラスが安いですか。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l04-08-c3",
+          "text": "どちらのクラスが安いですか。",
+          "rationale": "Correct. どちら asks which of two; 三つ would incorrectly introduce three classes, and いつ asks when."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l04-08-c3"
+      }
+    }
+  ]
+}
