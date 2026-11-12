@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c01-l03",
+  "lessonId": "n5-m07-c01-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original art-club dialogue and grammar examples in likes-strengths-grammar.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-01"
+      ],
+      "prompt": "Which sentence means 'I like music'?",
+      "evidence": "音楽が好きです。",
+      "explanation": "好き describes preference, not skill or ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-01-c1",
+          "text": "音楽が好きです。",
+          "rationale": "Correct. 好き describes preference, not skill or ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-01-c2",
+          "text": "音楽が上手です。",
+          "rationale": "Not quite. 好き describes preference, not skill or ability. Evidence: 音楽が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-01-c3",
+          "text": "音楽ができます。",
+          "rationale": "Not quite. 好き describes preference, not skill or ability. Evidence: 音楽が好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-02"
+      ],
+      "prompt": "Which sentence describes Mika's skill?",
+      "evidence": "ミカさんは料理が上手です。",
+      "explanation": "上手 means skilled or good at an activity.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-02-c1",
+          "text": "ミカさんは料理が好きです。",
+          "rationale": "Not quite. 上手 means skilled or good at an activity. Evidence: ミカさんは料理が上手です。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-02-c2",
+          "text": "ミカさんは料理が上手です。",
+          "rationale": "Correct. 上手 means skilled or good at an activity."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-02-c3",
+          "text": "ミカさんは料理ができます。",
+          "rationale": "Not quite. 上手 means skilled or good at an activity. Evidence: ミカさんは料理が上手です。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-03"
+      ],
+      "prompt": "Complete 本___好きです。",
+      "evidence": "本が好きです。",
+      "explanation": "The liked noun normally takes が in this pattern.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-03-c1",
+          "text": "を",
+          "rationale": "Not quite. The liked noun normally takes が in this pattern. Evidence: 本が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-03-c2",
+          "text": "で",
+          "rationale": "Not quite. The liked noun normally takes が in this pattern. Evidence: 本が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-03-c3",
+          "text": "が",
+          "rationale": "Correct. The liked noun normally takes が in this pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-04"
+      ],
+      "prompt": "How do you politely say 'I am not very good at singing'?",
+      "evidence": "歌があまり上手ではありません。",
+      "explanation": "あまり pairs with a negative; 上手ではありません describes limited skill.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-04-c1",
+          "text": "歌があまり上手ではありません。",
+          "rationale": "Correct. あまり pairs with a negative; 上手ではありません describes limited skill."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-04-c2",
+          "text": "歌があまり好きです。",
+          "rationale": "Not quite. あまり pairs with a negative; 上手ではありません describes limited skill. Evidence: 歌があまり上手ではありません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-04-c3",
+          "text": "歌があまりできます。",
+          "rationale": "Not quite. あまり pairs with a negative; 上手ではありません describes limited skill. Evidence: 歌があまり上手ではありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-05"
+      ],
+      "prompt": "What does ピアノができます mean here?",
+      "evidence": "ピアノができます。",
+      "explanation": "できます indicates ability; it does not guarantee enjoyment or present action.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-05-c1",
+          "text": "I like piano.",
+          "rationale": "Not quite. できます indicates ability; it does not guarantee enjoyment or present action. Evidence: ピアノができます。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-05-c2",
+          "text": "I can play piano.",
+          "rationale": "Correct. できます indicates ability; it does not guarantee enjoyment or present action."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-05-c3",
+          "text": "I am playing piano now.",
+          "rationale": "Not quite. できます indicates ability; it does not guarantee enjoyment or present action. Evidence: ピアノができます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-06"
+      ],
+      "prompt": "Which expression says 'cannot do it'?",
+      "evidence": "私はピアノができません。",
+      "explanation": "できません is the polite negative of できます.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-06-c1",
+          "text": "好きではありません",
+          "rationale": "Not quite. できません is the polite negative of できます. Evidence: 私はピアノができません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-06-c2",
+          "text": "上手ではありません",
+          "rationale": "Not quite. できません is the polite negative of できます. Evidence: 私はピアノができません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-06-c3",
+          "text": "できません",
+          "rationale": "Correct. できません is the polite negative of できます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-07"
+      ],
+      "prompt": "Which question asks about a person's skill?",
+      "evidence": "ピアノが上手ですか。",
+      "explanation": "上手ですか asks whether someone is skilled.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-07-c1",
+          "text": "ピアノが上手ですか。",
+          "rationale": "Correct. 上手ですか asks whether someone is skilled."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-07-c2",
+          "text": "ピアノが好きですか。",
+          "rationale": "Not quite. 上手ですか asks whether someone is skilled. Evidence: ピアノが上手ですか。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-07-c3",
+          "text": "ピアノができますか。",
+          "rationale": "Not quite. 上手ですか asks whether someone is skilled. Evidence: ピアノが上手ですか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-08"
+      ],
+      "prompt": "Aki likes art but is not very skilled. Which is consistent?",
+      "evidence": "私は絵が好きです。でも、絵はあまり上手ではありません。",
+      "explanation": "Liking something and being skilled at it are independent.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-08-c1",
+          "text": "絵が好きです。だから、上手です。",
+          "rationale": "Not quite. Liking something and being skilled at it are independent. Evidence: 私は絵が好きです。でも、絵はあまり上手ではありません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-08-c2",
+          "text": "絵が好きです。でも、あまり上手ではありません。",
+          "rationale": "Correct. Liking something and being skilled at it are independent."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-08-c3",
+          "text": "絵が下手です。だから、好きではありません。",
+          "rationale": "Not quite. Liking something and being skilled at it are independent. Evidence: 私は絵が好きです。でも、絵はあまり上手ではありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-09"
+      ],
+      "prompt": "What does 下手 describe?",
+      "evidence": "ケンさんはダンスが下手です。",
+      "explanation": "下手 means unskilled; it is not the same as disliking something.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-09-c1",
+          "text": "A preference",
+          "rationale": "Not quite. 下手 means unskilled; it is not the same as disliking something. Evidence: ケンさんはダンスが下手です。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-09-c2",
+          "text": "An ongoing action",
+          "rationale": "Not quite. 下手 means unskilled; it is not the same as disliking something. Evidence: ケンさんはダンスが下手です。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-09-c3",
+          "text": "Low skill",
+          "rationale": "Correct. 下手 means unskilled; it is not the same as disliking something."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-10"
+      ],
+      "prompt": "Which is a gentle self-description of limited skill?",
+      "evidence": "いいえ、まだあまり上手ではありません。",
+      "explanation": "まだ and a negative soften a statement about your current ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-10-c1",
+          "text": "まだあまり上手ではありません。",
+          "rationale": "Correct. まだ and a negative soften a statement about your current ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-10-c2",
+          "text": "私はとても上手です。",
+          "rationale": "Not quite. まだ and a negative soften a statement about your current ability. Evidence: いいえ、まだあまり上手ではありません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-10-c3",
+          "text": "あなたは下手です。",
+          "rationale": "Not quite. まだ and a negative soften a statement about your current ability. Evidence: いいえ、まだあまり上手ではありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-11"
+      ],
+      "prompt": "What is the natural polite negative of 好きです?",
+      "evidence": "本はあまり好きではありません。",
+      "explanation": "好き is a na-adjective; the polite negative is 好きではありません.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-11-c1",
+          "text": "好きません",
+          "rationale": "Not quite. 好き is a na-adjective; the polite negative is 好きではありません. Evidence: 本はあまり好きではありません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-11-c2",
+          "text": "好きではありません",
+          "rationale": "Correct. 好き is a na-adjective; the polite negative is 好きではありません."
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-11-c3",
+          "text": "好きくないです",
+          "rationale": "Not quite. 好き is a na-adjective; the polite negative is 好きではありません. Evidence: 本はあまり好きではありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l03-grammar-12"
+      ],
+      "prompt": "Which statement expresses a current ongoing action rather than ability?",
+      "evidence": "ピアノを弾いています。",
+      "explanation": "弾いています describes playing now; できます describes being able to play.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l03-12-c1",
+          "text": "ピアノが好きです。",
+          "rationale": "Not quite. 弾いています describes playing now; できます describes being able to play. Evidence: ピアノを弾いています。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-12-c2",
+          "text": "ピアノができます。",
+          "rationale": "Not quite. 弾いています describes playing now; できます describes being able to play. Evidence: ピアノを弾いています。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l03-12-c3",
+          "text": "ピアノを弾いています。",
+          "rationale": "Correct. 弾いています describes playing now; できます describes being able to play."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l03-12-c3"
+      }
+    }
+  ]
+}
