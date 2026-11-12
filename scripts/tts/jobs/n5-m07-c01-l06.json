@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m07-c01-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 model terms; independent legal review not claimed"
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "An interview at the hobby fair",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m07-c01-l06-listen-a",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "こんにちは。どんなスポーツが好きですか。",
+          "english": "Hello. What kind of sports do you like?"
+        },
+        {
+          "speaker": "male",
+          "text": "水泳が好きです。でも、泳ぐのはあまり上手ではありません。",
+          "english": "I like swimming, but I'm not very good at it."
+        },
+        {
+          "speaker": "female",
+          "text": "テニスはできますか。",
+          "english": "Can you play tennis?"
+        },
+        {
+          "speaker": "male",
+          "text": "はい、できます。週末に友だちとテニスをします。",
+          "english": "Yes, I can. I play tennis with friends on weekends."
+        },
+        {
+          "speaker": "female",
+          "text": "ありがとうございます。",
+          "english": "Thank you."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Which sport does the man like?",
+        "How well does he swim?",
+        "Can he play tennis?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "An interview about arts and music",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m07-c01-l06-listen-b",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "山田さん、音楽が好きですか。",
+          "english": "Yamada, do you like music?"
+        },
+        {
+          "speaker": "female",
+          "text": "はい。ピアノが好きです。ピアノを弾くのも得意です。",
+          "english": "Yes. I like piano, and I'm also good at playing it."
+        },
+        {
+          "speaker": "male",
+          "text": "ギターも弾けますか。",
+          "english": "Can you play guitar too?"
+        },
+        {
+          "speaker": "female",
+          "text": "いいえ、ギターは弾けません。でも、絵を描くことができます。",
+          "english": "No, I can't play guitar. But I can draw pictures."
+        },
+        {
+          "speaker": "male",
+          "text": "そうですか。ありがとうございます。",
+          "english": "I see. Thank you."
+        }
+      ],
+      "comprehensionPrompts": [
+        "What instrument does Yamada like?",
+        "Can Yamada play guitar?",
+        "What else can Yamada do?"
+      ]
+    }
+  ]
+}
