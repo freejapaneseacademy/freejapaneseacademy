@@ -1,0 +1,334 @@
+{
+  "id": "n5-m07-c01-l07",
+  "lessonId": "n5-m07-c01-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional hobby circle models in hobby-introduction-writing.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-01"
+      ],
+      "prompt": "In Model A, what does 音楽が好きです express?",
+      "evidence": "音楽が好きです。",
+      "explanation": "好き expresses preference, not ability. Evidence: 音楽が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-01-c1",
+          "text": "Mio likes music.",
+          "rationale": "Correct. 好き expresses preference, not ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-01-c2",
+          "text": "Mio can play music.",
+          "rationale": "Review the model evidence: 音楽が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-01-c3",
+          "text": "Mio dislikes music.",
+          "rationale": "Review the model evidence: 音楽が好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-02"
+      ],
+      "prompt": "Which phrase in Model A says Mio does not particularly like dancing?",
+      "evidence": "ダンスはあまり好きではありません。",
+      "explanation": "あまり plus the negative 好きではありません expresses 'not particularly like'. Evidence: ダンスはあまり好きではありません。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-02-c1",
+          "text": "ダンスが好きです。",
+          "rationale": "Review the model evidence: ダンスはあまり好きではありません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-02-c2",
+          "text": "ダンスはあまり好きではありません。",
+          "rationale": "Correct. あまり plus the negative 好きではありません expresses 'not particularly like'."
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-02-c3",
+          "text": "ダンスが上手です。",
+          "rationale": "Review the model evidence: ダンスはあまり好きではありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-03"
+      ],
+      "prompt": "Which is the standard way to say 'I like reading books'?",
+      "evidence": "本を読むのが好きです。",
+      "explanation": "The object takes を, and the activity 読むの takes が before 好き. Evidence: 本を読むのが好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-03-c1",
+          "text": "本を読むが好きです。",
+          "rationale": "Review the model evidence: 本を読むのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-03-c2",
+          "text": "本が読むのが好きです。",
+          "rationale": "Review the model evidence: 本を読むのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-03-c3",
+          "text": "本を読むのが好きです。",
+          "rationale": "Correct. The object takes を, and the activity 読むの takes が before 好き."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-04"
+      ],
+      "prompt": "What does ピアノはあまり上手ではありません mean?",
+      "evidence": "ピアノはあまり上手ではありません。",
+      "explanation": "上手 describes skill; its negative is not a statement of dislike. Evidence: ピアノはあまり上手ではありません。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-04-c1",
+          "text": "I'm not very good at piano.",
+          "rationale": "Correct. 上手 describes skill; its negative is not a statement of dislike."
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-04-c2",
+          "text": "I dislike piano.",
+          "rationale": "Review the model evidence: ピアノはあまり上手ではありません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-04-c3",
+          "text": "I cannot hear piano.",
+          "rationale": "Review the model evidence: ピアノはあまり上手ではありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-05"
+      ],
+      "prompt": "Which sentence states an ability rather than a preference?",
+      "evidence": "ピアノを弾くことができます。",
+      "explanation": "Dictionary-form verb + ことができます means 'can do'. Evidence: ピアノを弾くことができます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-05-c1",
+          "text": "ピアノはあまり好きではありません。",
+          "rationale": "Review the model evidence: ピアノを弾くことができます。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-05-c2",
+          "text": "ピアノを弾くことができます。",
+          "rationale": "Correct. Dictionary-form verb + ことができます means 'can do'."
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-05-c3",
+          "text": "ピアノが好きです。",
+          "rationale": "Review the model evidence: ピアノを弾くことができます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-06"
+      ],
+      "prompt": "What is the function of の in 歌うのが好きです?",
+      "evidence": "歌うのが好きです。",
+      "explanation": "Verb + の nominalizes the activity; が marks it as liked. Evidence: 歌うのが好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-06-c1",
+          "text": "It marks the past tense.",
+          "rationale": "Review the model evidence: 歌うのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-06-c2",
+          "text": "It makes the sentence a prohibition.",
+          "rationale": "Review the model evidence: 歌うのが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-06-c3",
+          "text": "It makes singing into an activity to be liked.",
+          "rationale": "Correct. Verb + の nominalizes the activity; が marks it as liked."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-07"
+      ],
+      "prompt": "In Model B, what can the speaker do a little?",
+      "evidence": "はい、少し書けます。",
+      "explanation": "書けます is the potential form of 書く, indicating ability to write. Evidence: はい、少し書けます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-07-c1",
+          "text": "Write in Japanese.",
+          "rationale": "Correct. 書けます is the potential form of 書く, indicating ability to write."
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-07-c2",
+          "text": "Sing in Japanese.",
+          "rationale": "Review the model evidence: はい、少し書けます。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-07-c3",
+          "text": "Dance well.",
+          "rationale": "Review the model evidence: はい、少し書けます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l07-pattern-08"
+      ],
+      "prompt": "Which response tactfully describes your own developing skill?",
+      "evidence": "まだ上手ではありません。",
+      "explanation": "まだ上手ではありません means 'I'm not good at it yet' and avoids judging another person. Evidence: まだ上手ではありません。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l07-08-c1",
+          "text": "私は音楽を好きです。",
+          "rationale": "Review the model evidence: まだ上手ではありません。"
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-08-c2",
+          "text": "まだ上手ではありません。",
+          "rationale": "Correct. まだ上手ではありません means 'I'm not good at it yet' and avoids judging another person."
+        },
+        {
+          "id": "ex-n5-m07-c01-l07-08-c3",
+          "text": "あなたは下手です。",
+          "rationale": "Review the model evidence: まだ上手ではありません。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l07-08-c2"
+      }
+    }
+  ]
+}
