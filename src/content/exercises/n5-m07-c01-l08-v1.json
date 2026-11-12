@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c01-l08",
+  "lessonId": "n5-m07-c01-l08",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original optional club roleplay scenarios in hobby-roleplay.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l08-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-01"
+      ],
+      "prompt": "Someone asks 何が好きですか。 Which reply answers the preference question?",
+      "evidence": "何が好きですか。",
+      "explanation": "好きです states a preference; 上手 and できます refer to skill or ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q01-v1-c1",
+          "text": "音楽が好きです。",
+          "rationale": "Correct. 好きです states a preference; 上手 and できます refer to skill or ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q01-v1-c2",
+          "text": "音楽が上手です。",
+          "rationale": "Not quite. 好きです states a preference; 上手 and できます refer to skill or ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q01-v1-c3",
+          "text": "音楽はできません。",
+          "rationale": "Not quite. 好きです states a preference; 上手 and できます refer to skill or ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-02"
+      ],
+      "prompt": "What does ピアノはできますか ask?",
+      "evidence": "ピアノはできますか。",
+      "explanation": "できますか asks whether an activity is possible for the person.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q02-v1-c1",
+          "text": "Do you like the piano?",
+          "rationale": "Not quite. できますか asks whether an activity is possible for the person."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q02-v1-c2",
+          "text": "Can you play the piano?",
+          "rationale": "Correct. できますか asks whether an activity is possible for the person."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q02-v1-c3",
+          "text": "Are you listening to piano music?",
+          "rationale": "Not quite. できますか asks whether an activity is possible for the person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q02-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-03"
+      ],
+      "prompt": "Choose the polite response meaning 'I am not very good at singing.'",
+      "evidence": "歌はあまり得意じゃありません。",
+      "explanation": "あまり plus the negative 得意じゃありません expresses limited skill.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q03-v1-c1",
+          "text": "歌が大好きです。",
+          "rationale": "Not quite. あまり plus the negative 得意じゃありません expresses limited skill."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q03-v1-c2",
+          "text": "歌はとても得意です。",
+          "rationale": "Not quite. あまり plus the negative 得意じゃありません expresses limited skill."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q03-v1-c3",
+          "text": "歌はあまり得意じゃありません。",
+          "rationale": "Correct. あまり plus the negative 得意じゃありません expresses limited skill."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q03-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-04"
+      ],
+      "prompt": "Which response naturally adds a second interest?",
+      "evidence": "読書が好きです。映画も好きです。",
+      "explanation": "も adds 'also' to another statement of liking.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q04-v1-c1",
+          "text": "映画も好きです。",
+          "rationale": "Correct. も adds 'also' to another statement of liking."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q04-v1-c2",
+          "text": "映画はできません。",
+          "rationale": "Not quite. も adds 'also' to another statement of liking."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q04-v1-c3",
+          "text": "映画が下手です。",
+          "rationale": "Not quite. も adds 'also' to another statement of liking."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-05"
+      ],
+      "prompt": "Which sentence means 'I can play a little piano'?",
+      "evidence": "ピアノが少しできます。",
+      "explanation": "少しできます expresses limited ability, not dislike.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q05-v1-c1",
+          "text": "ピアノはできません。",
+          "rationale": "Not quite. 少しできます expresses limited ability, not dislike."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q05-v1-c2",
+          "text": "ピアノが少しできます。",
+          "rationale": "Correct. 少しできます expresses limited ability, not dislike."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q05-v1-c3",
+          "text": "ピアノが好きじゃありません。",
+          "rationale": "Not quite. 少しできます expresses limited ability, not dislike."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q05-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-06"
+      ],
+      "prompt": "A club member says 水泳はできません。 What do you know?",
+      "evidence": "水泳はできません。",
+      "explanation": "できません is inability; preference is not stated.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q06-v1-c1",
+          "text": "They dislike swimming.",
+          "rationale": "Not quite. できません is inability; preference is not stated."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q06-v1-c2",
+          "text": "They swim every Saturday.",
+          "rationale": "Not quite. できません is inability; preference is not stated."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q06-v1-c3",
+          "text": "They cannot swim.",
+          "rationale": "Correct. できません is inability; preference is not stated."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q06-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-07"
+      ],
+      "prompt": "Which is a tactful way to ask about a cooking strength?",
+      "evidence": "料理は得意ですか。",
+      "explanation": "得意ですか asks about strength without labeling the other person bad at it.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q07-v1-c1",
+          "text": "料理は得意ですか。",
+          "rationale": "Correct. 得意ですか asks about strength without labeling the other person bad at it."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q07-v1-c2",
+          "text": "料理は下手ですか。",
+          "rationale": "Not quite. 得意ですか asks about strength without labeling the other person bad at it."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q07-v1-c3",
+          "text": "料理が嫌いですか。",
+          "rationale": "Not quite. 得意ですか asks about strength without labeling the other person bad at it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-08"
+      ],
+      "prompt": "What does いいですね communicate after hearing a hobby?",
+      "evidence": "いいですね。",
+      "explanation": "いいですね responds positively to what the partner said.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q08-v1-c1",
+          "text": "You must do it.",
+          "rationale": "Not quite. いいですね responds positively to what the partner said."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q08-v1-c2",
+          "text": "That sounds nice.",
+          "rationale": "Correct. いいですね responds positively to what the partner said."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q08-v1-c3",
+          "text": "I cannot do it.",
+          "rationale": "Not quite. いいですね responds positively to what the partner said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q08-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-09"
+      ],
+      "prompt": "Which phrase suggests an activity together?",
+      "evidence": "いっしょに料理をしましょう。",
+      "explanation": "いっしょに and 〜ましょう make a shared suggestion.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q09-v1-c1",
+          "text": "料理はできません。",
+          "rationale": "Not quite. いっしょに and 〜ましょう make a shared suggestion."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q09-v1-c2",
+          "text": "料理が好きですか。",
+          "rationale": "Not quite. いっしょに and 〜ましょう make a shared suggestion."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q09-v1-c3",
+          "text": "いっしょに料理をしましょう。",
+          "rationale": "Correct. いっしょに and 〜ましょう make a shared suggestion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q09-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-10"
+      ],
+      "prompt": "Choose the natural negative pattern with あまり.",
+      "evidence": "あまり上手じゃありません。",
+      "explanation": "あまり ordinarily combines with a negative predicate in this meaning.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q10-v1-c1",
+          "text": "あまり上手じゃありません。",
+          "rationale": "Correct. あまり ordinarily combines with a negative predicate in this meaning."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q10-v1-c2",
+          "text": "あまり上手です。",
+          "rationale": "Not quite. あまり ordinarily combines with a negative predicate in this meaning."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q10-v1-c3",
+          "text": "あまり上手でしたか。",
+          "rationale": "Not quite. あまり ordinarily combines with a negative predicate in this meaning."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-11"
+      ],
+      "prompt": "In 土曜日は何をしますか, what is the question about?",
+      "evidence": "土曜日は何をしますか。",
+      "explanation": "土曜日は sets the time topic; 何をしますか asks what one will do.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q11-v1-c1",
+          "text": "Someone's favorite movie",
+          "rationale": "Not quite. 土曜日は sets the time topic; 何をしますか asks what one will do."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q11-v1-c2",
+          "text": "Saturday's activity",
+          "rationale": "Correct. 土曜日は sets the time topic; 何をしますか asks what one will do."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q11-v1-c3",
+          "text": "Someone's piano ability",
+          "rationale": "Not quite. 土曜日は sets the time topic; 何をしますか asks what one will do."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q11-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l08-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "speaking",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l08-roleplay"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l08-pattern-12"
+      ],
+      "prompt": "Which statement expresses liking, not proficiency?",
+      "evidence": "水泳が好きです。",
+      "explanation": "好き describes a preference; 得意 and できます concern skill or ability.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l08-q12-v1-c1",
+          "text": "水泳は得意です。",
+          "rationale": "Not quite. 好き describes a preference; 得意 and できます concern skill or ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q12-v1-c2",
+          "text": "水泳が少しできます。",
+          "rationale": "Not quite. 好き describes a preference; 得意 and できます concern skill or ability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l08-q12-v1-c3",
+          "text": "水泳が好きです。",
+          "rationale": "Correct. 好き describes a preference; 得意 and できます concern skill or ability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l08-q12-v1-c3"
+      }
+    }
+  ]
+}
