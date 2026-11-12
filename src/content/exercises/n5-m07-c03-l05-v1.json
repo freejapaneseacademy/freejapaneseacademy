@@ -1,0 +1,450 @@
+{
+  "lessonId": "n5-m07-c03-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place is closest to the station?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あおカフェ",
+          "rationale": "Supported by chart evidence: B: 歩いて二分"
+        },
+        {
+          "id": "c2",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: B: 歩いて二分"
+        },
+        {
+          "id": "c3",
+          "text": "さくら公園",
+          "rationale": "Not supported by chart evidence: B: 歩いて二分"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: B: 歩いて二分"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place has twenty seats?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "さくら公園",
+          "rationale": "Not supported by chart evidence: A: 席は二十あります"
+        },
+        {
+          "id": "c2",
+          "text": "みどり図書館",
+          "rationale": "Supported by chart evidence: A: 席は二十あります"
+        },
+        {
+          "id": "c3",
+          "text": "あおカフェ",
+          "rationale": "Not supported by chart evidence: A: 席は二十あります"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: A: 席は二十あります"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place is lively?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: B: にぎやかです"
+        },
+        {
+          "id": "c2",
+          "text": "さくら公園",
+          "rationale": "Not supported by chart evidence: B: にぎやかです"
+        },
+        {
+          "id": "c3",
+          "text": "あおカフェ",
+          "rationale": "Supported by chart evidence: B: にぎやかです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: B: にぎやかです"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place is spacious?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "さくら公園",
+          "rationale": "Supported by chart evidence: C: 広いです"
+        },
+        {
+          "id": "c2",
+          "text": "あおカフェ",
+          "rationale": "Not supported by chart evidence: C: 広いです"
+        },
+        {
+          "id": "c3",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: C: 広いです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: C: 広いです"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is admission free?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あおカフェ",
+          "rationale": "Not supported by chart evidence: C: 入場料は無料です"
+        },
+        {
+          "id": "c2",
+          "text": "さくら公園",
+          "rationale": "Supported by chart evidence: C: 入場料は無料です"
+        },
+        {
+          "id": "c3",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: C: 入場料は無料です"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: C: 入場料は無料です"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place is quiet?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "あおカフェ",
+          "rationale": "Not supported by chart evidence: A: 静かです"
+        },
+        {
+          "id": "c2",
+          "text": "さくら公園",
+          "rationale": "Not supported by chart evidence: A: 静かです"
+        },
+        {
+          "id": "c3",
+          "text": "みどり図書館",
+          "rationale": "Supported by chart evidence: A: 静かです"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: A: 静かです"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which is farther from the station, park or library?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "さくら公園",
+          "rationale": "Supported by chart evidence: C: 十分; A: 五分"
+        },
+        {
+          "id": "c2",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: C: 十分; A: 五分"
+        },
+        {
+          "id": "c3",
+          "text": "あおカフェ",
+          "rationale": "Not supported by chart evidence: C: 十分; A: 五分"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: C: 十分; A: 五分"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which has fewer seats, café or library?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "さくら公園",
+          "rationale": "Not supported by chart evidence: B: 十席; A: 二十席"
+        },
+        {
+          "id": "c2",
+          "text": "あおカフェ",
+          "rationale": "Supported by chart evidence: B: 十席; A: 二十席"
+        },
+        {
+          "id": "c3",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: B: 十席; A: 二十席"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: B: 十席; A: 二十席"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which comparison is supported?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "カフェは図書館より静かです。",
+          "rationale": "Not supported by chart evidence: A: 静か; B: にぎやか"
+        },
+        {
+          "id": "c2",
+          "text": "公園には二十席あります。",
+          "rationale": "Not supported by chart evidence: A: 静か; B: にぎやか"
+        },
+        {
+          "id": "c3",
+          "text": "図書館はカフェより静かです。",
+          "rationale": "Supported by chart evidence: A: 静か; B: にぎやか"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: A: 静か; B: にぎやか"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What does 駅から歩いて二分 mean?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Two minutes on foot from the station",
+          "rationale": "Supported by chart evidence: B: 駅から歩いて二分"
+        },
+        {
+          "id": "c2",
+          "text": "Two minutes by train from the station",
+          "rationale": "Not supported by chart evidence: B: 駅から歩いて二分"
+        },
+        {
+          "id": "c3",
+          "text": "Two minutes until closing",
+          "rationale": "Not supported by chart evidence: B: 駅から歩いて二分"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: B: 駅から歩いて二分"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which place has no stated seat count?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: C gives no seat count"
+        },
+        {
+          "id": "c2",
+          "text": "さくら公園",
+          "rationale": "Supported by chart evidence: C gives no seat count"
+        },
+        {
+          "id": "c3",
+          "text": "あおカフェ",
+          "rationale": "Not supported by chart evidence: C gives no seat count"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: C gives no seat count"
+    },
+    {
+      "id": "ex-n5-m07-c03-l05-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which has the shortest stated walk?",
+      "objectiveIds": [
+        "n5-m07-c03-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l05-comparison-chart"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "さくら公園",
+          "rationale": "Not supported by chart evidence: B: 二分; A: 五分; C: 十分"
+        },
+        {
+          "id": "c2",
+          "text": "みどり図書館",
+          "rationale": "Not supported by chart evidence: B: 二分; A: 五分; C: 十分"
+        },
+        {
+          "id": "c3",
+          "text": "あおカフェ",
+          "rationale": "Supported by chart evidence: B: 二分; A: 五分; C: 十分"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: B: 二分; A: 五分; C: 十分"
+    }
+  ]
+}
