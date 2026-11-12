@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/OngoingVocabularyPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'n5/ongoing-activity-vocabulary');
+if (!lesson || lesson.data.lessonId !== 'n5-m06-c04-l02') throw new Error('Missing canonical lesson n5-m06-c04-l02');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Ongoing activities vocabulary',href:'/learn/n5/module-06/chapter-04/lesson-02/'}]}>
+  <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 06 · CHAPTER 04 · LESSON 02</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Vocabulary and word study</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice">Original written vocabulary lesson. Independent Japanese and assessment reviews are pending; no recorded pronunciation evaluation is claimed.</div>
+    <div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map((objective:string)=><li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <Practice client:load />
+    <div class="foundation-completion"><h2>Complete the lesson</h2><p>Lesson completion is recorded separately from your practice score.</p><LessonActions client:load lessonId="n5-m06-c04-l02" level="n5" /></div>
+    <div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a><a class="btn btn-outline" href="/dashboard/">Progress dashboard</a></div>
+  </div><aside class="lesson-side foundation-side"><h2>Study guide</h2><p>Activity expressions · Places + で · Objects + を · Now versus routine</p><p>Written practice; no audio is required for this L02 lesson.</p></aside></div></section>
+</Base>
