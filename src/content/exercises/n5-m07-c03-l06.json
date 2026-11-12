@@ -1,0 +1,272 @@
+{
+  "id": "n5-m07-c03-l06",
+  "lessonId": "n5-m07-c03-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Two original fictional comparison dialogues; licensed audio generation pending",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l06-comparisons"
+      ],
+      "trackId": "audio-n5-m07-c03-l06-a",
+      "prompt": "Which café is quieter?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l06-01-c1",
+          "text": "The café in the park",
+          "rationale": "Correct. The speaker explicitly says the park café is quieter."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-01-c2",
+          "text": "The café near the station",
+          "rationale": "Not supported by the dialogue. The speaker explicitly says the park café is quieter."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-01-c3",
+          "text": "Both are equally quiet",
+          "rationale": "Not supported by the dialogue. The speaker explicitly says the park café is quieter."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l06-01-c1"
+      },
+      "evidence": "公園のカフェのほうが静かです。",
+      "explanation": "The speaker explicitly says the park café is quieter.",
+      "feedback": "The speaker explicitly says the park café is quieter."
+    },
+    {
+      "id": "ex-n5-m07-c03-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l06-comparisons"
+      ],
+      "trackId": "audio-n5-m07-c03-l06-a",
+      "prompt": "Which café is cheaper?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l06-02-c1",
+          "text": "The park café",
+          "rationale": "Not supported by the dialogue. 安い means inexpensive; the station café is cheaper."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-02-c2",
+          "text": "The station café",
+          "rationale": "Correct. 安い means inexpensive; the station café is cheaper."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-02-c3",
+          "text": "Neither café",
+          "rationale": "Not supported by the dialogue. 安い means inexpensive; the station café is cheaper."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l06-02-c2"
+      },
+      "evidence": "駅のカフェのほうが安いですね。",
+      "explanation": "安い means inexpensive; the station café is cheaper.",
+      "feedback": "安い means inexpensive; the station café is cheaper."
+    },
+    {
+      "id": "ex-n5-m07-c03-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l06-comparisons"
+      ],
+      "trackId": "audio-n5-m07-c03-l06-a",
+      "prompt": "Where do they decide to go today?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l06-03-c1",
+          "text": "The station café",
+          "rationale": "Not supported by the dialogue. 行きましょう proposes going to the park café."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-03-c2",
+          "text": "The library",
+          "rationale": "Not supported by the dialogue. 行きましょう proposes going to the park café."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-03-c3",
+          "text": "The park café",
+          "rationale": "Correct. 行きましょう proposes going to the park café."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l06-03-c3"
+      },
+      "evidence": "公園のカフェに行きましょう。",
+      "explanation": "行きましょう proposes going to the park café.",
+      "feedback": "行きましょう proposes going to the park café."
+    },
+    {
+      "id": "ex-n5-m07-c03-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l06-comparisons"
+      ],
+      "trackId": "audio-n5-m07-c03-l06-b",
+      "prompt": "Which fruit does the woman like best?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l06-04-c1",
+          "text": "Apples",
+          "rationale": "Not supported by the dialogue. 一番好き identifies mandarins as her favorite."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-04-c2",
+          "text": "Mandarins",
+          "rationale": "Correct. 一番好き identifies mandarins as her favorite."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-04-c3",
+          "text": "Bananas",
+          "rationale": "Not supported by the dialogue. 一番好き identifies mandarins as her favorite."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l06-04-c2"
+      },
+      "evidence": "私はみかんが一番好きです。",
+      "explanation": "一番好き identifies mandarins as her favorite.",
+      "feedback": "一番好き identifies mandarins as her favorite."
+    },
+    {
+      "id": "ex-n5-m07-c03-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l06-comparisons"
+      ],
+      "trackId": "audio-n5-m07-c03-l06-b",
+      "prompt": "Which fruit does the man prefer to apples?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l06-05-c1",
+          "text": "Bananas",
+          "rationale": "Correct. He prefers bananas to apples; he does not rank all three."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-05-c2",
+          "text": "Mandarins",
+          "rationale": "Not supported by the dialogue. He prefers bananas to apples; he does not rank all three."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-05-c3",
+          "text": "Grapes",
+          "rationale": "Not supported by the dialogue. He prefers bananas to apples; he does not rank all three."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l06-05-c1"
+      },
+      "evidence": "私はバナナのほうがりんごより好きです。",
+      "explanation": "He prefers bananas to apples; he does not rank all three.",
+      "feedback": "He prefers bananas to apples; he does not rank all three."
+    },
+    {
+      "id": "ex-n5-m07-c03-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l06-comparisons"
+      ],
+      "trackId": "audio-n5-m07-c03-l06-b",
+      "prompt": "Which fruit will they NOT buy today?",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l06-06-c1",
+          "text": "Bananas",
+          "rationale": "Not supported by the dialogue. 買いません is a negative future/nonpast statement: no apples today."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-06-c2",
+          "text": "Mandarins",
+          "rationale": "Not supported by the dialogue. 買いません is a negative future/nonpast statement: no apples today."
+        },
+        {
+          "id": "ex-n5-m07-c03-l06-06-c3",
+          "text": "Apples",
+          "rationale": "Correct. 買いません is a negative future/nonpast statement: no apples today."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l06-06-c3"
+      },
+      "evidence": "りんごは今日は買いません。",
+      "explanation": "買いません is a negative future/nonpast statement: no apples today.",
+      "feedback": "買いません is a negative future/nonpast statement: no apples today."
+    }
+  ]
+}
