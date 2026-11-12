@@ -1,0 +1,14 @@
+---
+import {getEntry,render} from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ComparisonChartReading from '../../../../../components/interactive/ComparisonChartReading';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson=await getEntry('lessons','n5/comparison-chart-reading');
+if(!lesson||lesson.data.lessonId!=='n5-m07-c03-l05')throw new Error('Missing canonical lesson n5-m07-c03-l05');
+const {Content}=await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Comparing choices',href:'/learn/n5/module-07/chapter-03/lesson-05/'}]}>
+<section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn/">Courses</a><span>›</span><a href="/learn/n5/">N5</a><span>›</span><span>Module 07 · Chapter 03 · Lesson 05</span></nav><span class="eyebrow">N5 · MODULE 07 · CHAPTER 03 · LESSON 05</span><h1>Read a comparison chart</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Original written reading</span><span>12 questions</span></div></div></section>
+<section class="page-body"><div class="container foundation-lesson"><div class="foundation-main"><div class="course-notice"><strong>Original fictional reading.</strong> Independent Japanese and assessment reviews pending. No audio or pronunciation assessment is claimed.</div><div class="lesson-intro"><span class="eyebrow">LEARNING GOALS</span><h2>By the end, you can…</h2><ul>{lesson.data.objectives.map((o:string)=><li>{o}</li>)}</ul></div><article class="lesson-article foundation-article"><Content/></article><ComparisonChartReading client:load/><div class="foundation-completion"><h2>Finish this lesson</h2><p>Completion and reading score are recorded separately.</p><LessonActions client:load lessonId="n5-m07-c03-l05" level="n5"/></div><div class="lesson-next"><h3>Keep learning</h3><p>Next: listening to a choice dialogue in Lesson 06.</p><a class="btn btn-outline" href="/learn/n5/">N5 lessons</a><a class="btn btn-outline" href="/dashboard/">My learning</a></div></div><aside class="lesson-side foundation-side"><span class="eyebrow">READING STRATEGY</span><h3>Quote the evidence</h3><p>Compare only the stated walking times, atmosphere, seats and admission.</p></aside></div></section>
+</Base>
