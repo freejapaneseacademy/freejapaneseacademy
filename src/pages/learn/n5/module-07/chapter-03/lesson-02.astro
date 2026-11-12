@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/ComparisonVocabularyPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'n5/comparison-vocabulary');
+if (!lesson || lesson.data.lessonId !== 'n5-m07-c03-l02') throw new Error('Missing canonical lesson n5-m07-c03-l02');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Comparison vocabulary',href:'/learn/n5/module-07/chapter-03/lesson-02/'}]}>
+  <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 07 · CHAPTER 03 · LESSON 02</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Vocabulary and word study</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice">Original fictional comparison card. No recorded audio or pronunciation verification. Independent Japanese and assessment reviews pending.</div>
+    <div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map((objective:string)=><li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <Practice client:load />
+    <div class="foundation-completion"><h2>Complete the lesson</h2><p>Completion is independent of the recognition score or optional speaking.</p><LessonActions client:load lessonId="n5-m07-c03-l02" level="n5" /></div>
+    <div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a><a class="btn btn-outline" href="/dashboard/">Progress dashboard</a></div>
+  </div><aside class="lesson-side foundation-side"><h2>Study guide</h2><p>Adjective opposites · comparison reference より · two-choice どちら · group superlative 一番.</p><p>Written practice with browser-local progress.</p></aside></div></section>
+</Base>
