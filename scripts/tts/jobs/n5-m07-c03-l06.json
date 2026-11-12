@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m07-c03-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 terms; independent legal review not claimed"
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Choosing a café for a study break",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m07-c03-l06-listen-a",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "駅の近くのカフェと公園のカフェ、どちらが静かですか。",
+          "english": "Which is quieter, the café near the station or the café in the park?"
+        },
+        {
+          "speaker": "male",
+          "text": "公園のカフェのほうが静かです。",
+          "english": "The café in the park is quieter."
+        },
+        {
+          "speaker": "female",
+          "text": "でも、駅のカフェのほうが安いですね。",
+          "english": "But the café by the station is cheaper, isn't it?"
+        },
+        {
+          "speaker": "male",
+          "text": "はい。今日は勉強したいですから、公園のカフェに行きましょう。",
+          "english": "Yes. We want to study today, so let's go to the café in the park."
+        },
+        {
+          "speaker": "female",
+          "text": "いいですね。",
+          "english": "Sounds good."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Which café is quieter?",
+        "Which café is cheaper?",
+        "Where do they decide to go?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Comparing three picnic snacks",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m07-c03-l06-listen-b",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "りんごとバナナとみかんがあります。どれが一番好きですか。",
+          "english": "We have apples, bananas, and mandarins. Which do you like best?"
+        },
+        {
+          "speaker": "female",
+          "text": "私はみかんが一番好きです。",
+          "english": "I like mandarins best."
+        },
+        {
+          "speaker": "male",
+          "text": "私はバナナのほうがりんごより好きです。",
+          "english": "I like bananas more than apples."
+        },
+        {
+          "speaker": "female",
+          "text": "じゃあ、みかんとバナナを買いましょう。",
+          "english": "Then let's buy mandarins and bananas."
+        },
+        {
+          "speaker": "male",
+          "text": "はい。りんごは今日は買いません。",
+          "english": "Yes. We won't buy apples today."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Which fruit does the woman like best?",
+        "Which fruit does the man prefer to apples?",
+        "Which fruit will they not buy?"
+      ]
+    }
+  ]
+}
