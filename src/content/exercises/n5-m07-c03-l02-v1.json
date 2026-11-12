@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c03-l02",
+  "lessonId": "n5-m07-c03-l02",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional comparison card and dialogue in comparison-vocabulary.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l02-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-01"
+      ],
+      "prompt": "Which word means 'inexpensive'?",
+      "evidence": "安い",
+      "explanation": "安い means inexpensive; 高い means expensive or high.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q01-v1-c1",
+          "text": "安い",
+          "rationale": "Correct. 安い means inexpensive; 高い means expensive or high."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q01-v1-c2",
+          "text": "高い",
+          "rationale": "Review: 安い means inexpensive; 高い means expensive or high."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q01-v1-c3",
+          "text": "古い",
+          "rationale": "Review: 安い means inexpensive; 高い means expensive or high."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-02"
+      ],
+      "prompt": "Which word means 'far'?",
+      "evidence": "遠い",
+      "explanation": "遠い means far; 近い is near.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q02-v1-c1",
+          "text": "近い",
+          "rationale": "Review: 遠い means far; 近い is near."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q02-v1-c2",
+          "text": "小さい",
+          "rationale": "Review: 遠い means far; 近い is near."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q02-v1-c3",
+          "text": "遠い",
+          "rationale": "Correct. 遠い means far; 近い is near."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q02-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-03"
+      ],
+      "prompt": "Choose the adjective for a quiet room.",
+      "evidence": "静かな部屋",
+      "explanation": "静か takes な before a noun; にぎやか means lively.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q03-v1-c1",
+          "text": "にぎやかな部屋",
+          "rationale": "Review: 静か takes な before a noun; にぎやか means lively."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q03-v1-c2",
+          "text": "静かな部屋",
+          "rationale": "Correct. 静か takes な before a noun; にぎやか means lively."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q03-v1-c3",
+          "text": "静か部屋",
+          "rationale": "Review: 静か takes な before a noun; にぎやか means lively."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q03-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-04"
+      ],
+      "prompt": "Which question asks which of TWO options is quieter?",
+      "evidence": "どちらが静かですか。",
+      "explanation": "どちら asks which of two; 一番 marks the highest degree.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q04-v1-c1",
+          "text": "どちらが静かですか。",
+          "rationale": "Correct. どちら asks which of two; 一番 marks the highest degree."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q04-v1-c2",
+          "text": "一番が静かですか。",
+          "rationale": "Review: どちら asks which of two; 一番 marks the highest degree."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q04-v1-c3",
+          "text": "何時が静かですか。",
+          "rationale": "Review: どちら asks which of two; 一番 marks the highest degree."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-05"
+      ],
+      "prompt": "According to the fictional card, which place is larger?",
+      "evidence": "図書館の部屋は大きい",
+      "explanation": "The card labels the library room 大きい and café 小さい.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q05-v1-c1",
+          "text": "カフェ",
+          "rationale": "Review: The card labels the library room 大きい and café 小さい."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q05-v1-c2",
+          "text": "Both are equally small",
+          "rationale": "Review: The card labels the library room 大きい and café 小さい."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q05-v1-c3",
+          "text": "図書館の部屋",
+          "rationale": "Correct. The card labels the library room 大きい and café 小さい."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q05-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-06"
+      ],
+      "prompt": "According to the card, which place is nearer to school?",
+      "evidence": "カフェは近い",
+      "explanation": "The café is 近い and the library room 遠い.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q06-v1-c1",
+          "text": "Both are far",
+          "rationale": "Review: The café is 近い and the library room 遠い."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q06-v1-c2",
+          "text": "カフェ",
+          "rationale": "Correct. The café is 近い and the library room 遠い."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q06-v1-c3",
+          "text": "図書館の部屋",
+          "rationale": "Review: The café is 近い and the library room 遠い."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q06-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-07"
+      ],
+      "prompt": "Which means 'The library room is quieter than the café'?",
+      "evidence": "図書館の部屋はカフェより静かです。",
+      "explanation": "The subject before は is the library room; the comparison reference after より is the café.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q07-v1-c1",
+          "text": "図書館の部屋はカフェより静かです。",
+          "rationale": "Correct. The subject before は is the library room; the comparison reference after より is the café."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q07-v1-c2",
+          "text": "カフェは図書館の部屋より静かです。",
+          "rationale": "Review: The subject before は is the library room; the comparison reference after より is the café."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q07-v1-c3",
+          "text": "図書館の部屋はカフェよりにぎやかです。",
+          "rationale": "Review: The subject before は is the library room; the comparison reference after より is the café."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-08"
+      ],
+      "prompt": "What does より mark in カフェは図書館の部屋より安いです?",
+      "evidence": "図書館の部屋より",
+      "explanation": "より marks the option used as the reference, here the library room.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q08-v1-c1",
+          "text": "The place where an action happens",
+          "rationale": "Review: より marks the option used as the reference, here the library room."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q08-v1-c2",
+          "text": "The speaker's favorite",
+          "rationale": "Review: より marks the option used as the reference, here the library room."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q08-v1-c3",
+          "text": "The comparison reference",
+          "rationale": "Correct. より marks the option used as the reference, here the library room."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q08-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-09"
+      ],
+      "prompt": "What is Ken's reason for liking the café?",
+      "evidence": "カフェのほうが近いです",
+      "explanation": "Ken says カフェのほうが近いです and likes nearby places.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q09-v1-c1",
+          "text": "It is larger.",
+          "rationale": "Review: Ken says カフェのほうが近いです and likes nearby places."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q09-v1-c2",
+          "text": "It is closer.",
+          "rationale": "Correct. Ken says カフェのほうが近いです and likes nearby places."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q09-v1-c3",
+          "text": "It is quieter.",
+          "rationale": "Review: Ken says カフェのほうが近いです and likes nearby places."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q09-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-10"
+      ],
+      "prompt": "Which statement matches the fictional price row?",
+      "evidence": "カフェは安い",
+      "explanation": "The fictional card says café 安い and library room 高い.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q10-v1-c1",
+          "text": "カフェのほうが安いです。",
+          "rationale": "Correct. The fictional card says café 安い and library room 高い."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q10-v1-c2",
+          "text": "図書館の部屋のほうが安いです。",
+          "rationale": "Review: The fictional card says café 安い and library room 高い."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q10-v1-c3",
+          "text": "カフェのほうが高いです。",
+          "rationale": "Review: The fictional card says café 安い and library room 高い."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-11"
+      ],
+      "prompt": "Which expression means 'the biggest among these three rooms'?",
+      "evidence": "この三つの部屋の中で、図書館の部屋が一番大きいです。",
+      "explanation": "一番 names the highest degree within a set; 三つ specifies three.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q11-v1-c1",
+          "text": "この二つの部屋より一番近い",
+          "rationale": "Review: 一番 names the highest degree within a set; 三つ specifies three."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q11-v1-c2",
+          "text": "どちらが一番小さいですか",
+          "rationale": "Review: 一番 names the highest degree within a set; 三つ specifies three."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q11-v1-c3",
+          "text": "この三つの部屋の中で一番大きい",
+          "rationale": "Correct. 一番 names the highest degree within a set; 三つ specifies three."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q11-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l02-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l02-vocabulary"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l02-word-12"
+      ],
+      "prompt": "Which adjective describes a lively café?",
+      "evidence": "にぎやかなカフェ",
+      "explanation": "にぎやか means lively and takes な before カフェ.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l02-q12-v1-c1",
+          "text": "古いカフェ",
+          "rationale": "Review: にぎやか means lively and takes な before カフェ."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q12-v1-c2",
+          "text": "にぎやかなカフェ",
+          "rationale": "Correct. にぎやか means lively and takes な before カフェ."
+        },
+        {
+          "id": "ex-n5-m07-c03-l02-q12-v1-c3",
+          "text": "静かなカフェ",
+          "rationale": "Review: にぎやか means lively and takes な before カフェ."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l02-q12-v1-c2"
+      }
+    }
+  ]
+}
