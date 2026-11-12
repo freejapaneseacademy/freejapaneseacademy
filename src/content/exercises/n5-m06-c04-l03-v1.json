@@ -1,0 +1,482 @@
+{
+  "id": "n5-m06-c04-l03",
+  "lessonId": "n5-m06-c04-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original workshop dialogue and progressive-form explanations in ongoing-activities-grammar.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-01"
+      ],
+      "prompt": "Which polite form means 'is reading'?",
+      "evidence": "読む → 読んで → 読んでいます。",
+      "explanation": "The む ending becomes んで before います. Evidence: 読む → 読んで → 読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-01-c1",
+          "text": "読んでいます",
+          "rationale": "Correct. The む ending becomes んで before います."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-01-c2",
+          "text": "読みています",
+          "rationale": "Not the intended answer. The む ending becomes んで before います. Compare: 読む → 読んで → 読んでいます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-01-c3",
+          "text": "読みました",
+          "rationale": "Not the intended answer. The む ending becomes んで before います. Compare: 読む → 読んで → 読んでいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-02"
+      ],
+      "prompt": "Choose the correct progressive of 書く.",
+      "evidence": "書く → 書いて → 書いています。",
+      "explanation": "The く ending changes to いて. Evidence: 書く → 書いて → 書いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-02-c1",
+          "text": "書きています",
+          "rationale": "Not the intended answer. The く ending changes to いて. Compare: 書く → 書いて → 書いています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-02-c2",
+          "text": "書いています",
+          "rationale": "Correct. The く ending changes to いて."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-02-c3",
+          "text": "書くいます",
+          "rationale": "Not the intended answer. The く ending changes to いて. Compare: 書く → 書いて → 書いています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-03"
+      ],
+      "prompt": "What does 今、何をしていますか ask?",
+      "evidence": "今、何をしていますか。",
+      "explanation": "今 means now; the question asks about a current activity. Evidence: 今、何をしていますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-03-c1",
+          "text": "What did you do yesterday?",
+          "rationale": "Not the intended answer. 今 means now; the question asks about a current activity. Compare: 今、何をしていますか。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-03-c2",
+          "text": "Where are you going tomorrow?",
+          "rationale": "Not the intended answer. 今 means now; the question asks about a current activity. Compare: 今、何をしていますか。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-03-c3",
+          "text": "What are you doing now?",
+          "rationale": "Correct. 今 means now; the question asks about a current activity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-04"
+      ],
+      "prompt": "Which particle marks the place of reading?",
+      "evidence": "図書室で本を読んでいます。",
+      "explanation": "で marks where the action takes place; を marks its object. Evidence: 図書室で本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-04-c1",
+          "text": "で",
+          "rationale": "Correct. で marks where the action takes place; を marks its object."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-04-c2",
+          "text": "を",
+          "rationale": "Not the intended answer. で marks where the action takes place; を marks its object. Compare: 図書室で本を読んでいます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-04-c3",
+          "text": "が",
+          "rationale": "Not the intended answer. で marks where the action takes place; を marks its object. Compare: 図書室で本を読んでいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-05"
+      ],
+      "prompt": "Complete: 今、絵を＿＿。",
+      "evidence": "今、絵を描いています。",
+      "explanation": "描く → 描いています for drawing in progress. Evidence: 今、絵を描いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-05-c1",
+          "text": "描きます",
+          "rationale": "Not the intended answer. 描く → 描いています for drawing in progress. Compare: 今、絵を描いています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-05-c2",
+          "text": "描いています",
+          "rationale": "Correct. 描く → 描いています for drawing in progress."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-05-c3",
+          "text": "描きました",
+          "rationale": "Not the intended answer. 描く → 描いています for drawing in progress. Compare: 今、絵を描いています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-06"
+      ],
+      "prompt": "Which form of 食べる describes eating now?",
+      "evidence": "今、ご飯を食べています。",
+      "explanation": "Group 2 食べる loses る before て + います. Evidence: 今、ご飯を食べています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-06-c1",
+          "text": "食べっています",
+          "rationale": "Not the intended answer. Group 2 食べる loses る before て + います. Compare: 今、ご飯を食べています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-06-c2",
+          "text": "食べますか",
+          "rationale": "Not the intended answer. Group 2 食べる loses る before て + います. Compare: 今、ご飯を食べています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-06-c3",
+          "text": "食べています",
+          "rationale": "Correct. Group 2 食べる loses る before て + います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-07"
+      ],
+      "prompt": "Which sentence most clearly describes a regular habit?",
+      "evidence": "毎朝、本を読みます。",
+      "explanation": "毎朝 indicates every morning and the polite nonpast here expresses a routine. Evidence: 毎朝、本を読みます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-07-c1",
+          "text": "毎朝、本を読みます。",
+          "rationale": "Correct. 毎朝 indicates every morning and the polite nonpast here expresses a routine."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-07-c2",
+          "text": "今、本を読んでいます。",
+          "rationale": "Not the intended answer. 毎朝 indicates every morning and the polite nonpast here expresses a routine. Compare: 毎朝、本を読みます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-07-c3",
+          "text": "今、本を読んでいますか。",
+          "rationale": "Not the intended answer. 毎朝 indicates every morning and the polite nonpast here expresses a routine. Compare: 毎朝、本を読みます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-08"
+      ],
+      "prompt": "Choose the correct progressive of する.",
+      "evidence": "宿題をしています。",
+      "explanation": "する is irregular: して + います. Evidence: 宿題をしています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-08-c1",
+          "text": "すています",
+          "rationale": "Not the intended answer. する is irregular: して + います. Compare: 宿題をしています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-08-c2",
+          "text": "しています",
+          "rationale": "Correct. する is irregular: して + います."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-08-c3",
+          "text": "してますか",
+          "rationale": "Not the intended answer. する is irregular: して + います. Compare: 宿題をしています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-09"
+      ],
+      "prompt": "What is Takeshi doing in the workshop dialogue?",
+      "evidence": "たけしさんは何をしていますか。ゆい：机で本を読んでいます。",
+      "explanation": "Yui says Takeshi is reading a book at a desk. Evidence: たけしさんは何をしていますか。ゆい：机で本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-09-c1",
+          "text": "絵を描いています",
+          "rationale": "Not the intended answer. Yui says Takeshi is reading a book at a desk. Compare: たけしさんは何をしていますか。ゆい：机で本を読んでいます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-09-c2",
+          "text": "日本語を教えています",
+          "rationale": "Not the intended answer. Yui says Takeshi is reading a book at a desk. Compare: たけしさんは何をしていますか。ゆい：机で本を読んでいます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-09-c3",
+          "text": "本を読んでいます",
+          "rationale": "Correct. Yui says Takeshi is reading a book at a desk."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-10"
+      ],
+      "prompt": "Which statement about 〜ています is accurate?",
+      "evidence": "田中さんは結婚しています。",
+      "explanation": "結婚しています usually describes a continuing married state, not an ongoing wedding. Evidence: 田中さんは結婚しています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-10-c1",
+          "text": "It can express an ongoing action or a continuing state.",
+          "rationale": "Correct. 結婚しています usually describes a continuing married state, not an ongoing wedding."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-10-c2",
+          "text": "It always translates as English '-ing'.",
+          "rationale": "Not the intended answer. 結婚しています usually describes a continuing married state, not an ongoing wedding. Compare: 田中さんは結婚しています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-10-c3",
+          "text": "It always refers to yesterday.",
+          "rationale": "Not the intended answer. 結婚しています usually describes a continuing married state, not an ongoing wedding. Compare: 田中さんは結婚しています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-11"
+      ],
+      "prompt": "What does 何をしていますか contain?",
+      "evidence": "何をしていますか。",
+      "explanation": "The question uses しています to ask what activity is happening. Evidence: 何をしていますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-11-c1",
+          "text": "The past form しました",
+          "rationale": "Not the intended answer. The question uses しています to ask what activity is happening. Compare: 何をしていますか。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-11-c2",
+          "text": "The polite progressive しています",
+          "rationale": "Correct. The question uses しています to ask what activity is happening."
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-11-c3",
+          "text": "The prohibition してはいけません",
+          "rationale": "Not the intended answer. The question uses しています to ask what activity is happening. Compare: 何をしていますか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l03-grammar-12"
+      ],
+      "prompt": "Choose the natural sentence for 'Ken is listening to music in his room now.'",
+      "evidence": "今、けんさんは部屋で音楽を聞いています。",
+      "explanation": "部屋で marks action location, 音楽を marks object, and 聞いています expresses listening now. Evidence: 今、けんさんは部屋で音楽を聞いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l03-12-c1",
+          "text": "今、けんさんは部屋を音楽で聞いています。",
+          "rationale": "Not the intended answer. 部屋で marks action location, 音楽を marks object, and 聞いています expresses listening now. Compare: 今、けんさんは部屋で音楽を聞いています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-12-c2",
+          "text": "今、けんさんは部屋に音楽が聞きます。",
+          "rationale": "Not the intended answer. 部屋で marks action location, 音楽を marks object, and 聞いています expresses listening now. Compare: 今、けんさんは部屋で音楽を聞いています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l03-12-c3",
+          "text": "今、けんさんは部屋で音楽を聞いています。",
+          "rationale": "Correct. 部屋で marks action location, 音楽を marks object, and 聞いています expresses listening now."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l03-12-c3"
+      }
+    }
+  ]
+}
