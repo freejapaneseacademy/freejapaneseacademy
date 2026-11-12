@@ -4200,6 +4200,22 @@
       "audio": "not required for written L05",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m07-c01-l07",
+      "level": "n5",
+      "moduleId": "n5-m07",
+      "chapterId": "n5-m07-c01",
+      "slot": "L07",
+      "title": "Write a hobby introduction: likes and abilities",
+      "content": "src/content/lessons/n5/hobby-introduction-writing.mdx",
+      "url": "/learn/n5/module-07/chapter-01/lesson-07/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written L07",
+      "noindex": true,
+      "ownerApproval": "2026-11-12: automated publication preauthorized subject to verified release checks"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
