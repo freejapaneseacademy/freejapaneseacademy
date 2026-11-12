@@ -1,0 +1,181 @@
+{
+  "lessonId": "n5-m07-c01-l06",
+  "chapterId": "n5-m07-c01",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m07-c01-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m07-c01-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.66,
+      "transcript": "女性： こんにちは。どんなスポーツが好きですか。\n男性： 水泳が好きです。でも、泳ぐのはあまり上手ではありません。\n女性： テニスはできますか。\n男性： はい、できます。週末に友だちとテニスをします。\n女性： ありがとうございます。",
+      "english": "Woman: Hello. What kind of sports do you like?\nMan: I like swimming, but I'm not very good at it.\nWoman: Can you play tennis?\nMan: Yes, I can. I play tennis with friends on weekends.\nWoman: Thank you.",
+      "scriptPurpose": "An interview at the hobby fair",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-a"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "こんにちは。どんなスポーツが好きですか。",
+          "english": "Hello. What kind of sports do you like?",
+          "startSeconds": 0.0,
+          "endSeconds": 3.39
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "水泳が好きです。でも、泳ぐのはあまり上手ではありません。",
+          "english": "I like swimming, but I'm not very good at it.",
+          "startSeconds": 3.67,
+          "endSeconds": 8.18
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "テニスはできますか。",
+          "english": "Can you play tennis?",
+          "startSeconds": 8.46,
+          "endSeconds": 10.41
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい、できます。週末に友だちとテニスをします。",
+          "english": "Yes, I can. I play tennis with friends on weekends.",
+          "startSeconds": 10.69,
+          "endSeconds": 14.54
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ありがとうございます。",
+          "english": "Thank you.",
+          "startSeconds": 14.82,
+          "endSeconds": 16.66
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 model terms; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "9812ca92ba508922799ed76a81c4d93722d0835ffed1e5bc14a501dd0c3bd005",
+        "bytes": 1469284,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m07-c01-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m07-c01-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.1,
+      "transcript": "男性： 山田さん、音楽が好きですか。\n女性： はい。ピアノが好きです。ピアノを弾くのも得意です。\n男性： ギターも弾けますか。\n女性： いいえ、ギターは弾けません。でも、絵を描くことができます。\n男性： そうですか。ありがとうございます。",
+      "english": "Man: Yamada, do you like music?\nWoman: Yes. I like piano, and I'm also good at playing it.\nMan: Can you play guitar too?\nWoman: No, I can't play guitar. But I can draw pictures.\nMan: I see. Thank you.",
+      "scriptPurpose": "An interview about arts and music",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m07-c01-l06-listen-b"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "山田さん、音楽が好きですか。",
+          "english": "Yamada, do you like music?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.79
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい。ピアノが好きです。ピアノを弾くのも得意です。",
+          "english": "Yes. I like piano, and I'm also good at playing it.",
+          "startSeconds": 3.07,
+          "endSeconds": 7.29
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ギターも弾けますか。",
+          "english": "Can you play guitar too?",
+          "startSeconds": 7.57,
+          "endSeconds": 9.23
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ、ギターは弾けません。でも、絵を描くことができます。",
+          "english": "No, I can't play guitar. But I can draw pictures.",
+          "startSeconds": 9.51,
+          "endSeconds": 14.14
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "そうですか。ありがとうございます。",
+          "english": "I see. Thank you.",
+          "startSeconds": 14.42,
+          "endSeconds": 17.1
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 model terms; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "709051d09ac76d7b84c531b1d629077c7de39f3906efa2d914147b76f851b437",
+        "bytes": 1508486,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
