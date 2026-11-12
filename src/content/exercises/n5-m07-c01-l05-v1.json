@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c01-l05",
+  "lessonId": "n5-m07-c01-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original four fictional hobby-club profiles in hobby-club-profile-reading.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l05-q01-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-01"
+      ],
+      "prompt": "Who can play a little piano?",
+      "evidence": "ピアノが少しできます。",
+      "explanation": "Saki explicitly says ピアノが少しできます; Riku says the opposite.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q01-v1-c1",
+          "text": "Saki",
+          "rationale": "Correct. Saki explicitly says ピアノが少しできます; Riku says the opposite."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q01-v1-c2",
+          "text": "Riku",
+          "rationale": "Not quite. Saki explicitly says ピアノが少しできます; Riku says the opposite."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q01-v1-c3",
+          "text": "Mina",
+          "rationale": "Not quite. Saki explicitly says ピアノが少しできます; Riku says the opposite."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q01-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q02-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-02"
+      ],
+      "prompt": "Who says swimming is a strength?",
+      "evidence": "水泳は得意です。",
+      "explanation": "Takumi calls swimming a strength with 得意です.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q02-v1-c1",
+          "text": "Mina",
+          "rationale": "Not quite. Takumi calls swimming a strength with 得意です."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q02-v1-c2",
+          "text": "Takumi",
+          "rationale": "Correct. Takumi calls swimming a strength with 得意です."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q02-v1-c3",
+          "text": "Riku",
+          "rationale": "Not quite. Takumi calls swimming a strength with 得意です."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q02-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q03-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-03"
+      ],
+      "prompt": "Which person takes photos on days off?",
+      "evidence": "休みの日に写真を撮ります。",
+      "explanation": "Mina states the action 写真を撮ります and the time 休みの日に.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q03-v1-c1",
+          "text": "Riku",
+          "rationale": "Not quite. Mina states the action 写真を撮ります and the time 休みの日に."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q03-v1-c2",
+          "text": "Saki",
+          "rationale": "Not quite. Mina states the action 写真を撮ります and the time 休みの日に."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q03-v1-c3",
+          "text": "Mina",
+          "rationale": "Correct. Mina states the action 写真を撮ります and the time 休みの日に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q03-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q04-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-04"
+      ],
+      "prompt": "Who says piano is not possible for them?",
+      "evidence": "ピアノはできません。",
+      "explanation": "Riku says ピアノはできません; this does not mean Riku dislikes piano.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q04-v1-c1",
+          "text": "Riku",
+          "rationale": "Correct. Riku says ピアノはできません; this does not mean Riku dislikes piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q04-v1-c2",
+          "text": "Mina",
+          "rationale": "Not quite. Riku says ピアノはできません; this does not mean Riku dislikes piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q04-v1-c3",
+          "text": "Saki",
+          "rationale": "Not quite. Riku says ピアノはできません; this does not mean Riku dislikes piano."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q04-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q05-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-05"
+      ],
+      "prompt": "What does Saki say about singing skill?",
+      "evidence": "歌はあまり上手じゃありません。",
+      "explanation": "あまり上手じゃありません means not very good at it, not dislike.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q05-v1-c1",
+          "text": "Saki sings professionally.",
+          "rationale": "Not quite. あまり上手じゃありません means not very good at it, not dislike."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q05-v1-c2",
+          "text": "Saki is not very good at singing.",
+          "rationale": "Correct. あまり上手じゃありません means not very good at it, not dislike."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q05-v1-c3",
+          "text": "Saki dislikes all music.",
+          "rationale": "Not quite. あまり上手じゃありません means not very good at it, not dislike."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q05-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q06-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-06"
+      ],
+      "prompt": "What does Mina's sports sentence establish?",
+      "evidence": "スポーツはあまり得意じゃありません。",
+      "explanation": "得意 concerns strength; the sentence does not state whether Mina likes sports.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q06-v1-c1",
+          "text": "Mina hates sports.",
+          "rationale": "Not quite. 得意 concerns strength; the sentence does not state whether Mina likes sports."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q06-v1-c2",
+          "text": "Mina plays sports every day.",
+          "rationale": "Not quite. 得意 concerns strength; the sentence does not state whether Mina likes sports."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q06-v1-c3",
+          "text": "Sports are not really Mina's strength.",
+          "rationale": "Correct. 得意 concerns strength; the sentence does not state whether Mina likes sports."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q06-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q07-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-07"
+      ],
+      "prompt": "Which pair of interests belongs to Takumi?",
+      "evidence": "水泳が好きです。映画も好きですが、",
+      "explanation": "Takumi states 水泳が好きです and 映画も好き.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q07-v1-c1",
+          "text": "Swimming and movies",
+          "rationale": "Correct. Takumi states 水泳が好きです and 映画も好き."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q07-v1-c2",
+          "text": "Reading and photography",
+          "rationale": "Not quite. Takumi states 水泳が好きです and 映画も好き."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q07-v1-c3",
+          "text": "Cooking and drawing",
+          "rationale": "Not quite. Takumi states 水泳が好きです and 映画も好き."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q07-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q08-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-08"
+      ],
+      "prompt": "Who enjoys both cooking and drawing?",
+      "evidence": "料理が好きです。絵を描くことも好きです。",
+      "explanation": "Riku mentions both 料理 and 絵を描くこと.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q08-v1-c1",
+          "text": "Saki",
+          "rationale": "Not quite. Riku mentions both 料理 and 絵を描くこと."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q08-v1-c2",
+          "text": "Riku",
+          "rationale": "Correct. Riku mentions both 料理 and 絵を描くこと."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q08-v1-c3",
+          "text": "Takumi",
+          "rationale": "Not quite. Riku mentions both 料理 and 絵を描くこと."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q08-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q09-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-09"
+      ],
+      "prompt": "What does 写真を撮ります express?",
+      "evidence": "写真を撮ります。",
+      "explanation": "撮ります names the action of taking a photograph.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q09-v1-c1",
+          "text": "Read a photograph",
+          "rationale": "Not quite. 撮ります names the action of taking a photograph."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q09-v1-c2",
+          "text": "Be good at photography",
+          "rationale": "Not quite. 撮ります names the action of taking a photograph."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q09-v1-c3",
+          "text": "Take photographs",
+          "rationale": "Correct. 撮ります names the action of taking a photograph."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q09-v1-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q10-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-10"
+      ],
+      "prompt": "Which phrase shows Takumi does not particularly like cooking?",
+      "evidence": "料理はあまり好きじゃありません。",
+      "explanation": "あまり plus 好きじゃありません indicates a mild negative preference.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q10-v1-c1",
+          "text": "料理はあまり好きじゃありません。",
+          "rationale": "Correct. あまり plus 好きじゃありません indicates a mild negative preference."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q10-v1-c2",
+          "text": "料理が上手です。",
+          "rationale": "Not quite. あまり plus 好きじゃありません indicates a mild negative preference."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q10-v1-c3",
+          "text": "料理が大好きです。",
+          "rationale": "Not quite. あまり plus 好きじゃありません indicates a mild negative preference."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q10-v1-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q11-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-11"
+      ],
+      "prompt": "Which statement is supported by Saki's profile?",
+      "evidence": "音楽が好きです。歌はあまり上手じゃありません。",
+      "explanation": "Liking music and skill at singing are distinct facts.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q11-v1-c1",
+          "text": "Saki dislikes singing.",
+          "rationale": "Not quite. Liking music and skill at singing are distinct facts."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q11-v1-c2",
+          "text": "Saki likes music but is not very good at singing.",
+          "rationale": "Correct. Liking music and skill at singing are distinct facts."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q11-v1-c3",
+          "text": "Saki is an expert singer.",
+          "rationale": "Not quite. Liking music and skill at singing are distinct facts."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q11-v1-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l05-q12-v1",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l05-evidence-12"
+      ],
+      "prompt": "What is the best interpretation of 毎週、家で料理をします?",
+      "evidence": "毎週、家で料理をします。",
+      "explanation": "毎週 means every week; 家で indicates where the cooking happens.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l05-q12-v1-c1",
+          "text": "Riku wants to cook someday.",
+          "rationale": "Not quite. 毎週 means every week; 家で indicates where the cooking happens."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q12-v1-c2",
+          "text": "Riku never cooks at home.",
+          "rationale": "Not quite. 毎週 means every week; 家で indicates where the cooking happens."
+        },
+        {
+          "id": "ex-n5-m07-c01-l05-q12-v1-c3",
+          "text": "Riku cooks at home every week.",
+          "rationale": "Correct. 毎週 means every week; 家で indicates where the cooking happens."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l05-q12-v1-c3"
+      }
+    }
+  ]
+}

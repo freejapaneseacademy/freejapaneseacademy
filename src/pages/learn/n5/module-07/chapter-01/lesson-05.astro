@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import Practice from '../../../../../components/interactive/HobbyProfileReadingPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons', 'n5/hobby-club-profile-reading');
+if (!lesson || lesson.data.lessonId !== 'n5-m07-c01-l05') throw new Error('Missing canonical lesson n5-m07-c01-l05');
+const { Content } = await render(lesson);
+---
+<Base title={lesson.data.title} description={lesson.data.description} breadcrumbs={[{label:'Courses',href:'/learn/'},{label:'N5',href:'/learn/n5/'},{label:'Hobby profiles',href:'/learn/n5/module-07/chapter-01/lesson-05/'}]}>
+  <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 07 · CHAPTER 01 · LESSON 05</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>{lesson.data.minutes} minutes</span><span>Reading practice</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice">Original fictional Japanese reading. Independent Japanese and assessment reviews are pending; no recorded audio is required for this L05 lesson.</div>
+    <div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map((objective:string)=><li>{objective}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <Practice client:load />
+    <div class="foundation-completion"><h2>Complete the lesson</h2><p>Lesson completion is separate from the written practice score.</p><LessonActions client:load lessonId="n5-m07-c01-l05" level="n5" /></div>
+    <div class="lesson-next"><a class="btn btn-outline" href="/learn/n5/">N5 overview</a><a class="btn btn-outline" href="/dashboard/">Progress dashboard</a></div>
+  </div><aside class="lesson-side foundation-side"><h2>Study guide</h2><p>Four hobby profiles · preference versus ability · exact Japanese evidence · guided and independent reading.</p><p>Written practice; no audio needed.</p></aside></div></section>
+</Base>
