@@ -1,0 +1,482 @@
+{
+  "id": "n5-m06-c04-l01",
+  "lessonId": "n5-m06-c04-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original community-center conversation and two snapshots in ongoing-activities-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-01"
+      ],
+      "prompt": "What does 今 signal in the dialogue?",
+      "evidence": "今、みなさんは何をしていますか。",
+      "explanation": "今 means 'now', so the conversation focuses on current activities. Evidence: 今、みなさんは何をしていますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-01-c1",
+          "text": "The situation is happening now",
+          "rationale": "Correct. 今 means 'now', so the conversation focuses on current activities."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-01-c2",
+          "text": "The event is tomorrow",
+          "rationale": "Not in this scene or not the target expression. 今 means 'now', so the conversation focuses on current activities."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-01-c3",
+          "text": "The action is a daily habit",
+          "rationale": "Not in this scene or not the target expression. 今 means 'now', so the conversation focuses on current activities."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-02"
+      ],
+      "prompt": "Who is reading a book?",
+      "evidence": "山田さんは図書室で本を読んでいます。",
+      "explanation": "The first answer assigns 本を読んでいます to 山田さん. Evidence: 山田さんは図書室で本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-02-c1",
+          "text": "佐藤さん",
+          "rationale": "Not in this scene or not the target expression. The first answer assigns 本を読んでいます to 山田さん."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-02-c2",
+          "text": "山田さん",
+          "rationale": "Correct. The first answer assigns 本を読んでいます to 山田さん."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-02-c3",
+          "text": "鈴木さん",
+          "rationale": "Not in this scene or not the target expression. The first answer assigns 本を読んでいます to 山田さん."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-03"
+      ],
+      "prompt": "Where is Suzuki writing Japanese?",
+      "evidence": "鈴木さんは教室で日本語を書いています。",
+      "explanation": "教室で names the location of Suzuki's writing. Evidence: 鈴木さんは教室で日本語を書いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-03-c1",
+          "text": "公園で",
+          "rationale": "Not in this scene or not the target expression. 教室で names the location of Suzuki's writing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-03-c2",
+          "text": "図書室で",
+          "rationale": "Not in this scene or not the target expression. 教室で names the location of Suzuki's writing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-03-c3",
+          "text": "教室で",
+          "rationale": "Correct. 教室で names the location of Suzuki's writing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-04"
+      ],
+      "prompt": "What is Sato doing?",
+      "evidence": "私はお茶を飲んでいます。",
+      "explanation": "Sato uses 私 and says they are drinking tea. Evidence: 私はお茶を飲んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-04-c1",
+          "text": "お茶を飲んでいます",
+          "rationale": "Correct. Sato uses 私 and says they are drinking tea."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-04-c2",
+          "text": "本を読んでいます",
+          "rationale": "Not in this scene or not the target expression. Sato uses 私 and says they are drinking tea."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-04-c3",
+          "text": "日本語を書いています",
+          "rationale": "Not in this scene or not the target expression. Sato uses 私 and says they are drinking tea."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-05"
+      ],
+      "prompt": "Which question asks what someone is doing?",
+      "evidence": "佐藤さんは何をしていますか。",
+      "explanation": "何をしていますか asks about the current activity. Evidence: 佐藤さんは何をしていますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-05-c1",
+          "text": "何を食べましたか。",
+          "rationale": "Not in this scene or not the target expression. 何をしていますか asks about the current activity."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-05-c2",
+          "text": "何をしていますか。",
+          "rationale": "Correct. 何をしていますか asks about the current activity."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-05-c3",
+          "text": "どこへ行きますか。",
+          "rationale": "Not in this scene or not the target expression. 何をしていますか asks about the current activity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-06"
+      ],
+      "prompt": "Which expression means 'is reading'?",
+      "evidence": "本を読んでいます。",
+      "explanation": "読んでいます describes reading in progress; 読みます can describe a habit. Evidence: 本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-06-c1",
+          "text": "読みます",
+          "rationale": "Not in this scene or not the target expression. 読んでいます describes reading in progress; 読みます can describe a habit."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-06-c2",
+          "text": "読みました",
+          "rationale": "Not in this scene or not the target expression. 読んでいます describes reading in progress; 読みます can describe a habit."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-06-c3",
+          "text": "読んでいます",
+          "rationale": "Correct. 読んでいます describes reading in progress; 読みます can describe a habit."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-07"
+      ],
+      "prompt": "What marks the location of an action?",
+      "evidence": "図書室で本を読んでいます。",
+      "explanation": "図書室で marks where reading happens; 本を marks its object. Evidence: 図書室で本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-07-c1",
+          "text": "で",
+          "rationale": "Correct. 図書室で marks where reading happens; 本を marks its object."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-07-c2",
+          "text": "を",
+          "rationale": "Not in this scene or not the target expression. 図書室で marks where reading happens; 本を marks its object."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-07-c3",
+          "text": "が",
+          "rationale": "Not in this scene or not the target expression. 図書室で marks where reading happens; 本を marks its object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-08"
+      ],
+      "prompt": "Which sentence describes a regular habit?",
+      "evidence": "毎日、本を読みます。",
+      "explanation": "毎日 and 読みます present a repeated habit rather than an action now. Evidence: 毎日、本を読みます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-08-c1",
+          "text": "今、本を読んでいますか。",
+          "rationale": "Not in this scene or not the target expression. 毎日 and 読みます present a repeated habit rather than an action now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-08-c2",
+          "text": "毎日、本を読みます。",
+          "rationale": "Correct. 毎日 and 読みます present a repeated habit rather than an action now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-08-c3",
+          "text": "今、本を読んでいます。",
+          "rationale": "Not in this scene or not the target expression. 毎日 and 読みます present a repeated habit rather than an action now."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-09"
+      ],
+      "prompt": "What is Mika doing in Scene A?",
+      "evidence": "今、ミカさんは公園で走っています。",
+      "explanation": "Mika is running now; Ken is resting. Evidence: 今、ミカさんは公園で走っています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-09-c1",
+          "text": "ベンチで休んでいます",
+          "rationale": "Not in this scene or not the target expression. Mika is running now; Ken is resting."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-09-c2",
+          "text": "公園で走ります",
+          "rationale": "Not in this scene or not the target expression. Mika is running now; Ken is resting."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-09-c3",
+          "text": "公園で走っています",
+          "rationale": "Correct. Mika is running now; Ken is resting."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-10"
+      ],
+      "prompt": "Which sentence correctly describes Suzuki right now?",
+      "evidence": "鈴木さんは教室で日本語を書いています。",
+      "explanation": "書く changes to 書いて before います; Suzuki is writing, not reading. Evidence: 鈴木さんは教室で日本語を書いています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-10-c1",
+          "text": "鈴木さんは日本語を書いています。",
+          "rationale": "Correct. 書く changes to 書いて before います; Suzuki is writing, not reading."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-10-c2",
+          "text": "鈴木さんは日本語を書きています。",
+          "rationale": "Not in this scene or not the target expression. 書く changes to 書いて before います; Suzuki is writing, not reading."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-10-c3",
+          "text": "鈴木さんは日本語を読んでいます。",
+          "rationale": "Not in this scene or not the target expression. 書く changes to 書いて before います; Suzuki is writing, not reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-11"
+      ],
+      "prompt": "Which object particle belongs in 本___読んでいます?",
+      "evidence": "本を読んでいます。",
+      "explanation": "を marks 本 as the object of reading. Evidence: 本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-11-c1",
+          "text": "に",
+          "rationale": "Not in this scene or not the target expression. を marks 本 as the object of reading."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-11-c2",
+          "text": "を",
+          "rationale": "Correct. を marks 本 as the object of reading."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-11-c3",
+          "text": "で",
+          "rationale": "Not in this scene or not the target expression. を marks 本 as the object of reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l01-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l01-context-12"
+      ],
+      "prompt": "Which is the polite complete answer for 'I am drinking tea'?",
+      "evidence": "私はお茶を飲んでいます。",
+      "explanation": "飲む becomes 飲んで; adding います makes the polite progressive expression. Evidence: 私はお茶を飲んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l01-12-c1",
+          "text": "お茶を飲んで。",
+          "rationale": "Not in this scene or not the target expression. 飲む becomes 飲んで; adding います makes the polite progressive expression."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-12-c2",
+          "text": "お茶を飲みてます。",
+          "rationale": "Not in this scene or not the target expression. 飲む becomes 飲んで; adding います makes the polite progressive expression."
+        },
+        {
+          "id": "ex-n5-m06-c04-l01-12-c3",
+          "text": "お茶を飲んでいます。",
+          "rationale": "Correct. 飲む becomes 飲んで; adding います makes the polite progressive expression."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l01-12-c3"
+      }
+    }
+  ]
+}
