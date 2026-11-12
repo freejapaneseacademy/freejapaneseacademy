@@ -4168,6 +4168,23 @@
       "audio": "not required for written L03; no listening score claimed",
       "ownerSlot": ":00",
       "ownerTaskId": "6ae7c19d50c08191b18521bd6be98932"
+    },
+    {
+      "id": "n5-m06-c04-l06",
+      "level": "n5",
+      "moduleId": "n5-m06",
+      "chapterId": "n5-m06-c04",
+      "slot": "L06",
+      "title": "What is happening now? Listen to two live activity updates",
+      "content": "src/content/lessons/n5/ongoing-activities-listening.mdx",
+      "url": "/learn/n5/module-06/chapter-04/lesson-06/",
+      "status": "draft",
+      "humanJapaneseReview": "pending — independent pronunciation and linguistic review not claimed",
+      "assessmentReview": "pending — independent assessment review not claimed",
+      "audio": "schema-v3 AivisSpeech job committed; WAV and QA manifest pending verified generation",
+      "noindex": true,
+      "ownerSlot": ":15",
+      "automationId": "6ae7c26574f08191a9e7de4d656b2f3b"
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

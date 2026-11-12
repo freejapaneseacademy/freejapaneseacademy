@@ -1,0 +1,31 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../../layouts/Base.astro';
+import ReusableListeningPractice from '../../../../../components/interactive/ReusableListeningPractice';
+import LessonActions from '../../../../../components/interactive/LessonActions';
+import bank from '../../../../../content/exercises/n5-m06-c04-l06.json';
+import job from '../../../../../../scripts/tts/jobs/n5-m06-c04-l06.json';
+import '../../../../../styles/foundations.css';
+const lesson = await getEntry('lessons','n5/ongoing-activities-listening');
+if (!lesson) throw new Error('Missing n5-m06-c04-l06');
+const { Content } = await render(lesson);
+const tracks = job.tracks.map(t => ({
+  id: t.id as 'a' | 'b',
+  assetId: 'audio-n5-m06-c04-l06-' + t.id,
+  label: t.title,
+  url: '/audio/fja-n5-m06-c04-l06-' + t.id + '-v1.wav',
+  durationSeconds: 0,
+  transcript: t.turns.map(turn => (turn.speaker === 'male' ? '男性' : '女性') + '：' + turn.text).join('\n'),
+  english: t.turns.map(turn => (turn.speaker === 'male' ? 'Man' : 'Woman') + ': ' + turn.english).join('\n')
+}));
+---
+<Base title={lesson.data.title} description={lesson.data.description}>
+  <section class="page-hero"><div class="container"><span class="eyebrow">N5 · MODULE 06 · CHAPTER 04 · LESSON 06</span><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="foundation-meta"><span>About {lesson.data.minutes} minutes</span><span>Two original listening scenes · Six questions</span></div></div></section>
+  <section class="page-body"><div class="container foundation-lesson"><div class="foundation-main">
+    <div class="course-notice">Original academy-authored synthetic speech scripts. Audio is pending generation and technical QA; independent pronunciation review is not claimed. This draft must not be released until actual WAV files and the generated manifest are verified.</div>
+    <div class="lesson-intro"><h2>Learning objectives</h2><ul>{lesson.data.objectives.map(o => <li>{o}</li>)}</ul></div>
+    <article class="lesson-article foundation-article"><Content /></article>
+    <ReusableListeningPractice client:load lessonId="n5-m06-c04-l06" level="n5" version={1} tracks={tracks} questions={bank.items} />
+    <div class="foundation-completion"><h2>Finish the lesson</h2><p>After listening, checking and reviewing, mark your study complete. This does not certify pronunciation or proficiency.</p><LessonActions client:load lessonId="n5-m06-c04-l06" level="n5" /></div>
+  </div><aside class="lesson-side foundation-side"><h2>Listening guide</h2><p>Listen first; reveal the transcript after submitting for an unaided result.</p><ol><li>Hear both scenes.</li><li>Answer three questions per scene.</li><li>Review spoken evidence.</li><li>Replay and optionally shadow.</li></ol><p>Transcript-assisted answers are not recorded as blind listening scores.</p></aside></div></section>
+</Base>

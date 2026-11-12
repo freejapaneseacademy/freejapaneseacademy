@@ -1,0 +1,272 @@
+{
+  "id": "n5-m06-c04-l06",
+  "lessonId": "n5-m06-c04-l06",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original academy-authored live-activity dialogue scripts; scored audio pending verified AivisSpeech WAVs",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 6,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l06-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l06-progressive-actions"
+      ],
+      "trackId": "audio-n5-m06-c04-l06-a",
+      "prompt": "Where is Tanaka?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l06-01-c1",
+          "text": "In the park",
+          "rationale": "Correct. Tanaka says he is watering flowers in the park."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-01-c2",
+          "text": "At the station",
+          "rationale": "Not supported by the spoken dialogue. Tanaka says he is watering flowers in the park."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-01-c3",
+          "text": "In the classroom",
+          "rationale": "Not supported by the spoken dialogue. Tanaka says he is watering flowers in the park."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l06-01-c1"
+      },
+      "evidence": "今、公園で花に水をやっています。",
+      "explanation": "Tanaka says he is watering flowers in the park.",
+      "feedback": "Tanaka says he is watering flowers in the park."
+    },
+    {
+      "id": "ex-n5-m06-c04-l06-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l06-progressive-actions"
+      ],
+      "trackId": "audio-n5-m06-c04-l06-a",
+      "prompt": "What is Tanaka doing?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l06-02-c1",
+          "text": "Reading a book",
+          "rationale": "Not supported by the spoken dialogue. Tanaka is watering flowers, not reading or drawing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-02-c2",
+          "text": "Drawing a picture",
+          "rationale": "Not supported by the spoken dialogue. Tanaka is watering flowers, not reading or drawing."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-02-c3",
+          "text": "Watering flowers",
+          "rationale": "Correct. Tanaka is watering flowers, not reading or drawing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l06-02-c3"
+      },
+      "evidence": "花に水をやっています。",
+      "explanation": "Tanaka is watering flowers, not reading or drawing.",
+      "feedback": "Tanaka is watering flowers, not reading or drawing."
+    },
+    {
+      "id": "ex-n5-m06-c04-l06-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l06-listen-a"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l06-progressive-actions"
+      ],
+      "trackId": "audio-n5-m06-c04-l06-a",
+      "prompt": "What is Sato doing?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l06-03-c1",
+          "text": "Listening to music",
+          "rationale": "Not supported by the spoken dialogue. Sato is reading on a bench."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-03-c2",
+          "text": "Reading a book",
+          "rationale": "Correct. Sato is reading on a bench."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-03-c3",
+          "text": "Watering flowers",
+          "rationale": "Not supported by the spoken dialogue. Sato is reading on a bench."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l06-03-c2"
+      },
+      "evidence": "佐藤さんはベンチで本を読んでいます。",
+      "explanation": "Sato is reading on a bench.",
+      "feedback": "Sato is reading on a bench."
+    },
+    {
+      "id": "ex-n5-m06-c04-l06-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l06-progressive-actions"
+      ],
+      "trackId": "audio-n5-m06-c04-l06-b",
+      "prompt": "Where is Yamamoto drawing?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l06-04-c1",
+          "text": "In the classroom",
+          "rationale": "Correct. Yamamoto says the drawing is happening in the classroom."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-04-c2",
+          "text": "In the park",
+          "rationale": "Not supported by the spoken dialogue. Yamamoto says the drawing is happening in the classroom."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-04-c3",
+          "text": "At the library",
+          "rationale": "Not supported by the spoken dialogue. Yamamoto says the drawing is happening in the classroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l06-04-c1"
+      },
+      "evidence": "教室で絵を描いています。",
+      "explanation": "Yamamoto says the drawing is happening in the classroom.",
+      "feedback": "Yamamoto says the drawing is happening in the classroom."
+    },
+    {
+      "id": "ex-n5-m06-c04-l06-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l06-progressive-actions"
+      ],
+      "trackId": "audio-n5-m06-c04-l06-b",
+      "prompt": "What is Suzuki doing?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l06-05-c1",
+          "text": "Reading a book",
+          "rationale": "Not supported by the spoken dialogue. Suzuki is listening to music."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-05-c2",
+          "text": "Cleaning desks",
+          "rationale": "Not supported by the spoken dialogue. Suzuki is listening to music."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-05-c3",
+          "text": "Listening to music",
+          "rationale": "Correct. Suzuki is listening to music."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l06-05-c3"
+      },
+      "evidence": "鈴木さんは音楽を聞いています。",
+      "explanation": "Suzuki is listening to music.",
+      "feedback": "Suzuki is listening to music."
+    },
+    {
+      "id": "ex-n5-m06-c04-l06-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "listening",
+      "level": "n5",
+      "skills": [
+        "listening",
+        "comprehension"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l06-listen-b"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l06-progressive-actions"
+      ],
+      "trackId": "audio-n5-m06-c04-l06-b",
+      "prompt": "What is the male speaker doing now?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l06-06-c1",
+          "text": "Watering flowers",
+          "rationale": "Not supported by the spoken dialogue. The man says he is tidying desks now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-06-c2",
+          "text": "Tidying desks",
+          "rationale": "Correct. The man says he is tidying desks now."
+        },
+        {
+          "id": "ex-n5-m06-c04-l06-06-c3",
+          "text": "Drawing a picture",
+          "rationale": "Not supported by the spoken dialogue. The man says he is tidying desks now."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l06-06-c2"
+      },
+      "evidence": "私は今、机を片づけています。",
+      "explanation": "The man says he is tidying desks now.",
+      "feedback": "The man says he is tidying desks now."
+    }
+  ]
+}
