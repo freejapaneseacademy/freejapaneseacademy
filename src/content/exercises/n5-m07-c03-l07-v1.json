@@ -1,0 +1,326 @@
+{
+  "id": "n5-m07-c03-l07",
+  "lessonId": "n5-m07-c03-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original three-activity comparison table and writing models in comparison-choice-writing.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-01"
+      ],
+      "prompt": "Which comparison matches the class prices?",
+      "evidence": "料理のクラスより、絵のクラスのほうが安いです。",
+      "explanation": "Art costs ¥1,000 and cooking ¥2,000; art is cheaper. Evidence: 料理のクラスより、絵のクラスのほうが安いです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-01-c1",
+          "text": "料理のクラスより、絵のクラスのほうが安いです。",
+          "rationale": "Correct. Art costs ¥1,000 and cooking ¥2,000; art is cheaper."
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-01-c2",
+          "text": "絵のクラスより、料理のクラスのほうが安いです。",
+          "rationale": "Review the evidence: 料理のクラスより、絵のクラスのほうが安いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-01-c3",
+          "text": "音楽のクラスより、料理のクラスのほうが安いです。",
+          "rationale": "Review the evidence: 料理のクラスより、絵のクラスのほうが安いです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-02"
+      ],
+      "prompt": "What does より mark in 絵のクラスより、料理のクラスのほうが高いです?",
+      "evidence": "絵のクラスより、料理のクラスのほうが高いです。",
+      "explanation": "より marks art as the reference, while cooking is described as more expensive. Evidence: 絵のクラスより、料理のクラスのほうが高いです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-02-c1",
+          "text": "The class being described as more expensive",
+          "rationale": "Review the evidence: 絵のクラスより、料理のクラスのほうが高いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-02-c2",
+          "text": "The reference class for comparison",
+          "rationale": "Correct. より marks art as the reference, while cooking is described as more expensive."
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-02-c3",
+          "text": "The chosen class",
+          "rationale": "Review the evidence: 絵のクラスより、料理のクラスのほうが高いです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-03"
+      ],
+      "prompt": "Which is the cheapest of all three?",
+      "evidence": "絵 1,000円／料理 2,000円／音楽 1,500円",
+      "explanation": "Art costs ¥1,000, below music ¥1,500 and cooking ¥2,000. Evidence: 絵 1,000円／料理 2,000円／音楽 1,500円",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-03-c1",
+          "text": "音楽のクラス",
+          "rationale": "Review the evidence: 絵 1,000円／料理 2,000円／音楽 1,500円"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-03-c2",
+          "text": "料理のクラス",
+          "rationale": "Review the evidence: 絵 1,000円／料理 2,000円／音楽 1,500円"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-03-c3",
+          "text": "絵のクラス",
+          "rationale": "Correct. Art costs ¥1,000, below music ¥1,500 and cooking ¥2,000."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-04"
+      ],
+      "prompt": "Which sentence uses 一番 with a clear group?",
+      "evidence": "三つのクラス：絵、料理、音楽",
+      "explanation": "The three-class group is stated, and art is the cheapest. Evidence: 三つのクラス：絵、料理、音楽",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-04-c1",
+          "text": "三つのクラスの中で、絵のクラスが一番安いです。",
+          "rationale": "Correct. The three-class group is stated, and art is the cheapest."
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-04-c2",
+          "text": "絵と料理と、どちらが一番安いですか。",
+          "rationale": "Review the evidence: 三つのクラス：絵、料理、音楽"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-04-c3",
+          "text": "料理のクラスより、絵のクラスが一番安いです。",
+          "rationale": "Review the evidence: 三つのクラス：絵、料理、音楽"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-05"
+      ],
+      "prompt": "How do you ask which of two classes is cheaper?",
+      "evidence": "絵のクラス：1,000円。料理のクラス：2,000円。",
+      "explanation": "どちら asks which of two choices; here the two classes are named. Evidence: 絵のクラス：1,000円。料理のクラス：2,000円。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-05-c1",
+          "text": "三つのクラスの中で、どれが安いですか。",
+          "rationale": "Review the evidence: 絵のクラス：1,000円。料理のクラス：2,000円。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-05-c2",
+          "text": "絵のクラスと料理のクラスと、どちらが安いですか。",
+          "rationale": "Correct. どちら asks which of two choices; here the two classes are named."
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-05-c3",
+          "text": "絵のクラスは何時ですか。",
+          "rationale": "Review the evidence: 絵のクラス：1,000円。料理のクラス：2,000円。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-06"
+      ],
+      "prompt": "Which sentence correctly expresses liking the music class?",
+      "evidence": "音楽のクラスが好きです。",
+      "explanation": "好きです normally marks the liked thing with が. Evidence: 音楽のクラスが好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-06-c1",
+          "text": "音楽のクラスを好きです。",
+          "rationale": "Review the evidence: 音楽のクラスが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-06-c2",
+          "text": "音楽のクラスに好きです。",
+          "rationale": "Review the evidence: 音楽のクラスが好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-06-c3",
+          "text": "音楽のクラスが好きです。",
+          "rationale": "Correct. 好きです normally marks the liked thing with が."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-07"
+      ],
+      "prompt": "Which comparison about room size is supported?",
+      "evidence": "絵：小さい部屋／料理：大きい部屋／音楽：大きい部屋",
+      "explanation": "Cooking's room is bigger than art's; cooking and music rooms are both described as large. Evidence: 絵：小さい部屋／料理：大きい部屋／音楽：大きい部屋",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-07-c1",
+          "text": "絵のクラスの部屋より、料理のクラスの部屋のほうが大きいです。",
+          "rationale": "Correct. Cooking's room is bigger than art's; cooking and music rooms are both described as large."
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-07-c2",
+          "text": "料理のクラスの部屋より、音楽のクラスの部屋のほうが大きいです。",
+          "rationale": "Review the evidence: 絵：小さい部屋／料理：大きい部屋／音楽：大きい部屋"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-07-c3",
+          "text": "音楽のクラスの部屋より、絵のクラスの部屋のほうが大きいです。",
+          "rationale": "Review the evidence: 絵：小さい部屋／料理：大きい部屋／音楽：大きい部屋"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l07-comparison-08"
+      ],
+      "prompt": "Which sentence clearly states a personal choice?",
+      "evidence": "わたしは音楽のクラスを選びます。",
+      "explanation": "選びます means choose; を marks the selected activity. Evidence: わたしは音楽のクラスを選びます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l07-08-c1",
+          "text": "音楽のクラスが安いです。",
+          "rationale": "Review the evidence: わたしは音楽のクラスを選びます。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-08-c2",
+          "text": "わたしは音楽のクラスを選びます。",
+          "rationale": "Correct. 選びます means choose; を marks the selected activity."
+        },
+        {
+          "id": "ex-n5-m07-c03-l07-08-c3",
+          "text": "音楽のクラスは十一時からです。",
+          "rationale": "Review the evidence: わたしは音楽のクラスを選びます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l07-08-c2"
+      }
+    }
+  ]
+}
