@@ -1,0 +1,181 @@
+{
+  "lessonId": "n5-m07-c03-l06",
+  "chapterId": "n5-m07-c03",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m07-c03-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m07-c03-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.65,
+      "transcript": "女性： 駅の近くのカフェと公園のカフェ、どちらが静かですか。\n男性： 公園のカフェのほうが静かです。\n女性： でも、駅のカフェのほうが安いですね。\n男性： はい。今日は勉強したいですから、公園のカフェに行きましょう。\n女性： いいですね。",
+      "english": "Woman: Which is quieter, the café near the station or the café in the park?\nMan: The café in the park is quieter.\nWoman: But the café by the station is cheaper, isn't it?\nMan: Yes. We want to study today, so let's go to the café in the park.\nWoman: Sounds good.",
+      "scriptPurpose": "Choosing a café for a study break",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-a"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "駅の近くのカフェと公園のカフェ、どちらが静かですか。",
+          "english": "Which is quieter, the café near the station or the café in the park?",
+          "startSeconds": 0.0,
+          "endSeconds": 4.76
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "公園のカフェのほうが静かです。",
+          "english": "The café in the park is quieter.",
+          "startSeconds": 5.04,
+          "endSeconds": 7.54
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "でも、駅のカフェのほうが安いですね。",
+          "english": "But the café by the station is cheaper, isn't it?",
+          "startSeconds": 7.82,
+          "endSeconds": 11.16
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。今日は勉強したいですから、公園のカフェに行きましょう。",
+          "english": "Yes. We want to study today, so let's go to the café in the park.",
+          "startSeconds": 11.44,
+          "endSeconds": 16.01
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいですね。",
+          "english": "Sounds good.",
+          "startSeconds": 16.29,
+          "endSeconds": 17.65
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 terms; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "ee65ca31e4d79c0a065bb2b1e7e86854cda027a4adf685fa5fb54b4d91df0cdb",
+        "bytes": 1556626,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m07-c03-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m07-c03-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.66,
+      "transcript": "男性： りんごとバナナとみかんがあります。どれが一番好きですか。\n女性： 私はみかんが一番好きです。\n男性： 私はバナナのほうがりんごより好きです。\n女性： じゃあ、みかんとバナナを買いましょう。\n男性： はい。りんごは今日は買いません。",
+      "english": "Man: We have apples, bananas, and mandarins. Which do you like best?\nWoman: I like mandarins best.\nMan: I like bananas more than apples.\nWoman: Then let's buy mandarins and bananas.\nMan: Yes. We won't buy apples today.",
+      "scriptPurpose": "Comparing three picnic snacks",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m07-c03-l06-listen-b"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "りんごとバナナとみかんがあります。どれが一番好きですか。",
+          "english": "We have apples, bananas, and mandarins. Which do you like best?",
+          "startSeconds": 0.0,
+          "endSeconds": 4.38
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "私はみかんが一番好きです。",
+          "english": "I like mandarins best.",
+          "startSeconds": 4.66,
+          "endSeconds": 7.38
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "私はバナナのほうがりんごより好きです。",
+          "english": "I like bananas more than apples.",
+          "startSeconds": 7.66,
+          "endSeconds": 10.75
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "じゃあ、みかんとバナナを買いましょう。",
+          "english": "Then let's buy mandarins and bananas.",
+          "startSeconds": 11.03,
+          "endSeconds": 13.73
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はい。りんごは今日は買いません。",
+          "english": "Yes. We won't buy apples today.",
+          "startSeconds": 14.01,
+          "endSeconds": 16.66
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 terms; independent legal review not claimed",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "3e959fd368cec197c9faa01bb06bceced6443435fe84660b8959dd7cf51360be",
+        "bytes": 1469308,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
