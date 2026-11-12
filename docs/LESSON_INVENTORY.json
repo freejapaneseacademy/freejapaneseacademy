@@ -4200,6 +4200,21 @@
       "audio": "not required for written L05",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m07-c03-l01",
+      "level": "n5",
+      "moduleId": "n5-m07",
+      "chapterId": "n5-m07-c03",
+      "slot": "L01",
+      "title": "Choosing a class: compare two options",
+      "content": "src/content/lessons/n5/comparing-choices-context.mdx",
+      "url": "/learn/n5/module-07/chapter-03/lesson-01/",
+      "status": "draft",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "not required for written L01",
+      "noindex": true
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."
