@@ -1,0 +1,334 @@
+{
+  "id": "n5-m07-c02-l07",
+  "lessonId": "n5-m07-c02-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional weekend wish-list models in weekend-wishes-writing.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-01"
+      ],
+      "prompt": "Which phrase in Model A means 'I want a new book'?",
+      "evidence": "新しい本がほしいです。",
+      "explanation": "Noun + がほしいです expresses the desired item. Evidence: 新しい本がほしいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-01-c1",
+          "text": "新しい本がほしいです。",
+          "rationale": "Correct. Noun + がほしいです expresses the desired item."
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-01-c2",
+          "text": "新しい本を読みたいです。",
+          "rationale": "Review the model evidence: 新しい本がほしいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-01-c3",
+          "text": "本屋に行きます。",
+          "rationale": "Review the model evidence: 新しい本がほしいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-02"
+      ],
+      "prompt": "Which sentence states a plan to go to a bookstore?",
+      "evidence": "本屋に行きます。",
+      "explanation": "Place + に行きます states a destination plan. Evidence: 本屋に行きます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-02-c1",
+          "text": "本屋で見たいです。",
+          "rationale": "Review the model evidence: 本屋に行きます。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-02-c2",
+          "text": "本屋に行きます。",
+          "rationale": "Correct. Place + に行きます states a destination plan."
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-02-c3",
+          "text": "本屋がほしいです。",
+          "rationale": "Review the model evidence: 本屋に行きます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-03"
+      ],
+      "prompt": "Choose the natural beginner sentence for 'I want to read a book.'",
+      "evidence": "本を読みたいです。",
+      "explanation": "読みます loses ます before たい; を marks the reading object. Evidence: 本を読みたいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-03-c1",
+          "text": "本を読むたいです。",
+          "rationale": "Review the model evidence: 本を読みたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-03-c2",
+          "text": "本がほしいです。",
+          "rationale": "Review the model evidence: 本を読みたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-03-c3",
+          "text": "本を読みたいです。",
+          "rationale": "Correct. 読みます loses ます before たい; を marks the reading object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-04"
+      ],
+      "prompt": "Which particle marks the destination in 山___行きたいです?",
+      "evidence": "山に行きたいです。",
+      "explanation": "Destination of 行く takes に. Evidence: 山に行きたいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-04-c1",
+          "text": "で",
+          "rationale": "Review the model evidence: 山に行きたいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-04-c2",
+          "text": "に",
+          "rationale": "Correct. Destination of 行く takes に."
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-04-c3",
+          "text": "を",
+          "rationale": "Review the model evidence: 山に行きたいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-05"
+      ],
+      "prompt": "Which sentence places looking at books inside a shop?",
+      "evidence": "店で本を見たいです。",
+      "explanation": "で marks the place of an activity. Evidence: 店で本を見たいです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-05-c1",
+          "text": "店に本を見たいです。",
+          "rationale": "Review the model evidence: 店で本を見たいです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-05-c2",
+          "text": "店で本を見たいです。",
+          "rationale": "Correct. で marks the place of an activity."
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-05-c3",
+          "text": "店が本を見たいです。",
+          "rationale": "Review the model evidence: 店で本を見たいです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-06"
+      ],
+      "prompt": "What does 買いたくないです mean?",
+      "evidence": "今は買いたくないです。",
+      "explanation": "たい becomes たくない for negative desire, not prohibition. Evidence: 今は買いたくないです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-06-c1",
+          "text": "I must not buy.",
+          "rationale": "Review the model evidence: 今は買いたくないです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-06-c2",
+          "text": "I already bought.",
+          "rationale": "Review the model evidence: 今は買いたくないです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-06-c3",
+          "text": "I do not want to buy.",
+          "rationale": "Correct. たい becomes たくない for negative desire, not prohibition."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-07"
+      ],
+      "prompt": "Which phrase from Model B means 'I do not want a new camera'?",
+      "evidence": "新しいカメラはほしくないです。",
+      "explanation": "ほしくない is the negative form of ほしい; は is contrastive here. Evidence: 新しいカメラはほしくないです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-07-c1",
+          "text": "新しいカメラはほしくないです。",
+          "rationale": "Correct. ほしくない is the negative form of ほしい; は is contrastive here."
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-07-c2",
+          "text": "新しいカメラがほしいです。",
+          "rationale": "Review the model evidence: 新しいカメラはほしくないです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-07-c3",
+          "text": "カメラを買いたいです。",
+          "rationale": "Review the model evidence: 新しいカメラはほしくないです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l07-pattern-08"
+      ],
+      "prompt": "What is the best revision of 買いたいないです?",
+      "evidence": "買いたくないです。",
+      "explanation": "The negative of たい is たくない, not たいない. Evidence: 買いたくないです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l07-08-c1",
+          "text": "買いませんたいです。",
+          "rationale": "Review the model evidence: 買いたくないです。"
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-08-c2",
+          "text": "買いたくないです。",
+          "rationale": "Correct. The negative of たい is たくない, not たいない."
+        },
+        {
+          "id": "ex-n5-m07-c02-l07-08-c3",
+          "text": "買いたいないです。",
+          "rationale": "Review the model evidence: 買いたくないです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l07-08-c2"
+      }
+    }
+  ]
+}
