@@ -1,0 +1,326 @@
+{
+  "id": "n5-m07-c03-l01",
+  "lessonId": "n5-m07-c03-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional community-center noticeboard, class-choice dialogue and notebook mini-scene in comparing-choices-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-01"
+      ],
+      "prompt": "What are Aki and Yui deciding?",
+      "evidence": "土曜日、料理クラスと絵のクラス、どちらがいいですか。",
+      "explanation": "They are choosing between two Saturday classes. Evidence: 土曜日、料理クラスと絵のクラス、どちらがいいですか。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-01-c1",
+          "text": "Which Saturday class to attend",
+          "rationale": "Correct. They are choosing between two Saturday classes."
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-01-c2",
+          "text": "Which train to catch",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 土曜日、料理クラスと絵のクラス、どちらがいいですか。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-01-c3",
+          "text": "Which book to buy",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 土曜日、料理クラスと絵のクラス、どちらがいいですか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-02"
+      ],
+      "prompt": "Which class is less expensive?",
+      "evidence": "絵のクラスのほうが安いです。",
+      "explanation": "絵のクラスのほうが安いです states that art is cheaper. Evidence: 絵のクラスのほうが安いです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-02-c1",
+          "text": "Cooking class",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 絵のクラスのほうが安いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-02-c2",
+          "text": "Art class",
+          "rationale": "Correct. 絵のクラスのほうが安いです states that art is cheaper."
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-02-c3",
+          "text": "Both cost the same",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 絵のクラスのほうが安いです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-03"
+      ],
+      "prompt": "How much cheaper is the art class?",
+      "evidence": "料理クラスより三百円安いです。",
+      "explanation": "The art class costs 500 yen and cooking costs 800 yen: the difference is 300 yen. Evidence: 料理クラスより三百円安いです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-03-c1",
+          "text": "100 yen",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 料理クラスより三百円安いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-03-c2",
+          "text": "500 yen",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 料理クラスより三百円安いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-03-c3",
+          "text": "300 yen",
+          "rationale": "Correct. The art class costs 500 yen and cooking costs 800 yen: the difference is 300 yen."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-04"
+      ],
+      "prompt": "Which class begins earlier?",
+      "evidence": "料理クラスのほうが早いです。十時からです。",
+      "explanation": "Cooking starts at ten, one hour before art. Evidence: 料理クラスのほうが早いです。十時からです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-04-c1",
+          "text": "Cooking at 10:00",
+          "rationale": "Correct. Cooking starts at ten, one hour before art."
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-04-c2",
+          "text": "Art at 11:00",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 料理クラスのほうが早いです。十時からです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-04-c3",
+          "text": "They both start at 10:00",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 料理クラスのほうが早いです。十時からです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-05"
+      ],
+      "prompt": "What does どちら ask in this scene?",
+      "evidence": "どちらがいいですか。",
+      "explanation": "どちら asks the listener to choose between two alternatives. Evidence: どちらがいいですか。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-05-c1",
+          "text": "How many people?",
+          "rationale": "Not quite. Recheck the original Japanese evidence: どちらがいいですか。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-05-c2",
+          "text": "Which of two options?",
+          "rationale": "Correct. どちら asks the listener to choose between two alternatives."
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-05-c3",
+          "text": "Where is the center?",
+          "rationale": "Not quite. Recheck the original Japanese evidence: どちらがいいですか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-06"
+      ],
+      "prompt": "In 料理クラスより三百円安い, what is the baseline?",
+      "evidence": "料理クラスより三百円安いです。",
+      "explanation": "より marks the comparison baseline, the cooking class. Evidence: 料理クラスより三百円安いです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-06-c1",
+          "text": "The art class",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 料理クラスより三百円安いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-06-c2",
+          "text": "Both classes together",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 料理クラスより三百円安いです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-06-c3",
+          "text": "The cooking class",
+          "rationale": "Correct. より marks the comparison baseline, the cooking class."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-07"
+      ],
+      "prompt": "Why does Yui favor art?",
+      "evidence": "私は絵が好きです。",
+      "explanation": "Yui explicitly says 私は絵が好きです. Evidence: 私は絵が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-07-c1",
+          "text": "She likes art",
+          "rationale": "Correct. Yui explicitly says 私は絵が好きです."
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-07-c2",
+          "text": "She dislikes mornings",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 私は絵が好きです。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-07-c3",
+          "text": "Cooking is canceled",
+          "rationale": "Not quite. Recheck the original Japanese evidence: 私は絵が好きです。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "meaning"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l01-meaning-08"
+      ],
+      "prompt": "What do the friends finally choose?",
+      "evidence": "じゃあ、絵のクラスにしましょう。",
+      "explanation": "The final line chooses the art class. Evidence: じゃあ、絵のクラスにしましょう。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l01-08-c1",
+          "text": "Cooking class",
+          "rationale": "Not quite. Recheck the original Japanese evidence: じゃあ、絵のクラスにしましょう。"
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-08-c2",
+          "text": "Art class",
+          "rationale": "Correct. The final line chooses the art class."
+        },
+        {
+          "id": "ex-n5-m07-c03-l01-08-c3",
+          "text": "Neither class",
+          "rationale": "Not quite. Recheck the original Japanese evidence: じゃあ、絵のクラスにしましょう。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l01-08-c2"
+      }
+    }
+  ]
+}
