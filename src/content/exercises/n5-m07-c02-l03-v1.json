@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c02-l03",
+  "lessonId": "n5-m07-c02-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional weekend planning and library dialogue in wants-intentions-grammar.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-01"
+      ],
+      "prompt": "Which sentence means 'I want to read a book'?",
+      "evidence": "本を読みたいです。",
+      "explanation": "読みたい expresses a desire to perform the verb 読む, whereas ほしい asks for an item and に行きます describes movement.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-01-c1",
+          "text": "本を読みたいです。",
+          "rationale": "Correct. 読みたい expresses a desire to perform the verb 読む, whereas ほしい asks for an item and に行きます describes movement."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-01-c2",
+          "text": "本がほしいです。",
+          "rationale": "Not quite. 読みたい expresses a desire to perform the verb 読む, whereas ほしい asks for an item and に行きます describes movement."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-01-c3",
+          "text": "本を読みに行きます。",
+          "rationale": "Not quite. 読みたい expresses a desire to perform the verb 読む, whereas ほしい asks for an item and に行きます describes movement."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-02"
+      ],
+      "prompt": "Which sentence means 'I want a new dictionary'?",
+      "evidence": "新しい辞書がほしいです。",
+      "explanation": "A desired object is marked with が and followed by ほしいです.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-02-c1",
+          "text": "新しい辞書を読みたいです。",
+          "rationale": "Not quite. A desired object is marked with が and followed by ほしいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-02-c2",
+          "text": "新しい辞書がほしいです。",
+          "rationale": "Correct. A desired object is marked with が and followed by ほしいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-02-c3",
+          "text": "新しい辞書に行きたいです。",
+          "rationale": "Not quite. A desired object is marked with が and followed by ほしいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-03"
+      ],
+      "prompt": "Choose the correct たい form of 食べます.",
+      "evidence": "食べたいです。",
+      "explanation": "Remove ます from 食べます and add たいです.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-03-c1",
+          "text": "食べますたいです。",
+          "rationale": "Not quite. Remove ます from 食べます and add たいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-03-c2",
+          "text": "食べたいます。",
+          "rationale": "Not quite. Remove ます from 食べます and add たいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-03-c3",
+          "text": "食べたいです。",
+          "rationale": "Correct. Remove ます from 食べます and add たいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-04"
+      ],
+      "prompt": "Choose the correct たい form of 行きます.",
+      "evidence": "行きたいです。",
+      "explanation": "Use the ます-stem 行き plus たいです.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-04-c1",
+          "text": "行きたいです。",
+          "rationale": "Correct. Use the ます-stem 行き plus たいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-04-c2",
+          "text": "行くたいです。",
+          "rationale": "Not quite. Use the ます-stem 行き plus たいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-04-c3",
+          "text": "行きますたいです。",
+          "rationale": "Not quite. Use the ます-stem 行き plus たいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-05"
+      ],
+      "prompt": "Which sentence says 'I am going to the library to study'?",
+      "evidence": "図書館へ勉強しに行きます。",
+      "explanation": "The purpose of motion is the ます-stem 勉強し plus に行きます.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-05-c1",
+          "text": "図書館へ勉強したいです。",
+          "rationale": "Not quite. The purpose of motion is the ます-stem 勉強し plus に行きます."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-05-c2",
+          "text": "図書館へ勉強しに行きます。",
+          "rationale": "Correct. The purpose of motion is the ます-stem 勉強し plus に行きます."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-05-c3",
+          "text": "図書館がほしいです。",
+          "rationale": "Not quite. The purpose of motion is the ます-stem 勉強し plus に行きます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-06"
+      ],
+      "prompt": "What is the purpose phrase in 映画を見に行きます?",
+      "evidence": "見に",
+      "explanation": "見 is the ます-stem of 見ます; 見に identifies the purpose of going.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-06-c1",
+          "text": "映画を",
+          "rationale": "Not quite. 見 is the ます-stem of 見ます; 見に identifies the purpose of going."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-06-c2",
+          "text": "行きます",
+          "rationale": "Not quite. 見 is the ます-stem of 見ます; 見に identifies the purpose of going."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-06-c3",
+          "text": "見に",
+          "rationale": "Correct. 見 is the ます-stem of 見ます; 見に identifies the purpose of going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-07"
+      ],
+      "prompt": "Which is the polite negative of 飲みたいです?",
+      "evidence": "飲みたくないです。",
+      "explanation": "たい behaves like an い-adjective: たい → たくない.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-07-c1",
+          "text": "飲みたくないです。",
+          "rationale": "Correct. たい behaves like an い-adjective: たい → たくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-07-c2",
+          "text": "飲みたいではありません。",
+          "rationale": "Not quite. たい behaves like an い-adjective: たい → たくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-07-c3",
+          "text": "飲みませんたいです。",
+          "rationale": "Not quite. たい behaves like an い-adjective: たい → たくない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-08"
+      ],
+      "prompt": "Which is the polite negative of ほしいです?",
+      "evidence": "ほしくないです。",
+      "explanation": "ほしい is an い-adjective: ほしい → ほしくない.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-08-c1",
+          "text": "ほしいではありません。",
+          "rationale": "Not quite. ほしい is an い-adjective: ほしい → ほしくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-08-c2",
+          "text": "ほしくないです。",
+          "rationale": "Correct. ほしい is an い-adjective: ほしい → ほしくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-08-c3",
+          "text": "ほしません。",
+          "rationale": "Not quite. ほしい is an い-adjective: ほしい → ほしくない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-09"
+      ],
+      "prompt": "Which question naturally asks what someone wants to do?",
+      "evidence": "何をしたいですか。",
+      "explanation": "したいですか asks about a desired action; ほしい asks about a desired thing.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-09-c1",
+          "text": "何がほしいですか。",
+          "rationale": "Not quite. したいですか asks about a desired action; ほしい asks about a desired thing."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-09-c2",
+          "text": "何に行きますか。",
+          "rationale": "Not quite. したいですか asks about a desired action; ほしい asks about a desired thing."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-09-c3",
+          "text": "何をしたいですか。",
+          "rationale": "Correct. したいですか asks about a desired action; ほしい asks about a desired thing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-10"
+      ],
+      "prompt": "Which question naturally asks what item someone wants?",
+      "evidence": "何がほしいですか。",
+      "explanation": "何がほしいですか asks which thing the listener wants.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-10-c1",
+          "text": "何がほしいですか。",
+          "rationale": "Correct. 何がほしいですか asks which thing the listener wants."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-10-c2",
+          "text": "何をしたいですか。",
+          "rationale": "Not quite. 何がほしいですか asks which thing the listener wants."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-10-c3",
+          "text": "どこへ行きますか。",
+          "rationale": "Not quite. 何がほしいですか asks which thing the listener wants."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-11"
+      ],
+      "prompt": "In 私は日曜日に本を買いに行きます, what is explicitly stated?",
+      "evidence": "I will go to buy a book on Sunday.",
+      "explanation": "日曜日に marks Sunday; 本を買いに行きます expresses going to buy a book.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-11-c1",
+          "text": "I want someone else to buy a book.",
+          "rationale": "Not quite. 日曜日に marks Sunday; 本を買いに行きます expresses going to buy a book."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-11-c2",
+          "text": "I will go to buy a book on Sunday.",
+          "rationale": "Correct. 日曜日に marks Sunday; 本を買いに行きます expresses going to buy a book."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-11-c3",
+          "text": "I bought a book yesterday.",
+          "rationale": "Not quite. 日曜日に marks Sunday; 本を買いに行きます expresses going to buy a book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-l03-grammar-12"
+      ],
+      "prompt": "Which sentence avoids asserting another person's private desire as a fact?",
+      "evidence": "ユキさんは新しいかばんがほしいと言っています。",
+      "explanation": "と言っています attributes the wish to Yuki's statement; direct ほしい for another person's inner feelings needs context.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-l03-12-c1",
+          "text": "ユキさんは新しいかばんがほしいです。",
+          "rationale": "Not quite. と言っています attributes the wish to Yuki's statement; direct ほしい for another person's inner feelings needs context."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-12-c2",
+          "text": "ユキさんは新しいかばんを行きます。",
+          "rationale": "Not quite. と言っています attributes the wish to Yuki's statement; direct ほしい for another person's inner feelings needs context."
+        },
+        {
+          "id": "ex-n5-m07-c02-l03-12-c3",
+          "text": "ユキさんは新しいかばんがほしいと言っています。",
+          "rationale": "Correct. と言っています attributes the wish to Yuki's statement; direct ほしい for another person's inner feelings needs context."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-l03-12-c3"
+      }
+    }
+  ]
+}
