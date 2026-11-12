@@ -1,0 +1,165 @@
+{
+  "lessonId": "n5-m01-c04-l06",
+  "chapterId": "n5-m01-c04",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m01-c04-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m01-c04-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 20.14,
+      "transcript": "女性： はじめまして。わたしは小林あきです。十九歳です。\n男性： はじめまして。田中けんです。小林さんは大学生ですか。\n女性： はい、大学生です。出身は京都です。\n男性： そうですか。わたしも大学生です。出身は大阪です。",
+      "english": "Woman: Nice to meet you. I am Aki Kobayashi. I am nineteen.\nMan: Nice to meet you. I am Ken Tanaka. Are you a university student?\nWoman: Yes, I am a university student. I am from Kyoto.\nMan: I see. I am also a university student. I am from Osaka.",
+      "scriptPurpose": "Two students at orientation",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はじめまして。わたしは小林あきです。十九歳です。",
+          "english": "Nice to meet you. I am Aki Kobayashi. I am nineteen.",
+          "startSeconds": 0.0,
+          "endSeconds": 5.29
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "はじめまして。田中けんです。小林さんは大学生ですか。",
+          "english": "Nice to meet you. I am Ken Tanaka. Are you a university student?",
+          "startSeconds": 5.57,
+          "endSeconds": 10.66
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "はい、大学生です。出身は京都です。",
+          "english": "Yes, I am a university student. I am from Kyoto.",
+          "startSeconds": 10.94,
+          "endSeconds": 14.99
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "そうですか。わたしも大学生です。出身は大阪です。",
+          "english": "I see. I am also a university student. I am from Osaka.",
+          "startSeconds": 15.27,
+          "endSeconds": 20.14
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "ff2db7972976ac533ce6f6353b8f4f83b69feb072981eb30b364dffb7fe0bed9",
+        "bytes": 1776252,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m01-c04-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m01-c04-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 15.54,
+      "transcript": "男性： 佐藤さんは会社員ですか。\n女性： いいえ、会社員じゃありません。高校の先生です。\n男性： そうですか。出身は東京ですか。\n女性： いいえ、出身は名古屋です。今は東京に住んでいます。",
+      "english": "Man: Sato, are you a company employee?\nWoman: No, I am not a company employee. I am a high school teacher.\nMan: I see. Are you from Tokyo?\nWoman: No, I am from Nagoya. I live in Tokyo now.",
+      "scriptPurpose": "Profiles at a community class",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m01-c04-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "佐藤さんは会社員ですか。",
+          "english": "Sato, are you a company employee?",
+          "startSeconds": 0.0,
+          "endSeconds": 2.34
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ、会社員じゃありません。高校の先生です。",
+          "english": "No, I am not a company employee. I am a high school teacher.",
+          "startSeconds": 2.62,
+          "endSeconds": 6.91
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "そうですか。出身は東京ですか。",
+          "english": "I see. Are you from Tokyo?",
+          "startSeconds": 7.19,
+          "endSeconds": 10.44
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いいえ、出身は名古屋です。今は東京に住んでいます。",
+          "english": "No, I am from Nagoya. I live in Tokyo now.",
+          "startSeconds": 10.72,
+          "endSeconds": 15.54
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "73e5cdf0a4c54a520030e1172902e57fbbe081e2542b1e2949b6d89e23588a29",
+        "bytes": 1370994,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}

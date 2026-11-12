@@ -1,0 +1,342 @@
+{
+  "id": "n5-m02-c03-l07",
+  "lessonId": "n5-m02-c03-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original FreeJapaneseAcademy fictional classroom writing scenarios",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m02-c03-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Choose the sentence saying there is a book in the classroom.",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-01-c1",
+          "text": "教室に本がいます。",
+          "rationale": "Not this choice. A nonliving book takes あります; に marks the location and が marks what exists."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-01-c2",
+          "text": "教室に本があります。",
+          "rationale": "A nonliving book takes あります; に marks the location and が marks what exists."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-01-c3",
+          "text": "教室が本にあります。",
+          "rationale": "Not this choice. A nonliving book takes あります; に marks the location and が marks what exists."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-01-c2"
+      },
+      "explanation": "A nonliving book takes あります; に marks the location and が marks what exists.",
+      "feedback": "A nonliving book takes あります; に marks the location and が marks what exists."
+    },
+    {
+      "id": "ex-n5-m02-c03-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Which sentence says the teacher is in the classroom?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-02-c1",
+          "text": "教室に先生がいます。",
+          "rationale": "A person takes います, with the place before に."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-02-c2",
+          "text": "教室が先生にいます。",
+          "rationale": "Not this choice. A person takes います, with the place before に."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-02-c3",
+          "text": "教室に先生があります。",
+          "rationale": "Not this choice. A person takes います, with the place before に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-02-c1"
+      },
+      "explanation": "A person takes います, with the place before に.",
+      "feedback": "A person takes います, with the place before に."
+    },
+    {
+      "id": "ex-n5-m02-c03-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Which particle completes 教室＿本があります。?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-03-c1",
+          "text": "を",
+          "rationale": "Not this choice. に marks the place where the book exists."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-03-c2",
+          "text": "が",
+          "rationale": "Not this choice. に marks the place where the book exists."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-03-c3",
+          "text": "に",
+          "rationale": "に marks the place where the book exists."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-03-c3"
+      },
+      "explanation": "に marks the place where the book exists.",
+      "feedback": "に marks the place where the book exists."
+    },
+    {
+      "id": "ex-n5-m02-c03-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Which particle completes 教室に本＿あります。?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-04-c1",
+          "text": "に",
+          "rationale": "Not this choice. が marks the entity whose existence is asserted in this pattern."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-04-c2",
+          "text": "が",
+          "rationale": "が marks the entity whose existence is asserted in this pattern."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-04-c3",
+          "text": "は",
+          "rationale": "Not this choice. が marks the entity whose existence is asserted in this pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-04-c2"
+      },
+      "explanation": "が marks the entity whose existence is asserted in this pattern.",
+      "feedback": "が marks the entity whose existence is asserted in this pattern."
+    },
+    {
+      "id": "ex-n5-m02-c03-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Which sentence correctly locates a bag?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-05-c1",
+          "text": "教室にかばんがあります。",
+          "rationale": "A bag is an object, so use あります and location に."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-05-c2",
+          "text": "教室をかばんがあります。",
+          "rationale": "Not this choice. A bag is an object, so use あります and location に."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-05-c3",
+          "text": "教室にかばんがいます。",
+          "rationale": "Not this choice. A bag is an object, so use あります and location に."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-05-c1"
+      },
+      "explanation": "A bag is an object, so use あります and location に.",
+      "feedback": "A bag is an object, so use あります and location に."
+    },
+    {
+      "id": "ex-n5-m02-c03-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Which sentence asks whether a student is in the classroom?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-06-c1",
+          "text": "教室に学生がいます。",
+          "rationale": "Not this choice. いますか asks about a person; か makes it a question."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-06-c2",
+          "text": "教室に学生がありますか。",
+          "rationale": "Not this choice. いますか asks about a person; か makes it a question."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-06-c3",
+          "text": "教室に学生がいますか。",
+          "rationale": "いますか asks about a person; か makes it a question."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-06-c3"
+      },
+      "explanation": "いますか asks about a person; か makes it a question.",
+      "feedback": "いますか asks about a person; か makes it a question."
+    },
+    {
+      "id": "ex-n5-m02-c03-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Which sentence says there is a desk at school?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-07-c1",
+          "text": "学校に机がいます。",
+          "rationale": "Not this choice. A desk is nonliving, and 学校に marks its location."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-07-c2",
+          "text": "学校に机があります。",
+          "rationale": "A desk is nonliving, and 学校に marks its location."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-07-c3",
+          "text": "学校が机にあります。",
+          "rationale": "Not this choice. A desk is nonliving, and 学校に marks its location."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-07-c2"
+      },
+      "explanation": "A desk is nonliving, and 学校に marks its location.",
+      "feedback": "A desk is nonliving, and 学校に marks its location."
+    },
+    {
+      "id": "ex-n5-m02-c03-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m02-c03-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c03-l07-existence"
+      ],
+      "prompt": "Which line correctly says there is a person in the room?",
+      "choices": [
+        {
+          "id": "ex-n5-m02-c03-l07-08-c1",
+          "text": "部屋に人がいます。",
+          "rationale": "A person is animate; 部屋に is the location, 人が is the person."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-08-c2",
+          "text": "部屋が人にいます。",
+          "rationale": "Not this choice. A person is animate; 部屋に is the location, 人が is the person."
+        },
+        {
+          "id": "ex-n5-m02-c03-l07-08-c3",
+          "text": "部屋に人があります。",
+          "rationale": "Not this choice. A person is animate; 部屋に is the location, 人が is the person."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m02-c03-l07-08-c1"
+      },
+      "explanation": "A person is animate; 部屋に is the location, 人が is the person.",
+      "feedback": "A person is animate; 部屋に is the location, 人が is the person."
+    }
+  ]
+}

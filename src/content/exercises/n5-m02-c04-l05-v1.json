@@ -1,0 +1,376 @@
+{
+  "lessonId": "n5-m02-c04-l05",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c04-l05-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the notebook?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机の 上",
+          "rationale": "Supported by: B: 机の 上に ノートが あります。"
+        },
+        {
+          "id": "c2",
+          "text": "机の 下",
+          "rationale": "Not supported by: B: 机の 上に ノートが あります。"
+        },
+        {
+          "id": "c3",
+          "text": "本棚の 中",
+          "rationale": "Not supported by: B: 机の 上に ノートが あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: B: 机の 上に ノートが あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the bag?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "いすの 後ろ",
+          "rationale": "Not supported by: C: 机の 下に かばんが あります。"
+        },
+        {
+          "id": "c2",
+          "text": "机の 下",
+          "rationale": "Supported by: C: 机の 下に かばんが あります。"
+        },
+        {
+          "id": "c3",
+          "text": "窓の 前",
+          "rationale": "Not supported by: C: 机の 下に かばんが あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: C: 机の 下に かばんが あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is next to the desk?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "時計",
+          "rationale": "Not supported by: D: 机の 隣に 本棚が あります。"
+        },
+        {
+          "id": "c2",
+          "text": "小さい テーブル",
+          "rationale": "Not supported by: D: 机の 隣に 本棚が あります。"
+        },
+        {
+          "id": "c3",
+          "text": "本棚",
+          "rationale": "Supported by: D: 机の 隣に 本棚が あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: D: 机の 隣に 本棚が あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is inside the bookshelf?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "日本語の 本",
+          "rationale": "Supported by: E: 本棚の 中に 日本語の 本が あります。"
+        },
+        {
+          "id": "c2",
+          "text": "ノート",
+          "rationale": "Not supported by: E: 本棚の 中に 日本語の 本が あります。"
+        },
+        {
+          "id": "c3",
+          "text": "かばん",
+          "rationale": "Not supported by: E: 本棚の 中に 日本語の 本が あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: E: 本棚の 中に 日本語の 本が あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Where is the small table?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本棚の 中",
+          "rationale": "Not supported by: F: 窓の 前に 小さい テーブルが あります。"
+        },
+        {
+          "id": "c2",
+          "text": "窓の 前",
+          "rationale": "Supported by: F: 窓の 前に 小さい テーブルが あります。"
+        },
+        {
+          "id": "c3",
+          "text": "机の 下",
+          "rationale": "Not supported by: F: 窓の 前に 小さい テーブルが あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: F: 窓の 前に 小さい テーブルが あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What is behind the chair?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ノート",
+          "rationale": "Not supported by: G: いすの 後ろに 時計が あります。"
+        },
+        {
+          "id": "c2",
+          "text": "本棚",
+          "rationale": "Not supported by: G: いすの 後ろに 時計が あります。"
+        },
+        {
+          "id": "c3",
+          "text": "時計",
+          "rationale": "Supported by: G: いすの 後ろに 時計が あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: G: いすの 後ろに 時計が あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which two pieces of furniture are explicitly in the room?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机と いす",
+          "rationale": "Supported by: A: 部屋に 机と いすが あります。"
+        },
+        {
+          "id": "c2",
+          "text": "机と ベッド",
+          "rationale": "Not supported by: A: 部屋に 机と いすが あります。"
+        },
+        {
+          "id": "c3",
+          "text": "いすと ソファ",
+          "rationale": "Not supported by: A: 部屋に 机と いすが あります。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: A: 部屋に 机と いすが あります。"
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which side of the desk is the bookshelf on?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Left side",
+          "rationale": "Not supported by: D states 隣 only; no left or right is specified."
+        },
+        {
+          "id": "c2",
+          "text": "Not stated",
+          "rationale": "Supported by: D states 隣 only; no left or right is specified."
+        },
+        {
+          "id": "c3",
+          "text": "Right side",
+          "rationale": "Not supported by: D states 隣 only; no left or right is specified."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence: D states 隣 only; no left or right is specified."
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "What color is the bag?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Blue",
+          "rationale": "Not supported by: C mentions a bag under the desk but gives no color."
+        },
+        {
+          "id": "c2",
+          "text": "Black",
+          "rationale": "Not supported by: C mentions a bag under the desk but gives no color."
+        },
+        {
+          "id": "c3",
+          "text": "Not stated",
+          "rationale": "Supported by: C mentions a bag under the desk but gives no color."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence: C mentions a bag under the desk but gives no color."
+    },
+    {
+      "id": "ex-n5-m02-c04-l05-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which sentence correctly describes the notebook?",
+      "objectiveIds": [
+        "n5-m02-c04-l05-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c04-l05-room-note"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "机の 上に ノートが あります。",
+          "rationale": "Supported by: B: 机の 上に ノートが あります."
+        },
+        {
+          "id": "c2",
+          "text": "机の 下に ノートが あります。",
+          "rationale": "Not supported by: B: 机の 上に ノートが あります."
+        },
+        {
+          "id": "c3",
+          "text": "机の 隣に ノートが います。",
+          "rationale": "Not supported by: B: 机の 上に ノートが あります."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence: B: 机の 上に ノートが あります."
+    }
+  ]
+}

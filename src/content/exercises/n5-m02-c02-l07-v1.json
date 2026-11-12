@@ -1,0 +1,350 @@
+{
+  "lessonId": "n5-m02-c02-l07",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c02-l07-v1-01",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-1"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence says 'The library is over there'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館は あそこです。",
+          "rationale": "あそこ marks a place away from both speakers; です identifies the library's location."
+        },
+        {
+          "id": "c2",
+          "text": "図書館は どこですか。",
+          "rationale": "This choice does not express the requested meaning. Check the question or verb form."
+        },
+        {
+          "id": "c3",
+          "text": "図書館は ここです。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        },
+        {
+          "id": "c4",
+          "text": "図書館に います。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "あそこ marks a place away from both speakers; です identifies the library's location."
+    },
+    {
+      "id": "ex-n5-m02-c02-l07-v1-02",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-2"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which question asks 'Where is the classroom?'",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "教室は そこです。",
+          "rationale": "This choice does not express the requested meaning. Check the location or particle."
+        },
+        {
+          "id": "c2",
+          "text": "教室は どこですか。",
+          "rationale": "どこですか asks for a location; the other options state one."
+        },
+        {
+          "id": "c3",
+          "text": "教室は あそこです。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        },
+        {
+          "id": "c4",
+          "text": "教室は ここです。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "どこですか asks for a location; the other options state one."
+    },
+    {
+      "id": "ex-n5-m02-c02-l07-v1-03",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-3"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "You are standing at the reception desk. How do you say 'The reception desk is here'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "受付は あそこです。",
+          "rationale": "This choice does not express the requested meaning. Check the location or particle."
+        },
+        {
+          "id": "c2",
+          "text": "受付は そこです。",
+          "rationale": "This choice does not express the requested meaning. Check the question or verb form."
+        },
+        {
+          "id": "c3",
+          "text": "受付は ここです。",
+          "rationale": "ここ refers to the speaker's current location."
+        },
+        {
+          "id": "c4",
+          "text": "受付は どこですか。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ここ refers to the speaker's current location."
+    },
+    {
+      "id": "ex-n5-m02-c02-l07-v1-04",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-4"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Your friend is standing by the entrance, away from you. Which statement points to the entrance near your friend?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "入口は ここです。",
+          "rationale": "This choice does not express the requested meaning. Check the location or particle."
+        },
+        {
+          "id": "c2",
+          "text": "入口は あそこです。",
+          "rationale": "This choice does not express the requested meaning. Check the question or verb form."
+        },
+        {
+          "id": "c3",
+          "text": "入口は どこですか。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        },
+        {
+          "id": "c4",
+          "text": "入口は そこです。",
+          "rationale": "そこ refers to a place near the listener, not the speaker."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "そこ refers to a place near the listener, not the speaker."
+    },
+    {
+      "id": "ex-n5-m02-c02-l07-v1-05",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-5"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence says 'The book is in the classroom'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "本は 教室に あります。",
+          "rationale": "The inanimate book takes あります; に marks the location."
+        },
+        {
+          "id": "c2",
+          "text": "本は 教室に います。",
+          "rationale": "This choice does not express the requested meaning. Check the question or verb form."
+        },
+        {
+          "id": "c3",
+          "text": "本は 教室は あります。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        },
+        {
+          "id": "c4",
+          "text": "本は 教室の どこですか。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "The inanimate book takes あります; に marks the location."
+    },
+    {
+      "id": "ex-n5-m02-c02-l07-v1-06",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-6"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which sentence says 'The teacher is in the library'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "先生は 図書館に あります。",
+          "rationale": "This choice does not express the requested meaning. Check the location or particle."
+        },
+        {
+          "id": "c2",
+          "text": "先生は 図書館に います。",
+          "rationale": "A person takes います, and に marks the place."
+        },
+        {
+          "id": "c3",
+          "text": "先生は 図書館が どこですか。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        },
+        {
+          "id": "c4",
+          "text": "先生は 図書館に です。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "A person takes います, and に marks the place."
+    },
+    {
+      "id": "ex-n5-m02-c02-l07-v1-07",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-7"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "Which expression correctly gives a location with に?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館は に 本です。",
+          "rationale": "This choice does not express the requested meaning. Check the location or particle."
+        },
+        {
+          "id": "c2",
+          "text": "図書館が ここに です。",
+          "rationale": "This choice does not express the requested meaning. Check the question or verb form."
+        },
+        {
+          "id": "c3",
+          "text": "本は ここに あります。",
+          "rationale": "ここに marks where the book exists; あります completes the sentence."
+        },
+        {
+          "id": "c4",
+          "text": "本は ここを あります。",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "ここに marks where the book exists; あります completes the sentence."
+    },
+    {
+      "id": "ex-n5-m02-c02-l07-v1-08",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m02-c02-l07-obj-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c02-l07-location-8"
+      ],
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "prompt": "A visitor asks 'トイレは どこですか。' What information is requested?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Who owns the restroom?",
+          "rationale": "This choice does not express the requested meaning. Check the location or particle."
+        },
+        {
+          "id": "c2",
+          "text": "What time does it open?",
+          "rationale": "This choice does not express the requested meaning. Check the question or verb form."
+        },
+        {
+          "id": "c3",
+          "text": "How many restrooms are there?",
+          "rationale": "This choice does not express the requested meaning. Compare the referent and sentence ending."
+        },
+        {
+          "id": "c4",
+          "text": "Where is the restroom?",
+          "rationale": "どこ means where, and トイレ is the restroom."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c4"
+      },
+      "explanation": "どこ means where, and トイレ is the restroom."
+    }
+  ]
+}
