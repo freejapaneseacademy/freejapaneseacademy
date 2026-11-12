@@ -1,0 +1,310 @@
+{
+  "lessonId": "n5-m02-c01-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m02-c01-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which asks 'Whose notebook is this?'",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "この ノートは だれのですか。",
+          "rationale": "Correct. この must modify ノート; だれの asks whose."
+        },
+        {
+          "id": "c2",
+          "text": "このは ノート だれのですか。",
+          "rationale": "Incorrect. この must modify ノート; だれの asks whose."
+        },
+        {
+          "id": "c3",
+          "text": "これ ノートは だれのですか。",
+          "rationale": "Incorrect. この must modify ノート; だれの asks whose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "この must modify ノート; だれの asks whose."
+    },
+    {
+      "id": "ex-n5-m02-c01-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "The visitor holds the umbrella. What can the attendant say?",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "このは ナオさんのです。",
+          "rationale": "Incorrect. それ points to an item near the listener."
+        },
+        {
+          "id": "c3",
+          "text": "あの かさ ナオさんのです。",
+          "rationale": "Incorrect. それ points to an item near the listener."
+        },
+        {
+          "id": "c1",
+          "text": "それは ナオさんのです。",
+          "rationale": "Correct. それ points to an item near the listener."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "それ points to an item near the listener."
+    },
+    {
+      "id": "ex-n5-m02-c01-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who owns the green umbrella?",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "リナさん",
+          "rationale": "Incorrect. Scene A says それは ナオさんのです."
+        },
+        {
+          "id": "c1",
+          "text": "ナオさん",
+          "rationale": "Correct. Scene A says それは ナオさんのです."
+        },
+        {
+          "id": "c2",
+          "text": "ミカさん",
+          "rationale": "Incorrect. Scene A says それは ナオさんのです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Scene A says それは ナオさんのです."
+    },
+    {
+      "id": "ex-n5-m02-c01-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who owns the blue umbrella?",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "ミカさん",
+          "rationale": "Correct. Scene A corrects the guess with あれは ミカさんのです."
+        },
+        {
+          "id": "c2",
+          "text": "ナオさん",
+          "rationale": "Incorrect. Scene A corrects the guess with あれは ミカさんのです."
+        },
+        {
+          "id": "c3",
+          "text": "The visitor",
+          "rationale": "Incorrect. Scene A corrects the guess with あれは ミカさんのです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Scene A corrects the guess with あれは ミカさんのです."
+    },
+    {
+      "id": "ex-n5-m02-c01-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which means 'that bag over there'?",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "あれ かばん",
+          "rationale": "Incorrect. あの modifies the distant noun かばん."
+        },
+        {
+          "id": "c3",
+          "text": "この かばん",
+          "rationale": "Incorrect. あの modifies the distant noun かばん."
+        },
+        {
+          "id": "c1",
+          "text": "あの かばん",
+          "rationale": "Correct. あの modifies the distant noun かばん."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "あの modifies the distant noun かばん."
+    },
+    {
+      "id": "ex-n5-m02-c01-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who owns the notebook in Scene B?",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c3",
+          "text": "The attendant",
+          "rationale": "Incorrect. その ノートは リナさんのです identifies Rina."
+        },
+        {
+          "id": "c1",
+          "text": "リナさん",
+          "rationale": "Correct. その ノートは リナさんのです identifies Rina."
+        },
+        {
+          "id": "c2",
+          "text": "ナオさん",
+          "rationale": "Incorrect. その ノートは リナさんのです identifies Rina."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "その ノートは リナさんのです identifies Rina."
+    },
+    {
+      "id": "ex-n5-m02-c01-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Who owns the distant bag in Scene B?",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c1",
+          "text": "The attendant",
+          "rationale": "Correct. いいえ。あれは わたしのです means the attendant owns it."
+        },
+        {
+          "id": "c2",
+          "text": "リナさん",
+          "rationale": "Incorrect. いいえ。あれは わたしのです means the attendant owns it."
+        },
+        {
+          "id": "c3",
+          "text": "ミカさん",
+          "rationale": "Incorrect. いいえ。あれは わたしのです means the attendant owns it."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "いいえ。あれは わたしのです means the attendant owns it."
+    },
+    {
+      "id": "ex-n5-m02-c01-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "prompt": "Which asks whose object it is without repeating the noun?",
+      "objectiveIds": [
+        "n5-m02-c01-l08-objective-3"
+      ],
+      "knowledgeItemIds": [
+        "n5-m02-c01-l08-roleplay"
+      ],
+      "skills": [
+        "speaking-preparation",
+        "grammar"
+      ],
+      "choices": [
+        {
+          "id": "c2",
+          "text": "このは だれのですか。",
+          "rationale": "Incorrect. これ can stand alone; この needs a noun."
+        },
+        {
+          "id": "c3",
+          "text": "この だれのですか。",
+          "rationale": "Incorrect. これ can stand alone; この needs a noun."
+        },
+        {
+          "id": "c1",
+          "text": "これは だれのですか。",
+          "rationale": "Correct. これ can stand alone; この needs a noun."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "これ can stand alone; この needs a noun."
+    }
+  ]
+}
