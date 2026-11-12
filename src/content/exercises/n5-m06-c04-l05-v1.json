@@ -1,0 +1,506 @@
+{
+  "id": "n5-m06-c04-l05",
+  "lessonId": "n5-m06-c04-l05",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional Japanese activity-photo captions A–C",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l05-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Where is Tanaka reading?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-01-c1",
+          "text": "At the library",
+          "rationale": "Correct. The caption states: 図書館で日本語の本を読んでいます."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-01-c2",
+          "text": "In the park",
+          "rationale": "Not supported. The caption states: 図書館で日本語の本を読んでいます. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-01-c3",
+          "text": "In the kitchen",
+          "rationale": "Not supported. The caption states: 図書館で日本語の本を読んでいます. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-01-c1"
+      },
+      "explanation": "Evidence: 図書館で日本語の本を読んでいます.",
+      "feedback": "Evidence: 図書館で日本語の本を読んでいます."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "What is Tanaka reading?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-02-c1",
+          "text": "A notebook",
+          "rationale": "Not supported. The caption states: 日本語の本を読んでいます. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-02-c2",
+          "text": "A Japanese-language book",
+          "rationale": "Correct. The caption states: 日本語の本を読んでいます."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-02-c3",
+          "text": "A newspaper",
+          "rationale": "Not supported. The caption states: 日本語の本を読んでいます. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-02-c2"
+      },
+      "explanation": "Evidence: 日本語の本を読んでいます.",
+      "feedback": "Evidence: 日本語の本を読んでいます."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Who is writing new words?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-03-c1",
+          "text": "Tanaka",
+          "rationale": "Not supported. The caption states: 森さんはノートに新しい言葉を書いています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-03-c2",
+          "text": "Sato",
+          "rationale": "Not supported. The caption states: 森さんはノートに新しい言葉を書いています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-03-c3",
+          "text": "Mori",
+          "rationale": "Correct. The caption states: 森さんはノートに新しい言葉を書いています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-03-c3"
+      },
+      "explanation": "Evidence: 森さんはノートに新しい言葉を書いています.",
+      "feedback": "Evidence: 森さんはノートに新しい言葉を書いています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Where does Mori write the words?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-04-c1",
+          "text": "In a notebook",
+          "rationale": "Correct. The caption states: ノートに新しい言葉を書いています."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-04-c2",
+          "text": "On a whiteboard",
+          "rationale": "Not supported. The caption states: ノートに新しい言葉を書いています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-04-c3",
+          "text": "On a library wall",
+          "rationale": "Not supported. The caption states: ノートに新しい言葉を書いています. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-04-c1"
+      },
+      "explanation": "Evidence: ノートに新しい言葉を書いています.",
+      "feedback": "Evidence: ノートに新しい言葉を書いています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "What is Sato doing?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-05-c1",
+          "text": "Reading a book",
+          "rationale": "Not supported. The caption states: 佐藤さんはキッチンで野菜を切っています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-05-c2",
+          "text": "Cutting vegetables",
+          "rationale": "Correct. The caption states: 佐藤さんはキッチンで野菜を切っています."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-05-c3",
+          "text": "Eating a sandwich",
+          "rationale": "Not supported. The caption states: 佐藤さんはキッチンで野菜を切っています. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-05-c2"
+      },
+      "explanation": "Evidence: 佐藤さんはキッチンで野菜を切っています.",
+      "feedback": "Evidence: 佐藤さんはキッチンで野菜を切っています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "What is Kimura eating?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-06-c1",
+          "text": "Vegetables",
+          "rationale": "Not supported. The caption states: サンドイッチを食べています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-06-c2",
+          "text": "Rice",
+          "rationale": "Not supported. The caption states: サンドイッチを食べています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-06-c3",
+          "text": "A sandwich",
+          "rationale": "Correct. The caption states: サンドイッチを食べています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-06-c3"
+      },
+      "explanation": "Evidence: サンドイッチを食べています.",
+      "feedback": "Evidence: サンドイッチを食べています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "What are the two people in Caption B preparing?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-07-c1",
+          "text": "Lunch",
+          "rationale": "Correct. The caption states: 昼ごはんの準備をしています."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-07-c2",
+          "text": "Dinner",
+          "rationale": "Not supported. The caption states: 昼ごはんの準備をしています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-07-c3",
+          "text": "Breakfast",
+          "rationale": "Not supported. The caption states: 昼ごはんの準備をしています. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-07-c1"
+      },
+      "explanation": "Evidence: 昼ごはんの準備をしています.",
+      "feedback": "Evidence: 昼ごはんの準備をしています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Who is walking with a dog?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-08-c1",
+          "text": "Kimura",
+          "rationale": "Not supported. The caption states: 山本さんは公園で犬と歩いています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-08-c2",
+          "text": "Yamamoto",
+          "rationale": "Correct. The caption states: 山本さんは公園で犬と歩いています."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-08-c3",
+          "text": "Kobayashi",
+          "rationale": "Not supported. The caption states: 山本さんは公園で犬と歩いています. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-08-c2"
+      },
+      "explanation": "Evidence: 山本さんは公園で犬と歩いています.",
+      "feedback": "Evidence: 山本さんは公園で犬と歩いています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Where is Kobayashi talking?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-09-c1",
+          "text": "At a library table",
+          "rationale": "Not supported. The caption states: 小林さんはベンチで友達と話しています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-09-c2",
+          "text": "In a kitchen",
+          "rationale": "Not supported. The caption states: 小林さんはベンチで友達と話しています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-09-c3",
+          "text": "On a bench",
+          "rationale": "Correct. The caption states: 小林さんはベンチで友達と話しています."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-09-c3"
+      },
+      "explanation": "Evidence: 小林さんはベンチで友達と話しています.",
+      "feedback": "Evidence: 小林さんはベンチで友達と話しています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Who is Kobayashi talking with?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-10-c1",
+          "text": "A friend",
+          "rationale": "Correct. The caption states: 友達と話しています."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-10-c2",
+          "text": "A teacher",
+          "rationale": "Not supported. The caption states: 友達と話しています. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-10-c3",
+          "text": "A dog",
+          "rationale": "Not supported. The caption states: 友達と話しています. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-10-c1"
+      },
+      "explanation": "Evidence: 友達と話しています.",
+      "feedback": "Evidence: 友達と話しています."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Which phrase says the sky is blue?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-11-c1",
+          "text": "公園で",
+          "rationale": "Not supported. The caption states: 空は青いです. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-11-c2",
+          "text": "空は青いです",
+          "rationale": "Correct. The caption states: 空は青いです."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-11-c3",
+          "text": "犬と歩いています",
+          "rationale": "Not supported. The caption states: 空は青いです. Review who, where, or what is explicitly said."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-11-c2"
+      },
+      "explanation": "Evidence: 空は青いです.",
+      "feedback": "Evidence: 空は青いです."
+    },
+    {
+      "id": "ex-n5-m06-c04-l05-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skill": "written",
+      "level": "n5",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l05-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l05-captions"
+      ],
+      "prompt": "Does Caption A tell us when Tanaka will finish reading?",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l05-12-c1",
+          "text": "Yes, at noon",
+          "rationale": "Not supported. The caption states: 田中さんは図書館で日本語の本を読んでいます. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-12-c2",
+          "text": "Yes, on Sunday",
+          "rationale": "Not supported. The caption states: 田中さんは図書館で日本語の本を読んでいます. Review who, where, or what is explicitly said."
+        },
+        {
+          "id": "ex-n5-m06-c04-l05-12-c3",
+          "text": "No, it is not stated",
+          "rationale": "Correct. The caption states: 田中さんは図書館で日本語の本を読んでいます."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l05-12-c3"
+      },
+      "explanation": "Evidence: 田中さんは図書館で日本語の本を読んでいます.",
+      "feedback": "Evidence: 田中さんは図書館で日本語の本を読んでいます."
+    }
+  ]
+}
