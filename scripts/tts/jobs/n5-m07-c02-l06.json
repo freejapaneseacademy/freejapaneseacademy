@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 3,
+  "lessonId": "n5-m07-c02-l06",
+  "audioVersion": 1,
+  "candidateOnly": true,
+  "auditoryOnly": true,
+  "licenseReview": {
+    "modelTermsReviewed": true,
+    "redistributionCleared": true,
+    "reviewedBy": "FreeJapaneseAcademy automated author — repository TTS_GENERATION_POLICY.md v5 and cited ACML 1.0 terms; independent legal review not claimed"
+  },
+  "voices": {
+    "male": {
+      "name": "阿井田 茂",
+      "modelUuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+      "speakerUuid": "561e4e59-3bc9-4726-9028-44a3c12a6f1d",
+      "sha256": "6dabe29de5ec2c1715e12a430805e1bff6ec64a315cccec2d26fad029df83243",
+      "style": "Calm",
+      "credit": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ)",
+      "speedScale": 0.93,
+      "intonationScale": 0.84,
+      "tempoDynamicsScale": 0.76
+    },
+    "female": {
+      "name": "morioki",
+      "modelUuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+      "speakerUuid": "396a746d-742f-4e43-b722-1182a7fab9af",
+      "sha256": "352858a737b23fe0bd0b7bd73a4956be262aad9bb24a7bf0d1eae9a71a466469",
+      "style": "ノーマル",
+      "credit": "AivisSpeech: morioki (voice: morioki; model: yuki)",
+      "speedScale": 0.96,
+      "intonationScale": 0.85,
+      "tempoDynamicsScale": 0.8
+    }
+  },
+  "tracks": [
+    {
+      "id": "a",
+      "title": "Plans for a weekend outing",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m07-c02-l06-listen-a",
+      "turns": [
+        {
+          "speaker": "female",
+          "text": "土曜日は何をしたいですか。",
+          "english": "What do you want to do on Saturday?"
+        },
+        {
+          "speaker": "male",
+          "text": "図書館で日本語の本を読みたいです。",
+          "english": "I want to read a Japanese book at the library."
+        },
+        {
+          "speaker": "female",
+          "text": "そうですか。日曜日はどうですか。",
+          "english": "I see. How about Sunday?"
+        },
+        {
+          "speaker": "male",
+          "text": "日曜日は友だちと映画を見に行きます。",
+          "english": "On Sunday, I'm going to see a movie with a friend."
+        },
+        {
+          "speaker": "female",
+          "text": "いいですね。",
+          "english": "That sounds nice."
+        }
+      ],
+      "comprehensionPrompts": [
+        "Where does the man want to read on Saturday?",
+        "What does he want to read?",
+        "What is he going to do on Sunday?"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Shopping plans for a birthday",
+      "scenarioType": "dialogue",
+      "objectiveId": "n5-m07-c02-l06-listen-b",
+      "turns": [
+        {
+          "speaker": "male",
+          "text": "田中さん、今日は何を買いたいですか。",
+          "english": "Tanaka, what do you want to buy today?"
+        },
+        {
+          "speaker": "female",
+          "text": "妹の誕生日ですから、新しいかばんがほしいです。",
+          "english": "It's my younger sister's birthday, so I want a new bag."
+        },
+        {
+          "speaker": "male",
+          "text": "どこに行きますか。",
+          "english": "Where are you going?"
+        },
+        {
+          "speaker": "female",
+          "text": "駅の前の店にかばんを買いに行きます。",
+          "english": "I'm going to the shop in front of the station to buy a bag."
+        },
+        {
+          "speaker": "male",
+          "text": "何色がいいですか。",
+          "english": "What color would be good?"
+        },
+        {
+          "speaker": "female",
+          "text": "青いかばんがいいです。",
+          "english": "A blue bag would be good."
+        }
+      ],
+      "comprehensionPrompts": [
+        "For whom is the bag intended?",
+        "Where is Tanaka going to buy it?",
+        "What color bag does she prefer?"
+      ]
+    }
+  ]
+}
