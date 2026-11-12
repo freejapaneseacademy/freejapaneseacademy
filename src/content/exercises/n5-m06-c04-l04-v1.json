@@ -1,0 +1,326 @@
+{
+  "id": "n5-m06-c04-l04",
+  "lessonId": "n5-m06-c04-l04",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional photo-caption cards in ongoing-activities-kanji.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l04-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-01"
+      ],
+      "prompt": "Which character means 'book' in card A?",
+      "evidence": "本を読んでいます。",
+      "explanation": "本（ほん） means book; を marks the object being read. Evidence: 本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-01-c1",
+          "text": "本",
+          "rationale": "Correct. 本（ほん） means book; を marks the object being read."
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-01-c2",
+          "text": "店",
+          "rationale": "Review the Japanese evidence: 本を読んでいます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-01-c3",
+          "text": "人",
+          "rationale": "Review the Japanese evidence: 本を読んでいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l04-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-02"
+      ],
+      "prompt": "How is 学校 read in the location heading?",
+      "evidence": "学校の前",
+      "explanation": "学校 is がっこう, with a small っ before こう. Evidence: 学校の前",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-02-c1",
+          "text": "がくこう",
+          "rationale": "Review the Japanese evidence: 学校の前"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-02-c2",
+          "text": "がっこう",
+          "rationale": "Correct. 学校 is がっこう, with a small っ before こう."
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-02-c3",
+          "text": "がこう",
+          "rationale": "Review the Japanese evidence: 学校の前"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l04-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-03"
+      ],
+      "prompt": "Which word means 'shop'?",
+      "evidence": "小さな店",
+      "explanation": "店（みせ） means shop in this caption. Evidence: 小さな店",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-03-c1",
+          "text": "見",
+          "rationale": "Review the Japanese evidence: 小さな店"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-03-c2",
+          "text": "食べる",
+          "rationale": "Review the Japanese evidence: 小さな店"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-03-c3",
+          "text": "店",
+          "rationale": "Correct. 店（みせ） means shop in this caption."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l04-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-04"
+      ],
+      "prompt": "How do you read 人 in 店の人?",
+      "evidence": "店の人がパンを売っています。",
+      "explanation": "人 is read ひと when used alone as the word person here. Evidence: 店の人がパンを売っています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-04-c1",
+          "text": "ひと",
+          "rationale": "Correct. 人 is read ひと when used alone as the word person here."
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-04-c2",
+          "text": "にん",
+          "rationale": "Review the Japanese evidence: 店の人がパンを売っています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-04-c3",
+          "text": "ほん",
+          "rationale": "Review the Japanese evidence: 店の人がパンを売っています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l04-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-05"
+      ],
+      "prompt": "Which verb means 'is eating'?",
+      "evidence": "子どもがパンを食べています。",
+      "explanation": "食べています is the ongoing form of 食べる. Evidence: 子どもがパンを食べています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-05-c1",
+          "text": "見ています",
+          "rationale": "Review the Japanese evidence: 子どもがパンを食べています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-05-c2",
+          "text": "食べています",
+          "rationale": "Correct. 食べています is the ongoing form of 食べる."
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-05-c3",
+          "text": "読んでいます",
+          "rationale": "Review the Japanese evidence: 子どもがパンを食べています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l04-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-06"
+      ],
+      "prompt": "What does 見ています mean in card D?",
+      "evidence": "先生が地図を見ています。",
+      "explanation": "見ています describes looking at the map in this scene. Evidence: 先生が地図を見ています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-06-c1",
+          "text": "is eating",
+          "rationale": "Review the Japanese evidence: 先生が地図を見ています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-06-c2",
+          "text": "is selling",
+          "rationale": "Review the Japanese evidence: 先生が地図を見ています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-06-c3",
+          "text": "is looking at",
+          "rationale": "Correct. 見ています describes looking at the map in this scene."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l04-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-07"
+      ],
+      "prompt": "Who is selling bread in card B?",
+      "evidence": "店の人がパンを売っています。",
+      "explanation": "店の人 is the subject, marked by が. Evidence: 店の人がパンを売っています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-07-c1",
+          "text": "店の人",
+          "rationale": "Correct. 店の人 is the subject, marked by が."
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-07-c2",
+          "text": "子ども",
+          "rationale": "Review the Japanese evidence: 店の人がパンを売っています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-07-c3",
+          "text": "先生",
+          "rationale": "Review the Japanese evidence: 店の人がパンを売っています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l04-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "script",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l04-script"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l04-kanji-08"
+      ],
+      "prompt": "Which sentence says a student is reading a book at school?",
+      "evidence": "学生が学校で本を読んでいます。",
+      "explanation": "学校で marks the action location, and 読んでいます marks ongoing reading. Evidence: 学生が学校で本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l04-08-c1",
+          "text": "学生が学校の本を読みます。",
+          "rationale": "Review the Japanese evidence: 学生が学校で本を読んでいます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-08-c2",
+          "text": "学生が学校で本を読んでいます。",
+          "rationale": "Correct. 学校で marks the action location, and 読んでいます marks ongoing reading."
+        },
+        {
+          "id": "ex-n5-m06-c04-l04-08-c3",
+          "text": "先生が店で本を見ています。",
+          "rationale": "Review the Japanese evidence: 学生が学校で本を読んでいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l04-08-c2"
+      }
+    }
+  ]
+}
