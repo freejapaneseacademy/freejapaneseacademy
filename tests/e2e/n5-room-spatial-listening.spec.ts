@@ -10,6 +10,9 @@ test('audio-gated listening and keyboard transcript reveal',async({page})=>{
   const island=page.locator('astro-island').filter({has:button});
   await expect(island).toHaveCount(1);
   await expect.poll(()=>island.getAttribute('ssr')).toBeNull();
+  // The SSR marker can disappear before React effects have committed.
+  // Require the component's post-hydration signal before sending Enter.
+  await expect(page.getByRole('region',{name:'Room tour listening practice'})).toHaveAttribute('data-hydrated','true');
   await button.focus();
   await page.keyboard.press('Enter');
   await expect(button).toHaveAttribute('aria-expanded','true');
