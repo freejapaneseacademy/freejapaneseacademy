@@ -1,0 +1,20 @@
+import {test,expect} from '@playwright/test';
+test('n5-m07-c03-l05 keyboard and mobile',async({page})=>{
+ await page.goto('/learn/n5/module-07/chapter-03/lesson-05/');
+ await expect(page.getByRole('heading',{name:'Read a comparison chart',exact:true})).toBeVisible();
+ await expect(page.getByRole('heading',{name:'Find the chart evidence'})).toBeVisible();
+ const questions=page.locator('fieldset.foundation-question');
+ await expect(questions).toHaveCount(12);
+ await questions.first().locator('input[type=radio]').first().focus();
+ await page.keyboard.press('Space');
+ await expect(questions.first().locator('input[type=radio]').first()).toBeChecked();
+ for(let i=1;i<12;i++)await questions.nth(i).locator('input[type=radio]').first().check();
+ await page.getByRole('button',{name:'Check answers and save score'}).click();
+ await expect(page.getByRole('button',{name:'Retry reading check'})).toBeVisible();
+ await page.getByRole('button',{name:'Retry reading check'}).click();
+ await expect(page.getByText('0 of 12 answered')).toBeVisible();
+ await page.setViewportSize({width:320,height:740});
+ await page.emulateMedia({colorScheme:'dark'});
+ await expect(page.getByRole('heading',{name:'Read a comparison chart',exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+1)).toBe(false);
+});
