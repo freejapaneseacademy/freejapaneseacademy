@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c01-l01",
+  "lessonId": "n5-m07-c01-l01",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional hobby-club dialogue and Yui sign-up card in likes-strengths-context.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c01-l01-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-01"
+      ],
+      "prompt": "Who likes soccer in the club conversation?",
+      "evidence": "ケン：サッカーが好きです。",
+      "explanation": "Ken explicitly says サッカーが好きです. Evidence: ケン：サッカーが好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-01-c1",
+          "text": "Ken",
+          "rationale": "Correct. Ken explicitly says サッカーが好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-01-c2",
+          "text": "Mika",
+          "rationale": "Not this answer. Mika says she does not like soccer very much; Yui is on a different sign-up card. Ken explicitly says サッカーが好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-01-c3",
+          "text": "Yui",
+          "rationale": "Not this answer. Mika says she does not like soccer very much; Yui is on a different sign-up card. Ken explicitly says サッカーが好きです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-02"
+      ],
+      "prompt": "Which hobby does Mika say she likes?",
+      "evidence": "ミカ：私は音楽が好きです。",
+      "explanation": "音楽 means music, and Mika says it is something she likes. Evidence: ミカ：私は音楽が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-02-c1",
+          "text": "Soccer",
+          "rationale": "Not this answer. Soccer is not her strong preference; dancing appears only on Yui's card. 音楽 means music, and Mika says it is something she likes."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-02-c2",
+          "text": "Music",
+          "rationale": "Correct. 音楽 means music, and Mika says it is something she likes."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-02-c3",
+          "text": "Dancing",
+          "rationale": "Not this answer. Soccer is not her strong preference; dancing appears only on Yui's card. 音楽 means music, and Mika says it is something she likes."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-03"
+      ],
+      "prompt": "What does あまり好きではありません communicate?",
+      "evidence": "サッカーはあまり好きではありません。",
+      "explanation": "あまり with a negative softens the preference: not very much. Evidence: サッカーはあまり好きではありません。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-03-c1",
+          "text": "I love it",
+          "rationale": "Not this answer. It is neither strong liking nor a claim of skill. あまり with a negative softens the preference: not very much."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-03-c2",
+          "text": "I am very good at it",
+          "rationale": "Not this answer. It is neither strong liking nor a claim of skill. あまり with a negative softens the preference: not very much."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-03-c3",
+          "text": "I do not like it very much",
+          "rationale": "Correct. あまり with a negative softens the preference: not very much."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-03-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-04"
+      ],
+      "prompt": "What is Ken able to do a little?",
+      "evidence": "ギターは少しできます。",
+      "explanation": "ギター and 少しできます indicate he can play guitar a little. Evidence: ギターは少しできます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-04-c1",
+          "text": "Play guitar",
+          "rationale": "Correct. ギター and 少しできます indicate he can play guitar a little."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-04-c2",
+          "text": "Play piano",
+          "rationale": "Not this answer. He says he cannot play piano; reading books is not his stated ability. ギター and 少しできます indicate he can play guitar a little."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-04-c3",
+          "text": "Read books",
+          "rationale": "Not this answer. He says he cannot play piano; reading books is not his stated ability. ギター and 少しできます indicate he can play guitar a little."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-05"
+      ],
+      "prompt": "Which particle marks the liked thing in 音楽___好きです?",
+      "evidence": "音楽が好きです。",
+      "explanation": "The introductory pattern is noun が好きです. Evidence: 音楽が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-05-c1",
+          "text": "を",
+          "rationale": "Not this answer. を marks many verb objects, while で often marks an action location. The introductory pattern is noun が好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-05-c2",
+          "text": "が",
+          "rationale": "Correct. The introductory pattern is noun が好きです."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-05-c3",
+          "text": "で",
+          "rationale": "Not this answer. を marks many verb objects, while で often marks an action location. The introductory pattern is noun が好きです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-06"
+      ],
+      "prompt": "Which question asks whether Mika likes soccer?",
+      "evidence": "ミカさんはサッカーが好きですか。",
+      "explanation": "好きですか asks about preference. Evidence: ミカさんはサッカーが好きですか。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-06-c1",
+          "text": "ミカさんはどこですか。",
+          "rationale": "Not this answer. The other questions ask where someone is or what they are doing. 好きですか asks about preference."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-06-c2",
+          "text": "ミカさんはサッカーをしていますか。",
+          "rationale": "Not this answer. The other questions ask where someone is or what they are doing. 好きですか asks about preference."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-06-c3",
+          "text": "ミカさんはサッカーが好きですか。",
+          "rationale": "Correct. 好きですか asks about preference."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-06-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-07"
+      ],
+      "prompt": "What does できません mean in Ken's answer?",
+      "evidence": "いいえ、できません。",
+      "explanation": "できません is the polite negative of できます, expressing inability. Evidence: いいえ、できません。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-07-c1",
+          "text": "Cannot do it",
+          "rationale": "Correct. できません is the polite negative of できます, expressing inability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-07-c2",
+          "text": "Do not like it",
+          "rationale": "Not this answer. Preference is 好き, and an ongoing activity uses 〜ています. できません is the polite negative of できます, expressing inability."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-07-c3",
+          "text": "Am doing it now",
+          "rationale": "Not this answer. Preference is 好き, and an ongoing activity uses 〜ています. できません is the polite negative of できます, expressing inability."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-07-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-08"
+      ],
+      "prompt": "Which item appears on Yui's sign-up card as a liked activity?",
+      "evidence": "絵を描くことも好きです。",
+      "explanation": "絵を描くこと is the activity of drawing pictures. Evidence: 絵を描くことも好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-08-c1",
+          "text": "Dancing",
+          "rationale": "Not this answer. Yui does not like dancing very much; soccer is from the dialogue. 絵を描くこと is the activity of drawing pictures."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-08-c2",
+          "text": "Drawing pictures",
+          "rationale": "Correct. 絵を描くこと is the activity of drawing pictures."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-08-c3",
+          "text": "Playing soccer",
+          "rationale": "Not this answer. Yui does not like dancing very much; soccer is from the dialogue. 絵を描くこと is the activity of drawing pictures."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-08-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-09"
+      ],
+      "prompt": "Which sentence expresses a preference rather than ability?",
+      "evidence": "私は音楽が好きです。",
+      "explanation": "好きです expresses liking, not skill. Evidence: 私は音楽が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-09-c1",
+          "text": "ピアノができます。",
+          "rationale": "Not this answer. できます expresses ability rather than preference. 好きです expresses liking, not skill."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-09-c2",
+          "text": "ギターは少しできます。",
+          "rationale": "Not this answer. できます expresses ability rather than preference. 好きです expresses liking, not skill."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-09-c3",
+          "text": "音楽が好きです。",
+          "rationale": "Correct. 好きです expresses liking, not skill."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-10"
+      ],
+      "prompt": "What does 少し mean in the ability sentence?",
+      "evidence": "ギターは少しできます。",
+      "explanation": "少し limits the degree of ability: a little. Evidence: ギターは少しできます。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-10-c1",
+          "text": "A little",
+          "rationale": "Correct. 少し limits the degree of ability: a little."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-10-c2",
+          "text": "Never",
+          "rationale": "Not this answer. Neither never nor every day is stated. 少し limits the degree of ability: a little."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-10-c3",
+          "text": "Every day",
+          "rationale": "Not this answer. Neither never nor every day is stated. 少し limits the degree of ability: a little."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-11"
+      ],
+      "prompt": "What does the teacher ask Ken about?",
+      "evidence": "ケンさんはピアノができますか。",
+      "explanation": "できますか is an ability question about piano. Evidence: ケンさんはピアノができますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-11-c1",
+          "text": "Whether he likes dancing",
+          "rationale": "Not this answer. The question does not ask about dancing or an ongoing action. できますか is an ability question about piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-11-c2",
+          "text": "Whether he can play piano",
+          "rationale": "Correct. できますか is an ability question about piano."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-11-c3",
+          "text": "Whether he is reading now",
+          "rationale": "Not this answer. The question does not ask about dancing or an ongoing action. できますか is an ability question about piano."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c01-l01-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading",
+        "vocabulary"
+      ],
+      "objectiveIds": [
+        "n5-m07-c01-l01-context"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c01-l01-context-12"
+      ],
+      "prompt": "Which is the natural introductory sentence for 'I like books'?",
+      "evidence": "本が好きです。",
+      "explanation": "本が好きです follows the target preference pattern. Evidence: 本が好きです。",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c01-l01-12-c1",
+          "text": "本を好きです。",
+          "rationale": "Not this answer. を and で are not the expected markers for the liked thing in this simple sentence. 本が好きです follows the target preference pattern."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-12-c2",
+          "text": "本で好きです。",
+          "rationale": "Not this answer. を and で are not the expected markers for the liked thing in this simple sentence. 本が好きです follows the target preference pattern."
+        },
+        {
+          "id": "ex-n5-m07-c01-l01-12-c3",
+          "text": "本が好きです。",
+          "rationale": "Correct. 本が好きです follows the target preference pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c01-l01-12-c3"
+      }
+    }
+  ]
+}
