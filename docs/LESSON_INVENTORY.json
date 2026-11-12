@@ -4200,6 +4200,21 @@
       "audio": "not required for written L05",
       "ownerSlot": ":30",
       "ownerTaskId": "6ae7c291cefc81919a2bd5a0162f0a93"
+    },
+    {
+      "id": "n5-m02-c04-l06",
+      "level": "n5",
+      "moduleId": "n5-m02",
+      "chapterId": "n5-m02-c04",
+      "slot": "L06",
+      "title": "Describing a room — listen to two guided tours",
+      "content": "src/content/lessons/n5/room-spatial-listening.mdx",
+      "url": "/learn/n5/module-02/chapter-04/lesson-06/",
+      "status": "published",
+      "humanJapaneseReview": "pending - independent qualified review not claimed",
+      "assessmentReview": "pending - independent assessment review not claimed",
+      "audio": "schema-v3 licensed AivisSpeech job committed; WAV, hashes, playback and independent pronunciation review pending",
+      "noindex": false
     }
   ],
   "selectionRule": "First missing or blocking draft canonical micro-lesson or chapter checkpoint in blueprint order; demonstration pages never count."

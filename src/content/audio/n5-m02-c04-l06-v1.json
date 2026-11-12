@@ -1,0 +1,173 @@
+{
+  "lessonId": "n5-m02-c04-l06",
+  "chapterId": "n5-m02-c04",
+  "version": 1,
+  "generatedBy": "AivisSpeech Engine, Aida Shigeru Calm (male) and morioki Normal (female), offline CPU",
+  "storage": "Immutable versioned WAVs on same-origin Cloudflare Pages; publication requires separate quality gates",
+  "assets": [
+    {
+      "id": "audio-n5-m02-c04-l06-a",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m02-c04-l06-a-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 16.56,
+      "transcript": "女性： こちらは勉強の部屋です。机の上に本があります。\n男性： いすはどこにありますか。\n女性： いすは机の前にあります。かばんは机の下にあります。\n男性： ありがとうございます。窓の隣に時計もありますね。",
+      "english": "Woman: This is the study room. There is a book on the desk.\nMan: Where is the chair?\nWoman: The chair is in front of the desk. The bag is under the desk.\nMan: Thank you. There is also a clock next to the window, isn't there?",
+      "scriptPurpose": "A guided tour of the study room",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m02-c04-l06-o1"
+      ],
+      "turns": [
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "こちらは勉強の部屋です。机の上に本があります。",
+          "english": "This is the study room. There is a book on the desk.",
+          "startSeconds": 0.0,
+          "endSeconds": 4.6
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いすはどこにありますか。",
+          "english": "Where is the chair?",
+          "startSeconds": 4.88,
+          "endSeconds": 6.91
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "いすは机の前にあります。かばんは机の下にあります。",
+          "english": "The chair is in front of the desk. The bag is under the desk.",
+          "startSeconds": 7.19,
+          "endSeconds": 12.15
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "ありがとうございます。窓の隣に時計もありますね。",
+          "english": "Thank you. There is also a clock next to the window, isn't there?",
+          "startSeconds": 12.43,
+          "endSeconds": 16.56
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "945e2a657b104f98d92f4ae65e9e506476934de48ed3faa144e0739142a4ef08",
+        "bytes": 1460624,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    },
+    {
+      "id": "audio-n5-m02-c04-l06-b",
+      "status": "rights-cleared",
+      "language": "ja-JP",
+      "speakerIds": [
+        "aivis-aida-shigeru-calm",
+        "aivis-morioki-normal"
+      ],
+      "mediaPath": "/audio/fja-n5-m02-c04-l06-b-v1.wav",
+      "format": "audio/wav",
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "durationSeconds": 17.58,
+      "transcript": "男性： こちらはお客さんの部屋です。棚の中にコップがあります。\n女性： 猫はどこにいますか。\n男性： 猫はいすの後ろにいます。\n女性： ベッドの上に本はありますか。\n男性： いいえ、ベッドの上にはありません。本は棚の上にあります。",
+      "english": "Man: This is the guest room. There is a cup inside the shelf.\nWoman: Where is the cat?\nMan: The cat is behind the chair.\nWoman: Is there a book on the bed?\nMan: No, it is not on the bed. The book is on top of the shelf.",
+      "scriptPurpose": "Looking around the guest room",
+      "scenarioType": "dialogue",
+      "objectiveIds": [
+        "n5-m02-c04-l06-o2"
+      ],
+      "turns": [
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "こちらはお客さんの部屋です。棚の中にコップがあります。",
+          "english": "This is the guest room. There is a cup inside the shelf.",
+          "startSeconds": 0.0,
+          "endSeconds": 4.52
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "猫はどこにいますか。",
+          "english": "Where is the cat?",
+          "startSeconds": 4.8,
+          "endSeconds": 7.05
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "猫はいすの後ろにいます。",
+          "english": "The cat is behind the chair.",
+          "startSeconds": 7.33,
+          "endSeconds": 9.64
+        },
+        {
+          "speaker": "female",
+          "speakerLabel": "Woman",
+          "japanese": "ベッドの上に本はありますか。",
+          "english": "Is there a book on the bed?",
+          "startSeconds": 9.92,
+          "endSeconds": 12.52
+        },
+        {
+          "speaker": "male",
+          "speakerLabel": "Man",
+          "japanese": "いいえ、ベッドの上にはありません。本は棚の上にあります。",
+          "english": "No, it is not on the bed. The book is on top of the shelf.",
+          "startSeconds": 12.8,
+          "endSeconds": 17.58
+        }
+      ],
+      "rights": {
+        "source": "Original academy-authored Japanese speech synthesized offline with approved AivisSpeech voices",
+        "license": "AivisHub ACML 1.0; individual model restrictions reviewed separately",
+        "licenseUris": [
+          "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1",
+          "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+        ],
+        "redistributionCleared": true,
+        "reviewedBy": "Academy pinned ACML 1.0 terms review; independent legal and Japanese reviews pending",
+        "attribution": "AivisSpeech: 阿井田 茂 (voice/model: 古山キリヲ); AivisSpeech: morioki (voice: morioki; model: yuki)"
+      },
+      "qa": {
+        "binarySignatureChecked": true,
+        "sampleRateChecked": true,
+        "nonSilentRmsChecked": true,
+        "nonClippingPeakChecked": true,
+        "nativePronunciationReviewed": false,
+        "transcriptMatchedToAudio": false,
+        "playbackTested": false,
+        "sha256": "92411d39750e8bf7449ff09ebab1ae888865c5e52c914616396fbc8812a7f341",
+        "bytes": 1550194,
+        "notes": "Candidate WAV; automated integrity is not a Japanese pronunciation or transcript listening review."
+      }
+    }
+  ]
+}
