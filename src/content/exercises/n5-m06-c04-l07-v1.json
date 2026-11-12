@@ -1,0 +1,326 @@
+{
+  "id": "n5-m06-c04-l07",
+  "lessonId": "n5-m06-c04-l07",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original activity updates and guided writing in ongoing-activities-writing.mdx",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 8,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l07-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-01"
+      ],
+      "prompt": "Which sentence says Tanaka is reading a book now?",
+      "evidence": "田中さんは図書室で本を読んでいます。",
+      "explanation": "読んでいます indicates the ongoing reading activity, unlike the past or general polite form. Evidence: 田中さんは図書室で本を読んでいます。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-01-c1",
+          "text": "田中さんは図書室で本を読んでいます。",
+          "rationale": "Correct. 読んでいます indicates the ongoing reading activity, unlike the past or general polite form."
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-01-c2",
+          "text": "田中さんは図書室で本を読みました。",
+          "rationale": "Review the model: 田中さんは図書室で本を読んでいます。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-01-c3",
+          "text": "田中さんは図書室で本を読みます。",
+          "rationale": "Review the model: 田中さんは図書室で本を読んでいます。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l07-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-02"
+      ],
+      "prompt": "Which particle marks where Sato is studying?",
+      "evidence": "佐藤さんは教室で日本語を勉強しています。",
+      "explanation": "で marks the location where studying takes place. Evidence: 佐藤さんは教室で日本語を勉強しています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-02-c1",
+          "text": "を",
+          "rationale": "Review the model: 佐藤さんは教室で日本語を勉強しています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-02-c2",
+          "text": "に",
+          "rationale": "Review the model: 佐藤さんは教室で日本語を勉強しています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-02-c3",
+          "text": "で",
+          "rationale": "Correct. で marks the location where studying takes place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-02-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l07-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-03"
+      ],
+      "prompt": "Which form correctly expresses 'is taking photos'?",
+      "evidence": "友達は庭で写真を撮っています。",
+      "explanation": "撮る changes to 撮って before います. Evidence: 友達は庭で写真を撮っています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-03-c1",
+          "text": "撮りています",
+          "rationale": "Review the model: 友達は庭で写真を撮っています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-03-c2",
+          "text": "撮っています",
+          "rationale": "Correct. 撮る changes to 撮って before います."
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-03-c3",
+          "text": "撮るています",
+          "rationale": "Review the model: 友達は庭で写真を撮っています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l07-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-04"
+      ],
+      "prompt": "How do you ask 'What are you doing now?'",
+      "evidence": "今、何をしていますか。",
+      "explanation": "何をしていますか asks about a current activity. Evidence: 今、何をしていますか。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-04-c1",
+          "text": "今、何をしていますか。",
+          "rationale": "Correct. 何をしていますか asks about a current activity."
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-04-c2",
+          "text": "今、何をしました。",
+          "rationale": "Review the model: 今、何をしていますか。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-04-c3",
+          "text": "今、何をしてください。",
+          "rationale": "Review the model: 今、何をしていますか。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-04-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l07-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-05"
+      ],
+      "prompt": "Which sentence says Yamada is making lunch?",
+      "evidence": "山田さんは台所で昼ご飯を作っています。",
+      "explanation": "台所で marks the action location and 昼ご飯を its object. Evidence: 山田さんは台所で昼ご飯を作っています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-05-c1",
+          "text": "山田さんは台所に昼ご飯を作っています。",
+          "rationale": "Review the model: 山田さんは台所で昼ご飯を作っています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-05-c2",
+          "text": "山田さんは台所で昼ご飯を作っています。",
+          "rationale": "Correct. 台所で marks the action location and 昼ご飯を its object."
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-05-c3",
+          "text": "山田さんは台所を昼ご飯で作っています。",
+          "rationale": "Review the model: 山田さんは台所で昼ご飯を作っています。"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-05-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l07-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-06"
+      ],
+      "prompt": "What is the correct progressive of 読む?",
+      "evidence": "読む → 読んで → 読んでいます",
+      "explanation": "The godan verb 読む uses the んで te-form: 読んでいます. Evidence: 読む → 読んで → 読んでいます",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-06-c1",
+          "text": "読みています",
+          "rationale": "Review the model: 読む → 読んで → 読んでいます"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-06-c2",
+          "text": "読んでいます",
+          "rationale": "Correct. The godan verb 読む uses the んで te-form: 読んでいます."
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-06-c3",
+          "text": "読むています",
+          "rationale": "Review the model: 読む → 読んで → 読んでいます"
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l07-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-07"
+      ],
+      "prompt": "Which sentence says 'I am watching the two of them'?",
+      "evidence": "私は二人を見ています。",
+      "explanation": "二人を is the object of 見ています; で and に would change the role. Evidence: 私は二人を見ています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-07-c1",
+          "text": "私は二人で見ています。",
+          "rationale": "Review the model: 私は二人を見ています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-07-c2",
+          "text": "私は二人に見ています。",
+          "rationale": "Review the model: 私は二人を見ています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-07-c3",
+          "text": "私は二人を見ています。",
+          "rationale": "Correct. 二人を is the object of 見ています; で and に would change the role."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m06-c04-l07-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m06-c04-l07-writing"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l07-progressive-08"
+      ],
+      "prompt": "Which connector naturally adds a simultaneous second observation?",
+      "evidence": "また、佐藤さんは教室で勉強しています。",
+      "explanation": "また adds another observation; それから normally suggests a sequence. Evidence: また、佐藤さんは教室で勉強しています。",
+      "choices": [
+        {
+          "id": "ex-n5-m06-c04-l07-08-c1",
+          "text": "昨日",
+          "rationale": "Review the model: また、佐藤さんは教室で勉強しています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-08-c2",
+          "text": "それから",
+          "rationale": "Review the model: また、佐藤さんは教室で勉強しています。"
+        },
+        {
+          "id": "ex-n5-m06-c04-l07-08-c3",
+          "text": "また",
+          "rationale": "Correct. また adds another observation; それから normally suggests a sequence."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m06-c04-l07-08-c3"
+      }
+    }
+  ]
+}
