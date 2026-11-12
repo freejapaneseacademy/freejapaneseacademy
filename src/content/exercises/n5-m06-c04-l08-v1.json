@@ -1,0 +1,462 @@
+{
+  "lessonId": "n5-m06-c04-l08",
+  "version": 1,
+  "items": [
+    {
+      "id": "ex-n5-m06-c04-l08-q01-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-01"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which question asks what someone is doing now?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "今、何をしていますか。",
+          "rationale": "Correct: 何をしていますか asks about an ongoing action; the other questions concern destination or past action."
+        },
+        {
+          "id": "c2",
+          "text": "今、どこに行きますか。",
+          "rationale": "Not the best answer. 何をしていますか asks about an ongoing action; the other questions concern destination or past action."
+        },
+        {
+          "id": "c3",
+          "text": "昨日、何をしましたか。",
+          "rationale": "Not the best answer. 何をしていますか asks about an ongoing action; the other questions concern destination or past action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence and grammar: 何をしていますか asks about an ongoing action; the other questions concern destination or past action."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q02-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-02"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which sentence says 'I am reading a book at the library'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "図書館に本を読んでいます。",
+          "rationale": "Not the best answer. で marks the action location; 読んでいます means reading, not writing."
+        },
+        {
+          "id": "c2",
+          "text": "図書館で本を読んでいます。",
+          "rationale": "Correct: で marks the action location; 読んでいます means reading, not writing."
+        },
+        {
+          "id": "c3",
+          "text": "図書館で本を書いています。",
+          "rationale": "Not the best answer. で marks the action location; 読んでいます means reading, not writing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence and grammar: で marks the action location; 読んでいます means reading, not writing."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q03-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-03"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which is the correct ています form of 書く?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "書くています",
+          "rationale": "Not the best answer. 書く becomes 書いて before います."
+        },
+        {
+          "id": "c2",
+          "text": "書きています",
+          "rationale": "Not the best answer. 書く becomes 書いて before います."
+        },
+        {
+          "id": "c3",
+          "text": "書いています",
+          "rationale": "Correct: 書く becomes 書いて before います."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence and grammar: 書く becomes 書いて before います."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q04-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-04"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "In Scene A, where is B reading?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "At the library",
+          "rationale": "Correct: 図書館で日本語の本を読んでいます explicitly names the library."
+        },
+        {
+          "id": "c2",
+          "text": "At the park",
+          "rationale": "Not the best answer. 図書館で日本語の本を読んでいます explicitly names the library."
+        },
+        {
+          "id": "c3",
+          "text": "In the kitchen",
+          "rationale": "Not the best answer. 図書館で日本語の本を読んでいます explicitly names the library."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence and grammar: 図書館で日本語の本を読んでいます explicitly names the library."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q05-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-05"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "In Scene A, is B studying with a classmate?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yes, with Tanaka",
+          "rationale": "Not the best answer. 一人で勉強しています means studying alone."
+        },
+        {
+          "id": "c2",
+          "text": "No, alone",
+          "rationale": "Correct: 一人で勉強しています means studying alone."
+        },
+        {
+          "id": "c3",
+          "text": "Yes, with Sato",
+          "rationale": "Not the best answer. 一人で勉強しています means studying alone."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence and grammar: 一人で勉強しています means studying alone."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q06-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-1"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-06"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is Tanaka doing in Scene B?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Reading a Japanese book",
+          "rationale": "Not the best answer. 台所で野菜を切っています says cutting vegetables."
+        },
+        {
+          "id": "c2",
+          "text": "Making tea",
+          "rationale": "Not the best answer. 台所で野菜を切っています says cutting vegetables."
+        },
+        {
+          "id": "c3",
+          "text": "Cutting vegetables",
+          "rationale": "Correct: 台所で野菜を切っています says cutting vegetables."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence and grammar: 台所で野菜を切っています says cutting vegetables."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q07-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-07"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which particle marks where the cutting happens?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "で",
+          "rationale": "Correct: 台所で marks the kitchen as the location of the cutting action."
+        },
+        {
+          "id": "c2",
+          "text": "を",
+          "rationale": "Not the best answer. 台所で marks the kitchen as the location of the cutting action."
+        },
+        {
+          "id": "c3",
+          "text": "と",
+          "rationale": "Not the best answer. 台所で marks the kitchen as the location of the cutting action."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence and grammar: 台所で marks the kitchen as the location of the cutting action."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q08-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-08"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which expression means 'talking with a friend'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "友だちを話しています",
+          "rationale": "Not the best answer. 友だちと話しています expresses talking with a friend; と marks the companion."
+        },
+        {
+          "id": "c2",
+          "text": "友だちと話しています",
+          "rationale": "Correct: 友だちと話しています expresses talking with a friend; と marks the companion."
+        },
+        {
+          "id": "c3",
+          "text": "友だちに話しています",
+          "rationale": "Not the best answer. 友だちと話しています expresses talking with a friend; と marks the companion."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence and grammar: 友だちと話しています expresses talking with a friend; と marks the companion."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q09-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-09"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "Which line correctly says 'I am making lunch'?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "昼ご飯を作るています。",
+          "rationale": "Not the best answer. 作る becomes 作って; を marks lunch as the thing being made."
+        },
+        {
+          "id": "c2",
+          "text": "昼ご飯に作っています。",
+          "rationale": "Not the best answer. 作る becomes 作って; を marks lunch as the thing being made."
+        },
+        {
+          "id": "c3",
+          "text": "昼ご飯を作っています。",
+          "rationale": "Correct: 作る becomes 作って; を marks lunch as the thing being made."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence and grammar: 作る becomes 作って; を marks lunch as the thing being made."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q10-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-10"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What is Sato doing in Scene B?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Making tea",
+          "rationale": "Correct: 佐藤さんはお茶を入れています explicitly states tea preparation."
+        },
+        {
+          "id": "c2",
+          "text": "Cutting vegetables",
+          "rationale": "Not the best answer. 佐藤さんはお茶を入れています explicitly states tea preparation."
+        },
+        {
+          "id": "c3",
+          "text": "Reading a book",
+          "rationale": "Not the best answer. 佐藤さんはお茶を入れています explicitly states tea preparation."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c1"
+      },
+      "explanation": "Evidence and grammar: 佐藤さんはお茶を入れています explicitly states tea preparation."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q11-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-11"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What does どこで勉強していますか ask?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "What are you studying?",
+          "rationale": "Not the best answer. どこで asks for the location of the study activity."
+        },
+        {
+          "id": "c2",
+          "text": "Where are you studying?",
+          "rationale": "Correct: どこで asks for the location of the study activity."
+        },
+        {
+          "id": "c3",
+          "text": "Who are you studying with?",
+          "rationale": "Not the best answer. どこで asks for the location of the study activity."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c2"
+      },
+      "explanation": "Evidence and grammar: どこで asks for the location of the study activity."
+    },
+    {
+      "id": "ex-n5-m06-c04-l08-q12-v1",
+      "version": 1,
+      "status": "internally-checked",
+      "type": "single-choice",
+      "objectiveIds": [
+        "n5-m06-c04-l08-obj-2"
+      ],
+      "knowledgeItemIds": [
+        "n5-m06-c04-l08-12"
+      ],
+      "skills": [
+        "speaking",
+        "grammar"
+      ],
+      "prompt": "What can be concluded about Sato's location from Scene B?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Sato is definitely in the library",
+          "rationale": "Not the best answer. The reply says お茶を入れています but does not state a place."
+        },
+        {
+          "id": "c2",
+          "text": "Sato is definitely outside",
+          "rationale": "Not the best answer. The reply says お茶を入れています but does not state a place."
+        },
+        {
+          "id": "c3",
+          "text": "The reply does not specify Sato's location",
+          "rationale": "Correct: The reply says お茶を入れています but does not state a place."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "c3"
+      },
+      "explanation": "Evidence and grammar: The reply says お茶を入れています but does not state a place."
+    }
+  ]
+}
