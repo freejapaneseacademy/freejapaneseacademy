@@ -1,0 +1,482 @@
+{
+  "id": "n5-m07-c03-l03",
+  "lessonId": "n5-m07-c03-l03",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original fictional café comparison dialogue and grammar lesson",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 12,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c03-l03-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-01"
+      ],
+      "prompt": "Which sentence says 'The train is faster than the bus'?",
+      "evidence": "バスより電車のほうが速いです。",
+      "explanation": "より marks the baseline bus; 電車のほうが marks the faster choice.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-01-c1",
+          "text": "バスより電車のほうが速いです。",
+          "rationale": "Correct. より marks the baseline bus; 電車のほうが marks the faster choice."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-01-c2",
+          "text": "電車よりバスのほうが速いです。",
+          "rationale": "Not quite. より marks the baseline bus; 電車のほうが marks the faster choice."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-01-c3",
+          "text": "バスと電車が速いです。",
+          "rationale": "Not quite. より marks the baseline bus; 電車のほうが marks the faster choice."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-02"
+      ],
+      "prompt": "What does 青カフェより緑カフェのほうが静かです mean?",
+      "evidence": "Green Café is quieter than Blue Café.",
+      "explanation": "The café after のほうが is the quieter one.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-02-c1",
+          "text": "Blue Café is quieter than Green Café.",
+          "rationale": "Not quite. The café after のほうが is the quieter one."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-02-c2",
+          "text": "Green Café is quieter than Blue Café.",
+          "rationale": "Correct. The café after のほうが is the quieter one."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-02-c3",
+          "text": "Both cafés are equally quiet.",
+          "rationale": "Not quite. The café after のほうが is the quieter one."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-03"
+      ],
+      "prompt": "Which question asks which of TWO drinks you prefer?",
+      "evidence": "コーヒーとお茶と、どちらが好きですか。",
+      "explanation": "どちら asks about two alternatives.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-03-c1",
+          "text": "コーヒーとお茶と、どれが好きですか。",
+          "rationale": "Not quite. どちら asks about two alternatives."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-03-c2",
+          "text": "コーヒーとお茶と、どちらが好きですか。",
+          "rationale": "Correct. どちら asks about two alternatives."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-03-c3",
+          "text": "コーヒーとお茶と、一番が好きですか。",
+          "rationale": "Not quite. どちら asks about two alternatives."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-03-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-04"
+      ],
+      "prompt": "Choose the correct polite ending for 'Green Café is quiet'.",
+      "evidence": "緑カフェは静かです。",
+      "explanation": "静か is a な-adjective; the polite predicate is 静かです.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-04-c1",
+          "text": "緑カフェは静かいです。",
+          "rationale": "Not quite. 静か is a な-adjective; the polite predicate is 静かです."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-04-c2",
+          "text": "緑カフェは静かなです。",
+          "rationale": "Not quite. 静か is a な-adjective; the polite predicate is 静かです."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-04-c3",
+          "text": "緑カフェは静かです。",
+          "rationale": "Correct. 静か is a な-adjective; the polite predicate is 静かです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-04-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-05"
+      ],
+      "prompt": "Which statement means 'Of these three, White Café is the cheapest'?",
+      "evidence": "三つの店の中では、白カフェが一番安いです。",
+      "explanation": "一番 marks the highest degree in the stated group.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-05-c1",
+          "text": "三つの店の中では、白カフェが一番安いです。",
+          "rationale": "Correct. 一番 marks the highest degree in the stated group."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-05-c2",
+          "text": "二つの店より、白カフェがどちら安いです。",
+          "rationale": "Not quite. 一番 marks the highest degree in the stated group."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-05-c3",
+          "text": "白カフェより三つの店が安いです。",
+          "rationale": "Not quite. 一番 marks the highest degree in the stated group."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-05-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-06"
+      ],
+      "prompt": "Which question naturally selects ONE of THREE books?",
+      "evidence": "この三冊の本の中で、どれが一番面白いですか。",
+      "explanation": "どれ is used for selecting an item among three or more.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-06-c1",
+          "text": "この三冊の本の中で、どちらが一番面白いですか。",
+          "rationale": "Not quite. どれ is used for selecting an item among three or more."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-06-c2",
+          "text": "この三冊の本の中で、どれが一番面白いですか。",
+          "rationale": "Correct. どれ is used for selecting an item among three or more."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-06-c3",
+          "text": "この三冊の本の中で、より面白いですか。",
+          "rationale": "Not quite. どれ is used for selecting an item among three or more."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-06-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-07"
+      ],
+      "prompt": "Which reply means 'I like BOTH'?",
+      "evidence": "どちらも好きです。",
+      "explanation": "どちらも means both in this affirmative preference reply.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-07-c1",
+          "text": "どちらが好きです。",
+          "rationale": "Not quite. どちらも means both in this affirmative preference reply."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-07-c2",
+          "text": "どちらも好きではありません。",
+          "rationale": "Not quite. どちらも means both in this affirmative preference reply."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-07-c3",
+          "text": "どちらも好きです。",
+          "rationale": "Correct. どちらも means both in this affirmative preference reply."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-07-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-08"
+      ],
+      "prompt": "Which reply means 'I don't like EITHER'?",
+      "evidence": "どちらも好きではありません。",
+      "explanation": "どちらも with the negative predicate means neither.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-08-c1",
+          "text": "どちらも好きではありません。",
+          "rationale": "Correct. どちらも with the negative predicate means neither."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-08-c2",
+          "text": "どちらが好きですか。",
+          "rationale": "Not quite. どちらも with the negative predicate means neither."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-08-c3",
+          "text": "どちらも好きです。",
+          "rationale": "Not quite. どちらも with the negative predicate means neither."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-09"
+      ],
+      "prompt": "A is quiet; B is noisy. Which comparison is consistent?",
+      "evidence": "B店よりA店のほうが静かです。",
+      "explanation": "The quieter option A must follow のほうが.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-09-c1",
+          "text": "A店よりB店のほうが静かです。",
+          "rationale": "Not quite. The quieter option A must follow のほうが."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-09-c2",
+          "text": "B店よりA店のほうが静かです。",
+          "rationale": "Correct. The quieter option A must follow のほうが."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-09-c3",
+          "text": "A店とB店と一番静かです。",
+          "rationale": "Not quite. The quieter option A must follow のほうが."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-09-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-10"
+      ],
+      "prompt": "How do you ask 'Which is cheaper, A or B?'",
+      "evidence": "A店とB店と、どちらが安いですか。",
+      "explanation": "どちらが安いですか asks which of two is cheaper.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-10-c1",
+          "text": "A店とB店と、どちらが安いですか。",
+          "rationale": "Correct. どちらが安いですか asks which of two is cheaper."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-10-c2",
+          "text": "A店とB店と、どれが一番ですか。",
+          "rationale": "Not quite. どちらが安いですか asks which of two is cheaper."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-10-c3",
+          "text": "A店とB店と、より安いですか。",
+          "rationale": "Not quite. どちらが安いですか asks which of two is cheaper."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-10-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-11"
+      ],
+      "prompt": "What is the role of より in AよりBのほうが高いです?",
+      "evidence": "It marks A as the comparison baseline.",
+      "explanation": "より follows the item used as the comparison baseline.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-11-c1",
+          "text": "It makes A the more expensive option.",
+          "rationale": "Not quite. より follows the item used as the comparison baseline."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-11-c2",
+          "text": "It marks A as the comparison baseline.",
+          "rationale": "Correct. より follows the item used as the comparison baseline."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-11-c3",
+          "text": "It means A and B are equal.",
+          "rationale": "Not quite. より follows the item used as the comparison baseline."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-11-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c03-l03-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar",
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c03-l03-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c03-l03-grammar-12"
+      ],
+      "prompt": "What does この三つの中で restrict in 一番好きです?",
+      "evidence": "The set being compared is these three.",
+      "explanation": "この三つの中で explicitly limits the superlative's comparison group.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c03-l03-12-c1",
+          "text": "The preference must be shared by three people.",
+          "rationale": "Not quite. この三つの中で explicitly limits the superlative's comparison group."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-12-c2",
+          "text": "The preference applies to everything everywhere.",
+          "rationale": "Not quite. この三つの中で explicitly limits the superlative's comparison group."
+        },
+        {
+          "id": "ex-n5-m07-c03-l03-12-c3",
+          "text": "The set being compared is these three.",
+          "rationale": "Correct. この三つの中で explicitly limits the superlative's comparison group."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c03-l03-12-c3"
+      }
+    }
+  ]
+}
