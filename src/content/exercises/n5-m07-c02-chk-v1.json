@@ -1,0 +1,546 @@
+{
+  "id": "n5-m07-c02-chk",
+  "lessonId": "n5-m07-c02-chk",
+  "version": 1,
+  "status": "drafted",
+  "source": "Original checkpoint wish list; listening evidence from n5-m07-c02-l06 original AivisSpeech job, audio verification pending",
+  "scoring": {
+    "mode": "single-choice",
+    "maxWrittenScore": 10,
+    "officialJLPTScore": false
+  },
+  "items": [
+    {
+      "id": "ex-n5-m07-c02-chk-v1-01",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-grammar-01"
+      ],
+      "prompt": "Which sentence means 'I want to read a book'?",
+      "evidence": "本を読みたいです。",
+      "explanation": "読みたい expresses the desire to perform reading; ほしい takes a thing and 読みに行きます expresses a trip's purpose.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-01-c1",
+          "text": "本を読みたいです。",
+          "rationale": "Correct. 読みたい expresses the desire to perform reading; ほしい takes a thing and 読みに行きます expresses a trip's purpose."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-01-c2",
+          "text": "本がほしいです。",
+          "rationale": "Not supported. 読みたい expresses the desire to perform reading; ほしい takes a thing and 読みに行きます expresses a trip's purpose."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-01-c3",
+          "text": "本を読みに行きます。",
+          "rationale": "Not supported. 読みたい expresses the desire to perform reading; ほしい takes a thing and 読みに行きます expresses a trip's purpose."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-01-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-02",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-grammar-02"
+      ],
+      "prompt": "Which sentence means 'I want a new bag'?",
+      "evidence": "新しいかばんがほしいです。",
+      "explanation": "ほしい describes a desired object, with が in this basic pattern.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-02-c1",
+          "text": "新しいかばんを読みたいです。",
+          "rationale": "Not supported. ほしい describes a desired object, with が in this basic pattern."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-02-c2",
+          "text": "新しいかばんがほしいです。",
+          "rationale": "Correct. ほしい describes a desired object, with が in this basic pattern."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-02-c3",
+          "text": "新しいかばんに行きます。",
+          "rationale": "Not supported. ほしい describes a desired object, with が in this basic pattern."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-02-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-03",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-grammar-03"
+      ],
+      "prompt": "Which sentence means 'I am going to buy a bag'?",
+      "evidence": "かばんを買いに行きます。",
+      "explanation": "買い is the ます-stem of 買います; stem + に行きます describes the purpose of going.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-03-c1",
+          "text": "かばんを買いに行きます。",
+          "rationale": "Correct. 買い is the ます-stem of 買います; stem + に行きます describes the purpose of going."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-03-c2",
+          "text": "かばんが買いたいです。",
+          "rationale": "Not supported. 買い is the ます-stem of 買います; stem + に行きます describes the purpose of going."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-03-c3",
+          "text": "かばんがほしいです。",
+          "rationale": "Not supported. 買い is the ます-stem of 買います; stem + に行きます describes the purpose of going."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-03-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-04",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-grammar-04"
+      ],
+      "prompt": "What is the correct たい form of 食べます?",
+      "evidence": "食べます → 食べたいです。",
+      "explanation": "Remove ます from 食べます, then add たいです.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-04-c1",
+          "text": "食べますたい",
+          "rationale": "Not supported. Remove ます from 食べます, then add たいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-04-c2",
+          "text": "食べたいです",
+          "rationale": "Correct. Remove ます from 食べます, then add たいです."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-04-c3",
+          "text": "食べたいます",
+          "rationale": "Not supported. Remove ます from 食べます, then add たいです."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-04-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-05",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-grammar-05"
+      ],
+      "prompt": "Which sentence says 'I do not want to go'?",
+      "evidence": "行きたいです → 行きたくないです。",
+      "explanation": "たい behaves like an い-adjective: たい → たくない.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-05-c1",
+          "text": "行きたいではありません。",
+          "rationale": "Not supported. たい behaves like an い-adjective: たい → たくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-05-c2",
+          "text": "行きませんたい。",
+          "rationale": "Not supported. たい behaves like an い-adjective: たい → たくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-05-c3",
+          "text": "行きたくないです。",
+          "rationale": "Correct. たい behaves like an い-adjective: たい → たくない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-05-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-06",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "grammar"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-grammar"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-grammar-06"
+      ],
+      "prompt": "Which expression is the polite negative of ほしいです?",
+      "evidence": "ほしいです → ほしくないです。",
+      "explanation": "ほしい is an い-adjective, so the negative is ほしくない.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-06-c1",
+          "text": "ほしくないです。",
+          "rationale": "Correct. ほしい is an い-adjective, so the negative is ほしくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-06-c2",
+          "text": "ほしいません。",
+          "rationale": "Not supported. ほしい is an い-adjective, so the negative is ほしくない."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-06-c3",
+          "text": "ほしいではありません。",
+          "rationale": "Not supported. ほしい is an い-adjective, so the negative is ほしくない."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-06-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-07",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-reading-07"
+      ],
+      "prompt": "In the wish list, what does Mika want to do on Saturday?",
+      "evidence": "土曜日に図書館で日本語の本を読みたいです。",
+      "explanation": "The wish list explicitly states reading a Japanese-language book.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-07-c1",
+          "text": "Buy a bag",
+          "rationale": "Not supported. The wish list explicitly states reading a Japanese-language book."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-07-c2",
+          "text": "Read a Japanese book",
+          "rationale": "Correct. The wish list explicitly states reading a Japanese-language book."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-07-c3",
+          "text": "Watch a film",
+          "rationale": "Not supported. The wish list explicitly states reading a Japanese-language book."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-07-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-08",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-reading-08"
+      ],
+      "prompt": "What does Mika want to obtain?",
+      "evidence": "新しいかばんがほしいです。",
+      "explanation": "ほしい identifies the desired object.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-08-c1",
+          "text": "A new bag",
+          "rationale": "Correct. ほしい identifies the desired object."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-08-c2",
+          "text": "A bicycle",
+          "rationale": "Not supported. ほしい identifies the desired object."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-08-c3",
+          "text": "A camera",
+          "rationale": "Not supported. ほしい identifies the desired object."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-08-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-09",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-reading-09"
+      ],
+      "prompt": "Why will Mika go to the station-front shop?",
+      "evidence": "駅の前の店にかばんを買いに行きます。",
+      "explanation": "買いに行きます gives the purpose of the trip.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-09-c1",
+          "text": "To meet a teacher",
+          "rationale": "Not supported. 買いに行きます gives the purpose of the trip."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-09-c2",
+          "text": "To read a book",
+          "rationale": "Not supported. 買いに行きます gives the purpose of the trip."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-09-c3",
+          "text": "To buy a bag",
+          "rationale": "Correct. 買いに行きます gives the purpose of the trip."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-09-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-10",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "reading"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-reading"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-reading-10"
+      ],
+      "prompt": "Does the wish list say Mika has already bought the bag?",
+      "evidence": "新しいかばんがほしいです。駅の前の店にかばんを買いに行きます。",
+      "explanation": "Wanting and planning do not establish a completed purchase.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-10-c1",
+          "text": "Yes, yesterday",
+          "rationale": "Not supported. Wanting and planning do not establish a completed purchase."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-10-c2",
+          "text": "No; it describes a wish and plan",
+          "rationale": "Correct. Wanting and planning do not establish a completed purchase."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-10-c3",
+          "text": "Yes, this morning",
+          "rationale": "Not supported. Wanting and planning do not establish a completed purchase."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-10-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-11",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-listening-11"
+      ],
+      "prompt": "In track A, where does the man want to read?",
+      "evidence": "図書館で日本語の本を読みたいです。",
+      "explanation": "図書館で identifies the location of the desired reading.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-11-c1",
+          "text": "At the library",
+          "rationale": "Correct. 図書館で identifies the location of the desired reading."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-11-c2",
+          "text": "At the station",
+          "rationale": "Not supported. 図書館で identifies the location of the desired reading."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-11-c3",
+          "text": "At home",
+          "rationale": "Not supported. 図書館で identifies the location of the desired reading."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-11-c1"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-12",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-listening-12"
+      ],
+      "prompt": "In track A, what is the Sunday plan?",
+      "evidence": "日曜日は友だちと映画を見に行きます。",
+      "explanation": "日曜日 and 映画を見に行きます identify the Sunday outing.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-12-c1",
+          "text": "To buy shoes",
+          "rationale": "Not supported. 日曜日 and 映画を見に行きます identify the Sunday outing."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-12-c2",
+          "text": "To see a movie with a friend",
+          "rationale": "Correct. 日曜日 and 映画を見に行きます identify the Sunday outing."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-12-c3",
+          "text": "To study at school",
+          "rationale": "Not supported. 日曜日 and 映画を見に行きます identify the Sunday outing."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-12-c2"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-13",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-listening-13"
+      ],
+      "prompt": "In track B, whose birthday is mentioned?",
+      "evidence": "妹の誕生日ですから、新しいかばんがほしいです。",
+      "explanation": "妹 means the speaker's younger sister.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-13-c1",
+          "text": "Tanaka's mother",
+          "rationale": "Not supported. 妹 means the speaker's younger sister."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-13-c2",
+          "text": "Tanaka's friend",
+          "rationale": "Not supported. 妹 means the speaker's younger sister."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-13-c3",
+          "text": "Tanaka's younger sister",
+          "rationale": "Correct. 妹 means the speaker's younger sister."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-13-c3"
+      }
+    },
+    {
+      "id": "ex-n5-m07-c02-chk-v1-14",
+      "version": 1,
+      "status": "drafted",
+      "type": "single-choice",
+      "skills": [
+        "listening"
+      ],
+      "objectiveIds": [
+        "n5-m07-c02-chk-listening"
+      ],
+      "knowledgeItemIds": [
+        "n5-m07-c02-chk-listening-14"
+      ],
+      "prompt": "In track B, which bag color does Tanaka prefer?",
+      "evidence": "青いかばんがいいです。",
+      "explanation": "青い is blue.",
+      "choices": [
+        {
+          "id": "ex-n5-m07-c02-chk-v1-14-c1",
+          "text": "Blue",
+          "rationale": "Correct. 青い is blue."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-14-c2",
+          "text": "Red",
+          "rationale": "Not supported. 青い is blue."
+        },
+        {
+          "id": "ex-n5-m07-c02-chk-v1-14-c3",
+          "text": "White",
+          "rationale": "Not supported. 青い is blue."
+        }
+      ],
+      "answerKey": {
+        "choiceId": "ex-n5-m07-c02-chk-v1-14-c1"
+      }
+    }
+  ]
+}
